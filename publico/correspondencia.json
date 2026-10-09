@@ -1,0 +1,930 @@
+{
+  "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados; no recepción de traducción ni producción",
+  "biblioteca_sha256": "accd5f18f7af24c2f26163ac61a8bf3ad2bfac580c11893f7b7ddc69fd631e89",
+  "conforme": true,
+  "consulta_proveedor": false,
+  "conversion_general_recibida": false,
+  "documentos": [
+    {
+      "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+      "cobertura_bytes": 203,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-01",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/SUMMARY.md",
+        "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f"
+      },
+      "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 203,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000006",
+          "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
+          "titulo": "Biblioteca documental del SV",
+          "ultima_linea": 6
+        }
+      ]
+    },
+    {
+      "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+      "cobertura_bytes": 1847,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-02",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/indice.md",
+        "sha256": "2c7c1848fd0c2ac1c18531b0e1fbdaf69c0a3777d6d04ba4925bf16f800a1a2e"
+      },
+      "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:2c7c1848fd0c2ac1c18531b0e1fbdaf69c0a3777d6d04ba4925bf16f800a1a2e",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 363,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000006",
+          "sha256": "4731fd49e07f578bdb9fd91c82d045b05e4099c4d8cc6239b338f858ec58532c",
+          "titulo": "Biblioteca documental del SV",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 1044,
+          "inicio_byte": 363,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000013",
+          "sha256": "2a3e10577a23a7886959dad2e4749b4cfc01785b82a4bc8ec008f83d24a94bd3",
+          "titulo": "Libros disponibles",
+          "ultima_linea": 13
+        },
+        {
+          "fin_byte_exclusivo": 1847,
+          "inicio_byte": 1044,
+          "primera_linea": 14,
+          "seccion": "MD-L000014-L000022",
+          "sha256": "dda4a1a5ca80a410457bde75ccb3a9f967cf9b65dcfa4f7df1bb9e28dd413d98",
+          "titulo": "Cómo orientarse",
+          "ultima_linea": 22
+        }
+      ]
+    },
+    {
+      "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+      "cobertura_bytes": 2543,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-03",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/organizacion.md",
+        "sha256": "f26a8e7b5e5cb5df7fd51bf1841b471ad15d06f95f9ba8b90eb0365baf256d98"
+      },
+      "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:f26a8e7b5e5cb5df7fd51bf1841b471ad15d06f95f9ba8b90eb0365baf256d98",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 27,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "d0d02a4168af03c370a06a082ea9b654a9b39adccae3e286b672375a1c0fa541",
+          "titulo": "Organización y alcance",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 1222,
+          "inicio_byte": 27,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000023",
+          "sha256": "5562db84c1da578f85d31d76bad24b3e81a31861bae45d8aac79ef24c698bb97",
+          "titulo": "Relación documental",
+          "ultima_linea": 23
+        },
+        {
+          "fin_byte_exclusivo": 1941,
+          "inicio_byte": 1222,
+          "primera_linea": 24,
+          "seccion": "MD-L000024-L000033",
+          "sha256": "04976acd8cb2f48f510782a2e8e1f1be7f19b466042e64469c533f8323428f81",
+          "titulo": "Modalidades de suministro",
+          "ultima_linea": 33
+        },
+        {
+          "fin_byte_exclusivo": 2543,
+          "inicio_byte": 1941,
+          "primera_linea": 34,
+          "seccion": "MD-L000034-L000040",
+          "sha256": "87445ef804258c0484a81556e121f8b267cd4ad6eaa390207a71ef751484e5cd",
+          "titulo": "Colecciones y fuentes",
+          "ultima_linea": 40
+        }
+      ]
+    },
+    {
+      "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+      "cobertura_bytes": 2900,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-04",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/consulta.md",
+        "sha256": "8145d085693e8d2c3b040e69e0e42314c1b570ac4693f95624133e97678a6d44"
+      },
+      "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:8145d085693e8d2c3b040e69e0e42314c1b570ac4693f95624133e97678a6d44",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 33,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "8207e57c45e14fba0401e54c4523d9c1e33ded27e191d3d502ced76b95b27c6b",
+          "titulo": "Consulta, fuentes y versiones",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 782,
+          "inicio_byte": 33,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000016",
+          "sha256": "ab231c55accea4d7ff3b242afd6027716caee2d9ea7dce9edcead86a56c52296",
+          "titulo": "Índice, capítulo y sección",
+          "ultima_linea": 16
+        },
+        {
+          "fin_byte_exclusivo": 1426,
+          "inicio_byte": 782,
+          "primera_linea": 17,
+          "seccion": "MD-L000017-L000022",
+          "sha256": "715b57ed80674bb7144756d6bbb64d4aa314df2ea5adc30c26cb1a89207d21d2",
+          "titulo": "Correspondencia con el original",
+          "ultima_linea": 22
+        },
+        {
+          "fin_byte_exclusivo": 1744,
+          "inicio_byte": 1426,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000026",
+          "sha256": "cf9ef65dbd9c5f790ca3b0c8be3e555920c5fda4be7373708c19294e72e04083",
+          "titulo": "Versiones e idiomas",
+          "ultima_linea": 26
+        },
+        {
+          "fin_byte_exclusivo": 2052,
+          "inicio_byte": 1744,
+          "primera_linea": 27,
+          "seccion": "MD-L000027-L000030",
+          "sha256": "51734705ac8cf4138d09c9971b77f8c1e99486576bd03a285bdefe160909cdfd",
+          "titulo": "Consulta por modelos de IA",
+          "ultima_linea": 30
+        },
+        {
+          "fin_byte_exclusivo": 2900,
+          "inicio_byte": 2052,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000039",
+          "sha256": "3f40359a720aa29ddc502835e6de36cf74a4bece96edc2cec6d5e9fd9e99b372",
+          "titulo": "Límites y anexos",
+          "ultima_linea": 39
+        }
+      ]
+    },
+    {
+      "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+      "cobertura_bytes": 1434,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-05",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/licencias.md",
+        "sha256": "9f2b180541641d6da0029ebfff51e6d032d9771acefdd71ce35d69f293c40641"
+      },
+      "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:9f2b180541641d6da0029ebfff51e6d032d9771acefdd71ce35d69f293c40641",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 27,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "976e1e3e25a4c9441427be8b52bf0bdf09af3af7f4826b193d983d9dac6eb9bd",
+          "titulo": "Licencias y atribución",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 242,
+          "inicio_byte": 27,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000006",
+          "sha256": "45f0ed2ae61ed3a69b8f4cee6a09448c88f473747eebb9150c61a484e398dd08",
+          "titulo": "Documentación propia",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 552,
+          "inicio_byte": 242,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000010",
+          "sha256": "477c9bd76d3bdfd57d206590b7ccc7f855edb2c1f0d6b31c9fc0c84a0e4dc23d",
+          "titulo": "Libro de ciberseguridad",
+          "ultima_linea": 10
+        },
+        {
+          "fin_byte_exclusivo": 1434,
+          "inicio_byte": 552,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000019",
+          "sha256": "de813a15554ca26c2a63cef6f1d5875c92d21722345a80f817d88e622266ac92",
+          "titulo": "Presentación",
+          "ultima_linea": 19
+        }
+      ]
+    },
+    {
+      "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+      "cobertura_bytes": 729,
+      "correspondencia": "identidad_literal",
+      "documento": "MANUAL_INDICE",
+      "identificador_editorial_r0": null,
+      "libro": "manual",
+      "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+      "original": {
+        "ruta": "libros/manual/src/SUMMARY.md",
+        "sha256": "83ec7ac70de9413211508ff25556aabe8b1f461afa614e4587ad67c1663f04b8"
+      },
+      "procedencia": "https://github.com/juantoniolloretegea/SV-motor/blob/61613607a0ada4e52a5f192e139a334caa9a9e16/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/mdbook/0.1.0/manual/src/SUMMARY.md",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 729,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000017",
+          "sha256": "83ec7ac70de9413211508ff25556aabe8b1f461afa614e4587ad67c1663f04b8",
+          "titulo": "Índice del manual SVP",
+          "ultima_linea": 17
+        }
+      ]
+    },
+    {
+      "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+      "cobertura_bytes": 2191,
+      "correspondencia": "identidad_literal",
+      "documento": "MANUAL_PRESENTACION",
+      "identificador_editorial_r0": null,
+      "libro": "manual",
+      "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+      "original": {
+        "ruta": "libros/manual/src/presentacion.md",
+        "sha256": "223f37b63c8c322cc4ae49d747e55d5e845b5a88793481ea7b4ed105c327f509"
+      },
+      "procedencia": "https://github.com/juantoniolloretegea/SV-motor/blob/61613607a0ada4e52a5f192e139a334caa9a9e16/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/mdbook/0.1.0/manual/src/presentacion.md",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 322,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "6bc9a3a39cf83d3799bd4ad7501e3619154550828b3af57799903a24d6385a3d",
+          "titulo": "Lenguaje SV: edición documental de prueba",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 816,
+          "inicio_byte": 322,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000010",
+          "sha256": "ca285ef15768ed5c7cba476d35592419953b3643261f10a5b40aeadd122bb433",
+          "titulo": "Estado del contenido",
+          "ultima_linea": 10
+        },
+        {
+          "fin_byte_exclusivo": 1113,
+          "inicio_byte": 816,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000014",
+          "sha256": "c7ed88dda65420854982606e5c07e84975882cf736c3054f85f31263eb669f31",
+          "titulo": "Autoridad documental",
+          "ultima_linea": 14
+        },
+        {
+          "fin_byte_exclusivo": 1477,
+          "inicio_byte": 1113,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000018",
+          "sha256": "05888460c5513e43f72eab6dd16d72f3e9dfb01847399c4beb4dc4635017375a",
+          "titulo": "Consulta para personas y modelos",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 2191,
+          "inicio_byte": 1477,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000024",
+          "sha256": "3c83ed6d219020fd9604c5e34cf5df74deb51cb0336bd36beb9c706063e887db",
+          "titulo": "Fuentes",
+          "ultima_linea": 24
+        }
+      ]
+    },
+    {
+      "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+      "cobertura_bytes": 3332,
+      "correspondencia": "identidad_literal",
+      "documento": "MANUAL_CONSTRUCTOR",
+      "identificador_editorial_r0": null,
+      "libro": "manual",
+      "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+      "original": {
+        "ruta": "libros/manual/src/constructor.md",
+        "sha256": "305e9a9763a026c47a0f92414bd8adf48018aa1025fcbf8edfab2ed9b4e72111"
+      },
+      "procedencia": "Antecedente fijado: https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/CONSTRUCTOR_DEL_MANUAL_DEL_LENGUAJE_SVP.md; revisión documental: f97173e07a9dfb8385ed1268d11de422b291507d",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 43,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "fb69d5abf1c917156714815eb24c92c953a4ded3d3ba5640ca1474133ee9743e",
+          "titulo": "Constructor del manual del lenguaje SVP",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 365,
+          "inicio_byte": 43,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000008",
+          "sha256": "fa6da5f429ee6197d64a9ea6366a51b4ad27cb83626d334826ffea0dea9de12b",
+          "titulo": "1. Naturaleza",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 704,
+          "inicio_byte": 365,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000017",
+          "sha256": "39d0deb7bacf3dbea2bdb1bc66a02e7dd735a040c6273214d3bd22c79371c25c",
+          "titulo": "2. Regla general",
+          "ultima_linea": 17
+        },
+        {
+          "fin_byte_exclusivo": 826,
+          "inicio_byte": 704,
+          "primera_linea": 18,
+          "seccion": "MD-L000018-L000021",
+          "sha256": "531e8fc5201a0ff0999c4d3ae62894b0261dc3bbefeb7a109c93fbcf28d39e93",
+          "titulo": "3. Unidades de cierre recomendadas",
+          "ultima_linea": 21
+        },
+        {
+          "fin_byte_exclusivo": 949,
+          "inicio_byte": 826,
+          "primera_linea": 22,
+          "seccion": "MD-L000022-L000026",
+          "sha256": "8726626b7444aebbee87b236b68cd13f325e60f5d5196eff46a28edabf90a09d",
+          "titulo": "Tramo 0 — Estatuto del lenguaje",
+          "ultima_linea": 26
+        },
+        {
+          "fin_byte_exclusivo": 1109,
+          "inicio_byte": 949,
+          "primera_linea": 27,
+          "seccion": "MD-L000027-L000033",
+          "sha256": "a5182e25d47d4b125a2d3c8bf066e33e2ac1ca4df62fa286810992f4c9cf8d27",
+          "titulo": "Tramo 1 — Léxico mínimo y convenciones superficiales",
+          "ultima_linea": 33
+        },
+        {
+          "fin_byte_exclusivo": 1201,
+          "inicio_byte": 1109,
+          "primera_linea": 34,
+          "seccion": "MD-L000034-L000040",
+          "sha256": "d8b78fdbf5bdf0ca3a061bdc1b6eed138a387d79afe9c5e0cfe50edbbe607581",
+          "titulo": "Tramo 2 — Niveles N0–N4",
+          "ultima_linea": 40
+        },
+        {
+          "fin_byte_exclusivo": 1323,
+          "inicio_byte": 1201,
+          "primera_linea": 41,
+          "seccion": "MD-L000041-L000047",
+          "sha256": "9f5de1369216eaa19287d593134366752452ed5dd91e515516a4201629948704",
+          "titulo": "Tramo 3 — Célula, evaluación y clasificación",
+          "ultima_linea": 47
+        },
+        {
+          "fin_byte_exclusivo": 1437,
+          "inicio_byte": 1323,
+          "primera_linea": 48,
+          "seccion": "MD-L000048-L000053",
+          "sha256": "4f38f7de5fb327b53092f098cd813a8a05372026a7615826f0e7bada478c3293",
+          "titulo": "Tramo 4 — Composición y supervisión",
+          "ultima_linea": 53
+        },
+        {
+          "fin_byte_exclusivo": 1540,
+          "inicio_byte": 1437,
+          "primera_linea": 54,
+          "seccion": "MD-L000054-L000059",
+          "sha256": "eabb864f79c69665cf313da8447e25cc73241655f6bdf6eaf0b8c7262c887ebb",
+          "titulo": "Tramo 5 — Resolución y régimen de la U",
+          "ultima_linea": 59
+        },
+        {
+          "fin_byte_exclusivo": 1667,
+          "inicio_byte": 1540,
+          "primera_linea": 60,
+          "seccion": "MD-L000060-L000065",
+          "sha256": "35298db49972ce0d44be38c8613d14fc648065ae786302c8f6de9c6abc175b40",
+          "titulo": "Tramo 6 — Trayectoria, frame y datos de transición",
+          "ultima_linea": 65
+        },
+        {
+          "fin_byte_exclusivo": 1763,
+          "inicio_byte": 1667,
+          "primera_linea": 66,
+          "seccion": "MD-L000066-L000070",
+          "sha256": "e8ea04c05f0fd565181e20815d982a9c6f5d693a3209c13c7659c5e58768fd9e",
+          "titulo": "Tramo 7 — Consulta y uso",
+          "ultima_linea": 70
+        },
+        {
+          "fin_byte_exclusivo": 1912,
+          "inicio_byte": 1763,
+          "primera_linea": 71,
+          "seccion": "MD-L000071-L000076",
+          "sha256": "da85075a12a352d3af20130cb751f96ef64659c48ad394b1c0a89645249af5e6",
+          "titulo": "Tramo 8 — Diagnósticos, errores y zona prohibida",
+          "ultima_linea": 76
+        },
+        {
+          "fin_byte_exclusivo": 2047,
+          "inicio_byte": 1912,
+          "primera_linea": 77,
+          "seccion": "MD-L000077-L000084",
+          "sha256": "ef08fbc27d1cf0553e1f823b62155bdb9a46f65316acce1fab3208db1ecaa598",
+          "titulo": "Tramo 9 — CLI, Playground, serialización y backend",
+          "ultima_linea": 84
+        },
+        {
+          "fin_byte_exclusivo": 2269,
+          "inicio_byte": 2047,
+          "primera_linea": 85,
+          "seccion": "MD-L000085-L000091",
+          "sha256": "736a9ededa4ff37072e6470d2b53a7244940f06ae0ec0a36f3b2af652fe68d41",
+          "titulo": "Tramo 10 — Compatibilidad interlenguajes y adopción",
+          "ultima_linea": 91
+        },
+        {
+          "fin_byte_exclusivo": 2556,
+          "inicio_byte": 2269,
+          "primera_linea": 92,
+          "seccion": "MD-L000092-L000108",
+          "sha256": "6ba9621e9b9ccb5454609525ec12913ff06315d76256014f71cc027d654f3eca",
+          "titulo": "4. Ficha obligatoria por tramo",
+          "ultima_linea": 108
+        },
+        {
+          "fin_byte_exclusivo": 2939,
+          "inicio_byte": 2556,
+          "primera_linea": 109,
+          "seccion": "MD-L000109-L000118",
+          "sha256": "5d75cfb93f23d51c77a2930e7c399dd943d92dfaa33285dec9c2ec9347f22f5a",
+          "titulo": "5. Criterio de cierre",
+          "ultima_linea": 118
+        },
+        {
+          "fin_byte_exclusivo": 3176,
+          "inicio_byte": 2939,
+          "primera_linea": 119,
+          "seccion": "MD-L000119-L000122",
+          "sha256": "33501ff7743bf13b435d97e1c1fd3492a96196509ab8b19745662f9ab6dea63e",
+          "titulo": "6. Relación con la compatibilidad interlenguajes",
+          "ultima_linea": 122
+        },
+        {
+          "fin_byte_exclusivo": 3332,
+          "inicio_byte": 3176,
+          "primera_linea": 123,
+          "seccion": "MD-L000123-L000125",
+          "sha256": "6498df533b7838746af249d44035bb4a7f98ab168d7168968bb2f9c4ca2d5a2a",
+          "titulo": "7. Regla de control",
+          "ultima_linea": 125
+        }
+      ]
+    },
+    {
+      "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+      "cobertura_bytes": 847,
+      "correspondencia": "identidad_literal",
+      "documento": "MANUAL_TRAMO10",
+      "identificador_editorial_r0": null,
+      "libro": "manual",
+      "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+      "original": {
+        "ruta": "libros/manual/src/tramo-10.md",
+        "sha256": "f872a6734c694e5763ea275f9cde3620d27bc17fd021604f8fce2912b40f2ea8"
+      },
+      "procedencia": "Antecedente fijado: https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/TRAMO_10_COMPATIBILIDAD_INTERLENGUAJES_Y_ADOPCION_DEL_LENGUAJE_SV.md; revisión documental: f97173e07a9dfb8385ed1268d11de422b291507d",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 74,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "383eb79b79083ef56651f7816fb0996440de8e5cfe13e0f5778e2155685106df",
+          "titulo": "Tramo 10 — Compatibilidad interlenguajes y adopción del Lenguaje SV",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 267,
+          "inicio_byte": 74,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000006",
+          "sha256": "ca55e71e686a3ba99d2e699eaf9ec11fc41bc38b45716eacade982c4bb22ad11",
+          "titulo": "1. Objeto",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 467,
+          "inicio_byte": 267,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000013",
+          "sha256": "93aed1a80710edfe0aef6b0c872e0d33cc592a7dfee9dcf5efe918419980d392",
+          "titulo": "2. Dependencias",
+          "ultima_linea": 13
+        },
+        {
+          "fin_byte_exclusivo": 667,
+          "inicio_byte": 467,
+          "primera_linea": 14,
+          "seccion": "MD-L000014-L000021",
+          "sha256": "a6c33d6773c6edbbed2c84dd0bce9dc29a36650be2bda861cd5d20f19c72291e",
+          "titulo": "3. Qué deberá fijar",
+          "ultima_linea": 21
+        },
+        {
+          "fin_byte_exclusivo": 808,
+          "inicio_byte": 667,
+          "primera_linea": 22,
+          "seccion": "MD-L000022-L000025",
+          "sha256": "80f5bf187715b384d013ef4b575b108f084bb168026368067e179914a6116700",
+          "titulo": "4. Qué no fija todavía",
+          "ultima_linea": 25
+        },
+        {
+          "fin_byte_exclusivo": 847,
+          "inicio_byte": 808,
+          "primera_linea": 26,
+          "seccion": "MD-L000026-L000028",
+          "sha256": "1ea7f4be94ef05afbe93a2d55709ea93ec4030b88430b14486bf8106faaf1be4",
+          "titulo": "5. Estado",
+          "ultima_linea": 28
+        }
+      ]
+    },
+    {
+      "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+      "cobertura_bytes": 1021,
+      "correspondencia": "identidad_literal",
+      "documento": "CYB-00",
+      "identificador_editorial_r0": null,
+      "libro": "ciberseguridad",
+      "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+      "original": {
+        "ruta": "libros/ciberseguridad/src/SUMMARY.md",
+        "sha256": "768e8bb871987c3095757fd7649ceea58b59437c99ffbf1059a6ad2a505a3ab4"
+      },
+      "procedencia": "Antecedente fijado: urn:sv:documento:sha256:768e8bb871987c3095757fd7649ceea58b59437c99ffbf1059a6ad2a505a3ab4; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 1021,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000010",
+          "sha256": "768e8bb871987c3095757fd7649ceea58b59437c99ffbf1059a6ad2a505a3ab4",
+          "titulo": "Libro documental experimental de ciberseguridad",
+          "ultima_linea": 10
+        }
+      ]
+    },
+    {
+      "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+      "cobertura_bytes": 7936,
+      "correspondencia": "identidad_literal",
+      "documento": "CYB-01",
+      "identificador_editorial_r0": null,
+      "libro": "ciberseguridad",
+      "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+      "original": {
+        "ruta": "libros/ciberseguridad/src/01-evidencia-y-limites.md",
+        "sha256": "6edff64be4812581841cb78ea55191958a48ce0060526a7e8b63019b5bf604ff"
+      },
+      "procedencia": "Antecedente fijado: urn:sv:documento:sha256:6edff64be4812581841cb78ea55191958a48ce0060526a7e8b63019b5bf604ff; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 1105,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000006",
+          "sha256": "4a654f0737830eb00f6dfcfb4a27ec74391c85219c6df8e2689dae353e7a1817",
+          "titulo": "Evidencia, corrección y límites del SV",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 3019,
+          "inicio_byte": 1105,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000018",
+          "sha256": "c048b6f9e27c04eb878ca144e1871b5ca5c58672e72807036de201d8138a62d8",
+          "titulo": "Integridad del consejo: adenda posterior",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 3726,
+          "inicio_byte": 3019,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000024",
+          "sha256": "cc0f185f58259057694525ea56bb6749e522f5388caf7bab2df95e2500bbc39b",
+          "titulo": "Universo y arquitectura",
+          "ultima_linea": 24
+        },
+        {
+          "fin_byte_exclusivo": 4587,
+          "inicio_byte": 3726,
+          "primera_linea": 25,
+          "seccion": "MD-L000025-L000030",
+          "sha256": "67e445045c43e73ea4939298481ba1b4082c088280b0468302d70487414fe2c0",
+          "titulo": "Episodio y referencia",
+          "ultima_linea": 30
+        },
+        {
+          "fin_byte_exclusivo": 5378,
+          "inicio_byte": 4587,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000036",
+          "sha256": "887929ee894e0dfca6e81e114ba837d0118ddafc1d7d4dd44afee18f380e4062",
+          "titulo": "Identidad, procedencia y autoridad",
+          "ultima_linea": 36
+        },
+        {
+          "fin_byte_exclusivo": 6304,
+          "inicio_byte": 5378,
+          "primera_linea": 37,
+          "seccion": "MD-L000037-L000044",
+          "sha256": "aeecea424a38b15a8f8581b64fd83b1e8cdc989a889c4325f904baf3a5fa9139",
+          "titulo": "Evidencia y cobertura",
+          "ultima_linea": 44
+        },
+        {
+          "fin_byte_exclusivo": 6967,
+          "inicio_byte": 6304,
+          "primera_linea": 45,
+          "seccion": "MD-L000045-L000050",
+          "sha256": "912b2e622788912fd1989064a48d60b2e6adbb3559af041db5cb07f80eb27693",
+          "titulo": "Incertidumbre y fallo técnico",
+          "ultima_linea": 50
+        },
+        {
+          "fin_byte_exclusivo": 7936,
+          "inicio_byte": 6967,
+          "primera_linea": 51,
+          "seccion": "MD-L000051-L000057",
+          "sha256": "a65aab28ed26b27819685982f545ffeb866441115d27b02ba7375e6f702bd601",
+          "titulo": "Alcance de la evaluación",
+          "ultima_linea": 57
+        }
+      ]
+    },
+    {
+      "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+      "cobertura_bytes": 6176,
+      "correspondencia": "identidad_literal",
+      "documento": "CYB-02",
+      "identificador_editorial_r0": null,
+      "libro": "ciberseguridad",
+      "licencia": "CC BY-NC-SA 4.0 del material de INCIBE; síntesis identificada y atribución conservada",
+      "original": {
+        "ruta": "libros/ciberseguridad/src/02-incibe-ia-frontera.md",
+        "sha256": "867e4486154a6e0629404adeaf3bd0bbfb12d4bd8d1c4b320e405edf3c1c1a70"
+      },
+      "procedencia": "Antecedente fijado: urn:sv:documento:sha256:867e4486154a6e0629404adeaf3bd0bbfb12d4bd8d1c4b320e405edf3c1c1a70; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 660,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000006",
+          "sha256": "37f42aebf9fc28a1baa17bd7a29ab3f0f7ab24b169cc437a4b3b66b7103f2f95",
+          "titulo": "Seguridad ante modelos de IA de frontera",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 1526,
+          "inicio_byte": 660,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000012",
+          "sha256": "4640d40c2f9d4ee14206b35ab8184cafdef076e62f1a335864e892a0d71eb239",
+          "titulo": "Riesgo y encadenamiento",
+          "ultima_linea": 12
+        },
+        {
+          "fin_byte_exclusivo": 2347,
+          "inicio_byte": 1526,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000018",
+          "sha256": "ad1a42ae0541591376a373d4aebf9d5c75e4633005e9261e2527b5350626ccad",
+          "titulo": "Identidades y accesos",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 3491,
+          "inicio_byte": 2347,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000024",
+          "sha256": "6b6ad0d51842947dd972bbee576e9f60cf344320cac222521318eacb08c5a619",
+          "titulo": "Vulnerabilidades y desarrollo",
+          "ultima_linea": 24
+        },
+        {
+          "fin_byte_exclusivo": 4560,
+          "inicio_byte": 3491,
+          "primera_linea": 25,
+          "seccion": "MD-L000025-L000032",
+          "sha256": "769a2538a8e439feef8e2bfbfdc5195f591a805744420088304b8f1177f241d7",
+          "titulo": "Detección y continuidad",
+          "ultima_linea": 32
+        },
+        {
+          "fin_byte_exclusivo": 5479,
+          "inicio_byte": 4560,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000038",
+          "sha256": "b483eb240bf45b59f7165568c0badc7ca954326e5800e4bdde2d4200d2fc10c9",
+          "titulo": "Uso de IA y fuentes no fiables",
+          "ultima_linea": 38
+        },
+        {
+          "fin_byte_exclusivo": 6176,
+          "inicio_byte": 5479,
+          "primera_linea": 39,
+          "seccion": "MD-L000039-L000043",
+          "sha256": "f08bb57ef0ecb1c6b12c265ba6425f94f93d24bf9fa59503d7b84702f92b46c2",
+          "titulo": "Gobernanza y licenciamiento",
+          "ultima_linea": 43
+        }
+      ]
+    },
+    {
+      "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+      "cobertura_bytes": 7875,
+      "correspondencia": "identidad_literal",
+      "documento": "CYB-03",
+      "identificador_editorial_r0": null,
+      "libro": "ciberseguridad",
+      "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+      "original": {
+        "ruta": "libros/ciberseguridad/src/03-nis2-texto-original.md",
+        "sha256": "c9a0b5a396cc91402a257303e71eeb86fdad9d08b809b1eaa0b13f5250d901a5"
+      },
+      "procedencia": "Antecedente fijado: urn:sv:documento:sha256:c9a0b5a396cc91402a257303e71eeb86fdad9d08b809b1eaa0b13f5250d901a5; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 707,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000006",
+          "sha256": "a0dd0252d7c3b84c152328d7a461844571bb6ca0c3a87537786a4fa08ea43943",
+          "titulo": "Gobernanza y gestión del riesgo en el texto original NIS2",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 1499,
+          "inicio_byte": 707,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000012",
+          "sha256": "b25010eea933eebb7730521b5c97214fcb73e69b5b36c8a51eeae87ff7500352",
+          "titulo": "Ámbito y categorías",
+          "ultima_linea": 12
+        },
+        {
+          "fin_byte_exclusivo": 2346,
+          "inicio_byte": 1499,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000018",
+          "sha256": "bc4044bdf92e503a61ee770efa4070cbc1ad2e0b6797e1df4ca79da1244ed223",
+          "titulo": "Gobernanza",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 3864,
+          "inicio_byte": 2346,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000026",
+          "sha256": "c60b95fb652f77f2ebbbff4d774a6e48bfb352ad3d3bedac0e70344866eb5c97",
+          "titulo": "Proporcionalidad y todos los peligros",
+          "ultima_linea": 26
+        },
+        {
+          "fin_byte_exclusivo": 4697,
+          "inicio_byte": 3864,
+          "primera_linea": 27,
+          "seccion": "MD-L000027-L000032",
+          "sha256": "a54260c3f78c00bb832f225cdb77015863637558ac170e3192db18f81d5a9f5f",
+          "titulo": "Incidente significativo",
+          "ultima_linea": 32
+        },
+        {
+          "fin_byte_exclusivo": 6475,
+          "inicio_byte": 4697,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000044",
+          "sha256": "8765019a5881cc1e368435e5037a071e06372937a6bcc13e637632a1dd2e9d6a",
+          "titulo": "Secuencia de notificación del texto aportado",
+          "ultima_linea": 44
+        },
+        {
+          "fin_byte_exclusivo": 7875,
+          "inicio_byte": 6475,
+          "primera_linea": 45,
+          "seccion": "MD-L000045-L000053",
+          "sha256": "40f3aff6a42b41cf43ace1ae70d9e3c17d63df73290be77760a38899e7c1e6c1",
+          "titulo": "Límites de interpretación y fuentes",
+          "ultima_linea": 53
+        }
+      ]
+    },
+    {
+      "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+      "cobertura_bytes": 2639,
+      "correspondencia": "identidad_literal",
+      "documento": "CYB-04",
+      "identificador_editorial_r0": null,
+      "libro": "ciberseguridad",
+      "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+      "original": {
+        "ruta": "libros/ciberseguridad/src/04-autoria-derechos-y-fuentes.md",
+        "sha256": "223220ad4ccec7d4d45e1c75bf76df158ee630bc68268ace15d5d147531ac5d1"
+      },
+      "procedencia": "Antecedente fijado: urn:sv:documento:sha256:223220ad4ccec7d4d45e1c75bf76df158ee630bc68268ace15d5d147531ac5d1; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 72,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "03c90d3fbbfb210b5512620081bf7cbfe8ed373a3c5b26c1e3f6c1f4981a19b7",
+          "titulo": "Autoría, derechos y fuentes",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 711,
+          "inicio_byte": 72,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000010",
+          "sha256": "512349a36652a772ebd69661c51305cfe5dbc463aa83c64413f2f3f9f27a6f61",
+          "titulo": "Documentación propia",
+          "ultima_linea": 10
+        },
+        {
+          "fin_byte_exclusivo": 1287,
+          "inicio_byte": 711,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000016",
+          "sha256": "625da2485951409d983ac35290325a41f5ea4893086887d9f928e417b6b4c360",
+          "titulo": "Material de INCIBE",
+          "ultima_linea": 16
+        },
+        {
+          "fin_byte_exclusivo": 1752,
+          "inicio_byte": 1287,
+          "primera_linea": 17,
+          "seccion": "MD-L000017-L000022",
+          "sha256": "59a321d12f137e9f569b7ca27a7eb044bcb6856952528f3d688f75e97908085f",
+          "titulo": "Texto europeo y demás fuentes",
+          "ultima_linea": 22
+        },
+        {
+          "fin_byte_exclusivo": 2639,
+          "inicio_byte": 1752,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000029",
+          "sha256": "624cfebd93e63954cd636695eea1ec2cd0f9c381ee9c2fec8278e03b017bda5b",
+          "titulo": "Generador y recursos de presentación",
+          "ultima_linea": 29
+        }
+      ]
+    }
+  ],
+  "edicion": "biblioteca-sv-publicable-v1-20261009",
+  "navegacion_autonoma_modelo": false,
+  "politica_sha256": "94a81fb757ecf7a235441e297954d57e8b128d3cb2be54f71d51d2dbdccb3511",
+  "version": 1
+}

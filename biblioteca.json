@@ -1,0 +1,250 @@
+{
+  "version": 1,
+  "edicion": "biblioteca-sv-publicable-v1-20261009",
+  "estado": "preparacion_local",
+  "libros": [
+    {
+      "id": "guia",
+      "titulo": "Biblioteca documental del SV",
+      "raiz": "libros/guia/src",
+      "plan": {
+        "sha256": "ef071d59896a0df9f9477ade113bc3b96301ad11486990866a4f894a25fa9d7f",
+        "ruta": "libros/guia/plan.json"
+      },
+      "metadatos": [
+        {
+          "documento": "GUIA-01",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
+            "ruta": "libros/guia/src/SUMMARY.md"
+          },
+          "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "GUIA-02",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "2c7c1848fd0c2ac1c18531b0e1fbdaf69c0a3777d6d04ba4925bf16f800a1a2e",
+            "ruta": "libros/guia/src/indice.md"
+          },
+          "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:2c7c1848fd0c2ac1c18531b0e1fbdaf69c0a3777d6d04ba4925bf16f800a1a2e",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "GUIA-03",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "f26a8e7b5e5cb5df7fd51bf1841b471ad15d06f95f9ba8b90eb0365baf256d98",
+            "ruta": "libros/guia/src/organizacion.md"
+          },
+          "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:f26a8e7b5e5cb5df7fd51bf1841b471ad15d06f95f9ba8b90eb0365baf256d98",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "GUIA-04",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "8145d085693e8d2c3b040e69e0e42314c1b570ac4693f95624133e97678a6d44",
+            "ruta": "libros/guia/src/consulta.md"
+          },
+          "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:8145d085693e8d2c3b040e69e0e42314c1b570ac4693f95624133e97678a6d44",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "GUIA-05",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "9f2b180541641d6da0029ebfff51e6d032d9771acefdd71ce35d69f293c40641",
+            "ruta": "libros/guia/src/licencias.md"
+          },
+          "procedencia": "Edición propia biblioteca-sv-publicable-v1-20261009; identidad urn:sv:documento:sha256:9f2b180541641d6da0029ebfff51e6d032d9771acefdd71ce35d69f293c40641",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Guía de organización, procedencia y alcance de la edición; no acredita recepción de producción.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        }
+      ]
+    },
+    {
+      "id": "manual",
+      "titulo": "Manual del Lenguaje SV: documentación conservada",
+      "raiz": "libros/manual/src",
+      "plan": {
+        "ruta": "libros/manual/plan.json",
+        "sha256": "87c6d954b4888b298935013e1c31aa7dd12e73e5ef02b315b3b87e1707579566"
+      },
+      "metadatos": [
+        {
+          "documento": "MANUAL_INDICE",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/SUMMARY.md",
+            "sha256": "83ec7ac70de9413211508ff25556aabe8b1f461afa614e4587ad67c1663f04b8"
+          },
+          "procedencia": "https://github.com/juantoniolloretegea/SV-motor/blob/61613607a0ada4e52a5f192e139a334caa9a9e16/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/mdbook/0.1.0/manual/src/SUMMARY.md",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_PRESENTACION",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/presentacion.md",
+            "sha256": "223f37b63c8c322cc4ae49d747e55d5e845b5a88793481ea7b4ed105c327f509"
+          },
+          "procedencia": "https://github.com/juantoniolloretegea/SV-motor/blob/61613607a0ada4e52a5f192e139a334caa9a9e16/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/mdbook/0.1.0/manual/src/presentacion.md",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_CONSTRUCTOR",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/constructor.md",
+            "sha256": "305e9a9763a026c47a0f92414bd8adf48018aa1025fcbf8edfab2ed9b4e72111"
+          },
+          "procedencia": "Antecedente fijado: https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/CONSTRUCTOR_DEL_MANUAL_DEL_LENGUAJE_SVP.md; revisión documental: f97173e07a9dfb8385ed1268d11de422b291507d",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_TRAMO10",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/tramo-10.md",
+            "sha256": "f872a6734c694e5763ea275f9cde3620d27bc17fd021604f8fce2912b40f2ea8"
+          },
+          "procedencia": "Antecedente fijado: https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/TRAMO_10_COMPATIBILIDAD_INTERLENGUAJES_Y_ADOPCION_DEL_LENGUAJE_SV.md; revisión documental: f97173e07a9dfb8385ed1268d11de422b291507d",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        }
+      ]
+    },
+    {
+      "id": "ciberseguridad",
+      "titulo": "Ciberseguridad: libro documental experimental",
+      "raiz": "libros/ciberseguridad/src",
+      "plan": {
+        "ruta": "libros/ciberseguridad/plan.json",
+        "sha256": "e68dcb4e993d942cdf191027c3337769e064e1ae84ac211009b1302432c83d5a"
+      },
+      "metadatos": [
+        {
+          "documento": "CYB-00",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/ciberseguridad/src/SUMMARY.md",
+            "sha256": "768e8bb871987c3095757fd7649ceea58b59437c99ffbf1059a6ad2a505a3ab4"
+          },
+          "procedencia": "Antecedente fijado: urn:sv:documento:sha256:768e8bb871987c3095757fd7649ceea58b59437c99ffbf1059a6ad2a505a3ab4; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "CYB-01",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/ciberseguridad/src/01-evidencia-y-limites.md",
+            "sha256": "6edff64be4812581841cb78ea55191958a48ce0060526a7e8b63019b5bf604ff"
+          },
+          "procedencia": "Antecedente fijado: urn:sv:documento:sha256:6edff64be4812581841cb78ea55191958a48ce0060526a7e8b63019b5bf604ff; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "CYB-02",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/ciberseguridad/src/02-incibe-ia-frontera.md",
+            "sha256": "867e4486154a6e0629404adeaf3bd0bbfb12d4bd8d1c4b320e405edf3c1c1a70"
+          },
+          "procedencia": "Antecedente fijado: urn:sv:documento:sha256:867e4486154a6e0629404adeaf3bd0bbfb12d4bd8d1c4b320e405edf3c1c1a70; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+          "licencia": "CC BY-NC-SA 4.0 del material de INCIBE; síntesis identificada y atribución conservada",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "CYB-03",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/ciberseguridad/src/03-nis2-texto-original.md",
+            "sha256": "c9a0b5a396cc91402a257303e71eeb86fdad9d08b809b1eaa0b13f5250d901a5"
+          },
+          "procedencia": "Antecedente fijado: urn:sv:documento:sha256:c9a0b5a396cc91402a257303e71eeb86fdad9d08b809b1eaa0b13f5250d901a5; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "CYB-04",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/ciberseguridad/src/04-autoria-derechos-y-fuentes.md",
+            "sha256": "223220ad4ccec7d4d45e1c75bf76df158ee630bc68268ace15d5d147531ac5d1"
+          },
+          "procedencia": "Antecedente fijado: urn:sv:documento:sha256:223220ad4ccec7d4d45e1c75bf76df158ee630bc68268ace15d5d147531ac5d1; revisión documental: 09360f00769fdba1b2000680a3281e7ce86b0284bb049075aa298a3a48903c12",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Síntesis documental experimental; no certifica ejecución operativa ni vigencia jurídica actual.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        }
+      ]
+    }
+  ]
+}

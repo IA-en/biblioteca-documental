@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "biblioteca_sha256": "accd5f18f7af24c2f26163ac61a8bf3ad2bfac580c11893f7b7ddc69fd631e89",
+  "nodo": 1,
+  "finalidad": "verificacion_local",
+  "libros_permitidos": [
+    "guia",
+    "manual",
+    "ciberseguridad"
+  ],
+  "permitir_sinteticos": false,
+  "permitir_restringidos": false
+}

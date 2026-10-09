@@ -1,0 +1,15 @@
+✔ integra el selector editorial y conserva el original (56.9062ms)
+✔ idioma permitido y localizador conservados, consulta arbitraria excluida (0.2415ms)
+✔ idioma no permitido no se inserta en HTML (0.1738ms)
+✔ fuera del dominio, marcador ausente o duplicado: original intacto (0.1203ms)
+✔ Markdown original no se transforma aunque se pida traducción (0.4222ms)
+✔ fallo al componer presentación: conserva la respuesta de origen (0.4278ms)
+✔ HEAD y errores de origen se conservan (0.5158ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 173.4417
