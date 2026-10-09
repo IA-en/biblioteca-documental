@@ -4,9 +4,9 @@ Primera edición documental, **V.1 · 09/10/2026**. Reúne una guía de consulta
 
 | Libro | Fuentes identificadas | Presentación |
 | --- | --- | --- |
-| Guía de la biblioteca | [Índice y organización](libros/guia/src/SUMMARY.md) | `publico/index.html` |
-| Manual del Lenguaje de Computación | [Índice de la edición](libros/manual/src/SUMMARY.md) | `publico/dominios/lenguaje-de-computacion/manual/` |
-| Conocimiento experimental de ciberseguridad | [Índice del libro](libros/ciberseguridad/src/SUMMARY.md) | `publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/` |
+| Guía de la biblioteca | [Índice y organización](libros/guia/src/SUMMARY.md) | [Abrir guía](https://documentos-sv.itvia.online/) |
+| Manual del Lenguaje de Computación | [Índice de la edición](libros/manual/src/SUMMARY.md) | [Abrir manual](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/) |
+| Conocimiento experimental de ciberseguridad | [Índice del libro](libros/ciberseguridad/src/SUMMARY.md) | [Abrir libro](https://documentos-sv.itvia.online/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/) |
 
 Los tramos del manual no recibidos se identifican como pendientes; no se presenta un manual completo. Los nueve originales históricos se conservan literalmente y sus menciones temporales pertenecen a aquellas ediciones. La guía distingue esa procedencia de la publicación actual.
 
@@ -18,9 +18,9 @@ El Árbitro-Director, sus permisos y el suministro documental permanecen en Rust
 
 ## Lectura pública e idiomas
 
-Destino aprobado: **https://documentos-sv.itvia.online/**. La recepción del despliegue y del recorrido de idiomas se documentará después de comprobar el servicio. La matriz editorial es [editorialia.com](https://editorialia.com/), ISSN 2695-6411.
+Biblioteca publicada: **[documentos-sv.itvia.online](https://documentos-sv.itvia.online/)**. Dominio y certificado activos; navegación, selector editorial, traducción inglesa y retorno al original comprobados el 09/10/2026. La matriz editorial es [editorialia.com](https://editorialia.com/), ISSN 2695-6411.
 
-El Worker de la biblioteca incorpora el selector de idiomas de Editorialia, siguiendo el mecanismo existente de ITVIA. El traductor se solicita explícitamente por la persona lectora. El original se conserva como contenido estático; el despliegue debe mantenerlo disponible al agotarse la cuota gratuita del Worker. Consulte [configuración y comprobaciones](verificaciones/PRESENTACION.md).
+El Worker de la biblioteca incorpora el selector de idiomas de Editorialia, siguiendo el mecanismo existente de ITVIA. El traductor se solicita explícitamente por la persona lectora. El original se conserva como contenido estático; el despliegue tiene activada la continuidad estática al agotarse la cuota gratuita del Worker. Se ha comprobado esta configuración, sin agotar deliberadamente la cuota del proveedor. Consulte [configuración y comprobaciones](verificaciones/PRESENTACION.md).
 
 ## Fuentes y conservación
 

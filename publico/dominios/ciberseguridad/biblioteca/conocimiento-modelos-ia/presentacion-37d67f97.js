@@ -18,7 +18,10 @@
     return;
   }
   const idioma = caja.dataset.idioma;
-  if (!idioma) return;
+  if (!idioma) {
+    estado.textContent = 'Original en español. Seleccione un idioma en el selector de la matriz editorial.';
+    return;
+  }
   caja.open = true;
   document.querySelectorAll('a[href]').forEach(a => {
     const u = new URL(a.href, actual);

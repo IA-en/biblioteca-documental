@@ -11,8 +11,8 @@
 | Originales históricos del manual y ciberseguridad | 9 archivos idénticos |
 | Fuentes del manual recuperadas de GitHub | 4 archivos idénticos en la revisión fijada |
 | Base funcional preservada | 17 fuentes y ejecutables anteriores, sin alteración |
-| Navegación local | 14 páginas de contenido leídas; destinos internos y anclas cotejados |
-| Presentación de traducción | 7 comprobaciones automáticas conformes; recepción pública posterior |
+| Navegación local y pública | 14 páginas de contenido leídas; destinos internos y anclas cotejados |
+| Presentación de traducción | 7 comprobaciones automáticas conformes; selector editorial, inglés efectivo y retorno al español recibidos |
 
 La correspondencia exige texto idéntico, cobertura completa y localizadores verificables. No se atribuye equivalencia a una conversión general de PDF, Word o figuras científicas que no haya sido recibida. El código utiliza la biblioteca Rust ya existente; el controlador anterior no se ha reescrito.
 
