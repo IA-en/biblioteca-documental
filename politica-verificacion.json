@@ -1,13 +1,13 @@
 {
-  "version": 1,
-  "biblioteca_sha256": "accd5f18f7af24c2f26163ac61a8bf3ad2bfac580c11893f7b7ddc69fd631e89",
+  "permitir_sinteticos": false,
   "nodo": 1,
-  "finalidad": "verificacion_local",
   "libros_permitidos": [
     "guia",
-    "manual",
-    "ciberseguridad"
+    "normativa",
+    "manual"
   ],
-  "permitir_sinteticos": false,
+  "finalidad": "verificacion_local",
+  "version": 1,
+  "biblioteca_sha256": "f92331cdb0d5affa826a83b67ec62d9611bdc5e7c95d275cea6c233aac7adac1",
   "permitir_restringidos": false
 }

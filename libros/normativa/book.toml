@@ -1,0 +1,22 @@
+[book]
+title = "Normativa, trazabilidad y seguimiento de la IA en el SV"
+language = "es"
+src = "src"
+[build]
+build-dir = "../../publico/normativa/trazabilidad-y-seguimiento-ia"
+create-missing = false
+use-default-preprocessors = false
+[output.html]
+theme = "theme"
+additional-css = ["biblioteca.css"]
+additional-js = ["presentacion.js"]
+mathjax-support = false
+no-section-label = true
+smart-punctuation = false
+git-repository-url = "https://github.com/IA-en/biblioteca-documental"
+[output.html.playground]
+runnable = false
+editable = false
+copy-js = false
+[output.html.search]
+enable = false

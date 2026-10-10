@@ -1,5 +1,5 @@
 {
-  "ciberseguridad": "dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia",
-  "guia": "",
-  "manual": "dominios/lenguaje-de-computacion/manual"
+  "manual": "dominios/lenguaje-de-computacion/manual",
+  "normativa": "normativa/trazabilidad-y-seguimiento-ia",
+  "guia": ""
 }

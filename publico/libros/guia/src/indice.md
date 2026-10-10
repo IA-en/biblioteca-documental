@@ -1,21 +1,23 @@
 # Biblioteca documental del SV
 
-Edición 2026-10-09 · V.1 · Original en español.
+Edición del catálogo: 10 de octubre de 2026 · Original en español.
 
-Documentación organizada para su lectura por personas y para el suministro autorizado a modelos de IA. Cada libro conserva el origen, la versión y las condiciones de sus textos. La matriz editorial es [IA eñ · La Biblia de la IA](https://editorialia.com/), ISSN 2695-6411.
+Libros para comprender los fundamentos y las garantías documentales del Sistema Vectorial SV. La matriz editorial es [IA eñ · La Biblia de la IA](https://editorialia.com/), ISSN 2695-6411.
 
 ## Libros disponibles
 
-| Colección | Contenido de esta edición | Estado documental |
-|---|---|---|
-| [Manual del Lenguaje de Computación SV](dominios/lenguaje-de-computacion/manual/index.html) | Constructor, índice y documento preparatorio de compatibilidad interlenguajes. | Manual en desarrollo; los capítulos sin contenido permanecen señalados. |
-| [Ciberseguridad: evidencia, corrección y límites](dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/index.html) | Síntesis sobre el SV, guía de INCIBE y texto original NIS2, con atribución diferenciada. | Libro experimental; no acredita un sistema de ciberseguridad operativo ni vigencia jurídica actual. |
+| Libro | Contenido y alcance |
+|---|---|
+| [Normativa, trazabilidad y seguimiento de la IA en el SV · V.01](normativa/trazabilidad-y-seguimiento-ia/index.html) | Procedencia, evaluación, derechos y referencias normativas; atención a ciberseguridad y uso sanitario. Marco explicativo, sin declaración de certificación. |
+| [Manual del Lenguaje de Computación SV](dominios/lenguaje-de-computacion/manual/index.html) | Edición disponible del manual, todavía en desarrollo. Los capítulos sin contenido permanecen señalados. |
 
-## Cómo orientarse
+Los principios generales de la anterior lectura «Ciberseguridad: evidencia, corrección y límites» se encuentran ahora en el [capítulo de ciberseguridad](normativa/trazabilidad-y-seguimiento-ia/ciberseguridad.html) del nuevo libro.
 
-Seleccione un libro y utilice su índice de capítulos. El enlace «Biblioteca» de la cabecera permite regresar a esta página. La [guía de consulta](consulta.md) explica las fuentes, las versiones y el alcance de los originales.
+## Consulta
 
-La [organización prevista](organizacion.md) conserva las colecciones de la biblioteca. Sólo los libros disponibles tienen acceso de lectura; una categoría prevista no implica documentación recibida.
+Seleccione un libro y recorra su índice de capítulos. El enlace «Biblioteca» permite regresar a esta portada. Puede consultar también la [organización](organizacion.md), las [fuentes y versiones](consulta.md) y las [licencias](licencias.md).
+
+El selector de idiomas facilita la lectura. El español identificado en cada edición conserva su condición de original.
 
 ---
 

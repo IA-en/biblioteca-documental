@@ -1,0 +1,451 @@
+<!DOCTYPE HTML>
+<html lang="es" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Normativa, trazabilidad y seguimiento de la IA en el SV</title>
+        <meta name="robots" content="noindex">
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="biblioteca-f3251d8f.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-d434d6d9.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <div>
+                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Press <kbd>?</kbd> to show this help</p>
+                <p>Press <kbd>Esc</kbd> to hide this help</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Índice de contenidos">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Mostrar u ocultar el índice" aria-label="Mostrar u ocultar el índice" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Cambiar tema" aria-label="Cambiar tema" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Auto</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                    </div>
+
+                    <h1 class="menu-title">Normativa, trazabilidad y seguimiento de la IA en el SV</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Imprimir este libro" aria-label="Imprimir este libro">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/IA-en/biblioteca-documental" title="Repositorio documental" aria-label="Repositorio documental">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+<details class="sv-language-tools notranslate" translate="no">
+  <summary>Idiomas / Languages</summary>
+  <p id="sv-language-status" role="status" aria-live="polite">Original en español. El selector de la matriz editorial estará disponible cuando responda el servicio de presentación.</p>
+  <!-- SV_SELECTOR_EDITORIAL -->
+  <p><a id="sv-original" href="?">Ver original en español / Spanish original</a></p>
+  <p>La traducción automática facilita la lectura. Contraste términos, fórmulas y sentido con el original.</p>
+  <div id="google_translate_element" class="notranslate" translate="no"></div>
+</details>
+<nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../licencias.html">Licencias</a><p>V.01 · 10/10/2026 · Original en español</p></nav>
+                        <h1 id="normativa-trazabilidad-y-seguimiento-de-la-ia-en-el-sv"><a class="header" href="#normativa-trazabilidad-y-seguimiento-de-la-ia-en-el-sv">Normativa, trazabilidad y seguimiento de la IA en el SV</a></h1>
+<p><strong>V.01 · 10 de octubre de 2026 · Original en español</strong></p>
+<h2 id="propósito-de-esta-obra"><a class="header" href="#propósito-de-esta-obra">Propósito de esta obra</a></h2>
+<p>Una respuesta de inteligencia artificial puede ser clara y, sin embargo, apoyarse en una fuente inadecuada, interpretar mal una condición o presentar como comprobado algo que no lo está. Para valorar su fiabilidad es necesario conocer el fundamento documental de la respuesta y el alcance de su evaluación.</p>
+<p>Este libro presenta los criterios de garantía documental que orientan el Sistema Vectorial SV. Explica qué debe poder comprobarse sobre las fuentes, las respuestas y su seguimiento, con atención a la ciberseguridad y al uso sanitario. Está dirigido a profesionales, investigadores y lectores interesados en comprender esas garantías.</p>
+<p><strong>La V.01 es una exposición de criterios y referencias. No acredita por sí misma una certificación, una autorización sanitaria ni la verificación integral de un servicio.</strong> Una afirmación de cumplimiento exige evidencias correspondientes a la versión, finalidad y condiciones de uso evaluadas.</p>
+<h2 id="cómo-leerlo"><a class="header" href="#cómo-leerlo">Cómo leerlo</a></h2>
+<p>Puede comenzar por <a href="#garantías-y-alcance">Garantías y alcance</a> y <a href="#procedencia-y-seguimiento-documental">Procedencia y seguimiento documental</a>. Los capítulos de <a href="#ciberseguridad-evidencia-y-límites">ciberseguridad</a> y <a href="#inmunología-y-uso-sanitario">uso sanitario</a> concretan las exigencias según el contexto. El <a href="#normas-y-marcos-de-referencia">marco normativo</a> distingue normas, recomendaciones y legislación condicionada a cada actividad.</p>
+<p>Los ejemplos son explicativos y no describen casos reales. Las referencias remiten a los organismos responsables de las fuentes. La <a href="#referencias-y-edición">nota de edición</a> identifica la fecha y el alcance de esta versión.</p>
+<h2 id="principio-rector"><a class="header" href="#principio-rector">Principio rector</a></h2>
+<p>El respaldo documental debe ser comprobable. Conservar una fuente no demuestra que sea pertinente; entregarla a un modelo no demuestra que este la haya interpretado correctamente; obtener una respuesta no equivale a autorizar una actuación.</p>
+<p>La matriz editorial de esta publicación es <a href="https://editorialia.com/">IA eñ · La Biblia de la IA</a>, ISSN 2695-6411.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="garantías-y-alcance"><a class="header" href="#garantías-y-alcance">Garantías y alcance</a></h1>
+<h2 id="qué-significa-ofrecer-una-garantía-documental"><a class="header" href="#qué-significa-ofrecer-una-garantía-documental">Qué significa ofrecer una garantía documental</a></h2>
+<p>Una garantía expresa una propiedad definida y comprobable bajo condiciones conocidas. Debe indicar su objeto, alcance y límites. La valoración de una respuesta requiere separar al menos cuatro cuestiones:</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Cuestión</th><th>Qué debe poder comprobarse</th></tr>
+</thead>
+<tbody>
+<tr><td>Procedencia</td><td>Qué fuente y edición respaldan la información, quién las publica y cuándo.</td></tr>
+<tr><td>Pertinencia</td><td>Para qué contexto es adecuada la fuente y qué condiciones restringen su aplicación.</td></tr>
+<tr><td>Fidelidad</td><td>Si la respuesta conserva el significado del material disponible y distingue lo desconocido.</td></tr>
+<tr><td>Responsabilidad</td><td>Qué revisión se realizó y quién puede decidir sobre el uso posterior de la respuesta.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Estos son criterios editoriales y de evaluación del SV; no una enumeración literal de requisitos de una norma.</p>
+<h2 id="conocimiento-documental-y-conocimiento-previo"><a class="header" href="#conocimiento-documental-y-conocimiento-previo">Conocimiento documental y conocimiento previo</a></h2>
+<p>El criterio de consulta documental exige que las afirmaciones de una respuesta se apoyen en el material autorizado para esa consulta. Si falta respaldo suficiente, la respuesta debe manifestar la insuficiencia o limitar su conclusión.</p>
+<p>Un modelo puede conservar conocimiento adquirido durante su entrenamiento. Restringir las fuentes de una consulta no borra ese conocimiento ni permite observar todos sus procesos internos. Por eso la garantía debe formularse sobre lo verificable: material suministrado, citas, contenido de la respuesta y evaluación de su soporte.</p>
+<h2 id="diferentes-grados-de-acreditación"><a class="header" href="#diferentes-grados-de-acreditación">Diferentes grados de acreditación</a></h2>
+<p>Conviene distinguir un criterio establecido, una comprobación efectuada y una conformidad acreditada. Un resultado favorable sólo se extiende al objeto y a las condiciones que se hayan examinado. La ausencia de incidentes conocidos tampoco demuestra ausencia de riesgo.</p>
+<p>Las referencias de <a href="#normas-y-marcos-de-referencia">gestión de IA y transparencia</a> ayudan a ordenar estas diferencias. Su inclusión en esta obra no implica certificación ni respaldo institucional de las entidades citadas.</p>
+<h2 id="supervisión-humana"><a class="header" href="#supervisión-humana">Supervisión humana</a></h2>
+<p>La selección científica de las fuentes, la revisión de su pertinencia y la autorización de sus usos requieren responsables competentes. Una respuesta puede ayudar a un profesional, pero no sustituye las obligaciones correspondientes a su actividad ni convierte una recomendación en una decisión aprobada.</p>
+<p>La independencia de estas responsabilidades respecto del proveedor del modelo permite examinar el resultado con criterios constantes aunque cambie el servicio utilizado.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="procedencia-y-seguimiento-documental"><a class="header" href="#procedencia-y-seguimiento-documental">Procedencia y seguimiento documental</a></h1>
+<h2 id="de-la-fuente-a-la-valoración"><a class="header" href="#de-la-fuente-a-la-valoración">De la fuente a la valoración</a></h2>
+<p>La trazabilidad permite reconstruir la relación entre una consulta, el material disponible, la respuesta y su evaluación. El siguiente esquema representa esa relación documental; no reproduce el pensamiento interno del modelo.</p>
+<blockquote>
+<p>Fuente identificada → edición y alcance autorizados → material suministrado → respuesta conservada → evaluación → decisión o seguimiento posterior.</p>
+</blockquote>
+<p>En la propuesta del SV, cada relación debe poder justificarse sin depender únicamente de lo que el modelo afirme haber leído.</p>
+<h2 id="identidad-versión-y-transformación"><a class="header" href="#identidad-versión-y-transformación">Identidad, versión y transformación</a></h2>
+<p>El título de una obra no basta para identificar la edición utilizada. Deben distinguirse autoría, fecha, versión y pasaje pertinente. Una corrección editorial, una traducción o una extracción de texto pueden introducir cambios y requieren conservar su relación con el original.</p>
+<p>El formato de archivo no determina la autoridad científica. Dos copias del mismo texto en formatos diferentes no constituyen dos fuentes independientes. Si existen diferencias sustantivas, corresponde a la revisión documental aclararlas antes de utilizarlas como fundamento.</p>
+<p>Una huella digital permite cotejar la identidad de un contenido. Por sí sola no acredita autoría, validez científica, licencia ni fecha cierta.</p>
+<h2 id="tres-hechos-diferentes"><a class="header" href="#tres-hechos-diferentes">Tres hechos diferentes</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Hecho</th><th>Alcance de la evidencia</th></tr>
+</thead>
+<tbody>
+<tr><td>Un documento estaba autorizado</td><td>Indica que podía utilizarse dentro de un alcance definido.</td></tr>
+<tr><td>Un fragmento fue suministrado</td><td>Identifica el material efectivamente remitido en una consulta.</td></tr>
+<tr><td>Una afirmación está respaldada</td><td>Requiere contrastar su significado con el pasaje pertinente.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Una cita existente puede estar mal interpretada. Asimismo, una entrega incompleta o incierta no debe presentarse como lectura completa confirmada.</p>
+<p>El <a href="https://www.w3.org/TR/prov-dm/">modelo de procedencia PROV del W3C</a> ofrece un vocabulario común para describir entidades, actividades, responsables y derivaciones. Se utiliza aquí como referencia conceptual; no se declara una implementación conforme de intercambio.</p>
+<h2 id="actualización-y-retirada"><a class="header" href="#actualización-y-retirada">Actualización y retirada</a></h2>
+<p>Cuando una fuente deja de ser adecuada para nuevas consultas, su retirada debe impedir nuevos usos dentro del alcance afectado. Esto incluye evitar que una representación derivada o un contexto previamente preparado la reincorpore como si siguiera vigente.</p>
+<p>El antecedente conserva su identidad: una valoración antigua no debe aparecer vinculada retrospectivamente a una edición que aún no existía. Si se revisa aquella valoración, se documenta una nueva evaluación y su relación con la anterior, de acuerdo con los límites legales de conservación.</p>
+<h2 id="explicación-y-procesos-del-modelo"><a class="header" href="#explicación-y-procesos-del-modelo">Explicación y procesos del modelo</a></h2>
+<p>Es útil solicitar conclusiones, citas, supuestos y límites. Una explicación generada por el modelo es una declaración que también debe evaluarse. No constituye acceso demostrado a su proceso interno ni prueba causal de cómo produjo la respuesta.</p>
+<p>La auditabilidad se apoya en evidencias observables y recuperables. La información no disponible debe quedar identificada como tal.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="normas-y-marcos-de-referencia"><a class="header" href="#normas-y-marcos-de-referencia">Normas y marcos de referencia</a></h1>
+<h2 id="criterio-de-selección"><a class="header" href="#criterio-de-selección">Criterio de selección</a></h2>
+<p>Las referencias se han seleccionado por su relación con gestión de IA, calidad, procedencia, seguridad y evaluación. La consulta de las normas ISO se limita a sus fichas y vistas públicas oficiales; no se atribuyen requisitos concretos a cláusulas cuyo texto íntegro no se ha examinado.</p>
+<p>Antes de declarar conformidad deben determinarse la edición aplicable, los requisitos pertinentes y las evidencias exigibles. La selección bibliográfica de esta obra no sustituye ese trabajo.</p>
+<h2 id="normas-internacionales"><a class="header" href="#normas-internacionales">Normas internacionales</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Referencia</th><th>Relación con el seguimiento documental</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="https://www.iso.org/standard/42001">ISO/IEC 42001:2023</a></td><td>Gestión de IA: responsabilidades, objetivos, evaluación y mejora.</td></tr>
+<tr><td><a href="https://www.iso.org/standard/9001">ISO 9001:2026</a></td><td>Gestión de la calidad: coherencia de procesos, revisiones y correcciones. Sexta edición publicada en septiembre de 2026.</td></tr>
+<tr><td><a href="https://www.iso.org/standard/77304.html">ISO/IEC 23894:2023</a></td><td>Orientaciones para gestionar riesgos relacionados con IA.</td></tr>
+<tr><td><a href="https://www.iso.org/es/norma/42005">ISO/IEC 42005:2025</a></td><td>Evaluación de impactos de sistemas de IA.</td></tr>
+<tr><td><a href="https://www.iso.org/standard/83002.html">ISO/IEC 8183:2023</a></td><td>Marco del ciclo de vida de los datos de IA.</td></tr>
+<tr><td><a href="https://www.iso.org/standard/27001">ISO/IEC 27001:2022</a> y <a href="https://www.iso.org/standard/75652.html">27002:2022</a></td><td>Gestión de seguridad de la información y referencia de controles.</td></tr>
+<tr><td><a href="https://www.iso.org/standard/84111.html">ISO/IEC 12792:2025</a></td><td>Taxonomía de transparencia de sistemas de IA.</td></tr>
+</tbody>
+</table>
+</div>
+<p>La pertinencia de estas normas no supone que todas sean obligatorias para cualquier uso del SV.</p>
+<h2 id="recomendaciones-y-especificaciones"><a class="header" href="#recomendaciones-y-especificaciones">Recomendaciones y especificaciones</a></h2>
+<p>El <a href="https://www.nist.gov/itl/ai-risk-management-framework">NIST AI RMF 1.0</a> orienta la gestión de riesgos de IA. Su perfil de IA generativa, <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf">NIST AI 600-1</a>, aporta referencias para valorar procedencia, citas y seguridad. Se trata de marcos de referencia, no de una certificación del modelo.</p>
+<p><a href="https://www.w3.org/TR/prov-dm/">W3C PROV-DM</a> y <a href="https://www.w3.org/TR/2013/REC-prov-o-20130430/">PROV-O</a> permiten describir procedencia. Las referencias de NIST para ciberseguridad y las de HL7 para información sanitaria se explican en sus capítulos respectivos.</p>
+<h2 id="legislación-según-la-finalidad"><a class="header" href="#legislación-según-la-finalidad">Legislación según la finalidad</a></h2>
+<p>El <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng">Reglamento (UE) 2024/1689 de inteligencia artificial</a> establece obligaciones que dependen, entre otros factores, de la clasificación del sistema y del papel de cada entidad. La documentación, los registros y la supervisión humana forman parte de sus requisitos para sistemas de alto riesgo. Deben comprobarse el ámbito, el calendario y el texto aplicable antes de un uso concreto.</p>
+<p>En ciberseguridad, <a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng">NIS2</a>, su desarrollo nacional y el <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191">Esquema Nacional de Seguridad español</a> requieren examinar la entidad, el servicio y las relaciones contractuales. El nombre de un dominio temático no determina su aplicación.</p>
+<p>La protección de datos, los derechos de autor y las exigencias sanitarias también dependen del contenido y la finalidad. Los capítulos siguientes delimitan estas cuestiones sin declarar resuelta la situación jurídica de futuros usos.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="ciberseguridad-evidencia-y-límites"><a class="header" href="#ciberseguridad-evidencia-y-límites">Ciberseguridad: evidencia y límites</a></h1>
+<h2 id="una-recomendación-necesita-contexto"><a class="header" href="#una-recomendación-necesita-contexto">Una recomendación necesita contexto</a></h2>
+<p>Una recomendación de ciberseguridad debe identificar el sistema o activo al que se refiere, su versión, la fecha de las evidencias y las condiciones de aplicación. Una medida adecuada en un contexto puede resultar ineficaz o perjudicial en otro.</p>
+<p>Por ejemplo, que exista una actualización publicada no demuestra que se haya instalado ni que un servicio la esté utilizando. Para afirmar un estado efectivo hacen falta evidencias correspondientes al objeto y al momento examinados. Este ejemplo ilustra una distinción general, no describe una instalación del SV.</p>
+<h2 id="evidencia-y-autoridad"><a class="header" href="#evidencia-y-autoridad">Evidencia y autoridad</a></h2>
+<p>El contenido de un documento puede describir una acción, pero no concede permiso para realizarla. Tampoco una respuesta convincente, una instrucción incrustada en una fuente o una solicitud atribuida a una autoridad deben ampliar por sí mismas las autorizaciones existentes.</p>
+<p>El criterio de evaluación del SV exige distinguir lectura, recomendación, autorización y actuación. Si una actuación tiene lugar, su resultado debe acreditarse separadamente. La falta de respuesta o un tiempo de espera agotado no demuestran, por sí solos, que nada haya ocurrido.</p>
+<h2 id="registros-e-investigación-de-incidentes"><a class="header" href="#registros-e-investigación-de-incidentes">Registros e investigación de incidentes</a></h2>
+<p>El <a href="https://www.nist.gov/cyberframework">NIST Cybersecurity Framework 2.0</a> sitúa el registro y la investigación de incidentes dentro de la gestión del riesgo. <a href="https://csrc.nist.gov/pubs/sp/800/61/r3/final">NIST SP 800-61, revisión 3</a>, desarrolla recomendaciones para integrar la respuesta a incidentes.</p>
+<p>La familia AU de <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">NIST SP 800-53, revisión 5</a>, trata aspectos como contenido, generación, protección y conservación de registros. Estas referencias ayudan a formular criterios de comprobación; no acreditan que cualquier registro disponible sea íntegro o suficiente.</p>
+<p>Una investigación debe poder distinguir un defecto en la fuente, una selección inadecuada, una transformación incorrecta, una respuesta sin respaldo o una evaluación errónea. Cuando no haya evidencia para atribuir la causa, debe conservarse la incertidumbre.</p>
+<h2 id="límites-de-una-conclusión"><a class="header" href="#límites-de-una-conclusión">Límites de una conclusión</a></h2>
+<p>La evaluación debe atender a condiciones, negaciones, alcance temporal y excepciones de la fuente. Una conclusión sobre una versión no debe extenderse a otras sin fundamento. Del mismo modo, una prueba favorable no demuestra seguridad absoluta ni cobertura de todos los escenarios.</p>
+<p>Estos principios orientan la revisión documental. La actuación en un sistema real requiere además competencia, autorización y procedimientos adecuados a su riesgo.</p>
+<p>Como lectura complementaria, la <a href="https://www.incibe.es/incibe-cert/guias-y-estudios/guias/medidas-de-ciberseguridad-y-ciberresiliencia-ante-modelos-de-ia-de-frontera">guía de INCIBE sobre ciberseguridad y ciberresiliencia ante modelos de IA de frontera</a> conserva su publicación y condiciones de uso originales. Este capítulo no reproduce ni adapta su texto.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="inmunología-y-uso-sanitario"><a class="header" href="#inmunología-y-uso-sanitario">Inmunología y uso sanitario</a></h1>
+<h2 id="calidad-científica-y-pertinencia-clínica"><a class="header" href="#calidad-científica-y-pertinencia-clínica">Calidad científica y pertinencia clínica</a></h2>
+<p>Una fuente sanitaria debe valorarse por su procedencia, método, población estudiada, fecha y limitaciones. La actualidad de una publicación no sustituye la evaluación de su calidad, y una recomendación general no es automáticamente aplicable a cualquier persona.</p>
+<p>La revisión debe distinguir evidencia experimental, consenso profesional, guía clínica y opinión. También debe atender a correcciones, retractaciones y documentos sustituidos. Las diferencias entre fuentes requieren valoración competente; no se resuelven contando citas.</p>
+<h2 id="fidelidad-y-seguridad"><a class="header" href="#fidelidad-y-seguridad">Fidelidad y seguridad</a></h2>
+<p>Una respuesta puede reproducir fielmente una frase y resultar inadecuada si omite una condición relevante. Por ejemplo, extrapolar una conclusión de una población estudiada a otra no incluida exige justificación. Este ejemplo no constituye una recomendación médica.</p>
+<p>El fundamento documental debe permitir revisar la adecuación al contexto y reconocer cuándo falta información. La supervisión profesional mantiene su responsabilidad sobre las decisiones asistenciales.</p>
+<h2 id="procedencia-e-intercambio"><a class="header" href="#procedencia-e-intercambio">Procedencia e intercambio</a></h2>
+<p>Cuando se necesite intercambio de información clínica, <a href="https://hl7.org/fhir/R5/provenance.html">HL7 FHIR R5 Provenance</a> proporciona una referencia para describir origen y transformación de recursos. <a href="https://hl7.org/fhir/R5/auditevent.html">AuditEvent</a> aborda el registro de actuaciones relevantes para la auditoría.</p>
+<p>Son referencias de interoperabilidad. Su mención no acredita compatibilidad de un servicio, certificación sanitaria ni validación clínica.</p>
+<h2 id="finalidad-y-evaluación-regulatoria"><a class="header" href="#finalidad-y-evaluación-regulatoria">Finalidad y evaluación regulatoria</a></h2>
+<p>Antes de un uso asistencial debe definirse la finalidad prevista y examinarse su posible calificación como producto sanitario. La <a href="https://health.ec.europa.eu/latest-updates/update-mdcg-2019-11-rev1-qualification-and-classification-software-regulation-eu-2017745-and-2025-06-17_en">guía MDCG 2019-11, revisión 1 de junio de 2025</a> trata la calificación y clasificación del software conforme a los reglamentos europeos de productos sanitarios y de diagnóstico in vitro.</p>
+<p>La trazabilidad contribuye a la evaluación, pero no sustituye la evidencia clínica, la gestión de riesgos ni los requisitos que resulten aplicables. Esta edición no declara autorizado un uso asistencial del SV.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="derechos-confidencialidad-y-conservación"><a class="header" href="#derechos-confidencialidad-y-conservación">Derechos, confidencialidad y conservación</a></h1>
+<h2 id="permisos-distintos-para-usos-distintos"><a class="header" href="#permisos-distintos-para-usos-distintos">Permisos distintos para usos distintos</a></h2>
+<p>Disponer de una copia de una obra no acredita autorización para publicarla, transformarla, transmitirla a un servicio o utilizarla con un modelo. Deben conocerse las condiciones de cada recurso y el alcance de los permisos pertinentes.</p>
+<p>La revisión científica y la autorización de uso responden a preguntas diferentes. Un documento puede ser relevante y seguir pendiente de autorización para una finalidad concreta. Una cita bibliográfica no sustituye dicha autorización.</p>
+<p>Los textos de normas, artículos y otras obras mantienen sus derechos de origen. Esta publicación enlaza referencias oficiales; no redistribuye el texto íntegro de normas ISO ni les atribuye la licencia de esta obra.</p>
+<h2 id="transparencia-proporcionada"><a class="header" href="#transparencia-proporcionada">Transparencia proporcionada</a></h2>
+<p>La información pública debe permitir comprender qué garantías se exigen y cuáles se han acreditado. Esa transparencia no obliga a divulgar documentos protegidos, información personal o detalles que comprometan la seguridad.</p>
+<p>El profesional y el auditor pueden necesitar información diferente. Lo que se comunica a cada destinatario debe responder a su función y al alcance permitido. Una síntesis pública tampoco debe presentar como verificado aquello cuya evaluación no se haya completado.</p>
+<h2 id="conservación-y-protección-de-datos"><a class="header" href="#conservación-y-protección-de-datos">Conservación y protección de datos</a></h2>
+<p>Cuando existan datos personales, el <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng">Reglamento general de protección de datos</a> exige considerar finalidad, minimización, limitación del plazo y seguridad, entre otros principios y obligaciones.</p>
+<p>Conservar la trazabilidad no significa guardar indefinidamente toda la información disponible. Deben justificarse las clases de evidencia necesarias, su acceso y sus plazos. Una retirada documental y una supresión legal de datos tienen objetos diferentes y requieren tratamiento coherente.</p>
+<p>Los plazos específicos de una norma no deben convertirse en un plazo universal para cualquier expediente. Deben examinarse su supuesto de aplicación y las demás obligaciones concurrentes.</p>
+<h2 id="idiomas-y-licencias-de-esta-edición"><a class="header" href="#idiomas-y-licencias-de-esta-edición">Idiomas y licencias de esta edición</a></h2>
+<p>La versión española identificada es la edición de referencia. El selector de idiomas facilita la lectura mediante traducción automática; conviene contrastar los términos especializados y las disposiciones normativas con sus originales.</p>
+<p>El texto propio se publica con la licencia indicada al pie. Las referencias externas y los recursos de presentación conservan sus condiciones. La asistencia de traducción no altera esas licencias ni convierte una traducción automática en versión normativa.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="evaluación-y-mejora"><a class="header" href="#evaluación-y-mejora">Evaluación y mejora</a></h1>
+<h2 id="qué-debe-medirse"><a class="header" href="#qué-debe-medirse">Qué debe medirse</a></h2>
+<p>La evaluación ha de separar propiedades que no son equivalentes: identidad de las fuentes, integridad del material suministrado, correspondencia de las citas, respaldo de las afirmaciones y pertinencia de las conclusiones.</p>
+<p>Un porcentaje de citas existentes no mide por sí solo la corrección de una respuesta. La calidad de su interpretación requiere una revisión del contenido adecuada al dominio.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Aspecto</th><th>Pregunta de evaluación</th></tr>
+</thead>
+<tbody>
+<tr><td>Procedencia</td><td>¿Se identifica la fuente y edición utilizadas?</td></tr>
+<tr><td>Integridad</td><td>¿Puede cotejarse el material conservado con el que se suministró?</td></tr>
+<tr><td>Respaldo</td><td>¿Los pasajes citados sostienen realmente las afirmaciones?</td></tr>
+<tr><td>Vigencia</td><td>¿Se respetó el alcance temporal y la autorización de uso?</td></tr>
+<tr><td>Seguimiento</td><td>¿Puede reconstruirse la valoración y distinguirse de una revisión posterior?</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="resultados-reproducibles-y-límites"><a class="header" href="#resultados-reproducibles-y-límites">Resultados reproducibles y límites</a></h2>
+<p>Los criterios de evaluación deben definirse antes de conocer el resultado. La comunicación de una medida debe incluir el conjunto evaluado, su denominador y los casos excluidos, fallidos o desconocidos. Un promedio favorable no debe ocultar un incumplimiento crítico.</p>
+<p>Una repetición debe mantener identificadas sus condiciones. Si cambian documentos, versiones o criterios, la comparación debe explicarlo. Reproducir las condiciones documentales no garantiza que un modelo genere una respuesta idéntica.</p>
+<p>Estas son reglas de evaluación propuestas por el SV, relacionadas con la gestión de calidad y riesgos; no se presentan como umbrales numéricos impuestos por ISO o NIST.</p>
+<h2 id="corrección-sin-reescribir-el-antecedente"><a class="header" href="#corrección-sin-reescribir-el-antecedente">Corrección sin reescribir el antecedente</a></h2>
+<p>Cuando se detecte un problema, debe investigarse su alcance, adoptar la corrección pertinente y conservar la relación con la valoración anterior. La revisión no debe reemplazar silenciosamente un resultado desfavorable por otro posterior.</p>
+<p>La trazabilidad facilita esa investigación, pero no exonera automáticamente al modelo, al proveedor o a quienes seleccionan, evalúan y utilizan la información. La atribución de responsabilidades exige examinar las evidencias y el marco aplicable.</p>
+<h2 id="qué-significa-esta-v01"><a class="header" href="#qué-significa-esta-v01">Qué significa esta V.01</a></h2>
+<p>Esta edición publica el marco explicativo y sus referencias. No presenta métricas de un servicio ni da por superadas pruebas que no documenta. Las futuras declaraciones de garantía deberán identificar su alcance, evidencias y limitaciones, diferenciando los resultados observados de los objetivos pendientes.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="referencias-y-edición"><a class="header" href="#referencias-y-edición">Referencias y edición</a></h1>
+<h2 id="fuentes-oficiales"><a class="header" href="#fuentes-oficiales">Fuentes oficiales</a></h2>
+<p><strong>Consulta editorial: 10 de octubre de 2026.</strong> Las ediciones citadas son las utilizadas en este libro. Su aplicación a una actividad posterior exige comprobar vigencia, modificaciones y condiciones pertinentes.</p>
+<h3 id="gestión-de-ia-calidad-y-seguridad"><a class="header" href="#gestión-de-ia-calidad-y-seguridad">Gestión de IA, calidad y seguridad</a></h3>
+<ul>
+<li>ISO. <a href="https://www.iso.org/standard/42001">ISO/IEC 42001:2023 — Sistemas de gestión de IA</a>.</li>
+<li>ISO. <a href="https://www.iso.org/standard/9001">ISO 9001:2026 — Sistemas de gestión de la calidad</a>.</li>
+<li>ISO. <a href="https://www.iso.org/standard/77304.html">ISO/IEC 23894:2023 — Orientaciones sobre gestión del riesgo de IA</a>.</li>
+<li>ISO. <a href="https://www.iso.org/es/norma/42005">ISO/IEC 42005:2025 — Evaluación del impacto de sistemas de IA</a>.</li>
+<li>ISO. <a href="https://www.iso.org/standard/83002.html">ISO/IEC 8183:2023 — Marco del ciclo de vida de datos</a>.</li>
+<li>ISO. <a href="https://www.iso.org/standard/27001">ISO/IEC 27001:2022</a> y <a href="https://www.iso.org/standard/75652.html">ISO/IEC 27002:2022</a>.</li>
+<li>ISO. <a href="https://www.iso.org/standard/84111.html">ISO/IEC 12792:2025 — Taxonomía de transparencia</a>.</li>
+<li>NIST. <a href="https://www.nist.gov/itl/ai-risk-management-framework">AI RMF 1.0</a>, 2023, y <a href="https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf">AI 600-1, perfil de IA generativa</a>, 2024.</li>
+</ul>
+<h3 id="procedencia-y-ciberseguridad"><a class="header" href="#procedencia-y-ciberseguridad">Procedencia y ciberseguridad</a></h3>
+<ul>
+<li>W3C. <a href="https://www.w3.org/TR/prov-dm/">PROV-DM</a> y <a href="https://www.w3.org/TR/2013/REC-prov-o-20130430/">PROV-O</a>, recomendaciones de 30/04/2013.</li>
+<li>NIST. <a href="https://www.nist.gov/cyberframework">Cybersecurity Framework 2.0</a>, 2024.</li>
+<li>NIST. <a href="https://csrc.nist.gov/pubs/sp/800/61/r3/final">SP 800-61, revisión 3</a>, 2025.</li>
+<li>NIST. <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final">SP 800-53, revisión 5</a>, catálogo de controles.</li>
+<li>INCIBE. <a href="https://www.incibe.es/incibe-cert/guias-y-estudios/guias/medidas-de-ciberseguridad-y-ciberresiliencia-ante-modelos-de-ia-de-frontera">Medidas de ciberseguridad y ciberresiliencia ante modelos de IA de frontera</a>, lectura complementaria.</li>
+</ul>
+<h3 id="información-sanitaria-y-legislación"><a class="header" href="#información-sanitaria-y-legislación">Información sanitaria y legislación</a></h3>
+<ul>
+<li>HL7. FHIR R5, <a href="https://hl7.org/fhir/R5/provenance.html">Provenance</a> y <a href="https://hl7.org/fhir/R5/auditevent.html">AuditEvent</a>.</li>
+<li>Comisión Europea. <a href="https://health.ec.europa.eu/latest-updates/update-mdcg-2019-11-rev1-qualification-and-classification-software-regulation-eu-2017745-and-2025-06-17_en">MDCG 2019-11 rev. 1</a>, junio de 2025.</li>
+<li>Unión Europea. <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng">Reglamento (UE) 2024/1689, inteligencia artificial</a>.</li>
+<li>Unión Europea. <a href="https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng">Directiva (UE) 2022/2555, NIS2</a>.</li>
+<li>España. <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191">Real Decreto 311/2022, Esquema Nacional de Seguridad</a>.</li>
+<li>Unión Europea. <a href="https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng">Reglamento (UE) 2016/679, protección de datos</a>.</li>
+</ul>
+<p>Los títulos en español empleados para orientar la lectura no sustituyen la denominación ni el texto oficial de cada fuente. Los enlaces a actos jurídicos originales no garantizan por sí solos que se esté consultando su versión consolidada vigente.</p>
+<h2 id="nota-de-edición"><a class="header" href="#nota-de-edición">Nota de edición</a></h2>
+<p><strong>Título:</strong> Normativa, trazabilidad y seguimiento de la IA en el SV.<br><strong>Versión:</strong> V.01.<br><strong>Fecha:</strong> 10 de octubre de 2026.<br><strong>Idioma de referencia:</strong> español.<br><strong>Matriz editorial:</strong> IA eñ · La Biblia de la IA, ISSN 2695-6411.</p>
+<p>Primera edición pública de esta obra. Reúne criterios de garantía documental, referencias normativas y límites de aplicación. Las relaciones entre dichos criterios y las fuentes son una elaboración editorial del SV; no una declaración de los organismos citados sobre este sistema.</p>
+<p>El capítulo «Ciberseguridad: evidencia y límites» recoge los principios generales pertinentes de la anterior lectura pública sobre evidencia, corrección y límites. No reproduce su contenido experimental. Aquella lectura se sustituye en el catálogo por este libro, manteniendo una nota editorial en sus direcciones anteriores.</p>
+<p>Las futuras modificaciones sustantivas deberán identificarse mediante una nueva versión. Una corrección posterior no cambia la fecha ni el alcance de una edición anterior.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Navegación de capítulos">
+                        <!-- Mobile navigation buttons -->
+
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Navegación de capítulos">
+
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="presentacion-37d67f97.js"></script>
+
+        <script>
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+
+
+    </div>
+    </body>
+</html>

@@ -1,18 +1,20 @@
 # Licencias y atribución
 
-## Documentación propia
+## Textos propios
 
-La guía de la biblioteca y los documentos propios del SV conservan el pie de autoría y licencia de sus fuentes. La reunión de textos no transfiere ni modifica los derechos de terceros.
+Los textos propios mantienen la atribución y licencia indicada al pie. La publicación reúne obras identificadas sin modificar los derechos de otras entidades.
 
-## Libro de ciberseguridad
+El nuevo libro de normativa enlaza referencias oficiales; no reproduce el texto íntegro de las normas ni incorpora la antigua adaptación de la guía de INCIBE. Las fuentes externas conservan sus condiciones de uso.
 
-El capítulo sobre IA de frontera es una síntesis identificada de INCIBE y conserva CC BY-NC-SA 4.0. La Directiva (UE) 2022/2555 mantiene sus condiciones de origen; su síntesis no se presenta como texto oficial consolidado. Consulte la atribución completa incluida en el libro.
+## Ediciones anteriores
+
+Las ediciones históricas mantienen las licencias que les correspondían. La sustitución de una lectura pública no permite cambiar retrospectivamente la licencia de un tercero.
 
 ## Presentación
 
-La presentación se genera mediante mdBook 0.5.4. Su plantilla y recursos conservan [MPL-2.0](mdbook-license.txt) y sus avisos. Las modificaciones de la plantilla se limitan a navegación, identificación editorial y textos accesibles. La documentación del SV no impone su licencia sobre estos componentes.
+mdBook y sus recursos conservan su licencia [MPL-2.0](mdbook-license.txt). La licencia documental del SV no sustituye los avisos de esos componentes.
 
-La lectura humana y el suministro MCP utilizan los mismos capítulos identificados. El JavaScript de mdBook interviene en la presentación; no controla el Árbitro, la selección documental ni la evaluación.
+La traducción automática de lectura no cambia la atribución ni las condiciones de las obras originales.
 
 ---
 

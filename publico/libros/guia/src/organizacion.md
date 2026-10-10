@@ -1,39 +1,20 @@
 # Organización y alcance
 
-## Relación documental
+La biblioteca ofrece publicaciones de consulta sobre el Sistema Vectorial SV. Cada libro identifica su finalidad, versión, fecha y límites. La matriz editorial es [IA eñ · La Biblia de la IA](https://editorialia.com/).
 
-La biblioteca reúne ediciones procedentes de sus sedes canónicas. No cambia sus aprobaciones ni sustituye la matriz editorial o los registros competentes del SV.
+## Colecciones actuales
 
-```text
-Matriz editorial: editorialia.com · ISSN 2695-6411
-  └─ Biblioteca documental del SV
-       ├─ Dominios
-       │    ├─ Lenguaje de Computación → manual
-       │    ├─ Ciberseguridad → biblioteca → conocimiento para modelos
-       │    └─ Inmunología → colección prevista
-       ├─ Galería → comunicados y sala de prensa [previsto]
-       ├─ Licenciamientos → atribución y condiciones
-       ├─ Modelos de IA → documentación por proveedor y nodo [previsto]
-       ├─ Paquetes de instalación del SV [previsto]
-       ├─ Publicaciones → laboratorios y trabajos científicos [previsto]
-       └─ Wiki → arquitectura, bibliotecas, matemáticas y colecciones [previsto]
-```
+**Normativa y garantías documentales.** El libro «Normativa, trazabilidad y seguimiento de la IA en el SV», V.01, explica criterios de procedencia, evaluación y responsabilidad, con atención a ciberseguridad e inmunología.
 
-Esta representación textual expresa la jerarquía completa de primer nivel. Las categorías previstas no contienen enlaces a páginas inexistentes. La colección de modelos distinguirá descripción, modalidad de ejecución y resultados acreditados.
+**Lenguaje de Computación.** El manual conserva la edición disponible y sus advertencias sobre capítulos pendientes. Su presencia no implica que el manual esté terminado.
 
-## Modalidades de suministro
+Las publicaciones deben leerse conforme al alcance que declaran. Un marco de referencia describe exigencias; una comprobación acredita un resultado delimitado. Ninguna de ambas cosas equivale por sí sola a una certificación.
 
-| Nodo | Situación del modelo | Alcance previsto |
-|---|---|---|
-| 1 | SV y modelo en el mismo servidor, con proceso de IA aislado. | Producción sometida a recepción y autorización. |
-| 2 | Entorno externo de experimentación. | Exclusivamente pruebas del SV. |
-| 3 | Inferencia externa mediante API del proveedor. | Producción sometida a recepción y autorización. |
+## Ediciones y continuidad
 
-En las tres modalidades el Árbitro-Director conserva la selección, los permisos y la identidad documental. El contenido de un libro es evidencia, no una orden que pueda alterar esas obligaciones. La publicación de esta biblioteca no certifica por sí sola la recepción de producción de ninguno de los nodos.
+Cuando una publicación se reorganiza, el catálogo señala su sustitución. Las direcciones anteriores pueden conservar una nota editorial que conduzca a la nueva lectura. Esa nota no altera el contenido ni la fecha de la edición histórica.
 
-## Colecciones y fuentes
-
-La portada de [IA-en](https://github.com/IA-en) y su [lector existente](https://lectura-sv.itvia.online/ia-en/) mantienen su función. Los expedientes científicos y los registros de calidad siguen en sus repositorios originales.
+La [portada de IA-en](https://github.com/IA-en) y su [lector público](https://lectura-sv.itvia.online/ia-en/) mantienen sus funciones de consulta.
 
 ---
 
