@@ -13,7 +13,7 @@ Libros para comprender los fundamentos y las garantías documentales del Sistema
 | [Normativa, trazabilidad y seguimiento de la IA en el SV · V.01](normativa/trazabilidad-y-seguimiento-ia/index.html) | Procedencia, evaluación, derechos y referencias normativas; atención a ciberseguridad y uso sanitario. Marco explicativo, sin declaración de certificación. |
 | [Manual del Lenguaje de Computación SV](dominios/lenguaje-de-computacion/manual/index.html) | Edición disponible del manual, todavía en desarrollo. Los capítulos sin contenido permanecen señalados. |
 
-Los principios generales de la anterior lectura «Ciberseguridad: evidencia, corrección y límites» se encuentran ahora en el [capítulo de ciberseguridad](normativa/trazabilidad-y-seguimiento-ia/ciberseguridad.html) del nuevo libro.
+Los principios generales de la anterior lectura «Ciberseguridad: evidencia, corrección y límites» se encuentran ahora en el [capítulo de ciberseguridad](normativa/trazabilidad-y-seguimiento-ia/ciberseguridad.html) de «Normativa, trazabilidad y seguimiento de la IA en el SV».
 
 ## Consulta
 

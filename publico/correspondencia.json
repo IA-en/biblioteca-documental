@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados; no recepción de traducción ni producción",
-  "biblioteca_sha256": "db33be7d86a7d7dff12c750938061e6fbdb11a795ac1dddf66da3b0c61dacdb1",
+  "biblioteca_sha256": "96835c0f185c22feb31e33f54a029c5ed025ac283b7edda99ccd41df4f018887",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -32,7 +32,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 2375,
+      "cobertura_bytes": 2422,
       "correspondencia": "identidad_literal",
       "documento": "GUIA-02",
       "identificador_editorial_r0": null,
@@ -40,7 +40,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/indice.md",
-        "sha256": "90fc9efd096ca3bf09a2e06c20b45fb5e919f5e6c001deb6fec8df2d3dd0159b"
+        "sha256": "970c0b348ab8ba9da7964694a677b8f841541978e69a87971cfdde16ce60598d"
       },
       "procedencia": "Edición pública propia de 12/10/2026",
       "secciones": [
@@ -54,17 +54,17 @@
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1645,
+          "fin_byte_exclusivo": 1692,
           "inicio_byte": 297,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000017",
-          "sha256": "d6ce0fd57c6ca47b2bcf9c60eb5efb6b401137c3c0434cebe0ef82d9c3e1c6e8",
+          "sha256": "69c5b527a1591895c523c731056bd0648e37e40d576bed0548320c08be6d6646",
           "titulo": "Libros disponibles",
           "ultima_linea": 17
         },
         {
-          "fin_byte_exclusivo": 2375,
-          "inicio_byte": 1645,
+          "fin_byte_exclusivo": 2422,
+          "inicio_byte": 1692,
           "primera_linea": 18,
           "seccion": "MD-L000018-L000026",
           "sha256": "7cf9d0bf86ba6cc3261b9e05eea24b0fe40953bb0fd6953496810ed2bc99b586",
@@ -118,7 +118,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 1723,
+      "cobertura_bytes": 1717,
       "correspondencia": "identidad_literal",
       "documento": "GUIA-04",
       "identificador_editorial_r0": null,
@@ -126,7 +126,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/consulta.md",
-        "sha256": "e05b0d2ceebe8673e9ae76970949ec4920e3aa99a023247751ba02c280e08062"
+        "sha256": "887895cad2f21063a208940e388510e699edb2aff67e8f7bedaa220c044ada22"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -140,17 +140,17 @@
           "ultima_linea": 2
         },
         {
-          "fin_byte_exclusivo": 382,
+          "fin_byte_exclusivo": 376,
           "inicio_byte": 33,
           "primera_linea": 3,
           "seccion": "MD-L000003-L000008",
-          "sha256": "dbd6640df3be5eee801346287649b1c1518e10265bc482d6f37f544822085734",
+          "sha256": "2b38f4510da624d0e59c4140f92f3229eac4249751bbb6d143d013eb4feb701e",
           "titulo": "Índice y capítulos",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 878,
-          "inicio_byte": 382,
+          "fin_byte_exclusivo": 872,
+          "inicio_byte": 376,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000014",
           "sha256": "22b8ada2113ced49dfc2d29a8cdea6fb665190b2fd1b93ebecf4388eb558be05",
@@ -158,8 +158,8 @@
           "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 1723,
-          "inicio_byte": 878,
+          "fin_byte_exclusivo": 1717,
+          "inicio_byte": 872,
           "primera_linea": 15,
           "seccion": "MD-L000015-L000023",
           "sha256": "65f1294647d5f274e3ab8b1a1694f0f823d753f9079c1618fe2ff3e81aa52a3e",
@@ -170,7 +170,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 1254,
+      "cobertura_bytes": 1248,
       "correspondencia": "identidad_literal",
       "documento": "GUIA-05",
       "identificador_editorial_r0": null,
@@ -178,7 +178,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/licencias.md",
-        "sha256": "05a07947548f411f1200a080368c82fceae2a66bba285a11e60273f3d15c3173"
+        "sha256": "9cb586d489c1efbdbb0b1be8957faae852e2bac4132878581275c1895bc0eb83"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -192,17 +192,17 @@
           "ultima_linea": 2
         },
         {
-          "fin_byte_exclusivo": 427,
+          "fin_byte_exclusivo": 421,
           "inicio_byte": 27,
           "primera_linea": 3,
           "seccion": "MD-L000003-L000008",
-          "sha256": "b59e3a54b0cd4f50ec1e18bcb2046ad010238574357c4feca728345bfa3a529c",
+          "sha256": "2b5d7e6c4671a7f2911c1c3324ed647992e099f25b89d0470fa176c2059401bf",
           "titulo": "Textos propios",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 632,
-          "inicio_byte": 427,
+          "fin_byte_exclusivo": 626,
+          "inicio_byte": 421,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000012",
           "sha256": "285b4606fb570dae862991de64e3dcdc82fa7ed861aed0b5fdcbcd554284da58",
@@ -210,8 +210,8 @@
           "ultima_linea": 12
         },
         {
-          "fin_byte_exclusivo": 1254,
-          "inicio_byte": 632,
+          "fin_byte_exclusivo": 1248,
+          "inicio_byte": 626,
           "primera_linea": 13,
           "seccion": "MD-L000013-L000021",
           "sha256": "e3448f1eaeec9d71ec6c32cddd08c44af40b08cd375b2cddffdff4f6c5f95375",
@@ -2111,6 +2111,6 @@
   ],
   "edicion": "biblioteca-sv-dominios-v01-visualizadores-v06-20261012",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "023f0a37fb10c76ba2f87e9e918c354179a7259474393b290239d3a1ce108447",
+  "politica_sha256": "de86c1261d1716dd3062bf3bd0cb14ea3073e0442a6b9cda0cbef42d8d8d5d6b",
   "version": 1
 }

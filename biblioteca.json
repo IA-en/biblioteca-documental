@@ -5,7 +5,7 @@
     {
       "id": "guia",
       "plan": {
-        "sha256": "b1c5235b635178e1f28ece05fa7345d44f2d7f44c32c9271ebb76044ed592502",
+        "sha256": "f4ac44e3f669dd89afb1d7b80dfb3e3531180b12925aa9740fc5eada6d312b52",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,7 +29,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "90fc9efd096ca3bf09a2e06c20b45fb5e919f5e6c001deb6fec8df2d3dd0159b",
+            "sha256": "970c0b348ab8ba9da7964694a677b8f841541978e69a87971cfdde16ce60598d",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
@@ -59,7 +59,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "e05b0d2ceebe8673e9ae76970949ec4920e3aa99a023247751ba02c280e08062",
+            "sha256": "887895cad2f21063a208940e388510e699edb2aff67e8f7bedaa220c044ada22",
             "ruta": "libros/guia/src/consulta.md"
           },
           "correspondencia": "identidad_literal",
@@ -74,7 +74,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "05a07947548f411f1200a080368c82fceae2a66bba285a11e60273f3d15c3173",
+            "sha256": "9cb586d489c1efbdbb0b1be8957faae852e2bac4132878581275c1895bc0eb83",
             "ruta": "libros/guia/src/licencias.md"
           },
           "correspondencia": "identidad_literal",

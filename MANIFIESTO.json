@@ -1,6 +1,4 @@
 {
-  "licencia": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).",
-  "version": 1,
   "exclusion": "El manifiesto no se incluye a sí mismo",
   "archivos": [
     {
@@ -20,8 +18,8 @@
     },
     {
       "ruta": "biblioteca.json",
-      "bytes": 25778,
-      "sha256": "db33be7d86a7d7dff12c750938061e6fbdb11a795ac1dddf66da3b0c61dacdb1"
+      "bytes": 26334,
+      "sha256": "96835c0f185c22feb31e33f54a029c5ed025ac283b7edda99ccd41df4f018887"
     },
     {
       "ruta": "copias-historicas.json",
@@ -31,7 +29,7 @@
     {
       "ruta": "correspondencia.json",
       "bytes": 80612,
-      "sha256": "c0f9b618c8e09a40964e17dcb338ce4535c204299c97e418540bbb8694396a2e"
+      "sha256": "6169ddd0e4390eb4bcf8bf3fb93adad1ed4132f87221173fe2fc526dc3966660"
     },
     {
       "ruta": "libros/dominios/biblioteca.css",
@@ -105,8 +103,8 @@
     },
     {
       "ruta": "libros/guia/plan.json",
-      "bytes": 1639,
-      "sha256": "b1c5235b635178e1f28ece05fa7345d44f2d7f44c32c9271ebb76044ed592502"
+      "bytes": 1680,
+      "sha256": "f4ac44e3f669dd89afb1d7b80dfb3e3531180b12925aa9740fc5eada6d312b52"
     },
     {
       "ruta": "libros/guia/presentacion.js",
@@ -115,18 +113,18 @@
     },
     {
       "ruta": "libros/guia/src/consulta.md",
-      "bytes": 1723,
-      "sha256": "e05b0d2ceebe8673e9ae76970949ec4920e3aa99a023247751ba02c280e08062"
+      "bytes": 1717,
+      "sha256": "887895cad2f21063a208940e388510e699edb2aff67e8f7bedaa220c044ada22"
     },
     {
       "ruta": "libros/guia/src/indice.md",
-      "bytes": 2375,
-      "sha256": "90fc9efd096ca3bf09a2e06c20b45fb5e919f5e6c001deb6fec8df2d3dd0159b"
+      "bytes": 2422,
+      "sha256": "970c0b348ab8ba9da7964694a677b8f841541978e69a87971cfdde16ce60598d"
     },
     {
       "ruta": "libros/guia/src/licencias.md",
-      "bytes": 1254,
-      "sha256": "05a07947548f411f1200a080368c82fceae2a66bba285a11e60273f3d15c3173"
+      "bytes": 1248,
+      "sha256": "9cb586d489c1efbdbb0b1be8957faae852e2bac4132878581275c1895bc0eb83"
     },
     {
       "ruta": "libros/guia/src/organizacion.md",
@@ -141,7 +139,7 @@
     {
       "ruta": "libros/guia/theme/index.hbs",
       "bytes": 17673,
-      "sha256": "df520fafb2745502c999644f7fc5040c7242728282b2b5bc3ffbebf690e09971"
+      "sha256": "39c294ffe39a066a7e0f22b7c0d9fbcaa8a92ee67fe187747c096e7d83cc4435"
     },
     {
       "ruta": "libros/manual/biblioteca.css",
@@ -360,8 +358,8 @@
     },
     {
       "ruta": "politica-verificacion.json",
-      "bytes": 336,
-      "sha256": "023f0a37fb10c76ba2f87e9e918c354179a7259474393b290239d3a1ce108447"
+      "bytes": 350,
+      "sha256": "de86c1261d1716dd3062bf3bd0cb14ea3073e0442a6b9cda0cbef42d8d8d5d6b"
     },
     {
       "ruta": "presentacion.js",
@@ -391,7 +389,7 @@
     {
       "ruta": "publico/404.html",
       "bytes": 17553,
-      "sha256": "3998ed754361c9e8f3e1641ed298bd340e189da849aef7bca835cf7bfa37ad68"
+      "sha256": "c4cbae86ec366e437c23a42d942fe59376f91e67d7610a128ee205b009230233"
     },
     {
       "ruta": "publico/ayu-highlight-3fdfc3ac.css",
@@ -415,13 +413,13 @@
     },
     {
       "ruta": "publico/consulta.html",
-      "bytes": 22363,
-      "sha256": "e74bbf97fcc528afb4935238dcdf0f1a1a7e4c744941359d19976981c772fdbc"
+      "bytes": 22357,
+      "sha256": "d0a0bb903d9e72edc387804a16dd3a94fe0c499d236c270f11f19a69f2687a41"
     },
     {
       "ruta": "publico/correspondencia.json",
       "bytes": 80612,
-      "sha256": "c0f9b618c8e09a40964e17dcb338ce4535c204299c97e418540bbb8694396a2e"
+      "sha256": "6169ddd0e4390eb4bcf8bf3fb93adad1ed4132f87221173fe2fc526dc3966660"
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1320,13 +1318,13 @@
     },
     {
       "ruta": "publico/index.html",
-      "bytes": 21727,
-      "sha256": "4faa9abec8c7a7b08e2c9aafe5c1768f961dd51be57c4497d5f981d2901f2621"
+      "bytes": 21774,
+      "sha256": "f126b64e94a6b9e670c1a36e6238473e2c7607529114efaa343f928ea61d057a"
     },
     {
       "ruta": "publico/indice.html",
-      "bytes": 21727,
-      "sha256": "4faa9abec8c7a7b08e2c9aafe5c1768f961dd51be57c4497d5f981d2901f2621"
+      "bytes": 21774,
+      "sha256": "f126b64e94a6b9e670c1a36e6238473e2c7607529114efaa343f928ea61d057a"
     },
     {
       "ruta": "publico/libros/ciberseguridad/src/01-evidencia-y-limites.md",
@@ -1390,18 +1388,18 @@
     },
     {
       "ruta": "publico/libros/guia/src/consulta.md",
-      "bytes": 1723,
-      "sha256": "e05b0d2ceebe8673e9ae76970949ec4920e3aa99a023247751ba02c280e08062"
+      "bytes": 1717,
+      "sha256": "887895cad2f21063a208940e388510e699edb2aff67e8f7bedaa220c044ada22"
     },
     {
       "ruta": "publico/libros/guia/src/indice.md",
-      "bytes": 2375,
-      "sha256": "90fc9efd096ca3bf09a2e06c20b45fb5e919f5e6c001deb6fec8df2d3dd0159b"
+      "bytes": 2422,
+      "sha256": "970c0b348ab8ba9da7964694a677b8f841541978e69a87971cfdde16ce60598d"
     },
     {
       "ruta": "publico/libros/guia/src/licencias.md",
-      "bytes": 1254,
-      "sha256": "05a07947548f411f1200a080368c82fceae2a66bba285a11e60273f3d15c3173"
+      "bytes": 1248,
+      "sha256": "9cb586d489c1efbdbb0b1be8957faae852e2bac4132878581275c1895bc0eb83"
     },
     {
       "ruta": "publico/libros/guia/src/organizacion.md",
@@ -1520,8 +1518,8 @@
     },
     {
       "ruta": "publico/licencias.html",
-      "bytes": 20387,
-      "sha256": "e60e5217e341854484de9815599963420f192795e6134d10066f29ddc5884ede"
+      "bytes": 20381,
+      "sha256": "3a7900513076d45e8a2b7fab2271f6d914add01afd192f68fc7ab3afaacb9578"
     },
     {
       "ruta": "publico/mdbook-license.txt",
@@ -1746,7 +1744,7 @@
     {
       "ruta": "publico/organizacion.html",
       "bytes": 22270,
-      "sha256": "d2275d9ba19d0b6d176c231543a060a26062017a4356fc008bddecaa9a064f9e"
+      "sha256": "9321d594404f44def57d543617fa2743ea506cbfa3d4f9ef7bd0e5f4d80b7603"
     },
     {
       "ruta": "publico/presentacion-37d67f97.js",
@@ -1755,8 +1753,8 @@
     },
     {
       "ruta": "publico/print.html",
-      "bytes": 26429,
-      "sha256": "2f1047fbe8fadee125d5ffb58a18513670b6b81d2fdb4a1176914cc4f268c9fa"
+      "bytes": 26464,
+      "sha256": "3e6151767a983a42d9189efb3a574fa4ff4ed89c43e37e071a58a98540f41293"
     },
     {
       "ruta": "publico/toc-106a912a.js",
@@ -1818,5 +1816,7 @@
       "bytes": 2819,
       "sha256": "a289e5ecd75a55c4e729bbd51851364aa0a6ca987c8c602192509fc3b081f1c4"
     }
-  ]
+  ],
+  "version": 1,
+  "licencia": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
 }

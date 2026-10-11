@@ -4,7 +4,7 @@
 
 Cada libro dispone de un índice y de apartados identificables. Para citar un contenido, conviene indicar título de la obra, versión, capítulo y fecha de consulta.
 
-El manual conserva sus textos históricos y sus advertencias. El nuevo libro de normativa es una edición pública propia, V.01, de 10 de octubre de 2026.
+El manual conserva sus textos históricos y sus advertencias. El libro de normativa es una edición pública propia, V.01, de 10 de octubre de 2026.
 
 ## Fuentes y alcance
 
