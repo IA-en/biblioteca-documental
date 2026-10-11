@@ -1,0 +1,31 @@
+# Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros
+
+**V.01 · 12 de octubre de 2026 · Original en español.**
+
+Este libro explica la metodología de construcción de los dominios y Universos del Sistema Vectorial SV: cómo se delimita el conocimiento pertinente, se seleccionan sus fuentes, se justifican los parámetros y se comprueban sus relaciones y límites. Inmunología y ciberseguridad permiten reconocer la aplicación de estos principios en ámbitos diferentes.
+
+## Dominios
+
+| Dominio | Consulta |
+| --- | --- |
+| Inmunología | [Construcción del ámbito profesional y primer Universo](inmunologia.md) |
+| Ciberseguridad | [Aplicación del método a la corrección de vulnerabilidades](ciberseguridad.md) |
+| Neumología | Actualmente en estudio y evaluación. |
+
+## Cómo leer este libro
+
+Las [definiciones](conceptos.md) precisan dominio, Universo, parámetro y relación. La [metodología](metodologia.md) explica los criterios que deben conservarse en los Universos presentes y futuros. Los capítulos de cada dominio muestran su alcance y enlazan las definiciones originales cuando se necesita mayor detalle.
+
+Los capítulos distinguen entre conocimiento documentado, comprobaciones declaradas en las fuentes y usos todavía no autorizados o no acreditados. Una referencia bibliográfica, un archivo disponible o una definición formal no bastan para afirmar validación clínica u operacional.
+
+Esta primera edición reúne los fundamentos metodológicos y su aplicación documental en inmunología y ciberseguridad. El índice podrá incorporar otros dominios y Universos conforme dispongan de definición y fuentes identificadas. La incorporación al libro no concede acceso a documentación reservada ni habilita su entrega a una IA.
+
+## Relación con los demás libros
+
+Las reglas de incorporación, lectura, licencia y suministro se explican en [Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA](../../documentacion/reglas-usos-descripciones-documentales/index.html). Las prioridades documentales y relaciones entre Universos están descritas en su [capítulo específico](../../documentacion/reglas-usos-descripciones-documentales/prioridades.html).
+
+El marco de garantías se consulta en [Normativa, trazabilidad y seguimiento de la IA en el SV](../../normativa/trazabilidad-y-seguimiento-ia/index.html). Los demás títulos permanecen accesibles desde la [Biblioteca del SV](../../index.html).
+
+---
+
+© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

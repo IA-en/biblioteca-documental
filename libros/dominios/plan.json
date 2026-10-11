@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "libro": "SV_DOMINIOS",
+  "summary": {
+    "titulo": "Índice",
+    "url": "urn:sv:documento:sha256:4fe8bdae60ff8e6aea13d39d44b99d15822b89905f7b78021be44fb44843338c",
+    "sha256": "4fe8bdae60ff8e6aea13d39d44b99d15822b89905f7b78021be44fb44843338c",
+    "ruta": "SUMMARY.md",
+    "id": "DOMINIOS-01"
+  },
+  "capitulos": [
+    {
+      "titulo": "Presentación",
+      "url": "urn:sv:documento:sha256:390c999367747ca98b0a2ff2245feb8cfa3cff4392416147b4b95e85b06f5f8a",
+      "sha256": "390c999367747ca98b0a2ff2245feb8cfa3cff4392416147b4b95e85b06f5f8a",
+      "ruta": "presentacion.md",
+      "id": "DOMINIOS-02"
+    },
+    {
+      "titulo": "Definiciones y relaciones",
+      "url": "urn:sv:documento:sha256:1a8d1dadfd44668ad75aa80b68861f818171f2cf3174aa453b06afd79a12e9a8",
+      "sha256": "1a8d1dadfd44668ad75aa80b68861f818171f2cf3174aa453b06afd79a12e9a8",
+      "ruta": "conceptos.md",
+      "id": "DOMINIOS-03"
+    },
+    {
+      "titulo": "Metodología de construcción",
+      "url": "urn:sv:documento:sha256:5eaef9c0de90f527657ce6caa758ff9274a6c6097ca4444378b2aa6dff5a2068",
+      "sha256": "5eaef9c0de90f527657ce6caa758ff9274a6c6097ca4444378b2aa6dff5a2068",
+      "ruta": "metodologia.md",
+      "id": "DOMINIOS-04"
+    },
+    {
+      "titulo": "Inmunología",
+      "url": "urn:sv:documento:sha256:4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568",
+      "sha256": "4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568",
+      "ruta": "inmunologia.md",
+      "id": "DOMINIOS-05"
+    },
+    {
+      "titulo": "Ciberseguridad",
+      "url": "urn:sv:documento:sha256:f6771250d61766ccce245eadc013645e34a51a0fe98136b5dbb4dbca2e4c2928",
+      "sha256": "f6771250d61766ccce245eadc013645e34a51a0fe98136b5dbb4dbca2e4c2928",
+      "ruta": "ciberseguridad.md",
+      "id": "DOMINIOS-06"
+    },
+    {
+      "titulo": "Fuentes, versiones y ampliación",
+      "url": "urn:sv:documento:sha256:33ae407507f9128ccb25e557db30cf58fe370d54171d2afd203c7d18aa9d2491",
+      "sha256": "33ae407507f9128ccb25e557db30cf58fe370d54171d2afd203c7d18aa9d2491",
+      "ruta": "fuentes.md",
+      "id": "DOMINIOS-07"
+    }
+  ],
+  "revision": "cf59358a7a9ea3a0e13c11f2f2176aebd208f29a3800892b39f66ed08b0ebca7"
+}
