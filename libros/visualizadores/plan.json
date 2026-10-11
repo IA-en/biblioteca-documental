@@ -11,9 +11,9 @@
     {
       "id": "VISUALIZADORES-03",
       "titulo": "Formatos, representaciones y límites",
-      "sha256": "9c08e3ad49e5fe06f963c2cffae145e8233881c5a6d60be010b830b0e26a2dd7",
+      "sha256": "51b00e9f47c402262bcc83e75ba26d081b1d70c750142761cd1e761ab1f536ec",
       "ruta": "formatos.md",
-      "url": "urn:sv:documento:sha256:9c08e3ad49e5fe06f963c2cffae145e8233881c5a6d60be010b830b0e26a2dd7"
+      "url": "urn:sv:documento:sha256:51b00e9f47c402262bcc83e75ba26d081b1d70c750142761cd1e761ab1f536ec"
     },
     {
       "id": "VISUALIZADORES-04",
@@ -44,6 +44,6 @@
     "ruta": "SUMMARY.md",
     "url": "urn:sv:documento:sha256:8bff1ac2964da189d3cb06e28a95d0dac60020fb692964998b9b5bdfc448eed5"
   },
-  "revision": "0b34023a408381c16992dbd60ee8945c684ee1502e8256e08ecf5a8d3bc23f47",
+  "revision": "7de219f0d0b77c7b381951c5a6ff0eb802fdbc10c15217b8484e061f5d68e011",
   "libro": "SV_VISUALIZADORES"
 }

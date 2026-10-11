@@ -1,1507 +1,1507 @@
 {
-  "version": 1,
+  "exclusion": "El manifiesto no se incluye a sí mismo",
+  "licencia": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).",
   "archivos": [
     {
-      "ruta": ".gitattributes",
       "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
-      "bytes": 8
+      "bytes": 8,
+      "ruta": ".gitattributes"
     },
     {
-      "ruta": ".gitignore",
       "sha256": "b53ee26e6ff1da219b0563333a76d2c9ec19eec713d6ee54e11a1edacb0e9f3d",
-      "bytes": 8
+      "bytes": 8,
+      "ruta": ".gitignore"
     },
     {
-      "ruta": "AUTORIA-Y-LICENCIAS.md",
       "sha256": "660bf5644667505d1a2c7ec4ad89965bb6af7a976b30e3df87bbdfe249c00969",
-      "bytes": 910
+      "bytes": 910,
+      "ruta": "AUTORIA-Y-LICENCIAS.md"
     },
     {
-      "ruta": "biblioteca.json",
-      "sha256": "1690b1f226c4f231f93913db2d9eea43551f9f4a5ec7365a68e2109c4c75fb08",
-      "bytes": 19252
+      "sha256": "0d13828585e430ee9e5ec052266242c9d5a6cf3976a08392eb9260a53cb2504d",
+      "bytes": 19269,
+      "ruta": "biblioteca.json"
     },
     {
-      "ruta": "copias-historicas.json",
       "sha256": "3bedd4bafd5adefc955e4bafa5850c82dcf743fb84cc4f077767b5e50b40f2c0",
-      "bytes": 711
+      "bytes": 711,
+      "ruta": "copias-historicas.json"
     },
     {
-      "ruta": "correspondencia.json",
-      "sha256": "4eda774b65dc5a08501217115f99c0c3a85770d57fc45fb7976f09583c55c358",
-      "bytes": 57597
+      "sha256": "4a1cc13d48887a8b482e8bd50c799fada75c152a4d19168635304236535ebb54",
+      "bytes": 57614,
+      "ruta": "correspondencia.json"
     },
     {
-      "ruta": "libros/guia/biblioteca.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "libros/guia/biblioteca.css"
     },
     {
-      "ruta": "libros/guia/book.toml",
       "sha256": "06a1e04f8ba25e16e8c500a529f47b069764b28f315aa30397fa095d588fe640",
-      "bytes": 524
+      "bytes": 524,
+      "ruta": "libros/guia/book.toml"
     },
     {
-      "ruta": "libros/guia/plan.json",
       "sha256": "5a33a6a1c02cc02a4b38a6db91038c8daffa6a8012b9a6dc118581238d44fab3",
-      "bytes": 1639
+      "bytes": 1639,
+      "ruta": "libros/guia/plan.json"
     },
     {
-      "ruta": "libros/guia/presentacion.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "libros/guia/presentacion.js"
     },
     {
-      "ruta": "libros/guia/src/consulta.md",
       "sha256": "e05b0d2ceebe8673e9ae76970949ec4920e3aa99a023247751ba02c280e08062",
-      "bytes": 1723
+      "bytes": 1723,
+      "ruta": "libros/guia/src/consulta.md"
     },
     {
-      "ruta": "libros/guia/src/indice.md",
       "sha256": "9e45a9a81b34e29aeae8324fca03a0314c725180a5969226ae1953394f656f6e",
-      "bytes": 2084
+      "bytes": 2084,
+      "ruta": "libros/guia/src/indice.md"
     },
     {
-      "ruta": "libros/guia/src/licencias.md",
       "sha256": "05a07947548f411f1200a080368c82fceae2a66bba285a11e60273f3d15c3173",
-      "bytes": 1254
+      "bytes": 1254,
+      "ruta": "libros/guia/src/licencias.md"
     },
     {
-      "ruta": "libros/guia/src/organizacion.md",
       "sha256": "50dcb8b36c6f092ddf84b5990344b40104effc3866b5ec4768ccbc8aa98f693b",
-      "bytes": 1678
+      "bytes": 1678,
+      "ruta": "libros/guia/src/organizacion.md"
     },
     {
-      "ruta": "libros/guia/src/SUMMARY.md",
       "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
-      "bytes": 203
+      "bytes": 203,
+      "ruta": "libros/guia/src/SUMMARY.md"
     },
     {
-      "ruta": "libros/guia/theme/index.hbs",
       "sha256": "df520fafb2745502c999644f7fc5040c7242728282b2b5bc3ffbebf690e09971",
-      "bytes": 17673
+      "bytes": 17673,
+      "ruta": "libros/guia/theme/index.hbs"
     },
     {
-      "ruta": "libros/manual/biblioteca.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "libros/manual/biblioteca.css"
     },
     {
-      "ruta": "libros/manual/book.toml",
       "sha256": "c16c656c37e4515d4c37497f8ee80a07cc4d744afe25a6b2dff9d8d626e76f0d",
-      "bytes": 585
+      "bytes": 585,
+      "ruta": "libros/manual/book.toml"
     },
     {
-      "ruta": "libros/manual/plan.json",
       "sha256": "87c6d954b4888b298935013e1c31aa7dd12e73e5ef02b315b3b87e1707579566",
-      "bytes": 1439
+      "bytes": 1439,
+      "ruta": "libros/manual/plan.json"
     },
     {
-      "ruta": "libros/manual/presentacion.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "libros/manual/presentacion.js"
     },
     {
-      "ruta": "libros/manual/src/constructor.md",
       "sha256": "305e9a9763a026c47a0f92414bd8adf48018aa1025fcbf8edfab2ed9b4e72111",
-      "bytes": 3332
+      "bytes": 3332,
+      "ruta": "libros/manual/src/constructor.md"
     },
     {
-      "ruta": "libros/manual/src/presentacion.md",
       "sha256": "223f37b63c8c322cc4ae49d747e55d5e845b5a88793481ea7b4ed105c327f509",
-      "bytes": 2191
+      "bytes": 2191,
+      "ruta": "libros/manual/src/presentacion.md"
     },
     {
-      "ruta": "libros/manual/src/SUMMARY.md",
       "sha256": "83ec7ac70de9413211508ff25556aabe8b1f461afa614e4587ad67c1663f04b8",
-      "bytes": 729
+      "bytes": 729,
+      "ruta": "libros/manual/src/SUMMARY.md"
     },
     {
-      "ruta": "libros/manual/src/tramo-10.md",
       "sha256": "f872a6734c694e5763ea275f9cde3620d27bc17fd021604f8fce2912b40f2ea8",
-      "bytes": 847
+      "bytes": 847,
+      "ruta": "libros/manual/src/tramo-10.md"
     },
     {
-      "ruta": "libros/manual/theme/index.hbs",
       "sha256": "000d3a1496faaf3fe99818595a66ab4a602bc7c6d1ccbe659764e9d6ec2c59b1",
-      "bytes": 17739
+      "bytes": 17739,
+      "ruta": "libros/manual/theme/index.hbs"
     },
     {
-      "ruta": "libros/normativa/biblioteca.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "libros/normativa/biblioteca.css"
     },
     {
-      "ruta": "libros/normativa/book.toml",
       "sha256": "3b0013ff265133ba074b199bcdf3593dae34a84a14e4bf013d18dedc79f06f6d",
-      "bytes": 591
+      "bytes": 591,
+      "ruta": "libros/normativa/book.toml"
     },
     {
-      "ruta": "libros/normativa/plan.json",
       "sha256": "36743f88c0f4b9c4f16988bf7ca51d2151ed299e51aa7b3544108c65368eccbd",
-      "bytes": 3300
+      "bytes": 3300,
+      "ruta": "libros/normativa/plan.json"
     },
     {
-      "ruta": "libros/normativa/presentacion.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "libros/normativa/presentacion.js"
     },
     {
-      "ruta": "libros/normativa/src/ciberseguridad.md",
       "sha256": "098735b7786e81b15b73d97e3a6b6a5a50dffd7b17a906d7059670a41c0d26f4",
-      "bytes": 3382
+      "bytes": 3382,
+      "ruta": "libros/normativa/src/ciberseguridad.md"
     },
     {
-      "ruta": "libros/normativa/src/derechos.md",
       "sha256": "fe9e45bbf6f6e0fe0e8a46c8ef590288926546cd80ed756704d6ad0b03360507",
-      "bytes": 2994
+      "bytes": 2994,
+      "ruta": "libros/normativa/src/derechos.md"
     },
     {
-      "ruta": "libros/normativa/src/evaluacion.md",
       "sha256": "c0f2f4063986d4aa3d5b3c13a38b2990a60ab8cad7226d7d90118afbfb981882",
-      "bytes": 2859
+      "bytes": 2859,
+      "ruta": "libros/normativa/src/evaluacion.md"
     },
     {
-      "ruta": "libros/normativa/src/garantias.md",
       "sha256": "c1ea55cae07e42bffd9611c5b1ac0ac06f1b6a29f07deec9ac4b7168ffb73fc4",
-      "bytes": 2878
+      "bytes": 2878,
+      "ruta": "libros/normativa/src/garantias.md"
     },
     {
-      "ruta": "libros/normativa/src/marco-normativo.md",
       "sha256": "e997ce5b57ce9ac8dd8d1727383e9dec7465d36d235b06cd021cefce996f6062",
-      "bytes": 3762
+      "bytes": 3762,
+      "ruta": "libros/normativa/src/marco-normativo.md"
     },
     {
-      "ruta": "libros/normativa/src/presentacion.md",
       "sha256": "084b7dc71d2cda342b9662d15a78d8a3daa309654d0f974f02efb7954d324f73",
-      "bytes": 2437
+      "bytes": 2437,
+      "ruta": "libros/normativa/src/presentacion.md"
     },
     {
-      "ruta": "libros/normativa/src/referencias.md",
       "sha256": "e7e145813285a722156a08e034d0dc58dbeed344092c63584a1ff9a57bc6365e",
-      "bytes": 4463
+      "bytes": 4463,
+      "ruta": "libros/normativa/src/referencias.md"
     },
     {
-      "ruta": "libros/normativa/src/SUMMARY.md",
       "sha256": "5a0924cc5d20ddc704b30804cfeccc388a790425049b111c946992bb0af3b81e",
-      "bytes": 507
+      "bytes": 507,
+      "ruta": "libros/normativa/src/SUMMARY.md"
     },
     {
-      "ruta": "libros/normativa/src/trazabilidad.md",
       "sha256": "f5ac6a959d34d52cbabd5ebcd77abb291c89498667c70ac19b2ab27866c7c822",
-      "bytes": 3509
+      "bytes": 3509,
+      "ruta": "libros/normativa/src/trazabilidad.md"
     },
     {
-      "ruta": "libros/normativa/src/uso-sanitario.md",
       "sha256": "bed7acb4ebe90b35f075b2c136f1bbd21504907176f9d049350c21fd7089eefb",
-      "bytes": 2708
+      "bytes": 2708,
+      "ruta": "libros/normativa/src/uso-sanitario.md"
     },
     {
-      "ruta": "libros/normativa/theme/index.hbs",
       "sha256": "c43931e113a33c68e5ddd040af06921cc663bfe5f427a08d6eab3de13ba1038d",
-      "bytes": 17690
+      "bytes": 17690,
+      "ruta": "libros/normativa/theme/index.hbs"
     },
     {
-      "ruta": "libros/nota-sustitucion/biblioteca.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "libros/nota-sustitucion/biblioteca.css"
     },
     {
-      "ruta": "libros/nota-sustitucion/book.toml",
       "sha256": "b03c5ccdf7569d32339510291c8f56fbbc642eec81a0525a04d07664e1df94bf",
-      "bytes": 605
+      "bytes": 605,
+      "ruta": "libros/nota-sustitucion/book.toml"
     },
     {
-      "ruta": "libros/nota-sustitucion/presentacion.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "libros/nota-sustitucion/presentacion.js"
     },
     {
-      "ruta": "libros/nota-sustitucion/src/aviso.md",
       "sha256": "2437457b12ead68d4f053aeda7e6163eddc3f43e8086b97b7473e8cc5d741a75",
-      "bytes": 974
+      "bytes": 974,
+      "ruta": "libros/nota-sustitucion/src/aviso.md"
     },
     {
-      "ruta": "libros/nota-sustitucion/src/SUMMARY.md",
       "sha256": "3fad7cf1b6ed319b68440a4bd1582c5e5eb6d680e1780c6dfe1fbc58c8bf8c7e",
-      "bytes": 51
+      "bytes": 51,
+      "ruta": "libros/nota-sustitucion/src/SUMMARY.md"
     },
     {
-      "ruta": "libros/nota-sustitucion/theme/index.hbs",
       "sha256": "fc923a9896b2b5b1e685b1f4b94e06514aebb089c6bfcc585159d5c1f0f3fb60",
-      "bytes": 17709
+      "bytes": 17709,
+      "ruta": "libros/nota-sustitucion/theme/index.hbs"
     },
     {
-      "ruta": "libros/visualizadores/biblioteca.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "libros/visualizadores/biblioteca.css"
     },
     {
-      "ruta": "libros/visualizadores/book.toml",
       "sha256": "84ec7869fd6b076c8c7dddd514caabbd507b51f6b929f1f5797525964fac89c7",
-      "bytes": 572
+      "bytes": 572,
+      "ruta": "libros/visualizadores/book.toml"
     },
     {
-      "ruta": "libros/visualizadores/plan.json",
-      "sha256": "4c0b2c738bb71efdf2ba3b1cc6155b15ea353b5e51da0d17a711daffe6715399",
-      "bytes": 2094
+      "sha256": "d784edce4812f555f485bba8a33c21dc27f9c817d1a5578b5b436ab72f18dd9c",
+      "bytes": 2094,
+      "ruta": "libros/visualizadores/plan.json"
     },
     {
-      "ruta": "libros/visualizadores/presentacion.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "libros/visualizadores/presentacion.js"
     },
     {
-      "ruta": "libros/visualizadores/src/entrega.md",
       "sha256": "06baed238658b51bb511e9faf2ec820a9f42233a969e7d54745e6809ce97f915",
-      "bytes": 6857
+      "bytes": 6857,
+      "ruta": "libros/visualizadores/src/entrega.md"
     },
     {
-      "ruta": "libros/visualizadores/src/finalidad.md",
       "sha256": "25faf37f05de39e5aa06ebe057a371d778cba5b663ed442cc2a56b3692aca738",
-      "bytes": 3843
+      "bytes": 3843,
+      "ruta": "libros/visualizadores/src/finalidad.md"
     },
     {
-      "ruta": "libros/visualizadores/src/formatos.md",
-      "sha256": "9c08e3ad49e5fe06f963c2cffae145e8233881c5a6d60be010b830b0e26a2dd7",
-      "bytes": 8733
+      "sha256": "51b00e9f47c402262bcc83e75ba26d081b1d70c750142761cd1e761ab1f536ec",
+      "bytes": 9042,
+      "ruta": "libros/visualizadores/src/formatos.md"
     },
     {
-      "ruta": "libros/visualizadores/src/revision.md",
       "sha256": "e6e786319bb9302df0fd3131417099c5f4d8750c685c1501bdc42c3ba5dacd5a",
-      "bytes": 4962
+      "bytes": 4962,
+      "ruta": "libros/visualizadores/src/revision.md"
     },
     {
-      "ruta": "libros/visualizadores/src/SUMMARY.md",
       "sha256": "8bff1ac2964da189d3cb06e28a95d0dac60020fb692964998b9b5bdfc448eed5",
-      "bytes": 630
+      "bytes": 630,
+      "ruta": "libros/visualizadores/src/SUMMARY.md"
     },
     {
-      "ruta": "libros/visualizadores/src/verificacion.md",
       "sha256": "660cf4e89490c46a0504d8e03ee44a539aab95f7f1fd8de7453bf1d534255a34",
-      "bytes": 8956
+      "bytes": 8956,
+      "ruta": "libros/visualizadores/src/verificacion.md"
     },
     {
-      "ruta": "libros/visualizadores/theme/index.hbs",
       "sha256": "f8a38e6cee9571e6ab2965cfa81f3c920919ba25eae468a2d0f35e044700f27d",
-      "bytes": 17850
+      "bytes": 17850,
+      "ruta": "libros/visualizadores/theme/index.hbs"
     },
     {
-      "ruta": "mdbook-license.txt",
       "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e",
-      "bytes": 15921
+      "bytes": 15921,
+      "ruta": "mdbook-license.txt"
     },
     {
-      "ruta": "politica-verificacion.json",
-      "sha256": "f809445fbe67495afcd0ab434343ddce9948035ce51590d12a45e84beac560a9",
-      "bytes": 320
+      "sha256": "efeaf9a8c924a663daabaca12d15e03d8a49143b10042a13f902a758abfa3a3e",
+      "bytes": 320,
+      "ruta": "politica-verificacion.json"
     },
     {
-      "ruta": "presentacion.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "presentacion.js"
     },
     {
-      "ruta": "publico/_headers",
       "sha256": "298f97754a2053aa779e1d86968504311b960fa5cb94c117f6b11846d327a73d",
-      "bytes": 151
+      "bytes": 151,
+      "ruta": "publico/_headers"
     },
     {
-      "ruta": "publico/_routes.json",
       "sha256": "5d3983191e572327e461c8723e9c273e07209ac9b8a7a7975d44d0fd7888ef5d",
-      "bytes": 156
+      "bytes": 156,
+      "ruta": "publico/_routes.json"
     },
     {
-      "ruta": "publico/_worker.js",
       "sha256": "a289e5ecd75a55c4e729bbd51851364aa0a6ca987c8c602192509fc3b081f1c4",
-      "bytes": 2819
+      "bytes": 2819,
+      "ruta": "publico/_worker.js"
     },
     {
-      "ruta": "publico/.nojekyll",
       "sha256": "235d4f83c4c71612f43995dbda167720cd0c5384bf9ea64f9328b187c409b51d",
-      "bytes": 72
+      "bytes": 72,
+      "ruta": "publico/.nojekyll"
     },
     {
-      "ruta": "publico/404.html",
       "sha256": "3998ed754361c9e8f3e1641ed298bd340e189da849aef7bca835cf7bfa37ad68",
-      "bytes": 17553
+      "bytes": 17553,
+      "ruta": "publico/404.html"
     },
     {
-      "ruta": "publico/ayu-highlight-3fdfc3ac.css",
       "sha256": "3fdfc3ac5e435e0cef96dafee74da487e4846ffce4dff5973bb45d68b678dd7f",
-      "bytes": 907
+      "bytes": 907,
+      "ruta": "publico/ayu-highlight-3fdfc3ac.css"
     },
     {
-      "ruta": "publico/biblioteca-f3251d8f.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "publico/biblioteca-f3251d8f.css"
     },
     {
-      "ruta": "publico/book-609e4cb8.js",
       "sha256": "609e4cb80f92aa954a3f48869c751f6f8848433604f1297bb70fde0e3e58a569",
-      "bytes": 30932
+      "bytes": 30932,
+      "ruta": "publico/book-609e4cb8.js"
     },
     {
-      "ruta": "publico/clipboard-1626706a.min.js",
       "sha256": "1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44",
-      "bytes": 10754
+      "bytes": 10754,
+      "ruta": "publico/clipboard-1626706a.min.js"
     },
     {
-      "ruta": "publico/consulta.html",
       "sha256": "e74bbf97fcc528afb4935238dcdf0f1a1a7e4c744941359d19976981c772fdbc",
-      "bytes": 22363
+      "bytes": 22363,
+      "ruta": "publico/consulta.html"
     },
     {
-      "ruta": "publico/correspondencia.json",
-      "sha256": "4eda774b65dc5a08501217115f99c0c3a85770d57fc45fb7976f09583c55c358",
-      "bytes": 57597
+      "sha256": "4a1cc13d48887a8b482e8bd50c799fada75c152a4d19168635304236535ebb54",
+      "bytes": 57614,
+      "ruta": "publico/correspondencia.json"
     },
     {
-      "ruta": "publico/css/chrome-d279d366.css",
       "sha256": "d279d366359c0d588c9c10cb46afe2b543fc731dea722803639b4e45016d5fe2",
-      "bytes": 18032
+      "bytes": 18032,
+      "ruta": "publico/css/chrome-d279d366.css"
     },
     {
-      "ruta": "publico/css/general-e96d0476.css",
       "sha256": "e96d0476741bfcbe8cc0ac02db00187c45a63946834361d0eab846016787c646",
-      "bytes": 11478
+      "bytes": 11478,
+      "ruta": "publico/css/general-e96d0476.css"
     },
     {
-      "ruta": "publico/css/print-9e4910d8.css",
       "sha256": "9e4910d8eb508863172430c60d49fd3b442e9e7f5963a18cd1d655c386ffeae9",
-      "bytes": 689
+      "bytes": 689,
+      "ruta": "publico/css/print-9e4910d8.css"
     },
     {
-      "ruta": "publico/css/variables-8adf115d.css",
       "sha256": "8adf115df892369c90b830767c4651a9e058b79273e219935f7c8a96c6eab9c0",
-      "bytes": 10422
+      "bytes": 10422,
+      "ruta": "publico/css/variables-8adf115d.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/.nojekyll",
       "sha256": "235d4f83c4c71612f43995dbda167720cd0c5384bf9ea64f9328b187c409b51d",
-      "bytes": 72
+      "bytes": 72,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/.nojekyll"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/404.html",
       "sha256": "e7f8c2a7a7d9c2b57f730116f834d28bb29d3966fdc75f60692c960bac337cdd",
-      "bytes": 17844
+      "bytes": 17844,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/404.html"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/ayu-highlight-3fdfc3ac.css",
       "sha256": "3fdfc3ac5e435e0cef96dafee74da487e4846ffce4dff5973bb45d68b678dd7f",
-      "bytes": 907
+      "bytes": 907,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/ayu-highlight-3fdfc3ac.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/biblioteca-f3251d8f.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/biblioteca-f3251d8f.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/book-609e4cb8.js",
       "sha256": "609e4cb80f92aa954a3f48869c751f6f8848433604f1297bb70fde0e3e58a569",
-      "bytes": 30932
+      "bytes": 30932,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/book-609e4cb8.js"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/clipboard-1626706a.min.js",
       "sha256": "1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44",
-      "bytes": 10754
+      "bytes": 10754,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/clipboard-1626706a.min.js"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/css/chrome-d279d366.css",
       "sha256": "d279d366359c0d588c9c10cb46afe2b543fc731dea722803639b4e45016d5fe2",
-      "bytes": 18032
+      "bytes": 18032,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/css/chrome-d279d366.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/css/general-e96d0476.css",
       "sha256": "e96d0476741bfcbe8cc0ac02db00187c45a63946834361d0eab846016787c646",
-      "bytes": 11478
+      "bytes": 11478,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/css/general-e96d0476.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/css/print-9e4910d8.css",
       "sha256": "9e4910d8eb508863172430c60d49fd3b442e9e7f5963a18cd1d655c386ffeae9",
-      "bytes": 689
+      "bytes": 689,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/css/print-9e4910d8.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/css/variables-8adf115d.css",
       "sha256": "8adf115df892369c90b830767c4651a9e058b79273e219935f7c8a96c6eab9c0",
-      "bytes": 10422
+      "bytes": 10422,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/css/variables-8adf115d.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/entrega.html",
       "sha256": "a9320c928c52808ccc1fbc1aed675bae2d34ce656d7e512ede8fdedac184d30a",
-      "bytes": 28499
+      "bytes": 28499,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/entrega.html"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/favicon-8114d1fc.png",
       "sha256": "8114d1fc74f4b5621ad9afde7746ed9cf7e420be317a6e29023d2298d58aa15b",
-      "bytes": 5679
+      "bytes": 5679,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/favicon-8114d1fc.png"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/favicon-de23e50b.svg",
       "sha256": "de23e50b1c4dd6e052b3e21d444fcd4b13568b3840ac3c99d9be4e9263c0ef59",
-      "bytes": 1835
+      "bytes": 1835,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/favicon-de23e50b.svg"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/finalidad.html",
       "sha256": "25c658f29da8ad17a4c23272d648dd070134e5f9cd8f69e40c6a1ef37e3c70e0",
-      "bytes": 23818
+      "bytes": 23818,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/finalidad.html"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/fonts-9644e21d.css",
       "sha256": "94b5131beb9b75a55f9649fcf12de167350feae0fab2bab26c2703cd75c0c781",
-      "bytes": 3818
+      "bytes": 3818,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/fonts-9644e21d.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/OPEN-SANS-LICENSE.txt",
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "bytes": 11358
+      "bytes": 11358,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/OPEN-SANS-LICENSE.txt"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2",
       "sha256": "7736aa3596c468515c3209f2f9d68cfae96d94c05689bcc11a5dce426a6ee2e8",
-      "bytes": 44352
+      "bytes": 44352,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2",
       "sha256": "2c7b95c08df0d228caec6d4bfed06da0f7ab6b76ea5cc3f75b5c6ae416bc571b",
-      "bytes": 40656
+      "bytes": 40656,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-600-486c6759.woff2",
       "sha256": "486c67592731a0b36a89dba1fd0b97aeb73f236bbf60dbf28d7c6b5723c07989",
-      "bytes": 44936
+      "bytes": 44936,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-600-486c6759.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2",
       "sha256": "1a3e865977024f444834a75a1b33b89b93134c93007ae3d6e14f24e6c88d8dfb",
-      "bytes": 42120
+      "bytes": 42120,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2",
       "sha256": "c22fe8c70c36f1d862903b772eaed864d3a8fa849473c9caff224fdb852428e4",
-      "bytes": 44988
+      "bytes": 44988,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2",
       "sha256": "238ae9593944112bee8dd65f8ebc5f3d3862160a8a245fbe1ee3150bc9a2fd81",
-      "bytes": 40800
+      "bytes": 40800,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2",
       "sha256": "3d2c812adf74deb36fead3ff8469800d3c0b23eb2c858ae49310291f89490146",
-      "bytes": 44536
+      "bytes": 44536,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2",
       "sha256": "ba1521ec219db9bc5bfec0e3e7a897369d98b30d4e853ee4aa525322784428b8",
-      "bytes": 40812
+      "bytes": 40812,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2",
       "sha256": "6c9463f7096c0b9d610e095ed248ac1e8a8da7e92d17e9be544f3baced7b62b2",
-      "bytes": 41076
+      "bytes": 41076,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2",
       "sha256": "2e3b1d34ac67763ab50652da19305d4b3694c6b6e6bf35f4b98411ce4af646d2",
-      "bytes": 43236
+      "bytes": 43236,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/SOURCE-CODE-PRO-LICENSE.txt",
       "sha256": "d1e6d465a83ba1a3be52db6484868cf5812ae9bbf91abdad3900ba0165afcf93",
-      "bytes": 4528
+      "bytes": 4528,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/SOURCE-CODE-PRO-LICENSE.txt"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2",
       "sha256": "2bdd9410b0141db3cbbf4cfc3818cc6fad279e8e63940940e06cd6af76ccbfcf",
-      "bytes": 59140
+      "bytes": 59140,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/formatos.html",
-      "sha256": "d25a423f9a650aa750352aa7c0b6b19f4cd8f0082b4f75ecda046b6f68218a05",
-      "bytes": 30605
+      "sha256": "5176d9243762c2f158a1c2c092b98caec0d32c243f5a5ade26c74b9195528979",
+      "bytes": 30914,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/formatos.html"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/highlight-493f70e1.css",
       "sha256": "493f70e1527d895653b5ac7157abba8e2c656e43698da93b6c1997e2855a5059",
-      "bytes": 1209
+      "bytes": 1209,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/highlight-493f70e1.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/highlight-abc7f01d.js",
       "sha256": "abc7f01d0ce8c64e4ba9e131d651e48ae1a567b2a1254fea8aab03502288de58",
-      "bytes": 137537
+      "bytes": 137537,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/highlight-abc7f01d.js"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/index.html",
       "sha256": "25c658f29da8ad17a4c23272d648dd070134e5f9cd8f69e40c6a1ef37e3c70e0",
-      "bytes": 23818
+      "bytes": 23818,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/index.html"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/presentacion-37d67f97.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/presentacion-37d67f97.js"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/print.html",
-      "sha256": "0f5851ad2f29e5ac67384eb643ab701c5db054edf2d13529acf2c4b9d42018d4",
-      "bytes": 56870
+      "sha256": "d8da5add979a0219a9a19b44cf35a33453a6ef4b8f4363477c32d6c38939e012",
+      "bytes": 57179,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/print.html"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/revision.html",
       "sha256": "255ad2434fb643347079a270311534a19c0ca7f0be6aa8eaacf776e469efb4fe",
-      "bytes": 26528
+      "bytes": 26528,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/revision.html"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/toc-4ca55d82.js",
       "sha256": "4ca55d8264b6ec5b63dd6c2ef5ebceeb40cd19a1bb459023e391d3b071522015",
-      "bytes": 20082
+      "bytes": 20082,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/toc-4ca55d82.js"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/toc.html",
       "sha256": "43b81c9663fec44f3b188bc3e242daff5df8b3ffa45871467bb56eb58920d5f7",
-      "bytes": 2447
+      "bytes": 2447,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/toc.html"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/tomorrow-night-4c0ae647.css",
       "sha256": "4c0ae647a06ef1699806fb9b4b6d0ef72de026708c6e8581362641c9298cb5f7",
-      "bytes": 1694
+      "bytes": 1694,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/tomorrow-night-4c0ae647.css"
     },
     {
-      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/verificacion.html",
       "sha256": "f146f08b609fe28e3cc0fbd83da0f2a5640721562993b81fba50bdfd7d9b0968",
-      "bytes": 29102
+      "bytes": 29102,
+      "ruta": "publico/documentacion/reglas-usos-descripciones-documentales/verificacion.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/.nojekyll",
       "sha256": "235d4f83c4c71612f43995dbda167720cd0c5384bf9ea64f9328b187c409b51d",
-      "bytes": 72
+      "bytes": 72,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/.nojekyll"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/01-evidencia-y-limites.html",
       "sha256": "74b8ab4ed9588eb62845353d048cd7f74a17c0ec331cf76b646dab6c23a02803",
-      "bytes": 18536
+      "bytes": 18536,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/01-evidencia-y-limites.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/02-incibe-ia-frontera.html",
       "sha256": "74b8ab4ed9588eb62845353d048cd7f74a17c0ec331cf76b646dab6c23a02803",
-      "bytes": 18536
+      "bytes": 18536,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/02-incibe-ia-frontera.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/03-nis2-texto-original.html",
       "sha256": "74b8ab4ed9588eb62845353d048cd7f74a17c0ec331cf76b646dab6c23a02803",
-      "bytes": 18536
+      "bytes": 18536,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/03-nis2-texto-original.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/04-autoria-derechos-y-fuentes.html",
       "sha256": "74b8ab4ed9588eb62845353d048cd7f74a17c0ec331cf76b646dab6c23a02803",
-      "bytes": 18536
+      "bytes": 18536,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/04-autoria-derechos-y-fuentes.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/404.html",
       "sha256": "99472de2de2e3c0422c771a2f353704a75b90f1f777d077fa18069fde38cd68a",
-      "bytes": 17633
+      "bytes": 17633,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/404.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/aviso.html",
       "sha256": "74b8ab4ed9588eb62845353d048cd7f74a17c0ec331cf76b646dab6c23a02803",
-      "bytes": 18536
+      "bytes": 18536,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/aviso.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/ayu-highlight-3fdfc3ac.css",
       "sha256": "3fdfc3ac5e435e0cef96dafee74da487e4846ffce4dff5973bb45d68b678dd7f",
-      "bytes": 907
+      "bytes": 907,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/ayu-highlight-3fdfc3ac.css"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/biblioteca-f3251d8f.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/biblioteca-f3251d8f.css"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/book-609e4cb8.js",
       "sha256": "609e4cb80f92aa954a3f48869c751f6f8848433604f1297bb70fde0e3e58a569",
-      "bytes": 30932
+      "bytes": 30932,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/book-609e4cb8.js"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/clipboard-1626706a.min.js",
       "sha256": "1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44",
-      "bytes": 10754
+      "bytes": 10754,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/clipboard-1626706a.min.js"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/css/chrome-d279d366.css",
       "sha256": "d279d366359c0d588c9c10cb46afe2b543fc731dea722803639b4e45016d5fe2",
-      "bytes": 18032
+      "bytes": 18032,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/css/chrome-d279d366.css"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/css/general-e96d0476.css",
       "sha256": "e96d0476741bfcbe8cc0ac02db00187c45a63946834361d0eab846016787c646",
-      "bytes": 11478
+      "bytes": 11478,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/css/general-e96d0476.css"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/css/print-9e4910d8.css",
       "sha256": "9e4910d8eb508863172430c60d49fd3b442e9e7f5963a18cd1d655c386ffeae9",
-      "bytes": 689
+      "bytes": 689,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/css/print-9e4910d8.css"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/css/variables-8adf115d.css",
       "sha256": "8adf115df892369c90b830767c4651a9e058b79273e219935f7c8a96c6eab9c0",
-      "bytes": 10422
+      "bytes": 10422,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/css/variables-8adf115d.css"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/favicon-8114d1fc.png",
       "sha256": "8114d1fc74f4b5621ad9afde7746ed9cf7e420be317a6e29023d2298d58aa15b",
-      "bytes": 5679
+      "bytes": 5679,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/favicon-8114d1fc.png"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/favicon-de23e50b.svg",
       "sha256": "de23e50b1c4dd6e052b3e21d444fcd4b13568b3840ac3c99d9be4e9263c0ef59",
-      "bytes": 1835
+      "bytes": 1835,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/favicon-de23e50b.svg"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/fonts-9644e21d.css",
       "sha256": "94b5131beb9b75a55f9649fcf12de167350feae0fab2bab26c2703cd75c0c781",
-      "bytes": 3818
+      "bytes": 3818,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/fonts-9644e21d.css"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/OPEN-SANS-LICENSE.txt",
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "bytes": 11358
+      "bytes": 11358,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/OPEN-SANS-LICENSE.txt"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2",
       "sha256": "7736aa3596c468515c3209f2f9d68cfae96d94c05689bcc11a5dce426a6ee2e8",
-      "bytes": 44352
+      "bytes": 44352,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2",
       "sha256": "2c7b95c08df0d228caec6d4bfed06da0f7ab6b76ea5cc3f75b5c6ae416bc571b",
-      "bytes": 40656
+      "bytes": 40656,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-600-486c6759.woff2",
       "sha256": "486c67592731a0b36a89dba1fd0b97aeb73f236bbf60dbf28d7c6b5723c07989",
-      "bytes": 44936
+      "bytes": 44936,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-600-486c6759.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2",
       "sha256": "1a3e865977024f444834a75a1b33b89b93134c93007ae3d6e14f24e6c88d8dfb",
-      "bytes": 42120
+      "bytes": 42120,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2",
       "sha256": "c22fe8c70c36f1d862903b772eaed864d3a8fa849473c9caff224fdb852428e4",
-      "bytes": 44988
+      "bytes": 44988,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2",
       "sha256": "238ae9593944112bee8dd65f8ebc5f3d3862160a8a245fbe1ee3150bc9a2fd81",
-      "bytes": 40800
+      "bytes": 40800,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2",
       "sha256": "3d2c812adf74deb36fead3ff8469800d3c0b23eb2c858ae49310291f89490146",
-      "bytes": 44536
+      "bytes": 44536,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2",
       "sha256": "ba1521ec219db9bc5bfec0e3e7a897369d98b30d4e853ee4aa525322784428b8",
-      "bytes": 40812
+      "bytes": 40812,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2",
       "sha256": "6c9463f7096c0b9d610e095ed248ac1e8a8da7e92d17e9be544f3baced7b62b2",
-      "bytes": 41076
+      "bytes": 41076,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2",
       "sha256": "2e3b1d34ac67763ab50652da19305d4b3694c6b6e6bf35f4b98411ce4af646d2",
-      "bytes": 43236
+      "bytes": 43236,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/SOURCE-CODE-PRO-LICENSE.txt",
       "sha256": "d1e6d465a83ba1a3be52db6484868cf5812ae9bbf91abdad3900ba0165afcf93",
-      "bytes": 4528
+      "bytes": 4528,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/SOURCE-CODE-PRO-LICENSE.txt"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2",
       "sha256": "2bdd9410b0141db3cbbf4cfc3818cc6fad279e8e63940940e06cd6af76ccbfcf",
-      "bytes": 59140
+      "bytes": 59140,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/highlight-493f70e1.css",
       "sha256": "493f70e1527d895653b5ac7157abba8e2c656e43698da93b6c1997e2855a5059",
-      "bytes": 1209
+      "bytes": 1209,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/highlight-493f70e1.css"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/highlight-abc7f01d.js",
       "sha256": "abc7f01d0ce8c64e4ba9e131d651e48ae1a567b2a1254fea8aab03502288de58",
-      "bytes": 137537
+      "bytes": 137537,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/highlight-abc7f01d.js"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/index.html",
       "sha256": "74b8ab4ed9588eb62845353d048cd7f74a17c0ec331cf76b646dab6c23a02803",
-      "bytes": 18536
+      "bytes": 18536,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/index.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/presentacion-37d67f97.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/presentacion-37d67f97.js"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/print.html",
       "sha256": "f8ededac7993800c526ab4a6c47f745a91fedecebc536fd7fa0aa49665782909",
-      "bytes": 18716
+      "bytes": 18716,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/print.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/toc-e89cc4ba.js",
       "sha256": "e89cc4badc4c0d6598ef0b402e490af8bcba371619eb91eb99fffb726a26d907",
-      "bytes": 19406
+      "bytes": 19406,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/toc-e89cc4ba.js"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/toc.html",
       "sha256": "0b101b863b6ade2eb3520d2e74dce566690651e52f4569016185625ab3912861",
-      "bytes": 1703
+      "bytes": 1703,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/toc.html"
     },
     {
-      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/tomorrow-night-4c0ae647.css",
       "sha256": "4c0ae647a06ef1699806fb9b4b6d0ef72de026708c6e8581362641c9298cb5f7",
-      "bytes": 1694
+      "bytes": 1694,
+      "ruta": "publico/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/tomorrow-night-4c0ae647.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/.nojekyll",
       "sha256": "235d4f83c4c71612f43995dbda167720cd0c5384bf9ea64f9328b187c409b51d",
-      "bytes": 72
+      "bytes": 72,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/.nojekyll"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/404.html",
       "sha256": "cf80e2292ccff6d31d4177c623c7f0c5af5ec42793f6bde1d7e6bb9f6e2753ef",
-      "bytes": 17661
+      "bytes": 17661,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/404.html"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/ayu-highlight-3fdfc3ac.css",
       "sha256": "3fdfc3ac5e435e0cef96dafee74da487e4846ffce4dff5973bb45d68b678dd7f",
-      "bytes": 907
+      "bytes": 907,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/ayu-highlight-3fdfc3ac.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/biblioteca-f3251d8f.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/biblioteca-f3251d8f.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/book-609e4cb8.js",
       "sha256": "609e4cb80f92aa954a3f48869c751f6f8848433604f1297bb70fde0e3e58a569",
-      "bytes": 30932
+      "bytes": 30932,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/book-609e4cb8.js"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/clipboard-1626706a.min.js",
       "sha256": "1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44",
-      "bytes": 10754
+      "bytes": 10754,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/clipboard-1626706a.min.js"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/constructor.html",
       "sha256": "8f95a8f4de16358454caa4ce48fef633957a59d17529a48f625965ee3b27715c",
-      "bytes": 26655
+      "bytes": 26655,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/constructor.html"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/css/chrome-d279d366.css",
       "sha256": "d279d366359c0d588c9c10cb46afe2b543fc731dea722803639b4e45016d5fe2",
-      "bytes": 18032
+      "bytes": 18032,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/css/chrome-d279d366.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/css/general-e96d0476.css",
       "sha256": "e96d0476741bfcbe8cc0ac02db00187c45a63946834361d0eab846016787c646",
-      "bytes": 11478
+      "bytes": 11478,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/css/general-e96d0476.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/css/print-9e4910d8.css",
       "sha256": "9e4910d8eb508863172430c60d49fd3b442e9e7f5963a18cd1d655c386ffeae9",
-      "bytes": 689
+      "bytes": 689,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/css/print-9e4910d8.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/css/variables-8adf115d.css",
       "sha256": "8adf115df892369c90b830767c4651a9e058b79273e219935f7c8a96c6eab9c0",
-      "bytes": 10422
+      "bytes": 10422,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/css/variables-8adf115d.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/favicon-8114d1fc.png",
       "sha256": "8114d1fc74f4b5621ad9afde7746ed9cf7e420be317a6e29023d2298d58aa15b",
-      "bytes": 5679
+      "bytes": 5679,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/favicon-8114d1fc.png"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/favicon-de23e50b.svg",
       "sha256": "de23e50b1c4dd6e052b3e21d444fcd4b13568b3840ac3c99d9be4e9263c0ef59",
-      "bytes": 1835
+      "bytes": 1835,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/favicon-de23e50b.svg"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/fonts-9644e21d.css",
       "sha256": "94b5131beb9b75a55f9649fcf12de167350feae0fab2bab26c2703cd75c0c781",
-      "bytes": 3818
+      "bytes": 3818,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/fonts-9644e21d.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/OPEN-SANS-LICENSE.txt",
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "bytes": 11358
+      "bytes": 11358,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/OPEN-SANS-LICENSE.txt"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2",
       "sha256": "7736aa3596c468515c3209f2f9d68cfae96d94c05689bcc11a5dce426a6ee2e8",
-      "bytes": 44352
+      "bytes": 44352,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2",
       "sha256": "2c7b95c08df0d228caec6d4bfed06da0f7ab6b76ea5cc3f75b5c6ae416bc571b",
-      "bytes": 40656
+      "bytes": 40656,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-600-486c6759.woff2",
       "sha256": "486c67592731a0b36a89dba1fd0b97aeb73f236bbf60dbf28d7c6b5723c07989",
-      "bytes": 44936
+      "bytes": 44936,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-600-486c6759.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2",
       "sha256": "1a3e865977024f444834a75a1b33b89b93134c93007ae3d6e14f24e6c88d8dfb",
-      "bytes": 42120
+      "bytes": 42120,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2",
       "sha256": "c22fe8c70c36f1d862903b772eaed864d3a8fa849473c9caff224fdb852428e4",
-      "bytes": 44988
+      "bytes": 44988,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2",
       "sha256": "238ae9593944112bee8dd65f8ebc5f3d3862160a8a245fbe1ee3150bc9a2fd81",
-      "bytes": 40800
+      "bytes": 40800,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2",
       "sha256": "3d2c812adf74deb36fead3ff8469800d3c0b23eb2c858ae49310291f89490146",
-      "bytes": 44536
+      "bytes": 44536,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2",
       "sha256": "ba1521ec219db9bc5bfec0e3e7a897369d98b30d4e853ee4aa525322784428b8",
-      "bytes": 40812
+      "bytes": 40812,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2",
       "sha256": "6c9463f7096c0b9d610e095ed248ac1e8a8da7e92d17e9be544f3baced7b62b2",
-      "bytes": 41076
+      "bytes": 41076,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2",
       "sha256": "2e3b1d34ac67763ab50652da19305d4b3694c6b6e6bf35f4b98411ce4af646d2",
-      "bytes": 43236
+      "bytes": 43236,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/SOURCE-CODE-PRO-LICENSE.txt",
       "sha256": "d1e6d465a83ba1a3be52db6484868cf5812ae9bbf91abdad3900ba0165afcf93",
-      "bytes": 4528
+      "bytes": 4528,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/SOURCE-CODE-PRO-LICENSE.txt"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2",
       "sha256": "2bdd9410b0141db3cbbf4cfc3818cc6fad279e8e63940940e06cd6af76ccbfcf",
-      "bytes": 59140
+      "bytes": 59140,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/highlight-493f70e1.css",
       "sha256": "493f70e1527d895653b5ac7157abba8e2c656e43698da93b6c1997e2855a5059",
-      "bytes": 1209
+      "bytes": 1209,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/highlight-493f70e1.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/highlight-abc7f01d.js",
       "sha256": "abc7f01d0ce8c64e4ba9e131d651e48ae1a567b2a1254fea8aab03502288de58",
-      "bytes": 137537
+      "bytes": 137537,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/highlight-abc7f01d.js"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/index.html",
       "sha256": "b3c703131d8aa68cef785e4195ca2d64c400808196c5548ed3d10336af5a88c3",
-      "bytes": 21642
+      "bytes": 21642,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/index.html"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion-37d67f97.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion-37d67f97.js"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion.html",
       "sha256": "b3c703131d8aa68cef785e4195ca2d64c400808196c5548ed3d10336af5a88c3",
-      "bytes": 21642
+      "bytes": 21642,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion.html"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/print.html",
       "sha256": "358a7ae3516a04a72e0a3391810f2432fc6d8640274a2ad64f594a004a13fe4d",
-      "bytes": 28260
+      "bytes": 28260,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/print.html"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/toc-cafaed88.js",
       "sha256": "cafaed88eb987254c35684edebf2237356a5bf42977f06e0ca59fb8add1afed2",
-      "bytes": 21146
+      "bytes": 21146,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/toc-cafaed88.js"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/toc.html",
       "sha256": "a381bb4ab03ac876ac562e03630d371d19e7c5e922646fcd318435ce629aab3d",
-      "bytes": 3477
+      "bytes": 3477,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/toc.html"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/tomorrow-night-4c0ae647.css",
       "sha256": "4c0ae647a06ef1699806fb9b4b6d0ef72de026708c6e8581362641c9298cb5f7",
-      "bytes": 1694
+      "bytes": 1694,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/tomorrow-night-4c0ae647.css"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/tramo-10.html",
       "sha256": "e0819e0ae876e12a06c8014ad5cbfdae2664cde045f156011062f10d6e1710e8",
-      "bytes": 20411
+      "bytes": 20411,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/tramo-10.html"
     },
     {
-      "ruta": "publico/favicon-8114d1fc.png",
       "sha256": "8114d1fc74f4b5621ad9afde7746ed9cf7e420be317a6e29023d2298d58aa15b",
-      "bytes": 5679
+      "bytes": 5679,
+      "ruta": "publico/favicon-8114d1fc.png"
     },
     {
-      "ruta": "publico/favicon-de23e50b.svg",
       "sha256": "de23e50b1c4dd6e052b3e21d444fcd4b13568b3840ac3c99d9be4e9263c0ef59",
-      "bytes": 1835
+      "bytes": 1835,
+      "ruta": "publico/favicon-de23e50b.svg"
     },
     {
-      "ruta": "publico/fonts/fonts-9644e21d.css",
       "sha256": "94b5131beb9b75a55f9649fcf12de167350feae0fab2bab26c2703cd75c0c781",
-      "bytes": 3818
+      "bytes": 3818,
+      "ruta": "publico/fonts/fonts-9644e21d.css"
     },
     {
-      "ruta": "publico/fonts/OPEN-SANS-LICENSE.txt",
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "bytes": 11358
+      "bytes": 11358,
+      "ruta": "publico/fonts/OPEN-SANS-LICENSE.txt"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2",
       "sha256": "7736aa3596c468515c3209f2f9d68cfae96d94c05689bcc11a5dce426a6ee2e8",
-      "bytes": 44352
+      "bytes": 44352,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2",
       "sha256": "2c7b95c08df0d228caec6d4bfed06da0f7ab6b76ea5cc3f75b5c6ae416bc571b",
-      "bytes": 40656
+      "bytes": 40656,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-600-486c6759.woff2",
       "sha256": "486c67592731a0b36a89dba1fd0b97aeb73f236bbf60dbf28d7c6b5723c07989",
-      "bytes": 44936
+      "bytes": 44936,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-600-486c6759.woff2"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2",
       "sha256": "1a3e865977024f444834a75a1b33b89b93134c93007ae3d6e14f24e6c88d8dfb",
-      "bytes": 42120
+      "bytes": 42120,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2",
       "sha256": "c22fe8c70c36f1d862903b772eaed864d3a8fa849473c9caff224fdb852428e4",
-      "bytes": 44988
+      "bytes": 44988,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2",
       "sha256": "238ae9593944112bee8dd65f8ebc5f3d3862160a8a245fbe1ee3150bc9a2fd81",
-      "bytes": 40800
+      "bytes": 40800,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2",
       "sha256": "3d2c812adf74deb36fead3ff8469800d3c0b23eb2c858ae49310291f89490146",
-      "bytes": 44536
+      "bytes": 44536,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2",
       "sha256": "ba1521ec219db9bc5bfec0e3e7a897369d98b30d4e853ee4aa525322784428b8",
-      "bytes": 40812
+      "bytes": 40812,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2",
       "sha256": "6c9463f7096c0b9d610e095ed248ac1e8a8da7e92d17e9be544f3baced7b62b2",
-      "bytes": 41076
+      "bytes": 41076,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2"
     },
     {
-      "ruta": "publico/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2",
       "sha256": "2e3b1d34ac67763ab50652da19305d4b3694c6b6e6bf35f4b98411ce4af646d2",
-      "bytes": 43236
+      "bytes": 43236,
+      "ruta": "publico/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2"
     },
     {
-      "ruta": "publico/fonts/SOURCE-CODE-PRO-LICENSE.txt",
       "sha256": "d1e6d465a83ba1a3be52db6484868cf5812ae9bbf91abdad3900ba0165afcf93",
-      "bytes": 4528
+      "bytes": 4528,
+      "ruta": "publico/fonts/SOURCE-CODE-PRO-LICENSE.txt"
     },
     {
-      "ruta": "publico/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2",
       "sha256": "2bdd9410b0141db3cbbf4cfc3818cc6fad279e8e63940940e06cd6af76ccbfcf",
-      "bytes": 59140
+      "bytes": 59140,
+      "ruta": "publico/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2"
     },
     {
-      "ruta": "publico/highlight-493f70e1.css",
       "sha256": "493f70e1527d895653b5ac7157abba8e2c656e43698da93b6c1997e2855a5059",
-      "bytes": 1209
+      "bytes": 1209,
+      "ruta": "publico/highlight-493f70e1.css"
     },
     {
-      "ruta": "publico/highlight-abc7f01d.js",
       "sha256": "abc7f01d0ce8c64e4ba9e131d651e48ae1a567b2a1254fea8aab03502288de58",
-      "bytes": 137537
+      "bytes": 137537,
+      "ruta": "publico/highlight-abc7f01d.js"
     },
     {
-      "ruta": "publico/index.html",
       "sha256": "37b23a3d1e119af3c912b5ab1e62e16524cbce8aa450dc64a506384076a4fffb",
-      "bytes": 21405
+      "bytes": 21405,
+      "ruta": "publico/index.html"
     },
     {
-      "ruta": "publico/indice.html",
       "sha256": "37b23a3d1e119af3c912b5ab1e62e16524cbce8aa450dc64a506384076a4fffb",
-      "bytes": 21405
+      "bytes": 21405,
+      "ruta": "publico/indice.html"
     },
     {
-      "ruta": "publico/libros/ciberseguridad/src/01-evidencia-y-limites.md",
       "sha256": "2437457b12ead68d4f053aeda7e6163eddc3f43e8086b97b7473e8cc5d741a75",
-      "bytes": 974
+      "bytes": 974,
+      "ruta": "publico/libros/ciberseguridad/src/01-evidencia-y-limites.md"
     },
     {
-      "ruta": "publico/libros/ciberseguridad/src/02-incibe-ia-frontera.md",
       "sha256": "2437457b12ead68d4f053aeda7e6163eddc3f43e8086b97b7473e8cc5d741a75",
-      "bytes": 974
+      "bytes": 974,
+      "ruta": "publico/libros/ciberseguridad/src/02-incibe-ia-frontera.md"
     },
     {
-      "ruta": "publico/libros/ciberseguridad/src/03-nis2-texto-original.md",
       "sha256": "2437457b12ead68d4f053aeda7e6163eddc3f43e8086b97b7473e8cc5d741a75",
-      "bytes": 974
+      "bytes": 974,
+      "ruta": "publico/libros/ciberseguridad/src/03-nis2-texto-original.md"
     },
     {
-      "ruta": "publico/libros/ciberseguridad/src/04-autoria-derechos-y-fuentes.md",
       "sha256": "2437457b12ead68d4f053aeda7e6163eddc3f43e8086b97b7473e8cc5d741a75",
-      "bytes": 974
+      "bytes": 974,
+      "ruta": "publico/libros/ciberseguridad/src/04-autoria-derechos-y-fuentes.md"
     },
     {
-      "ruta": "publico/libros/ciberseguridad/src/SUMMARY.md",
       "sha256": "2437457b12ead68d4f053aeda7e6163eddc3f43e8086b97b7473e8cc5d741a75",
-      "bytes": 974
+      "bytes": 974,
+      "ruta": "publico/libros/ciberseguridad/src/SUMMARY.md"
     },
     {
-      "ruta": "publico/libros/guia/src/consulta.md",
       "sha256": "e05b0d2ceebe8673e9ae76970949ec4920e3aa99a023247751ba02c280e08062",
-      "bytes": 1723
+      "bytes": 1723,
+      "ruta": "publico/libros/guia/src/consulta.md"
     },
     {
-      "ruta": "publico/libros/guia/src/indice.md",
       "sha256": "9e45a9a81b34e29aeae8324fca03a0314c725180a5969226ae1953394f656f6e",
-      "bytes": 2084
+      "bytes": 2084,
+      "ruta": "publico/libros/guia/src/indice.md"
     },
     {
-      "ruta": "publico/libros/guia/src/licencias.md",
       "sha256": "05a07947548f411f1200a080368c82fceae2a66bba285a11e60273f3d15c3173",
-      "bytes": 1254
+      "bytes": 1254,
+      "ruta": "publico/libros/guia/src/licencias.md"
     },
     {
-      "ruta": "publico/libros/guia/src/organizacion.md",
       "sha256": "50dcb8b36c6f092ddf84b5990344b40104effc3866b5ec4768ccbc8aa98f693b",
-      "bytes": 1678
+      "bytes": 1678,
+      "ruta": "publico/libros/guia/src/organizacion.md"
     },
     {
-      "ruta": "publico/libros/guia/src/SUMMARY.md",
       "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
-      "bytes": 203
+      "bytes": 203,
+      "ruta": "publico/libros/guia/src/SUMMARY.md"
     },
     {
-      "ruta": "publico/libros/manual/src/constructor.md",
       "sha256": "305e9a9763a026c47a0f92414bd8adf48018aa1025fcbf8edfab2ed9b4e72111",
-      "bytes": 3332
+      "bytes": 3332,
+      "ruta": "publico/libros/manual/src/constructor.md"
     },
     {
-      "ruta": "publico/libros/manual/src/presentacion.md",
       "sha256": "223f37b63c8c322cc4ae49d747e55d5e845b5a88793481ea7b4ed105c327f509",
-      "bytes": 2191
+      "bytes": 2191,
+      "ruta": "publico/libros/manual/src/presentacion.md"
     },
     {
-      "ruta": "publico/libros/manual/src/SUMMARY.md",
       "sha256": "83ec7ac70de9413211508ff25556aabe8b1f461afa614e4587ad67c1663f04b8",
-      "bytes": 729
+      "bytes": 729,
+      "ruta": "publico/libros/manual/src/SUMMARY.md"
     },
     {
-      "ruta": "publico/libros/manual/src/tramo-10.md",
       "sha256": "f872a6734c694e5763ea275f9cde3620d27bc17fd021604f8fce2912b40f2ea8",
-      "bytes": 847
+      "bytes": 847,
+      "ruta": "publico/libros/manual/src/tramo-10.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/ciberseguridad.md",
       "sha256": "098735b7786e81b15b73d97e3a6b6a5a50dffd7b17a906d7059670a41c0d26f4",
-      "bytes": 3382
+      "bytes": 3382,
+      "ruta": "publico/libros/normativa/src/ciberseguridad.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/derechos.md",
       "sha256": "fe9e45bbf6f6e0fe0e8a46c8ef590288926546cd80ed756704d6ad0b03360507",
-      "bytes": 2994
+      "bytes": 2994,
+      "ruta": "publico/libros/normativa/src/derechos.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/evaluacion.md",
       "sha256": "c0f2f4063986d4aa3d5b3c13a38b2990a60ab8cad7226d7d90118afbfb981882",
-      "bytes": 2859
+      "bytes": 2859,
+      "ruta": "publico/libros/normativa/src/evaluacion.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/garantias.md",
       "sha256": "c1ea55cae07e42bffd9611c5b1ac0ac06f1b6a29f07deec9ac4b7168ffb73fc4",
-      "bytes": 2878
+      "bytes": 2878,
+      "ruta": "publico/libros/normativa/src/garantias.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/marco-normativo.md",
       "sha256": "e997ce5b57ce9ac8dd8d1727383e9dec7465d36d235b06cd021cefce996f6062",
-      "bytes": 3762
+      "bytes": 3762,
+      "ruta": "publico/libros/normativa/src/marco-normativo.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/presentacion.md",
       "sha256": "084b7dc71d2cda342b9662d15a78d8a3daa309654d0f974f02efb7954d324f73",
-      "bytes": 2437
+      "bytes": 2437,
+      "ruta": "publico/libros/normativa/src/presentacion.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/referencias.md",
       "sha256": "e7e145813285a722156a08e034d0dc58dbeed344092c63584a1ff9a57bc6365e",
-      "bytes": 4463
+      "bytes": 4463,
+      "ruta": "publico/libros/normativa/src/referencias.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/SUMMARY.md",
       "sha256": "5a0924cc5d20ddc704b30804cfeccc388a790425049b111c946992bb0af3b81e",
-      "bytes": 507
+      "bytes": 507,
+      "ruta": "publico/libros/normativa/src/SUMMARY.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/trazabilidad.md",
       "sha256": "f5ac6a959d34d52cbabd5ebcd77abb291c89498667c70ac19b2ab27866c7c822",
-      "bytes": 3509
+      "bytes": 3509,
+      "ruta": "publico/libros/normativa/src/trazabilidad.md"
     },
     {
-      "ruta": "publico/libros/normativa/src/uso-sanitario.md",
       "sha256": "bed7acb4ebe90b35f075b2c136f1bbd21504907176f9d049350c21fd7089eefb",
-      "bytes": 2708
+      "bytes": 2708,
+      "ruta": "publico/libros/normativa/src/uso-sanitario.md"
     },
     {
-      "ruta": "publico/libros/visualizadores/src/entrega.md",
       "sha256": "06baed238658b51bb511e9faf2ec820a9f42233a969e7d54745e6809ce97f915",
-      "bytes": 6857
+      "bytes": 6857,
+      "ruta": "publico/libros/visualizadores/src/entrega.md"
     },
     {
-      "ruta": "publico/libros/visualizadores/src/finalidad.md",
       "sha256": "25faf37f05de39e5aa06ebe057a371d778cba5b663ed442cc2a56b3692aca738",
-      "bytes": 3843
+      "bytes": 3843,
+      "ruta": "publico/libros/visualizadores/src/finalidad.md"
     },
     {
-      "ruta": "publico/libros/visualizadores/src/formatos.md",
-      "sha256": "9c08e3ad49e5fe06f963c2cffae145e8233881c5a6d60be010b830b0e26a2dd7",
-      "bytes": 8733
+      "sha256": "51b00e9f47c402262bcc83e75ba26d081b1d70c750142761cd1e761ab1f536ec",
+      "bytes": 9042,
+      "ruta": "publico/libros/visualizadores/src/formatos.md"
     },
     {
-      "ruta": "publico/libros/visualizadores/src/revision.md",
       "sha256": "e6e786319bb9302df0fd3131417099c5f4d8750c685c1501bdc42c3ba5dacd5a",
-      "bytes": 4962
+      "bytes": 4962,
+      "ruta": "publico/libros/visualizadores/src/revision.md"
     },
     {
-      "ruta": "publico/libros/visualizadores/src/SUMMARY.md",
       "sha256": "8bff1ac2964da189d3cb06e28a95d0dac60020fb692964998b9b5bdfc448eed5",
-      "bytes": 630
+      "bytes": 630,
+      "ruta": "publico/libros/visualizadores/src/SUMMARY.md"
     },
     {
-      "ruta": "publico/libros/visualizadores/src/verificacion.md",
       "sha256": "660cf4e89490c46a0504d8e03ee44a539aab95f7f1fd8de7453bf1d534255a34",
-      "bytes": 8956
+      "bytes": 8956,
+      "ruta": "publico/libros/visualizadores/src/verificacion.md"
     },
     {
-      "ruta": "publico/licencias.html",
       "sha256": "e60e5217e341854484de9815599963420f192795e6134d10066f29ddc5884ede",
-      "bytes": 20387
+      "bytes": 20387,
+      "ruta": "publico/licencias.html"
     },
     {
-      "ruta": "publico/mdbook-license.txt",
       "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e",
-      "bytes": 15921
+      "bytes": 15921,
+      "ruta": "publico/mdbook-license.txt"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/.nojekyll",
       "sha256": "235d4f83c4c71612f43995dbda167720cd0c5384bf9ea64f9328b187c409b51d",
-      "bytes": 72
+      "bytes": 72,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/.nojekyll"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/404.html",
       "sha256": "5228719003a82987df017f781a4397258e1749dea0636e16b90c83333f8d29da",
-      "bytes": 17624
+      "bytes": 17624,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/404.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/ayu-highlight-3fdfc3ac.css",
       "sha256": "3fdfc3ac5e435e0cef96dafee74da487e4846ffce4dff5973bb45d68b678dd7f",
-      "bytes": 907
+      "bytes": 907,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/ayu-highlight-3fdfc3ac.css"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/biblioteca-f3251d8f.css",
       "sha256": "f3251d8f000c7384936f6073a05a9011c9ef4f4e414e9b19692f43ac7961c3e8",
-      "bytes": 962
+      "bytes": 962,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/biblioteca-f3251d8f.css"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/book-609e4cb8.js",
       "sha256": "609e4cb80f92aa954a3f48869c751f6f8848433604f1297bb70fde0e3e58a569",
-      "bytes": 30932
+      "bytes": 30932,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/book-609e4cb8.js"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/ciberseguridad.html",
       "sha256": "2889c1a62fc93313c7015e226830cae422a41b74b3f826e870ae2d864b865339",
-      "bytes": 24363
+      "bytes": 24363,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/ciberseguridad.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/clipboard-1626706a.min.js",
       "sha256": "1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44",
-      "bytes": 10754
+      "bytes": 10754,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/clipboard-1626706a.min.js"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/css/chrome-d279d366.css",
       "sha256": "d279d366359c0d588c9c10cb46afe2b543fc731dea722803639b4e45016d5fe2",
-      "bytes": 18032
+      "bytes": 18032,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/css/chrome-d279d366.css"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/css/general-e96d0476.css",
       "sha256": "e96d0476741bfcbe8cc0ac02db00187c45a63946834361d0eab846016787c646",
-      "bytes": 11478
+      "bytes": 11478,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/css/general-e96d0476.css"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/css/print-9e4910d8.css",
       "sha256": "9e4910d8eb508863172430c60d49fd3b442e9e7f5963a18cd1d655c386ffeae9",
-      "bytes": 689
+      "bytes": 689,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/css/print-9e4910d8.css"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/css/variables-8adf115d.css",
       "sha256": "8adf115df892369c90b830767c4651a9e058b79273e219935f7c8a96c6eab9c0",
-      "bytes": 10422
+      "bytes": 10422,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/css/variables-8adf115d.css"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/derechos.html",
       "sha256": "35b3ac53cf2b471e813e44d90125096c128cb050fa81aa95bf8fe22a6fc24ccc",
-      "bytes": 23976
+      "bytes": 23976,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/derechos.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/evaluacion.html",
       "sha256": "e3ee27bfa6bb32e5a512bd3a76a85d5f2468c1671406da6b972995dd110b2510",
-      "bytes": 23899
+      "bytes": 23899,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/evaluacion.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/favicon-8114d1fc.png",
       "sha256": "8114d1fc74f4b5621ad9afde7746ed9cf7e420be317a6e29023d2298d58aa15b",
-      "bytes": 5679
+      "bytes": 5679,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/favicon-8114d1fc.png"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/favicon-de23e50b.svg",
       "sha256": "de23e50b1c4dd6e052b3e21d444fcd4b13568b3840ac3c99d9be4e9263c0ef59",
-      "bytes": 1835
+      "bytes": 1835,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/favicon-de23e50b.svg"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/fonts-9644e21d.css",
       "sha256": "94b5131beb9b75a55f9649fcf12de167350feae0fab2bab26c2703cd75c0c781",
-      "bytes": 3818
+      "bytes": 3818,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/fonts-9644e21d.css"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/OPEN-SANS-LICENSE.txt",
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "bytes": 11358
+      "bytes": 11358,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/OPEN-SANS-LICENSE.txt"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2",
       "sha256": "7736aa3596c468515c3209f2f9d68cfae96d94c05689bcc11a5dce426a6ee2e8",
-      "bytes": 44352
+      "bytes": 44352,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2",
       "sha256": "2c7b95c08df0d228caec6d4bfed06da0f7ab6b76ea5cc3f75b5c6ae416bc571b",
-      "bytes": 40656
+      "bytes": 40656,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-600-486c6759.woff2",
       "sha256": "486c67592731a0b36a89dba1fd0b97aeb73f236bbf60dbf28d7c6b5723c07989",
-      "bytes": 44936
+      "bytes": 44936,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-600-486c6759.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2",
       "sha256": "1a3e865977024f444834a75a1b33b89b93134c93007ae3d6e14f24e6c88d8dfb",
-      "bytes": 42120
+      "bytes": 42120,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2",
       "sha256": "c22fe8c70c36f1d862903b772eaed864d3a8fa849473c9caff224fdb852428e4",
-      "bytes": 44988
+      "bytes": 44988,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2",
       "sha256": "238ae9593944112bee8dd65f8ebc5f3d3862160a8a245fbe1ee3150bc9a2fd81",
-      "bytes": 40800
+      "bytes": 40800,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2",
       "sha256": "3d2c812adf74deb36fead3ff8469800d3c0b23eb2c858ae49310291f89490146",
-      "bytes": 44536
+      "bytes": 44536,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2",
       "sha256": "ba1521ec219db9bc5bfec0e3e7a897369d98b30d4e853ee4aa525322784428b8",
-      "bytes": 40812
+      "bytes": 40812,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2",
       "sha256": "6c9463f7096c0b9d610e095ed248ac1e8a8da7e92d17e9be544f3baced7b62b2",
-      "bytes": 41076
+      "bytes": 41076,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2",
       "sha256": "2e3b1d34ac67763ab50652da19305d4b3694c6b6e6bf35f4b98411ce4af646d2",
-      "bytes": 43236
+      "bytes": 43236,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/SOURCE-CODE-PRO-LICENSE.txt",
       "sha256": "d1e6d465a83ba1a3be52db6484868cf5812ae9bbf91abdad3900ba0165afcf93",
-      "bytes": 4528
+      "bytes": 4528,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/SOURCE-CODE-PRO-LICENSE.txt"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2",
       "sha256": "2bdd9410b0141db3cbbf4cfc3818cc6fad279e8e63940940e06cd6af76ccbfcf",
-      "bytes": 59140
+      "bytes": 59140,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/garantias.html",
       "sha256": "ab2f3849f9da9d92aeaad0c5c97d95e0865c5b4f6f03c78a7d6f351ea2ccdbe9",
-      "bytes": 23979
+      "bytes": 23979,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/garantias.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/highlight-493f70e1.css",
       "sha256": "493f70e1527d895653b5ac7157abba8e2c656e43698da93b6c1997e2855a5059",
-      "bytes": 1209
+      "bytes": 1209,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/highlight-493f70e1.css"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/highlight-abc7f01d.js",
       "sha256": "abc7f01d0ce8c64e4ba9e131d651e48ae1a567b2a1254fea8aab03502288de58",
-      "bytes": 137537
+      "bytes": 137537,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/highlight-abc7f01d.js"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/index.html",
       "sha256": "40f8bc9d50702ecade7a2b49c30dd1b79f0886eefa3b7fefd87fffb61b692579",
-      "bytes": 21849
+      "bytes": 21849,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/index.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/marco-normativo.html",
       "sha256": "d83ac1dc72a8b97d897d15a80b5bf7b5dd1825d8af0da9da22247e86007dfa93",
-      "bytes": 25036
+      "bytes": 25036,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/marco-normativo.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/presentacion-37d67f97.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/presentacion-37d67f97.js"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/presentacion.html",
       "sha256": "40f8bc9d50702ecade7a2b49c30dd1b79f0886eefa3b7fefd87fffb61b692579",
-      "bytes": 21849
+      "bytes": 21849,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/presentacion.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/print.html",
       "sha256": "837c2908209cd48729d84c5494a5c789f177527f9ab94623beab5f643f853a03",
-      "bytes": 54051
+      "bytes": 54051,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/print.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/referencias.html",
       "sha256": "cef028372793b553c4389f4bb781d3f593a677d0f6805190e306391afde5f0d1",
-      "bytes": 24410
+      "bytes": 24410,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/referencias.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/toc-d434d6d9.js",
       "sha256": "d434d6d92fd5c731da758dedd60d0ae37a3567c0d374e00944790df5fd831e44",
-      "bytes": 20561
+      "bytes": 20561,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/toc-d434d6d9.js"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/toc.html",
       "sha256": "c3ecc8ebbe51c99c3ac4c1c3753c73068d813ef6c2d76e690f12d63378facbd9",
-      "bytes": 2994
+      "bytes": 2994,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/toc.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/tomorrow-night-4c0ae647.css",
       "sha256": "4c0ae647a06ef1699806fb9b4b6d0ef72de026708c6e8581362641c9298cb5f7",
-      "bytes": 1694
+      "bytes": 1694,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/tomorrow-night-4c0ae647.css"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/trazabilidad.html",
       "sha256": "fcdf258d357302a76d4123faf31bb8776b596089da6b1768a4f05cc2d4e29b52",
-      "bytes": 24729
+      "bytes": 24729,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/trazabilidad.html"
     },
     {
-      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/uso-sanitario.html",
       "sha256": "c67586c2b4e39f3bcdb68f9a3e60aa976ca89fafdf76b672de4a3cff19b5adf3",
-      "bytes": 23630
+      "bytes": 23630,
+      "ruta": "publico/normativa/trazabilidad-y-seguimiento-ia/uso-sanitario.html"
     },
     {
-      "ruta": "publico/organizacion.html",
       "sha256": "d2275d9ba19d0b6d176c231543a060a26062017a4356fc008bddecaa9a064f9e",
-      "bytes": 22270
+      "bytes": 22270,
+      "ruta": "publico/organizacion.html"
     },
     {
-      "ruta": "publico/presentacion-37d67f97.js",
       "sha256": "37d67f973dc2172329d3404f94e24f6e7da377d66341036f17565d02d4b3d4fc",
-      "bytes": 2939
+      "bytes": 2939,
+      "ruta": "publico/presentacion-37d67f97.js"
     },
     {
-      "ruta": "publico/print.html",
       "sha256": "e2034252f367e493b9445273a8dbf977f209d31a67be6749a608865f6d2499f1",
-      "bytes": 26107
+      "bytes": 26107,
+      "ruta": "publico/print.html"
     },
     {
-      "ruta": "publico/toc-106a912a.js",
       "sha256": "106a912afb97818b5a3a8922e76e661774e3ef3601063c338ebe3423a1400f26",
-      "bytes": 19824
+      "bytes": 19824,
+      "ruta": "publico/toc-106a912a.js"
     },
     {
-      "ruta": "publico/toc.html",
       "sha256": "fe64f38c850fa33f9119a110764f832b8ff06a1ecda833df7ac7df592be56ee3",
-      "bytes": 2172
+      "bytes": 2172,
+      "ruta": "publico/toc.html"
     },
     {
-      "ruta": "publico/tomorrow-night-4c0ae647.css",
       "sha256": "4c0ae647a06ef1699806fb9b4b6d0ef72de026708c6e8581362641c9298cb5f7",
-      "bytes": 1694
+      "bytes": 1694,
+      "ruta": "publico/tomorrow-night-4c0ae647.css"
     },
     {
-      "ruta": "README.md",
       "sha256": "cb4a15f0c7dcb6d69a392283f8ab00523dd256b54a25c6cfb51ffd7882a80ab0",
-      "bytes": 1958
+      "bytes": 1958,
+      "ruta": "README.md"
     },
     {
-      "ruta": "rutas-publicas.json",
       "sha256": "f6ca7ec7a635914538ad6a935c9c43a5c9c8687208402f8b06818b1604e4f82b",
-      "bytes": 206
+      "bytes": 206,
+      "ruta": "rutas-publicas.json"
     },
     {
-      "ruta": "verificaciones/cotejar-edicion.rs",
       "sha256": "5064b82354f7ab9aa35f8f1bc2e21bc72721c779f197bce9cfb4c163e56527b1",
-      "bytes": 5860
+      "bytes": 5860,
+      "ruta": "verificaciones/cotejar-edicion.rs"
     },
     {
-      "ruta": "verificaciones/FUENTES-REMOTAS.json",
       "sha256": "14432ad59186b1cd601084f29cb7e995441655ef779c6784b80a4470693f0d7a",
-      "bytes": 843
+      "bytes": 843,
+      "ruta": "verificaciones/FUENTES-REMOTAS.json"
     },
     {
-      "ruta": "verificaciones/PRESENTACION.md",
       "sha256": "1c88c4e9ba1bf62e92118f6e8ffaa3b52a324cddceede0f0cd589a42446540c9",
-      "bytes": 3320
+      "bytes": 3320,
+      "ruta": "verificaciones/PRESENTACION.md"
     },
     {
-      "ruta": "verificaciones/PRUEBAS-PRESENTACION.txt",
       "sha256": "5df7eadcbb5cfc5d06433e1e9274b716488168595365383561086930c21e1512",
-      "bytes": 633
+      "bytes": 633,
+      "ruta": "verificaciones/PRUEBAS-PRESENTACION.txt"
     },
     {
-      "ruta": "verificaciones/RECEPCION.md",
       "sha256": "9e7012b1f8cdfe299de3c60acea1735f7eb410aefb1e6e19457e1151164065e1",
-      "bytes": 2421
+      "bytes": 2421,
+      "ruta": "verificaciones/RECEPCION.md"
     },
     {
-      "ruta": "verificaciones/visualizadores-v01.json",
       "sha256": "b92be06edf1bf7265fc0aab4b06b1f5292af6b5592df25ae1006f7f6db2765fd",
-      "bytes": 2052
+      "bytes": 2052,
+      "ruta": "verificaciones/visualizadores-v01.json"
     },
     {
-      "ruta": "worker-biblioteca.mjs",
       "sha256": "a289e5ecd75a55c4e729bbd51851364aa0a6ca987c8c602192509fc3b081f1c4",
-      "bytes": 2819
+      "bytes": 2819,
+      "ruta": "worker-biblioteca.mjs"
     }
   ],
-  "licencia": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).",
-  "exclusion": "El manifiesto no se incluye a sí mismo"
+  "version": 1
 }

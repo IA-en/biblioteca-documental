@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-visualizadores-v04-20261011",
+  "edicion": "biblioteca-sv-visualizadores-v04-correccion-visor-20261011",
   "libros": [
     {
       "id": "guia",
@@ -91,7 +91,7 @@
     {
       "id": "visualizadores",
       "plan": {
-        "sha256": "4c0b2c738bb71efdf2ba3b1cc6155b15ea353b5e51da0d17a711daffe6715399",
+        "sha256": "d784edce4812f555f485bba8a33c21dc27f9c817d1a5578b5b436ab72f18dd9c",
         "ruta": "libros/visualizadores/plan.json"
       },
       "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
@@ -130,7 +130,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "9c08e3ad49e5fe06f963c2cffae145e8233881c5a6d60be010b830b0e26a2dd7",
+            "sha256": "51b00e9f47c402262bcc83e75ba26d081b1d70c750142761cd1e761ab1f536ec",
             "ruta": "libros/visualizadores/src/formatos.md"
           },
           "correspondencia": "identidad_literal",

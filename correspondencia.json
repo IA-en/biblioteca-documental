@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados; no recepción de traducción ni producción",
-  "biblioteca_sha256": "1690b1f226c4f231f93913db2d9eea43551f9f4a5ec7365a68e2109c4c75fb08",
+  "biblioteca_sha256": "0d13828585e430ee9e5ec052266242c9d5a6cf3976a08392eb9260a53cb2504d",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -308,7 +308,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 8733,
+      "cobertura_bytes": 9042,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-03",
       "identificador_editorial_r0": null,
@@ -316,7 +316,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/formatos.md",
-        "sha256": "9c08e3ad49e5fe06f963c2cffae145e8233881c5a6d60be010b830b0e26a2dd7"
+        "sha256": "51b00e9f47c402262bcc83e75ba26d081b1d70c750142761cd1e761ab1f536ec"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -330,26 +330,26 @@
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1731,
+          "fin_byte_exclusivo": 1719,
           "inicio_byte": 201,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000016",
-          "sha256": "d41ce706ea98a80865954e11ee235b132d4d63f6c1a380193483bb71cec76902",
+          "sha256": "0be93f036f665844bd44d78eaea346ad7ddbc942effde029359b644f4cdbae49",
           "titulo": "Capacidades comprobadas en la edición de referencia",
           "ultima_linea": 16
         },
         {
-          "fin_byte_exclusivo": 3132,
-          "inicio_byte": 1731,
+          "fin_byte_exclusivo": 3441,
+          "inicio_byte": 1719,
           "primera_linea": 17,
           "seccion": "MD-L000017-L000026",
-          "sha256": "692196b2c99b6a133282c1eceed875b5ecdf899728e17a4b71381d48bc318775",
+          "sha256": "37cb1be22a4082a7c971880e486f4a041b3d722d60db2185b427470dd5766703",
           "titulo": "Consulta gráfica de PDF",
           "ultima_linea": 26
         },
         {
-          "fin_byte_exclusivo": 3727,
-          "inicio_byte": 3132,
+          "fin_byte_exclusivo": 4036,
+          "inicio_byte": 3441,
           "primera_linea": 27,
           "seccion": "MD-L000027-L000032",
           "sha256": "930f5799deb4a453fe9e76caefcc818927b487988d03bc60f83403d7f88f940e",
@@ -357,8 +357,8 @@
           "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 7115,
-          "inicio_byte": 3727,
+          "fin_byte_exclusivo": 7424,
+          "inicio_byte": 4036,
           "primera_linea": 33,
           "seccion": "MD-L000033-L000059",
           "sha256": "e1ab1815f4e984a434878f1c0bb44bc7750880dd080514723e8c9b8503fc90fa",
@@ -366,8 +366,8 @@
           "ultima_linea": 59
         },
         {
-          "fin_byte_exclusivo": 8082,
-          "inicio_byte": 7115,
+          "fin_byte_exclusivo": 8391,
+          "inicio_byte": 7424,
           "primera_linea": 60,
           "seccion": "MD-L000060-L000067",
           "sha256": "3d0be3507aff16add1699b4190e3b116f82b53f40ffedb44e618750415301bc5",
@@ -375,8 +375,8 @@
           "ultima_linea": 67
         },
         {
-          "fin_byte_exclusivo": 8733,
-          "inicio_byte": 8082,
+          "fin_byte_exclusivo": 9042,
+          "inicio_byte": 8391,
           "primera_linea": 68,
           "seccion": "MD-L000068-L000074",
           "sha256": "ae3b8c342aa766c32f92d61025bb1c35a6d072b05fa92368592904e36ed823c7",
@@ -1513,8 +1513,8 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-visualizadores-v04-20261011",
+  "edicion": "biblioteca-sv-visualizadores-v04-correccion-visor-20261011",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "f809445fbe67495afcd0ab434343ddce9948035ce51590d12a45e84beac560a9",
+  "politica_sha256": "efeaf9a8c924a663daabaca12d15e03d8a49143b10042a13f902a758abfa3a3e",
   "version": 1
 }
