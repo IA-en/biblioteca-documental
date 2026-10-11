@@ -4,9 +4,9 @@
     {
       "id": "GUIA-02",
       "titulo": "Biblioteca documental del SV",
-      "sha256": "eda646f4c64f9f85a1e39c8631c405a655f123e798680f9c694a570171fdcb1a",
+      "sha256": "9e45a9a81b34e29aeae8324fca03a0314c725180a5969226ae1953394f656f6e",
       "ruta": "indice.md",
-      "url": "urn:sv:documento:sha256:eda646f4c64f9f85a1e39c8631c405a655f123e798680f9c694a570171fdcb1a"
+      "url": "urn:sv:documento:sha256:9e45a9a81b34e29aeae8324fca03a0314c725180a5969226ae1953394f656f6e"
     },
     {
       "id": "GUIA-03",
@@ -37,6 +37,6 @@
     "ruta": "SUMMARY.md",
     "url": "urn:sv:documento:sha256:a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f"
   },
-  "revision": "6c6345220c5665958e57510fc18231d4a1fd351fa44b01ee304d91ff1b0185c0",
+  "revision": "f406021447aaed1f24bbbe5c694fc5a1875792bb9af7f8d746fa8c30a4462207",
   "libro": "SV_GUIA"
 }

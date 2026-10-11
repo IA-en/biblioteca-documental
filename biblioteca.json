@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-visualizadores-v03-20261011",
+  "edicion": "biblioteca-sv-visualizadores-v04-20261011",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "5a50045f52afcfdfdb35c21ae8ba2e1074d5cebb7faa31f84cf1f408750d0a96",
+        "sha256": "5a33a6a1c02cc02a4b38a6db91038c8daffa6a8012b9a6dc118581238d44fab3",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,7 +29,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "eda646f4c64f9f85a1e39c8631c405a655f123e798680f9c694a570171fdcb1a",
+            "sha256": "9e45a9a81b34e29aeae8324fca03a0314c725180a5969226ae1953394f656f6e",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
@@ -91,7 +91,7 @@
     {
       "id": "visualizadores",
       "plan": {
-        "sha256": "a67fe2ca27138f3ae52e7b179d3d6d448feca90cafc4554b8654d14b525a2cc6",
+        "sha256": "4c0b2c738bb71efdf2ba3b1cc6155b15ea353b5e51da0d17a711daffe6715399",
         "ruta": "libros/visualizadores/plan.json"
       },
       "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
@@ -115,7 +115,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "e53101ea9cd60d761d8c1833eb13ab14738d9551d0d20ddd0eb1fa8cbd77c253",
+            "sha256": "25faf37f05de39e5aa06ebe057a371d778cba5b663ed442cc2a56b3692aca738",
             "ruta": "libros/visualizadores/src/finalidad.md"
           },
           "correspondencia": "identidad_literal",
@@ -145,7 +145,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "c13bde155fbe90253973888f9e10dd1e7674744a704e35b4a167aebcd0886b14",
+            "sha256": "06baed238658b51bb511e9faf2ec820a9f42233a969e7d54745e6809ce97f915",
             "ruta": "libros/visualizadores/src/entrega.md"
           },
           "correspondencia": "identidad_literal",
@@ -175,7 +175,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "d064c4da4b4bb10abbb5a3a057c733234657a509b2f179eda6a12d8fa97c8bc2",
+            "sha256": "660cf4e89490c46a0504d8e03ee44a539aab95f7f1fd8de7453bf1d534255a34",
             "ruta": "libros/visualizadores/src/verificacion.md"
           },
           "correspondencia": "identidad_literal",
