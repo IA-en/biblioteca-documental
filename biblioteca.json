@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-visualizadores-v04-correccion-visor-20261011",
+  "edicion": "biblioteca-sv-visualizadores-v05-lectura-20261011",
   "libros": [
     {
       "id": "guia",
@@ -91,7 +91,7 @@
     {
       "id": "visualizadores",
       "plan": {
-        "sha256": "d784edce4812f555f485bba8a33c21dc27f9c817d1a5578b5b436ab72f18dd9c",
+        "sha256": "eec0e4b2fdd2272cc47ee8fb5babe52e898716bc8628358832eee7ff758b9e04",
         "ruta": "libros/visualizadores/plan.json"
       },
       "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
@@ -115,7 +115,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "25faf37f05de39e5aa06ebe057a371d778cba5b663ed442cc2a56b3692aca738",
+            "sha256": "75399ab9c3422f805c3f254f22886f9b1a11bef6dc0a7ee43b3f2cc719a603bc",
             "ruta": "libros/visualizadores/src/finalidad.md"
           },
           "correspondencia": "identidad_literal",
@@ -130,7 +130,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "51b00e9f47c402262bcc83e75ba26d081b1d70c750142761cd1e761ab1f536ec",
+            "sha256": "5753d3b63818c11885a5296d1c5f7963f3e6f6235134d1a4bb7fba464ed9f8d4",
             "ruta": "libros/visualizadores/src/formatos.md"
           },
           "correspondencia": "identidad_literal",
@@ -145,7 +145,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "06baed238658b51bb511e9faf2ec820a9f42233a969e7d54745e6809ce97f915",
+            "sha256": "4883ff09d12b768bed3fac53454a14a31ab5f493f7e2becc6378beb5166e0d62",
             "ruta": "libros/visualizadores/src/entrega.md"
           },
           "correspondencia": "identidad_literal",
@@ -160,7 +160,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "e6e786319bb9302df0fd3131417099c5f4d8750c685c1501bdc42c3ba5dacd5a",
+            "sha256": "e436a7484634738e4906adab039ef1b202767dac7e55833bb10d263b693cca14",
             "ruta": "libros/visualizadores/src/revision.md"
           },
           "correspondencia": "identidad_literal",
@@ -175,7 +175,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "660cf4e89490c46a0504d8e03ee44a539aab95f7f1fd8de7453bf1d534255a34",
+            "sha256": "ae678afed5fc0477fab0e69e07a4271cedfa3ca905fec08daf5de51125d126a1",
             "ruta": "libros/visualizadores/src/verificacion.md"
           },
           "correspondencia": "identidad_literal",
