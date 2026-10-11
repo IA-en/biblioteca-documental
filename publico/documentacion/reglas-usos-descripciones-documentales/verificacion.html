@@ -166,13 +166,14 @@
   <p>La traducción automática facilita la lectura. Contraste términos, fórmulas y sentido con el original.</p>
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
-<nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../licencias.html">Licencias</a> <span aria-hidden="true"> / </span> <a href="https://administracion.itvia.online/" rel="noreferrer">Administración documental</a><p>V.01 · 11/10/2026 · Original en español</p></nav>
+<nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../licencias.html">Licencias</a> <span aria-hidden="true"> / </span> <a href="https://administracion.itvia.online/" rel="noreferrer">Administración documental</a><p>V.02 · 11/10/2026 · Original en español</p></nav>
                         <h1 id="comprobaciones-estado-y-fuentes"><a class="header" href="#comprobaciones-estado-y-fuentes">Comprobaciones, estado y fuentes</a></h1>
-<p><strong>Edición documental V.01 · Corte de información: 11 de octubre de 2026.</strong></p>
+<p><strong>Edición documental V.02 · Corte de información: 11 de octubre de 2026.</strong></p>
 <h2 id="estado-que-explica-esta-edición"><a class="header" href="#estado-que-explica-esta-edición">Estado que explica esta edición</a></h2>
 <p>La referencia es el lector documental con presentación Markdown mediante mdBook, consulta de representaciones vinculadas a originales HTML y PDF, descarga de originales y separación entre revisión y suministro. La inspección del recorrido de entrega confirma que prepara fragmentos textuales, sin acreditar envío directo de los originales PDF o HTML.</p>
 <p>Se conservan resultados anteriores de 65 comprobaciones Rust: 33 de módulos y 32 del recorrido documental de los tres nodos; además, 23 controles HTTPS. Verifican comportamientos delimitados, no tres inferencias nuevas ni una certificación de seguridad. La consulta de la interfaz comprobó índice, procedencia, contenido, tabla sencilla, tildes, retorno de navegación y bloqueo de una conversión no autorizada. La edición de este libro no convierte esas pruebas anteriores en una ejecución nueva.</p>
 <p>La preparación y publicación del libro tienen verificaciones propias de construcción, correspondencia, enlaces y consulta. Sus resultados se conservan en el registro de esta edición, separado de las comprobaciones funcionales del lector.</p>
+<p>La V.02 incorpora la representación gráfica de páginas PDF. El conjunto delimitado comprende nueve PDF sintéticos y dos originales de nueve y cuatro páginas: 44 imágenes a dos escalas, once repeticiones idénticas y 55 ejecuciones de rechazo pertenecientes a cinco clases. Dieciocho imágenes sintéticas conservan identidad exacta con la comprobación anterior. El cotejo visual de los originales reales se limita a siete páginas; no acredita fidelidad universal. La corrección de la información contextual se comprueba por separado, conservando los resultados anteriores. Las pruebas de módulos de esta edición suman 45 resultados conformes.</p>
 <h2 id="componentes-y-función-efectiva"><a class="header" href="#componentes-y-función-efectiva">Componentes y función efectiva</a></h2>
 <div class="table-wrapper">
 <table>
@@ -184,12 +185,13 @@
 <tr><td>html-to-markdown-rs 3.17.2</td><td>Conversión de HTML conservado a Markdown</td><td>No interpreta científicamente figuras ni garantiza fidelidad de todo HTML</td></tr>
 <tr><td>pulldown-cmark 0.13.0</td><td>Lectura de la estructura Markdown para su presentación controlada</td><td>No resuelve omisiones del original ni reconstruye figuras</td></tr>
 <tr><td>Extractor documental PDF del SV</td><td>Recuperación de texto por páginas e informe de extracción</td><td>No acredita OCR, representación gráfica íntegra ni recuperación de tablas complejas</td></tr>
+<tr><td>Hayro 0.8.0</td><td>Representación gráfica de páginas PDF completas; imagen protegida dentro de mdBook</td><td>Componente experimental; sus resultados requieren cotejo. No identifica ni interpreta científicamente figuras</td></tr>
 </tbody>
 </table>
 </div>
 <p>Las versiones identifican la edición examinada. La existencia de una versión posterior de una biblioteca no implica su incorporación al SV.</p>
 <h2 id="pendientes-identificados"><a class="header" href="#pendientes-identificados">Pendientes identificados</a></h2>
-<p>Permanecen pendientes la entrega directa de PDF y HTML en el recorrido descrito, la presentación reunida del expediente de entrega junto al visor, la representación gráfica de PDF, los recursos visuales autenticados y el tratamiento integral de libros extensos. Deben comprobarse antes de presentarlos como funciones disponibles.</p>
+<p>Permanecen pendientes la entrega directa de PDF y HTML en el recorrido descrito, la presentación reunida del expediente de entrega junto al visor y el tratamiento integral de libros extensos. La incorporación gráfica no acredita estos otros recorridos ni el envío de imágenes a modelos.</p>
 <p>Para cada ampliación se deberán revisar tanto resultados favorables como rechazos: autorización ausente o retirada, formato no compatible, extracción parcial, codificación defectuosa, figura no recuperada e incertidumbre de envío. Los fallos se registrarán sin sustituirlos por resultados supuestos.</p>
 <p>No se acredita aquí compatibilidad universal entre navegadores, corrección de todo PDF, comprensión del modelo ni cumplimiento íntegro de normas sanitarias o de ciberseguridad.</p>
 <h2 id="fuentes-primarias"><a class="header" href="#fuentes-primarias">Fuentes primarias</a></h2>
@@ -200,6 +202,7 @@
 <li><a href="https://github.com/xberg-io/html-to-markdown">html-to-markdown: proyecto del conversor</a>.</li>
 <li><a href="https://github.com/pulldown-cmark/pulldown-cmark">pulldown-cmark: proyecto del analizador Markdown</a>.</li>
 <li><a href="https://github.com/jrmuizel/pdf-extract">pdf-extract: biblioteca de extracción de contenido PDF</a>.</li>
+<li><a href="https://github.com/LaurenzV/hayro">Hayro: representación PDF y limitaciones declaradas</a>.</li>
 </ul>
 <p>Las fuentes de terceros describen sus propios componentes. Sus capacidades no se atribuyen al SV hasta verificar su integración. La referencia pública de este libro se conserva en <a href="https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/visualizadores-de-documentos">Visualizadores de documentos, SV-motor</a>; la Biblioteca del SV ofrece la lectura y las fuentes de la edición.</p>
 <h2 id="ediciones-y-derechos"><a class="header" href="#ediciones-y-derechos">Ediciones y derechos</a></h2>

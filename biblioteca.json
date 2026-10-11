@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-visualizadores-v01-20261011",
+  "edicion": "biblioteca-sv-visualizadores-v02-20261011",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "90e23def38f291be1cfa27771b7348e4e513e14bd94a2ffd9f9593599870754e",
+        "sha256": "3754fb86548dafdac255ec853f6b90a6b540aa020d090dbfc429f3129fa087ca",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,7 +29,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "8334a21e6c60fdcff67d054503313b96cbe785556f2b5cbfac3c29432d6334d1",
+            "sha256": "8ff6ddc25abec4afa3acdf4cb5a7020de019e76e8bbc8db400b370341ccaaad9",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
@@ -91,7 +91,7 @@
     {
       "id": "visualizadores",
       "plan": {
-        "sha256": "f36d67909a6dc60bda0d12b88178a4ce7a79cae27fc3c0ab1138bd2fd62ec81e",
+        "sha256": "2092b4e27ee6a57b2edcdcf99c449cf6dc0883cf09531b8e870cb3fef8375552",
         "ruta": "libros/visualizadores/plan.json"
       },
       "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
@@ -115,7 +115,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "1aa408493c90406ef2dfe01b3e57e19177d6d7c2c9cafe18dafd7d0f5c0a28ed",
+            "sha256": "4263c6a8aa5c17cf5cfb5cfa468136f87798eb81671c5e1503d1fb2456d709a7",
             "ruta": "libros/visualizadores/src/finalidad.md"
           },
           "correspondencia": "identidad_literal",
@@ -130,7 +130,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "fa029972aa0d1f5ab825fd4ec34f6963acadce896a63d5d016e7abe3ec4b1f7f",
+            "sha256": "2f5bd40eb779cb9a8d4338b0959cafcfda7531a96317974cee041f4aa723ffd8",
             "ruta": "libros/visualizadores/src/formatos.md"
           },
           "correspondencia": "identidad_literal",
@@ -160,7 +160,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "bad3be413fa5150a45c7cdfd203254d07d4e02e7c788d02d4b901c9af78d5d3a",
+            "sha256": "343ac9025d8a0a552b27a67f85ece0d333e747f3a59ae51ebb6c7dd6f84f349f",
             "ruta": "libros/visualizadores/src/revision.md"
           },
           "correspondencia": "identidad_literal",
@@ -175,7 +175,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "d293ad2c56d9eff61fd776321a087aeb22a2c0b90c665d5fc2167a14d904cdb8",
+            "sha256": "b0eec68ff725e78669d8aa1a83f8eccd558aeddbe37d8b042e5a2a2dae185ad1",
             "ruta": "libros/visualizadores/src/verificacion.md"
           },
           "correspondencia": "identidad_literal",

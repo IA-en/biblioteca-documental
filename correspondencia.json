@@ -1,4 +1,9 @@
 {
+  "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados; no recepción de traducción ni producción",
+  "biblioteca_sha256": "31d63dc9b7cd7b504599ff38cbefa571b11f8546d378cc5267d59f8068cd4e8e",
+  "conforme": true,
+  "consulta_proveedor": false,
+  "conversion_general_recibida": false,
   "documentos": [
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
@@ -35,7 +40,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/indice.md",
-        "sha256": "8334a21e6c60fdcff67d054503313b96cbe785556f2b5cbfac3c29432d6334d1"
+        "sha256": "8ff6ddc25abec4afa3acdf4cb5a7020de019e76e8bbc8db400b370341ccaaad9"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -53,7 +58,7 @@
           "inicio_byte": 297,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000016",
-          "sha256": "5acad3dcaac26c4d16b776193065280da9751341f5052f3ed184921d1fa1b255",
+          "sha256": "4c8a0d790a529c6544067c7bbe58b96102e0e86f34b691cc13c23f0b78027617",
           "titulo": "Libros disponibles",
           "ultima_linea": 16
         },
@@ -242,7 +247,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 3839,
+      "cobertura_bytes": 3843,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-02",
       "identificador_editorial_r0": null,
@@ -250,7 +255,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/finalidad.md",
-        "sha256": "1aa408493c90406ef2dfe01b3e57e19177d6d7c2c9cafe18dafd7d0f5c0a28ed"
+        "sha256": "4263c6a8aa5c17cf5cfb5cfa468136f87798eb81671c5e1503d1fb2456d709a7"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -259,22 +264,22 @@
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "a346bae7809f28754c7d8bffa7a350caa4387e95875c04f3977c480e55143332",
+          "sha256": "fc70be2fff6e984d203b7e53102dbd79fb2ef8288abdbed828dd86bfc76439f1",
           "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 1651,
+          "fin_byte_exclusivo": 1655,
           "inicio_byte": 727,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000018",
-          "sha256": "1ce5fcaf9e06fa2e120a9c2189b8f7ee25df834b102cec3f34a166cd116e8ae1",
+          "sha256": "0a48658924f71f97dc8cc902b96411654b7ebdf8807f28e80b56eab934f3311f",
           "titulo": "Tres elementos que deben distinguirse",
           "ultima_linea": 18
         },
         {
-          "fin_byte_exclusivo": 2272,
-          "inicio_byte": 1651,
+          "fin_byte_exclusivo": 2276,
+          "inicio_byte": 1655,
           "primera_linea": 19,
           "seccion": "MD-L000019-L000024",
           "sha256": "8cb6dd9ba9bc5d01462c72579fd4bbe58c629ceea46d9891faea64376e425ad5",
@@ -282,8 +287,8 @@
           "ultima_linea": 24
         },
         {
-          "fin_byte_exclusivo": 2915,
-          "inicio_byte": 2272,
+          "fin_byte_exclusivo": 2919,
+          "inicio_byte": 2276,
           "primera_linea": 25,
           "seccion": "MD-L000025-L000030",
           "sha256": "4cd5e2518ce834a9a65447b86d9ffaa8e5a361fe9f74334352b338d96254d47f",
@@ -291,8 +296,8 @@
           "ultima_linea": 30
         },
         {
-          "fin_byte_exclusivo": 3839,
-          "inicio_byte": 2915,
+          "fin_byte_exclusivo": 3843,
+          "inicio_byte": 2919,
           "primera_linea": 31,
           "seccion": "MD-L000031-L000039",
           "sha256": "e12e9c883eac6bdd4a2431c6713cc4ef9a6344f6a3459d63baa76014113b7d98",
@@ -303,7 +308,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 4946,
+      "cobertura_bytes": 6812,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-03",
       "identificador_editorial_r0": null,
@@ -311,7 +316,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/formatos.md",
-        "sha256": "fa029972aa0d1f5ab825fd4ec34f6963acadce896a63d5d016e7abe3ec4b1f7f"
+        "sha256": "2f5bd40eb779cb9a8d4338b0959cafcfda7531a96317974cee041f4aa723ffd8"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -325,49 +330,58 @@
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1661,
+          "fin_byte_exclusivo": 1731,
           "inicio_byte": 201,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000016",
-          "sha256": "84ac7fecaec53aca192b812918dbcb4f7d6adddc47193fac424313aa4dee8ced",
+          "sha256": "d41ce706ea98a80865954e11ee235b132d4d63f6c1a380193483bb71cec76902",
           "titulo": "Capacidades comprobadas en la edición de referencia",
           "ultima_linea": 16
         },
         {
-          "fin_byte_exclusivo": 2256,
-          "inicio_byte": 1661,
+          "fin_byte_exclusivo": 3132,
+          "inicio_byte": 1731,
           "primera_linea": 17,
-          "seccion": "MD-L000017-L000022",
+          "seccion": "MD-L000017-L000026",
+          "sha256": "692196b2c99b6a133282c1eceed875b5ecdf899728e17a4b71381d48bc318775",
+          "titulo": "Consulta gráfica de PDF",
+          "ultima_linea": 26
+        },
+        {
+          "fin_byte_exclusivo": 3727,
+          "inicio_byte": 3132,
+          "primera_linea": 27,
+          "seccion": "MD-L000027-L000032",
           "sha256": "930f5799deb4a453fe9e76caefcc818927b487988d03bc60f83403d7f88f940e",
           "titulo": "Texto y codificación",
-          "ultima_linea": 22
+          "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 3332,
-          "inicio_byte": 2256,
-          "primera_linea": 23,
-          "seccion": "MD-L000023-L000037",
-          "sha256": "d5956035587fa6bfb5696508dac28ada9b36cfa946c380b0f6ed50aa0c18dd1e",
+          "fin_byte_exclusivo": 5194,
+          "inicio_byte": 3727,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000050",
+          "sha256": "f7aac1e24061a39db886e22904b7ae2afbec36d76f298a1f2eafaba68fe2ea35",
           "titulo": "Páginas y libros extensos",
-          "ultima_linea": 37
+          "ultima_linea": 50
         },
         {
-          "fin_byte_exclusivo": 4295,
-          "inicio_byte": 3332,
-          "primera_linea": 38,
-          "seccion": "MD-L000038-L000045",
-          "sha256": "06d5fb4847cc2c1150e476ada97160138fad01611af2840717c09238ef338173",
+          "fin_byte_exclusivo": 6161,
+          "inicio_byte": 5194,
+          "primera_linea": 51,
+          "seccion": "MD-L000051-L000058",
+          "sha256": "3d0be3507aff16add1699b4190e3b116f82b53f40ffedb44e618750415301bc5",
           "titulo": "Tablas, figuras y fórmulas",
-          "ultima_linea": 45
+          "ultima_linea": 58
         },
         {
-          "fin_byte_exclusivo": 4946,
-          "inicio_byte": 4295,
-          "primera_linea": 46,
-          "seccion": "MD-L000046-L000052",
+          "fin_byte_exclusivo": 6812,
+          "inicio_byte": 6161,
+          "primera_linea": 59,
+          "seccion": "MD-L000059-L000065",
           "sha256": "ae3b8c342aa766c32f92d61025bb1c35a6d072b05fa92368592904e36ed823c7",
           "titulo": "Revisión del resultado",
-          "ultima_linea": 52
+          "ultima_linea": 65
         }
       ]
     },
@@ -443,7 +457,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 4158,
+      "cobertura_bytes": 4612,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-05",
       "identificador_editorial_r0": null,
@@ -451,7 +465,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/revision.md",
-        "sha256": "bad3be413fa5150a45c7cdfd203254d07d4e02e7c788d02d4b901c9af78d5d3a"
+        "sha256": "343ac9025d8a0a552b27a67f85ece0d333e747f3a59ae51ebb6c7dd6f84f349f"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -483,28 +497,28 @@
           "ultima_linea": 23
         },
         {
-          "fin_byte_exclusivo": 3168,
+          "fin_byte_exclusivo": 3622,
           "inicio_byte": 2247,
           "primera_linea": 24,
-          "seccion": "MD-L000024-L000035",
-          "sha256": "4e76401078f4b3c590d0d5042d56d628250be6886c60e1930f86bd8f8b56fb62",
+          "seccion": "MD-L000024-L000037",
+          "sha256": "62f0a3dc97ac71bacefb4731af2d3dfa20ed4779d739b00e41814730f618d916",
           "titulo": "Avisos comprensibles y accionables",
-          "ultima_linea": 35
+          "ultima_linea": 37
         },
         {
-          "fin_byte_exclusivo": 4158,
-          "inicio_byte": 3168,
-          "primera_linea": 36,
-          "seccion": "MD-L000036-L000048",
+          "fin_byte_exclusivo": 4612,
+          "inicio_byte": 3622,
+          "primera_linea": 38,
+          "seccion": "MD-L000038-L000050",
           "sha256": "92f65a161421cdd0dbfe8beeed0ee4cb38ebb623fb2680e4f197ed2dd0b37028",
           "titulo": "Secuencia de revisión",
-          "ultima_linea": 48
+          "ultima_linea": 50
         }
       ]
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 4932,
+      "cobertura_bytes": 5857,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-06",
       "identificador_editorial_r0": null,
@@ -512,7 +526,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/verificacion.md",
-        "sha256": "d293ad2c56d9eff61fd776321a087aeb22a2c0b90c665d5fc2167a14d904cdb8"
+        "sha256": "b0eec68ff725e78669d8aa1a83f8eccd558aeddbe37d8b042e5a2a2dae185ad1"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -521,54 +535,54 @@
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000004",
-          "sha256": "b8064dbaa289a66c88b903ac91dce438c24aa7414339c6824d7717465e7ad048",
+          "sha256": "ff1aabf3cbc5eedcafcaaf3e31c407210f1bb2b3338b2c8eac26891ef3fbd8be",
           "titulo": "Comprobaciones, estado y fuentes",
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1259,
+          "fin_byte_exclusivo": 1915,
           "inicio_byte": 115,
           "primera_linea": 5,
-          "seccion": "MD-L000005-L000012",
-          "sha256": "416351395b863455f9e2d6a587180061c4680b4e038e356ce0d2e444ca25a057",
+          "seccion": "MD-L000005-L000014",
+          "sha256": "389f9248af852f3cb08d963e0a87247f7dea49874b7530ec3d8aa8f4462c3b51",
           "titulo": "Estado que explica esta edición",
-          "ultima_linea": 12
+          "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 2144,
-          "inicio_byte": 1259,
-          "primera_linea": 13,
-          "seccion": "MD-L000013-L000023",
-          "sha256": "f1c4db70420888340367201c872ea9c2def21aa565d07c45dbb6bc20abacba20",
+          "fin_byte_exclusivo": 3017,
+          "inicio_byte": 1915,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000026",
+          "sha256": "0a1f1e128ae15bfaede7289c81a6d706d99092d001cc6293ffb4dc49e9334e10",
           "titulo": "Componentes y función efectiva",
-          "ultima_linea": 23
+          "ultima_linea": 26
         },
         {
-          "fin_byte_exclusivo": 2997,
-          "inicio_byte": 2144,
-          "primera_linea": 24,
-          "seccion": "MD-L000024-L000031",
-          "sha256": "1941a5dc4e375f20c52eae3124e4d4b990e0015d1013b0de5de242d9c28758c6",
+          "fin_byte_exclusivo": 3829,
+          "inicio_byte": 3017,
+          "primera_linea": 27,
+          "seccion": "MD-L000027-L000034",
+          "sha256": "3bbcfbba262f66b9c340501c9232dee5f5ee07a5832f8e3a03f38c394a5bc3c7",
           "titulo": "Pendientes identificados",
-          "ultima_linea": 31
+          "ultima_linea": 34
         },
         {
-          "fin_byte_exclusivo": 4018,
-          "inicio_byte": 2997,
-          "primera_linea": 32,
-          "seccion": "MD-L000032-L000042",
-          "sha256": "973c128528039df186bd545d749e6544fb513abe349c2f14e201acf4e3209fcf",
+          "fin_byte_exclusivo": 4943,
+          "inicio_byte": 3829,
+          "primera_linea": 35,
+          "seccion": "MD-L000035-L000046",
+          "sha256": "1e2cc9d47ed527c0b3abfa04f0526f8bfc199c1458c33d0b6363f5fb903e3d09",
           "titulo": "Fuentes primarias",
-          "ultima_linea": 42
+          "ultima_linea": 46
         },
         {
-          "fin_byte_exclusivo": 4932,
-          "inicio_byte": 4018,
-          "primera_linea": 43,
-          "seccion": "MD-L000043-L000051",
+          "fin_byte_exclusivo": 5857,
+          "inicio_byte": 4943,
+          "primera_linea": 47,
+          "seccion": "MD-L000047-L000055",
           "sha256": "415c569e9070567e98ac8b43296f58a5e8ec0da918d1355a6b8f19872e3d72dd",
           "titulo": "Ediciones y derechos",
-          "ultima_linea": 51
+          "ultima_linea": 55
         }
       ]
     },
@@ -1499,6 +1513,8 @@
       ]
     }
   ],
-  "edicion": "Biblioteca documental del SV · 11/10/2026",
-  "alcance": "Identidad y correspondencia de los originales Markdown de esta edición; no acredita conformidad científica o normativa."
+  "edicion": "biblioteca-sv-visualizadores-v02-20261011",
+  "navegacion_autonoma_modelo": false,
+  "politica_sha256": "720a92bfc2e95add11d82f272525403be979ec6229e61594bfb73fe850501501",
+  "version": 1
 }

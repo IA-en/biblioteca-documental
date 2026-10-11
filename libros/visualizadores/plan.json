@@ -4,16 +4,16 @@
     {
       "id": "VISUALIZADORES-02",
       "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
-      "sha256": "1aa408493c90406ef2dfe01b3e57e19177d6d7c2c9cafe18dafd7d0f5c0a28ed",
+      "sha256": "4263c6a8aa5c17cf5cfb5cfa468136f87798eb81671c5e1503d1fb2456d709a7",
       "ruta": "finalidad.md",
-      "url": "urn:sv:documento:sha256:1aa408493c90406ef2dfe01b3e57e19177d6d7c2c9cafe18dafd7d0f5c0a28ed"
+      "url": "urn:sv:documento:sha256:4263c6a8aa5c17cf5cfb5cfa468136f87798eb81671c5e1503d1fb2456d709a7"
     },
     {
       "id": "VISUALIZADORES-03",
       "titulo": "Formatos, representaciones y límites",
-      "sha256": "fa029972aa0d1f5ab825fd4ec34f6963acadce896a63d5d016e7abe3ec4b1f7f",
+      "sha256": "2f5bd40eb779cb9a8d4338b0959cafcfda7531a96317974cee041f4aa723ffd8",
       "ruta": "formatos.md",
-      "url": "urn:sv:documento:sha256:fa029972aa0d1f5ab825fd4ec34f6963acadce896a63d5d016e7abe3ec4b1f7f"
+      "url": "urn:sv:documento:sha256:2f5bd40eb779cb9a8d4338b0959cafcfda7531a96317974cee041f4aa723ffd8"
     },
     {
       "id": "VISUALIZADORES-04",
@@ -25,16 +25,16 @@
     {
       "id": "VISUALIZADORES-05",
       "titulo": "Información disponible para la revisión",
-      "sha256": "bad3be413fa5150a45c7cdfd203254d07d4e02e7c788d02d4b901c9af78d5d3a",
+      "sha256": "343ac9025d8a0a552b27a67f85ece0d333e747f3a59ae51ebb6c7dd6f84f349f",
       "ruta": "revision.md",
-      "url": "urn:sv:documento:sha256:bad3be413fa5150a45c7cdfd203254d07d4e02e7c788d02d4b901c9af78d5d3a"
+      "url": "urn:sv:documento:sha256:343ac9025d8a0a552b27a67f85ece0d333e747f3a59ae51ebb6c7dd6f84f349f"
     },
     {
       "id": "VISUALIZADORES-06",
       "titulo": "Comprobaciones, estado y fuentes",
-      "sha256": "d293ad2c56d9eff61fd776321a087aeb22a2c0b90c665d5fc2167a14d904cdb8",
+      "sha256": "b0eec68ff725e78669d8aa1a83f8eccd558aeddbe37d8b042e5a2a2dae185ad1",
       "ruta": "verificacion.md",
-      "url": "urn:sv:documento:sha256:d293ad2c56d9eff61fd776321a087aeb22a2c0b90c665d5fc2167a14d904cdb8"
+      "url": "urn:sv:documento:sha256:b0eec68ff725e78669d8aa1a83f8eccd558aeddbe37d8b042e5a2a2dae185ad1"
     }
   ],
   "summary": {
@@ -44,6 +44,6 @@
     "ruta": "SUMMARY.md",
     "url": "urn:sv:documento:sha256:8bff1ac2964da189d3cb06e28a95d0dac60020fb692964998b9b5bdfc448eed5"
   },
-  "revision": "458c9570493be5e0ea7af47a8a9af81d3d8bdd64703e6807c34380488fe06b4f",
+  "revision": "1fc636c565a2df3d4f0c86074c885e8c7da1fee422495ea5fc906339fb05e6ee",
   "libro": "SV_VISUALIZADORES"
 }
