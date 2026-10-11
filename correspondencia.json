@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados; no recepción de traducción ni producción",
-  "biblioteca_sha256": "eb57e85a587d29b142ea787ed9246d5f7a7b40592b4ca6be9be7aa2ac394f34f",
+  "biblioteca_sha256": "3629bc9a136f3224ebac596906e9ea7d29e88bea9d7b1dccbfc4e48c62e2fed6",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -40,7 +40,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/indice.md",
-        "sha256": "9e45a9a81b34e29aeae8324fca03a0314c725180a5969226ae1953394f656f6e"
+        "sha256": "ef1d2b1fc4431bcdeae62ebd5f6bbb10da7316013020ef7575e9753f931a50ba"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -58,7 +58,7 @@
           "inicio_byte": 297,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000016",
-          "sha256": "b2b563fe9c9469d9d993a5b151c4a73e630d1fdd58b6f8060f6096eff980f6cb",
+          "sha256": "b01d668eff2d9b1b024df2e4b5153642b6dcc5d62c9bf244267b60860170d13b",
           "titulo": "Libros disponibles",
           "ultima_linea": 16
         },
@@ -247,7 +247,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 3217,
+      "cobertura_bytes": 3247,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-02",
       "identificador_editorial_r0": null,
@@ -255,7 +255,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/finalidad.md",
-        "sha256": "75399ab9c3422f805c3f254f22886f9b1a11bef6dc0a7ee43b3f2cc719a603bc"
+        "sha256": "504a3110b047606d78ae9b8d512a2f94b2341b8d097f2618d13ab5bf2d988d6e"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -278,17 +278,17 @@
           "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 1782,
+          "fin_byte_exclusivo": 1813,
           "inicio_byte": 1151,
           "primera_linea": 15,
           "seccion": "MD-L000015-L000022",
-          "sha256": "8da5c7d436f480b2c9992f740790f6f5ef6a6b6277c096eb2c2659e06f4ad313",
+          "sha256": "cc3eb71418e5780dac649a21721ba4168a74d57bf7649d68a1db407fffd3ef00",
           "titulo": "Cómo trabajar con un documento",
           "ultima_linea": 22
         },
         {
-          "fin_byte_exclusivo": 2344,
-          "inicio_byte": 1782,
+          "fin_byte_exclusivo": 2375,
+          "inicio_byte": 1813,
           "primera_linea": 23,
           "seccion": "MD-L000023-L000028",
           "sha256": "9c0a81b255a13a8c8c3e8154b6227278044034f6147baf1ce65c8a1d57cd2d61",
@@ -296,11 +296,11 @@
           "ultima_linea": 28
         },
         {
-          "fin_byte_exclusivo": 3217,
-          "inicio_byte": 2344,
+          "fin_byte_exclusivo": 3247,
+          "inicio_byte": 2375,
           "primera_linea": 29,
           "seccion": "MD-L000029-L000037",
-          "sha256": "f5a92463298a32738ecf2a85bee1bd92f1dfe57fcbaada005226b9d95756a9c6",
+          "sha256": "536046e7787148590054128b9a1b0eb4dfd45d651431c6b05255c0354c9cb4f2",
           "titulo": "Lectura y traducción",
           "ultima_linea": 37
         }
@@ -308,7 +308,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 4385,
+      "cobertura_bytes": 4860,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-03",
       "identificador_editorial_r0": null,
@@ -316,7 +316,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/formatos.md",
-        "sha256": "5753d3b63818c11885a5296d1c5f7963f3e6f6235134d1a4bb7fba464ed9f8d4"
+        "sha256": "f2d1e5ec058a4c7cef902b457b041b5015ae1dbdd464bb89e2daf02465146bd1"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -330,17 +330,17 @@
           "ultima_linea": 2
         },
         {
-          "fin_byte_exclusivo": 1011,
+          "fin_byte_exclusivo": 1487,
           "inicio_byte": 41,
           "primera_linea": 3,
           "seccion": "MD-L000003-L000010",
-          "sha256": "ea5d7d53cfb69310582786eb4b38f452c7ad227cb5636b0576a5791c4ad93660",
+          "sha256": "2e0a4f1bbb36f2d549a9a436411e9475f86e774cefca22dd951b4f937971361b",
           "titulo": "PDF: leer las páginas",
           "ultima_linea": 10
         },
         {
-          "fin_byte_exclusivo": 2304,
-          "inicio_byte": 1011,
+          "fin_byte_exclusivo": 2780,
+          "inicio_byte": 1487,
           "primera_linea": 11,
           "seccion": "MD-L000011-L000020",
           "sha256": "9fcc0af77c4585a9e9bd95055905db4412b4604662f8a6c0cc931e8a00cfaea0",
@@ -348,8 +348,8 @@
           "ultima_linea": 20
         },
         {
-          "fin_byte_exclusivo": 2812,
-          "inicio_byte": 2304,
+          "fin_byte_exclusivo": 3288,
+          "inicio_byte": 2780,
           "primera_linea": 21,
           "seccion": "MD-L000021-L000026",
           "sha256": "9d1eeafd98ef9aba1f7ae5e25e4a032663426bb32c157dfc3a417e46e4385578",
@@ -357,8 +357,8 @@
           "ultima_linea": 26
         },
         {
-          "fin_byte_exclusivo": 3340,
-          "inicio_byte": 2812,
+          "fin_byte_exclusivo": 3816,
+          "inicio_byte": 3288,
           "primera_linea": 27,
           "seccion": "MD-L000027-L000032",
           "sha256": "2a571c55aad4b7a9b5e2bf3bd2fdbb31947a7edabaf21b802abaaed7e90487b0",
@@ -366,11 +366,11 @@
           "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 4385,
-          "inicio_byte": 3340,
+          "fin_byte_exclusivo": 4860,
+          "inicio_byte": 3816,
           "primera_linea": 33,
           "seccion": "MD-L000033-L000046",
-          "sha256": "16716cb4394b1d5e3b9e11094eda9c11fc9a5e823210cbcd04088158f763432f",
+          "sha256": "e2020a08dcc589f5ae3a801c849d7f369e9c4347aafd95a033f0151900e2d149",
           "titulo": "Elegir la representación adecuada",
           "ultima_linea": 46
         }
@@ -378,7 +378,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 3448,
+      "cobertura_bytes": 3447,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-04",
       "identificador_editorial_r0": null,
@@ -386,7 +386,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/entrega.md",
-        "sha256": "4883ff09d12b768bed3fac53454a14a31ab5f493f7e2becc6378beb5166e0d62"
+        "sha256": "45c7c6d325257dc912b8418ff73b1b18831515c079bccf49d424daa912f771e6"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -436,11 +436,11 @@
           "ultima_linea": 36
         },
         {
-          "fin_byte_exclusivo": 3448,
+          "fin_byte_exclusivo": 3447,
           "inicio_byte": 2619,
           "primera_linea": 37,
           "seccion": "MD-L000037-L000045",
-          "sha256": "5278ff63fa74b99fc76eebf640a4187b66f33f55284a72b9bb5b7cd9de9abb8d",
+          "sha256": "113597ac33b5ec59b0037add2027097a4634b3db647e9fbfce52ce9d03083c26",
           "titulo": "Ejemplo",
           "ultima_linea": 45
         }
@@ -448,7 +448,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 2983,
+      "cobertura_bytes": 2982,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-05",
       "identificador_editorial_r0": null,
@@ -456,7 +456,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/revision.md",
-        "sha256": "e436a7484634738e4906adab039ef1b202767dac7e55833bb10d263b693cca14"
+        "sha256": "90acceda7c5516d9b20aa62692beaee0eca5fa8f3d1f1aaf1a2ef6a79a496fbe"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -506,11 +506,11 @@
           "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 2983,
+          "fin_byte_exclusivo": 2982,
           "inicio_byte": 2201,
           "primera_linea": 33,
           "seccion": "MD-L000033-L000041",
-          "sha256": "98ddcae9ec83cda3b3c8f8ff8ff9620f514c3506e4bc2878099dc3f744f600c5",
+          "sha256": "3103e9b4768049fcbb2d67c130c0b0cb74159c5cca662bec3e73c0ca4801ddbd",
           "titulo": "Ante una respuesta de la IA",
           "ultima_linea": 41
         }
@@ -518,7 +518,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 3577,
+      "cobertura_bytes": 3576,
       "correspondencia": "identidad_literal",
       "documento": "VISUALIZADORES-06",
       "identificador_editorial_r0": null,
@@ -526,7 +526,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/visualizadores/src/verificacion.md",
-        "sha256": "ae678afed5fc0477fab0e69e07a4271cedfa3ca905fec08daf5de51125d126a1"
+        "sha256": "bc5324aaa0e8c8b12c8a9c873b17e6f04f1b7d6bf447b3949671b8471e51956e"
       },
       "procedencia": "Edición pública propia de 11/10/2026",
       "secciones": [
@@ -567,11 +567,11 @@
           "ultima_linea": 36
         },
         {
-          "fin_byte_exclusivo": 3577,
+          "fin_byte_exclusivo": 3576,
           "inicio_byte": 2838,
           "primera_linea": 37,
           "seccion": "MD-L000037-L000045",
-          "sha256": "6cbedab49f09afa5f89fb91f66ae920fe8f5ec8865dfa02a429481e613f91498",
+          "sha256": "3add1b4e415e8a7895799db235a638d38894f3a39a1d3b0d1e2426697f064a5e",
           "titulo": "Derechos y alcance de la explicación",
           "ultima_linea": 45
         }
@@ -1506,6 +1506,6 @@
   ],
   "edicion": "biblioteca-sv-visualizadores-v05-lectura-20261011",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "430d059c7461825e5534fa53a8ddba55d23dd738fd24592474c2f9be3ed6cf1c",
+  "politica_sha256": "028acf2a632acd053728e64f578ef6fd5a7609a1b450baeb0432995e9ee82957",
   "version": 1
 }
