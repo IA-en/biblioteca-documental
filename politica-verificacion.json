@@ -1,13 +1,14 @@
 {
+  "permitir_restringidos": false,
   "permitir_sinteticos": false,
-  "nodo": 1,
+  "biblioteca_sha256": "21a57d72f010e82276f3a17fb27a26aad0e20196963bf97eddcb53b7b44e1096",
+  "finalidad": "verificacion_local",
   "libros_permitidos": [
     "guia",
+    "visualizadores",
     "normativa",
     "manual"
   ],
-  "finalidad": "verificacion_local",
-  "version": 1,
-  "biblioteca_sha256": "f92331cdb0d5affa826a83b67ec62d9611bdc5e7c95d275cea6c233aac7adac1",
-  "permitir_restringidos": false
+  "nodo": 1,
+  "version": 1
 }

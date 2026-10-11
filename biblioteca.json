@@ -1,92 +1,193 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-normativa-v01-20261010",
+  "edicion": "biblioteca-sv-visualizadores-v01-20261011",
   "libros": [
     {
       "id": "guia",
-      "titulo": "Biblioteca documental del SV",
       "plan": {
-        "ruta": "libros/guia/plan.json",
-        "sha256": "f739d7aaef3386535a1ff5c04a2cb44cf388b43a992a7b089e20d975c5a57707"
+        "sha256": "90e23def38f291be1cfa27771b7348e4e513e14bd94a2ffd9f9593599870754e",
+        "ruta": "libros/guia/plan.json"
       },
+      "titulo": "Biblioteca documental del SV",
+      "raiz": "libros/guia/src",
       "metadatos": [
         {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
+            "ruta": "libros/guia/src/SUMMARY.md"
+          },
+          "correspondencia": "identidad_literal",
           "documento": "GUIA-01",
-          "original": {
-            "ruta": "libros/guia/src/SUMMARY.md",
-            "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f"
-          },
-          "identificador_editorial_r0": null,
-          "correspondencia": "identidad_literal",
-          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
-          "visibilidad": "publica",
-          "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
           "licencia": "CC BY-NC-ND 4.0",
-          "tipo_original": "markdown"
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
         },
         {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "8334a21e6c60fdcff67d054503313b96cbe785556f2b5cbfac3c29432d6334d1",
+            "ruta": "libros/guia/src/indice.md"
+          },
+          "correspondencia": "identidad_literal",
           "documento": "GUIA-02",
-          "original": {
-            "ruta": "libros/guia/src/indice.md",
-            "sha256": "a29728d299670811cf7e47d071be060c110cda9adb8bc65b5a25a0b5e309c053"
-          },
-          "identificador_editorial_r0": null,
-          "correspondencia": "identidad_literal",
-          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
-          "visibilidad": "publica",
-          "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
           "licencia": "CC BY-NC-ND 4.0",
-          "tipo_original": "markdown"
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
         },
         {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "50dcb8b36c6f092ddf84b5990344b40104effc3866b5ec4768ccbc8aa98f693b",
+            "ruta": "libros/guia/src/organizacion.md"
+          },
+          "correspondencia": "identidad_literal",
           "documento": "GUIA-03",
-          "original": {
-            "ruta": "libros/guia/src/organizacion.md",
-            "sha256": "50dcb8b36c6f092ddf84b5990344b40104effc3866b5ec4768ccbc8aa98f693b"
-          },
-          "identificador_editorial_r0": null,
-          "correspondencia": "identidad_literal",
-          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
-          "visibilidad": "publica",
-          "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
           "licencia": "CC BY-NC-ND 4.0",
-          "tipo_original": "markdown"
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
         },
         {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "e05b0d2ceebe8673e9ae76970949ec4920e3aa99a023247751ba02c280e08062",
+            "ruta": "libros/guia/src/consulta.md"
+          },
+          "correspondencia": "identidad_literal",
           "documento": "GUIA-04",
-          "original": {
-            "ruta": "libros/guia/src/consulta.md",
-            "sha256": "e05b0d2ceebe8673e9ae76970949ec4920e3aa99a023247751ba02c280e08062"
-          },
-          "identificador_editorial_r0": null,
-          "correspondencia": "identidad_literal",
-          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
-          "visibilidad": "publica",
-          "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
           "licencia": "CC BY-NC-ND 4.0",
-          "tipo_original": "markdown"
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
         },
         {
-          "documento": "GUIA-05",
-          "original": {
-            "ruta": "libros/guia/src/licencias.md",
-            "sha256": "05a07947548f411f1200a080368c82fceae2a66bba285a11e60273f3d15c3173"
-          },
           "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "05a07947548f411f1200a080368c82fceae2a66bba285a11e60273f3d15c3173",
+            "ruta": "libros/guia/src/licencias.md"
+          },
           "correspondencia": "identidad_literal",
-          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
-          "visibilidad": "publica",
-          "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "documento": "GUIA-05",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
           "licencia": "CC BY-NC-ND 4.0",
-          "tipo_original": "markdown"
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
         }
-      ],
-      "raiz": "libros/guia/src"
+      ]
+    },
+    {
+      "id": "visualizadores",
+      "plan": {
+        "sha256": "f36d67909a6dc60bda0d12b88178a4ce7a79cae27fc3c0ab1138bd2fd62ec81e",
+        "ruta": "libros/visualizadores/plan.json"
+      },
+      "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
+      "raiz": "libros/visualizadores/src",
+      "metadatos": [
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "8bff1ac2964da189d3cb06e28a95d0dac60020fb692964998b9b5bdfc448eed5",
+            "ruta": "libros/visualizadores/src/SUMMARY.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-01",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "1aa408493c90406ef2dfe01b3e57e19177d6d7c2c9cafe18dafd7d0f5c0a28ed",
+            "ruta": "libros/visualizadores/src/finalidad.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-02",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "fa029972aa0d1f5ab825fd4ec34f6963acadce896a63d5d016e7abe3ec4b1f7f",
+            "ruta": "libros/visualizadores/src/formatos.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-03",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "c13bde155fbe90253973888f9e10dd1e7674744a704e35b4a167aebcd0886b14",
+            "ruta": "libros/visualizadores/src/entrega.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-04",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "bad3be413fa5150a45c7cdfd203254d07d4e02e7c788d02d4b901c9af78d5d3a",
+            "ruta": "libros/visualizadores/src/revision.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-05",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "d293ad2c56d9eff61fd776321a087aeb22a2c0b90c665d5fc2167a14d904cdb8",
+            "ruta": "libros/visualizadores/src/verificacion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-06",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        }
+      ]
     },
     {
       "id": "normativa",

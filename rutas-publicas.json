@@ -1,5 +1,6 @@
 {
   "manual": "dominios/lenguaje-de-computacion/manual",
   "normativa": "normativa/trazabilidad-y-seguimiento-ia",
-  "guia": ""
+  "guia": "",
+  "visualizadores": "documentacion/reglas-usos-descripciones-documentales"
 }

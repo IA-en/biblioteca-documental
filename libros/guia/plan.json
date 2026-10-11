@@ -1,11 +1,12 @@
 {
+  "version": 2,
   "capitulos": [
     {
       "id": "GUIA-02",
       "titulo": "Biblioteca documental del SV",
-      "sha256": "a29728d299670811cf7e47d071be060c110cda9adb8bc65b5a25a0b5e309c053",
+      "sha256": "8334a21e6c60fdcff67d054503313b96cbe785556f2b5cbfac3c29432d6334d1",
       "ruta": "indice.md",
-      "url": "urn:sv:documento:sha256:a29728d299670811cf7e47d071be060c110cda9adb8bc65b5a25a0b5e309c053"
+      "url": "urn:sv:documento:sha256:8334a21e6c60fdcff67d054503313b96cbe785556f2b5cbfac3c29432d6334d1"
     },
     {
       "id": "GUIA-03",
@@ -29,14 +30,13 @@
       "url": "urn:sv:documento:sha256:05a07947548f411f1200a080368c82fceae2a66bba285a11e60273f3d15c3173"
     }
   ],
-  "version": 2,
-  "libro": "SV_GUIA",
-  "revision": "19327b1db94eafe7e6b9ecb2d427de1b2521df7ffe5cef917a16ad393363ca4e",
   "summary": {
     "id": "GUIA-01",
     "titulo": "Biblioteca documental del SV",
     "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
     "ruta": "SUMMARY.md",
     "url": "urn:sv:documento:sha256:a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f"
-  }
+  },
+  "revision": "fc5e84d02c250d5ed650eb84de2319388b9fcff1104d7bedd7ed823842264834",
+  "libro": "SV_GUIA"
 }
