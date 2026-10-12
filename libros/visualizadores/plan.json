@@ -4,9 +4,9 @@
     {
       "id": "VISUALIZADORES-02",
       "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
-      "sha256": "e4c1e068434ae303a194cbdcb068184c4bcd7ba8c5eb432adbc38392f31010a2",
+      "sha256": "197f4cef6ace14d348e3ff867f257513e46058ae200dcc4f4d9dccf147f86e21",
       "ruta": "finalidad.md",
-      "url": "urn:sv:documento:sha256:e4c1e068434ae303a194cbdcb068184c4bcd7ba8c5eb432adbc38392f31010a2"
+      "url": "urn:sv:documento:sha256:197f4cef6ace14d348e3ff867f257513e46058ae200dcc4f4d9dccf147f86e21"
     },
     {
       "id": "VISUALIZADORES-03",
@@ -18,16 +18,16 @@
     {
       "id": "VISUALIZADORES-07",
       "titulo": "Prioridades documentales y Universos relacionados",
-      "url": "urn:sv:documento:sha256:007be3516436454a07dc8ce69c307520c2ab6771d7a34a36f3ebb06d8b847ce8",
+      "url": "urn:sv:documento:sha256:f793cd14e5af52045524d00ed0cee274ed42c91df605dc94c24d32eaf17b929e",
       "ruta": "prioridades.md",
-      "sha256": "007be3516436454a07dc8ce69c307520c2ab6771d7a34a36f3ebb06d8b847ce8"
+      "sha256": "f793cd14e5af52045524d00ed0cee274ed42c91df605dc94c24d32eaf17b929e"
     },
     {
       "id": "VISUALIZADORES-04",
       "titulo": "Autorización y entrega efectiva a la IA",
-      "sha256": "45c7c6d325257dc912b8418ff73b1b18831515c079bccf49d424daa912f771e6",
+      "sha256": "c4a16ee095930bbe946406035b6892d9d5119d1d3517538d5190cbbc30574ed0",
       "ruta": "entrega.md",
-      "url": "urn:sv:documento:sha256:45c7c6d325257dc912b8418ff73b1b18831515c079bccf49d424daa912f771e6"
+      "url": "urn:sv:documento:sha256:c4a16ee095930bbe946406035b6892d9d5119d1d3517538d5190cbbc30574ed0"
     },
     {
       "id": "VISUALIZADORES-05",
@@ -51,6 +51,6 @@
     "ruta": "SUMMARY.md",
     "url": "urn:sv:documento:sha256:21180ecb7dcc97d6dd0a5930fa6de8d1a1ca755c3bd96a4e0340e3f6db2885ce"
   },
-  "revision": "7d8f2d385f0c5c72192f22b2f19b4d7f1dbb92b8600f065053d4a28fbdac8eb5",
+  "revision": "bd75c7e3401935b1e90a80d1789c684eb40343d8857e591e543e8a21874d1ede",
   "libro": "SV_VISUALIZADORES"
 }

@@ -1,5 +1,5 @@
 [book]
-title = "Manual del Lenguaje SV: documentación conservada"
+title = "Manual del Lenguaje de Computación SV"
 language = "es"
 src = "src"
 [build]

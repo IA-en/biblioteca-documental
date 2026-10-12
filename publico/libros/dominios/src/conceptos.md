@@ -20,7 +20,7 @@ Un parámetro es una unidad de significado delimitada por su definición, domini
 
 El **parámetro de conocimiento** conserva una unidad de conceptos o datos generales dentro de un Universo. No tiene por sí mismo un valor ternario del caso. El **parámetro singular de decisión** formula una cuestión que recibe 0, 1 o U conforme a su contrato, contexto y evidencia. Dos casos que utilizan una misma definición conservan valoraciones independientes.
 
-Se propone, además, valorar mediante la terna la **pertenencia de un parámetro de conocimiento a una ruta determinada**. Ese valor correspondería a la relación, no a la verdad del conocimiento ni al resultado decisional. La propuesta permanece en evaluación. El [capítulo de parámetros y rutas](parametros-rutas.md) explica la diferencia mediante un ejemplo y un diagrama.
+Se propone, además, valorar mediante la terna la **pertenencia de un parámetro de conocimiento a una ruta determinada**. Ese valor correspondería a la relación, no a la verdad del conocimiento ni al resultado decisional. La propuesta permanece en evaluación. El [capítulo de parámetros y rutas](parametros-rutas.md) explica la diferencia mediante ejemplos y diagramas.
 
 Todo valor debe leerse junto a la pregunta evaluada y su convención. No basta interpretar un número por costumbre ni convertir información ausente en una conclusión negativa. Los inventarios históricos se conservan con sus contratos; esta distinción no los reclasifica automáticamente.
 

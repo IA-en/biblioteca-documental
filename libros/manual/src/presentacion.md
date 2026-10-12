@@ -1,28 +1,27 @@
-# Lenguaje SV: edición documental de prueba
+# Manual del Lenguaje de Computación SV
 
-Esta edición permite consultar la estructura conservada del manual del Lenguaje SVP y comprobar su suministro documental mediante MCP. Es una demostración de publicación y consulta; no constituye un manual terminado ni modifica el estado de aprobación de sus contenidos.
+**Edición de consulta · 12 de octubre de 2026 · Original en español.**
 
-## Estado del contenido
+Este manual reúne explicaciones sobre el Lenguaje de Computación SV, su relación con el conocimiento de los Universos y las condiciones que debe preservar una ejecución. La edición disponible comprende el ámbito del lenguaje, los principios de compatibilidad y los requisitos de representación de parámetros, rutas y evidencias.
 
-El índice original registra once tramos pendientes, SVP-MAN-00 a SVP-MAN-10. Los tramos sin texto aparecen como entradas pendientes. El tramo 10 conserva el documento preparatorio existente, cuyo estado es «Pendiente de desarrollo».
+## Alcance de la edición
 
-El constructor y el tramo 10 se reproducen íntegramente, sin correcciones terminológicas ni ampliaciones. Sus fuentes pertenecen a la revisión f97173e07a9dfb8385ed1268d11de422b291507d del repositorio SV-lenguaje-de-computacion.
+El manual está incompleto: todavía no ofrece una exposición integral de la sintaxis, las operaciones y los diagnósticos del lenguaje. La [organización temática](constructor.md) permite reconocer esas materias. Los capítulos disponibles identifican expresamente los conceptos de diseño y los requisitos pendientes de comprobación.
 
-## Complemento de requisitos
+El pliego, la gramática, la representación intermedia —la estructura formal que permite interpretar y ejecutar el lenguaje— y los contratos vigentes determinan su significado. Este manual los explica; una propuesta descrita en sus páginas no modifica por sí sola esas reglas ni acredita una función disponible.
 
-El capítulo [Parámetros, recorridos y evidencia](parametros-rutas.md) distingue conocimiento, pertenencia propuesta a rutas y valoración decisional. Describe necesidades de ejecución y trazabilidad mediante un ejemplo y un diagrama. Es un complemento en evaluación: no completa los tramos pendientes, no añade sintaxis ni acredita funciones implementadas.
+## Lectura recomendada
 
-## Autoridad documental
+1. Consulte el [ámbito y la organización temática](constructor.md) para situar las materias.
+2. Examine los [principios de compatibilidad](tramo-10.md) para comprender qué debe conservar la comunicación con otros lenguajes.
+3. Lea los [requisitos de parámetros, recorridos y evidencia](parametros-rutas.md) para relacionar conocimiento, decisiones, representación gráfica y ejecución.
 
-El manual permanece subordinado al pliego, la Frontera normativa, la representación intermedia y la gramática vigentes. La presentación de un documento en este libro no acredita una nueva aprobación. Las revisiones y los cierres se realizan en sus sedes competentes.
+El libro [Dominios y universos del Sistema Vectorial SV](../../universos/index.html) desarrolla las definiciones y los ejemplos conceptuales. Las operaciones de lectura, autorización y entrega de fuentes se explican en el [libro documental](../../../documentacion/reglas-usos-descripciones-documentales/index.html).
 
-## Consulta documental
+## Fuentes y versiones
 
-Los capítulos Markdown son la fuente de esta presentación y del catálogo MCP. El modelo recibe texto, identificación y localizadores; el Árbitro-Director conserva las decisiones de suministro y sus controles. La consulta no ejecuta los ejemplos, no incorpora información de los enlaces externos y no realiza inferencia.
+Esta edición ofrece una adaptación explicativa de las fuentes citadas en cada capítulo. Las referencias identifican la versión utilizada y permiten distinguir el fundamento existente de las propuestas. Los originales permanecen en sus publicaciones de referencia; esta adaptación no se presenta como una reproducción literal.
 
-## Fuentes
-
-- [Sede del manual](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp).
-- [Índice y estados originales](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/INDICE_Y_ESTADO_DEL_MANUAL_DEL_LENGUAJE_SVP.csv).
+---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

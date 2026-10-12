@@ -1,125 +1,35 @@
-# Constructor del manual del lenguaje SVP
+# Ámbito y organización del lenguaje
 
-## 1. Naturaleza
+El Lenguaje de Computación SV expresa definiciones, estados, evaluaciones y relaciones del Sistema Vectorial. Su estudio requiere distinguir el significado de una operación, su representación formal y la realización que la ejecuta. La extensión `.svp` identifica sus documentos de programa.
 
-Este constructor fija la arquitectura de trabajo del manual del lenguaje SVP (extensión `.svp`). Su finalidad es permitir un cierre progresivo por capítulos o tramos sin perder el eje del sistema ni dispersarse en caminos laterales.
+## Materias del manual
 
-No es todavía el manual final. Es la **máquina de construirlo**.
+| Materia | Contenido |
+| --- | --- |
+| Estatuto del lenguaje | Finalidad, alcance y relación con los fundamentos del SV. |
+| Léxico y convenciones | Nombres, identificadores y formas de declaración. |
+| Niveles N0–N4 | Distinción entre definición, estado, resultado, evolución y uso. |
+| Célula y evaluación | Constitución, estado, clasificación, umbrales y criticidad. |
+| Composición y supervisión | Relaciones y condiciones para combinar resultados. |
+| Resolución de U | Contexto, mecanismos admitidos y condiciones de reapertura. |
+| Frame y trayectoria | Representación del estado, transiciones y conservación de antecedentes. |
+| Consulta | Pregunta, contexto, respuesta, justificación y datos asociados. |
+| Diagnósticos | Errores estructurales y construcciones no admitidas. |
+| Representación y ejecución | Uso del intérprete, intercambio de datos y realización en Rust. |
+| Compatibilidad | Comunicación con otros lenguajes conservando el significado del SV. |
 
-## 2. Regla general
+Esta organización delimita materias; no acredita que todas estén desarrolladas en la presente edición. Los textos disponibles se encuentran en el índice lateral.
 
-Cada tramo del manual deberá ser:
+## Cómo interpretar una descripción del lenguaje
 
-- suficientemente nuclear para permitir detalle;
-- suficientemente general para no romper el hilo;
-- subordinado al pliego, a la Frontera normativa, a la IR y a la gramática vigente;
-- y verificable mediante ejemplos, contraejemplos y relación explícita con la implementación.
+Una descripción completa debe identificar la operación, sus entradas y resultados, las condiciones de aplicación, las dependencias y las exclusiones. Los ejemplos deben acompañarse de casos que permitan reconocer cuándo la operación no es aplicable o debe rechazar una entrada.
 
-## 3. Unidades de cierre recomendadas
+La relación con la gramática y la representación intermedia debe ser explícita. Una explicación conceptual, una forma de escritura admitida y una ejecución comprobada son evidencias diferentes. El manual debe indicar cuál respalda cada afirmación.
 
-Se recomienda cerrar el manual por **tramos nucleares** y no por lluvia de ideas.
+## Referencia
 
-### Tramo 0 — Estatuto del lenguaje
-- qué es SVP;
-- qué no es;
-- qué lugar ocupa respecto de doctrina, IR y backend.
+La organización temática se basa en la [estructura de referencia del manual](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/CONSTRUCTOR_DEL_MANUAL_DEL_LENGUAJE_SVP.md). Se presenta aquí como explicación para el lector, sin reproducir instrucciones de preparación editorial.
 
-### Tramo 1 — Léxico mínimo y convenciones superficiales
-- nombres;
-- identificadores;
-- forma de declaración;
-- disciplina nominal;
-- extensión `.svp`.
+---
 
-### Tramo 2 — Niveles N0–N4
-- definición;
-- estado;
-- resultado;
-- evolución;
-- uso.
-
-### Tramo 3 — Célula, evaluación y clasificación
-- `CellSpec`;
-- `CellState`;
-- `evaluate`;
-- umbral;
-- criticidad.
-
-### Tramo 4 — Composición y supervisión
-- `gate`;
-- `supervise`;
-- `compose`;
-- relación semántica previa.
-
-### Tramo 5 — Resolución y régimen de la U
-- `resolve`;
-- `Context`;
-- `Mechanism`;
-- reapertura.
-
-### Tramo 6 — Trayectoria, frame y datos de transición
-- `Frame`;
-- `TransitionData`;
-- `Trajectory`;
-- regla append-only.
-
-### Tramo 7 — Consulta y uso
-- `query`;
-- contexto;
-- respuesta, justificación y metadatos.
-
-### Tramo 8 — Diagnósticos, errores y zona prohibida
-- catálogo efectivo;
-- relación con IR;
-- errores estructurales;
-- sintaxis inalcanzable.
-
-### Tramo 9 — CLI, Playground, serialización y backend
-- CLI actual;
-- Playground;
-- lowering;
-- serialización;
-- brújula Rust.
-
-
-### Tramo 10 — Compatibilidad interlenguajes y adopción
-- APIs y enganches;
-- wrappers y módulos puente;
-- FFI, runtime, CLI y serialización;
-- prioridad por lenguajes anfitriones;
-- preservación semántica del SV.
-
-## 4. Ficha obligatoria por tramo
-
-Todo tramo del manual deberá declarar:
-
-1. ID del tramo
-2. Título
-3. Rango
-4. Objeto
-5. Dependencias
-6. Qué fija
-7. Qué no fija
-8. Ejemplos `.svp`
-9. Errores o contraejemplos
-10. Relación con IR y docs públicos
-11. Criterio de cierre
-12. Estado
-
-## 5. Criterio de cierre
-
-Un tramo se considerará cerrable cuando reúna, como mínimo:
-
-- exposición sobria del objeto;
-- correspondencia visible con la IR o con la superficie vigente;
-- uno o más ejemplos `.svp` suficientemente nucleares;
-- delimitación expresa de lo que queda fuera;
-- y ausencia de contradicción local suficiente con el pliego o con la Frontera normativa.
-
-## 6. Relación con la compatibilidad interlenguajes
-
-La compatibilidad interlenguajes del SV se tratará como tramo propio del manual y deberá coordinarse con la política y protocolo de compatibilidad interlenguajes del Lenguaje SV.
-
-## 7. Regla de control
-
-El constructor del manual no autoriza lluvias laterales. Toda idea nueva deberá pasar antes por el Wishlist IRQ del ecosistema SV.
+© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

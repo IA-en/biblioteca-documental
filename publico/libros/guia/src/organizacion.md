@@ -6,7 +6,11 @@ La biblioteca ofrece publicaciones de consulta sobre el Sistema Vectorial SV. Ca
 
 **Normativa y garantías documentales.** El libro «Normativa, trazabilidad y seguimiento de la IA en el SV», V.01, explica criterios de procedencia, evaluación y responsabilidad, con atención a ciberseguridad e inmunología.
 
-**Lenguaje de Computación.** El manual conserva la edición disponible y sus advertencias sobre capítulos pendientes. Su presencia no implica que el manual esté terminado.
+**Dominios y Universos.** Definiciones, metodología de constitución, parámetros y relaciones, con ejemplos y fuentes identificadas.
+
+**Gestión documental.** Reglas de conservación, lectura, selección, autorización y entrega de fuentes a la IA.
+
+**Lenguaje de Computación.** Ámbito del lenguaje, compatibilidad y requisitos de ejecución. La edición disponible tiene alcance limitado y no constituye un manual completo.
 
 Las publicaciones deben leerse conforme al alcance que declaran. Un marco de referencia describe exigencias; una comprobación acredita un resultado delimitado. Ninguna de ambas cosas equivale por sí sola a una certificación.
 

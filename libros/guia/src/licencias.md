@@ -4,7 +4,7 @@
 
 Los textos propios mantienen la atribución y licencia indicada al pie. La publicación reúne obras identificadas sin modificar los derechos de otras entidades.
 
-El libro de normativa enlaza referencias oficiales; no reproduce el texto íntegro de las normas ni incorpora la antigua adaptación de la guía de INCIBE. Las fuentes externas conservan sus condiciones de uso.
+Las citas y los enlaces permiten consultar las fuentes externas, que conservan sus condiciones de uso. La licencia de los textos propios no se extiende a las obras citadas.
 
 ## Ediciones anteriores
 

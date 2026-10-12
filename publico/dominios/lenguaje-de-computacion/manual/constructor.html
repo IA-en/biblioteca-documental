@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Constructor del manual - Manual del Lenguaje SV: documentación conservada</title>
+        <title>Ámbito y organización del lenguaje - Manual del Lenguaje de Computación SV</title>
 
 
         <!-- Custom HTML head -->
@@ -38,7 +38,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-75d04f73.js"></script>
+        <script src="toc-f1bdbe00.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -133,7 +133,7 @@
                         </ul>
                     </div>
 
-                    <h1 class="menu-title">Manual del Lenguaje SV: documentación conservada</h1>
+                    <h1 class="menu-title">Manual del Lenguaje de Computación SV</h1>
 
                     <div class="right-buttons">
                         <a href="print.html" title="Imprimir este libro" aria-label="Imprimir este libro">
@@ -167,129 +167,37 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Texto histórico conservado · Consulte su fecha y alcance · Original en español</p></nav>
-                        <h1 id="constructor-del-manual-del-lenguaje-svp"><a class="header" href="#constructor-del-manual-del-lenguaje-svp">Constructor del manual del lenguaje SVP</a></h1>
-<h2 id="1-naturaleza"><a class="header" href="#1-naturaleza">1. Naturaleza</a></h2>
-<p>Este constructor fija la arquitectura de trabajo del manual del lenguaje SVP (extensión <code>.svp</code>). Su finalidad es permitir un cierre progresivo por capítulos o tramos sin perder el eje del sistema ni dispersarse en caminos laterales.</p>
-<p>No es todavía el manual final. Es la <strong>máquina de construirlo</strong>.</p>
-<h2 id="2-regla-general"><a class="header" href="#2-regla-general">2. Regla general</a></h2>
-<p>Cada tramo del manual deberá ser:</p>
-<ul>
-<li>suficientemente nuclear para permitir detalle;</li>
-<li>suficientemente general para no romper el hilo;</li>
-<li>subordinado al pliego, a la Frontera normativa, a la IR y a la gramática vigente;</li>
-<li>y verificable mediante ejemplos, contraejemplos y relación explícita con la implementación.</li>
-</ul>
-<h2 id="3-unidades-de-cierre-recomendadas"><a class="header" href="#3-unidades-de-cierre-recomendadas">3. Unidades de cierre recomendadas</a></h2>
-<p>Se recomienda cerrar el manual por <strong>tramos nucleares</strong> y no por lluvia de ideas.</p>
-<h3 id="tramo-0--estatuto-del-lenguaje"><a class="header" href="#tramo-0--estatuto-del-lenguaje">Tramo 0 — Estatuto del lenguaje</a></h3>
-<ul>
-<li>qué es SVP;</li>
-<li>qué no es;</li>
-<li>qué lugar ocupa respecto de doctrina, IR y backend.</li>
-</ul>
-<h3 id="tramo-1--léxico-mínimo-y-convenciones-superficiales"><a class="header" href="#tramo-1--léxico-mínimo-y-convenciones-superficiales">Tramo 1 — Léxico mínimo y convenciones superficiales</a></h3>
-<ul>
-<li>nombres;</li>
-<li>identificadores;</li>
-<li>forma de declaración;</li>
-<li>disciplina nominal;</li>
-<li>extensión <code>.svp</code>.</li>
-</ul>
-<h3 id="tramo-2--niveles-n0n4"><a class="header" href="#tramo-2--niveles-n0n4">Tramo 2 — Niveles N0–N4</a></h3>
-<ul>
-<li>definición;</li>
-<li>estado;</li>
-<li>resultado;</li>
-<li>evolución;</li>
-<li>uso.</li>
-</ul>
-<h3 id="tramo-3--célula-evaluación-y-clasificación"><a class="header" href="#tramo-3--célula-evaluación-y-clasificación">Tramo 3 — Célula, evaluación y clasificación</a></h3>
-<ul>
-<li><code>CellSpec</code>;</li>
-<li><code>CellState</code>;</li>
-<li><code>evaluate</code>;</li>
-<li>umbral;</li>
-<li>criticidad.</li>
-</ul>
-<h3 id="tramo-4--composición-y-supervisión"><a class="header" href="#tramo-4--composición-y-supervisión">Tramo 4 — Composición y supervisión</a></h3>
-<ul>
-<li><code>gate</code>;</li>
-<li><code>supervise</code>;</li>
-<li><code>compose</code>;</li>
-<li>relación semántica previa.</li>
-</ul>
-<h3 id="tramo-5--resolución-y-régimen-de-la-u"><a class="header" href="#tramo-5--resolución-y-régimen-de-la-u">Tramo 5 — Resolución y régimen de la U</a></h3>
-<ul>
-<li><code>resolve</code>;</li>
-<li><code>Context</code>;</li>
-<li><code>Mechanism</code>;</li>
-<li>reapertura.</li>
-</ul>
-<h3 id="tramo-6--trayectoria-frame-y-datos-de-transición"><a class="header" href="#tramo-6--trayectoria-frame-y-datos-de-transición">Tramo 6 — Trayectoria, frame y datos de transición</a></h3>
-<ul>
-<li><code>Frame</code>;</li>
-<li><code>TransitionData</code>;</li>
-<li><code>Trajectory</code>;</li>
-<li>regla append-only.</li>
-</ul>
-<h3 id="tramo-7--consulta-y-uso"><a class="header" href="#tramo-7--consulta-y-uso">Tramo 7 — Consulta y uso</a></h3>
-<ul>
-<li><code>query</code>;</li>
-<li>contexto;</li>
-<li>respuesta, justificación y metadatos.</li>
-</ul>
-<h3 id="tramo-8--diagnósticos-errores-y-zona-prohibida"><a class="header" href="#tramo-8--diagnósticos-errores-y-zona-prohibida">Tramo 8 — Diagnósticos, errores y zona prohibida</a></h3>
-<ul>
-<li>catálogo efectivo;</li>
-<li>relación con IR;</li>
-<li>errores estructurales;</li>
-<li>sintaxis inalcanzable.</li>
-</ul>
-<h3 id="tramo-9--cli-playground-serialización-y-backend"><a class="header" href="#tramo-9--cli-playground-serialización-y-backend">Tramo 9 — CLI, Playground, serialización y backend</a></h3>
-<ul>
-<li>CLI actual;</li>
-<li>Playground;</li>
-<li>lowering;</li>
-<li>serialización;</li>
-<li>brújula Rust.</li>
-</ul>
-<h3 id="tramo-10--compatibilidad-interlenguajes-y-adopción"><a class="header" href="#tramo-10--compatibilidad-interlenguajes-y-adopción">Tramo 10 — Compatibilidad interlenguajes y adopción</a></h3>
-<ul>
-<li>APIs y enganches;</li>
-<li>wrappers y módulos puente;</li>
-<li>FFI, runtime, CLI y serialización;</li>
-<li>prioridad por lenguajes anfitriones;</li>
-<li>preservación semántica del SV.</li>
-</ul>
-<h2 id="4-ficha-obligatoria-por-tramo"><a class="header" href="#4-ficha-obligatoria-por-tramo">4. Ficha obligatoria por tramo</a></h2>
-<p>Todo tramo del manual deberá declarar:</p>
-<ol>
-<li>ID del tramo</li>
-<li>Título</li>
-<li>Rango</li>
-<li>Objeto</li>
-<li>Dependencias</li>
-<li>Qué fija</li>
-<li>Qué no fija</li>
-<li>Ejemplos <code>.svp</code></li>
-<li>Errores o contraejemplos</li>
-<li>Relación con IR y docs públicos</li>
-<li>Criterio de cierre</li>
-<li>Estado</li>
-</ol>
-<h2 id="5-criterio-de-cierre"><a class="header" href="#5-criterio-de-cierre">5. Criterio de cierre</a></h2>
-<p>Un tramo se considerará cerrable cuando reúna, como mínimo:</p>
-<ul>
-<li>exposición sobria del objeto;</li>
-<li>correspondencia visible con la IR o con la superficie vigente;</li>
-<li>uno o más ejemplos <code>.svp</code> suficientemente nucleares;</li>
-<li>delimitación expresa de lo que queda fuera;</li>
-<li>y ausencia de contradicción local suficiente con el pliego o con la Frontera normativa.</li>
-</ul>
-<h2 id="6-relación-con-la-compatibilidad-interlenguajes"><a class="header" href="#6-relación-con-la-compatibilidad-interlenguajes">6. Relación con la compatibilidad interlenguajes</a></h2>
-<p>La compatibilidad interlenguajes del SV se tratará como tramo propio del manual y deberá coordinarse con la política y protocolo de compatibilidad interlenguajes del Lenguaje SV.</p>
-<h2 id="7-regla-de-control"><a class="header" href="#7-regla-de-control">7. Regla de control</a></h2>
-<p>El constructor del manual no autoriza lluvias laterales. Toda idea nueva deberá pasar antes por el Wishlist IRQ del ecosistema SV.</p>
+                        <h1 id="ámbito-y-organización-del-lenguaje"><a class="header" href="#ámbito-y-organización-del-lenguaje">Ámbito y organización del lenguaje</a></h1>
+<p>El Lenguaje de Computación SV expresa definiciones, estados, evaluaciones y relaciones del Sistema Vectorial. Su estudio requiere distinguir el significado de una operación, su representación formal y la realización que la ejecuta. La extensión <code>.svp</code> identifica sus documentos de programa.</p>
+<h2 id="materias-del-manual"><a class="header" href="#materias-del-manual">Materias del manual</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Materia</th><th>Contenido</th></tr>
+</thead>
+<tbody>
+<tr><td>Estatuto del lenguaje</td><td>Finalidad, alcance y relación con los fundamentos del SV.</td></tr>
+<tr><td>Léxico y convenciones</td><td>Nombres, identificadores y formas de declaración.</td></tr>
+<tr><td>Niveles N0–N4</td><td>Distinción entre definición, estado, resultado, evolución y uso.</td></tr>
+<tr><td>Célula y evaluación</td><td>Constitución, estado, clasificación, umbrales y criticidad.</td></tr>
+<tr><td>Composición y supervisión</td><td>Relaciones y condiciones para combinar resultados.</td></tr>
+<tr><td>Resolución de U</td><td>Contexto, mecanismos admitidos y condiciones de reapertura.</td></tr>
+<tr><td>Frame y trayectoria</td><td>Representación del estado, transiciones y conservación de antecedentes.</td></tr>
+<tr><td>Consulta</td><td>Pregunta, contexto, respuesta, justificación y datos asociados.</td></tr>
+<tr><td>Diagnósticos</td><td>Errores estructurales y construcciones no admitidas.</td></tr>
+<tr><td>Representación y ejecución</td><td>Uso del intérprete, intercambio de datos y realización en Rust.</td></tr>
+<tr><td>Compatibilidad</td><td>Comunicación con otros lenguajes conservando el significado del SV.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Esta organización delimita materias; no acredita que todas estén desarrolladas en la presente edición. Los textos disponibles se encuentran en el índice lateral.</p>
+<h2 id="cómo-interpretar-una-descripción-del-lenguaje"><a class="header" href="#cómo-interpretar-una-descripción-del-lenguaje">Cómo interpretar una descripción del lenguaje</a></h2>
+<p>Una descripción completa debe identificar la operación, sus entradas y resultados, las condiciones de aplicación, las dependencias y las exclusiones. Los ejemplos deben acompañarse de casos que permitan reconocer cuándo la operación no es aplicable o debe rechazar una entrada.</p>
+<p>La relación con la gramática y la representación intermedia debe ser explícita. Una explicación conceptual, una forma de escritura admitida y una ejecución comprobada son evidencias diferentes. El manual debe indicar cuál respalda cada afirmación.</p>
+<h2 id="referencia"><a class="header" href="#referencia">Referencia</a></h2>
+<p>La organización temática se basa en la <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/CONSTRUCTOR_DEL_MANUAL_DEL_LENGUAJE_SVP.md">estructura de referencia del manual</a>. Se presenta aquí como explicación para el lector, sin reproducir instrucciones de preparación editorial.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 
                     </main>
 

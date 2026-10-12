@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "sv-conceptos-v02-20261012",
+  "edicion": "sv-revision-editorial-20261012",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "1fd05f4394c32ba6cba2c7a4dc934413d13310490313fc55bf4211cc7a42a938",
+        "sha256": "41f876188ea18ddff3543a6d3b4342641329ea3bbec798656b81a31adb5bafc0",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,7 +29,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "c3dbb19a13b926046553bd38ed752322eb6a78f8b873df08275c25e04b35f6c1",
+            "sha256": "ba3d0b39d171293ae6cf73b8c4845311e08bcb194de485257f91e57a92c94f45",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
@@ -44,7 +44,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "50dcb8b36c6f092ddf84b5990344b40104effc3866b5ec4768ccbc8aa98f693b",
+            "sha256": "df9d402cf2e818a7f0d223e7adc88a939e30630842524e3eea7854182745eb4d",
             "ruta": "libros/guia/src/organizacion.md"
           },
           "correspondencia": "identidad_literal",
@@ -59,7 +59,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "887895cad2f21063a208940e388510e699edb2aff67e8f7bedaa220c044ada22",
+            "sha256": "dc9b1b1fad1ef1c174df9fcd4c67ba0b9d5252fb2345a0e52e4ded8a8808110d",
             "ruta": "libros/guia/src/consulta.md"
           },
           "correspondencia": "identidad_literal",
@@ -74,7 +74,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "9cb586d489c1efbdbb0b1be8957faae852e2bac4132878581275c1895bc0eb83",
+            "sha256": "cf3cf23c00ee9cee3b246919eef91b85b7006c219b2e48c7774cee46c8c7dd46",
             "ruta": "libros/guia/src/licencias.md"
           },
           "correspondencia": "identidad_literal",
@@ -91,7 +91,7 @@
     {
       "id": "visualizadores",
       "plan": {
-        "sha256": "ab7b372890b92e5cdb1b2e580dbeb82736e1a631ba3e862dbb422b8ca94134b5",
+        "sha256": "433eedc350a4bf7e72e63fc584f7419492a5b029e618104e24c98f8175b33e6b",
         "ruta": "libros/visualizadores/plan.json"
       },
       "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
@@ -115,7 +115,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "e4c1e068434ae303a194cbdcb068184c4bcd7ba8c5eb432adbc38392f31010a2",
+            "sha256": "197f4cef6ace14d348e3ff867f257513e46058ae200dcc4f4d9dccf147f86e21",
             "ruta": "libros/visualizadores/src/finalidad.md"
           },
           "correspondencia": "identidad_literal",
@@ -145,7 +145,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "45c7c6d325257dc912b8418ff73b1b18831515c079bccf49d424daa912f771e6",
+            "sha256": "c4a16ee095930bbe946406035b6892d9d5119d1d3517538d5190cbbc30574ed0",
             "ruta": "libros/visualizadores/src/entrega.md"
           },
           "correspondencia": "identidad_literal",
@@ -195,7 +195,7 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/visualizadores/src/prioridades.md",
-            "sha256": "007be3516436454a07dc8ce69c307520c2ab6771d7a34a36f3ebb06d8b847ce8"
+            "sha256": "f793cd14e5af52045524d00ed0cee274ed42c91df605dc94c24d32eaf17b929e"
           },
           "procedencia": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/217f981b9724b406a6c94e30e0c77042cd019d85/dominios/documentos-y-universos-relacionados/readme.md; marco conceptual: https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/marco-tecnico-de-universos-subdominios-y-modulos/README.md",
           "tipo_original": "markdown",
@@ -367,11 +367,11 @@
     },
     {
       "id": "manual",
-      "titulo": "Manual del Lenguaje SV: documentación conservada",
+      "titulo": "Manual del Lenguaje de Computación SV",
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "2ebfdf71afc8415b35b101bff66f0fd0b06fa3ea73ac436a8d01576f6229f4eb"
+        "sha256": "473ff1020f93115c822ddc9a967133a8a7be2462f3ecac7c8f957ae91b0b4b73"
       },
       "metadatos": [
         {
@@ -379,13 +379,13 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "eec41e8ef01ab2de9debed89888698d7f14629f4db96c7f4a2aa90cb4d500637"
+            "sha256": "68d8d257ac7f63989e1d973d111995a28dfd602c8b7c4ea8527230af812d3f10"
           },
-          "procedencia": "https://github.com/juantoniolloretegea/SV-motor/blob/61613607a0ada4e52a5f192e139a334caa9a9e16/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/mdbook/0.1.0/manual/src/SUMMARY.md",
+          "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
           "sintetico": false,
           "visibilidad": "publica",
-          "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null
         },
@@ -394,13 +394,13 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "bceacda4be72247004123222f8c72a5d57cea0326f9516639da9c996ca00f7dc"
+            "sha256": "9454047ed043b4b33729e9aa248533c33ba0a64e9a2d5093b585f29be9784242"
           },
-          "procedencia": "https://github.com/juantoniolloretegea/SV-motor/blob/61613607a0ada4e52a5f192e139a334caa9a9e16/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/mdbook/0.1.0/manual/src/presentacion.md",
+          "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
           "sintetico": false,
           "visibilidad": "publica",
-          "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null
         },
@@ -409,13 +409,13 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/constructor.md",
-            "sha256": "305e9a9763a026c47a0f92414bd8adf48018aa1025fcbf8edfab2ed9b4e72111"
+            "sha256": "f4a4c0c3dd465f74072f6ae6453b806ff1f5f8bfca5d41a3ba1918ea8e46c9c0"
           },
-          "procedencia": "Antecedente fijado: https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/CONSTRUCTOR_DEL_MANUAL_DEL_LENGUAJE_SVP.md; revisión documental: f97173e07a9dfb8385ed1268d11de422b291507d",
+          "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
           "sintetico": false,
           "visibilidad": "publica",
-          "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null
         },
@@ -424,13 +424,13 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/tramo-10.md",
-            "sha256": "f872a6734c694e5763ea275f9cde3620d27bc17fd021604f8fce2912b40f2ea8"
+            "sha256": "c74dc59bc04ad4e8fd1579497eaaf3ef6d96db10770b6ecfcc72cb5535512580"
           },
-          "procedencia": "Antecedente fijado: https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/TRAMO_10_COMPATIBILIDAD_INTERLENGUAJES_Y_ADOPCION_DEL_LENGUAJE_SV.md; revisión documental: f97173e07a9dfb8385ed1268d11de422b291507d",
+          "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
           "sintetico": false,
           "visibilidad": "publica",
-          "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null
         },
@@ -445,7 +445,7 @@
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/manual/src/parametros-rutas.md",
-            "sha256": "c696baff560f8904647bf2e550779d14cb578ab1966d160864ba80c87a2fb861"
+            "sha256": "c35013007bc6e2664a85f62b8f7957b286ef8865c407d5269b5a781914a975e9"
           },
           "sintetico": false
         }
@@ -453,7 +453,7 @@
     },
     {
       "plan": {
-        "sha256": "7eaca2eb2a480a1cc931353516da7a6e4f27a8a52425ec646705841115bde56a",
+        "sha256": "9ba8f63526425f8ae20353cede8805379eb0cfcbc613bc2dbc9185f2c05a37b7",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -483,7 +483,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-02",
           "original": {
-            "sha256": "51cc826802ee9e57832f429c3f1309981472e2147f8a5b6e363eddd7097efcd2",
+            "sha256": "b267e948af28a9ac95fa4ed0cca38fad8e320ddfdbc66e3add3c433453d1d5d0",
             "ruta": "libros/dominios/src/presentacion.md"
           },
           "correspondencia": "identidad_literal",
@@ -498,7 +498,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-03",
           "original": {
-            "sha256": "d9725c7007a17f2ad153a1d305c914cca48b3918772cf633016623574b530f9f",
+            "sha256": "aae17ad1087e82602c0b76282f523cae6cd7a58691fa69fe3fab1b8f488e0dda",
             "ruta": "libros/dominios/src/conceptos.md"
           },
           "correspondencia": "identidad_literal",
@@ -513,7 +513,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-04",
           "original": {
-            "sha256": "9d9a4e130a9ea0f2061781698c3d7e4e473b47d5d1fa24bdb4b2010aecb4df9c",
+            "sha256": "2b8e04bd9f8cca27dfe46cb555671611a0c3fdd2dc1d5965a06d368f15631ee6",
             "ruta": "libros/dominios/src/metodologia.md"
           },
           "correspondencia": "identidad_literal",
@@ -543,7 +543,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-06",
           "original": {
-            "sha256": "f6771250d61766ccce245eadc013645e34a51a0fe98136b5dbb4dbca2e4c2928",
+            "sha256": "902c0bae3cc72209ff20aee4566a66bd32039f775b09297e6dd82ead42972aa0",
             "ruta": "libros/dominios/src/ciberseguridad.md"
           },
           "correspondencia": "identidad_literal",
@@ -558,7 +558,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-07",
           "original": {
-            "sha256": "16d84edc3337a7f90a69d9fde272178be8859a5df411679a0dcd1d629a97116c",
+            "sha256": "2434ed493e448e1e89a8c3a7ffef97f030f901ccdc57cebf669019ff600176fb",
             "ruta": "libros/dominios/src/fuentes.md"
           },
           "correspondencia": "identidad_literal",
@@ -575,7 +575,7 @@
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/dominios/src/parametros-rutas.md",
-            "sha256": "3feddd32e12f59525d0c221d9e48f43b6e530a7c2edd005944c0001391657d6c"
+            "sha256": "21eccf95aec0c718f8f4f0f2d581283ad89e9e52afb88d3705056a26fa26ea58"
           },
           "sintetico": false
         }

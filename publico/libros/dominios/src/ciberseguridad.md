@@ -2,7 +2,7 @@
 
 **Universo:** OP-CYB-001.  
 **Objeto:** Evidencia y legitimidad de la corrección de una vulnerabilidad mediante actualización.  
-**Referencia de continuidad:** [Versión 0.4, de 9 de septiembre de 2026](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/bbac1b44b1d3b845305e9cde492a08221206d631/dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_Y_MANIFIESTO_CONTINUIDAD_OP_CYB_001_v0.4.md).
+**Referencia:** [Versión 0.4, de 9 de septiembre de 2026](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/bbac1b44b1d3b845305e9cde492a08221206d631/dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/ACTA_Y_MANIFIESTO_CONTINUIDAD_OP_CYB_001_v0.4.md).
 
 ## Finalidad y delimitación
 
@@ -24,7 +24,7 @@ Una referencia a un registro anterior no transmite por sí sola facultades ni re
 
 ## Límites
 
-El cierre del inventario de conocimiento no demuestra una ejecución validada sobre activos reales. Las fuentes distinguen las comprobaciones documentales de la autenticación material, la custodia efectiva, la cobertura real y la observación productiva, que no quedan acreditadas por la constitución del inventario.
+El cierre del inventario de conocimiento no demuestra una ejecución validada sobre activos reales. Las fuentes distinguen las comprobaciones documentales de la comprobación efectiva de identidad, la conservación de evidencias, el alcance de las verificaciones y la observación del sistema en funcionamiento, que no quedan acreditadas por la constitución del inventario.
 
 El Universo no autoriza a ejecutar cambios, investigar otros ámbitos ni ampliar sus reglas durante una consulta. Tampoco convierte la cantidad de parámetros en una dimensión geométrica obligatoria. La documentación de inmunología sirve como referencia metodológica, sin transmitirle su contenido clínico ni sus cardinalidades.
 

@@ -4,30 +4,30 @@
     {
       "id": "GUIA-02",
       "titulo": "Biblioteca documental del SV",
-      "sha256": "c3dbb19a13b926046553bd38ed752322eb6a78f8b873df08275c25e04b35f6c1",
+      "sha256": "ba3d0b39d171293ae6cf73b8c4845311e08bcb194de485257f91e57a92c94f45",
       "ruta": "indice.md",
-      "url": "urn:sv:documento:sha256:c3dbb19a13b926046553bd38ed752322eb6a78f8b873df08275c25e04b35f6c1"
+      "url": "urn:sv:documento:sha256:ba3d0b39d171293ae6cf73b8c4845311e08bcb194de485257f91e57a92c94f45"
     },
     {
       "id": "GUIA-03",
       "titulo": "Organización y alcance",
-      "sha256": "50dcb8b36c6f092ddf84b5990344b40104effc3866b5ec4768ccbc8aa98f693b",
+      "sha256": "df9d402cf2e818a7f0d223e7adc88a939e30630842524e3eea7854182745eb4d",
       "ruta": "organizacion.md",
-      "url": "urn:sv:documento:sha256:50dcb8b36c6f092ddf84b5990344b40104effc3866b5ec4768ccbc8aa98f693b"
+      "url": "urn:sv:documento:sha256:df9d402cf2e818a7f0d223e7adc88a939e30630842524e3eea7854182745eb4d"
     },
     {
       "id": "GUIA-04",
       "titulo": "Consulta, fuentes y versiones",
-      "sha256": "887895cad2f21063a208940e388510e699edb2aff67e8f7bedaa220c044ada22",
+      "sha256": "dc9b1b1fad1ef1c174df9fcd4c67ba0b9d5252fb2345a0e52e4ded8a8808110d",
       "ruta": "consulta.md",
-      "url": "urn:sv:documento:sha256:887895cad2f21063a208940e388510e699edb2aff67e8f7bedaa220c044ada22"
+      "url": "urn:sv:documento:sha256:dc9b1b1fad1ef1c174df9fcd4c67ba0b9d5252fb2345a0e52e4ded8a8808110d"
     },
     {
       "id": "GUIA-05",
       "titulo": "Licencias y atribución",
-      "sha256": "9cb586d489c1efbdbb0b1be8957faae852e2bac4132878581275c1895bc0eb83",
+      "sha256": "cf3cf23c00ee9cee3b246919eef91b85b7006c219b2e48c7774cee46c8c7dd46",
       "ruta": "licencias.md",
-      "url": "urn:sv:documento:sha256:9cb586d489c1efbdbb0b1be8957faae852e2bac4132878581275c1895bc0eb83"
+      "url": "urn:sv:documento:sha256:cf3cf23c00ee9cee3b246919eef91b85b7006c219b2e48c7774cee46c8c7dd46"
     }
   ],
   "summary": {
@@ -37,6 +37,6 @@
     "ruta": "SUMMARY.md",
     "url": "urn:sv:documento:sha256:a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f"
   },
-  "revision": "2649ace26dc3145b3b88f3906d32c75eb741ab56cc2f04dfd4b6a185477cb645",
+  "revision": "4279d513114b20fb026a893fd4c222c261dcf79963a9dbcccd21c8e595cb5648",
   "libro": "SV_GUIA"
 }

@@ -1,6 +1,6 @@
 # Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA
 
-**V.06 · 12 de octubre de 2026 · Original en español.**
+**V.07 · 12 de octubre de 2026 · Original en español.**
 
 El Sistema Vectorial SV permite conservar documentos, leerlos, preparar otras representaciones y autorizar el contenido que puede suministrarse a una IA. Este libro explica esas operaciones, sus requisitos y sus límites. Es una guía de consulta; los datos de cada documento se encuentran en su ficha y su historial.
 

@@ -38,7 +38,7 @@ Los consumos conocidos se conservan con su fuente y unidad. Un dato no comunicad
 
 Un PDF tiene 120 páginas. Se extrae texto de las páginas 65 a 80 y una consulta utiliza dos secciones de ese resultado. La entrega corresponde a esas dos secciones; no al libro completo ni a sus figuras.
 
-Los tres nodos aplican la misma autoridad documental; el nodo 2 se reserva a ensayos. Controlar el contenido suministrado no elimina el conocimiento previo de un modelo ni permite observar todos sus procesos internos. La respuesta requiere una evaluación propia.
+Las distintas formas de conexión deben aplicar la misma autoridad documental. Controlar el contenido suministrado no elimina el conocimiento previo de un modelo ni permite observar todos sus procesos internos. La respuesta requiere una evaluación propia.
 
 ---
 

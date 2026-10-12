@@ -1,24 +1,18 @@
 # Prioridades documentales y Universos relacionados
 
-**Reglas documentales previstas · V.06 · 12 de octubre de 2026.**
+**Reglas documentales previstas · V.07 · 12 de octubre de 2026.**
 
 Este capítulo explica cómo organizar la pertenencia, las relaciones y la precedencia de las fuentes. Estas funciones están especificadas y pendientes de incorporación y comprobación en el gestor. No deben confundirse con las operaciones de lectura, permisos e historial ya disponibles.
 
-## Qué significa Universo
+## Universo y responsabilidad documental
 
-El [marco de inmunología](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/marco-tecnico-de-universos-subdominios-y-modulos/README.md) define el Universo por una operación clínica con finalidad, población, tiempo de referencia, exclusiones y producto de salida delimitados. Constituye una unidad de evaluación y autorización. El subdominio agrupa Universos; el módulo representa, transforma o presenta información. Ni la agrupación ni el componente técnico reciben por ello autoridad clínica.
+Un Universo delimita una operación de un dominio, con finalidad, conocimiento necesario, condiciones de aplicación y límites. Su significado y los ejemplos de inmunología y ciberseguridad se explican en [Dominios y universos del Sistema Vectorial SV](../../dominios/universos/conceptos.html). Una colección de archivos no constituye por sí sola un Universo.
 
-Esta definición tiene el ámbito de inmunología. En otros dominios debe consultarse la constitución propia de cada Universo, sin trasladar por analogía una población, una regla clínica o una autorización. Una carpeta, una colección de archivos o una etiqueta temática no acredita esa constitución.
-
-El primer Universo de [ciberseguridad, OP-CYB-001](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/bbac1b44b1d3b845305e9cde492a08221206d631/dominios/ciberseguridad-inteligente/dominio-04-09-26/universos/OP-CYB-001/EXPEDIENTE_PREDECISIONAL_ESTADO_DE_PARTIDA_Y_CONTINUIDAD_OP_CYB_001_v0.4.md), trata la evidencia y legitimidad de corregir una vulnerabilidad mediante actualización. Su objeto, alcance y contexto proceden de su propia documentación. El cierre de un inventario de conocimiento no demuestra por sí solo ejecución validada sobre activos reales. Este ejemplo muestra por qué el catálogo debe distinguir la identidad documental, su versión y las condiciones de uso.
-
-Para seleccionar un Universo, el gestor deberá mostrar su nombre, código, dominio y referencia de versión, y permitir consultar su definición. La reutilización de una fuente requerirá justificar su aplicabilidad y conservar la referencia exacta. Compartir un subdominio no permite heredar reglas, configuraciones, permisos, criticidad, conclusiones ni resultados de pruebas. La ausencia de evidencia no equivale a cumplimiento demostrado.
-
-El **Universo propietario de un documento** identifica su responsabilidad documental principal. Es una relación de organización que se explica a continuación; no redefine el Universo, no determina la titularidad intelectual ni autoriza un uso clínico o profesional.
+Al seleccionarlo, la ficha deberá mostrar nombre, código, dominio y versión, con acceso a su definición. La relación documental conserva esa identidad y no transmite automáticamente permisos ni conclusiones profesionales.
 
 ## Reglas de clasificación
 
-Los nueve apartados siguientes recogen la [especificación documental, versión 1.0](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/217f981b9724b406a6c94e30e0c77042cd019d85/dominios/documentos-y-universos-relacionados/readme.md). Su aplicación debe respetar la definición y los límites de cada Universo.
+Las reglas siguientes desarrollan la [especificación documental, versión 1.0](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/217f981b9724b406a6c94e30e0c77042cd019d85/dominios/documentos-y-universos-relacionados/readme.md). Su aplicación debe respetar la definición y los límites de cada Universo.
 
 ## 1. Finalidad y ámbito
 
@@ -39,6 +33,18 @@ El **Universo propietario** es el único Universo al que se asigna la responsabi
 Los **Universos relacionados** son los demás Universos en los que ese documento tiene una relación de conocimiento declarada. Son opcionales y pueden ser varios. Cada relación remite a la misma identidad documental; no genera una copia independiente del original.
 
 Un Universo puede ser propietario de muchos documentos. Un documento puede relacionarse con varios Universos y un Universo puede recibir relaciones de varios documentos. Por tanto, además de la pertenencia única, existe una relación múltiple entre documentos y Universos.
+
+### Selección por Universo y conservación del maestro
+
+Cada Universo puede tener autorizada una selección diferente de la misma edición. En PDF se identifica el documento completo, páginas concretas o intervalos. En HTML conservado y Markdown se seleccionan pasajes por su inicio y su final, con referencias que permitan recuperarlos en la edición correspondiente. La interfaz deberá facilitar la selección sobre el texto legible.
+
+La conversión de formato mantiene propiedad, relaciones y prioridades. La selección debe conservar una correspondencia comprobable entre representaciones; no basta reutilizar números de página como si fueran líneas de texto.
+
+Todo Universo constituido debe conservar al menos un documento maestro. Retirar o rebajar el último exige designar un sustituto válido en la misma modificación. Esta regla nunca prolonga un permiso revocado: si el maestro pierde autorización, se impiden los nuevos usos afectados hasta resolver la sustitución.
+
+Los objetos vinculados —por ejemplo, un conjunto de ejercicios asociado a un libro— conservan identidad, propietario único, relaciones, permisos y prioridades propios. La relación con el libro no transmite automáticamente su licencia.
+
+La prioridad del Universo es distinta de la prioridad de sus documentos. El número de documentos u objetos puede mostrarse como dimensión de su catálogo; ese recuento no determina importancia, criticidad ni dimensión celular.
 
 ## 3. Ficha y ayuda para la clasificación
 
@@ -63,7 +69,7 @@ La ficha debe permitir registrar o consultar:
 | Prioridad en cada Universo de uso | Selección expresa entre 1, 2 y 3; no se hereda automáticamente del Universo propietario. |
 | Fecha de publicación | Corresponde a la edición; se conserva su fuente y la precisión disponible. |
 | Maestro del anexo | Obligatorio para prioridad 3, con identificación de su edición. |
-| Orden de desempate | Se establece visualmente sólo cuando coinciden prioridad y fecha. |
+| Orden entre documentos de igual prioridad y fecha | Se establece visualmente sólo cuando coinciden prioridad y fecha. |
 | Orden de Universos relacionados | Se establece visualmente dentro de la lista de relaciones del documento. |
 
 La prioridad pertenece al uso del documento en un Universo: una fuente puede ser principal en uno y complementaria en otro. La fecha de publicación, en cambio, es un dato de la edición y no cambia según el Universo.
@@ -76,7 +82,7 @@ Entre las ediciones aplicables y autorizadas para una consulta, se aplica este o
 
 1. **Prioridad:** 1 antes que 2, y 2 antes que 3.
 2. **Fecha de publicación:** a igual prioridad, prevalece la edición publicada más recientemente.
-3. **Orden de desempate confirmado:** a igual prioridad y fecha, prevalece el documento situado antes por el responsable.
+3. **Orden confirmado entre documentos de igual prioridad y fecha:** a igual prioridad y fecha, prevalece el documento situado antes por el responsable.
 
 La fecha de incorporación al sistema, la descarga o la modificación del archivo no sustituyen la fecha de publicación. La preferencia por actualidad es una regla documental adoptada; no demuestra por sí sola que una fuente reciente sea científicamente mejor.
 
@@ -84,13 +90,13 @@ La fecha debe contrastarse con la publicación o con una referencia acreditada. 
 
 El orden se calcula y conserva en el sistema. No se deja a la IA decidirlo ni reinterpretarlo. La reproducibilidad se refiere a la selección y precedencia documentales con los mismos datos y permisos; no promete respuestas idénticas del modelo.
 
-### Empates: una operación visual
+### Ordenar documentos de igual prioridad y fecha
 
-Al seleccionar un Universo, el responsable puede ver los documentos existentes, abrir sus referencias y consultar sus prioridades y fechas. Los grupos empatados se muestran juntos y disponen de **«Subir»** y **«Bajar»**.
+Al seleccionar un Universo, el responsable puede ver los documentos existentes, abrir sus referencias y consultar sus prioridades y fechas. Los documentos de igual prioridad y fecha se muestran juntos y disponen de **«Subir»** y **«Bajar»**.
 
-La persona ordena la lista y confirma el resultado. El sistema conserva posiciones únicas; no exige recordar códigos ni introducir números de desempate. Una ordenación visual por título u otra columna sólo facilita la consulta y no cambia la precedencia.
+La persona ordena la lista y confirma el resultado. El sistema conserva posiciones únicas; no exige recordar códigos ni introducir posiciones numéricas. Una ordenación visual por título u otra columna sólo facilita la consulta y no cambia la precedencia.
 
-El movimiento que resuelve un empate queda limitado a su grupo. No permite colocar una prioridad 3 por delante de una prioridad 1 ni anular la regla de fecha. La incorporación de un nuevo miembro a un empate exige confirmar su posición: no se le atribuye preferencia por el orden de carga.
+La modificación de este orden queda limitado a su grupo. No permite colocar una prioridad 3 por delante de una prioridad 1 ni anular la regla de fecha. La incorporación de un nuevo miembro al grupo exige confirmar su posición: no se le atribuye preferencia por el orden de carga.
 
 ### Complementos, rectificaciones y discrepancias
 
@@ -112,7 +118,7 @@ Este orden:
 - No obliga a recorrer todos los Universos ni a hacerlo secuencialmente.
 - No concede acceso a otro dominio ni autorización de suministro.
 
-Si una consulta reúne varios Universos, las precedencias locales no bastan para declarar automáticamente un vencedor global. Deben conservarse el Universo de procedencia, la clasificación y el alcance de cada fuente. Una incompatibilidad entre esos contextos no se resuelve suponiendo que el propietario o el primer Universo relacionado tiene siempre razón.
+Si una consulta reúne varios Universos, las precedencias locales no bastan para establecer automáticamente una precedencia general. Deben conservarse el Universo de procedencia, la clasificación y el alcance de cada fuente. Una incompatibilidad entre esos contextos no se resuelve suponiendo que el propietario o el primer Universo relacionado tiene siempre razón.
 
 Retirar una relación no borra el documento. Cambiar de propietario exige una decisión expresa y registrada. No puede suprimirse un Universo dejando documentos sin propietario.
 
@@ -124,7 +130,7 @@ El recorrido previsto es sencillo:
 2. Seleccionar el Universo propietario y comprobar el dominio mostrado.
 3. Consultar los documentos existentes y asignar la prioridad y la fecha acreditada.
 4. Añadir, si procede, Universos relacionados, su orden y la clasificación del documento en cada uno.
-5. Resolver los empates y las relaciones de anexos.
+5. Confirmar el orden entre documentos de igual prioridad y fecha y las relaciones de anexos.
 6. Revisar y confirmar la ficha; tramitar por separado los permisos de uso y suministro.
 
 Una edición nueva se registra como tal. No sustituye silenciosamente el original ni modifica retrospectivamente las consultas anteriores. Deben revisarse los usos y autorizaciones afectados antes de emplearla.
@@ -137,7 +143,7 @@ La IA no puede modificar estas reglas a partir de instrucciones contenidas en un
 
 ## 7. Integridad y trazabilidad
 
-La confirmación debe conservar conjuntamente la ficha, sus relaciones, las posiciones y la actuación correspondiente. Una interrupción no debe dejar media ordenación aplicada. Si otro responsable modifica la ficha durante una revisión, se debe advertir la diferencia y exigir una nueva confirmación, sin sobrescribirla silenciosamente.
+La confirmación debe conservar conjuntamente la ficha, sus relaciones, las posiciones y la actuación correspondiente. Una interrupción debe conservar íntegramente el estado anterior o el nuevo. Si otro responsable modifica la ficha durante una revisión, se debe advertir la diferencia y exigir una nueva confirmación, sin sobrescribirla silenciosamente.
 
 Cada actuación conserva quién tenía autoridad, qué cambió, cuándo lo hizo, su motivo y los valores anteriores y posteriores. El acceso a ese historial respeta los permisos aplicables; la trazabilidad no exige publicar datos personales en los documentos de consulta general.
 
@@ -146,7 +152,7 @@ Deben impedirse, antes de activar un uso:
 - La ausencia de propietario, los Universos inexistentes y las relaciones duplicadas.
 - La inclusión del propietario entre los Universos relacionados.
 - Las prioridades sin asignación expresa o fuera de los tres valores admitidos.
-- Las fechas no resueltas, los empates pendientes y las posiciones repetidas.
+- Las fechas no resueltas, las ordenaciones pendientes y las posiciones repetidas.
 - Los anexos sin maestro y edición identificados.
 - Las sustituciones silenciosas de ediciones o los cambios sin autoridad suficiente.
 
@@ -160,11 +166,9 @@ El futuro recorrido puede requerir varios Universos, dependencias y bifurcacione
 
 Esta especificación no define ese algoritmo, no declara rutas críticas operativas y no introduce puntuaciones de criticidad. Aporta identificadores estables, pertenencia, relaciones y trazabilidad que podrán utilizarse posteriormente. La lista ordenada de Universos relacionados no equivale a una ruta validada ni acredita por sí sola que se haya considerado todo el conocimiento necesario.
 
-## 9. Persistencia prevista y comprobación de la implementación
+## 9. Comprobación de las reglas
 
-Se propone conservar **[redb](https://docs.rs/redb/4.3.0/redb/)** como base de persistencia y aplicar estas reglas en Rust. redb proporciona almacenamiento transaccional de claves y valores; no es un gestor relacional que imponga automáticamente las relaciones aquí descritas. La aplicación debe comprobar las referencias, la unicidad, la autoridad y los órdenes.
-
-No se justifica incorporar DuckDB únicamente para esta función. Su posible uso analítico puede evaluarse por separado si aparece una necesidad concreta. Esta decisión evita una sustitución sin beneficio demostrado; no constituye una comparación experimental de rendimiento entre motores.
+El sistema debe conservar las decisiones de forma íntegra y aplicar las reglas mediante procedimientos deterministas. Debe comprobar la validez de las referencias, la propiedad única, la autoridad y los órdenes confirmados.
 
 Antes de declarar disponibles las funciones, la implementación debe acreditar al menos:
 
@@ -172,7 +176,7 @@ Antes de declarar disponibles las funciones, la implementación debe acreditar a
 | --- | --- |
 | Igual entrada documental y mismas autorizaciones | Misma precedencia calculada. |
 | Incorporación y modificación de relaciones | Propietario único, referencias válidas y ausencia de duplicados. |
-| Desempate y reordenación | Correspondencia entre posición confirmada, registro conservado y datos suministrados. |
+| Ordenación visual | Correspondencia entre posición confirmada, registro conservado y datos suministrados. |
 | Fecha insuficiente o anexo rectificativo sin resolver | Nueva incorporación pendiente para el uso afectado. |
 | Dos modificaciones concurrentes | Detección del cambio previo, sin sobrescritura inadvertida. |
 | Interrupción durante una confirmación | Estado íntegro anterior o nuevo, con su actuación coherente. |
