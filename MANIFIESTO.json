@@ -177,9 +177,9 @@
       "sha256": "05c2d10cff71d8a7502d370c25f9dbab5f8858a48664ca83ec2c04a7a0302a0a"
     },
     {
-      "bytes": 1179,
+      "bytes": 861,
       "ruta": "libros/guia/src/identidad/sv-claro-32-20261012.png",
-      "sha256": "de7125bb856b752c2eba4f185930473dced38fc214715ec623c2a400a12d8e8f"
+      "sha256": "4aafbf08b7c1c4f9802f4f09aeca3dedde525e213f3c9f74205a4e06a205a7c6"
     },
     {
       "ruta": "libros/guia/src/indice.md",
@@ -1592,9 +1592,9 @@
       "sha256": "05c2d10cff71d8a7502d370c25f9dbab5f8858a48664ca83ec2c04a7a0302a0a"
     },
     {
-      "bytes": 1179,
+      "bytes": 861,
       "ruta": "publico/identidad/sv-claro-32-20261012.png",
-      "sha256": "de7125bb856b752c2eba4f185930473dced38fc214715ec623c2a400a12d8e8f"
+      "sha256": "4aafbf08b7c1c4f9802f4f09aeca3dedde525e213f3c9f74205a4e06a205a7c6"
     },
     {
       "bytes": 22357,
