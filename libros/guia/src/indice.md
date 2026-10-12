@@ -8,10 +8,10 @@ Libros para comprender los fundamentos y las garantías documentales del Sistema
 
 | Libro | Contenido y alcance |
 |---|---|
-| [Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros · V.01](dominios/universos/index.html) | Definiciones, fundamentos y metodología de construcción de los Universos; aplicación en inmunología y ciberseguridad. |
+| [Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros · V.02](dominios/universos/index.html) | Definiciones y metodología; conocimiento, pertenencia a rutas y valoración decisional con ejemplo y diagrama; inmunología y ciberseguridad. |
 | [Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA · V.06](documentacion/reglas-usos-descripciones-documentales/index.html) | Formatos, visualización, autorización y entrega efectiva; prioridades y Universos como reglas previstas; capacidades comprobadas y límites. |
 | [Normativa, trazabilidad y seguimiento de la IA en el SV · V.01](normativa/trazabilidad-y-seguimiento-ia/index.html) | Procedencia, evaluación, derechos y referencias normativas; atención a ciberseguridad y uso sanitario. Marco explicativo, sin declaración de certificación. |
-| [Manual del Lenguaje de Computación SV](dominios/lenguaje-de-computacion/manual/index.html) | Edición disponible del manual, todavía en desarrollo. Los capítulos sin contenido permanecen señalados. |
+| [Manual del Lenguaje de Computación SV](dominios/lenguaje-de-computacion/manual/index.html) | Edición disponible del manual, todavía en desarrollo. Los capítulos sin contenido permanecen señalados. Incluye un complemento sobre requisitos de parámetros, recorridos y evidencia. |
 
 Los principios generales de la anterior lectura «Ciberseguridad: evidencia, corrección y límites» se encuentran ahora en el [capítulo de ciberseguridad](normativa/trazabilidad-y-seguimiento-ia/ciberseguridad.html) de «Normativa, trazabilidad y seguimiento de la IA en el SV».
 

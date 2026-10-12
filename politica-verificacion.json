@@ -1,7 +1,7 @@
 {
   "permitir_restringidos": false,
   "permitir_sinteticos": false,
-  "biblioteca_sha256": "96835c0f185c22feb31e33f54a029c5ed025ac283b7edda99ccd41df4f018887",
+  "biblioteca_sha256": "8eeb364b8873a829d876b5730ddeb3ff5e05072430d51c08d182fb0578574c86",
   "finalidad": "verificacion_local",
   "libros_permitidos": [
     "guia",

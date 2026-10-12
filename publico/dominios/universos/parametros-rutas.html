@@ -1,0 +1,342 @@
+<!DOCTYPE HTML>
+<html lang="es" class="light sidebar-visible" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Parámetros, rutas y evidencia - Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon-de23e50b.svg">
+        <link rel="shortcut icon" href="favicon-8114d1fc.png">
+        <link rel="stylesheet" href="css/variables-8adf115d.css">
+        <link rel="stylesheet" href="css/general-e96d0476.css">
+        <link rel="stylesheet" href="css/chrome-d279d366.css">
+        <link rel="stylesheet" href="css/print-9e4910d8.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="fonts/fonts-9644e21d.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" id="mdbook-highlight-css" href="highlight-493f70e1.css">
+        <link rel="stylesheet" id="mdbook-tomorrow-night-css" href="tomorrow-night-4c0ae647.css">
+        <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="biblioteca-f3251d8f.css">
+
+
+        <!-- Provide site root and default themes to javascript -->
+        <script>
+            const path_to_root = "";
+            const default_light_theme = "light";
+            const default_dark_theme = "navy";
+        </script>
+        <!-- Start loading toc.js asap -->
+        <script src="toc-d5bb862f.js"></script>
+    </head>
+    <body>
+    <div id="mdbook-help-container">
+        <div id="mdbook-help-popup">
+            <h2 class="mdbook-help-title">Atajos de teclado</h2>
+            <div>
+                <p>Pulse <kbd>←</kbd> o <kbd>→</kbd> para recorrer los capítulos</p>
+                <p>Pulse <kbd>?</kbd> para consultar esta ayuda</p>
+                <p>Pulse <kbd>Esc</kbd> para cerrar esta ayuda</p>
+            </div>
+        </div>
+    </div>
+    <div id="mdbook-body-container">
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                let theme = localStorage.getItem('mdbook-theme');
+                let sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            const default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? default_dark_theme : default_light_theme;
+            let theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            const html = document.documentElement;
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add("js");
+        </script>
+
+        <input type="checkbox" id="mdbook-sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            let sidebar = null;
+            const sidebar_toggle = document.getElementById("mdbook-sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+                sidebar_toggle.checked = false;
+            }
+            if (sidebar === 'visible') {
+                sidebar_toggle.checked = true;
+            } else {
+                html.classList.remove('sidebar-visible');
+            }
+        </script>
+
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Índice de contenidos">
+            <!-- populated by js -->
+            <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
+            <noscript>
+                <iframe class="sidebar-iframe-outer" src="toc.html"></iframe>
+            </noscript>
+            <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <div id="mdbook-page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="mdbook-menu-bar-hover-placeholder"></div>
+                <div id="mdbook-menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Mostrar u ocultar el índice" aria-label="Mostrar u ocultar el índice" aria-controls="mdbook-sidebar">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
+                        </label>
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Cambiar tema" aria-label="Cambiar tema" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
+                        </button>
+                        <ul id="mdbook-theme-list" class="theme-popup" aria-label="Temas" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-default_theme">Automático</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-light">Claro</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-rust">Óxido</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-coal">Carbón</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-navy">Azul oscuro</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
+                        </ul>
+                    </div>
+
+                    <h1 class="menu-title">Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Imprimir este libro" aria-label="Imprimir este libro">
+                            <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
+                        </a>
+                        <a href="https://github.com/IA-en/biblioteca-documental" title="Repositorio documental" aria-label="Repositorio documental">
+                            <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('mdbook-sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('mdbook-sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#mdbook-sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="mdbook-content" class="content">
+                    <main>
+<details class="sv-language-tools notranslate" translate="no">
+  <summary>Idiomas / Languages</summary>
+  <p id="sv-language-status" role="status" aria-live="polite">Original en español. El selector de la matriz editorial estará disponible cuando responda el servicio de presentación.</p>
+  <!-- SV_SELECTOR_EDITORIAL -->
+  <p><a id="sv-original" href="?">Ver original en español / Spanish original</a></p>
+  <p>La traducción automática facilita la lectura. Contraste términos, fórmulas y sentido con el original.</p>
+  <div id="google_translate_element" class="notranslate" translate="no"></div>
+</details>
+<nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../licencias.html">Licencias</a> <span aria-hidden="true"> / </span> <a href="https://administracion.itvia.online/" rel="noreferrer">Administración documental</a><p>V.02 · 12/10/2026 · Original en español</p></nav>
+                        <h1 id="parámetros-rutas-y-evidencia"><a class="header" href="#parámetros-rutas-y-evidencia">Parámetros, rutas y evidencia</a></h1>
+<h2 id="una-unidad-de-significado-funciones-diferentes"><a class="header" href="#una-unidad-de-significado-funciones-diferentes">Una unidad de significado; funciones diferentes</a></h2>
+<p>Un parámetro es una unidad delimitada de significado. La analogía con un átomo ayuda a comprender su separación respecto de otras unidades, pero su atomicidad debe justificarse por definición, función y alcance. Compartir un nombre o una forma de representación no convierte dos objetos en la misma cosa.</p>
+<p>El <strong>parámetro de conocimiento</strong> conserva un concepto o una cápsula de información general dentro de un Universo. El <strong>parámetro singular de decisión</strong> formula una cuestión que recibe una valoración concreta, 0, 1 o U, conforme a sus condiciones y evidencia. El conocimiento general no recibe automáticamente el valor de un caso.</p>
+<p>Existe además una propuesta distinta: valorar con la terna la <strong>pertenencia de un parámetro de conocimiento a una ruta</strong>. El valor describiría esa relación concreta. No sería una calificación de verdad del conocimiento ni el resultado del consejo profesional. Se trata de un concepto de diseño cuyo contrato de evaluación debe desarrollarse antes de su ejecución.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Objeto</th><th>Pregunta que permite responder</th><th>Lo que no debe inferirse</th></tr>
+</thead>
+<tbody>
+<tr><td>Unidad de conocimiento</td><td>¿Qué concepto está definido, con qué fuentes y límites?</td><td>Que tiene un resultado clínico o técnico propio.</td></tr>
+<tr><td>Pertenencia a una ruta</td><td>¿Este parámetro pertenece a esta ruta, en estas condiciones?</td><td>Que su contenido sea verdadero o que el caso esté resuelto.</td></tr>
+<tr><td>Cuestión singular de decisión</td><td>¿Qué resultado admite esta cuestión del caso conforme a su contrato?</td><td>Que ese resultado sea aplicable a otros casos o rutas.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Las valoraciones necesitan su pregunta completa, identidad, versión y contexto. Mostrar sólo «0», «1» o «U» impediría saber qué se está afirmando.</p>
+<h2 id="ejemplo-sin-contenido-clínico-ni-de-ciberseguridad"><a class="header" href="#ejemplo-sin-contenido-clínico-ni-de-ciberseguridad">Ejemplo sin contenido clínico ni de ciberseguridad</a></h2>
+<p>La unidad K explica cómo interpretar la procedencia de un dato. La ruta R exige comprobar esa procedencia antes de concluir. Se propone evaluar «K pertenece a R bajo las condiciones C» con la siguiente convención ilustrativa: 0, pertenencia conforme; 1, pertenencia no conforme; U, información insuficiente para resolverla. Esa correspondencia necesitaría aprobación en la definición de la ruta; no se convierte aquí en una regla universal del SV.</p>
+<p>Supóngase que la pertenencia de K a R está acreditada, pero el dato del caso carece de evidencia suficiente de procedencia. La pertenencia puede recibir 0 y la cuestión singular «¿queda acreditada la procedencia del dato?» permanecer en U. No hay contradicción: son preguntas distintas.</p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="imagenes/parametros-rutas.svg" alt="Relación entre conocimiento, pertenencia y decisión"><span class="img-wrapper"><img src="imagenes/parametros-rutas.svg" alt="Relación entre conocimiento, pertenencia y decisión"></span></label></p>
+<p>El esquema muestra dependencias conceptuales, no una ruta profesional constituida ni una función ya disponible. Las flechas indican aportación de fundamento; no copian valores.</p>
+<h2 id="pertenencia-no-equivale-a-posibilidad-de-omisión"><a class="header" href="#pertenencia-no-equivale-a-posibilidad-de-omisión">Pertenencia no equivale a posibilidad de omisión</a></h2>
+<p>Pertenecer a una ruta, estar activado en un contexto y ser obligatorio son propiedades diferentes. La definición competente debe establecer sus relaciones. Un parámetro ajeno a una ruta puede ser necesario en otra que también resulte aplicable.</p>
+<p>Si permanece indeterminada una dependencia obligatoria, no se permite omitirla por conveniencia. Se conserva el bloqueo, la abstención o la revisión que prescriba la regla. Tampoco se considera prescindible un elemento cuya criticidad todavía no se haya determinado.</p>
+<p>Una ruta en estudio se identifica como <strong>no definida</strong> o <strong>pendiente de constitución</strong>. Ese estado no es el valor U de una evaluación concreta: no debe aparentarse que se ha ejecutado una regla que aún no existe.</p>
+<h3 id="ejemplo-cinco-elementos-y-una-ruta-crítica"><a class="header" href="#ejemplo-cinco-elementos-y-una-ruta-crítica">Ejemplo: cinco elementos y una ruta crítica</a></h3>
+<p>Sean A, B, C, D y E cinco elementos de conocimiento delimitados. Cada uno puede representar un Universo completo o una parte identificada de éste; la leyenda de la ruta debe declarar el alcance de cada elemento y sus documentos y parámetros asociados.</p>
+<p>En este ejemplo se establecen dos reglas: los cinco elementos son obligatorios y cada uno requiere el cumplimiento del anterior. La ruta crítica es <strong>A → B → C → D → E</strong>. Es la única secuencia que satisface ambas reglas; su unicidad procede de estas condiciones expresas, no de una propiedad general de cualquier conjunto de cinco elementos.</p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="imagenes/rutas-criticas.svg" alt="Ruta crítica declarada, variaciones y recorrido registrado"><span class="img-wrapper"><img src="imagenes/rutas-criticas.svg" alt="Ruta crítica declarada, variaciones y recorrido registrado"></span></label></p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Recorrido propuesto</th><th>Comprobación frente a las reglas del ejemplo</th></tr>
+</thead>
+<tbody>
+<tr><td>A → B → C → D → E</td><td>Conserva los cinco elementos y respeta todas las dependencias.</td></tr>
+<tr><td>A → B → D → E</td><td>Omite C, que es obligatorio.</td></tr>
+<tr><td>A → C → B → D → E</td><td>Contiene todos los elementos, pero sitúa C antes de su requisito B.</td></tr>
+<tr><td>A → B → C → E → D</td><td>Adelanta E respecto de su requisito D.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Cinco elementos distintos admiten 5! = 120 permutaciones si no se fija ninguna posición. Si A debe ser el inicio y E el final, quedan 3! = 6 órdenes de los tres elementos intermedios. Esas posibilidades combinatorias no son autorizaciones: las dependencias del ejemplo sólo admiten una. Los recorridos que omiten elementos son variaciones adicionales y también deben confrontarse con las obligaciones declaradas.</p>
+<p><strong>Ruta exigida y recorrido acreditado son objetos distintos.</strong> Si únicamente constan cumplidos A y B, dibujar la ruta completa no permite dar por cumplido C. El acceso al siguiente paso dependiente debe conservar la condición pendiente y su evidencia. Esto tampoco impide consultar otras fuentes ya autorizadas que no dependan de ese paso.</p>
+<p>Al seleccionar un elemento, la visualización deberá mostrar su Universo, los parámetros implicados, la edición documental, las páginas o pasajes utilizados, las condiciones de acceso y la evidencia de la actuación. Una figura no sustituye esos registros. Las flechas expresan dependencias de conocimiento; no duraciones ni costes. Los estados de seguimiento de este ejemplo no son valores de la terna decisional.</p>
+<p>El diseño no atribuye todavía consecuencias profesionales concretas a una omisión ni establece el algoritmo que constituirá las rutas. Esa definición requiere reglas, fuentes y validación propias del dominio. La representación permite explicar y comprobar una ruta una vez constituida; no la inventa.</p>
+<h3 id="analogía-la-coordinación-de-una-escala-aeroportuaria"><a class="header" href="#analogía-la-coordinación-de-una-escala-aeroportuaria">Analogía: la coordinación de una escala aeroportuaria</a></h3>
+<p>En la gestión aeroportuaria, la preparación de una salida reúne actividades dependientes, algunas simultáneas. EUROCONTROL describe el seguimiento de la escala y la preparación de la salida mediante hitos que permiten actualizar previsiones y avisos. Esta referencia aporta una analogía de coordinación y seguimiento; no prescribe las rutas del SV. <a href="https://www.eurocontrol.int/publication/eurocontrol-specification-airport-collaborative-decision-making-cdm">EUROCONTROL: especificación A-CDM, edición 1.0</a>.</p>
+<p>Supóngase la siguiente planificación simplificada. Las actividades y sus duraciones son <strong>hipotéticas</strong>; agrupan operaciones únicamente para explicar el diagrama y no representan un procedimiento de aeropuerto.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Elemento</th><th>Bloque del ejemplo</th><th>Duración supuesta</th><th>Requisito previo</th></tr>
+</thead>
+<tbody>
+<tr><td>A</td><td>Coordinación inicial de la escala</td><td>5 minutos</td><td>Inicio</td></tr>
+<tr><td>B</td><td>Preparación de cabina</td><td>12 minutos</td><td>A terminado</td></tr>
+<tr><td>C</td><td>Preparación de equipaje</td><td>7 minutos</td><td>A terminado</td></tr>
+<tr><td>D</td><td>Comprobación conjunta de ambos bloques</td><td>4 minutos</td><td>B y C terminados</td></tr>
+<tr><td>E</td><td>Cierre del proceso considerado</td><td>3 minutos</td><td>D terminado</td></tr>
+</tbody>
+</table>
+</div>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="imagenes/aeropuerto-dependencias.svg" alt="Dependencias y ruta crítica temporal en una hipótesis aeroportuaria"><span class="img-wrapper"><img src="imagenes/aeropuerto-dependencias.svg" alt="Dependencias y ruta crítica temporal en una hipótesis aeroportuaria"></span></label></p>
+<p>B y C pueden desarrollarse simultáneamente. Bajo estas hipótesis, la duración resulta <strong>5 + máximo(12, 7) + 4 + 3 = 24 minutos</strong>. La ruta A → B → D → E fija la terminación y es la única ruta crítica temporal de este ejemplo. La secuencia A → C → D → E suma 19 minutos: C dispone de cinco minutos de margen, pero <strong>continúa siendo obligatoria</strong>. Elegir la secuencia más corta y prescindir de B incumpliría el requisito de D. Una demora de tres minutos en B llevaría la terminación a 27 minutos; si el coste adicional supuesto fuera de 100 unidades monetarias por minuto de demora final, añadiría 300 unidades. Son cifras didácticas, no estimaciones de un aeropuerto.</p>
+<p>Microsoft Project representa este tipo de dependencias y distingue las tareas con margen de las que condicionan la fecha de terminación. Ese significado temporal explica la analogía y debe conservarse al citar la aplicación. <a href="https://support.microsoft.com/es-es/project/manage-your-project-s-critical-path">Microsoft: administración de la ruta crítica</a>.</p>
+<p>En el SV se conserva la idea de <strong>dependencias explícitas, condiciones de avance y seguimiento comprobable</strong>, mientras que la criticidad se fundamenta en el conocimiento requerido y las consecuencias de omitirlo. Un parámetro no se vuelve prescindible porque su consulta sea breve ni porque ocupe pocos documentos. Del mismo modo, una dependencia no desaparece por pertenecer a un Universo compartido. El cálculo temporal anterior no es el algoritmo de rutas del SV; permite comprender gráficamente por qué cada obligación debe estar definida y acreditada.</p>
+<h3 id="analogía-un-reparto-con-nueve-destinos"><a class="header" href="#analogía-un-reparto-con-nueve-destinos">Analogía: un reparto con nueve destinos</a></h3>
+<p>Un repartidor debe atender nueve destinos. Omitir uno incumple el encargo aunque reduzca el tiempo o el combustible. Visitar los nueve, por otra parte, no determina automáticamente el orden: hacen falta distancias, tiempos de viaje, consumo, punto de partida y llegada, y las restricciones que correspondan. Esta clase de problema se estudia en planificación de recorridos; una formulación básica es el problema del viajante, documentado en <a href="https://developers.google.com/optimization/routing/tsp">Google OR-Tools</a>.</p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="imagenes/reparto-nueve-destinos.svg" alt="Cobertura de nueve destinos y criterios necesarios para organizar el recorrido"><span class="img-wrapper"><img src="imagenes/reparto-nueve-destinos.svg" alt="Cobertura de nueve destinos y criterios necesarios para organizar el recorrido"></span></label></p>
+<p>La secuencia <strong>1 → 4 → 2 → 8 → 5 → 7 → 3 → 9 → 6</strong> del diagrama sólo ilustra cobertura completa. No se afirma que ahorre más combustible ni tiempo: no se han proporcionado datos que permitan calcularlo. Ambos criterios pueden favorecer recorridos diferentes y necesitan una regla de comparación declarada. Con nueve destinos distintos hay 9! = 362.880 órdenes posibles antes de imponer restricciones o identificar recorridos equivalentes.</p>
+<p>El ejemplo explica por qué la planificación no debe confiarse a una secuencia aparentemente razonable. En el SV, una propuesta debe someterse a comprobaciones de cobertura, dependencias, permisos y evidencia. Una respuesta convincente de un LLM no acredita por sí misma que se haya consumido todo el conocimiento exigido. Se conserva exclusivamente la denominación <strong>ruta crítica</strong> para el concepto del SV; las analogías logísticas no fijan su algoritmo ni convierten el número de destinos en una dimensión celular.</p>
+<h3 id="matrices-restricciones-y-aceleración"><a class="header" href="#matrices-restricciones-y-aceleración">Matrices, restricciones y aceleración</a></h3>
+<p>La investigación operativa ofrece antecedentes útiles. Un problema de transporte puede expresar cantidades mediante una matriz X y costes unitarios mediante otra matriz C; el coste total se escribe como la suma de Cᵢⱼ·Xᵢⱼ, sometida a restricciones de oferta, demanda y capacidad. Su formulación lineal admite métodos como el símplex. Ordenar visitas añade restricciones diferentes: una asignación de cantidades no constituye por sí sola un recorrido que visite todos los destinos. Véanse los ejemplos oficiales de <a href="https://developers.google.com/optimization/flow/mincostflow">flujo de coste mínimo</a> y <a href="https://developers.google.com/optimization/lp/lp_example">programación lineal</a>.</p>
+<p>El objetivo de diseño del SV es llevar las operaciones computables a representaciones vectoriales, matriciales y tensoriales que permitan aprovechar la aceleración disponible, bajo control de Rust. Cada matriz debe declarar qué significan sus filas, columnas, valores y operaciones. <strong>La forma numérica conserva el significado; no lo sustituye.</strong> Las restricciones, autorizaciones y evidencias deben acompañar la representación.</p>
+<p>Una representación tensorial puede facilitar cálculos en paralelo; no convierte automáticamente la búsqueda de una ruta en una multiplicación de matrices ni elimina su dificultad combinatoria. La elección del algoritmo, su equivalencia con las reglas del SV y su rendimiento completo requieren comprobación. La aceleración es un objetivo verificable, no una velocidad insuperable acreditada por emplear Rust, GPU o tensores.</p>
+<h2 id="propiedad-y-composición"><a class="header" href="#propiedad-y-composición">Propiedad y composición</a></h2>
+<p>Cada parámetro tiene un único Universo propietario y puede relacionarse con otros Universos mediante referencias identificadas. Una transferencia exige designar al nuevo propietario; no puede dejar el parámetro huérfano. Un Universo constituido conserva parámetros asignados. La compartición no transmite valores de un caso, permisos documentales ni conclusiones.</p>
+<p>La propiedad de un documento y la de un parámetro se registran separadamente. La conversión de un PDF en Markdown no cambia por sí sola su propiedad, relaciones o prioridades, ni constituye nuevos parámetros. La fuente, su selección y la correspondencia entre representaciones siguen siendo necesarias.</p>
+<p>La dimensión de una célula y la posición de cada parámetro obedecen a los pilares del SV y a la versión admitida. El inventario de un Universo no se divide ni se completa automáticamente para obtener una figura. El mapa de relaciones y el polígono decisional representan objetos diferentes.</p>
+<p>Una clasificación como CIE-11 puede identificar el problema de referencia. La correspondencia con parámetros y rutas exige constitución propia; el código de una enfermedad no determina por sí solo un diagnóstico ni un consejo.</p>
+<h3 id="realización-celular-de-un-universo"><a class="header" href="#realización-celular-de-un-universo">Realización celular de un Universo</a></h3>
+<p>El Universo constituido debe disponer de una realización computable mediante células SV. La cadena de diseño relaciona <strong>Universo y parámetros → células constituidas → organización matricial → representación tensorial → operaciones autorizadas</strong>. Cada transformación conserva las identidades y el significado; no convierte esos niveles en objetos semánticamente intercambiables.</p>
+<p>La correspondencia entre parámetros y posiciones, las dimensiones y las relaciones celulares deben constituirse expresamente. La presencia de un concepto de conocimiento no autoriza a asignarle automáticamente 0, 1 o U para completar un estado. Su estructura y su eventual valoración conservan contratos diferenciados. Las referencias compartidas tampoco duplican por sí mismas un estado.</p>
+<p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="imagenes/universo-celulas-tensores.svg" alt="Del Universo a la ejecución tensorial"><span class="img-wrapper"><img src="imagenes/universo-celulas-tensores.svg" alt="Del Universo a la ejecución tensorial"></span></label></p>
+<p>La organización de cálculo preserva cada célula y su vínculo con el frame. Cambiar la disposición de almacenamiento no permite reordenar posiciones, fusionar instancias ni transformar la prioridad documental en orden celular. Esta es la condición para estudiar la aceleración conservando el objeto del SV.</p>
+<h2 id="del-vector-al-frame-y-al-cálculo-por-lotes"><a class="header" href="#del-vector-al-frame-y-al-cálculo-por-lotes">Del vector al frame y al cálculo por lotes</a></h2>
+<p>La célula SV conserva un vector plano, ordenado y posicional. Su representación visual está vinculada al mismo estado mediante el par conceptual <strong>Frame_C = (frmat, frvis)</strong>: componente matemática y componente visual bajo un contrato común. La correspondencia exige la misma instancia, constitución y versión. Puede producirse la imagen cuando se consulte sin mantener permanentemente todos sus píxeles en memoria.</p>
+<p>Los parámetros aportan significado a las posiciones. Atomizar conocimiento no genera por sí solo un vector de valores: hacen falta una constitución y, cuando corresponda, una valoración definida. El vector exacto del SV es un conjunto ordenado de estados ternarios, no un espacio vectorial que admita cualquier operación algebraica.</p>
+<p>Como concepto de diseño, una representación tensorial computacional puede organizar varias instancias compatibles para operar sobre ellas conjuntamente. Un eje puede identificar la instancia y otro la posición. Cada instancia conserva su identidad y su frame; reunirlas para calcular no las fusiona en una nueva célula ni cambia el significado de sus valores.</p>
+<h3 id="ejemplo-los-19683-estados-de-sv93"><a class="header" href="#ejemplo-los-19683-estados-de-sv93">Ejemplo: los 19.683 estados de SV(9,3)</a></h3>
+<p>SV(9,3) admite <strong>3⁹ = 19.683 vectores de estado posibles</strong>, cada uno de nueve posiciones. Una enumeración completa podría ocupar una tabla de 19.683 filas y nueve columnas. La tabla representa el espacio de estados; no convierte la célula en una matriz de 3 × 3 ni cambia su dimensión. Tampoco es necesario materializar todos los estados para evaluar uno. Para dimensiones mayores, el crecimiento de 3ⁿ exige justificar el almacenamiento y los recursos.</p>
+<p>Un ejemplo de representación tensorial auxiliar consiste en separar tres indicadores: presencia de 0, presencia de 1 y presencia de U. Para cada instancia y posición, exactamente uno de los tres indicadores vale uno. <strong>Ese uno es una marca de presencia, no el estado semántico 1 del SV.</strong></p>
+<p>En un lote de m células compatibles de n posiciones, esos indicadores pueden organizarse en tres matrices de m × n. Multiplicar cada matriz por una columna de n unos permite contar, por instancia, N₀, N₁ y Nᵤ. Es una operación matricial con significado explícito: cuenta estados; no multiplica decisiones ni promedia U. Debe conservarse el vector original porque los recuentos no preservan el orden de las posiciones.</p>
+<p>Por ejemplo, el estado ordenado (0, 0, U, 1, 0, U, 0, 1, 0) produce N₀ = 5, N₁ = 2 y Nᵤ = 2. La suma es nueve. El cálculo conserva U como categoría y no como cero, valor medio o ausencia. Otro orden con esos mismos recuentos seguiría siendo otro vector: por eso deben conservarse las posiciones y su frame.</p>
+<p>La terminología general de vectores, matrices, tensores y producto matricial se apoya en Goodfellow, Bengio y Courville, <em>Deep Learning</em> (MIT Press, 2016), <a href="https://www.deeplearningbook.org/contents/linear_algebra.html">capítulo 2, apartados 2.1 y 2.2</a>. El ejemplo de indicadores es una aplicación explicativa propia; esa bibliografía no define ni valida la semántica del SV.</p>
+<p>La evaluación posterior aplica exclusivamente la regla constituida. Cualquier otra multiplicación, relación entre matrices o composición de células necesita justificar entradas, operación y significado de la salida. Codificar U mediante un número no autoriza a tratarla como una magnitud ordinaria.</p>
+<p>La aceleración con GPU, TPU u otros dispositivos necesita una realización específica y comprobaciones de equivalencia y rendimiento. Rust debe preservar los contratos y controlar esa ejecución. El uso de aceleradores por un LLM no demuestra que ejecute directamente las operaciones del SV: debe comprobarse qué recibe, qué realiza y qué devuelve. El <a href="../lenguaje-de-computacion/manual/parametros-rutas.html">manual</a> precisa esta distinción.</p>
+<h2 id="qué-debe-poder-consultar-el-experto"><a class="header" href="#qué-debe-poder-consultar-el-experto">Qué debe poder consultar el experto</a></h2>
+<p>La visualización prevista debe permitir seleccionar un elemento y seguir sus antecedentes y consecuencias, desde una visión general hasta el pasaje documental exacto. Distinguirá:</p>
+<ol>
+<li><strong>Composición:</strong> fuentes, partes seleccionadas, Universos, parámetros y relaciones.</li>
+<li><strong>Rutas declaradas:</strong> dependencias, condiciones y obligatoriedad; criticidad sólo cuando esté definida.</li>
+<li><strong>Actuación registrada:</strong> qué se suministró, qué consultas quedaron registradas, qué referencias utilizó la respuesta y qué se comprobó después.</li>
+</ol>
+<p>El recorrido previsto y el registrado deben poder compararse. Las omisiones permanecen visibles con su causa y tratamiento. Las ayudas explicarán el significado y los límites de cada valor, sin depender exclusivamente de colores.</p>
+<p>Microsoft Project ofrece una referencia útil de <a href="https://support.microsoft.com/es-es/project/highlight-how-tasks-link-to-other-tasks">selección y resaltado de relaciones</a>. Su <a href="https://support.microsoft.com/es-es/project/manage-your-project-s-critical-path">ruta crítica</a> responde a la duración del proyecto. En el SV, la obligatoriedad debe justificarse por las consecuencias de omitir conocimiento, no por la longitud visual o temporal de un recorrido.</p>
+<p>Las figuras representan las relaciones definidas en este capítulo. Sus rótulos distinguen los objetos, las valoraciones y las transformaciones; los ejemplos no constituyen reglas profesionales de decisión.</p>
+<h2 id="trazabilidad-y-límites-de-la-explicación"><a class="header" href="#trazabilidad-y-límites-de-la-explicación">Trazabilidad y límites de la explicación</a></h2>
+<p>Cada actuación necesita conservar documentos, versiones, huellas, fragmentos, autorizaciones, reglas, entradas, salidas y decisiones de revisión. Un documento puede haberse preparado sin haberse enviado; una cita del modelo puede existir sin haberse contrastado. Estas situaciones deben identificarse por separado.</p>
+<p>La explicación de una IA no prueba por sí sola qué proceso interno siguió. El sistema debe ofrecer evidencia observable y permitir comprobar el soporte documental de sus afirmaciones. Una modificación o revocación posterior impide los usos nuevos afectados y conserva la posibilidad de reconstruir los anteriores.</p>
+<p>Esta trazabilidad permite examinar actuaciones y responsabilidades. No equivale por sí sola a corrección científica, certificación ni exoneración jurídica. El experto debe poder distinguir la insuficiencia documental, la incertidumbre de una cuestión y un fallo técnico.</p>
+<p>El encaje de estas necesidades en la ejecución se desarrolla en el <a href="../lenguaje-de-computacion/manual/parametros-rutas.html">Manual del Lenguaje de Computación SV</a>. La definición de rutas y su comprobación siguen siendo requisitos previos a su uso.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Navegación de capítulos">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="metodologia.html" class="mobile-nav-chapters previous" title="Capítulo anterior" aria-label="Capítulo anterior" aria-keyshortcuts="Left">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                            </a>
+
+                            <a rel="next prefetch" href="inmunologia.html" class="mobile-nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Navegación de capítulos">
+                    <a rel="prev" href="metodologia.html" class="nav-chapters previous" title="Capítulo anterior" aria-label="Capítulo anterior" aria-keyshortcuts="Left">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
+                    </a>
+
+                    <a rel="next prefetch" href="inmunologia.html" class="nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
+            </nav>
+
+        </div>
+
+        <template id=fa-eye><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M288 32c-80.8 0-145.5 36.8-192.6 80.6C48.6 156 17.3 208 2.5 243.7c-3.3 7.9-3.3 16.7 0 24.6C17.3 304 48.6 356 95.4 399.4C142.5 443.2 207.2 480 288 480s145.5-36.8 192.6-80.6c46.8-43.5 78.1-95.4 93-131.1c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C433.5 68.8 368.8 32 288 32zM432 256c0 79.5-64.5 144-144 144s-144-64.5-144-144s64.5-144 144-144s144 64.5 144 144zM288 192c0 35.3-28.7 64-64 64c-11.5 0-22.3-3-31.6-8.4c-.2 2.8-.4 5.5-.4 8.4c0 53 43 96 96 96s96-43 96-96s-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6z"/></svg></span></template>
+        <template id=fa-eye-slash><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M38.8 5.1C28.4-3.1 13.3-1.2 5.1 9.2S-1.2 34.7 9.2 42.9l592 464c10.4 8.2 25.5 6.3 33.7-4.1s6.3-25.5-4.1-33.7L525.6 386.7c39.6-40.6 66.4-86.1 79.9-118.4c3.3-7.9 3.3-16.7 0-24.6c-14.9-35.7-46.2-87.7-93-131.1C465.5 68.8 400.8 32 320 32c-68.2 0-125 26.3-169.3 60.8L38.8 5.1zM223.1 149.5C248.6 126.2 282.7 112 320 112c79.5 0 144 64.5 144 144c0 24.9-6.3 48.3-17.4 68.7L408 294.5c5.2-11.8 8-24.8 8-38.5c0-53-43-96-96-96c-2.8 0-5.6 .1-8.4 .4c5.3 9.3 8.4 20.1 8.4 31.6c0 10.2-2.4 19.8-6.6 28.3l-90.3-70.8zm223.1 298L373 389.9c-16.4 6.5-34.3 10.1-53 10.1c-79.5 0-144-64.5-144-144c0-6.9 .5-13.6 1.4-20.2L83.1 161.5C60.3 191.2 44 220.8 34.5 243.7c-3.3 7.9-3.3 16.7 0 24.6c14.9 35.7 46.2 87.7 93 131.1C174.5 443.2 239.2 480 320 480c47.8 0 89.9-12.9 126.2-32.5z"/></svg></span></template>
+        <template id=fa-copy><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M502.6 70.63l-61.25-61.25C435.4 3.371 427.2 0 418.7 0H255.1c-35.35 0-64 28.66-64 64l.0195 256C192 355.4 220.7 384 256 384h192c35.2 0 64-28.8 64-64V93.25C512 84.77 508.6 76.63 502.6 70.63zM464 320c0 8.836-7.164 16-16 16H255.1c-8.838 0-16-7.164-16-16L239.1 64.13c0-8.836 7.164-16 16-16h128L384 96c0 17.67 14.33 32 32 32h47.1V320zM272 448c0 8.836-7.164 16-16 16H63.1c-8.838 0-16-7.164-16-16L47.98 192.1c0-8.836 7.164-16 16-16H160V128H63.99c-35.35 0-64 28.65-64 64l.0098 256C.002 483.3 28.66 512 64 512h192c35.2 0 64-28.8 64-64v-32h-47.1L272 448z"/></svg></span></template>
+        <template id=fa-play><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z"/></svg></span></template>
+        <template id=fa-clock-rotate-left><span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M75 75L41 41C25.9 25.9 0 36.6 0 57.9V168c0 13.3 10.7 24 24 24H134.1c21.4 0 32.1-25.9 17-41l-30.8-30.8C155 85.5 203 64 256 64c106 0 192 86 192 192s-86 192-192 192c-40.8 0-78.6-12.7-109.7-34.4c-14.5-10.1-34.4-6.6-44.6 7.9s-6.6 34.4 7.9 44.6C151.2 495 201.7 512 256 512c141.4 0 256-114.6 256-256S397.4 0 256 0C185.3 0 121.3 28.7 75 75zm181 53c-13.3 0-24 10.7-24 24V256c0 6.4 2.5 12.5 7 17l72 72c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-65-65V152c0-13.3-10.7-24-24-24z"/></svg></span></template>
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+
+        <script src="clipboard-1626706a.min.js"></script>
+        <script src="highlight-abc7f01d.js"></script>
+        <script src="book-609e4cb8.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="presentacion-37d67f97.js"></script>
+
+
+
+    </div>
+    </body>
+</html>

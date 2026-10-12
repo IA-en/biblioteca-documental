@@ -8,11 +8,15 @@ El índice original registra once tramos pendientes, SVP-MAN-00 a SVP-MAN-10. Lo
 
 El constructor y el tramo 10 se reproducen íntegramente, sin correcciones terminológicas ni ampliaciones. Sus fuentes pertenecen a la revisión f97173e07a9dfb8385ed1268d11de422b291507d del repositorio SV-lenguaje-de-computacion.
 
+## Complemento de requisitos
+
+El capítulo [Parámetros, recorridos y evidencia](parametros-rutas.md) distingue conocimiento, pertenencia propuesta a rutas y valoración decisional. Describe necesidades de ejecución y trazabilidad mediante un ejemplo y un diagrama. Es un complemento en evaluación: no completa los tramos pendientes, no añade sintaxis ni acredita funciones implementadas.
+
 ## Autoridad documental
 
 El manual permanece subordinado al pliego, la Frontera normativa, la representación intermedia y la gramática vigentes. La presentación de un documento en este libro no acredita una nueva aprobación. Las revisiones y los cierres se realizan en sus sedes competentes.
 
-## Consulta para personas y modelos
+## Consulta documental
 
 Los capítulos Markdown son la fuente de esta presentación y del catálogo MCP. El modelo recibe texto, identificación y localizadores; el Árbitro-Director conserva las decisiones de suministro y sus controles. La consulta no ejecuta los ejemplos, no incorpora información de los enlaces externos y no realiza inferencia.
 

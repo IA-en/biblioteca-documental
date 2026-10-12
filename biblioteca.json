@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-dominios-v01-visualizadores-v06-20261012",
+  "edicion": "sv-conceptos-v02-20261012",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "f4ac44e3f669dd89afb1d7b80dfb3e3531180b12925aa9740fc5eada6d312b52",
+        "sha256": "1fd05f4394c32ba6cba2c7a4dc934413d13310490313fc55bf4211cc7a42a938",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,7 +29,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "970c0b348ab8ba9da7964694a677b8f841541978e69a87971cfdde16ce60598d",
+            "sha256": "c3dbb19a13b926046553bd38ed752322eb6a78f8b873df08275c25e04b35f6c1",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "87c6d954b4888b298935013e1c31aa7dd12e73e5ef02b315b3b87e1707579566"
+        "sha256": "2ebfdf71afc8415b35b101bff66f0fd0b06fa3ea73ac436a8d01576f6229f4eb"
       },
       "metadatos": [
         {
@@ -379,7 +379,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "83ec7ac70de9413211508ff25556aabe8b1f461afa614e4587ad67c1663f04b8"
+            "sha256": "eec41e8ef01ab2de9debed89888698d7f14629f4db96c7f4a2aa90cb4d500637"
           },
           "procedencia": "https://github.com/juantoniolloretegea/SV-motor/blob/61613607a0ada4e52a5f192e139a334caa9a9e16/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/mdbook/0.1.0/manual/src/SUMMARY.md",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -394,7 +394,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "223f37b63c8c322cc4ae49d747e55d5e845b5a88793481ea7b4ed105c327f509"
+            "sha256": "bceacda4be72247004123222f8c72a5d57cea0326f9516639da9c996ca00f7dc"
           },
           "procedencia": "https://github.com/juantoniolloretegea/SV-motor/blob/61613607a0ada4e52a5f192e139a334caa9a9e16/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/mdbook/0.1.0/manual/src/presentacion.md",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -433,12 +433,27 @@
           "alcance": "Edición histórica de prueba; no es un manual completo ni una aprobación de sus tramos pendientes.",
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null
+        },
+        {
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_PARAMETROS_RUTAS",
+          "identificador_editorial_r0": null,
+          "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026 con ejemplos explicativos y bibliografía identificada.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "original": {
+            "ruta": "libros/manual/src/parametros-rutas.md",
+            "sha256": "c696baff560f8904647bf2e550779d14cb578ab1966d160864ba80c87a2fb861"
+          },
+          "sintetico": false
         }
       ]
     },
     {
       "plan": {
-        "sha256": "f2337a35b395b4ca64a99eb3060f757a2a332961583c1fcbe6fcb901ac00e7db",
+        "sha256": "7eaca2eb2a480a1cc931353516da7a6e4f27a8a52425ec646705841115bde56a",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -453,7 +468,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-01",
           "original": {
-            "sha256": "4fe8bdae60ff8e6aea13d39d44b99d15822b89905f7b78021be44fb44843338c",
+            "sha256": "b42bf815760f61abb8cc46eef143926b524c578493a9af8b5935c9c38f96b269",
             "ruta": "libros/dominios/src/SUMMARY.md"
           },
           "correspondencia": "identidad_literal",
@@ -468,7 +483,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-02",
           "original": {
-            "sha256": "390c999367747ca98b0a2ff2245feb8cfa3cff4392416147b4b95e85b06f5f8a",
+            "sha256": "51cc826802ee9e57832f429c3f1309981472e2147f8a5b6e363eddd7097efcd2",
             "ruta": "libros/dominios/src/presentacion.md"
           },
           "correspondencia": "identidad_literal",
@@ -483,7 +498,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-03",
           "original": {
-            "sha256": "1a8d1dadfd44668ad75aa80b68861f818171f2cf3174aa453b06afd79a12e9a8",
+            "sha256": "d9725c7007a17f2ad153a1d305c914cca48b3918772cf633016623574b530f9f",
             "ruta": "libros/dominios/src/conceptos.md"
           },
           "correspondencia": "identidad_literal",
@@ -498,7 +513,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-04",
           "original": {
-            "sha256": "5eaef9c0de90f527657ce6caa758ff9274a6c6097ca4444378b2aa6dff5a2068",
+            "sha256": "9d9a4e130a9ea0f2061781698c3d7e4e473b47d5d1fa24bdb4b2010aecb4df9c",
             "ruta": "libros/dominios/src/metodologia.md"
           },
           "correspondencia": "identidad_literal",
@@ -543,11 +558,26 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-07",
           "original": {
-            "sha256": "33ae407507f9128ccb25e557db30cf58fe370d54171d2afd203c7d18aa9d2491",
+            "sha256": "16d84edc3337a7f90a69d9fde272178be8859a5df411679a0dcd1d629a97116c",
             "ruta": "libros/dominios/src/fuentes.md"
           },
           "correspondencia": "identidad_literal",
           "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+        },
+        {
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "DOMINIOS-08",
+          "identificador_editorial_r0": null,
+          "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026 con ejemplos explicativos y bibliografía identificada.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "original": {
+            "ruta": "libros/dominios/src/parametros-rutas.md",
+            "sha256": "3feddd32e12f59525d0c221d9e48f43b6e530a7c2edd005944c0001391657d6c"
+          },
+          "sintetico": false
         }
       ],
       "id": "dominios"

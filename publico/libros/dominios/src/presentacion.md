@@ -1,6 +1,6 @@
 # Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros
 
-**V.01 · 12 de octubre de 2026 · Original en español.**
+**V.02 · 12 de octubre de 2026 · Original en español.**
 
 Este libro explica la metodología de construcción de los dominios y Universos del Sistema Vectorial SV: cómo se delimita el conocimiento pertinente, se seleccionan sus fuentes, se justifican los parámetros y se comprueban sus relaciones y límites. Inmunología y ciberseguridad permiten reconocer la aplicación de estos principios en ámbitos diferentes.
 
@@ -18,7 +18,7 @@ Las [definiciones](conceptos.md) precisan dominio, Universo, parámetro y relaci
 
 Los capítulos distinguen entre conocimiento documentado, comprobaciones declaradas en las fuentes y usos todavía no autorizados o no acreditados. Una referencia bibliográfica, un archivo disponible o una definición formal no bastan para afirmar validación clínica u operacional.
 
-Esta primera edición reúne los fundamentos metodológicos y su aplicación documental en inmunología y ciberseguridad. El índice podrá incorporar otros dominios y Universos conforme dispongan de definición y fuentes identificadas. La incorporación al libro no concede acceso a documentación reservada ni habilita su entrega a una IA.
+Esta edición precisa la distinción entre conocimiento, pertenencia a rutas y valoración decisional; incorpora un ejemplo y un diagrama en el [capítulo de parámetros y rutas](parametros-rutas.md). La propuesta de pertenencia ternaria y la visualización descrita no se declaran implementadas. El índice podrá incorporar otros dominios y Universos conforme dispongan de definición y fuentes identificadas. La incorporación al libro no concede acceso a documentación reservada ni habilita su entrega a una IA.
 
 ## Relación con los demás libros
 

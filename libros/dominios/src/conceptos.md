@@ -16,11 +16,19 @@ El marco de inmunología distingue el **subdominio**, que agrupa Universos relac
 
 ## Qué identifica un parámetro
 
-Un parámetro conserva una proposición delimitada, una identidad y las condiciones bajo las cuales puede interpretarse. Debe leerse con su sujeto, fuente, momento y ámbito. Su nombre abreviado no sustituye esas condiciones.
+Un parámetro es una unidad de significado delimitada por su definición, dominio, función y alcance. La analogía con un átomo expresa su separación respecto de otras unidades, pero no demuestra atomicidad ni determina automáticamente una posición celular.
 
-Un parámetro no es necesariamente un número medido ni una puntuación. Puede expresar una condición documentada o una relación, como la vinculación de un acto con una sesión. Dos usos de la misma definición en sujetos distintos mantienen estados independientes.
+El **parámetro de conocimiento** conserva una unidad de conceptos o datos generales dentro de un Universo. No tiene por sí mismo un valor ternario del caso. El **parámetro singular de decisión** formula una cuestión que recibe 0, 1 o U conforme a su contrato, contexto y evidencia. Dos casos que utilizan una misma definición conservan valoraciones independientes.
 
-Los valores se interpretan según el contrato de cada parámetro. No puede suponerse que «1» sea siempre favorable: en ciberseguridad, por ejemplo, P29 expresa una revocación que afecta a la actuación. Tampoco se convierte información ausente en una conclusión negativa.
+Se propone, además, valorar mediante la terna la **pertenencia de un parámetro de conocimiento a una ruta determinada**. Ese valor correspondería a la relación, no a la verdad del conocimiento ni al resultado decisional. La propuesta permanece en evaluación. El [capítulo de parámetros y rutas](parametros-rutas.md) explica la diferencia mediante un ejemplo y un diagrama.
+
+Todo valor debe leerse junto a la pregunta evaluada y su convención. No basta interpretar un número por costumbre ni convertir información ausente en una conclusión negativa. Los inventarios históricos se conservan con sus contratos; esta distinción no los reclasifica automáticamente.
+
+## Propiedad de los parámetros
+
+Cada parámetro tiene un único Universo propietario y puede compartirse mediante relaciones explícitas con otros Universos. La referencia conserva identidad y versión; no transmite permisos ni valores de un caso. Cambiar el propietario exige designar otro sin dejar el parámetro huérfano. Un Universo constituido mantiene parámetros asignados; un borrador incompleto no acredita esa constitución.
+
+La propiedad de los documentos y la de los parámetros son relaciones distintas. Un parámetro puede apoyarse en varias fuentes y una fuente sustentar varias unidades de conocimiento, siempre con selecciones y fundamento identificados.
 
 ## Versiones y reutilización
 

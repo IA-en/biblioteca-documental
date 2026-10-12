@@ -30,15 +30,23 @@ Así puede comprobarse su suficiencia: si están presentes el conocimiento y las
 
 Una observación es información obtenida sobre un caso. Un parámetro es una unidad de significado necesaria para interpretar una cuestión dentro de la operación. Su definición debe permitir distinguirla de las demás y explicar qué se perdería si se omitiera, confundiera o aplicara fuera de contexto.
 
-Cada parámetro necesita identidad, proposición, sujeto, condiciones de aplicación, valores admitidos, fuentes y límites. Cuando proceda, incorpora método de observación, unidad y referencia temporal. La denominación abreviada nunca sustituye a esta definición.
+Cada parámetro necesita identidad, definición, dominio, alcance, fuentes y límites. El parámetro de conocimiento conserva esa unidad de significado sin adquirir por sí mismo un valor ternario. La cuestión singular de decisión añade sujeto, contexto, observaciones y reglas de valoración. La pertenencia a una ruta, cuando se evalúe, será una relación diferenciada con condiciones y resultado propios. La denominación abreviada nunca sustituye a estas definiciones.
 
 La separación entre parámetros se justifica por diferencias de función, dependencia y consecuencia. La forma de presentación no puede decidir su significado, imponer un número previo ni añadir elementos para completar una figura. Un conjunto de parámetros tampoco constituye automáticamente una puntuación.
 
+## Respetar la secuencia de constitución
+
+La [reconciliación de la secuencia de inmunología](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/cambio-rumbo/adenda-reconciliacion-secuencia-constitutiva-y-puertas-inmunologia-2026-09-02-v0.1.md) distingue dos sentidos de consecuencia. Antes de adjudicar atomicidad hacen falta observables y consecuencias candidatas de omisión, error, fusión o inversión: permiten comprobar si la unidad debe distinguirse. Después de adoptar el parámetro y su propiedad se constituyen las consecuencias operacionales, las composiciones y las rutas.
+
+El orden material es: operación y preguntas; observables; consecuencias candidatas; adjudicación atómica; propiedad y referencias; consecuencias operacionales y rutas. Una consecuencia candidata todavía no es un veto ni un consejo ejecutable. No se obtiene un parámetro simplemente recortando texto ni se adjudica atomicidad para completar una figura.
+
+El [manifiesto posterior de alcance y terminación](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/cambio-rumbo/manifiesto-terminal-alcance-cobertura-y-terminacion-OP-IMM-001-Q0-v0-2026-09-03.md) mantiene la secuencia y exige un alcance finito. Este principio permite trabajar con conjuntos delimitados sin esperar una exhaustividad mundial ni declarar constituida toda una especialidad. Su aplicación a otro tipo de unidad debe justificarse por función y alcance.
+
 ## Conservar la incertidumbre
 
-El estado indeterminado, **U**, conserva una cuestión que no puede resolverse legítimamente con el fundamento disponible. No equivale a ausencia del fenómeno, a un valor medio ni a una respuesta probable. Resolverlo exige la evidencia o decisión prevista para esa cuestión.
+En una valoración definida, el estado indeterminado, **U**, conserva una cuestión que no puede resolverse legítimamente con el fundamento disponible. No equivale a ausencia del fenómeno, a un valor medio ni a una respuesta probable. Resolverlo exige la evidencia o decisión prevista para esa cuestión.
 
-También deben distinguirse la información insuficiente, la inaplicabilidad y el fallo técnico. Una avería no es una conclusión profesional; una observación rechazada no demuestra el estado que se pretendía observar. La incertidumbre relevante debe permanecer visible en las relaciones y en el resultado.
+También deben distinguirse la información insuficiente, la inaplicabilidad y el fallo técnico. Una avería no es una conclusión profesional; una observación rechazada no demuestra el estado que se pretendía observar. La incertidumbre relevante debe permanecer visible en las relaciones y en el resultado. Una definición o ruta pendiente de constitución se identifica como tal; no se simula una evaluación asignándole automáticamente U.
 
 ## Componer sin perder el significado
 

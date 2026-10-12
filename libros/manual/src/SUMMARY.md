@@ -15,3 +15,4 @@
 - [09 · CLI, representación y ejecución — pendiente]()
 - [10 · Compatibilidad interlenguajes — documento preparatorio](tramo-10.md)
 
+- [Parámetros, recorridos y evidencia — requisitos de integración](parametros-rutas.md)

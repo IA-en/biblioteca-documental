@@ -1,34 +1,41 @@
 {
-  "version": 2,
+  "version": 3,
   "libro": "SV_DOMINIOS",
   "summary": {
     "titulo": "Índice",
-    "url": "urn:sv:documento:sha256:4fe8bdae60ff8e6aea13d39d44b99d15822b89905f7b78021be44fb44843338c",
-    "sha256": "4fe8bdae60ff8e6aea13d39d44b99d15822b89905f7b78021be44fb44843338c",
+    "url": "urn:sv:documento:sha256:b42bf815760f61abb8cc46eef143926b524c578493a9af8b5935c9c38f96b269",
+    "sha256": "b42bf815760f61abb8cc46eef143926b524c578493a9af8b5935c9c38f96b269",
     "ruta": "SUMMARY.md",
     "id": "DOMINIOS-01"
   },
   "capitulos": [
     {
       "titulo": "Presentación",
-      "url": "urn:sv:documento:sha256:390c999367747ca98b0a2ff2245feb8cfa3cff4392416147b4b95e85b06f5f8a",
-      "sha256": "390c999367747ca98b0a2ff2245feb8cfa3cff4392416147b4b95e85b06f5f8a",
+      "url": "urn:sv:documento:sha256:51cc826802ee9e57832f429c3f1309981472e2147f8a5b6e363eddd7097efcd2",
+      "sha256": "51cc826802ee9e57832f429c3f1309981472e2147f8a5b6e363eddd7097efcd2",
       "ruta": "presentacion.md",
       "id": "DOMINIOS-02"
     },
     {
       "titulo": "Definiciones y relaciones",
-      "url": "urn:sv:documento:sha256:1a8d1dadfd44668ad75aa80b68861f818171f2cf3174aa453b06afd79a12e9a8",
-      "sha256": "1a8d1dadfd44668ad75aa80b68861f818171f2cf3174aa453b06afd79a12e9a8",
+      "url": "urn:sv:documento:sha256:d9725c7007a17f2ad153a1d305c914cca48b3918772cf633016623574b530f9f",
+      "sha256": "d9725c7007a17f2ad153a1d305c914cca48b3918772cf633016623574b530f9f",
       "ruta": "conceptos.md",
       "id": "DOMINIOS-03"
     },
     {
       "titulo": "Metodología de construcción",
-      "url": "urn:sv:documento:sha256:5eaef9c0de90f527657ce6caa758ff9274a6c6097ca4444378b2aa6dff5a2068",
-      "sha256": "5eaef9c0de90f527657ce6caa758ff9274a6c6097ca4444378b2aa6dff5a2068",
+      "url": "urn:sv:documento:sha256:9d9a4e130a9ea0f2061781698c3d7e4e473b47d5d1fa24bdb4b2010aecb4df9c",
+      "sha256": "9d9a4e130a9ea0f2061781698c3d7e4e473b47d5d1fa24bdb4b2010aecb4df9c",
       "ruta": "metodologia.md",
       "id": "DOMINIOS-04"
+    },
+    {
+      "ruta": "parametros-rutas.md",
+      "sha256": "3feddd32e12f59525d0c221d9e48f43b6e530a7c2edd005944c0001391657d6c",
+      "url": "urn:sv:documento:sha256:3feddd32e12f59525d0c221d9e48f43b6e530a7c2edd005944c0001391657d6c",
+      "titulo": "Parámetros, rutas y evidencia",
+      "id": "DOMINIOS-08"
     },
     {
       "titulo": "Inmunología",
@@ -46,11 +53,11 @@
     },
     {
       "titulo": "Fuentes, versiones y ampliación",
-      "url": "urn:sv:documento:sha256:33ae407507f9128ccb25e557db30cf58fe370d54171d2afd203c7d18aa9d2491",
-      "sha256": "33ae407507f9128ccb25e557db30cf58fe370d54171d2afd203c7d18aa9d2491",
+      "url": "urn:sv:documento:sha256:16d84edc3337a7f90a69d9fde272178be8859a5df411679a0dcd1d629a97116c",
+      "sha256": "16d84edc3337a7f90a69d9fde272178be8859a5df411679a0dcd1d629a97116c",
       "ruta": "fuentes.md",
       "id": "DOMINIOS-07"
     }
   ],
-  "revision": "cf59358a7a9ea3a0e13c11f2f2176aebd208f29a3800892b39f66ed08b0ebca7"
+  "revision": "cb231089de3b40afee1d60208067655a12379f2e6adade7180ff86c8078015f1"
 }

@@ -1,21 +1,21 @@
 {
-  "version": 2,
+  "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "0a5b905f28a6b481f9b46d1693b08b3074b10378936f3cc50a3a8ad3f363f414",
+  "revision": "c1261e5246a9119f4ed30fffe582cc1dc2fd151cff517b3aaf3f3181a58ad819",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
     "titulo": "SVP índice y capítulos pendientes",
-    "url": "urn:sv:documento:sha256:83ec7ac70de9413211508ff25556aabe8b1f461afa614e4587ad67c1663f04b8",
-    "sha256": "83ec7ac70de9413211508ff25556aabe8b1f461afa614e4587ad67c1663f04b8"
+    "url": "urn:sv:documento:sha256:eec41e8ef01ab2de9debed89888698d7f14629f4db96c7f4a2aa90cb4d500637",
+    "sha256": "eec41e8ef01ab2de9debed89888698d7f14629f4db96c7f4a2aa90cb4d500637"
   },
   "capitulos": [
     {
       "id": "MANUAL_PRESENTACION",
       "ruta": "presentacion.md",
       "titulo": "SVP presentación y estado",
-      "url": "urn:sv:documento:sha256:223f37b63c8c322cc4ae49d747e55d5e845b5a88793481ea7b4ed105c327f509",
-      "sha256": "223f37b63c8c322cc4ae49d747e55d5e845b5a88793481ea7b4ed105c327f509"
+      "url": "urn:sv:documento:sha256:bceacda4be72247004123222f8c72a5d57cea0326f9516639da9c996ca00f7dc",
+      "sha256": "bceacda4be72247004123222f8c72a5d57cea0326f9516639da9c996ca00f7dc"
     },
     {
       "id": "MANUAL_CONSTRUCTOR",
@@ -30,6 +30,13 @@
       "titulo": "SVP compatibilidad interlenguajes",
       "url": "urn:sv:documento:sha256:f872a6734c694e5763ea275f9cde3620d27bc17fd021604f8fce2912b40f2ea8",
       "sha256": "f872a6734c694e5763ea275f9cde3620d27bc17fd021604f8fce2912b40f2ea8"
+    },
+    {
+      "ruta": "parametros-rutas.md",
+      "sha256": "c696baff560f8904647bf2e550779d14cb578ab1966d160864ba80c87a2fb861",
+      "url": "urn:sv:documento:sha256:c696baff560f8904647bf2e550779d14cb578ab1966d160864ba80c87a2fb861",
+      "titulo": "Parámetros, recorridos y evidencia: requisitos de integración",
+      "id": "MANUAL_PARAMETROS_RUTAS"
     }
   ]
 }
