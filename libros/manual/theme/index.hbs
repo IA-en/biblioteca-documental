@@ -19,12 +19,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        {{#if favicon_svg}}
-        <link rel="icon" href="{{ resource "favicon.svg" }}">
-        {{/if}}
-        {{#if favicon_png}}
-        <link rel="shortcut icon" href="{{ resource "favicon.png" }}">
-        {{/if}}
+        <link rel="icon" href="/identidad/sv-20260831.ico" sizes="any">
+        <link rel="icon" type="image/png" sizes="32x32" href="/identidad/sv-32-20260831.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/identidad/sv-apple-20260831.png">
         <link rel="stylesheet" href="{{ resource "css/variables.css" }}">
         <link rel="stylesheet" href="{{ resource "css/general.css" }}">
         <link rel="stylesheet" href="{{ resource "css/chrome.css" }}">
@@ -167,6 +164,9 @@
                     <h1 class="menu-title">{{ book_title }}</h1>
 
                     <div class="right-buttons">
+                        <a class="sv-institution-logo" href="https://itvia.online/" title="ITVIA · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español" aria-label="ITVIA · Sitio institucional">
+                            <img src="/identidad/itvia-20261012.jpg" width="280" height="280" alt="ITVIA" decoding="async">
+                        </a>
                         {{#if print_enable}}
                         <a href="{{ path_to_root }}print.html" title="Imprimir este libro" aria-label="Imprimir este libro">
                             {{fa "solid" "print" "print-button"}}
@@ -225,6 +225,9 @@
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="{{ path_to_root }}../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="{{ path_to_root }}../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="{{ path_to_root }}../../../licencias.html">Licencias</a><p>Edición de consulta · 12/10/2026 · Original en español</p></nav>
                         {{{ content }}}
+                        <div class="sv-brand-footer" aria-label="Identidad institucional y licencia">
+                            <img src="/identidad/sv-20260831.png" width="256" height="256" alt="Sistema Vectorial SV" decoding="async">
+                        </div>
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Navegación de capítulos">

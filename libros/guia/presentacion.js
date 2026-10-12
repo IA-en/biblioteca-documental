@@ -48,3 +48,14 @@
   setTimeout(() => { if (!iniciado) estado.textContent = 'No se ha confirmado la carga del traductor. El original sigue disponible.'; },15000);
 })();
 /* © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). */
+
+/* Agrupa el último texto de licencia con su identidad visual sin modificarlo. */
+(() => {
+  const footer = document.querySelector('main > .sv-brand-footer');
+  if (!footer) return;
+  const licenses = Array.from(document.querySelectorAll('main > p')).filter(p =>
+    p.textContent.trim().startsWith('© 2026 Juan Antonio Lloret Egea.') &&
+    p.textContent.includes('CC BY-NC-ND 4.0'));
+  const license = licenses[licenses.length - 1];
+  if (license) footer.append(license);
+})();
