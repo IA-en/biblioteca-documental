@@ -4,7 +4,7 @@ La biblioteca ofrece publicaciones de consulta sobre el Sistema Vectorial SV. Ca
 
 ## Colecciones actuales
 
-**Normativa y garantías documentales.** El libro «Normativa, trazabilidad y seguimiento de la IA en el SV», V.01, explica criterios de procedencia, evaluación y responsabilidad, con atención a ciberseguridad e inmunología.
+**Normativa y garantías documentales.** El libro «Normativa, trazabilidad y seguimiento de la IA en el SV», V.02, explica criterios de procedencia, evaluación y responsabilidad, con atención a ciberseguridad e inmunología.
 
 **Dominios y Universos.** Definiciones, metodología de constitución, parámetros y relaciones, con ejemplos y fuentes identificadas.
 

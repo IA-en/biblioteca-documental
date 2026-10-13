@@ -28,7 +28,7 @@ Cuando se detecte un problema, debe investigarse su alcance, adoptar la correcci
 
 La trazabilidad facilita esa investigación, pero no exonera automáticamente al modelo, al proveedor o a quienes seleccionan, evalúan y utilizan la información. La atribución de responsabilidades exige examinar las evidencias y el marco aplicable.
 
-## Qué significa esta V.01
+## Qué significa esta V.02
 
 Esta edición publica el marco explicativo y sus referencias. No presenta métricas de un servicio ni da por superadas pruebas que no documenta. Las futuras declaraciones de garantía deberán identificar su alcance, evidencias y limitaciones, diferenciando los resultados observados de los objetivos pendientes.
 

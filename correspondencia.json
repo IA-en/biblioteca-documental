@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "2fee2b483f94191596a27bb1906c7fc9e99bf7cf7bda9c6527135ff05e76eb7b",
+  "biblioteca_sha256": "5996133de64f68634deab5c6f057f38a7308726bc46bde877291083dffb0975e",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -40,16 +40,16 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/indice.md",
-        "sha256": "ba3d0b39d171293ae6cf73b8c4845311e08bcb194de485257f91e57a92c94f45"
+        "sha256": "cbbdab48d7699804bc5a91c6555490ac1cfc072640d1473cdf9e4a3ae6b657b8"
       },
-      "procedencia": "Edición pública propia de 12/10/2026",
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 297,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "2e04f2f295e398b9047f6288957de9afb9d923f1d68803aa1972f99a5ae99bb0",
+          "sha256": "fa99a85653e228730e5e4ee47cb2a1e9451349178bac7c32ca82c00f81c7a20d",
           "titulo": "Biblioteca documental del SV",
           "ultima_linea": 6
         },
@@ -58,7 +58,7 @@
           "inicio_byte": 297,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000015",
-          "sha256": "d6d5808315e83f518483a4b560a0ed4cf2192c48645c77a06dd1413c6576c42e",
+          "sha256": "aad010c7a00f17295cdc0f7ea385cf9523aac3c434ba48fecf404cd58c8f04d8",
           "titulo": "Libros disponibles",
           "ultima_linea": 15
         },
@@ -83,9 +83,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/organizacion.md",
-        "sha256": "df9d402cf2e818a7f0d223e7adc88a939e30630842524e3eea7854182745eb4d"
+        "sha256": "102a75627bf8fd1496ea0468069aa6d6a828cb34b8018b6d447e46b7c01f070b"
       },
-      "procedencia": "Edición pública propia de 11/10/2026",
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 251,
@@ -101,7 +101,7 @@
           "inicio_byte": 251,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000016",
-          "sha256": "b4780ebb66cb3b7c13181407c55dd4c78372a566692880cc18af76c3f0a5e3a7",
+          "sha256": "722d9aed7a2881febd8ac3e69ee8cb5676f5f5e74fcd20a4e6c8c14d01f33465",
           "titulo": "Colecciones actuales",
           "ultima_linea": 16
         },
@@ -747,16 +747,16 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/normativa/src/SUMMARY.md",
-        "sha256": "5a0924cc5d20ddc704b30804cfeccc388a790425049b111c946992bb0af3b81e"
+        "sha256": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc"
       },
-      "procedencia": "Edición pública propia de 10/10/2026",
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 507,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000013",
-          "sha256": "5a0924cc5d20ddc704b30804cfeccc388a790425049b111c946992bb0af3b81e",
+          "sha256": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc",
           "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
           "ultima_linea": 13
         }
@@ -772,16 +772,16 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/normativa/src/presentacion.md",
-        "sha256": "084b7dc71d2cda342b9662d15a78d8a3daa309654d0f974f02efb7954d324f73"
+        "sha256": "bdb08774f5a23af6237ce2bb3d05b7feb33c6cc86b952762b07b90121549b769"
       },
-      "procedencia": "Edición pública propia de 10/10/2026",
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 118,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000004",
-          "sha256": "b2fd0acad9868589df573022edd828ba0abd302dff224146e8a7c4b4044bc1be",
+          "sha256": "d51dd3ec889a8fab5b1ec9525e0aea725829510a92304486bb1fcc14713eddc2",
           "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
           "ultima_linea": 4
         },
@@ -790,7 +790,7 @@
           "inicio_byte": 118,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000012",
-          "sha256": "7217b6fe02d3518552e5e4654141977caaa8314ff8e2718bd1461b37f96ec417",
+          "sha256": "1b331d0c709658e17c9d418895269af3de3775d7058ecdb57b81fbdd30fa876d",
           "titulo": "Propósito de esta obra",
           "ultima_linea": 12
         },
@@ -947,7 +947,7 @@
     },
     {
       "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
-      "cobertura_bytes": 3762,
+      "cobertura_bytes": 7718,
       "correspondencia": "identidad_literal",
       "documento": "NORMATIVA-05",
       "identificador_editorial_r0": null,
@@ -955,9 +955,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/normativa/src/marco-normativo.md",
-        "sha256": "e997ce5b57ce9ac8dd8d1727383e9dec7465d36d235b06cd021cefce996f6062"
+        "sha256": "a07bf70497b4602ba384c84082fc3bf089d4815324f4b76a97d4512942d7b468"
       },
-      "procedencia": "Edición pública propia de 10/10/2026",
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 33,
@@ -996,13 +996,49 @@
           "ultima_linea": 28
         },
         {
-          "fin_byte_exclusivo": 3762,
+          "fin_byte_exclusivo": 2834,
           "inicio_byte": 2355,
           "primera_linea": 29,
-          "seccion": "MD-L000029-L000041",
-          "sha256": "acb3fd6e4a4af0cb9a3117b6ec03177328d0b219efbd7cc8931939544d46a2c8",
+          "seccion": "MD-L000029-L000032",
+          "sha256": "b5dfc325c925c54ceff4fd0994bfbaef2ba44734d77699f6222557464b461ead",
           "titulo": "Legislación según la finalidad",
-          "ultima_linea": 41
+          "ultima_linea": 32
+        },
+        {
+          "fin_byte_exclusivo": 4800,
+          "inicio_byte": 2834,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000047",
+          "sha256": "bcdc424793d5d5ea26fb734da864db89a369975fafd51f44a24fe6194c380c88",
+          "titulo": "Modificación de 2026 y calendario de aplicación",
+          "ultima_linea": 47
+        },
+        {
+          "fin_byte_exclusivo": 6165,
+          "inicio_byte": 4800,
+          "primera_linea": 48,
+          "seccion": "MD-L000048-L000055",
+          "sha256": "b7834782d442f43b349b14b609534faaee682b2402cce7bda69e74585ae8bc75",
+          "titulo": "Alfabetización, supervisión y evidencia",
+          "ultima_linea": 55
+        },
+        {
+          "fin_byte_exclusivo": 6745,
+          "inicio_byte": 6165,
+          "primera_linea": 56,
+          "seccion": "MD-L000056-L000059",
+          "sha256": "5ece0290f34cea6778f4b3ce0ef417aaee48b31f523b8e20861465bc83bf60f0",
+          "titulo": "Versiones lingüísticas y texto de referencia",
+          "ultima_linea": 59
+        },
+        {
+          "fin_byte_exclusivo": 7718,
+          "inicio_byte": 6745,
+          "primera_linea": 60,
+          "seccion": "MD-L000060-L000070",
+          "sha256": "8ea23a7af5489d56e28b30af7f528115015c6d5fcdcf0fd9b1a81e65398ef2b6",
+          "titulo": "Otras disposiciones según la actividad",
+          "ultima_linea": 70
         }
       ]
     },
@@ -1199,9 +1235,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/normativa/src/evaluacion.md",
-        "sha256": "c0f2f4063986d4aa3d5b3c13a38b2990a60ab8cad7226d7d90118afbfb981882"
+        "sha256": "90700334409926449911b3e28fe7707b199eb98685c0be30eedc53f3de0b5fd7"
       },
-      "procedencia": "Edición pública propia de 10/10/2026",
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 24,
@@ -1244,15 +1280,15 @@
           "inicio_byte": 2169,
           "primera_linea": 31,
           "seccion": "MD-L000031-L000039",
-          "sha256": "7df7e1fee9484530d0d7b01b8cf80c4f802325ecabf2fe23ce7c80a4332eb2f2",
-          "titulo": "Qué significa esta V.01",
+          "sha256": "b2a2f6c457e09c3e46167bb97b56ea822e4164671f9faf74eeb26a8a82ac7dbb",
+          "titulo": "Qué significa esta V.02",
           "ultima_linea": 39
         }
       ]
     },
     {
       "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
-      "cobertura_bytes": 4463,
+      "cobertura_bytes": 5593,
       "correspondencia": "identidad_literal",
       "documento": "NORMATIVA-10",
       "identificador_editorial_r0": null,
@@ -1260,9 +1296,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/normativa/src/referencias.md",
-        "sha256": "e7e145813285a722156a08e034d0dc58dbeed344092c63584a1ff9a57bc6365e"
+        "sha256": "4dcf6e6f53f807b4db46d892ef872e0a61edc084f72a977c5c0350c2888821a4"
       },
-      "procedencia": "Edición pública propia de 10/10/2026",
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 26,
@@ -1274,17 +1310,17 @@
           "ultima_linea": 2
         },
         {
-          "fin_byte_exclusivo": 261,
+          "fin_byte_exclusivo": 359,
           "inicio_byte": 26,
           "primera_linea": 3,
           "seccion": "MD-L000003-L000006",
-          "sha256": "82f9c7f7b3f85877f84083a602d680ae2594b96f1a8e2e18998b83d271ddae96",
+          "sha256": "b987501493ee070859b161e21c6a8cb1ff7aed1e6e7a815f47909e0ca9e5ea25",
           "titulo": "Fuentes oficiales",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1249,
-          "inicio_byte": 261,
+          "fin_byte_exclusivo": 1347,
+          "inicio_byte": 359,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000017",
           "sha256": "14ec5f7dfc3bfccff359af3ffd28f0f45b98c7cb94d740c2af9598422fecb2ed",
@@ -1292,8 +1328,8 @@
           "ultima_linea": 17
         },
         {
-          "fin_byte_exclusivo": 1951,
-          "inicio_byte": 1249,
+          "fin_byte_exclusivo": 2049,
+          "inicio_byte": 1347,
           "primera_linea": 18,
           "seccion": "MD-L000018-L000025",
           "sha256": "d855da4cd2e17d5343b8552aa197117530d1da1c110fa4e3b68b382e15be5712",
@@ -1301,22 +1337,22 @@
           "ultima_linea": 25
         },
         {
-          "fin_byte_exclusivo": 3056,
-          "inicio_byte": 1951,
+          "fin_byte_exclusivo": 3839,
+          "inicio_byte": 2049,
           "primera_linea": 26,
-          "seccion": "MD-L000026-L000036",
-          "sha256": "4b778073c707354cf9aa0a33a7a44453c16315ce5e33279acbe006b7341919f3",
+          "seccion": "MD-L000026-L000039",
+          "sha256": "d97b611dab632f67b68f729ccf52feb9c3d20630f7d6f6a38b1a6042a5f57657",
           "titulo": "Información sanitaria y legislación",
-          "ultima_linea": 36
+          "ultima_linea": 39
         },
         {
-          "fin_byte_exclusivo": 4463,
-          "inicio_byte": 3056,
-          "primera_linea": 37,
-          "seccion": "MD-L000037-L000055",
-          "sha256": "4a703c43c0afb202d8e86ee1548f2d73f3fe9228398445129f335a798c0000cf",
+          "fin_byte_exclusivo": 5593,
+          "inicio_byte": 3839,
+          "primera_linea": 40,
+          "seccion": "MD-L000040-L000058",
+          "sha256": "3799c22977c18a8fc414831a60e1e6edeee85ec99b8e70d3f61ec178948862f4",
           "titulo": "Nota de edición",
-          "ultima_linea": 55
+          "ultima_linea": 58
         }
       ]
     },
@@ -2249,9 +2285,9 @@
       ]
     }
   ],
-  "edicion": "sv-revision-editorial-20261012",
+  "edicion": "biblioteca-publica-20261013-normativa-v02",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "ccb71625c288fb42b901b3e4691e6b6c52dd0388094c02b911870d0fbcfc373e",
+  "politica_sha256": "c7029578fb74f91c7148323a828379135cb2a719d2df0f481b61016cfb0c198f",
   "recepcion_visual": false,
   "version": 1
 }

@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "sv-revision-editorial-20261012",
+  "edicion": "biblioteca-publica-20261013-normativa-v02",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "41f876188ea18ddff3543a6d3b4342641329ea3bbec798656b81a31adb5bafc0",
+        "sha256": "71f986472a2a42a6e9c5d01f3fd615469c4e0d2c1e2cd251b8172c4337d86623",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,12 +29,12 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "ba3d0b39d171293ae6cf73b8c4845311e08bcb194de485257f91e57a92c94f45",
+            "sha256": "cbbdab48d7699804bc5a91c6555490ac1cfc072640d1473cdf9e4a3ae6b657b8",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "GUIA-02",
-          "procedencia": "Edición pública propia de 12/10/2026",
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
           "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -44,12 +44,12 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "df9d402cf2e818a7f0d223e7adc88a939e30630842524e3eea7854182745eb4d",
+            "sha256": "102a75627bf8fd1496ea0468069aa6d6a828cb34b8018b6d447e46b7c01f070b",
             "ruta": "libros/guia/src/organizacion.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "GUIA-03",
-          "procedencia": "Edición pública propia de 11/10/2026",
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
           "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -209,21 +209,21 @@
       "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
       "plan": {
         "ruta": "libros/normativa/plan.json",
-        "sha256": "36743f88c0f4b9c4f16988bf7ca51d2151ed299e51aa7b3544108c65368eccbd"
+        "sha256": "ba688a49345f89d9ef415bee46766ddbdba5dfbcff7e71f065756420ab4e6bb5"
       },
       "metadatos": [
         {
           "documento": "NORMATIVA-01",
           "original": {
             "ruta": "libros/normativa/src/SUMMARY.md",
-            "sha256": "5a0924cc5d20ddc704b30804cfeccc388a790425049b111c946992bb0af3b81e"
+            "sha256": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc"
           },
           "identificador_editorial_r0": null,
           "correspondencia": "identidad_literal",
           "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
           "visibilidad": "publica",
           "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown"
         },
@@ -231,14 +231,14 @@
           "documento": "NORMATIVA-02",
           "original": {
             "ruta": "libros/normativa/src/presentacion.md",
-            "sha256": "084b7dc71d2cda342b9662d15a78d8a3daa309654d0f974f02efb7954d324f73"
+            "sha256": "bdb08774f5a23af6237ce2bb3d05b7feb33c6cc86b952762b07b90121549b769"
           },
           "identificador_editorial_r0": null,
           "correspondencia": "identidad_literal",
           "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
           "visibilidad": "publica",
           "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown"
         },
@@ -276,14 +276,14 @@
           "documento": "NORMATIVA-05",
           "original": {
             "ruta": "libros/normativa/src/marco-normativo.md",
-            "sha256": "e997ce5b57ce9ac8dd8d1727383e9dec7465d36d235b06cd021cefce996f6062"
+            "sha256": "a07bf70497b4602ba384c84082fc3bf089d4815324f4b76a97d4512942d7b468"
           },
           "identificador_editorial_r0": null,
           "correspondencia": "identidad_literal",
           "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
           "visibilidad": "publica",
           "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown"
         },
@@ -336,14 +336,14 @@
           "documento": "NORMATIVA-09",
           "original": {
             "ruta": "libros/normativa/src/evaluacion.md",
-            "sha256": "c0f2f4063986d4aa3d5b3c13a38b2990a60ab8cad7226d7d90118afbfb981882"
+            "sha256": "90700334409926449911b3e28fe7707b199eb98685c0be30eedc53f3de0b5fd7"
           },
           "identificador_editorial_r0": null,
           "correspondencia": "identidad_literal",
           "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
           "visibilidad": "publica",
           "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown"
         },
@@ -351,14 +351,14 @@
           "documento": "NORMATIVA-10",
           "original": {
             "ruta": "libros/normativa/src/referencias.md",
-            "sha256": "e7e145813285a722156a08e034d0dc58dbeed344092c63584a1ff9a57bc6365e"
+            "sha256": "4dcf6e6f53f807b4db46d892ef872e0a61edc084f72a977c5c0350c2888821a4"
           },
           "identificador_editorial_r0": null,
           "correspondencia": "identidad_literal",
           "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
           "visibilidad": "publica",
           "sintetico": false,
-          "procedencia": "Edición pública propia de 10/10/2026",
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown"
         }

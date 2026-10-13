@@ -2,7 +2,7 @@
 
 ## Fuentes oficiales
 
-**Consulta editorial: 10 de octubre de 2026.** Las ediciones citadas son las utilizadas en este libro. Su aplicación a una actividad posterior exige comprobar vigencia, modificaciones y condiciones pertinentes.
+**Consulta editorial inicial: 10 de octubre de 2026. Actualización del Reglamento de IA y sus fuentes institucionales: 13 de octubre de 2026.** Las ediciones citadas son las utilizadas en este libro. Su aplicación a una actividad posterior exige comprobar vigencia, modificaciones y condiciones pertinentes.
 
 ### Gestión de IA, calidad y seguridad
 
@@ -28,6 +28,9 @@
 - HL7. FHIR R5, [Provenance](https://hl7.org/fhir/R5/provenance.html) y [AuditEvent](https://hl7.org/fhir/R5/auditevent.html).
 - Comisión Europea. [MDCG 2019-11 rev. 1](https://health.ec.europa.eu/latest-updates/update-mdcg-2019-11-rev1-qualification-and-classification-software-regulation-eu-2017745-and-2025-06-17_en), junio de 2025.
 - Unión Europea. [Reglamento (UE) 2024/1689, inteligencia artificial](https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng).
+- Unión Europea. [Reglamento (UE) 2026/1744, Ómnibus digital sobre IA](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32026R1744), de 8 de julio de 2026; publicado el 24 de julio de 2026. Modificaciones del Reglamento de IA: artículo 1, puntos 5, 39 y 40; entrada en vigor: artículo 4.
+- Comisión Europea. [Supervisión del Reglamento de IA](https://digital-strategy.ec.europa.eu/en/policies/enforcement-ai-act), información institucional actualizada el 6 de octubre de 2026.
+- Comisión Europea. [Uso de traducción automática en Europa](https://commission.europa.eu/languages-our-websites/use-machine-translation-europa_en), alcance y limitaciones de eTranslation.
 - Unión Europea. [Directiva (UE) 2022/2555, NIS2](https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng).
 - España. [Real Decreto 311/2022, Esquema Nacional de Seguridad](https://www.boe.es/buscar/act.php?id=BOE-A-2022-7191).
 - Unión Europea. [Reglamento (UE) 2016/679, protección de datos](https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng).
@@ -37,12 +40,12 @@ Los títulos en español empleados para orientar la lectura no sustituyen la den
 ## Nota de edición
 
 **Título:** Normativa, trazabilidad y seguimiento de la IA en el SV.  
-**Versión:** V.01.  
-**Fecha:** 10 de octubre de 2026.  
+**Versión:** V.02.  
+**Fecha:** 13 de octubre de 2026.  
 **Idioma de referencia:** español.  
 **Matriz editorial:** IA eñ · La Biblia de la IA, ISSN 2695-6411.
 
-Primera edición pública de esta obra. Reúne criterios de garantía documental, referencias normativas y límites de aplicación. Las relaciones entre dichos criterios y las fuentes son una elaboración editorial del SV; no una declaración de los organismos citados sobre este sistema.
+La V.02 incorpora la modificación de 2026 del Reglamento de IA, precisa su calendario y distingue las traducciones informativas de los textos jurídicos auténticos. Las demás referencias conservan el alcance de la consulta editorial inicial; no se presenta esta actualización como una revisión integral de todas las normas citadas. La V.01, publicada el 10 de octubre de 2026, reunió los criterios de garantía documental, referencias normativas y límites de aplicación. Las relaciones entre dichos criterios y las fuentes son una elaboración editorial del SV; no una declaración de los organismos citados sobre este sistema.
 
 El capítulo «Ciberseguridad: evidencia y límites» recoge los principios generales pertinentes de la anterior lectura pública sobre evidencia, corrección y límites. No reproduce su contenido experimental. Aquella lectura se sustituye en el catálogo por este libro, manteniendo una nota editorial en sus direcciones anteriores.
 

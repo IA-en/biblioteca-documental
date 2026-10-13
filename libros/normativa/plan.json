@@ -3,9 +3,9 @@
     {
       "id": "NORMATIVA-02",
       "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
-      "sha256": "084b7dc71d2cda342b9662d15a78d8a3daa309654d0f974f02efb7954d324f73",
+      "sha256": "bdb08774f5a23af6237ce2bb3d05b7feb33c6cc86b952762b07b90121549b769",
       "ruta": "presentacion.md",
-      "url": "urn:sv:documento:sha256:084b7dc71d2cda342b9662d15a78d8a3daa309654d0f974f02efb7954d324f73"
+      "url": "urn:sv:documento:sha256:bdb08774f5a23af6237ce2bb3d05b7feb33c6cc86b952762b07b90121549b769"
     },
     {
       "id": "NORMATIVA-03",
@@ -24,9 +24,9 @@
     {
       "id": "NORMATIVA-05",
       "titulo": "Normas y marcos de referencia",
-      "sha256": "e997ce5b57ce9ac8dd8d1727383e9dec7465d36d235b06cd021cefce996f6062",
+      "sha256": "a07bf70497b4602ba384c84082fc3bf089d4815324f4b76a97d4512942d7b468",
       "ruta": "marco-normativo.md",
-      "url": "urn:sv:documento:sha256:e997ce5b57ce9ac8dd8d1727383e9dec7465d36d235b06cd021cefce996f6062"
+      "url": "urn:sv:documento:sha256:a07bf70497b4602ba384c84082fc3bf089d4815324f4b76a97d4512942d7b468"
     },
     {
       "id": "NORMATIVA-06",
@@ -52,26 +52,26 @@
     {
       "id": "NORMATIVA-09",
       "titulo": "Evaluación y mejora",
-      "sha256": "c0f2f4063986d4aa3d5b3c13a38b2990a60ab8cad7226d7d90118afbfb981882",
+      "sha256": "90700334409926449911b3e28fe7707b199eb98685c0be30eedc53f3de0b5fd7",
       "ruta": "evaluacion.md",
-      "url": "urn:sv:documento:sha256:c0f2f4063986d4aa3d5b3c13a38b2990a60ab8cad7226d7d90118afbfb981882"
+      "url": "urn:sv:documento:sha256:90700334409926449911b3e28fe7707b199eb98685c0be30eedc53f3de0b5fd7"
     },
     {
       "id": "NORMATIVA-10",
       "titulo": "Referencias y edición",
-      "sha256": "e7e145813285a722156a08e034d0dc58dbeed344092c63584a1ff9a57bc6365e",
+      "sha256": "4dcf6e6f53f807b4db46d892ef872e0a61edc084f72a977c5c0350c2888821a4",
       "ruta": "referencias.md",
-      "url": "urn:sv:documento:sha256:e7e145813285a722156a08e034d0dc58dbeed344092c63584a1ff9a57bc6365e"
+      "url": "urn:sv:documento:sha256:4dcf6e6f53f807b4db46d892ef872e0a61edc084f72a977c5c0350c2888821a4"
     }
   ],
   "version": 2,
   "libro": "SV_NORMATIVA",
-  "revision": "7f1ad2521c64f874c2224bbfd979b14d6b1b213e40d974ca310d3f380f37bfec",
+  "revision": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc",
   "summary": {
     "id": "NORMATIVA-01",
     "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
-    "sha256": "5a0924cc5d20ddc704b30804cfeccc388a790425049b111c946992bb0af3b81e",
+    "sha256": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc",
     "ruta": "SUMMARY.md",
-    "url": "urn:sv:documento:sha256:5a0924cc5d20ddc704b30804cfeccc388a790425049b111c946992bb0af3b81e"
+    "url": "urn:sv:documento:sha256:49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc"
   }
 }

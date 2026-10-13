@@ -1,6 +1,6 @@
 # Normativa, trazabilidad y seguimiento de la IA en el SV
 
-[Presentación · V.01](presentacion.md)
+[Presentación · V.02](presentacion.md)
 
 - [Garantías y alcance](garantias.md)
 - [Procedencia y seguimiento documental](trazabilidad.md)

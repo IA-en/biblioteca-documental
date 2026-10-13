@@ -1,6 +1,6 @@
 # Normativa, trazabilidad y seguimiento de la IA en el SV
 
-**V.01 · 10 de octubre de 2026 · Original en español**
+**V.02 · 13 de octubre de 2026 · Original en español**
 
 ## Propósito de esta obra
 
@@ -8,7 +8,7 @@ Una respuesta de inteligencia artificial puede ser clara y, sin embargo, apoyars
 
 Este libro presenta los criterios de garantía documental que orientan el Sistema Vectorial SV. Explica qué debe poder comprobarse sobre las fuentes, las respuestas y su seguimiento, con atención a la ciberseguridad y al uso sanitario. Está dirigido a profesionales, investigadores y lectores interesados en comprender esas garantías.
 
-**La V.01 es una exposición de criterios y referencias. No acredita por sí misma una certificación, una autorización sanitaria ni la verificación integral de un servicio.** Una afirmación de cumplimiento exige evidencias correspondientes a la versión, finalidad y condiciones de uso evaluadas.
+**La V.02 es una exposición de criterios y referencias. No acredita por sí misma una certificación, una autorización sanitaria ni la verificación integral de un servicio.** Una afirmación de cumplimiento exige evidencias correspondientes a la versión, finalidad y condiciones de uso evaluadas.
 
 ## Cómo leerlo
 
