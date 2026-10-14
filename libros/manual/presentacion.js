@@ -33,6 +33,14 @@
   const formulario = caja.querySelector('.sv-language-form');
   const elegido = selector && selector.selectedOptions[0];
   if (idioma && resumen && elegido) resumen.textContent = 'Idiomas / Languages · ' + elegido.textContent;
+  if (formulario) formulario.addEventListener('submit', e => {
+    // El buscador de mdBook cancela envíos en document; este formulario es independiente.
+    e.stopPropagation();
+    if (selector.value === idioma && ['preparando','traduciendo'].includes(caja.dataset.estado)) {
+      e.preventDefault();
+      estado.textContent = 'La traducción está en curso. Espere a su confirmación o seleccione otro idioma.';
+    }
+  });
   if (!idioma) {
     informar('original', 'Original en español. Seleccione el idioma de lectura.');
     return;
@@ -59,12 +67,6 @@
     return;
   }
   informar('preparando', 'Preparando la traducción. El texto aún puede estar en español.');
-  if (formulario) formulario.addEventListener('submit', e => {
-    if (selector.value === idioma && ['preparando','traduciendo'].includes(caja.dataset.estado)) {
-      e.preventDefault();
-      estado.textContent = 'La traducción está en curso. Espere a su confirmación o seleccione otro idioma.';
-    }
-  });
 
   let controlSolicitado = null;
   let confirmacion = null;
