@@ -1,0 +1,13 @@
+/* Opciones de lectura compactas y adaptables al ancho disponible. */
+.sv-language-tools{padding:.55rem 0;font-size:.92em}
+.sv-language-tools summary{cursor:pointer;padding:.35rem 0}
+.sv-language-tools p{margin:.55rem 0;line-height:1.45}
+.sv-language-form{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .75rem;margin:.65rem 0}
+.sv-language-form label{font-weight:600}
+.sv-language-tools .sv-language-form select,.sv-language-tools .sv-language-form button{box-sizing:border-box;margin:0;min-height:2.25rem;max-width:100%;font:inherit;padding:.35rem .65rem;color:var(--fg);background:var(--bg);border:1px solid currentColor;border-radius:4px}
+.sv-language-form select{flex:0 1 17rem;min-width:0}
+.sv-language-form button{cursor:pointer}
+.sv-language-tools #google_translate_element{margin:.55rem 0}
+@media(max-width:480px){.sv-language-form label{flex-basis:100%}.sv-language-form select{flex:1 1 12rem}}
+@media print{.sv-language-tools{display:none}}
+/* © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). */

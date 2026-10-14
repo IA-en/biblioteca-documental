@@ -4,6 +4,16 @@
   const caja = document.querySelector('.sv-language-tools');
   const estado = document.getElementById('sv-language-status');
   if (!caja || !estado) return;
+  // El estado de apertura pertenece al lector, no al idioma solicitado.
+  const clavePanel = 'sv-biblioteca-panel-idiomas-v1';
+  try { caja.open = sessionStorage.getItem(clavePanel) === 'abierto'; } catch (_) { caja.open = false; }
+  caja.addEventListener('toggle', () => {
+    try { sessionStorage.setItem(clavePanel, caja.open ? 'abierto' : 'cerrado'); } catch (_) {}
+  });
+  // Conserva también un cierre seguido inmediatamente de navegación.
+  window.addEventListener('pagehide', () => {
+    try { sessionStorage.setItem(clavePanel, caja.open ? 'abierto' : 'cerrado'); } catch (_) {}
+  });
   const actual = new URL(location.href);
   const original = new URL(actual); original.searchParams.delete('itvia_lang');
   document.getElementById('sv-original').href = original.href;
@@ -12,17 +22,18 @@
   });
   if (!caja.dataset.worker) {
     if (actual.searchParams.has('itvia_lang')) {
-      caja.open = true;
       estado.textContent = 'La traducción no está disponible en esta respuesta. Se conserva el original en español.';
     }
     return;
   }
   const idioma = caja.dataset.idioma;
+  const resumen = caja.querySelector('summary');
+  const elegido = caja.querySelector('select[name="itvia_lang"] option:checked');
+  if (idioma && resumen && elegido) resumen.textContent = 'Idiomas / Languages · ' + elegido.textContent;
   if (!idioma) {
-    estado.textContent = 'Original en español. Seleccione un idioma en el selector de la matriz editorial.';
+    estado.textContent = 'Original en español. Seleccione el idioma de lectura.';
     return;
   }
-  caja.open = true;
   document.querySelectorAll('a[href]').forEach(a => {
     const u = new URL(a.href, actual);
     if (u.origin === actual.origin && !u.pathname.startsWith('/libros/') &&
@@ -37,7 +48,7 @@
     try {
       new window.google.translate.TranslateElement({pageLanguage:'es',includedLanguages:idioma,autoDisplay:false}, 'google_translate_element');
       iniciado = true;
-      estado.textContent = 'Servicio de traducción cargado. Contraste términos, fórmulas y sentido con el original en español.';
+      estado.textContent = 'Traducción automática para lectura. Puede cerrar este panel y continuar leyendo.';
     } catch (_) { estado.textContent = 'No se pudo iniciar la traducción. El original sigue disponible.'; }
   };
   const script = document.createElement('script');
