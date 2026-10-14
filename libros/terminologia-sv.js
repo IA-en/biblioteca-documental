@@ -31,7 +31,7 @@
       if (nodo.nodeType === 3) { grupo.push(nodo); return; }
       if (nodo.nodeType !== 1 && nodo.nodeType !== 11) return;
       if (nodo.nodeType === 1 && nodo.matches(excluir)) { cerrar(); return; }
-      const separado = nodo.nodeType === 1 && bloque.test(nodo.tagName);
+      const separado = nodo.nodeType === 1 && (bloque.test(nodo.tagName) || nodo.matches('.teaser'));
       if (separado) cerrar();
       Array.from(nodo.childNodes).forEach(recorrer);
       if (separado) cerrar();

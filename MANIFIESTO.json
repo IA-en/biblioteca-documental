@@ -48,8 +48,8 @@
     },
     {
       "ruta": "libros/dominios/presentacion.js",
-      "bytes": 13538,
-      "sha256": "f16077e97324a28d4e4904955eb22614f7fab9278f2c1d984b09ae744640c970"
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
       "ruta": "libros/dominios/src/ciberseguridad.md",
@@ -138,8 +138,8 @@
     },
     {
       "ruta": "libros/evaluacion-modelos/presentacion.js",
-      "bytes": 13538,
-      "sha256": "f16077e97324a28d4e4904955eb22614f7fab9278f2c1d984b09ae744640c970"
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
       "sha256": "b00ee6af7ee404ac3fa4f978d27d9f7faabd1372d29ba563877b8585d3de3660",
@@ -203,8 +203,8 @@
     },
     {
       "ruta": "libros/guia/presentacion.js",
-      "bytes": 13538,
-      "sha256": "f16077e97324a28d4e4904955eb22614f7fab9278f2c1d984b09ae744640c970"
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
       "ruta": "libros/guia/src/consulta.md",
@@ -288,8 +288,8 @@
     },
     {
       "ruta": "libros/manual/presentacion.js",
-      "bytes": 13538,
-      "sha256": "f16077e97324a28d4e4904955eb22614f7fab9278f2c1d984b09ae744640c970"
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
       "ruta": "libros/manual/src/constructor.md",
@@ -363,8 +363,8 @@
     },
     {
       "ruta": "libros/normativa/presentacion.js",
-      "bytes": 13538,
-      "sha256": "f16077e97324a28d4e4904955eb22614f7fab9278f2c1d984b09ae744640c970"
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
       "ruta": "libros/normativa/src/ciberseguridad.md",
@@ -433,8 +433,8 @@
     },
     {
       "ruta": "libros/nota-sustitucion/presentacion.js",
-      "bytes": 13538,
-      "sha256": "f16077e97324a28d4e4904955eb22614f7fab9278f2c1d984b09ae744640c970"
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
       "ruta": "libros/nota-sustitucion/src/aviso.md",
@@ -468,8 +468,8 @@
     },
     {
       "ruta": "libros/visualizadores/presentacion.js",
-      "bytes": 13538,
-      "sha256": "f16077e97324a28d4e4904955eb22614f7fab9278f2c1d984b09ae744640c970"
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
       "ruta": "libros/visualizadores/src/entrega.md",
@@ -538,8 +538,8 @@
     },
     {
       "ruta": "publico/_worker.js",
-      "bytes": 4966,
-      "sha256": "936ad408bcc89a200da51c7023d65319958e47f8c74e6c8fa54ee3376ce37a9f"
+      "bytes": 4967,
+      "sha256": "e3582e99612d8f8a9d3b75ea69142d11ce3591535a095d439efe0fcc33e83ae6"
     },
     {
       "ruta": "publico/.nojekyll",
@@ -2548,8 +2548,8 @@
     },
     {
       "ruta": "worker-biblioteca.mjs",
-      "bytes": 4966,
-      "sha256": "936ad408bcc89a200da51c7023d65319958e47f8c74e6c8fa54ee3376ce37a9f"
+      "bytes": 4967,
+      "sha256": "e3582e99612d8f8a9d3b75ea69142d11ce3591535a095d439efe0fcc33e83ae6"
     },
     {
       "ruta": "publico/recursos/idiomas-20261014.js",
@@ -2588,8 +2588,8 @@
     },
     {
       "ruta": "libros/terminologia-sv.js",
-      "bytes": 5490,
-      "sha256": "3422bd50dc3deb9aea72bc4f5e43bbd42b912d20887e7c4f15a41c01de7a191a"
+      "bytes": 5519,
+      "sha256": "bd305c6180dfb539ee0ed599e55cede57f4a695273d9dba8cb51185c04c625e1"
     },
     {
       "ruta": "libros/criterio-terminologia.md",
@@ -2610,6 +2610,11 @@
       "ruta": "publico/recursos/idiomas-20261014-r8.js",
       "bytes": 13538,
       "sha256": "f16077e97324a28d4e4904955eb22614f7fab9278f2c1d984b09ae744640c970"
+    },
+    {
+      "ruta": "publico/recursos/idiomas-20261014-r9.js",
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     }
   ],
   "licencia": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).",
