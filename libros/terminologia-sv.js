@@ -39,7 +39,15 @@
     recorrer(raiz); cerrar();
     for (const nodos of grupos) {
       const texto = nodos.map(n => n.data).join('');
-      const intervalos = Array.from(texto.matchAll(patron), m => [m.index, m.index+m[0].length]);
+      const intervalos = [];
+      for (const m of texto.matchAll(patron)) {
+        let a=m.index, b=m.index+m[0].length;
+        // Google puede retirar el espacio exterior de una marca: se conserva el original.
+        while (a>0 && /[ \t\u00a0]/.test(texto[a-1])) a--;
+        while (b<texto.length && /[ \t\u00a0]/.test(texto[b])) b++;
+        const previo=intervalos[intervalos.length-1];
+        if (previo && a<=previo[1]) previo[1]=b; else intervalos.push([a,b]);
+      }
       if (!intervalos.length) continue;
       let inicio = 0;
       for (const nodo of nodos) {
