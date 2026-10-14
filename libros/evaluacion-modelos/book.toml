@@ -1,0 +1,21 @@
+[book]
+title = "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial"
+language = "es"
+src = "src"
+[build]
+build-dir = "book"
+create-missing = false
+use-default-preprocessors = false
+[output.html]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+smart-punctuation = false
+hash-files = false
+git-repository-url = "https://github.com/IA-en/biblioteca-documental"
+no-section-label = true
+[output.html.playground]
+runnable = false
+copyable = false
+copy-js = false
+[output.html.search]
+enable = true

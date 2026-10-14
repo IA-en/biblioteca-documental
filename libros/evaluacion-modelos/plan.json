@@ -1,0 +1,112 @@
+{
+  "version": 2,
+  "libro": "SV_EVALUACION_MODELOS",
+  "revision": "153177d054ab13fac12cc12274ae4275e2f91182b84444e12d3e44616e648f4a",
+  "summary": {
+    "titulo": "Índice",
+    "url": "urn:sv:documento:sha256:153177d054ab13fac12cc12274ae4275e2f91182b84444e12d3e44616e648f4a",
+    "ruta": "SUMMARY.md",
+    "id": "EET-14",
+    "sha256": "153177d054ab13fac12cc12274ae4275e2f91182b84444e12d3e44616e648f4a"
+  },
+  "capitulos": [
+    {
+      "titulo": "Finalidad y alcance",
+      "url": "urn:sv:documento:sha256:d5659b45c9fb6f244370d19c5ab1a97621579e96f0e9556e307bfb4d59703562",
+      "ruta": "finalidad.md",
+      "id": "EET-13",
+      "sha256": "d5659b45c9fb6f244370d19c5ab1a97621579e96f0e9556e307bfb4d59703562"
+    },
+    {
+      "titulo": "Documentos originales y preparación de la entrega",
+      "url": "urn:sv:documento:sha256:e57bcd5d70f6c57666b62ed8e50c6f4377ac52d20700e98e4d2c4025a6b06f52",
+      "ruta": "documentos.md",
+      "id": "EET-04",
+      "sha256": "e57bcd5d70f6c57666b62ed8e50c6f4377ac52d20700e98e4d2c4025a6b06f52"
+    },
+    {
+      "titulo": "Edición del examen y plantilla previa",
+      "url": "urn:sv:documento:sha256:9790fb383dcbd452e2fe946da180028fdb8652fe9ff4a2f971cfad92341c01d0",
+      "ruta": "edicion.md",
+      "id": "EET-05",
+      "sha256": "9790fb383dcbd452e2fe946da180028fdb8652fe9ff4a2f971cfad92341c01d0"
+    },
+    {
+      "titulo": "Corrección ciega, indeterminación y representación",
+      "url": "urn:sv:documento:sha256:7949a6c3a7547596dd1be6862da351c469fc030d74d08e488ea6d58b3710bf7f",
+      "ruta": "correccion.md",
+      "id": "EET-03",
+      "sha256": "7949a6c3a7547596dd1be6862da351c469fc030d74d08e488ea6d58b3710bf7f"
+    },
+    {
+      "titulo": "Transporte, conservación y mediciones",
+      "url": "urn:sv:documento:sha256:6bd6ed048bfbff2674e8d797d5f78d003d8a5db53b5b49f625d7fd192edd9621",
+      "ruta": "transporte.md",
+      "id": "EET-15",
+      "sha256": "6bd6ed048bfbff2674e8d797d5f78d003d8a5db53b5b49f625d7fd192edd9621"
+    },
+    {
+      "titulo": "Facultades, autorización y producción",
+      "url": "urn:sv:documento:sha256:b00ee6af7ee404ac3fa4f978d27d9f7faabd1372d29ba563877b8585d3de3660",
+      "ruta": "autoridad.md",
+      "id": "EET-01",
+      "sha256": "b00ee6af7ee404ac3fa4f978d27d9f7faabd1372d29ba563877b8585d3de3660"
+    },
+    {
+      "titulo": "Comparación y lectura de resultados",
+      "url": "urn:sv:documento:sha256:37f57ddb11d1ae63c1369c26cdaea89e2fbfa33e3f40bdf3e3b68e8502879fe0",
+      "ruta": "comparacion.md",
+      "id": "EET-02",
+      "sha256": "37f57ddb11d1ae63c1369c26cdaea89e2fbfa33e3f40bdf3e3b68e8502879fe0"
+    },
+    {
+      "titulo": "Purpose and scope",
+      "url": "urn:sv:documento:sha256:1c6b3c0d14a240d6c4af05c2391829669909076bd752768cf0b48a7f8e73536b",
+      "ruta": "en/finalidad.md",
+      "id": "EET-11",
+      "sha256": "1c6b3c0d14a240d6c4af05c2391829669909076bd752768cf0b48a7f8e73536b"
+    },
+    {
+      "titulo": "Original documents and delivery preparation",
+      "url": "urn:sv:documento:sha256:c3887dd41827747be335d5c8fdce044fcd68eed6be672264d9b72ff64c0d1779",
+      "ruta": "en/documentos.md",
+      "id": "EET-09",
+      "sha256": "c3887dd41827747be335d5c8fdce044fcd68eed6be672264d9b72ff64c0d1779"
+    },
+    {
+      "titulo": "Examination edition and prior answer key",
+      "url": "urn:sv:documento:sha256:ed9b089cf95aa3d2c0822e49160b5f0a2730c6c62c0a49ba43ba5346f90f46ee",
+      "ruta": "en/edicion.md",
+      "id": "EET-10",
+      "sha256": "ed9b089cf95aa3d2c0822e49160b5f0a2730c6c62c0a49ba43ba5346f90f46ee"
+    },
+    {
+      "titulo": "Blind grading, indeterminacy and representation",
+      "url": "urn:sv:documento:sha256:24875ac1cecc643df6af11ed81f1962713a8656cebc80b8c6b97b18af8b62c87",
+      "ruta": "en/correccion.md",
+      "id": "EET-08",
+      "sha256": "24875ac1cecc643df6af11ed81f1962713a8656cebc80b8c6b97b18af8b62c87"
+    },
+    {
+      "titulo": "Transport, preservation and measurements",
+      "url": "urn:sv:documento:sha256:e0271fc72191b6a0d704a644230bd2f567f525fd4b60e1c5d03e9d47a96bd467",
+      "ruta": "en/transporte.md",
+      "id": "EET-12",
+      "sha256": "e0271fc72191b6a0d704a644230bd2f567f525fd4b60e1c5d03e9d47a96bd467"
+    },
+    {
+      "titulo": "Powers, authorisation and production",
+      "url": "urn:sv:documento:sha256:2ed6ab9785f38567941d83badd8f6f36b52687af8b1742d747c24191c626320d",
+      "ruta": "en/autoridad.md",
+      "id": "EET-06",
+      "sha256": "2ed6ab9785f38567941d83badd8f6f36b52687af8b1742d747c24191c626320d"
+    },
+    {
+      "titulo": "Comparison and interpretation of results",
+      "url": "urn:sv:documento:sha256:817513ca605ab53bbf369dd6a08b17fd4c1b41f23d50ed689a959c2bd58c0b1e",
+      "ruta": "en/comparacion.md",
+      "id": "EET-07",
+      "sha256": "817513ca605ab53bbf369dd6a08b17fd4c1b41f23d50ed689a959c2bd58c0b1e"
+    }
+  ]
+}
