@@ -17,8 +17,8 @@
       "bytes": 910
     },
     {
-      "sha256": "ab30a145ae31f6dbbe14067c62c471430a081de09fa02c4382f864585467eae2",
       "bytes": 38722,
+      "sha256": "7045a5ef8cf143ae30aea6c520ac020312b0956d79086e373c55bc25244eb904",
       "ruta": "biblioteca.json"
     },
     {
@@ -27,8 +27,8 @@
       "bytes": 711
     },
     {
-      "sha256": "0bd933c79fb838d3aa0f3616048e03fa74945340ac964dc9cbae38d127e3f94a",
       "bytes": 106325,
+      "sha256": "b0e0b87060439d605915251c6a0051a8bd785e6ad6ec25e95a6d8d67aef94b94",
       "ruta": "correspondencia.json"
     },
     {
@@ -217,8 +217,8 @@
       "bytes": 524
     },
     {
-      "sha256": "70b3db08a5597be0b464b36cc367ff84cf8076064df2100ccd47748fef26e11a",
       "bytes": 1680,
+      "sha256": "f8896f543b298eaf0b40ab1e3df25e845125ef25cdece66b00bfe357c4d53448",
       "ruta": "libros/guia/plan.json"
     },
     {
@@ -267,8 +267,8 @@
       "sha256": "4aafbf08b7c1c4f9802f4f09aeca3dedde525e213f3c9f74205a4e06a205a7c6"
     },
     {
-      "sha256": "051a422605160eaf976dbac3e9ad87732b9ee99495d4abfa4de73960ea7440c8",
-      "bytes": 2495,
+      "bytes": 2494,
+      "sha256": "f3cfa67a093bcaf0e8daed330a0730c85bb727592b9ee18b6325b624963df99a",
       "ruta": "libros/guia/src/indice.md"
     },
     {
@@ -537,8 +537,8 @@
       "bytes": 15921
     },
     {
-      "sha256": "3d38b734ef37064e7032a39cba4eb2a822be51fe6be87dbbfaeefaa32d02132a",
       "bytes": 377,
+      "sha256": "e57a1cbe3c42bd0c28e81508c4319053280f9b3922999ac82bb423e95e0a363e",
       "ruta": "politica-verificacion.json"
     },
     {
@@ -607,8 +607,8 @@
       "sha256": "8ee49c5b844e4adfc82a7bd632bc3292b30604692db17069fb622e9d22161dab"
     },
     {
-      "sha256": "0bd933c79fb838d3aa0f3616048e03fa74945340ac964dc9cbae38d127e3f94a",
       "bytes": 106325,
+      "sha256": "b0e0b87060439d605915251c6a0051a8bd785e6ad6ec25e95a6d8d67aef94b94",
       "ruta": "publico/correspondencia.json"
     },
     {
@@ -1937,13 +1937,13 @@
       "sha256": "4aafbf08b7c1c4f9802f4f09aeca3dedde525e213f3c9f74205a4e06a205a7c6"
     },
     {
-      "sha256": "601e459a6f6ee0531146553966050c015e9e89f1ddd0d05651821751bbf082e9",
-      "bytes": 22646,
+      "bytes": 22659,
+      "sha256": "79d6db7fdb2abf5a8649d78e98504b684fe71c272d0fae57a5e06fe6f8d72e8a",
       "ruta": "publico/index.html"
     },
     {
-      "sha256": "601e459a6f6ee0531146553966050c015e9e89f1ddd0d05651821751bbf082e9",
-      "bytes": 22646,
+      "bytes": 22659,
+      "sha256": "79d6db7fdb2abf5a8649d78e98504b684fe71c272d0fae57a5e06fe6f8d72e8a",
       "ruta": "publico/indice.html"
     },
     {
@@ -2152,8 +2152,8 @@
       "ruta": "publico/libros/guia/src/identidad/sv-claro-32-20261012.png"
     },
     {
-      "sha256": "051a422605160eaf976dbac3e9ad87732b9ee99495d4abfa4de73960ea7440c8",
-      "bytes": 2495,
+      "bytes": 2494,
+      "sha256": "f3cfa67a093bcaf0e8daed330a0730c85bb727592b9ee18b6325b624963df99a",
       "ruta": "publico/libros/guia/src/indice.md"
     },
     {
@@ -2567,8 +2567,8 @@
       "bytes": 3422
     },
     {
-      "sha256": "4cb2e7cc08bcbb7bba43a461a883d54bcafcc6aa7d56c02c997b33ed45f1028e",
-      "bytes": 27655,
+      "bytes": 27668,
+      "sha256": "4990ba52185812875a3608c066ecee8fb12c7c9dc68c2e066762a2b75e386eaa",
       "ruta": "publico/print.html"
     },
     {

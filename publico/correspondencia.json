@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "ab30a145ae31f6dbbe14067c62c471430a081de09fa02c4382f864585467eae2",
+  "biblioteca_sha256": "7045a5ef8cf143ae30aea6c520ac020312b0956d79086e373c55bc25244eb904",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -32,7 +32,7 @@
     },
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
-      "cobertura_bytes": 2495,
+      "cobertura_bytes": 2494,
       "correspondencia": "identidad_literal",
       "documento": "GUIA-02",
       "identificador_editorial_r0": null,
@@ -40,7 +40,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/indice.md",
-        "sha256": "051a422605160eaf976dbac3e9ad87732b9ee99495d4abfa4de73960ea7440c8"
+        "sha256": "f3cfa67a093bcaf0e8daed330a0730c85bb727592b9ee18b6325b624963df99a"
       },
       "procedencia": "Edición pública propia; actualización de 13/10/2026",
       "secciones": [
@@ -54,22 +54,22 @@
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1765,
+          "fin_byte_exclusivo": 1764,
           "inicio_byte": 297,
           "primera_linea": 7,
-          "seccion": "MD-L000007-L000017",
-          "sha256": "e45fd1fc8ecc0cf374259411cadbedc6fa7aedd32666d9dfb0d6c7523e03bb08",
+          "seccion": "MD-L000007-L000016",
+          "sha256": "acc31accb40eb6df719c7b977d5751e6eeef84bfe54c2c570b8a83a07c57a7bd",
           "titulo": "Libros disponibles",
-          "ultima_linea": 17
+          "ultima_linea": 16
         },
         {
-          "fin_byte_exclusivo": 2495,
-          "inicio_byte": 1765,
-          "primera_linea": 18,
-          "seccion": "MD-L000018-L000026",
+          "fin_byte_exclusivo": 2494,
+          "inicio_byte": 1764,
+          "primera_linea": 17,
+          "seccion": "MD-L000017-L000025",
           "sha256": "7cf9d0bf86ba6cc3261b9e05eea24b0fe40953bb0fd6953496810ed2bc99b586",
           "titulo": "Consulta",
-          "ultima_linea": 26
+          "ultima_linea": 25
         }
       ]
     },
@@ -2777,9 +2777,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-publica-20261014-evaluacion-v01",
+  "edicion": "biblioteca-publica-20261014-evaluacion-v02",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "3d38b734ef37064e7032a39cba4eb2a822be51fe6be87dbbfaeefaa32d02132a",
+  "politica_sha256": "e57a1cbe3c42bd0c28e81508c4319053280f9b3922999ac82bb423e95e0a363e",
   "recepcion_visual": false,
   "version": 1
 }

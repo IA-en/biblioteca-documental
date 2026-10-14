@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "biblioteca-publica-20261014-evaluacion-v01",
+  "edicion": "biblioteca-publica-20261014-evaluacion-v02",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "70b3db08a5597be0b464b36cc367ff84cf8076064df2100ccd47748fef26e11a",
+        "sha256": "f8896f543b298eaf0b40ab1e3df25e845125ef25cdece66b00bfe357c4d53448",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,7 +29,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "051a422605160eaf976dbac3e9ad87732b9ee99495d4abfa4de73960ea7440c8",
+            "sha256": "f3cfa67a093bcaf0e8daed330a0730c85bb727592b9ee18b6325b624963df99a",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
