@@ -183,8 +183,8 @@
     },
     {
       "ruta": "libros/evaluacion-modelos/theme/index.hbs",
-      "sha256": "6eb007ea1a17536bf30e423431621f73233edea631d0c4f287501a227510ad33",
-      "bytes": 18409
+      "sha256": "b6a3464365bdb0184d6b0804c13fa8155d2f283cfdd9956dbc0a497938c7cf98",
+      "bytes": 18451
     },
     {
       "ruta": "libros/guia/biblioteca.css",
@@ -1538,13 +1538,13 @@
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/404.html",
-      "sha256": "8010152cbc5950b0ead1df8d7b3858d9e812dcf6bfcbd9b85a2a0d8d65fe6e89",
-      "bytes": 21307
+      "sha256": "e71ecb68081307d82336a1132f72b2f1715c8727092ce23574bc732503d6c8ef",
+      "bytes": 21349
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/autoridad.html",
-      "sha256": "d43f65273c31690d3060954b396a09719d03f88962039ff8ce95a1d2ca38d0e6",
-      "bytes": 26880
+      "sha256": "90a4145b584cdc35791e349320693182bf7febba3d1ac65f295ba0e430d4c1dd",
+      "bytes": 26922
     },
     {
       "sha256": "3fdfc3ac5e435e0cef96dafee74da487e4846ffce4dff5973bb45d68b678dd7f",
@@ -1568,13 +1568,13 @@
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/comparacion.html",
-      "sha256": "539d37e9049e25564b8784f05958161d84f590fb3bc0be60f9cf2a49bb7e9f61",
-      "bytes": 25734
+      "sha256": "41e1c323a602a56a6e70426f7fc98413b1dd6a8a9400932f0a4ddd49acd46867",
+      "bytes": 25776
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/correccion.html",
-      "sha256": "b5f7b586bd9c6679cb53e5fd95d48c1185bea46e6d5a7f8e755c7afbd26ec4df",
-      "bytes": 27692
+      "sha256": "74d7cbedce794644662f549022a8838596ec5d1e6d3fda40b81ae25d2c7e3683",
+      "bytes": 27734
     },
     {
       "sha256": "d279d366359c0d588c9c10cb46afe2b543fc731dea722803639b4e45016d5fe2",
@@ -1598,13 +1598,13 @@
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/documentos.html",
-      "sha256": "d635bb2ec65da3cda714113b58ca2e7450d06ccebbb840fea6b701317f9e1bd7",
-      "bytes": 27121
+      "sha256": "e4f67244b08106e75510eaebccbc6b9d5b8d7cffcd54dafce4b627b9fd4c0165",
+      "bytes": 27163
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/edicion.html",
-      "sha256": "41adc4810813efa2473fe3f6c67ca7c16080b7645d569bdd9a53f5f461f9fb84",
-      "bytes": 27065
+      "sha256": "92a0095c3e73cebd322b618fd4521cbf5c91d780a73380d5e7b5110ad7ff8288",
+      "bytes": 27107
     },
     {
       "sha256": "ef4e11c157b1e2e89782d30bd726f2d5ff7834ea5e26ad02474325f8b1f126c9",
@@ -1628,8 +1628,8 @@
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/finalidad.html",
-      "sha256": "bec95a468f46b2bf9143476bd8fb3bdd2909df6f09e11746691816add2ed4094",
-      "bytes": 25646
+      "sha256": "d4d554adcfb36ccf336a23170ab5baedc3827a0e2cc8171899d5a231152c6739",
+      "bytes": 25688
     },
     {
       "sha256": "5f4b25e5825d45a726110be816301f643829ca895f71c3bd0edca2e67152494c",
@@ -1713,8 +1713,8 @@
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/index.html",
-      "sha256": "bec95a468f46b2bf9143476bd8fb3bdd2909df6f09e11746691816add2ed4094",
-      "bytes": 25646
+      "sha256": "d4d554adcfb36ccf336a23170ab5baedc3827a0e2cc8171899d5a231152c6739",
+      "bytes": 25688
     },
     {
       "sha256": "09e88c2cfaf23ea8a37b5681433eafea97033af632ecc948c8c1ee9944647743",
@@ -1728,8 +1728,8 @@
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/print.html",
-      "sha256": "f856a49f43cf0d40479fa44449fe41e3734eea5b00b8829fcdcdc7c4f8ee8bec",
-      "bytes": 44112
+      "sha256": "c9a9ffe4b16cacc0c05235327c66b57b60779e23f3474dec36f067f312b19bd7",
+      "bytes": 44154
     },
     {
       "sha256": "b7551e8be39c55b55f61618fda226c3e058ac5e5d720875f8fed10ffb85e99d4",
@@ -1758,8 +1758,8 @@
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/transporte.html",
-      "sha256": "8805ba986249b39000413f0fab1efaf286d4df95f85e248a8a5f89246591710a",
-      "bytes": 27479
+      "sha256": "69a8733a821dd9b99f278e934e3f69d47be2240f5a279ec0c4b172d6d1f92a90",
+      "bytes": 27521
     },
     {
       "ruta": "publico/favicon-8114d1fc.png",
