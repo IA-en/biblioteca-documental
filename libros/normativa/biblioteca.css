@@ -29,3 +29,10 @@ main>hr+.sv-brand-footer{border-block-start:0;margin-block-start:0}
 @media(max-width:480px){.sv-language-form label{flex-basis:100%}.sv-language-form select{flex:1 1 12rem}}
 @media print{.sv-language-tools{display:none}}
 /* © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). */
+
+/* Un único selector para el lector; se conserva visible la atribución de Google. */
+.sv-language-tools #google_translate_element select.goog-te-combo{display:none!important}
+.sv-language-tools #google_translate_element{min-height:1.2rem}
+.sv-language-form select{flex:0 1 26rem}
+.sv-language-tools[data-estado="preparando"] #sv-language-status,.sv-language-tools[data-estado="traduciendo"] #sv-language-status{font-style:italic}
+@media(max-width:480px){.sv-language-form select{flex:1 1 100%;width:100%}.sv-language-form button{margin-block-start:.25rem}}

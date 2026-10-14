@@ -21,9 +21,9 @@ export function presentar(html, url) {
     '<label for="sv-reading-language">Idioma de lectura / Reading language</label><select id="sv-reading-language" name="itvia_lang">' + opciones +
     '</select><button type="submit">Aplicar / Apply</button></form>';
   return html.replace(MARCA, selector)
-    .replace('class="sv-language-tools notranslate"', 'data-worker="biblioteca-v2" data-idioma="' + idioma + '" class="sv-language-tools notranslate"')
-    .replace(/(<script\b[^>]*\bsrc=")[^"]*presentacion(?:-[a-f0-9]+)?\.js(?:\?[^"]*)?("[^>]*>)/g, '$1/recursos/idiomas-20261014.js$2')
-    .replace('</head>', '<link rel="stylesheet" href="/recursos/idiomas-20261014.css"></head>');
+    .replace('class="sv-language-tools notranslate"', 'data-worker="biblioteca-v3" data-idioma="' + idioma + '" class="sv-language-tools notranslate"')
+    .replace(/(<script\b[^>]*\bsrc=")[^"]*presentacion(?:-[a-f0-9]+)?\.js(?:\?[^"]*)?("[^>]*>)/g, '$1/recursos/idiomas-20261014-r2.js$2')
+    .replace('</head>', '<link rel="stylesheet" href="/recursos/idiomas-20261014-r2.css"></head>');
 }
 export default {
   async fetch(request, env) {
