@@ -56,6 +56,8 @@
     }
   });
   propagarIdioma();
+  // Los resultados de búsqueda se crean después de cargar el documento.
+  document.addEventListener('click', propagarIdioma, true);
   // La edición conserva siempre el original; únicamente esta vista se traduce.
   const main = document.querySelector('main');
   // Referencias estables: reorganizar la licencia no es traducir el documento.
