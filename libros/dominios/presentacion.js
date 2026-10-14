@@ -58,8 +58,11 @@
   propagarIdioma();
   // La edición conserva siempre el original; únicamente esta vista se traduce.
   const main = document.querySelector('main');
-  const textoDocumento = () => Array.from(main ? main.children : []).filter(e =>
-    !e.matches('.sv-language-tools,.sv-library-nav,.sv-brand-footer,script,style')).map(e => e.textContent).join('\n');
+  // Referencias estables: reorganizar la licencia no es traducir el documento.
+  const bloques = Array.from(main ? main.children : []).filter(e =>
+    !e.matches('.sv-language-tools,.sv-library-nav,.sv-brand-footer,script,style') &&
+    !e.textContent.trim().startsWith('© 2026 Juan Antonio Lloret Egea.'));
+  const textoDocumento = () => bloques.map(e => e.textContent.replace(/\s+/g,' ').trim()).join('\n');
   const textoInicial = textoDocumento();
   const contenedor = document.getElementById('google_translate_element');
   if (!contenedor) {
@@ -70,6 +73,7 @@
 
   let controlSolicitado = null;
   let confirmacion = null;
+  let textoObservado = textoInicial;
   let terminado = false;
   let limite;
   const observador = new MutationObserver(() => comprobar());
@@ -96,10 +100,15 @@
       control.value = idioma;
       control.dispatchEvent(new Event('change', {bubbles:true}));
     }
+    const textoActual = textoDocumento();
+    if (textoActual !== textoObservado) {
+      textoObservado = textoActual;
+      clearTimeout(confirmacion); confirmacion = null;
+    }
     const traducida = control.value === idioma &&
       (document.documentElement.classList.contains('translated-ltr') ||
        document.documentElement.classList.contains('translated-rtl')) &&
-      textoDocumento() !== textoInicial;
+      textoActual !== textoInicial;
     if (!traducida) {
       clearTimeout(confirmacion); confirmacion = null;
       if (caja.dataset.estado === 'aplicada') {
@@ -111,9 +120,11 @@
     // Confirmación de presentación observada; no constituye revisión lingüística.
     if (confirmacion === null) confirmacion = setTimeout(() => {
       confirmacion = null;
-      if (control.value !== idioma || textoDocumento() === textoInicial) return;
+      if (control.value !== idioma || textoDocumento() !== textoActual || textoActual === textoInicial ||
+          !(document.documentElement.classList.contains('translated-ltr') ||
+            document.documentElement.classList.contains('translated-rtl'))) return;
       clearTimeout(limite);
-      informar('aplicada', 'Traducción aplicada para la lectura. Contrástela con el original.');
+      informar('aplicada', 'Traducción visible para la lectura. Contrástela con el original.');
       propagarIdioma();
     }, 900);
   }

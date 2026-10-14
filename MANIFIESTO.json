@@ -48,8 +48,8 @@
     },
     {
       "ruta": "libros/dominios/presentacion.js",
-      "bytes": 7303,
-      "sha256": "a765fcc64b9d5c648badf3f045c39e739f1f9417d738a2e02ac8e47026a7d6b3"
+      "bytes": 7912,
+      "sha256": "92985758d9ec24fc29ad8826d65cce8bff6034b5489af69a0adf604da61af529"
     },
     {
       "ruta": "libros/dominios/src/ciberseguridad.md",
@@ -138,8 +138,8 @@
     },
     {
       "ruta": "libros/evaluacion-modelos/presentacion.js",
-      "bytes": 7303,
-      "sha256": "a765fcc64b9d5c648badf3f045c39e739f1f9417d738a2e02ac8e47026a7d6b3"
+      "bytes": 7912,
+      "sha256": "92985758d9ec24fc29ad8826d65cce8bff6034b5489af69a0adf604da61af529"
     },
     {
       "sha256": "b00ee6af7ee404ac3fa4f978d27d9f7faabd1372d29ba563877b8585d3de3660",
@@ -203,8 +203,8 @@
     },
     {
       "ruta": "libros/guia/presentacion.js",
-      "bytes": 7303,
-      "sha256": "a765fcc64b9d5c648badf3f045c39e739f1f9417d738a2e02ac8e47026a7d6b3"
+      "bytes": 7912,
+      "sha256": "92985758d9ec24fc29ad8826d65cce8bff6034b5489af69a0adf604da61af529"
     },
     {
       "ruta": "libros/guia/src/consulta.md",
@@ -288,8 +288,8 @@
     },
     {
       "ruta": "libros/manual/presentacion.js",
-      "bytes": 7303,
-      "sha256": "a765fcc64b9d5c648badf3f045c39e739f1f9417d738a2e02ac8e47026a7d6b3"
+      "bytes": 7912,
+      "sha256": "92985758d9ec24fc29ad8826d65cce8bff6034b5489af69a0adf604da61af529"
     },
     {
       "ruta": "libros/manual/src/constructor.md",
@@ -363,8 +363,8 @@
     },
     {
       "ruta": "libros/normativa/presentacion.js",
-      "bytes": 7303,
-      "sha256": "a765fcc64b9d5c648badf3f045c39e739f1f9417d738a2e02ac8e47026a7d6b3"
+      "bytes": 7912,
+      "sha256": "92985758d9ec24fc29ad8826d65cce8bff6034b5489af69a0adf604da61af529"
     },
     {
       "ruta": "libros/normativa/src/ciberseguridad.md",
@@ -433,8 +433,8 @@
     },
     {
       "ruta": "libros/nota-sustitucion/presentacion.js",
-      "bytes": 7303,
-      "sha256": "a765fcc64b9d5c648badf3f045c39e739f1f9417d738a2e02ac8e47026a7d6b3"
+      "bytes": 7912,
+      "sha256": "92985758d9ec24fc29ad8826d65cce8bff6034b5489af69a0adf604da61af529"
     },
     {
       "ruta": "libros/nota-sustitucion/src/aviso.md",
@@ -468,8 +468,8 @@
     },
     {
       "ruta": "libros/visualizadores/presentacion.js",
-      "bytes": 7303,
-      "sha256": "a765fcc64b9d5c648badf3f045c39e739f1f9417d738a2e02ac8e47026a7d6b3"
+      "bytes": 7912,
+      "sha256": "92985758d9ec24fc29ad8826d65cce8bff6034b5489af69a0adf604da61af529"
     },
     {
       "ruta": "libros/visualizadores/src/entrega.md",
@@ -539,7 +539,7 @@
     {
       "ruta": "publico/_worker.js",
       "bytes": 4966,
-      "sha256": "51fd6070f9f00815ffcce22555df1f1972a8d7c9fdd41734b10ff5a1773311de"
+      "sha256": "e4d2e6b98fff3dcc877b71e3ddfe495da98eabe31cfd84d8d928dc4311cb04a8"
     },
     {
       "ruta": "publico/.nojekyll",
@@ -2549,7 +2549,7 @@
     {
       "ruta": "worker-biblioteca.mjs",
       "bytes": 4966,
-      "sha256": "51fd6070f9f00815ffcce22555df1f1972a8d7c9fdd41734b10ff5a1773311de"
+      "sha256": "e4d2e6b98fff3dcc877b71e3ddfe495da98eabe31cfd84d8d928dc4311cb04a8"
     },
     {
       "ruta": "publico/recursos/idiomas-20261014.js",
@@ -2575,6 +2575,11 @@
       "ruta": "publico/recursos/idiomas-20261014-r3.js",
       "bytes": 7303,
       "sha256": "a765fcc64b9d5c648badf3f045c39e739f1f9417d738a2e02ac8e47026a7d6b3"
+    },
+    {
+      "ruta": "publico/recursos/idiomas-20261014-r4.js",
+      "bytes": 7912,
+      "sha256": "92985758d9ec24fc29ad8826d65cce8bff6034b5489af69a0adf604da61af529"
     }
   ],
   "licencia": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).",
