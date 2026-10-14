@@ -9,7 +9,7 @@
     'Investigación y puesta en marcha de modelos de IA',
     'Exámenes – Ensayos – Tests IA',
     'Lenguaje de Computación SV', 'Lenguaje de Computación',
-    'Sistema Vectorial SV', 'Sistema Vectorial', 'Árbitro-Director',
+    'Sistema Vectorial SV', 'Sistema Vectorial', 'Árbitro-Director', 'Polígono SV',
     'La Biblia de la IA', 'SV-lenguaje-de-computacion', 'SVperitus-dataset',
     'SVcustos-dataset', 'SV-motor', 'SVperitus', 'SVcustos',
     'ITVIA', 'IA eñ', 'IAeñ', 'IA-en', 'EET-IA', 'EET-CYB16', 'SVP', 'SV'
@@ -44,7 +44,7 @@
         let a=m.index, b=m.index+m[0].length;
         // Google puede retirar el espacio exterior de una marca: se conserva el original.
         while (a>0 && /[ \t\u00a0]/.test(texto[a-1])) a--;
-        while (b<texto.length && /[ \t\u00a0]/.test(texto[b])) b++;
+        while (b<texto.length && /[ \t\u00a0.,;:!?…]/.test(texto[b])) b++;
         const previo=intervalos[intervalos.length-1];
         if (previo && a<=previo[1]) previo[1]=b; else intervalos.push([a,b]);
       }
