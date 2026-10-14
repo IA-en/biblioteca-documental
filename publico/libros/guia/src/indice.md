@@ -12,7 +12,7 @@ Libros para comprender los fundamentos y las garantías documentales del Sistema
 | [Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA · V.07](documentacion/reglas-usos-descripciones-documentales/index.html) | Formatos, visualización, autorización y entrega efectiva; prioridades y Universos como reglas previstas; capacidades comprobadas y límites. |
 | [Normativa, trazabilidad y seguimiento de la IA en el SV · V.02](normativa/trazabilidad-y-seguimiento-ia/index.html) | Procedencia, evaluación, derechos y referencias normativas; atención a ciberseguridad y uso sanitario. Marco explicativo, sin declaración de certificación. |
 | [Manual del Lenguaje de Computación SV](dominios/lenguaje-de-computacion/manual/index.html) | Edición de consulta de alcance limitado: organización temática, compatibilidad y requisitos de parámetros, recorridos y evidencia. Todavía no es un manual completo. |
-| [Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial](evaluacion/validacion-autorizacion-modelos/index.html) | Método de examen documental, corrección ciega, comparación y responsabilidades institucionales. Español e inglés. |
+| [Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial](evaluacion/validacion-autorizacion-modelos/index.html) | Método de examen documental, corrección ciega, comparación y responsabilidades institucionales. Original en español; traducción automática para la lectura. |
 
 ## Consulta
 

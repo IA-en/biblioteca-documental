@@ -13,8 +13,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
-        <link rel="icon" href="favicon.svg">
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="icon" href="/identidad/sv-claro-20261012.ico" sizes="any">
+        <link rel="icon" type="image/png" sizes="32x32" href="/identidad/sv-claro-32-20261012.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/identidad/sv-apple-20260831.png">
         <link rel="stylesheet" href="css/variables.css">
         <link rel="stylesheet" href="css/general.css">
         <link rel="stylesheet" href="css/chrome.css">
@@ -29,6 +30,7 @@
         <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight.css">
 
         <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="biblioteca.css">
 
 
         <!-- Provide site root and default themes to javascript -->
@@ -102,7 +104,7 @@
             }
         </script>
 
-        <nav id="mdbook-sidebar" class="sidebar" aria-label="Table of contents">
+        <nav id="mdbook-sidebar" class="sidebar" aria-label="Índice de contenidos">
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
@@ -119,10 +121,10 @@
                 <div id="mdbook-menu-bar-hover-placeholder"></div>
                 <div id="mdbook-menu-bar" class="menu-bar sticky">
                     <div class="left-buttons">
-                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="mdbook-sidebar">
+                        <label id="mdbook-sidebar-toggle" class="icon-button" for="mdbook-sidebar-toggle-anchor" title="Mostrar u ocultar el índice" aria-label="Mostrar u ocultar el índice" aria-controls="mdbook-sidebar">
                             <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></span>
                         </label>
-                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
+                        <button id="mdbook-theme-toggle" class="icon-button" type="button" title="Cambiar tema" aria-label="Cambiar tema" aria-haspopup="true" aria-expanded="false" aria-controls="mdbook-theme-list">
                             <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M371.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L600.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S549.7-4.4 531.1 9.6L294.4 187.2c-24 18-38.2 46.1-38.4 76.1L371.3 367.1zm-19.6 25.4l-116-104.4C175.9 290.3 128 339.6 128 400c0 3.9 .2 7.8 .6 11.6c1.8 17.5-10.2 36.4-27.8 36.4H96c-17.7 0-32 14.3-32 32s14.3 32 32 32H240c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z"/></svg></span>
                         </button>
                         <ul id="mdbook-theme-list" class="theme-popup" aria-label="Themes" role="menu">
@@ -141,10 +143,13 @@
                     <h1 class="menu-title">Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial</h1>
 
                     <div class="right-buttons">
-                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                        <a class="sv-institution-logo" href="https://itvia.online/" title="ITVIA · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español" aria-label="ITVIA · Sitio institucional">
+                            <img src="/identidad/itvia-20261012.jpg" width="280" height="280" alt="ITVIA" decoding="async">
+                        </a>
+                        <a href="print.html" title="Imprimir este libro" aria-label="Imprimir este libro">
                             <span class=fa-svg id="print-button"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M128 0C92.7 0 64 28.7 64 64v96h64V64H354.7L384 93.3V160h64V93.3c0-17-6.7-33.3-18.7-45.3L400 18.7C388 6.7 371.7 0 354.7 0H128zM384 352v32 64H128V384 368 352H384zm64 32h32c17.7 0 32-14.3 32-32V256c0-35.3-28.7-64-64-64H64c-35.3 0-64 28.7-64 64v96c0 17.7 14.3 32 32 32H64v64c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V384zm-16-88c-13.3 0-24-10.7-24-24s10.7-24 24-24s24 10.7 24 24s-10.7 24-24 24z"/></svg></span>
                         </a>
-                        <a href="https://github.com/IA-en/biblioteca-documental" title="Git repository" aria-label="Git repository">
+                        <a href="https://github.com/IA-en/biblioteca-documental" title="Repositorio documental" aria-label="Repositorio documental">
                             <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></span>
                         </a>
 
@@ -178,6 +183,15 @@
 
                 <div id="mdbook-content" class="content">
                     <main>
+<details class="sv-language-tools notranslate" translate="no">
+  <summary>Idiomas / Languages</summary>
+  <p id="sv-language-status" role="status" aria-live="polite">Original en español. El selector de la matriz editorial estará disponible cuando responda el servicio de presentación.</p>
+  <!-- SV_SELECTOR_EDITORIAL -->
+  <p><a id="sv-original" href="?">Ver original en español / Spanish original</a></p>
+  <p>La traducción automática facilita la lectura. Contraste términos, fórmulas y sentido con el original.</p>
+  <div id="google_translate_element" class="notranslate" translate="no"></div>
+</details>
+<nav class="sv-library-nav" aria-label="Biblioteca"><a href="https://documentos-sv.itvia.online/">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="https://documentos-sv.itvia.online/consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="https://documentos-sv.itvia.online/licencias.html">Licencias</a><p>Edición 14/10/2026 · Original en español</p></nav>
                         <h1 id="finalidad-y-alcance"><a class="header" href="#finalidad-y-alcance">Finalidad y alcance</a></h1>
 <p>La validación, la autorización institucional y la selección para producción responden a preguntas diferentes. Un examen aporta evidencia sobre una configuración de un modelo y una edición documental determinadas. La autorización establece si la institución admite su uso dentro de un alcance. La selección identifica cuál de los modelos autorizados se empleará en ese ámbito. Ninguno de estos actos sustituye a los demás.</p>
 <p>Este libro presenta el procedimiento común de EET-IA, <strong>Exámenes – Ensayos – Tests IA</strong>, y sus restricciones. La sede administrativa se denomina <strong>Investigación y puesta en marcha de modelos de IA</strong>. Comparte la identificación humana del gestor documental y mantiene admisiones y expedientes propios. El dominio científico evaluado se conserva como dato distinto de esta sede administrativa.</p>
@@ -322,141 +336,13 @@
 <p>La publicación del método facilita la revisión por terceros. No exige divulgar claves vigentes, credenciales, datos personales o documentación reservada. La huella de una evidencia identifica su contenido; el acceso y el permiso de uso se comprueban por separado.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="purpose-and-scope"><a class="header" href="#purpose-and-scope">Purpose and scope</a></h1>
-<p>Validation, institutional authorisation and production selection answer different questions. An examination provides evidence about a specified model configuration and document edition. Authorisation determines whether an institution permits its use within a defined scope. Selection identifies which authorised model is to serve that scope. None of these acts replaces the others.</p>
-<p>EET-IA, <strong>AI Examinations – Trials – Tests</strong>, is the administrative area for this process. Its interface is named <strong>AI model research and commissioning</strong>. It shares human identification with the document manager while retaining its own admissions and records. The scientific domain being evaluated is a separate field.</p>
-<p>The initial phase permits preparation, preservation of originals, frozen answer keys and verification with predefined responses. Starting examinations and activating models remain blocked. Prepared records have no verdict; instrument checks are not candidate examinations.</p>
-<p>This book explains the method. The private manager guide explains operation, and the private Foundations book explains the architectural relationship. The <a href="https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark">comparative standard</a> holds methodological editions and publishable comparisons. Current keys and reserved records remain private.</p>
-<p>The method complements the <a href="https://documentos-sv.itvia.online/documentacion/reglas-usos-descripciones-documentales/">documentary rules</a> and the <a href="https://documentos-sv.itvia.online/normativa/trazabilidad-y-seguimiento-ia/">regulatory and traceability book</a>. It grants neither documentary permissions nor a general model certification.</p>
-<p>Reproducible grading does not prove an infallible examination. Validity depends on its content, coverage and reference key. Applying the same prior rule avoids candidate-specific reinterpretation. A demonstrated defect in the instrument requires a correction applicable to all affected results, preserving their historical grounds.</p>
-<hr>
-<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="original-documents-and-delivery-preparation"><a class="header" href="#original-documents-and-delivery-preparation">Original documents and delivery preparation</a></h1>
-<p>In examinations and consultations governed by SV, AI receives complete documents in their original language, with native content intact. Selection determines which documents are authorised; it does not permit passages, translations, summaries or reformulations to replace them. Translations for human reading remain outside this supply path.</p>
-<p>Completeness covers text, tables, notes, references, formulae, symbols and intrinsic resources. A bibliographic link does not deliver its target. Examination and consultation modes do not retrieve external pages: necessary sources must be preserved and authorised beforehand. Instructions found inside documents remain data and confer no authority.</p>
-<p>Before delivery, verify the document edition and the recipient-specific permission; correspondence between the preserved original and the complete outgoing content; availability of intrinsic resources in an accepted modality; context capacity for all input and the answer; and preservation of the request, original response and provenance.</p>
-<p>An archived file hash alone does not establish request completeness. The instrument must reconstruct outgoing content and compare it with the original. Technical chunking is admissible only when the complete content remains available to solve the task. Successive summaries or context loss must not be used to fit a limit.</p>
-<p>The initial EET-IA preparation modality accepts native Markdown without graphical resources. Images, embedded HTML and unreceived delivery formats stop preparation. This does not declare the manager's human viewers incompatible: human reading and delivery to AI are distinct operations.</p>
-<p>PDF and HTML snapshots require specific acceptance of their delivery modality. Preserving a PDF, extracting text or displaying figures in a browser does not establish candidate access to the whole document. An incompatibility detected before transmission is not a scientific error by the model.</p>
-<hr>
-<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="examination-edition-and-prior-answer-key"><a class="header" href="#examination-edition-and-prior-answer-key">Examination edition and prior answer key</a></h1>
-<p>Each edition fixes documents, instructions, statements, reference answers, critical positions, output format, aggregate rule and limits before candidates are examined. A substantive change requires a new edition; it does not silently replace an earlier key.</p>
-<p>The initial edition has sixteen statements: eight affirmative and eight negative, with an examination representation (16,4). This does not assign a cell to the scientific Universe. The historical twenty-five-question bank and its stages are not mandatory.</p>
-<p>Candidates receive the same statements in recorded permutations, each containing every identifier exactly once. Grading restores canonical order. Grammatical negation does not determine whether a statement conforms to the source.</p>
-<div class="table-wrapper">
-<table>
-<thead>
-<tr><th>Response symbol</th><th>Meaning for the candidate</th></tr>
-</thead>
-<tbody>
-<tr><td>0</td><td>The statement conforms to the received source.</td></tr>
-<tr><td>1</td><td>The statement does not conform to that source.</td></tr>
-<tr><td>U</td><td>The candidate declares that it cannot determine the answer.</td></tr>
-</tbody>
-</table>
-</div>
-<p>The candidate does not declare its own correctness. Agreement with a determined key produces grade 0; contradiction produces 1; a U response retains U. This edition rejects U, missing or duplicated reference keys.</p>
-<p>The answer must be one JSON object containing only <code>respuestas</code>: sixteen objects with <code>id</code> and <code>valor</code>, in the presented order. <code>valor</code> is a string from 0, 1, U. JSON whitespace is allowed. Additional fields, explanations, code fences and omitted positions are not. The instrument does not interpretively repair an answer.</p>
-<p>The delivery unit is the complete examination and one response covering all sixteen positions. No hidden reasoning or additional reasoning stages are requested. The absolute 300-second limit covers the request and complete reception, without renewal between response fragments.</p>
-<hr>
-<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="blind-grading-indeterminacy-and-representation"><a class="header" href="#blind-grading-indeterminacy-and-representation">Blind grading, indeterminacy and representation</a></h1>
-<p>The grader receives the edition, identifiers, key, critical positions and response. It receives no commercial model name, provider or cost. Determinism applies within the fixed contract, without candidate-specific reinterpretation.</p>
-<h2 id="aggregate-rule-1612-v1"><a class="header" href="#aggregate-rule-1612-v1">Aggregate rule 16/12-v1</a></h2>
-<p>The initial edition requires twelve correct answers out of sixteen, subject to critical-position checks. Let <strong>a</strong> be observed correct answers and <strong>u</strong> be U responses. Apply this table in order:</p>
-<div class="table-wrapper">
-<table>
-<thead>
-<tr><th>Condition</th><th>Verdict</th></tr>
-</thead>
-<tbody>
-<tr><td>A critical error exists, or a + u is below 12.</td><td>1: Not suitable.</td></tr>
-<tr><td>Every critical position is correct and a is at least 12.</td><td>0: Suitable within this edition.</td></tr>
-<tr><td>Every remaining combination.</td><td>U: Indeterminate.</td></tr>
-</tbody>
-</table>
-</div>
-<p>The bound a + u only determines whether indeterminacy can affect the result. It awards no points and does not convert U into correctness. Twelve correct answers and four non-critical U responses can establish suitability. A critical U prevents it. Eleven correct answers, four non-critical errors and one U remain indeterminate. A critical error remains adverse even if another critical position is U.</p>
-<p>This edition-specific rule does not redefine SV's primitive ternary values or general classification, and does not regrade historical results. The verdict column contains only issued 0, 1 or U values. Prepared, interrupted and pending are execution states in a separate column. An absent verdict is not U.</p>
-<p>A complete, correctly associated response that violates the required format receives 1 for formal non-compliance. No sixteen-position scientific error vector or polygon is invented for it. Truncation, a defective request or incorrect association instead produces an instrument incident without a candidate verdict. Preserve the original before parsing.</p>
-<h2 id="sv-polygon"><a class="header" href="#sv-polygon">SV polygon</a></h2>
-<p>Represent the complete vector of <strong>grades</strong>, in canonical order. Preserve the established convention: 0 is red at radius 1; 1 is green at radius 2; U is blue at radius 3. The first vertex is at the top, proceeding clockwise. Radii identify symbols, not quantities, percentages or clinical severity. Area is not an additional score.</p>
-<p>A correct response 1 to a false statement produces grade 0. No apparent result is drawn before a complete graded vector exists. Non-execution is never filled with U.</p>
-<hr>
-<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="transport-preservation-and-measurements"><a class="header" href="#transport-preservation-and-measurements">Transport, preservation and measurements</a></h1>
-<p>Comparability concerns document content, the examination contract and recorded conditions. Services may need different technical envelopes. Each adaptation must preserve complete content, exclude the answer key and retain instruction meaning. A model name alone does not establish identical configuration or context.</p>
-<p>Preparation records the edition, presented order, document and package hashes, adapter identity and exact recipient configuration when selected. Context capacity must be checked for that configuration; it cannot be inferred from byte size or a commercial name alone.</p>
-<p>The absolute limit is 300 seconds for complete delivery and reception. A connection cut after sending can leave remote processing uncertain. No automatic retry is permitted. A further attempt requires its own identity and grounds, preserving the first attempt and leaving unknown costs unknown.</p>
-<div class="table-wrapper">
-<table>
-<thead>
-<tr><th>Observation</th><th>Appropriate record</th></tr>
-</thead>
-<tbody>
-<tr><td>The original does not fit, or resources are missing.</td><td>Preparation stopped; no delivery or verdict.</td></tr>
-<tr><td>The adaptation changes the package.</td><td>Instrument defect; no candidate grade.</td></tr>
-<tr><td>Complete reception is not established.</td><td>Transport incident and effects awaiting reconciliation.</td></tr>
-<tr><td>A complete response has an invalid format.</td><td>The edition's prior formal consequence.</td></tr>
-<tr><td>A complete valid response contains content errors.</td><td>Grading by key and criticality.</td></tr>
-</tbody>
-</table>
-</div>
-<p>An HTTP error or interruption alone does not establish responsibility of GitHub, hosting or the model provider. Preserve observations and references before attributing a cause.</p>
-<p>Telemetry records SV-observed duration, provider-reported input and output tokens, auxiliary usage and cost, with units, source and availability. Missing counters remain absent. Aggregate shared-account consumption is not automatically charged to an examination.</p>
-<p>Provider-supplied auxiliary text is preserved separately from the final answer, with its limits. The candidate is not asked to reveal hidden reasoning or report its own measurements. Missing administrative measurements do not silently alter the grade of a complete response.</p>
-<hr>
-<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="powers-authorisation-and-production"><a class="header" href="#powers-authorisation-and-production">Powers, authorisation and production</a></h1>
-<p>Shared identification avoids duplicate personal accounts; authorisation remains specific. Access to immunology or cybersecurity does not grant EET-IA access. EET-IA membership does not grant scientific document or repository permissions.</p>
-<div class="table-wrapper">
-<table>
-<thead>
-<tr><th>Act</th><th>EET-IA Administrator</th><th>AI model evaluator</th><th>Initial phase</th></tr>
-</thead>
-<tbody>
-<tr><td>Read area editions and records</td><td>Yes</td><td>Yes</td><td>Available</td></tr>
-<tr><td>Prepare and freeze editions</td><td>Yes</td><td>Yes</td><td>Available</td></tr>
-<tr><td>Grant or revoke Evaluator</td><td>Yes</td><td>No</td><td>Available</td></tr>
-<tr><td>Evaluate a candidate execution</td><td>Yes</td><td>Yes</td><td>Blocked</td></tr>
-<tr><td>Authorise a suitable model</td><td>Yes</td><td>Yes</td><td>Blocked</td></tr>
-<tr><td>Select an authorised model for production</td><td>Yes</td><td>Yes</td><td>Blocked</td></tr>
-</tbody>
-</table>
-</div>
-<p>One account may hold these powers under institutional policy. Evaluation, authorisation and selection remain separate acts, retaining responsible accounts, dates and grounds. Granting a role does not authorise a particular execution.</p>
-<p>A suitable result for an identified configuration permits consideration of authorisation; it does not grant it. The institution specifies domain, purpose, recipients and validity. Changes to the model, its conditions or documents require determining which evaluations and permissions remain applicable.</p>
-<p>Production selection permits one active model per defined institutional scope. Replacement must record cessation of the previous selection and the new decision. Two incompatible active selections in the same scope are forbidden. Performance, costs and provider conditions inform selection; they confer no purchasing or payment authority.</p>
-<p>Historical records remain intact. Testing activities do not become production evidence by changing a label. The new administrative area does not reset or erase scientific records.</p>
-<hr>
-<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
-<div style="break-before: page; page-break-before: always;"></div>
-<h1 id="comparison-and-interpretation-of-results"><a class="header" href="#comparison-and-interpretation-of-results">Comparison and interpretation of results</a></h1>
-<p>A valid comparison identifies its common edition and actual differences in configuration, context, order, adaptation, availability and measurement. Commercial names alone cannot extend a result to every version or deployment.</p>
-<p>The standard retains one row per identified execution: state, issued verdict, canonical vector when available, criticality, duration, usage and limits. The verdict column contains only 0, 1 or U; causes and observations have their own fields. Formal non-compliance is not represented as sixteen scientifically incorrect answers.</p>
-<p>Before the first execution, the results table has no results. Predefined responses used to check the grader belong to instrument verification and are kept separate. They are never attributed to real candidates or used to rank models.</p>
-<p>The initial EET-CYB16 edition uses the complete original OP-CYB-001 act at an identified revision. It examines understanding of documentary and authority distinctions. It does not establish general cybersecurity competence, clinical suitability, execution of the Language or complete operation of the Arbitrator–Director. The (16,4) representation belongs to the examination, not to the Universe's cellular constitution.</p>
-<p>Historical comparisons retain their original contracts. This edition neither changes earlier grades nor establishes automatic equivalence with twenty-five-question banks or multi-stage trials.</p>
-<ul>
-<li><a href="https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark">Comparative standard and editions</a>.</li>
-<li><a href="https://administracion.itvia.online/eet-ia/">EET-IA area, authorised access required</a>.</li>
-<li><a href="https://github.com/IA-en/gestion-usuarios-y-documentacion-sv">Manager code and private custody</a>.</li>
-<li><a href="https://documentos-sv.itvia.online/">Documentary library</a>.</li>
-</ul>
-<p>Publishing the method enables external review without disclosing current keys, credentials, personal information or reserved documents. Evidence hashes identify content; access and usage permissions remain separate checks.</p>
-<hr>
-<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 
+                        <div class="sv-brand-footer" aria-label="Identidad institucional y licencia">
+                            <img src="/identidad/sv-20260831.png" width="256" height="256" alt="Sistema Vectorial SV" decoding="async">
+                        </div>
                     </main>
 
-                    <nav class="nav-wrapper" aria-label="Page navigation">
+                    <nav class="nav-wrapper" aria-label="Navegación de capítulos">
                         <!-- Mobile navigation buttons -->
 
 
@@ -465,7 +351,7 @@
                 </div>
             </div>
 
-            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+            <nav class="nav-wide-wrapper" aria-label="Navegación de capítulos">
 
             </nav>
 
@@ -490,6 +376,7 @@
         <script src="book.js"></script>
 
         <!-- Custom JS scripts -->
+        <script src="presentacion.js"></script>
 
         <script>
         window.addEventListener('load', function() {

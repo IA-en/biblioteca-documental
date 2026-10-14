@@ -7,6 +7,9 @@ build-dir = "book"
 create-missing = false
 use-default-preprocessors = false
 [output.html]
+theme = "theme"
+additional-css = ["biblioteca.css"]
+additional-js = ["presentacion.js"]
 default-theme = "rust"
 preferred-dark-theme = "ayu"
 smart-punctuation = false

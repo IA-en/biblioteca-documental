@@ -20,6 +20,12 @@ export function presentar(html, url) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    const capitulo = url.pathname.match(/^\/evaluacion\/validacion-autorizacion-modelos\/en\/(finalidad|documentos|edicion|correccion|transporte|autoridad|comparacion)(?:\.html)?\/?$/);
+    if ((request.method === 'GET' || request.method === 'HEAD') && capitulo) {
+      const destino = new URL(url);
+      destino.pathname = '/evaluacion/validacion-autorizacion-modelos/' + capitulo[1];
+      return Response.redirect(destino.href, 301);
+    }
     const respuesta = await env.ASSETS.fetch(request);
     const tipo = respuesta.headers.get('content-type') || '';
     if (request.method !== 'GET' || respuesta.status !== 200 || !tipo.toLowerCase().includes('text/html') || url.pathname.startsWith('/libros/')) return respuesta;
