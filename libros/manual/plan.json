@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "d31be3fc95c92443ee2fde7c93d29d29b48306a5ae50093f784838c7da235e86",
+  "revision": "a165bf14133f85cfa84863a412ee89e1134f366a32754b5e622e3c5395e6bd62",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -42,8 +42,8 @@
       "id": "MANUAL_ARBITRO_DIRECTOR",
       "ruta": "arbitro-director.md",
       "titulo": "Árbitro - Director",
-      "url": "urn:sv:documento:sha256:ebe72bf36ab3cf88713fa051038ec4debca5f859f2e4883f3ab017703442fd14",
-      "sha256": "ebe72bf36ab3cf88713fa051038ec4debca5f859f2e4883f3ab017703442fd14"
+      "url": "urn:sv:documento:sha256:70d5adb0ccd7bd4c724bb163734aae2925eaac131d875857b351e85af39693b5",
+      "sha256": "70d5adb0ccd7bd4c724bb163734aae2925eaac131d875857b351e85af39693b5"
     },
     {
       "id": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
@@ -56,8 +56,8 @@
       "id": "MANUAL_EXPLORADOR_TENSORIAL",
       "ruta": "explorador-tensorial-sv.md",
       "titulo": "Explorador Tensorial del SV",
-      "sha256": "ac8e4b2879cc6740a21038a065930573c893c8b092037e3e2f71e547eaf18910",
-      "url": "urn:sv:documento:sha256:ac8e4b2879cc6740a21038a065930573c893c8b092037e3e2f71e547eaf18910"
+      "sha256": "1bc7b8e215ce022a6ca5f05c18d080d273b1a1662058aa5dcb803eb5d2d10a47",
+      "url": "urn:sv:documento:sha256:1bc7b8e215ce022a6ca5f05c18d080d273b1a1662058aa5dcb803eb5d2d10a47"
     },
     {
       "id": "MANUAL_HARDWARE_ACELERACION",

@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "9ba419d7f7123fb306f6ca2fe6ed5f94b3ca80ad40128d203a1aa498ab3fb5b3",
+  "biblioteca_sha256": "70a4d99eda45be3f736eae403b6ece940aa4252a87e30567c6f1e7494b987f19",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1672,7 +1672,7 @@
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 5676,
+      "cobertura_bytes": 5586,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_ARBITRO_DIRECTOR",
       "identificador_editorial_r0": null,
@@ -1680,7 +1680,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/arbitro-director.md",
-        "sha256": "ebe72bf36ab3cf88713fa051038ec4debca5f859f2e4883f3ab017703442fd14"
+        "sha256": "70d5adb0ccd7bd4c724bb163734aae2925eaac131d875857b351e85af39693b5"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
@@ -1730,13 +1730,13 @@
           "ultima_linea": 46
         },
         {
-          "fin_byte_exclusivo": 5676,
+          "fin_byte_exclusivo": 5586,
           "inicio_byte": 4872,
           "primera_linea": 47,
-          "seccion": "MD-L000047-L000055",
-          "sha256": "53375c49eeba4e2deff622ecc577b809b6cad7117e37ad6d45f8ca231624b5d3",
+          "seccion": "MD-L000047-L000054",
+          "sha256": "fe819727ff9e91f0413bcc17cd0a1f15320b7eaefdd00ecc7519e1c2e585586a",
           "titulo": "Referencias",
-          "ultima_linea": 55
+          "ultima_linea": 54
         }
       ]
     },
@@ -1873,7 +1873,7 @@
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 5351,
+      "cobertura_bytes": 4790,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_EXPLORADOR_TENSORIAL",
       "identificador_editorial_r0": null,
@@ -1881,7 +1881,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/explorador-tensorial-sv.md",
-        "sha256": "ac8e4b2879cc6740a21038a065930573c893c8b092037e3e2f71e547eaf18910"
+        "sha256": "1bc7b8e215ce022a6ca5f05c18d080d273b1a1662058aa5dcb803eb5d2d10a47"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
@@ -1913,22 +1913,13 @@
           "ultima_linea": 31
         },
         {
-          "fin_byte_exclusivo": 4520,
+          "fin_byte_exclusivo": 4790,
           "inicio_byte": 3168,
           "primera_linea": 32,
-          "seccion": "MD-L000032-L000041",
-          "sha256": "731bda630557b28d8f461afaccb6cef4f0b616ee9fae038a4be8f9d2c0a6b4c9",
+          "seccion": "MD-L000032-L000042",
+          "sha256": "1925b666455a140074fe5ac592b6f51b58fd470af5912e3f9c09c32f7c4816ba",
           "titulo": "Comprobación de la realización inicial",
-          "ultima_linea": 41
-        },
-        {
-          "fin_byte_exclusivo": 5351,
-          "inicio_byte": 4520,
-          "primera_linea": 42,
-          "seccion": "MD-L000042-L000050",
-          "sha256": "6b369faa0f12fda22f3caf7d6d419674a4ad05e4d7bd808cfe18fd155219d615",
-          "titulo": "Referencias",
-          "ultima_linea": 50
+          "ultima_linea": 42
         }
       ]
     },
@@ -2848,7 +2839,7 @@
   ],
   "edicion": "biblioteca-publica-20261015-explorador-tensorial",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "7e92a966d3673777585f7a1b6778d6b93dbc25f0740fdbbe277e60081b22151b",
+  "politica_sha256": "fbf433ab390543957f2b161e0ba5c375d5aabc07761177751925ca6f581c41bb",
   "recepcion_visual": false,
   "version": 1
 }

@@ -31,19 +31,11 @@ La aplicación depende del control sobre la operación. Helsinki-NLP/opus-mt-en-
 
 ## Comprobación de la realización inicial
 
-En Windows se realizaron veinte exploraciones sobre una CPU Intel Core i7-1165G7 y un dispositivo gráfico Intel Iris Xe. La identificación coincidió con la consulta independiente del sistema en todas las observaciones. La mediana fue de 3,2645 ms; el máximo, correspondiente a la primera consulta, fue de 1.020,618 ms.
-
-En Linux sobre WSL2 se realizaron otras veinte consultas, con coincidencia de la identificación de CPU respecto de su registro del sistema. La mediana fue de 0,6405 ms. Estos resultados describen la observación en dos entornos; no miden velocidad de inferencia ni cobertura universal de aceleradores.
-
-Veintitrés casos artificiales del Explorador comprobaron selección y rechazos ante cambios de identidad, disponibilidad, memoria y vigencia. Se conservaron además los dieciocho casos del Selector. Las pruebas artificiales no se presentan como ejecuciones físicas de GPU, TPU o NPU.
+La identificación se contrastó mediante veinte consultas en Windows y veinte en Linux sobre WSL2. Se comprobaron además veintitrés casos artificiales del Explorador y los dieciocho existentes del Selector. El [informe experimental](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/46d6dc09dc72fa37518f2b0819ee60aff10da59e/docs/hardware-de-aceleracion-tensorial/selector-arbitro-director-cpu-gpu-tpu-npu/explorador-tensorial-sv/readme.md) conserva dispositivos, medidas, código y límites de cada contraste. Estos resultados comprueban observación y reglas de selección; no miden velocidad de inferencia ni cobertura universal de aceleradores.
 
 La versión inicial no acredita todavía el recorrido completo del nuevo Explorador con una inferencia acelerada. La consulta TPU conserva identidad y acceso, pero no aporta memoria utilizable a la selección. La integración debe comprobar conjuntamente permiso, carga, decisión, dispositivo utilizado y resultado; las pruebas históricas de otros adaptadores no sustituyen ese contraste.
 
-## Referencias
-
-- [Realización Rust, resultados y límites del Explorador Tensorial del SV](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/7af1e1e73ba7c6c48d8b6be1613db52df2c49efa/docs/hardware-de-aceleracion-tensorial/selector-arbitro-director-cpu-gpu-tpu-npu/explorador-tensorial-sv/readme.md).
-- [Criterios de selección y comprobación](selector-arbitro-director.md).
-- [Características y configuraciones del hardware](hardware-aceleracion-tensorial.md).
+Las características de los dispositivos y las condiciones de comparación se desarrollan en [Hardware de aceleración tensorial](hardware-aceleracion-tensorial.md).
 
 ---
 

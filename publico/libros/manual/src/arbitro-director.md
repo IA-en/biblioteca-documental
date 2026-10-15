@@ -47,7 +47,6 @@ La finalización técnica y la corrección del contenido son cuestiones distinta
 ## Referencias
 
 - [Diseño del Árbitro - Director y condiciones del recorrido documental](https://github.com/juantoniolloretegea/SV-motor/blob/32239f974af3a6367efd75d36ba984a6c2fc747e/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/controlador-pictograma-algoritmo/DISENO.md).
-- [Selector: criterios, ejecución y límites comprobados](selector-arbitro-director.md).
 - [Parámetros, recorridos y evidencia](parametros-rutas.md).
 
 ---

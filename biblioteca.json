@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "6b31bc893b827c327beaea9083c965d2a6d6f59618ff098ae0b535673ba5faae"
+        "sha256": "d52cdcdc92740ace85b677a02a194a5749090acb6d367b79552ede261e4d1006"
       },
       "metadatos": [
         {
@@ -454,7 +454,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/arbitro-director.md",
-            "sha256": "ebe72bf36ab3cf88713fa051038ec4debca5f859f2e4883f3ab017703442fd14"
+            "sha256": "70d5adb0ccd7bd4c724bb163734aae2925eaac131d875857b351e85af39693b5"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",
@@ -499,7 +499,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/explorador-tensorial-sv.md",
-            "sha256": "ac8e4b2879cc6740a21038a065930573c893c8b092037e3e2f71e547eaf18910"
+            "sha256": "1bc7b8e215ce022a6ca5f05c18d080d273b1a1662058aa5dcb803eb5d2d10a47"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",

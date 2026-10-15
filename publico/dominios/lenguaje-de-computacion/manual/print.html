@@ -345,7 +345,6 @@
 <h2 id="referencias-1"><a class="header" href="#referencias-1">Referencias</a></h2>
 <ul>
 <li><a href="https://github.com/juantoniolloretegea/SV-motor/blob/32239f974af3a6367efd75d36ba984a6c2fc747e/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/controlador-pictograma-algoritmo/DISENO.md">Diseño del Árbitro - Director y condiciones del recorrido documental</a>.</li>
-<li><a href="#selector-del-árbitro---director-cpugputpunpu">Selector: criterios, ejecución y límites comprobados</a>.</li>
 <li><a href="#parámetros-recorridos-y-evidencia-requisitos-de-integración">Parámetros, recorridos y evidencia</a>.</li>
 </ul>
 <hr>
@@ -424,16 +423,9 @@
 <p>Antes de invocar la operación, el enlace vuelve a consultar el entorno y contrasta la decisión. Un cambio que invalida el destino impide continuar por esa vía; no se sustituye silenciosamente por CPU. Esta reconsulta no reserva recursos ni reemplaza la observación de la ejecución efectiva.</p>
 <p>La aplicación depende del control sobre la operación. Helsinki-NLP/opus-mt-en-es, como traductor del Gestor documental ejecutado bajo control propio, corresponde al nodo 1. Que su traducción acompañe una consulta a una IA externa no cambia esa modalidad. El hardware de inferencia de una API ajena queda fuera de la exploración si el proveedor no lo expone mediante una interfaz verificable.</p>
 <h2 id="comprobación-de-la-realización-inicial"><a class="header" href="#comprobación-de-la-realización-inicial">Comprobación de la realización inicial</a></h2>
-<p>En Windows se realizaron veinte exploraciones sobre una CPU Intel Core i7-1165G7 y un dispositivo gráfico Intel Iris Xe. La identificación coincidió con la consulta independiente del sistema en todas las observaciones. La mediana fue de 3,2645 ms; el máximo, correspondiente a la primera consulta, fue de 1.020,618 ms.</p>
-<p>En Linux sobre WSL2 se realizaron otras veinte consultas, con coincidencia de la identificación de CPU respecto de su registro del sistema. La mediana fue de 0,6405 ms. Estos resultados describen la observación en dos entornos; no miden velocidad de inferencia ni cobertura universal de aceleradores.</p>
-<p>Veintitrés casos artificiales del Explorador comprobaron selección y rechazos ante cambios de identidad, disponibilidad, memoria y vigencia. Se conservaron además los dieciocho casos del Selector. Las pruebas artificiales no se presentan como ejecuciones físicas de GPU, TPU o NPU.</p>
+<p>La identificación se contrastó mediante veinte consultas en Windows y veinte en Linux sobre WSL2. Se comprobaron además veintitrés casos artificiales del Explorador y los dieciocho existentes del Selector. El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/46d6dc09dc72fa37518f2b0819ee60aff10da59e/docs/hardware-de-aceleracion-tensorial/selector-arbitro-director-cpu-gpu-tpu-npu/explorador-tensorial-sv/readme.md">informe experimental</a> conserva dispositivos, medidas, código y límites de cada contraste. Estos resultados comprueban observación y reglas de selección; no miden velocidad de inferencia ni cobertura universal de aceleradores.</p>
 <p>La versión inicial no acredita todavía el recorrido completo del nuevo Explorador con una inferencia acelerada. La consulta TPU conserva identidad y acceso, pero no aporta memoria utilizable a la selección. La integración debe comprobar conjuntamente permiso, carga, decisión, dispositivo utilizado y resultado; las pruebas históricas de otros adaptadores no sustituyen ese contraste.</p>
-<h2 id="referencias-3"><a class="header" href="#referencias-3">Referencias</a></h2>
-<ul>
-<li><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/7af1e1e73ba7c6c48d8b6be1613db52df2c49efa/docs/hardware-de-aceleracion-tensorial/selector-arbitro-director-cpu-gpu-tpu-npu/explorador-tensorial-sv/readme.md">Realización Rust, resultados y límites del Explorador Tensorial del SV</a>.</li>
-<li><a href="#selector-del-árbitro---director-cpugputpunpu">Criterios de selección y comprobación</a>.</li>
-<li><a href="#hardware-de-aceleración-tensorial">Características y configuraciones del hardware</a>.</li>
-</ul>
+<p>Las características de los dispositivos y las condiciones de comparación se desarrollan en <a href="#hardware-de-aceleración-tensorial">Hardware de aceleración tensorial</a>.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
