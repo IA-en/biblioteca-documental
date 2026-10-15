@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "d1e024433745e68ceeed6cb579c322c369cf7401d732b2f668f482a2317de1e3",
+  "biblioteca_sha256": "9ba419d7f7123fb306f6ca2fe6ed5f94b3ca80ad40128d203a1aa498ab3fb5b3",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1358,7 +1358,7 @@
     },
     {
       "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
-      "cobertura_bytes": 462,
+      "cobertura_bytes": 526,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_INDICE",
       "identificador_editorial_r0": null,
@@ -1366,7 +1366,7 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/SUMMARY.md",
-        "sha256": "aa3a7180f28f0efd43008a07003405781ca13b97b12bab5503c2218afc1214e5"
+        "sha256": "45b696e046a9ee1deb0788504df22e8a6768df09175e88e01fd03ec3fc52b9e0"
       },
       "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
       "secciones": [
@@ -1380,13 +1380,13 @@
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 462,
+          "fin_byte_exclusivo": 526,
           "inicio_byte": 226,
           "primera_linea": 9,
-          "seccion": "MD-L000009-L000013",
-          "sha256": "66f17a46c2218b1e908d17b50a5e7f3cafd218e4cffa3b8a8d5e545d9f3f1c2f",
+          "seccion": "MD-L000009-L000014",
+          "sha256": "6173bf6272d83ee5b4afb5c97c201eb07d39148c606670f48e1cb0d6f4924296",
           "titulo": "Representación y ejecución",
-          "ultima_linea": 13
+          "ultima_linea": 14
         }
       ]
     },
@@ -1742,7 +1742,7 @@
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 6686,
+      "cobertura_bytes": 6882,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
       "identificador_editorial_r0": null,
@@ -1750,22 +1750,22 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/selector-arbitro-director.md",
-        "sha256": "7deacf89536be1ef97fb8fc23348e85e9b936cfff77229235b99b85c413eb991"
+        "sha256": "2212ed2272d4efe4dee95e407a2104f463a51c21e92e5e51ca344f60777d986c"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 824,
+          "fin_byte_exclusivo": 1020,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "84792523ce904bef117c78bd0f729ac2df98d6b1d2495364b6431ba1613131de",
+          "sha256": "919760d7e58b23d53787d5ef35032fdabdc0fa9f05a7ace6337a9a8cfcd4a95d",
           "titulo": "Selector del Árbitro - Director CPU/GPU/TPU/NPU",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 2248,
-          "inicio_byte": 824,
+          "fin_byte_exclusivo": 2444,
+          "inicio_byte": 1020,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000018",
           "sha256": "827e29cfc59c4c5c23f1ee573eb40419384bf699c186ed2e1471dfebb0000ed3",
@@ -1773,8 +1773,8 @@
           "ultima_linea": 18
         },
         {
-          "fin_byte_exclusivo": 3241,
-          "inicio_byte": 2248,
+          "fin_byte_exclusivo": 3437,
+          "inicio_byte": 2444,
           "primera_linea": 19,
           "seccion": "MD-L000019-L000032",
           "sha256": "b9b0c49fb19df3b160fa42e789743e51fe29e85df169a44aed0e765549c75d16",
@@ -1782,8 +1782,8 @@
           "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 4791,
-          "inicio_byte": 3241,
+          "fin_byte_exclusivo": 4987,
+          "inicio_byte": 3437,
           "primera_linea": 33,
           "seccion": "MD-L000033-L000043",
           "sha256": "eff6db41207da49edb739691d3c24840d8c38e11038ca00391e606c3722ba6d2",
@@ -1791,8 +1791,8 @@
           "ultima_linea": 43
         },
         {
-          "fin_byte_exclusivo": 5507,
-          "inicio_byte": 4791,
+          "fin_byte_exclusivo": 5703,
+          "inicio_byte": 4987,
           "primera_linea": 44,
           "seccion": "MD-L000044-L000049",
           "sha256": "99acc7c0f5c4b5e3b42312b51b7c98666163fba767b78ecab1f4730d9bd84218",
@@ -1800,8 +1800,8 @@
           "ultima_linea": 49
         },
         {
-          "fin_byte_exclusivo": 6686,
-          "inicio_byte": 5507,
+          "fin_byte_exclusivo": 6882,
+          "inicio_byte": 5703,
           "primera_linea": 50,
           "seccion": "MD-L000050-L000059",
           "sha256": "c82fbf389a570c1f27533084d7aadeb5046ec6ea053a96acdbb271282624c684",
@@ -1868,6 +1868,67 @@
           "sha256": "cec16a0df61cb8cf5d7ca501815cdc53773fb641ce33df9fc31372e34725b37f",
           "titulo": "Condiciones de comparación",
           "ultima_linea": 45
+        }
+      ]
+    },
+    {
+      "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+      "cobertura_bytes": 5351,
+      "correspondencia": "identidad_literal",
+      "documento": "MANUAL_EXPLORADOR_TENSORIAL",
+      "identificador_editorial_r0": null,
+      "libro": "manual",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/manual/src/explorador-tensorial-sv.md",
+        "sha256": "ac8e4b2879cc6740a21038a065930573c893c8b092037e3e2f71e547eaf18910"
+      },
+      "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 1097,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000015",
+          "sha256": "47589fedb6d3d1249464927291e6c1d1dd4de9fee9256d49875f8b4988d8baed",
+          "titulo": "Explorador Tensorial del SV",
+          "ultima_linea": 15
+        },
+        {
+          "fin_byte_exclusivo": 2190,
+          "inicio_byte": 1097,
+          "primera_linea": 16,
+          "seccion": "MD-L000016-L000023",
+          "sha256": "959bf0023883dc85790c92cd5f72e0ce1119fd81e2508c3a228c2fb7667f54aa",
+          "titulo": "Identificación y capacidad",
+          "ultima_linea": 23
+        },
+        {
+          "fin_byte_exclusivo": 3168,
+          "inicio_byte": 2190,
+          "primera_linea": 24,
+          "seccion": "MD-L000024-L000031",
+          "sha256": "d9cfdfdf2b7fb305d2abe810ec397ab01709ac114486194948f05953d9afe2c8",
+          "titulo": "Vigencia y ejecución",
+          "ultima_linea": 31
+        },
+        {
+          "fin_byte_exclusivo": 4520,
+          "inicio_byte": 3168,
+          "primera_linea": 32,
+          "seccion": "MD-L000032-L000041",
+          "sha256": "731bda630557b28d8f461afaccb6cef4f0b616ee9fae038a4be8f9d2c0a6b4c9",
+          "titulo": "Comprobación de la realización inicial",
+          "ultima_linea": 41
+        },
+        {
+          "fin_byte_exclusivo": 5351,
+          "inicio_byte": 4520,
+          "primera_linea": 42,
+          "seccion": "MD-L000042-L000050",
+          "sha256": "6b369faa0f12fda22f3caf7d6d419674a4ad05e4d7bd808cfe18fd155219d615",
+          "titulo": "Referencias",
+          "ultima_linea": 50
         }
       ]
     },
@@ -2785,9 +2846,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-publica-20261015-arbitro-selector-hardware",
+  "edicion": "biblioteca-publica-20261015-explorador-tensorial",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "e2513624954d7dcff0d34e5cb095da45e6c9cc256682b8f65835e67d1882d0e5",
+  "politica_sha256": "7e92a966d3673777585f7a1b6778d6b93dbc25f0740fdbbe277e60081b22151b",
   "recepcion_visual": false,
   "version": 1
 }

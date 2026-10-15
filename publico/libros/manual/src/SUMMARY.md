@@ -10,4 +10,5 @@
 
 - [Árbitro - Director](arbitro-director.md)
   - [Selector del Árbitro - Director CPU/GPU/TPU/NPU](selector-arbitro-director.md)
+    - [Explorador Tensorial del SV](explorador-tensorial-sv.md)
 - [Hardware de aceleración tensorial](hardware-aceleracion-tensorial.md)

@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-89cddc4a.js"></script>
+        <script src="toc-7fb2c56f.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -174,7 +174,7 @@
                         <h1 id="selector-del-árbitro---director-cpugputpunpu"><a class="header" href="#selector-del-árbitro---director-cpugputpunpu">Selector del Árbitro - Director CPU/GPU/TPU/NPU</a></h1>
 <p><strong>Componente subordinado al Árbitro - Director · 15 de octubre de 2026.</strong></p>
 <p>El Selector del Árbitro - Director CPU/GPU/TPU/NPU determina el dispositivo admisible para una operación concreta. Recibe una descripción de la carga, los recursos observados y la política aplicable; devuelve una elección fundamentada o el motivo por el que no existe un destino admisible. Su realización de selección está escrita en Rust.</p>
-<p>El <a href="arbitro-director.html">Árbitro - Director</a> conserva el gobierno de la actuación. El Selector no cambia el modelo, la finalidad, las fuentes ni las reglas de evaluación. Tampoco descubre, reserva o ejecuta por sí mismo los recursos: utiliza información suministrada y requiere un adaptador que realice la operación y permita comprobarla.</p>
+<p>El <a href="arbitro-director.html">Árbitro - Director</a> conserva el gobierno de la actuación. El Selector no cambia el modelo, la finalidad, las fuentes ni las reglas de evaluación. Su biblioteca de selección utiliza información suministrada y requiere un adaptador que realice la operación y permita comprobarla. La observación automática se desarrolla en el <a href="explorador-tensorial-sv.html">Explorador Tensorial del SV</a>, subordinado al Selector. Ninguno de estos hechos sustituye la reserva del recurso ni la comprobación del cálculo efectivo.</p>
 <h2 id="condiciones-de-selección"><a class="header" href="#condiciones-de-selección">Condiciones de selección</a></h2>
 <p>La petición identifica la operación, su revisión, el perfil de cálculo, las dimensiones relevantes y las necesidades de memoria, incluido el margen exigido. Cada recurso identifica el dispositivo, el adaptador y su versión, las capacidades comprobadas, la disponibilidad, la memoria utilizable y el momento de observación.</p>
 <p>El Selector descarta los destinos que incumplen las condiciones. Entre las causas se encuentran la falta de autorización, la incompatibilidad con la carga exacta, la indisponibilidad, una observación demasiado antigua, la memoria desconocida o insuficiente y la cobertura parcial de las operaciones requeridas. La presencia física de un acelerador no demuestra que pueda ejecutar el trabajo.</p>
@@ -229,7 +229,7 @@
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
-                            <a rel="next prefetch" href="hardware-aceleracion-tensorial.html" class="mobile-nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="explorador-tensorial-sv.html" class="mobile-nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
@@ -243,7 +243,7 @@
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
-                    <a rel="next prefetch" href="hardware-aceleracion-tensorial.html" class="nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="explorador-tensorial-sv.html" class="nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-publica-20261015-arbitro-selector-hardware",
+  "edicion": "biblioteca-publica-20261015-explorador-tensorial",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "088cf36f3e9a0ff2a276517c6ddf66141018a70029be6ab1bcf41eaf6dd2fee4"
+        "sha256": "6b31bc893b827c327beaea9083c965d2a6d6f59618ff098ae0b535673ba5faae"
       },
       "metadatos": [
         {
@@ -379,7 +379,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "aa3a7180f28f0efd43008a07003405781ca13b97b12bab5503c2218afc1214e5"
+            "sha256": "45b696e046a9ee1deb0788504df22e8a6768df09175e88e01fd03ec3fc52b9e0"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -469,7 +469,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/selector-arbitro-director.md",
-            "sha256": "7deacf89536be1ef97fb8fc23348e85e9b936cfff77229235b99b85c413eb991"
+            "sha256": "2212ed2272d4efe4dee95e407a2104f463a51c21e92e5e51ca344f60777d986c"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",
@@ -485,6 +485,21 @@
           "original": {
             "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
             "sha256": "290a479ed8fac9689f17ab835e07fba39521c8865e53111093ff6e4b0a9584f7"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_EXPLORADOR_TENSORIAL",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/explorador-tensorial-sv.md",
+            "sha256": "ac8e4b2879cc6740a21038a065930573c893c8b092037e3e2f71e547eaf18910"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",

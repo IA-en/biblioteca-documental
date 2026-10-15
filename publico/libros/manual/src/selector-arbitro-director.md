@@ -4,7 +4,7 @@
 
 El Selector del Árbitro - Director CPU/GPU/TPU/NPU determina el dispositivo admisible para una operación concreta. Recibe una descripción de la carga, los recursos observados y la política aplicable; devuelve una elección fundamentada o el motivo por el que no existe un destino admisible. Su realización de selección está escrita en Rust.
 
-El [Árbitro - Director](arbitro-director.md) conserva el gobierno de la actuación. El Selector no cambia el modelo, la finalidad, las fuentes ni las reglas de evaluación. Tampoco descubre, reserva o ejecuta por sí mismo los recursos: utiliza información suministrada y requiere un adaptador que realice la operación y permita comprobarla.
+El [Árbitro - Director](arbitro-director.md) conserva el gobierno de la actuación. El Selector no cambia el modelo, la finalidad, las fuentes ni las reglas de evaluación. Su biblioteca de selección utiliza información suministrada y requiere un adaptador que realice la operación y permita comprobarla. La observación automática se desarrolla en el [Explorador Tensorial del SV](explorador-tensorial-sv.md), subordinado al Selector. Ninguno de estos hechos sustituye la reserva del recurso ni la comprobación del cálculo efectivo.
 
 ## Condiciones de selección
 
