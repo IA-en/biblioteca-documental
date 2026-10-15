@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "aefc1383065512cefbb4a5ec9bb1d74e373635bfbf14ffb980d249598dc261d1",
+  "biblioteca_sha256": "207251b7d09542df4b347d95b4dc57c9dfb6b0375005ff772a168ed365423f66",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1358,7 +1358,7 @@
     },
     {
       "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
-      "cobertura_bytes": 225,
+      "cobertura_bytes": 462,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_INDICE",
       "identificador_editorial_r0": null,
@@ -1366,24 +1366,33 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/SUMMARY.md",
-        "sha256": "68d8d257ac7f63989e1d973d111995a28dfd602c8b7c4ea8527230af812d3f10"
+        "sha256": "aa3a7180f28f0efd43008a07003405781ca13b97b12bab5503c2218afc1214e5"
       },
-      "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
+      "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 225,
+          "fin_byte_exclusivo": 226,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000007",
-          "sha256": "68d8d257ac7f63989e1d973d111995a28dfd602c8b7c4ea8527230af812d3f10",
+          "seccion": "MD-L000001-L000008",
+          "sha256": "bdade2ad6cb9dcb459ff62f28699f2ac63ee99f6ae6d2ed047d28acf3e3ef2ce",
           "titulo": "Índice",
-          "ultima_linea": 7
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 462,
+          "inicio_byte": 226,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000013",
+          "sha256": "66f17a46c2218b1e908d17b50a5e7f3cafd218e4cffa3b8a8d5e545d9f3f1c2f",
+          "titulo": "Representación y ejecución",
+          "ultima_linea": 13
         }
       ]
     },
     {
       "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
-      "cobertura_bytes": 2583,
+      "cobertura_bytes": 3016,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_PRESENTACION",
       "identificador_editorial_r0": null,
@@ -1391,22 +1400,22 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/presentacion.md",
-        "sha256": "9454047ed043b4b33729e9aa248533c33ba0a64e9a2d5093b585f29be9784242"
+        "sha256": "21ffdf45b34f1a70b75ec166dee3af957192f274c83748c3f121b1a77436d39f"
       },
-      "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
+      "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 456,
+          "fin_byte_exclusivo": 629,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "98e20f68e63ecf584de030cf60a8df156651f563de96eaaad458f0f5aa2a6062",
+          "sha256": "bacefbc4f13b83a116549ee8bcfb24579260f68a06275e3c8ccba0e3ad8066e1",
           "titulo": "Manual del Lenguaje de Computación SV",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1144,
-          "inicio_byte": 456,
+          "fin_byte_exclusivo": 1317,
+          "inicio_byte": 629,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000012",
           "sha256": "b2200f81933bbdb1129f2eefc76ea59c0003f0a38962fd6ad299d5206d9358c0",
@@ -1414,28 +1423,28 @@
           "ultima_linea": 12
         },
         {
-          "fin_byte_exclusivo": 1881,
-          "inicio_byte": 1144,
+          "fin_byte_exclusivo": 2314,
+          "inicio_byte": 1317,
           "primera_linea": 13,
-          "seccion": "MD-L000013-L000020",
-          "sha256": "e647c5bc0f6c809d4600fedc57b2fb19f334d50d6a9cbdb1590fa5e2937e1b6b",
+          "seccion": "MD-L000013-L000022",
+          "sha256": "5bf54c1d153777bcbd092084a8371baf42ee42627e7ff423fd208ee5e1e116cf",
           "titulo": "Lectura recomendada",
-          "ultima_linea": 20
+          "ultima_linea": 22
         },
         {
-          "fin_byte_exclusivo": 2583,
-          "inicio_byte": 1881,
-          "primera_linea": 21,
-          "seccion": "MD-L000021-L000027",
+          "fin_byte_exclusivo": 3016,
+          "inicio_byte": 2314,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000029",
           "sha256": "29ae9d5da29711f5ffef680724020dd5003ea00f3a9d33831d8cc8da9df889d1",
           "titulo": "Fuentes y versiones",
-          "ultima_linea": 27
+          "ultima_linea": 29
         }
       ]
     },
     {
       "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
-      "cobertura_bytes": 2841,
+      "cobertura_bytes": 3013,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_CONSTRUCTOR",
       "identificador_editorial_r0": null,
@@ -1443,9 +1452,9 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/constructor.md",
-        "sha256": "f4a4c0c3dd465f74072f6ae6453b806ff1f5f8bfca5d41a3ba1918ea8e46c9c0"
+        "sha256": "148450867f213803bd045e2068e94355404674e9d884078b4b55d990d0f94240"
       },
-      "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
+      "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
       "secciones": [
         {
           "fin_byte_exclusivo": 337,
@@ -1457,17 +1466,17 @@
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1526,
+          "fin_byte_exclusivo": 1698,
           "inicio_byte": 337,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000022",
-          "sha256": "1b31b0bd30d6998322d74f57de617b96fc580c5ef0c2e7ffbee5f7e187d00ac4",
+          "sha256": "60a96be43967b995164b70fab33f712bdf74470d0377586fa05e8f0feecb205f",
           "titulo": "Materias del manual",
           "ultima_linea": 22
         },
         {
-          "fin_byte_exclusivo": 2120,
-          "inicio_byte": 1526,
+          "fin_byte_exclusivo": 2292,
+          "inicio_byte": 1698,
           "primera_linea": 23,
           "seccion": "MD-L000023-L000028",
           "sha256": "ecea8edc7462568086c0f7970763731a0299e835f0b7ca8fa434cc589af28f5a",
@@ -1475,8 +1484,8 @@
           "ultima_linea": 28
         },
         {
-          "fin_byte_exclusivo": 2841,
-          "inicio_byte": 2120,
+          "fin_byte_exclusivo": 3013,
+          "inicio_byte": 2292,
           "primera_linea": 29,
           "seccion": "MD-L000029-L000035",
           "sha256": "6b7ea465572f269b6a5312034d2257555f63d4217388d7f341adda11dd4ca03c",
@@ -1539,7 +1548,7 @@
     },
     {
       "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
-      "cobertura_bytes": 12696,
+      "cobertura_bytes": 13129,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_PARAMETROS_RUTAS",
       "identificador_editorial_r0": null,
@@ -1547,9 +1556,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/parametros-rutas.md",
-        "sha256": "c35013007bc6e2664a85f62b8f7957b286ef8865c407d5269b5a781914a975e9"
+        "sha256": "a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb"
       },
-      "procedencia": "Edición pública propia de 12/10/2026 con ejemplos explicativos y bibliografía identificada.",
+      "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
       "secciones": [
         {
           "fin_byte_exclusivo": 518,
@@ -1633,31 +1642,232 @@
           "ultima_linea": 81
         },
         {
-          "fin_byte_exclusivo": 10388,
+          "fin_byte_exclusivo": 10821,
           "inicio_byte": 8350,
           "primera_linea": 82,
-          "seccion": "MD-L000082-L000093",
-          "sha256": "a251f06230bac56bd17e5055959d991a3353091385a389d93e6fbdf4f550364d",
+          "seccion": "MD-L000082-L000095",
+          "sha256": "76be7dd3b33d39c416c625e399c3bc804f1128f41da219b996095a1160b2b55d",
           "titulo": "Condiciones de una operación matricial",
-          "ultima_linea": 93
+          "ultima_linea": 95
         },
         {
-          "fin_byte_exclusivo": 11066,
-          "inicio_byte": 10388,
-          "primera_linea": 94,
-          "seccion": "MD-L000094-L000099",
+          "fin_byte_exclusivo": 11499,
+          "inicio_byte": 10821,
+          "primera_linea": 96,
+          "seccion": "MD-L000096-L000101",
           "sha256": "0bd82ba3273ce7b049fb6033738ff34165e39c710bc5bcd13413e61d580ac045",
           "titulo": "Condiciones para declarar una capacidad disponible",
-          "ultima_linea": 99
+          "ultima_linea": 101
         },
         {
-          "fin_byte_exclusivo": 12696,
-          "inicio_byte": 11066,
-          "primera_linea": 100,
-          "seccion": "MD-L000100-L000111",
+          "fin_byte_exclusivo": 13129,
+          "inicio_byte": 11499,
+          "primera_linea": 102,
+          "seccion": "MD-L000102-L000113",
           "sha256": "8071459fe80fa00fa897854d6594b20ccd37e2d23233cbb1ba14c7911f83ce37",
           "titulo": "Referencias",
-          "ultima_linea": 111
+          "ultima_linea": 113
+        }
+      ]
+    },
+    {
+      "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+      "cobertura_bytes": 5676,
+      "correspondencia": "identidad_literal",
+      "documento": "MANUAL_ARBITRO_DIRECTOR",
+      "identificador_editorial_r0": null,
+      "libro": "manual",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/manual/src/arbitro-director.md",
+        "sha256": "ebe72bf36ab3cf88713fa051038ec4debca5f859f2e4883f3ab017703442fd14"
+      },
+      "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 782,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000008",
+          "sha256": "d8e166c445676cf37be0228a8d37657573126875f41b71e4b0dc846cbf003d60",
+          "titulo": "Árbitro - Director",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 2105,
+          "inicio_byte": 782,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000022",
+          "sha256": "3bbee2075f68d9ec00088773c41cf2aab43db3bfd26433378fcd494b6a91cff2",
+          "titulo": "Responsabilidad y alcance",
+          "ultima_linea": 22
+        },
+        {
+          "fin_byte_exclusivo": 3004,
+          "inicio_byte": 2105,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000030",
+          "sha256": "bee0a38af02dfd4a9a995c0aa2e90c017b6ee83bbe9a9d7e1ee3705922a3bac3",
+          "titulo": "Documentos y herramientas",
+          "ultima_linea": 30
+        },
+        {
+          "fin_byte_exclusivo": 4135,
+          "inicio_byte": 3004,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000040",
+          "sha256": "48f652392884a7bbe311c193d64cc289f4664934c19950e029693a638b9e68e2",
+          "titulo": "Relación con el Selector",
+          "ultima_linea": 40
+        },
+        {
+          "fin_byte_exclusivo": 4872,
+          "inicio_byte": 4135,
+          "primera_linea": 41,
+          "seccion": "MD-L000041-L000046",
+          "sha256": "9836351b0755a93175b06ebc62c2e9a7f44efbc80d97fadabb5335aedb7e651c",
+          "titulo": "Incidencias y significado del resultado",
+          "ultima_linea": 46
+        },
+        {
+          "fin_byte_exclusivo": 5676,
+          "inicio_byte": 4872,
+          "primera_linea": 47,
+          "seccion": "MD-L000047-L000055",
+          "sha256": "53375c49eeba4e2deff622ecc577b809b6cad7117e37ad6d45f8ca231624b5d3",
+          "titulo": "Referencias",
+          "ultima_linea": 55
+        }
+      ]
+    },
+    {
+      "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+      "cobertura_bytes": 6666,
+      "correspondencia": "identidad_literal",
+      "documento": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
+      "identificador_editorial_r0": null,
+      "libro": "manual",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/manual/src/selector-arbitro-director.md",
+        "sha256": "80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5"
+      },
+      "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 824,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000008",
+          "sha256": "84792523ce904bef117c78bd0f729ac2df98d6b1d2495364b6431ba1613131de",
+          "titulo": "Selector del Árbitro - Director CPU/GPU/TPU/NPU",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 2248,
+          "inicio_byte": 824,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000018",
+          "sha256": "827e29cfc59c4c5c23f1ee573eb40419384bf699c186ed2e1471dfebb0000ed3",
+          "titulo": "Condiciones de selección",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 3241,
+          "inicio_byte": 2248,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000032",
+          "sha256": "b9b0c49fb19df3b160fa42e789743e51fe29e85df169a44aed0e765549c75d16",
+          "titulo": "De la decisión a la comprobación",
+          "ultima_linea": 32
+        },
+        {
+          "fin_byte_exclusivo": 4791,
+          "inicio_byte": 3241,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000043",
+          "sha256": "eff6db41207da49edb739691d3c24840d8c38e11038ca00391e606c3722ba6d2",
+          "titulo": "Ejemplos comprobados",
+          "ultima_linea": 43
+        },
+        {
+          "fin_byte_exclusivo": 5487,
+          "inicio_byte": 4791,
+          "primera_linea": 44,
+          "seccion": "MD-L000044-L000049",
+          "sha256": "95d98a078dccd90239749b1112a5c15dc8e4906701e1d9617a97e0fd7d54101b",
+          "titulo": "Alcance de la realización",
+          "ultima_linea": 49
+        },
+        {
+          "fin_byte_exclusivo": 6666,
+          "inicio_byte": 5487,
+          "primera_linea": 50,
+          "seccion": "MD-L000050-L000059",
+          "sha256": "df1d8249ce72928ebf5165bb54c9d354ddaeee570ecb9f1bd6b808800395197f",
+          "titulo": "Referencias",
+          "ultima_linea": 59
+        }
+      ]
+    },
+    {
+      "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+      "cobertura_bytes": 5697,
+      "correspondencia": "identidad_literal",
+      "documento": "MANUAL_HARDWARE_ACELERACION",
+      "identificador_editorial_r0": null,
+      "libro": "manual",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
+        "sha256": "481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538"
+      },
+      "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 754,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000008",
+          "sha256": "3b9370f0f912c6fd40152735bd931ece3b7508d20ff0ef9e4ef828dc50184482",
+          "titulo": "Hardware de aceleración tensorial",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 1816,
+          "inicio_byte": 754,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000019",
+          "sha256": "1cde847a795a07125c3f66793fcafd9b8323ef44f676de1c4df702b425485e04",
+          "titulo": "Clases de dispositivos",
+          "ultima_linea": 19
+        },
+        {
+          "fin_byte_exclusivo": 3727,
+          "inicio_byte": 1816,
+          "primera_linea": 20,
+          "seccion": "MD-L000020-L000030",
+          "sha256": "7b04fea1116898f2d6f700ee06b08df397c92dae70b26f94637dc2aaed8bb482",
+          "titulo": "Dispositivos observados en los ensayos",
+          "ultima_linea": 30
+        },
+        {
+          "fin_byte_exclusivo": 4559,
+          "inicio_byte": 3727,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000036",
+          "sha256": "bac2a3a77029756ef1e4b3e7f4d1005fa21e3e179fbbd761ccb0ba4b3c26426b",
+          "titulo": "Realización en Rust y soporte del dispositivo",
+          "ultima_linea": 36
+        },
+        {
+          "fin_byte_exclusivo": 5697,
+          "inicio_byte": 4559,
+          "primera_linea": 37,
+          "seccion": "MD-L000037-L000045",
+          "sha256": "cec16a0df61cb8cf5d7ca501815cdc53773fb641ce33df9fc31372e34725b37f",
+          "titulo": "Condiciones de comparación",
+          "ultima_linea": 45
         }
       ]
     },
@@ -2575,9 +2785,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-publica-20261014-evaluacion-es",
+  "edicion": "biblioteca-publica-20261015-arbitro-selector-hardware",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "c48eafbbb4772dd8dfa62c14656bff570f69721313a698787095c9bd91a1ba65",
+  "politica_sha256": "b16e27f6f98ece6c18a573cc3bbbfb55114b85e6f2cfc391ed87f869de56a1fa",
   "recepcion_visual": false,
   "version": 1
 }

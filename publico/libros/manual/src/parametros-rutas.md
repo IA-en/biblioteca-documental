@@ -91,6 +91,8 @@ El diseño exige una realización de referencia, equivalencia de resultados y re
 
 Los tensores internos de un LLM son parte de su propio funcionamiento. Un vector del SV escrito en una petición no constituye evidencia de que el modelo haya ejecutado su contrato en GPU o TPU. Deben registrarse la operación concreta del SV, la entrada efectiva del modelo y la comprobación del resultado. El rendimiento y la fidelidad de ese recorrido son cuestiones que deben medirse separadamente.
 
+El gobierno de la actuación corresponde al [Árbitro - Director](arbitro-director.md). El [Selector](selector-arbitro-director.md) concreta la elección de dispositivo para una carga admitida; el capítulo de [hardware de aceleración tensorial](hardware-aceleracion-tensorial.md) identifica los entornos ya comprobados. Las pruebas con tensores de modelos no sustituyen las condiciones de representación celular expuestas aquí.
+
 ## Condiciones para declarar una capacidad disponible
 
 Una capacidad debe contar con una definición compatible con los contratos vigentes, una realización en Rust y evidencia de comprobación. Los cambios de significado o de representación formal requieren aprobación expresa y una versión identificada.

@@ -15,7 +15,7 @@ El Lenguaje de Computación SV expresa definiciones, estados, evaluaciones y rel
 | Frame y trayectoria | Representación del estado, transiciones y conservación de antecedentes. |
 | Consulta | Pregunta, contexto, respuesta, justificación y datos asociados. |
 | Diagnósticos | Errores estructurales y construcciones no admitidas. |
-| Representación y ejecución | Uso del intérprete, intercambio de datos y realización en Rust. |
+| Representación y ejecución | Uso del intérprete, intercambio de datos y realización en Rust. [Árbitro - Director](arbitro-director.md), [Selector subordinado](selector-arbitro-director.md) y [hardware de aceleración tensorial](hardware-aceleracion-tensorial.md). |
 | Compatibilidad | Comunicación con otros lenguajes conservando el significado del SV. |
 
 Esta organización delimita materias; no acredita que todas estén desarrolladas en la presente edición. Los textos disponibles se encuentran en el índice lateral.

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-publica-20261014-evaluacion-es",
+  "edicion": "biblioteca-publica-20261015-arbitro-selector-hardware",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "473ff1020f93115c822ddc9a967133a8a7be2462f3ecac7c8f957ae91b0b4b73"
+        "sha256": "cd468c564169693e9dfae7e3b39b4581b182fcdfb5e1cec8d7d7f1343ad201b4"
       },
       "metadatos": [
         {
@@ -379,9 +379,9 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "68d8d257ac7f63989e1d973d111995a28dfd602c8b7c4ea8527230af812d3f10"
+            "sha256": "aa3a7180f28f0efd43008a07003405781ca13b97b12bab5503c2218afc1214e5"
           },
-          "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
           "sintetico": false,
           "visibilidad": "publica",
@@ -394,9 +394,9 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "9454047ed043b4b33729e9aa248533c33ba0a64e9a2d5093b585f29be9784242"
+            "sha256": "21ffdf45b34f1a70b75ec166dee3af957192f274c83748c3f121b1a77436d39f"
           },
-          "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
           "sintetico": false,
           "visibilidad": "publica",
@@ -409,9 +409,9 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/constructor.md",
-            "sha256": "f4a4c0c3dd465f74072f6ae6453b806ff1f5f8bfca5d41a3ba1918ea8e46c9c0"
+            "sha256": "148450867f213803bd045e2068e94355404674e9d884078b4b55d990d0f94240"
           },
-          "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
           "sintetico": false,
           "visibilidad": "publica",
@@ -441,13 +441,58 @@
           "identificador_editorial_r0": null,
           "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública propia de 12/10/2026 con ejemplos explicativos y bibliografía identificada.",
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/manual/src/parametros-rutas.md",
-            "sha256": "c35013007bc6e2664a85f62b8f7957b286ef8865c407d5269b5a781914a975e9"
+            "sha256": "a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb"
           },
           "sintetico": false
+        },
+        {
+          "documento": "MANUAL_ARBITRO_DIRECTOR",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/arbitro-director.md",
+            "sha256": "ebe72bf36ab3cf88713fa051038ec4debca5f859f2e4883f3ab017703442fd14"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/selector-arbitro-director.md",
+            "sha256": "80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_HARDWARE_ACELERACION",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
+            "sha256": "481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
         }
       ]
     },

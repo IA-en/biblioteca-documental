@@ -29,7 +29,7 @@
         <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
-        <link rel="stylesheet" href="biblioteca-aeb7c4cf.css">
+        <link rel="stylesheet" href="biblioteca-60f47e18.css">
 
 
         <!-- Provide site root and default themes to javascript -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-f1bdbe00.js"></script>
+        <script src="toc-89cddc4a.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -170,7 +170,7 @@
   <p>La traducción automática facilita la lectura. Contraste términos, fórmulas y sentido con el original.</p>
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
-<nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · 12/10/2026 · Original en español</p></nav>
+<nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · 15/10/2026 · Original en español</p></nav>
                         <h1 id="parámetros-recorridos-y-evidencia-requisitos-de-integración"><a class="header" href="#parámetros-recorridos-y-evidencia-requisitos-de-integración">Parámetros, recorridos y evidencia: requisitos de integración</a></h1>
 <p><strong>Complemento documental · 12 de octubre de 2026 · Conceptos de diseño y requisitos de integración.</strong></p>
 <p>Este capítulo explica qué debe poder representar y preservar el Lenguaje de Computación SV al relacionarse con Universos, fuentes documentales y valoraciones. No define sintaxis nueva ni acredita que esas funciones estén implementadas. El desarrollo conceptual se consulta en <a href="../../universos/parametros-rutas.html">Dominios y universos</a>.</p>
@@ -222,6 +222,7 @@
 <p>Rust puede dirigir cómputo GPU mediante interfaces específicas, como documenta <a href="https://wgpu.rs/doc/wgpu/struct.ComputePipeline.html">wgpu</a>. Este ejemplo acredita una posibilidad técnica, no una selección ni integración en el SV. GPU y TPU requieren soportes y operaciones adecuados a cada dispositivo; su rendimiento no se deduce del formato tensorial.</p>
 <p>El diseño exige una realización de referencia, equivalencia de resultados y rechazos, conservación de identidad y versiones, y medición completa de preparación, transferencia, cálculo y recuperación. La <a href="https://docs.nvidia.com/cuda/floating-point/index.html">aritmética en coma flotante</a> requiere especial atención al orden de las operaciones. La ejecución acelerada no puede alterar estados ternarios, umbrales o decisiones mediante aproximaciones inadvertidas.</p>
 <p>Los tensores internos de un LLM son parte de su propio funcionamiento. Un vector del SV escrito en una petición no constituye evidencia de que el modelo haya ejecutado su contrato en GPU o TPU. Deben registrarse la operación concreta del SV, la entrada efectiva del modelo y la comprobación del resultado. El rendimiento y la fidelidad de ese recorrido son cuestiones que deben medirse separadamente.</p>
+<p>El gobierno de la actuación corresponde al <a href="arbitro-director.html">Árbitro - Director</a>. El <a href="selector-arbitro-director.html">Selector</a> concreta la elección de dispositivo para una carga admitida; el capítulo de <a href="hardware-aceleracion-tensorial.html">hardware de aceleración tensorial</a> identifica los entornos ya comprobados. Las pruebas con tensores de modelos no sustituyen las condiciones de representación celular expuestas aquí.</p>
 <h2 id="condiciones-para-declarar-una-capacidad-disponible"><a class="header" href="#condiciones-para-declarar-una-capacidad-disponible">Condiciones para declarar una capacidad disponible</a></h2>
 <p>Una capacidad debe contar con una definición compatible con los contratos vigentes, una realización en Rust y evidencia de comprobación. Los cambios de significado o de representación formal requieren aprobación expresa y una versión identificada.</p>
 <p>Los requisitos de este capítulo exigen comprobar, al menos, la distinción entre valoraciones de pertenencia y decisión; la propiedad única; la correspondencia de las selecciones documentales; las dependencias obligatorias; y la coincidencia entre estado y representación gráfica. Se presentan como condiciones de verificación, no como resultados ya obtenidos.</p>
@@ -247,6 +248,9 @@
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
+                            <a rel="next prefetch" href="arbitro-director.html" class="mobile-nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                                <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                            </a>
 
                         <div style="clear: both"></div>
                     </nav>
@@ -258,6 +262,9 @@
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
+                    <a rel="next prefetch" href="arbitro-director.html" class="nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                        <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
+                    </a>
             </nav>
 
         </div>
@@ -281,7 +288,7 @@
         <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="presentacion-3bf5659a.js"></script>
+        <script src="presentacion-0cfc7f9c.js"></script>
 
 
 

@@ -30,7 +30,7 @@
         <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
-        <link rel="stylesheet" href="biblioteca-aeb7c4cf.css">
+        <link rel="stylesheet" href="biblioteca-60f47e18.css">
 
 
         <!-- Provide site root and default themes to javascript -->
@@ -40,7 +40,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-f1bdbe00.js"></script>
+        <script src="toc-89cddc4a.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -171,18 +171,27 @@
   <p>La traducción automática facilita la lectura. Contraste términos, fórmulas y sentido con el original.</p>
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
-<nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · 12/10/2026 · Original en español</p></nav>
+<nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · 15/10/2026 · Original en español</p></nav>
                         <h1 id="manual-del-lenguaje-de-computación-sv"><a class="header" href="#manual-del-lenguaje-de-computación-sv">Manual del Lenguaje de Computación SV</a></h1>
-<p><strong>Edición de consulta · 12 de octubre de 2026 · Original en español.</strong></p>
-<p>Este manual reúne explicaciones sobre el Lenguaje de Computación SV, su relación con el conocimiento de los Universos y las condiciones que debe preservar una ejecución. La edición disponible comprende el ámbito del lenguaje, los principios de compatibilidad y los requisitos de representación de parámetros, rutas y evidencias.</p>
+<p><strong>Edición de consulta · 15 de octubre de 2026 · Original en español.</strong></p>
+<p>Este manual reúne explicaciones sobre el Lenguaje de Computación SV, su relación con el conocimiento de los Universos y las condiciones que debe preservar una ejecución. La edición disponible comprende el ámbito del lenguaje, los principios de compatibilidad y los requisitos de representación de parámetros, rutas y evidencias. Incorpora también el gobierno de la ejecución por el Árbitro - Director, la selección subordinada del dispositivo de cálculo y las condiciones del hardware comprobado.</p>
 <h2 id="alcance-de-la-edición"><a class="header" href="#alcance-de-la-edición">Alcance de la edición</a></h2>
 <p>El manual está incompleto: todavía no ofrece una exposición integral de la sintaxis, las operaciones y los diagnósticos del lenguaje. La <a href="#ámbito-y-organización-del-lenguaje">organización temática</a> permite reconocer esas materias. Los capítulos disponibles identifican expresamente los conceptos de diseño y los requisitos pendientes de comprobación.</p>
 <p>El pliego, la gramática, la representación intermedia —la estructura formal que permite interpretar y ejecutar el lenguaje— y los contratos vigentes determinan su significado. Este manual los explica; una propuesta descrita en sus páginas no modifica por sí sola esas reglas ni acredita una función disponible.</p>
 <h2 id="lectura-recomendada"><a class="header" href="#lectura-recomendada">Lectura recomendada</a></h2>
 <ol>
-<li>Consulte el <a href="#ámbito-y-organización-del-lenguaje">ámbito y la organización temática</a> para situar las materias.</li>
-<li>Examine los <a href="#compatibilidad-con-otros-lenguajes">principios de compatibilidad</a> para comprender qué debe conservar la comunicación con otros lenguajes.</li>
-<li>Lea los <a href="#parámetros-recorridos-y-evidencia-requisitos-de-integración">requisitos de parámetros, recorridos y evidencia</a> para relacionar conocimiento, decisiones, representación gráfica y ejecución.</li>
+<li>
+<p>Consulte el <a href="#ámbito-y-organización-del-lenguaje">ámbito y la organización temática</a> para situar las materias.</p>
+</li>
+<li>
+<p>Examine los <a href="#compatibilidad-con-otros-lenguajes">principios de compatibilidad</a> para comprender qué debe conservar la comunicación con otros lenguajes.</p>
+</li>
+<li>
+<p>Lea los <a href="#parámetros-recorridos-y-evidencia-requisitos-de-integración">requisitos de parámetros, recorridos y evidencia</a> para relacionar conocimiento, decisiones, representación gráfica y ejecución.</p>
+</li>
+<li>
+<p>Continúe con el <a href="#árbitro---director">Árbitro - Director</a>, su <a href="#selector-del-árbitro---director-cpugputpunpu">Selector</a> y el <a href="#hardware-de-aceleración-tensorial">hardware de aceleración tensorial</a> para distinguir gobierno, elección del dispositivo y ejecución física.</p>
+</li>
 </ol>
 <p>El libro <a href="../../universos/index.html">Dominios y universos del Sistema Vectorial SV</a> desarrolla las definiciones y los ejemplos conceptuales. Las operaciones de lectura, autorización y entrega de fuentes se explican en el <a href="../../../documentacion/reglas-usos-descripciones-documentales/index.html">libro documental</a>.</p>
 <h2 id="fuentes-y-versiones"><a class="header" href="#fuentes-y-versiones">Fuentes y versiones</a></h2>
@@ -208,7 +217,7 @@
 <tr><td>Frame y trayectoria</td><td>Representación del estado, transiciones y conservación de antecedentes.</td></tr>
 <tr><td>Consulta</td><td>Pregunta, contexto, respuesta, justificación y datos asociados.</td></tr>
 <tr><td>Diagnósticos</td><td>Errores estructurales y construcciones no admitidas.</td></tr>
-<tr><td>Representación y ejecución</td><td>Uso del intérprete, intercambio de datos y realización en Rust.</td></tr>
+<tr><td>Representación y ejecución</td><td>Uso del intérprete, intercambio de datos y realización en Rust. <a href="#árbitro---director">Árbitro - Director</a>, <a href="#selector-del-árbitro---director-cpugputpunpu">Selector subordinado</a> y <a href="#hardware-de-aceleración-tensorial">hardware de aceleración tensorial</a>.</td></tr>
 <tr><td>Compatibilidad</td><td>Comunicación con otros lenguajes conservando el significado del SV.</td></tr>
 </tbody>
 </table>
@@ -285,6 +294,7 @@
 <p>Rust puede dirigir cómputo GPU mediante interfaces específicas, como documenta <a href="https://wgpu.rs/doc/wgpu/struct.ComputePipeline.html">wgpu</a>. Este ejemplo acredita una posibilidad técnica, no una selección ni integración en el SV. GPU y TPU requieren soportes y operaciones adecuados a cada dispositivo; su rendimiento no se deduce del formato tensorial.</p>
 <p>El diseño exige una realización de referencia, equivalencia de resultados y rechazos, conservación de identidad y versiones, y medición completa de preparación, transferencia, cálculo y recuperación. La <a href="https://docs.nvidia.com/cuda/floating-point/index.html">aritmética en coma flotante</a> requiere especial atención al orden de las operaciones. La ejecución acelerada no puede alterar estados ternarios, umbrales o decisiones mediante aproximaciones inadvertidas.</p>
 <p>Los tensores internos de un LLM son parte de su propio funcionamiento. Un vector del SV escrito en una petición no constituye evidencia de que el modelo haya ejecutado su contrato en GPU o TPU. Deben registrarse la operación concreta del SV, la entrada efectiva del modelo y la comprobación del resultado. El rendimiento y la fidelidad de ese recorrido son cuestiones que deben medirse separadamente.</p>
+<p>El gobierno de la actuación corresponde al <a href="#árbitro---director">Árbitro - Director</a>. El <a href="#selector-del-árbitro---director-cpugputpunpu">Selector</a> concreta la elección de dispositivo para una carga admitida; el capítulo de <a href="#hardware-de-aceleración-tensorial">hardware de aceleración tensorial</a> identifica los entornos ya comprobados. Las pruebas con tensores de modelos no sustituyen las condiciones de representación celular expuestas aquí.</p>
 <h2 id="condiciones-para-declarar-una-capacidad-disponible"><a class="header" href="#condiciones-para-declarar-una-capacidad-disponible">Condiciones para declarar una capacidad disponible</a></h2>
 <p>Una capacidad debe contar con una definición compatible con los contratos vigentes, una realización en Rust y evidencia de comprobación. Los cambios de significado o de representación formal requieren aprobación expresa y una versión identificada.</p>
 <p>Los requisitos de este capítulo exigen comprobar, al menos, la distinción entre valoraciones de pertenencia y decisión; la propiedad única; la correspondencia de las selecciones documentales; las dependencias obligatorias; y la coincidencia entre estado y representación gráfica. Se presentan como condiciones de verificación, no como resultados ya obtenidos.</p>
@@ -296,6 +306,138 @@
 <li><a href="https://github.com/juantoniolloretegea/SV-motor/blob/8d3aeda0bf8b7ba71fdde9af4f973b5b41a21638/laboratorio/sistema-conjunto-lenguaje-computacion-ia-gobernada/NECESIDADES-PARAMETROS-RUTAS-Y-TRAZABILIDAD.md">Especificación de necesidades del sistema conjunto</a>.</li>
 </ul>
 <p>La especificación documenta requisitos y una propuesta en evaluación. No sustituye el pliego, la gramática, la representación intermedia ni las recepciones competentes del Lenguaje.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="árbitro---director"><a class="header" href="#árbitro---director">Árbitro - Director</a></h1>
+<p><strong>Representación y ejecución · 15 de octubre de 2026.</strong></p>
+<p>El Árbitro - Director es el componente del Sistema Vectorial que gobierna una ejecución conforme a sus condiciones autorizadas. Relaciona la solicitud, el modelo identificado, los documentos admitidos, las operaciones permitidas y la evidencia obtenida. Su actuación se define mediante reglas explícitas realizadas en Rust.</p>
+<p>Su función comprende el control del recorrido completo: qué puede comenzar, qué debe conservarse durante la ejecución y qué comprobaciones permiten recibir su resultado. La selección del dispositivo de cálculo constituye una función subordinada, desarrollada en el capítulo del <a href="#selector-del-árbitro---director-cpugputpunpu">Selector del Árbitro - Director CPU/GPU/TPU/NPU</a>.</p>
+<h2 id="responsabilidad-y-alcance"><a class="header" href="#responsabilidad-y-alcance">Responsabilidad y alcance</a></h2>
+<p>El dominio y los contratos aplicables determinan las obligaciones de la actuación. El Árbitro - Director comprueba y aplica esas condiciones; el modelo y los documentos consultados no pueden modificarlas durante la ejecución. La incorporación de una fuente tampoco concede por sí sola permiso para emplearla en cualquier finalidad.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Momento</th><th>Función del Árbitro - Director</th></tr>
+</thead>
+<tbody>
+<tr><td>Preparación</td><td>Identificar la solicitud, el modelo y su versión, el perfil de ejecución, las fuentes y los límites aplicables.</td></tr>
+<tr><td>Admisión</td><td>Comprobar disponibilidad, integridad, cobertura documental, aislamiento de información reservada y capacidad efectiva de entrada.</td></tr>
+<tr><td>Ejecución</td><td>Permitir las operaciones previstas, comprobar sus argumentos y conservar entradas, respuestas y sucesos.</td></tr>
+<tr><td>Recepción</td><td>Contrastar finalización, estructura, referencias, integridad y correspondencia con la actuación solicitada.</td></tr>
+<tr><td>Conservación</td><td>Vincular los resultados y las incidencias a las versiones y condiciones que los produjeron.</td></tr>
+</tbody>
+</table>
+</div>
+<p>El diseño general reúne estas funciones. Las realizaciones experimentales disponibles demuestran recorridos delimitados; su existencia no acredita que todos los modelos, conectores o dispositivos puedan utilizarlos sin adaptación y comprobación.</p>
+<h2 id="documentos-y-herramientas"><a class="header" href="#documentos-y-herramientas">Documentos y herramientas</a></h2>
+<p>La preparación identifica las fuentes y los pasajes requeridos. Cuando interviene una herramienta documental, deben comprobarse tanto la petición como la respuesta: documento, versión, localizador, extensión y correspondencia del contenido. Una referencia correcta no compensa la omisión de una condición relevante.</p>
+<p>Antes de generar una respuesta se verifica la entrada efectiva, incluida su representación para el modelo, su extensión y la capacidad reservada para la salida. La falta de espacio no autoriza a recortar o resumir automáticamente los documentos. Debe resolverse conforme a las condiciones de la actuación.</p>
+<p>En un examen, las respuestas reservadas para la corrección permanecen separadas de la información entregada al modelo. El control de esa separación forma parte del recorrido, al igual que la conservación de la respuesta original.</p>
+<h2 id="relación-con-el-selector"><a class="header" href="#relación-con-el-selector">Relación con el Selector</a></h2>
+<p>Una vez admitida la operación, el Árbitro - Director solicita al Selector un destino compatible con la carga y con la política autorizada. El Selector devuelve la elección y su fundamento, o identifica la ausencia de un destino admisible. El adaptador correspondiente realiza la ejecución y devuelve los resultados y las medidas que permiten contrastar lo ocurrido.</p>
+<p><strong>Solicitud admitida → selección del dispositivo → ejecución observada → recepción del resultado.</strong></p>
+<p>La elección de una GPU o una TPU no demuestra por sí sola que se haya calculado en ella. Deben coincidir la decisión, el dispositivo utilizado y la evidencia de ejecución. La CPU puede seguir realizando control, preparación, transferencias y recuperación mientras el acelerador efectúa el cálculo asignado.</p>
+<p>Este control es aplicable a los modelos y motores que el SV pueda ejecutar bajo su gestión, incluido un motor de traducción. Cuando se consulta una IA externa por una interfaz de servicio, la selección de sus dispositivos pertenece al proveedor; el SV sólo puede dirigir los recursos que controla.</p>
+<h2 id="incidencias-y-significado-del-resultado"><a class="header" href="#incidencias-y-significado-del-resultado">Incidencias y significado del resultado</a></h2>
+<p>Una falta de integridad, una fuente obligatoria ausente o una operación incompatible impide continuar el recorrido afectado. Deben conservarse la causa y los resultados parciales existentes. La incidencia no concede permiso para cambiar silenciosamente el modelo, los documentos o el dispositivo.</p>
+<p>La finalización técnica y la corrección del contenido son cuestiones distintas. Una respuesta puede cumplir el formato y citar un documento, pero interpretar incorrectamente una excepción. Del mismo modo, un error de ejecución no constituye por sí solo una valoración U. Los valores 0, 1 y U corresponden a la cuestión evaluada y a sus reglas, no al estado incidental de una máquina.</p>
+<h2 id="referencias-1"><a class="header" href="#referencias-1">Referencias</a></h2>
+<ul>
+<li><a href="https://github.com/juantoniolloretegea/SV-motor/blob/32239f974af3a6367efd75d36ba984a6c2fc747e/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/controlador-pictograma-algoritmo/DISENO.md">Diseño del Árbitro - Director y condiciones del recorrido documental</a>.</li>
+<li><a href="#selector-del-árbitro---director-cpugputpunpu">Selector: criterios, ejecución y límites comprobados</a>.</li>
+<li><a href="#parámetros-recorridos-y-evidencia-requisitos-de-integración">Parámetros, recorridos y evidencia</a>.</li>
+</ul>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="selector-del-árbitro---director-cpugputpunpu"><a class="header" href="#selector-del-árbitro---director-cpugputpunpu">Selector del Árbitro - Director CPU/GPU/TPU/NPU</a></h1>
+<p><strong>Componente subordinado al Árbitro - Director · 15 de octubre de 2026.</strong></p>
+<p>El Selector del Árbitro - Director CPU/GPU/TPU/NPU determina el dispositivo admisible para una operación concreta. Recibe una descripción de la carga, los recursos observados y la política aplicable; devuelve una elección fundamentada o el motivo por el que no existe un destino admisible. Su realización de selección está escrita en Rust.</p>
+<p>El <a href="#árbitro---director">Árbitro - Director</a> conserva el gobierno de la actuación. El Selector no cambia el modelo, la finalidad, las fuentes ni las reglas de evaluación. Tampoco descubre, reserva o ejecuta por sí mismo los recursos: utiliza información suministrada y requiere un adaptador que realice la operación y permita comprobarla.</p>
+<h2 id="condiciones-de-selección"><a class="header" href="#condiciones-de-selección">Condiciones de selección</a></h2>
+<p>La petición identifica la operación, su revisión, el perfil de cálculo, las dimensiones relevantes y las necesidades de memoria, incluido el margen exigido. Cada recurso identifica el dispositivo, el adaptador y su versión, las capacidades comprobadas, la disponibilidad, la memoria utilizable y el momento de observación.</p>
+<p>El Selector descarta los destinos que incumplen las condiciones. Entre las causas se encuentran la falta de autorización, la incompatibilidad con la carga exacta, la indisponibilidad, una observación demasiado antigua, la memoria desconocida o insuficiente y la cobertura parcial de las operaciones requeridas. La presencia física de un acelerador no demuestra que pueda ejecutar el trabajo.</p>
+<p>Cuando todos los candidatos admisibles disponen de estimaciones comparables del tiempo total y la política permite compararlas, se elige la menor. Los empates se resuelven de forma determinista mediante las preferencias declaradas y la identidad del destino. Si faltan estimaciones, la realización disponible puede aplicar el orden de preferencias previsto; esa elección debe quedar identificada como tal y no acredita el mejor rendimiento.</p>
+<p>La comparación comprende el recorrido completo: preparación, transferencia, cálculo, sincronización y recuperación. La GPU, la TPU o la NPU no reciben prioridad automática por pertenecer a una clase de aceleradores.</p>
+<h2 id="de-la-decisión-a-la-comprobación"><a class="header" href="#de-la-decisión-a-la-comprobación">De la decisión a la comprobación</a></h2>
+<p>Antes de ejecutar debe confirmarse que siguen vigentes las condiciones que sustentaron la elección. La ejecución debe conservar la identidad de la petición y registrar el dispositivo realmente utilizado. Una sustitución o distribución parcial del trabajo requiere una condición explícita; no puede introducirse como una desviación silenciosa.</p>
+<p>La telemetría debe distinguir:</p>
+<ol>
+<li>La decisión y los candidatos admitidos o descartados.</li>
+<li>El tiempo de preparación y el tiempo de cálculo, con sus límites de medición.</li>
+<li>Las transferencias y esperas que forman parte del recorrido.</li>
+<li>La actividad de CPU y del acelerador atribuible al proceso observado.</li>
+<li>La correspondencia del resultado con la ejecución de referencia.</li>
+</ol>
+<p>La utilización agregada de un dispositivo no basta para atribuirle una operación concreta. Se necesitan evidencias asociadas a la petición o al proceso, junto con el contraste numérico y funcional que corresponda.</p>
+<h2 id="ejemplos-comprobados"><a class="header" href="#ejemplos-comprobados">Ejemplos comprobados</a></h2>
+<p>Las pruebas siguientes corresponden a cargas y configuraciones determinadas. Permiten explicar el criterio de selección; no establecen una preferencia permanente entre CPU y aceleradores.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Prueba</th><th>Resultado observado</th><th>Consecuencia para la selección</th></tr>
+</thead>
+<tbody>
+<tr><td>Qwen3-8B, cuantización Q4_K_M en GGUF, mediante SV-Aprender en Kaggle</td><td>Mediana de generación de 16 tokens: 11,835012 s en CPU y 1,907238 s en una NVIDIA Tesla T4. Las dos decisiones automáticas del ensayo eligieron GPU.</td><td>La GPU resultó favorable para la carga medida. La igualdad de los tokens obtenidos no constituye una evaluación general de las respuestas del modelo.</td></tr>
+<tr><td>Helsinki-NLP/opus-mt-en-es en Google Cloud, caso NCI_4-0</td><td>Medianas del tiempo de generación: 281,263 ms en CPU y 106,164 ms en TPU. Medianas del recorrido completo: 327,797 ms en CPU y 1.238,158 ms en TPU.</td><td>El cálculo fue más rápido en TPU, pero la CPU obtuvo menor tiempo completo. Las decisiones automáticas del ensayo eligieron CPU.</td></tr>
+</tbody>
+</table>
+</div>
+<p>La ejecución gobernada de Qwen comprendió ocho solicitudes —tres en CPU y cinco en GPU—, además de seis generaciones de calibración. Sus tiempos corresponden a generaciones con los pesos ya preparados e incluyen observación y conservación; la preparación inicial se midió aparte. La serie final del traductor comprendió veintidós traducciones —doce en CPU y diez en TPU— y comprobaciones de rechazo por indisponibilidad declarada. Los informes conservan el detalle de las medidas y sus condiciones.</p>
+<h2 id="alcance-de-la-realización"><a class="header" href="#alcance-de-la-realización">Alcance de la realización</a></h2>
+<p>Se han comprobado recorridos CPU/GPU NVIDIA y CPU/TPU Google en los entornos descritos. La incorporación de GPU AMD y de NPU requiere su propia comprobación de dispositivo, operaciones, adaptador y telemetría. La enumeración de una clase en el nombre del Selector no acredita una integración disponible.</p>
+<p>Las pruebas preparan capacidades para los motores que el SV gestione; no validan por sí mismas un nodo completo ni la aptitud científica de un modelo. La correspondencia entre células, representación tensorial y significado se desarrolla en <a href="#representación-tensorial-y-ejecución-acelerada">Parámetros, recorridos y evidencia</a>.</p>
+<h2 id="referencias-2"><a class="header" href="#referencias-2">Referencias</a></h2>
+<ul>
+<li><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/selector-arbitro-director-cpu-gpu-tpu-npu/readme.md">Descripción y realización del Selector</a>.</li>
+<li><a href="https://github.com/juantoniolloretegea/SV-motor/blob/32239f974af3a6367efd75d36ba984a6c2fc747e/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/qwen/qwen3-8b-cuantizacion-q4_k_m-gguf/sv-contraste-qwen-cpu-gpu-rust-20261014.md">Ensayo Qwen3-8B en Kaggle</a>.</li>
+<li><a href="https://github.com/juantoniolloretegea/SV-motor/blob/32239f974af3a6367efd75d36ba984a6c2fc747e/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/helsinki-nlp/opus-mt-en-es.md">Ensayo del traductor Helsinki-NLP/opus-mt-en-es</a>.</li>
+<li><a href="#hardware-de-aceleración-tensorial">Hardware de aceleración tensorial</a>.</li>
+</ul>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="hardware-de-aceleración-tensorial"><a class="header" href="#hardware-de-aceleración-tensorial">Hardware de aceleración tensorial</a></h1>
+<p><strong>Dispositivos, plataformas y condiciones de ejecución · 15 de octubre de 2026.</strong></p>
+<p>Este capítulo describe el soporte físico sobre el que pueden ejecutarse las operaciones dirigidas por el <a href="#selector-del-árbitro---director-cpugputpunpu">Selector del Árbitro - Director CPU/GPU/TPU/NPU</a>. La organización distingue fabricante, dispositivo y plataforma de acceso: Kaggle y Google Cloud proporcionan entornos de ejecución, mientras que el trabajo lo realizan procesadores concretos.</p>
+<p>La capacidad del SV se documenta por dispositivo y configuración comprobados. Una prueba con una NVIDIA Tesla T4 no acredita todas las GPU NVIDIA; una CPU AMD utilizada en Google Cloud tampoco demuestra compatibilidad con una GPU o una NPU AMD.</p>
+<h2 id="clases-de-dispositivos"><a class="header" href="#clases-de-dispositivos">Clases de dispositivos</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Clase</th><th>Función y condición de uso</th></tr>
+</thead>
+<tbody>
+<tr><td>CPU</td><td>Procesamiento de propósito general. Puede realizar el cálculo completo y también el control, la preparación y la recuperación de una ejecución acelerada.</td></tr>
+<tr><td>GPU</td><td>Procesamiento paralelo, útil para operaciones compatibles con su arquitectura, memoria y soporte de ejecución. Su ventaja debe medirse para la carga concreta.</td></tr>
+<tr><td>TPU</td><td>Acelerador tensorial de Google. Requiere operaciones y una representación ejecutable compatibles con el dispositivo y su entorno.</td></tr>
+<tr><td>NPU</td><td>Denominación de procesadores especializados en operaciones de redes neuronales. No identifica una arquitectura única ni garantiza compatibilidad entre fabricantes.</td></tr>
+</tbody>
+</table>
+</div>
+<p>La denominación comercial del servidor no acredita la presencia o el acceso a una NPU. Deben comprobarse el modelo exacto, la exposición del dispositivo al sistema, las operaciones disponibles y la posibilidad de observar su utilización. Lo mismo se aplica a un acelerador anunciado pero no asignado a una instancia.</p>
+<h2 id="dispositivos-observados-en-los-ensayos"><a class="header" href="#dispositivos-observados-en-los-ensayos">Dispositivos observados en los ensayos</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Fabricante y dispositivo</th><th>Plataforma</th><th>Alcance comprobado</th></tr>
+</thead>
+<tbody>
+<tr><td><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/nvidia/tesla-t4/readme.md">NVIDIA Tesla T4</a></td><td>Kaggle</td><td>Cálculo del modelo Qwen3-8B mediante SV-Aprender. El entorno ofrecía dos GPU; el ensayo utilizó una para el cálculo.</td></tr>
+<tr><td><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/intel/xeon-kaggle-20261014/readme.md">Intel Xeon; variante comercial no determinada</a></td><td>Kaggle</td><td>Ejecución CPU y contraste del mismo modelo; cuatro procesadores lógicos visibles.</td></tr>
+<tr><td><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/google/tpu-v5e/readme.md">Google TPU v5e</a></td><td>Google Cloud</td><td>Traducción con Helsinki-NLP/opus-mt-en-es en una configuración de un chip.</td></tr>
+<tr><td><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/amd/epyc-7b13/readme.md">AMD EPYC 7B13</a></td><td>Google Cloud</td><td>Control y contraste CPU del traductor; veinticuatro procesadores lógicos visibles y cuatro hilos de cálculo configurados.</td></tr>
+</tbody>
+</table>
+</div>
+<p>El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial">catálogo por fabricantes</a> conserva las especificaciones, las fuentes y las condiciones de cada prueba. Incluye apartados de AMD, Google, NVIDIA, Intel y Qualcomm. Los apartados preparatorios no equivalen a dispositivos ensayados. A la fecha de esta edición no se acredita aquí una ejecución del Selector en GPU AMD ni en NPU.</p>
+<h2 id="realización-en-rust-y-soporte-del-dispositivo"><a class="header" href="#realización-en-rust-y-soporte-del-dispositivo">Realización en Rust y soporte del dispositivo</a></h2>
+<p>El lenguaje de la aplicación y el soporte de ejecución del fabricante deben identificarse por separado. En la prueba NVIDIA, SV-Aprender realiza en Rust el control y la generación de instrucciones PTX para las operaciones utilizadas. El recorrido comprobado utiliza la interfaz CUDA Driver y el controlador NVIDIA; no utiliza cuBLAS ni un motor de cálculo del modelo en CUDA C++. Por tanto, la prueba no demuestra independencia de CUDA ni que el controlador del dispositivo esté escrito en Rust.</p>
+<p>En la prueba Google, la realización del traductor y su control están en Rust; la ejecución TPU se apoya en StableHLO, PJRT y la biblioteca del fabricante, libtpu. La evidencia debe describir esa dependencia, sin atribuir a Rust la implementación de todo el soporte físico.</p>
+<h2 id="condiciones-de-comparación"><a class="header" href="#condiciones-de-comparación">Condiciones de comparación</a></h2>
+<p>Una comparación reproducible identifica operación, datos, modelo y revisión, representación numérica, dimensiones, memoria, dispositivo, adaptador, versiones y límites temporales de la medición. Debe distinguir calentamiento y calibración de las solicitudes posteriores, así como actividad propia y utilización agregada.</p>
+<p>La equivalencia del resultado y el rendimiento se comprueban por separado. Las diferencias numéricas requieren tolerancias justificadas para la operación; la aceleración no autoriza a alterar estados, umbrales ni reglas de evaluación. Los ejemplos de <a href="#ejemplos-comprobados">selección por tiempo total</a> muestran por qué un cálculo más rápido no garantiza un recorrido completo más rápido.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 
@@ -338,7 +480,7 @@
         <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="presentacion-3bf5659a.js"></script>
+        <script src="presentacion-0cfc7f9c.js"></script>
 
         <script>
         window.addEventListener('load', function() {

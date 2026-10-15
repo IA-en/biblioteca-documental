@@ -1,28 +1,28 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "79b7aebc8d4c9a9b03cffade79b0d0b59b43fc8a6b4d3427b3e519908f6238ca",
+  "revision": "0a41c8fca74058fa78d5712941e98bb2de0f0ddda0d14025445975baea6c2445",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
     "titulo": "Índice del Manual del Lenguaje de Computación SV",
-    "url": "urn:sv:documento:sha256:68d8d257ac7f63989e1d973d111995a28dfd602c8b7c4ea8527230af812d3f10",
-    "sha256": "68d8d257ac7f63989e1d973d111995a28dfd602c8b7c4ea8527230af812d3f10"
+    "url": "urn:sv:documento:sha256:aa3a7180f28f0efd43008a07003405781ca13b97b12bab5503c2218afc1214e5",
+    "sha256": "aa3a7180f28f0efd43008a07003405781ca13b97b12bab5503c2218afc1214e5"
   },
   "capitulos": [
     {
       "id": "MANUAL_PRESENTACION",
       "ruta": "presentacion.md",
       "titulo": "Presentación y alcance",
-      "url": "urn:sv:documento:sha256:9454047ed043b4b33729e9aa248533c33ba0a64e9a2d5093b585f29be9784242",
-      "sha256": "9454047ed043b4b33729e9aa248533c33ba0a64e9a2d5093b585f29be9784242"
+      "url": "urn:sv:documento:sha256:21ffdf45b34f1a70b75ec166dee3af957192f274c83748c3f121b1a77436d39f",
+      "sha256": "21ffdf45b34f1a70b75ec166dee3af957192f274c83748c3f121b1a77436d39f"
     },
     {
       "id": "MANUAL_CONSTRUCTOR",
       "ruta": "constructor.md",
       "titulo": "Ámbito y organización del lenguaje",
-      "url": "urn:sv:documento:sha256:f4a4c0c3dd465f74072f6ae6453b806ff1f5f8bfca5d41a3ba1918ea8e46c9c0",
-      "sha256": "f4a4c0c3dd465f74072f6ae6453b806ff1f5f8bfca5d41a3ba1918ea8e46c9c0"
+      "url": "urn:sv:documento:sha256:148450867f213803bd045e2068e94355404674e9d884078b4b55d990d0f94240",
+      "sha256": "148450867f213803bd045e2068e94355404674e9d884078b4b55d990d0f94240"
     },
     {
       "id": "MANUAL_TRAMO10",
@@ -33,10 +33,31 @@
     },
     {
       "ruta": "parametros-rutas.md",
-      "sha256": "c35013007bc6e2664a85f62b8f7957b286ef8865c407d5269b5a781914a975e9",
-      "url": "urn:sv:documento:sha256:c35013007bc6e2664a85f62b8f7957b286ef8865c407d5269b5a781914a975e9",
+      "sha256": "a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb",
+      "url": "urn:sv:documento:sha256:a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb",
       "titulo": "Parámetros, recorridos y evidencia: requisitos de integración",
       "id": "MANUAL_PARAMETROS_RUTAS"
+    },
+    {
+      "id": "MANUAL_ARBITRO_DIRECTOR",
+      "ruta": "arbitro-director.md",
+      "titulo": "Árbitro - Director",
+      "url": "urn:sv:documento:sha256:ebe72bf36ab3cf88713fa051038ec4debca5f859f2e4883f3ab017703442fd14",
+      "sha256": "ebe72bf36ab3cf88713fa051038ec4debca5f859f2e4883f3ab017703442fd14"
+    },
+    {
+      "id": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
+      "ruta": "selector-arbitro-director.md",
+      "titulo": "Selector del Árbitro - Director CPU/GPU/TPU/NPU",
+      "url": "urn:sv:documento:sha256:80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5",
+      "sha256": "80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5"
+    },
+    {
+      "id": "MANUAL_HARDWARE_ACELERACION",
+      "ruta": "hardware-aceleracion-tensorial.md",
+      "titulo": "Hardware de aceleración tensorial",
+      "url": "urn:sv:documento:sha256:481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538",
+      "sha256": "481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538"
     }
   ]
 }
