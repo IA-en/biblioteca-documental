@@ -19,7 +19,7 @@
     {
       "ruta": "biblioteca.json",
       "bytes": 35371,
-      "sha256": "207251b7d09542df4b347d95b4dc57c9dfb6b0375005ff772a168ed365423f66"
+      "sha256": "d1e024433745e68ceeed6cb579c322c369cf7401d732b2f668f482a2317de1e3"
     },
     {
       "ruta": "copias-historicas.json",
@@ -29,7 +29,7 @@
     {
       "ruta": "correspondencia.json",
       "bytes": 106631,
-      "sha256": "acd3b04be07458ece8aa9d8da41ee71994bfd0101595650103994a91417c61d3"
+      "sha256": "8b558ab9433828190c0d4331f8d6aeceedefe9bc5adbe5bd75d905c1571c4779"
     },
     {
       "ruta": "libros/dominios/biblioteca.css",
@@ -284,7 +284,7 @@
     {
       "ruta": "libros/manual/plan.json",
       "bytes": 2816,
-      "sha256": "cd468c564169693e9dfae7e3b39b4581b182fcdfb5e1cec8d7d7f1343ad201b4"
+      "sha256": "088cf36f3e9a0ff2a276517c6ddf66141018a70029be6ab1bcf41eaf6dd2fee4"
     },
     {
       "ruta": "libros/manual/presentacion.js",
@@ -519,7 +519,7 @@
     {
       "ruta": "politica-verificacion.json",
       "bytes": 362,
-      "sha256": "b16e27f6f98ece6c18a573cc3bbbfb55114b85e6f2cfc391ed87f869de56a1fa"
+      "sha256": "e2513624954d7dcff0d34e5cb095da45e6c9cc256682b8f65835e67d1882d0e5"
     },
     {
       "ruta": "presentacion.js",
@@ -589,7 +589,7 @@
     {
       "ruta": "publico/correspondencia.json",
       "bytes": 106631,
-      "sha256": "acd3b04be07458ece8aa9d8da41ee71994bfd0101595650103994a91417c61d3"
+      "sha256": "8b558ab9433828190c0d4331f8d6aeceedefe9bc5adbe5bd75d905c1571c4779"
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1248,8 +1248,8 @@
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/print.html",
-      "bytes": 65421,
-      "sha256": "609e06ba524de6129bcc018dfa77758c2fba23a67a2e223a47ab73e0e1765fea"
+      "bytes": 65233,
+      "sha256": "72443891efbe5893dfa1eb2b47105b4520e25db20370816d7b00eb762c96e182"
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/toc-75d04f73.js",
@@ -2623,13 +2623,13 @@
     },
     {
       "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
-      "bytes": 5697,
-      "sha256": "481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538"
+      "bytes": 5489,
+      "sha256": "290a479ed8fac9689f17ab835e07fba39521c8865e53111093ff6e4b0a9584f7"
     },
     {
       "ruta": "libros/manual/src/selector-arbitro-director.md",
-      "bytes": 6666,
-      "sha256": "80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5"
+      "bytes": 6686,
+      "sha256": "7deacf89536be1ef97fb8fc23348e85e9b936cfff77229235b99b85c413eb991"
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/arbitro-director.html",
@@ -2643,8 +2643,8 @@
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/hardware-aceleracion-tensorial.html",
-      "bytes": 26445,
-      "sha256": "d9db39a8904bf9edbf44b955c10837bc3f82261ade17d783a35194fddee4665a"
+      "bytes": 26237,
+      "sha256": "edb8112a15f1b83de3c99995efc011e55af2d3b37bfc7efee949e568ad3debb2"
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion-0cfc7f9c.js",
@@ -2653,8 +2653,8 @@
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/selector-arbitro-director.html",
-      "bytes": 28819,
-      "sha256": "8366e4ec23debfce1e81832b8fda93681c77fd2c7c715d439fe5a15eba390ea7"
+      "bytes": 28839,
+      "sha256": "6489b92aafe431d541cd5c7fb1ff3dab2845b6641618baf7d3d208cab70eb390"
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/toc-89cddc4a.js",
@@ -2668,13 +2668,13 @@
     },
     {
       "ruta": "publico/libros/manual/src/hardware-aceleracion-tensorial.md",
-      "bytes": 5697,
-      "sha256": "481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538"
+      "bytes": 5489,
+      "sha256": "290a479ed8fac9689f17ab835e07fba39521c8865e53111093ff6e4b0a9584f7"
     },
     {
       "ruta": "publico/libros/manual/src/selector-arbitro-director.md",
-      "bytes": 6666,
-      "sha256": "80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5"
+      "bytes": 6686,
+      "sha256": "7deacf89536be1ef97fb8fc23348e85e9b936cfff77229235b99b85c413eb991"
     }
   ],
   "licencia": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).",

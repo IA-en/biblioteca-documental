@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "0a41c8fca74058fa78d5712941e98bb2de0f0ddda0d14025445975baea6c2445",
+  "revision": "d0607a23fbd9bad9e9d7329458a7966f8b0a8c7dbf9ab5b44f522c0d15258979",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -49,15 +49,15 @@
       "id": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
       "ruta": "selector-arbitro-director.md",
       "titulo": "Selector del Árbitro - Director CPU/GPU/TPU/NPU",
-      "url": "urn:sv:documento:sha256:80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5",
-      "sha256": "80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5"
+      "url": "urn:sv:documento:sha256:7deacf89536be1ef97fb8fc23348e85e9b936cfff77229235b99b85c413eb991",
+      "sha256": "7deacf89536be1ef97fb8fc23348e85e9b936cfff77229235b99b85c413eb991"
     },
     {
       "id": "MANUAL_HARDWARE_ACELERACION",
       "ruta": "hardware-aceleracion-tensorial.md",
       "titulo": "Hardware de aceleración tensorial",
-      "url": "urn:sv:documento:sha256:481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538",
-      "sha256": "481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538"
+      "url": "urn:sv:documento:sha256:290a479ed8fac9689f17ab835e07fba39521c8865e53111093ff6e4b0a9584f7",
+      "sha256": "290a479ed8fac9689f17ab835e07fba39521c8865e53111093ff6e4b0a9584f7"
     }
   ]
 }

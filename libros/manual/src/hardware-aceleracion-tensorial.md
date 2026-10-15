@@ -2,9 +2,9 @@
 
 **Dispositivos, plataformas y condiciones de ejecución · 15 de octubre de 2026.**
 
-Este capítulo describe el soporte físico sobre el que pueden ejecutarse las operaciones dirigidas por el [Selector del Árbitro - Director CPU/GPU/TPU/NPU](selector-arbitro-director.md). La organización distingue fabricante, dispositivo y plataforma de acceso: Kaggle y Google Cloud proporcionan entornos de ejecución, mientras que el trabajo lo realizan procesadores concretos.
+Este capítulo describe el soporte físico sobre el que pueden ejecutarse las operaciones dirigidas por el [Selector del Árbitro - Director CPU/GPU/TPU/NPU](selector-arbitro-director.md). La organización distingue fabricante, dispositivo y plataforma de ejecución: Kaggle y Google Cloud proporcionan entornos de ejecución, mientras que el trabajo lo realizan procesadores concretos.
 
-La capacidad del SV se documenta por dispositivo y configuración comprobados. Una prueba con una NVIDIA Tesla T4 no acredita todas las GPU NVIDIA; una CPU AMD utilizada en Google Cloud tampoco demuestra compatibilidad con una GPU o una NPU AMD.
+La capacidad del SV se documenta por dispositivo y configuración comprobados. Los resultados de un procesador concreto se circunscriben a su arquitectura, operaciones y condiciones de ejecución; no se atribuyen al conjunto de productos de su fabricante.
 
 ## Clases de dispositivos
 
@@ -15,18 +15,18 @@ La capacidad del SV se documenta por dispositivo y configuración comprobados. U
 | TPU | Acelerador tensorial de Google. Requiere operaciones y una representación ejecutable compatibles con el dispositivo y su entorno. |
 | NPU | Denominación de procesadores especializados en operaciones de redes neuronales. No identifica una arquitectura única ni garantiza compatibilidad entre fabricantes. |
 
-La denominación comercial del servidor no acredita la presencia o el acceso a una NPU. Deben comprobarse el modelo exacto, la exposición del dispositivo al sistema, las operaciones disponibles y la posibilidad de observar su utilización. Lo mismo se aplica a un acelerador anunciado pero no asignado a una instancia.
+La utilización de un acelerador requiere identificar su modelo exacto, comprobar su exposición al sistema y las operaciones compatibles, y observar su participación efectiva en el cálculo.
 
 ## Dispositivos observados en los ensayos
 
 | Fabricante y dispositivo | Plataforma | Alcance comprobado |
 | --- | --- | --- |
-| [NVIDIA Tesla T4](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/nvidia/tesla-t4/readme.md) | Kaggle | Cálculo del modelo Qwen3-8B mediante SV-Aprender. El entorno ofrecía dos GPU; el ensayo utilizó una para el cálculo. |
-| [Intel Xeon; variante comercial no determinada](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/intel/xeon-kaggle-20261014/readme.md) | Kaggle | Ejecución CPU y contraste del mismo modelo; cuatro procesadores lógicos visibles. |
-| [Google TPU v5e](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/google/tpu-v5e/readme.md) | Google Cloud | Traducción con Helsinki-NLP/opus-mt-en-es en una configuración de un chip. |
-| [AMD EPYC 7B13](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/amd/epyc-7b13/readme.md) | Google Cloud | Control y contraste CPU del traductor; veinticuatro procesadores lógicos visibles y cuatro hilos de cálculo configurados. |
+| [NVIDIA Tesla T4](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/nvidia/tesla-t4/readme.md) | Kaggle | Cálculo del modelo Qwen3-8B mediante SV-Aprender. El entorno ofrecía dos GPU; el ensayo utilizó una para el cálculo. |
+| [Intel Xeon; variante comercial no determinada](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/intel/xeon-kaggle-20261014/readme.md) | Kaggle | Ejecución CPU y contraste del mismo modelo; cuatro procesadores lógicos visibles. |
+| [Google TPU v5e](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/google/tpu-v5e/readme.md) | Google Cloud | Traducción con Helsinki-NLP/opus-mt-en-es en una configuración de un chip. |
+| [AMD EPYC 7B13](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/amd/epyc-7b13/readme.md) | Google Cloud | Control y contraste CPU del traductor; veinticuatro procesadores lógicos visibles y cuatro hilos de cálculo configurados. |
 
-El [catálogo por fabricantes](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial) conserva las especificaciones, las fuentes y las condiciones de cada prueba. Incluye apartados de AMD, Google, NVIDIA, Intel y Qualcomm. Los apartados preparatorios no equivalen a dispositivos ensayados. A la fecha de esta edición no se acredita aquí una ejecución del Selector en GPU AMD ni en NPU.
+El [catálogo por fabricantes](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial) conserva las especificaciones, las fuentes y las condiciones de cada prueba. Las cuatro fichas corresponden a los dos ensayos descritos y permiten relacionar cada resultado con el dispositivo que lo produjo.
 
 ## Realización en Rust y soporte del dispositivo
 

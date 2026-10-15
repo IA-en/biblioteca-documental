@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "207251b7d09542df4b347d95b4dc57c9dfb6b0375005ff772a168ed365423f66",
+  "biblioteca_sha256": "d1e024433745e68ceeed6cb579c322c369cf7401d732b2f668f482a2317de1e3",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1742,7 +1742,7 @@
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 6666,
+      "cobertura_bytes": 6686,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
       "identificador_editorial_r0": null,
@@ -1750,7 +1750,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/selector-arbitro-director.md",
-        "sha256": "80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5"
+        "sha256": "7deacf89536be1ef97fb8fc23348e85e9b936cfff77229235b99b85c413eb991"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
@@ -1791,20 +1791,20 @@
           "ultima_linea": 43
         },
         {
-          "fin_byte_exclusivo": 5487,
+          "fin_byte_exclusivo": 5507,
           "inicio_byte": 4791,
           "primera_linea": 44,
           "seccion": "MD-L000044-L000049",
-          "sha256": "95d98a078dccd90239749b1112a5c15dc8e4906701e1d9617a97e0fd7d54101b",
+          "sha256": "99acc7c0f5c4b5e3b42312b51b7c98666163fba767b78ecab1f4730d9bd84218",
           "titulo": "Alcance de la realización",
           "ultima_linea": 49
         },
         {
-          "fin_byte_exclusivo": 6666,
-          "inicio_byte": 5487,
+          "fin_byte_exclusivo": 6686,
+          "inicio_byte": 5507,
           "primera_linea": 50,
           "seccion": "MD-L000050-L000059",
-          "sha256": "df1d8249ce72928ebf5165bb54c9d354ddaeee570ecb9f1bd6b808800395197f",
+          "sha256": "c82fbf389a570c1f27533084d7aadeb5046ec6ea053a96acdbb271282624c684",
           "titulo": "Referencias",
           "ultima_linea": 59
         }
@@ -1812,7 +1812,7 @@
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 5697,
+      "cobertura_bytes": 5489,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_HARDWARE_ACELERACION",
       "identificador_editorial_r0": null,
@@ -1820,40 +1820,40 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
-        "sha256": "481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538"
+        "sha256": "290a479ed8fac9689f17ab835e07fba39521c8865e53111093ff6e4b0a9584f7"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 754,
+          "fin_byte_exclusivo": 768,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "3b9370f0f912c6fd40152735bd931ece3b7508d20ff0ef9e4ef828dc50184482",
+          "sha256": "9c19aa44e1cdb91985da99760bc9d5ebecc476540bee93b0695375c17a4aa1f5",
           "titulo": "Hardware de aceleración tensorial",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 1816,
-          "inicio_byte": 754,
+          "fin_byte_exclusivo": 1703,
+          "inicio_byte": 768,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000019",
-          "sha256": "1cde847a795a07125c3f66793fcafd9b8323ef44f676de1c4df702b425485e04",
+          "sha256": "21ed65d7c9f20d0ce736858c396cf50e918bc1eb6031f80ae40a9679f6fcb550",
           "titulo": "Clases de dispositivos",
           "ultima_linea": 19
         },
         {
-          "fin_byte_exclusivo": 3727,
-          "inicio_byte": 1816,
+          "fin_byte_exclusivo": 3519,
+          "inicio_byte": 1703,
           "primera_linea": 20,
           "seccion": "MD-L000020-L000030",
-          "sha256": "7b04fea1116898f2d6f700ee06b08df397c92dae70b26f94637dc2aaed8bb482",
+          "sha256": "fcab06e7e609a4500522520b810148c68550de34b8094294717e307c0d73b1ff",
           "titulo": "Dispositivos observados en los ensayos",
           "ultima_linea": 30
         },
         {
-          "fin_byte_exclusivo": 4559,
-          "inicio_byte": 3727,
+          "fin_byte_exclusivo": 4351,
+          "inicio_byte": 3519,
           "primera_linea": 31,
           "seccion": "MD-L000031-L000036",
           "sha256": "bac2a3a77029756ef1e4b3e7f4d1005fa21e3e179fbbd761ccb0ba4b3c26426b",
@@ -1861,8 +1861,8 @@
           "ultima_linea": 36
         },
         {
-          "fin_byte_exclusivo": 5697,
-          "inicio_byte": 4559,
+          "fin_byte_exclusivo": 5489,
+          "inicio_byte": 4351,
           "primera_linea": 37,
           "seccion": "MD-L000037-L000045",
           "sha256": "cec16a0df61cb8cf5d7ca501815cdc53773fb641ce33df9fc31372e34725b37f",
@@ -2787,7 +2787,7 @@
   ],
   "edicion": "biblioteca-publica-20261015-arbitro-selector-hardware",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "b16e27f6f98ece6c18a573cc3bbbfb55114b85e6f2cfc391ed87f869de56a1fa",
+  "politica_sha256": "e2513624954d7dcff0d34e5cb095da45e6c9cc256682b8f65835e67d1882d0e5",
   "recepcion_visual": false,
   "version": 1
 }

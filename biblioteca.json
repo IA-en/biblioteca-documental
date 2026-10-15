@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "cd468c564169693e9dfae7e3b39b4581b182fcdfb5e1cec8d7d7f1343ad201b4"
+        "sha256": "088cf36f3e9a0ff2a276517c6ddf66141018a70029be6ab1bcf41eaf6dd2fee4"
       },
       "metadatos": [
         {
@@ -469,7 +469,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/selector-arbitro-director.md",
-            "sha256": "80079c0872ec29d111d029ef4ae7090a9df4ec80182ee60a98e35b687ef855e5"
+            "sha256": "7deacf89536be1ef97fb8fc23348e85e9b936cfff77229235b99b85c413eb991"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",
@@ -484,7 +484,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
-            "sha256": "481c4fed3fd62c26e40eb0f7ecdd84365935309221ef7e902616a87fc549c538"
+            "sha256": "290a479ed8fac9689f17ab835e07fba39521c8865e53111093ff6e4b0a9584f7"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",

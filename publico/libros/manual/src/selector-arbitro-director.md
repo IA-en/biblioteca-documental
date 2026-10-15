@@ -43,13 +43,13 @@ La ejecución gobernada de Qwen comprendió ocho solicitudes —tres en CPU y ci
 
 ## Alcance de la realización
 
-Se han comprobado recorridos CPU/GPU NVIDIA y CPU/TPU Google en los entornos descritos. La incorporación de GPU AMD y de NPU requiere su propia comprobación de dispositivo, operaciones, adaptador y telemetría. La enumeración de una clase en el nombre del Selector no acredita una integración disponible.
+La evidencia experimental citada corresponde a dos configuraciones: CPU Intel Xeon con GPU NVIDIA Tesla T4, y CPU AMD EPYC 7B13 con TPU Google v5e. Sus resultados se circunscriben a las cargas, operaciones y condiciones descritas; no se extrapolan a otros dispositivos.
 
-Las pruebas preparan capacidades para los motores que el SV gestione; no validan por sí mismas un nodo completo ni la aptitud científica de un modelo. La correspondencia entre células, representación tensorial y significado se desarrolla en [Parámetros, recorridos y evidencia](parametros-rutas.md#representación-tensorial-y-ejecución-acelerada).
+El objeto de estas pruebas es la elección del dispositivo y su correspondencia con la ejecución física. La evaluación de la calidad científica de las respuestas del modelo constituye una cuestión distinta. La correspondencia entre células, representación tensorial y significado se desarrolla en [Parámetros, recorridos y evidencia](parametros-rutas.md#representación-tensorial-y-ejecución-acelerada).
 
 ## Referencias
 
-- [Descripción y realización del Selector](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/808fc275f1ae05cf75f7f19520e145962e4c3c08/docs/hardware-de-aceleracion-tensorial/selector-arbitro-director-cpu-gpu-tpu-npu/readme.md).
+- [Descripción y realización del Selector](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/selector-arbitro-director-cpu-gpu-tpu-npu/readme.md).
 - [Ensayo Qwen3-8B en Kaggle](https://github.com/juantoniolloretegea/SV-motor/blob/32239f974af3a6367efd75d36ba984a6c2fc747e/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/qwen/qwen3-8b-cuantizacion-q4_k_m-gguf/sv-contraste-qwen-cpu-gpu-rust-20261014.md).
 - [Ensayo del traductor Helsinki-NLP/opus-mt-en-es](https://github.com/juantoniolloretegea/SV-motor/blob/32239f974af3a6367efd75d36ba984a6c2fc747e/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/helsinki-nlp/opus-mt-en-es.md).
 - [Hardware de aceleración tensorial](hardware-aceleracion-tensorial.md).
