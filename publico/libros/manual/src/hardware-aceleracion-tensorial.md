@@ -1,6 +1,6 @@
 # Hardware de aceleración tensorial
 
-**Dispositivos, plataformas y condiciones de ejecución · 15 de octubre de 2026.**
+**Dispositivos, plataformas y condiciones de ejecución · 16 de octubre de 2026.**
 
 Este capítulo describe el soporte físico sobre el que pueden ejecutarse las operaciones dirigidas por el [Selector del Árbitro - Director CPU/GPU/TPU/NPU](selector-arbitro-director.md). La organización distingue fabricante, dispositivo y plataforma de ejecución: Kaggle y Google Cloud proporcionan entornos de ejecución, mientras que el trabajo lo realizan procesadores concretos.
 
@@ -25,8 +25,10 @@ La utilización de un acelerador requiere identificar su modelo exacto, comproba
 | [Intel Xeon; variante comercial no determinada](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/intel/xeon-kaggle-20261014/readme.md) | Kaggle | Ejecución CPU y contraste del mismo modelo; cuatro procesadores lógicos visibles. |
 | [Google TPU v5e](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/google/tpu-v5e/readme.md) | Google Cloud | Traducción con Helsinki-NLP/opus-mt-en-es en una configuración de un chip. |
 | [AMD EPYC 7B13](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/amd/epyc-7b13/readme.md) | Google Cloud | Control y contraste CPU del traductor; veinticuatro procesadores lógicos visibles y cuatro hilos de cálculo configurados. |
+| [AMD Instinct MI300X VF](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/e46982c5320c6462733a28f9cca53f624aa4d0aa/docs/hardware-de-aceleracion-tensorial/amd/instinct-mi300x-vf/readme.md) | AMD Developer Cloud | Reconocimiento HIP/PCI y ejecución de productos matriciales Rust en una GPU virtualizada, arquitectura gfx942. |
+| [Intel Xeon Platinum 8568Y+](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/e46982c5320c6462733a28f9cca53f624aa4d0aa/docs/hardware-de-aceleracion-tensorial/intel/xeon-platinum-8568y-plus/readme.md) | AMD Developer Cloud | Control y contraste CPU del mismo ensayo; veinte procesadores lógicos disponibles. |
 
-El [catálogo por fabricantes](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial) conserva las especificaciones, las fuentes y las condiciones de cada prueba. Las cuatro fichas corresponden a los dos ensayos descritos y permiten relacionar cada resultado con el dispositivo que lo produjo.
+El [catálogo por fabricantes](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/e46982c5320c6462733a28f9cca53f624aa4d0aa/docs/hardware-de-aceleracion-tensorial) conserva las especificaciones, las fuentes y las condiciones de cada prueba. Las fichas relacionan cada resultado con el dispositivo que lo produjo. Las fichas CPU y acelerador de una misma plataforma describen el mismo experimento y no deben contabilizarse como pruebas independientes.
 
 ## Realización en Rust y soporte del dispositivo
 
@@ -34,11 +36,17 @@ El lenguaje de la aplicación y el soporte de ejecución del fabricante deben id
 
 En la prueba Google, la realización del traductor y su control están en Rust; la ejecución TPU se apoya en StableHLO, PJRT y la biblioteca del fabricante, libtpu. La evidencia debe describir esa dependencia, sin atribuir a Rust la implementación de todo el soporte físico.
 
+En la prueba MI300X, el producto matricial se define en Rust/CubeCL y se compila mediante LLVM AMDGPU. HIP proporciona carga, transferencias y ejecución; LLVM/LLD y sus adaptaciones nativas siguen siendo dependencias externas. El ensayo no utiliza rocBLAS ni hipBLAS y no acredita otras arquitecturas AMD o una NPU.
+
 ## Condiciones de comparación
 
 Una comparación reproducible identifica operación, datos, modelo y revisión, representación numérica, dimensiones, memoria, dispositivo, adaptador, versiones y límites temporales de la medición. Debe distinguir calentamiento y calibración de las solicitudes posteriores, así como actividad propia y utilización agregada.
 
 La equivalencia del resultado y el rendimiento se comprueban por separado. Las diferencias numéricas requieren tolerancias justificadas para la operación; la aceleración no autoriza a alterar estados, umbrales ni reglas de evaluación. Los ejemplos de [selección por tiempo total](selector-arbitro-director.md#ejemplos-comprobados) muestran por qué un cálculo más rápido no garantiza un recorrido completo más rápido.
+
+El ensayo MI300X muestra además por qué la recuperación debe medirse separadamente: en dos operaciones se observaron unos 44–51 µs de cálculo GPU y 22,736–25,300 ms de recuperación. El mismo caso, ejecutado inmediatamente después con selección automática, recuperó el resultado en 36 µs. Las medianas de calibración no garantizan la latencia de cada petición.
+
+La duración declarada debe indicar dónde comienza y termina: el tiempo del dispositivo, el de la operación con transferencias y el recorrido completo desde la petición hasta la entrega tienen alcances distintos. Una demora localizada en la recuperación no identifica por sí sola su causa en la biblioteca, el controlador o el entorno de ejecución. El análisis causal y sus registros se conservan en la ficha del dispositivo.
 
 ---
 

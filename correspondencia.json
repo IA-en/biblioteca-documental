@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "70a4d99eda45be3f736eae403b6ece940aa4252a87e30567c6f1e7494b987f19",
+  "biblioteca_sha256": "3bdb20890300f018e6692bd4b77e67ad912972c9bc62b9e5bd8151e3925f9d8b",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1812,7 +1812,7 @@
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 5489,
+      "cobertura_bytes": 7382,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_HARDWARE_ACELERACION",
       "identificador_editorial_r0": null,
@@ -1820,7 +1820,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
-        "sha256": "290a479ed8fac9689f17ab835e07fba39521c8865e53111093ff6e4b0a9584f7"
+        "sha256": "3eabe712436dd0b76f122ccc43ef7a85971ae18b45c1c01c5e046af12219df5a"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
@@ -1829,7 +1829,7 @@
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "9c19aa44e1cdb91985da99760bc9d5ebecc476540bee93b0695375c17a4aa1f5",
+          "sha256": "486eb98e0567a6b5f06787474a1d6ad5e950b5119de10cb6d7d4dfbbd5651f19",
           "titulo": "Hardware de aceleración tensorial",
           "ultima_linea": 8
         },
@@ -1843,31 +1843,31 @@
           "ultima_linea": 19
         },
         {
-          "fin_byte_exclusivo": 3519,
+          "fin_byte_exclusivo": 4282,
           "inicio_byte": 1703,
           "primera_linea": 20,
-          "seccion": "MD-L000020-L000030",
-          "sha256": "fcab06e7e609a4500522520b810148c68550de34b8094294717e307c0d73b1ff",
+          "seccion": "MD-L000020-L000032",
+          "sha256": "23d726b09503fcf99657a6d24875ad1045daed66acb5def22eb25005432382f0",
           "titulo": "Dispositivos observados en los ensayos",
-          "ultima_linea": 30
+          "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 4351,
-          "inicio_byte": 3519,
-          "primera_linea": 31,
-          "seccion": "MD-L000031-L000036",
-          "sha256": "bac2a3a77029756ef1e4b3e7f4d1005fa21e3e179fbbd761ccb0ba4b3c26426b",
+          "fin_byte_exclusivo": 5432,
+          "inicio_byte": 4282,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000040",
+          "sha256": "5bcc4adabad53836143fb698bd1365794fd9a7af4b07cd8214f7a7ffb6bf4c21",
           "titulo": "Realización en Rust y soporte del dispositivo",
-          "ultima_linea": 36
+          "ultima_linea": 40
         },
         {
-          "fin_byte_exclusivo": 5489,
-          "inicio_byte": 4351,
-          "primera_linea": 37,
-          "seccion": "MD-L000037-L000045",
-          "sha256": "cec16a0df61cb8cf5d7ca501815cdc53773fb641ce33df9fc31372e34725b37f",
+          "fin_byte_exclusivo": 7382,
+          "inicio_byte": 5432,
+          "primera_linea": 41,
+          "seccion": "MD-L000041-L000053",
+          "sha256": "9a2e9d3b71940f0679903c008a99fd54c848a878fa0c63db0f44a935bf70170d",
           "titulo": "Condiciones de comparación",
-          "ultima_linea": 45
+          "ultima_linea": 53
         }
       ]
     },
@@ -2839,7 +2839,7 @@
   ],
   "edicion": "biblioteca-publica-20261015-explorador-tensorial",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "fbf433ab390543957f2b161e0ba5c375d5aabc07761177751925ca6f581c41bb",
+  "politica_sha256": "704bcd7a5c1fdb852b537ac9fa79dbb78e9a89cd5cd5f4e14b7d87da49ad2612",
   "recepcion_visual": false,
   "version": 1
 }
