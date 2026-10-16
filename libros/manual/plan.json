@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "d4052d15d0a6fa839c31d0c97d8f888c345c64c322c415ff02c9acda2b929212",
+  "revision": "1cb88bb3feda65c48b3bbe3494d61c2bce0d1da3fa50afe66d5001526177bf8f",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -63,8 +63,8 @@
       "id": "MANUAL_HARDWARE_ACELERACION",
       "ruta": "hardware-aceleracion-tensorial.md",
       "titulo": "Hardware de aceleración tensorial",
-      "url": "urn:sv:documento:sha256:3eabe712436dd0b76f122ccc43ef7a85971ae18b45c1c01c5e046af12219df5a",
-      "sha256": "3eabe712436dd0b76f122ccc43ef7a85971ae18b45c1c01c5e046af12219df5a"
+      "url": "urn:sv:documento:sha256:b9d5a8444c5de0ff9eb96e37c3fe613e3ded0d73d9ff20c8861979fde308ff8c",
+      "sha256": "b9d5a8444c5de0ff9eb96e37c3fe613e3ded0d73d9ff20c8861979fde308ff8c"
     }
   ]
 }

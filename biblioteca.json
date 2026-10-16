@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "f4d76972fc07512615178c1b22090d5f1d3d501b983689ec51311031fa1694b9"
+        "sha256": "65beac87e311eac9e31dfd64c588357976bbfe17a9e29457d979e1c55193a0c6"
       },
       "metadatos": [
         {
@@ -484,7 +484,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
-            "sha256": "3eabe712436dd0b76f122ccc43ef7a85971ae18b45c1c01c5e046af12219df5a"
+            "sha256": "b9d5a8444c5de0ff9eb96e37c3fe613e3ded0d73d9ff20c8861979fde308ff8c"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",
