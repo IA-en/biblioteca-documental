@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "dbd87fdddb9c04f24ec7d565eccd4f650304733eaeff41745103765f253f1091",
+  "biblioteca_sha256": "d8410589cfacc59124b5d0d83997cc8e12458b4b0813bd5cf4e6d6901acaa895",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1812,7 +1812,7 @@
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 6988,
+      "cobertura_bytes": 7514,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_HARDWARE_ACELERACION",
       "identificador_editorial_r0": null,
@@ -1820,22 +1820,22 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
-        "sha256": "b9d5a8444c5de0ff9eb96e37c3fe613e3ded0d73d9ff20c8861979fde308ff8c"
+        "sha256": "8e2e2cff0fddeff3fe0acb87bc28082fc9598b6908d725c480fb039b042f6c9c"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 768,
+          "fin_byte_exclusivo": 851,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "486eb98e0567a6b5f06787474a1d6ad5e950b5119de10cb6d7d4dfbbd5651f19",
+          "sha256": "7cbbd04530a516708241101789cb759325fbdde0780f3ed0da7003b77b10d0d4",
           "titulo": "Hardware de aceleración tensorial",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 1703,
-          "inicio_byte": 768,
+          "fin_byte_exclusivo": 1786,
+          "inicio_byte": 851,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000019",
           "sha256": "21ed65d7c9f20d0ce736858c396cf50e918bc1eb6031f80ae40a9679f6fcb550",
@@ -1843,37 +1843,37 @@
           "ultima_linea": 19
         },
         {
-          "fin_byte_exclusivo": 4282,
-          "inicio_byte": 1703,
+          "fin_byte_exclusivo": 4808,
+          "inicio_byte": 1786,
           "primera_linea": 20,
-          "seccion": "MD-L000020-L000032",
-          "sha256": "d05825baf73fbc1d6ec8e002a7778074f1b26d43630438be13f0853441cfc782",
+          "seccion": "MD-L000020-L000033",
+          "sha256": "5827654f92a004a796d9510060636dbcbd3c2fdbea9f17d2913f55c3cda9f123",
           "titulo": "Dispositivos observados en los ensayos",
-          "ultima_linea": 32
+          "ultima_linea": 33
         },
         {
-          "fin_byte_exclusivo": 5384,
-          "inicio_byte": 4282,
-          "primera_linea": 33,
-          "seccion": "MD-L000033-L000040",
+          "fin_byte_exclusivo": 5910,
+          "inicio_byte": 4808,
+          "primera_linea": 34,
+          "seccion": "MD-L000034-L000041",
           "sha256": "6b3ddf9e63591ea8f27f92ddd71622c1eb1e6f44cdc734482ef03da97ea72149",
           "titulo": "Realización en Rust y soporte del dispositivo",
-          "ultima_linea": 40
+          "ultima_linea": 41
         },
         {
-          "fin_byte_exclusivo": 6988,
-          "inicio_byte": 5384,
-          "primera_linea": 41,
-          "seccion": "MD-L000041-L000051",
+          "fin_byte_exclusivo": 7514,
+          "inicio_byte": 5910,
+          "primera_linea": 42,
+          "seccion": "MD-L000042-L000052",
           "sha256": "cecd1f4b08421a9105027acdfc50505e0170c85fd65b1adbbba83bc1e00f9586",
           "titulo": "Condiciones de comparación",
-          "ultima_linea": 51
+          "ultima_linea": 52
         }
       ]
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 4790,
+      "cobertura_bytes": 5083,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_EXPLORADOR_TENSORIAL",
       "identificador_editorial_r0": null,
@@ -1881,7 +1881,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/explorador-tensorial-sv.md",
-        "sha256": "1bc7b8e215ce022a6ca5f05c18d080d273b1a1662058aa5dcb803eb5d2d10a47"
+        "sha256": "9cf73a4456062bace6e7de5e9b70ece6fa96a9db949071410c5a90fb898c2652"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
@@ -1890,22 +1890,22 @@
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000015",
-          "sha256": "47589fedb6d3d1249464927291e6c1d1dd4de9fee9256d49875f8b4988d8baed",
+          "sha256": "b81ba96e33bc855f000105cf91211ef449d5e595aad184135ca2054a9f0d07a6",
           "titulo": "Explorador Tensorial del SV",
           "ultima_linea": 15
         },
         {
-          "fin_byte_exclusivo": 2190,
+          "fin_byte_exclusivo": 2483,
           "inicio_byte": 1097,
           "primera_linea": 16,
           "seccion": "MD-L000016-L000023",
-          "sha256": "959bf0023883dc85790c92cd5f72e0ce1119fd81e2508c3a228c2fb7667f54aa",
+          "sha256": "be19451947c7f78dabe63eb5ff9d884acea726e4562781f9899d047644e9c629",
           "titulo": "Identificación y capacidad",
           "ultima_linea": 23
         },
         {
-          "fin_byte_exclusivo": 3168,
-          "inicio_byte": 2190,
+          "fin_byte_exclusivo": 3461,
+          "inicio_byte": 2483,
           "primera_linea": 24,
           "seccion": "MD-L000024-L000031",
           "sha256": "d9cfdfdf2b7fb305d2abe810ec397ab01709ac114486194948f05953d9afe2c8",
@@ -1913,8 +1913,8 @@
           "ultima_linea": 31
         },
         {
-          "fin_byte_exclusivo": 4790,
-          "inicio_byte": 3168,
+          "fin_byte_exclusivo": 5083,
+          "inicio_byte": 3461,
           "primera_linea": 32,
           "seccion": "MD-L000032-L000042",
           "sha256": "1925b666455a140074fe5ac592b6f51b58fd470af5912e3f9c09c32f7c4816ba",
@@ -2839,7 +2839,7 @@
   ],
   "edicion": "biblioteca-publica-20261015-explorador-tensorial",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "4c98e464bae0bde485c9c2579b434046ff8653c79b63ddbda9a1f0770b86f83d",
+  "politica_sha256": "30360ea9f4093e9988392eb207bcb2aada7590a9d09d2c891d6df2d920e64adb",
   "recepcion_visual": false,
   "version": 1
 }

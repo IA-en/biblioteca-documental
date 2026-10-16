@@ -2,7 +2,7 @@
 
 **Dispositivos, plataformas y condiciones de ejecución · 16 de octubre de 2026.**
 
-Este capítulo describe el soporte físico sobre el que pueden ejecutarse las operaciones dirigidas por el [Selector del Árbitro - Director CPU/GPU/TPU/NPU](selector-arbitro-director.md). La organización distingue fabricante, dispositivo y plataforma de ejecución: Kaggle y Google Cloud proporcionan entornos de ejecución, mientras que el trabajo lo realizan procesadores concretos.
+Este capítulo describe el soporte físico sobre el que pueden ejecutarse las operaciones dirigidas por el [Selector del Árbitro - Director CPU/GPU/TPU/NPU](selector-arbitro-director.md). La organización distingue fabricante, dispositivo y plataforma de ejecución: Kaggle y Google Cloud proporcionan entornos de ejecución, mientras que el trabajo lo realizan procesadores concretos. En los equipos completos se identifica también al fabricante de sus procesadores.
 
 La capacidad del SV se documenta por dispositivo y configuración comprobados. Los resultados de un procesador concreto se circunscriben a su arquitectura, operaciones y condiciones de ejecución; no se atribuyen al conjunto de productos de su fabricante.
 
@@ -27,8 +27,9 @@ La utilización de un acelerador requiere identificar su modelo exacto, comproba
 | [AMD EPYC 7B13](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/amd/epyc-7b13/readme.md) | Google Cloud | Control y contraste CPU del traductor; veinticuatro procesadores lógicos visibles y cuatro hilos de cálculo configurados. |
 | [AMD Instinct MI300X VF](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/4776bcdd5b9fed0e1cd4fd274b3e410fc4a1088b/docs/hardware-de-aceleracion-tensorial/amd/instinct-mi300x-vf/readme.md) | AMD Developer Cloud | Reconocimiento HIP/PCI y ejecución de productos matriciales Rust en una GPU virtualizada, arquitectura gfx942. |
 | [Intel Xeon Platinum 8568Y+](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/4776bcdd5b9fed0e1cd4fd274b3e410fc4a1088b/docs/hardware-de-aceleracion-tensorial/intel/xeon-platinum-8568y-plus/readme.md) | AMD Developer Cloud | Control y contraste CPU del mismo ensayo; veinte procesadores lógicos disponibles. |
+| [Samsung Galaxy S25 Ultra, SM-S938B](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/64486cd28394f066e550d50b13be2326ade48d2d/docs/hardware-de-aceleracion-tensorial/samsung/galaxy-s25-ultra-sm-s938b/readme.md) | Samsung Remote Test Lab; Android 16 | CPU Qualcomm SM8750 y GPU Adreno 830 reconocidas; cálculo CPU exacto y rechazo de destinos no habilitados. NNAPI no expuso una NPU; no se ejecutó cálculo GPU/NPU. |
 
-El [catálogo por fabricantes](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/4776bcdd5b9fed0e1cd4fd274b3e410fc4a1088b/docs/hardware-de-aceleracion-tensorial) conserva las especificaciones, las fuentes y las condiciones de cada prueba. Las fichas relacionan cada resultado con el dispositivo que lo produjo. Las fichas CPU y acelerador de una misma plataforma describen el mismo experimento y no deben contabilizarse como pruebas independientes.
+El [catálogo por fabricantes](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/64486cd28394f066e550d50b13be2326ade48d2d/docs/hardware-de-aceleracion-tensorial) conserva las especificaciones, las fuentes y las condiciones de cada prueba. Las fichas relacionan cada resultado con el dispositivo que lo produjo. Las fichas CPU y acelerador de una misma plataforma describen el mismo experimento y no deben contabilizarse como pruebas independientes.
 
 ## Realización en Rust y soporte del dispositivo
 

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "1cb88bb3feda65c48b3bbe3494d61c2bce0d1da3fa50afe66d5001526177bf8f",
+  "revision": "e11fdeae8a2680d037f71acfc4b70381d4cd812bc34f967c6ffbdc3621b44c5c",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -56,15 +56,15 @@
       "id": "MANUAL_EXPLORADOR_TENSORIAL",
       "ruta": "explorador-tensorial-sv.md",
       "titulo": "Explorador Tensorial del SV",
-      "sha256": "1bc7b8e215ce022a6ca5f05c18d080d273b1a1662058aa5dcb803eb5d2d10a47",
-      "url": "urn:sv:documento:sha256:1bc7b8e215ce022a6ca5f05c18d080d273b1a1662058aa5dcb803eb5d2d10a47"
+      "sha256": "9cf73a4456062bace6e7de5e9b70ece6fa96a9db949071410c5a90fb898c2652",
+      "url": "urn:sv:documento:sha256:9cf73a4456062bace6e7de5e9b70ece6fa96a9db949071410c5a90fb898c2652"
     },
     {
       "id": "MANUAL_HARDWARE_ACELERACION",
       "ruta": "hardware-aceleracion-tensorial.md",
       "titulo": "Hardware de aceleración tensorial",
-      "url": "urn:sv:documento:sha256:b9d5a8444c5de0ff9eb96e37c3fe613e3ded0d73d9ff20c8861979fde308ff8c",
-      "sha256": "b9d5a8444c5de0ff9eb96e37c3fe613e3ded0d73d9ff20c8861979fde308ff8c"
+      "url": "urn:sv:documento:sha256:8e2e2cff0fddeff3fe0acb87bc28082fc9598b6908d725c480fb039b042f6c9c",
+      "sha256": "8e2e2cff0fddeff3fe0acb87bc28082fc9598b6908d725c480fb039b042f6c9c"
     }
   ]
 }

@@ -1,6 +1,6 @@
 # Explorador Tensorial del SV
 
-**Componente subordinado al Selector · 15 de octubre de 2026.**
+**Componente subordinado al Selector · 16 de octubre de 2026.**
 
 El Explorador Tensorial del SV observa los recursos que el entorno de ejecución expone al proceso. Identifica los dispositivos, sus interfaces y la información disponible sobre su estado. Proporciona esos datos al [Selector del Árbitro - Director CPU/GPU/TPU/NPU](selector-arbitro-director.md), que los relaciona con capacidades comprobadas para la operación solicitada.
 
@@ -17,9 +17,9 @@ La observación, la selección y el gobierno de la ejecución tienen funciones d
 
 Encontrar un dispositivo no demuestra que pueda ejecutar un modelo. Es necesario comprobar que el adaptador admite la operación exacta, que existe memoria utilizable y que la configuración sigue disponible. Una GPU integrada y una GPU dedicada pueden exponer condiciones de memoria diferentes; una denominación comercial no resuelve esa diferencia.
 
-Las consultas del sistema operativo, NVML y PJRT tienen alcances distintos. El sistema puede identificar un acelerador aunque su interfaz de cálculo no esté accesible. A su vez, una consulta fallida no demuestra ausencia de hardware. Un dispositivo gráfico virtual tampoco acredita la disponibilidad de la GPU física del equipo anfitrión.
+Las consultas del sistema operativo, NVML, HIP, PJRT, Vulkan y NNAPI tienen alcances distintos. El sistema puede identificar un acelerador aunque su interfaz de cálculo no esté accesible. A su vez, una consulta fallida no demuestra ausencia de hardware. Un dispositivo gráfico virtual tampoco acredita la disponibilidad de la GPU física del equipo anfitrión.
 
-La realización inicial está escrita en Rust y consulta CPU, memoria y dispositivos declarados por Windows o por PCI en Linux. También incorpora la consulta de NVIDIA mediante NVML y la de dispositivos TPU mediante un cliente PJRT aportado por el adaptador. Los controladores y las bibliotecas de los fabricantes conservan su propia realización tecnológica.
+La realización está escrita en Rust y consulta CPU, memoria y dispositivos declarados por Windows o por PCI en Linux. También incorpora la consulta de NVIDIA mediante NVML y la de dispositivos TPU mediante un cliente PJRT aportado por el adaptador. La consulta AMD mediante HIP y la observación Android mediante propiedades del sistema, Vulkan y NNAPI amplían las interfaces disponibles. NNAPI puede exponer sólo una ejecución de referencia en CPU: la ausencia de una NPU en esa enumeración no demuestra su ausencia física. Los controladores y las bibliotecas de los fabricantes conservan su propia realización tecnológica.
 
 ## Vigencia y ejecución
 
