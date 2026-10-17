@@ -193,26 +193,27 @@
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="https://documentos-sv.itvia.online/">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="https://documentos-sv.itvia.online/consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="https://documentos-sv.itvia.online/licencias.html">Licencias</a><p>Edición 14/10/2026 · Original en español</p></nav>
                         <h1 id="corrección-ciega-indeterminación-y-representación"><a class="header" href="#corrección-ciega-indeterminación-y-representación">Corrección ciega, indeterminación y representación</a></h1>
 <p>El corrector utiliza la edición, los identificadores, la plantilla, las criticidades y la respuesta recibida. No recibe el nombre comercial, proveedor ni coste del candidato. La comparación es determinista dentro de ese contrato; no necesita una interpretación posterior distinta para cada modelo.</p>
-<h2 id="regla-agregada-1612-v1"><a class="header" href="#regla-agregada-1612-v1">Regla agregada 16/12-v1</a></h2>
-<p>La primera edición adopta doce aciertos sobre dieciséis, con control de posiciones críticas. Sean <strong>a</strong> los aciertos observados y <strong>u</strong> las respuestas U. Se aplica la siguiente tabla, en este orden:</p>
+<h2 id="clasificación-matemática-y-dictamen-del-contrato"><a class="header" href="#clasificación-matemática-y-dictamen-del-contrato">Clasificación matemática y dictamen del contrato</a></h2>
+<p>Los <a href="https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/b8fd32978292d25adf9b87cf71e409005dce642c/documentos/fundamentos/README.md">Fundamentos del SV, apartados 2–5</a> fijan <strong>T(n)=⌊7n/9⌋</strong>. Para la célula (16,4), T(16)=12. El vector completo de calificaciones tiene N₀ aciertos, N₁ errores y Nᵤ indeterminaciones; sus recuentos suman 16. La clasificación matemática <strong>κ</strong> se obtiene en este orden:</p>
 <div class="table-wrapper">
 <table>
 <thead>
-<tr><th>Condición</th><th>Dictamen</th></tr>
+<tr><th>Condición</th><th>Clasificación κ</th></tr>
 </thead>
 <tbody>
-<tr><td>Hay un error crítico, o a + u es menor que 12.</td><td>1: No apto.</td></tr>
-<tr><td>Todas las posiciones críticas son correctas y a es al menos 12.</td><td>0: Apto dentro de la edición.</td></tr>
+<tr><td>N₁ es al menos 12.</td><td>1: No apto.</td></tr>
+<tr><td>N₀ es al menos 12.</td><td>0: Apto.</td></tr>
 <tr><td>Cualquier otra combinación.</td><td>U: Indeterminado.</td></tr>
 </tbody>
 </table>
 </div>
-<p>El cálculo a + u sólo determina si la indeterminación puede afectar al resultado. No convierte U en acierto ni concede puntos. Doce aciertos y cuatro U no críticas pueden demostrar aptitud; una U crítica la impide. Once aciertos, cuatro errores no críticos y una U dejan el resultado indeterminado. Un error crítico mantiene el dictamen adverso aunque exista otra posición U.</p>
-<p>La regla es propia de esta edición. No modifica la terna primitiva, no redefine la clasificación general del SV ni recalifica resultados históricos. La tabla comparativa reserva la columna de dictamen a 0, 1 o U cuando existe un dictamen emitido. Los estados preparado, interrumpido y pendiente pertenecen a otra columna. Una casilla sin dictamen no equivale a U.</p>
+<p>El contrato del examen añade el control de criticidad prefijado: un solo error crítico determina <strong>No apto</strong>; una U crítica impide <strong>Apto</strong>. Se conserva κ por separado: quince aciertos y un error crítico dan κ=Apto y dictamen contractual=No apto. Doce aciertos y cuatro U no críticas permiten Apto. Once aciertos y cinco errores no críticos dan κ=Indeterminado y dictamen=Indeterminado; no alcanzar el umbral de aptitud no basta para declarar No apto.</p>
+<p>La realización se identifica como <strong>SV-FUNDAMENTOS-T7N9-CRITICIDAD-1</strong>. Corrige la desviación de la preparación anterior, denominada 16/12-v1, que rechazaba cuando N₀+Nᵤ&lt;12: esa condición no es la regla fundacional. No se recalifican ni sobrescriben resultados históricos. Antes del lanzamiento se debe recibir la regla corregida con la edición y sus condiciones. La tabla conserva κ y dictamen separados de preparado, interrumpido o pendiente; una casilla sin dictamen no equivale a U.</p>
 <h2 id="fallos-formales-y-fallos-del-instrumento"><a class="header" href="#fallos-formales-y-fallos-del-instrumento">Fallos formales y fallos del instrumento</a></h2>
 <p>Una respuesta íntegra y correctamente asociada que incumpla el formato exigido recibe 1 por incumplimiento formal. No se inventa un vector de dieciséis errores ni un polígono científico para ella. Una recepción truncada, un paquete defectuoso o una asociación incorrecta producen una incidencia sin dictamen del candidato. El original se conserva antes de interpretar su contenido.</p>
 <h2 id="polígono-sv"><a class="header" href="#polígono-sv">Polígono SV</a></h2>
-<p>Se representa el vector completo de <strong>calificaciones</strong>, en orden canónico. Se mantiene la convención recibida: 0, rojo y radio 1; 1, verde y radio 2; U, azul y radio 3. El primer vértice se sitúa arriba y el recorrido visual es horario. Los radios identifican símbolos; no expresan cantidades, porcentajes ni gravedad clínica. El área no constituye una puntuación adicional.</p>
+<p>El polígono y el vector forman la pareja <strong>Frame_C=(frmat, frvis)</strong>: misma instancia, edición, respuesta, contrato y posiciones. La representación permite inspeccionar los estados que determinan κ y el dictamen; no es un adorno ni una nota independiente. La vista egui coteja esos resultados con la misma regla Rust utilizada por el corrector y rechaza discrepancias de recuentos, umbral, dictamen u orden. Se muestran los valores, las criticidades y sus efectos, con el enunciado de cada posición y la procedencia de la evidencia, dentro del permiso de evaluación. La plantilla de soluciones continúa reservada.</p>
+<p>Se mantiene la convención recibida: 0, rojo y radio 1; 1, verde y radio 2; U, azul y radio 3. En coordenadas matemáticas, θᵢ=2π(i−1)/16 y Vᵢ=(ρ cos θᵢ, ρ sen θᵢ). La transformación de pantalla (cₓ+s·y, cᵧ−s·x), s&gt;0, coloca el primer vértice arriba, con recorrido horario y cierre 16→1. Los radios codifican símbolos; no son porcentajes ni gravedad clínica. Área y perímetro son magnitudes geométricas auxiliares y no sustituyen la regla de aptitud ni los criterios aceptados de clasificación entre candidatos.</p>
 <p>Una respuesta correcta 1 frente a un enunciado falso produce calificación 0 y se representa como tal. Antes de recibir un vector completo no se dibuja un resultado aparente. La ausencia de ejecución nunca se rellena con U.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
