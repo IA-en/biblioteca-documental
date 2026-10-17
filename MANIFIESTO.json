@@ -152,9 +152,9 @@
       "bytes": 6723
     },
     {
-      "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-      "sha256": "55b21786e1403f9d73c2da0ba7e7b26c02a71002f3527e89674f4ac88ddeaa9d",
-      "bytes": 4597
+      "sha256": "5e520aa1240ebf4b1be65278cabd2013f00b7fdb292abbdd9effe4f7f120554b",
+      "bytes": 6714,
+      "ruta": "libros/evaluacion-modelos/src/comparacion.md"
     },
     {
       "sha256": "7949a6c3a7547596dd1be6862da351c469fc030d74d08e488ea6d58b3710bf7f",
@@ -1637,9 +1637,9 @@
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/clipboard.min.js"
     },
     {
-      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/comparacion.html",
-      "sha256": "524e006a9e6b498bad385e871c31a1358528a5600b3386b60d8dc48b1ada7b18",
-      "bytes": 27773
+      "sha256": "7a840d43396bd235a59df44f19c0ff13fcc24fb62e68804f0f5a240948a8b29d",
+      "bytes": 29959,
+      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/comparacion.html"
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/correccion.html",
@@ -1797,9 +1797,9 @@
       "bytes": 3422
     },
     {
-      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/print.html",
-      "sha256": "181708686825f12ea742474392dae18b02b26eda34d9df3c945dda596f4b3798",
-      "bytes": 51274
+      "sha256": "93d34ed548f18a6eac6ac9ca8538f347361607095d055f9d8d09da57ffbb366e",
+      "bytes": 53460,
+      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/print.html"
     },
     {
       "sha256": "b7551e8be39c55b55f61618fda226c3e058ac5e5d720875f8fed10ffb85e99d4",
@@ -1807,9 +1807,9 @@
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searcher.js"
     },
     {
-      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searchindex.js",
-      "sha256": "45024367e707c5a5e7914e9571aa5464529847806a47a74c99ccc7344363b2a9",
-      "bytes": 273370
+      "sha256": "6b1fee92fc811dfdf7ea28112dd02a697d23b4b9fc8c3d943dbc776dd009cd5b",
+      "bytes": 290089,
+      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searchindex.js"
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/toc.html",
@@ -2067,9 +2067,9 @@
       "bytes": 6723
     },
     {
-      "ruta": "publico/libros/evaluacion-modelos/src/comparacion.md",
-      "sha256": "55b21786e1403f9d73c2da0ba7e7b26c02a71002f3527e89674f4ac88ddeaa9d",
-      "bytes": 4597
+      "sha256": "5e520aa1240ebf4b1be65278cabd2013f00b7fdb292abbdd9effe4f7f120554b",
+      "bytes": 6714,
+      "ruta": "publico/libros/evaluacion-modelos/src/comparacion.md"
     },
     {
       "sha256": "7949a6c3a7547596dd1be6862da351c469fc030d74d08e488ea6d58b3710bf7f",
