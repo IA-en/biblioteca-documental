@@ -14,7 +14,7 @@ Las comparaciones históricas conservan sus contratos originales. La nueva edici
 
 ## Selección, clasificación e independencia
 
-La comparación actual se limita a candidatos con antecedentes: GPT-6 Astra, Grok 4.7, Qwen3.8-Max-0902, GLM-5.3, Kimi K3 y Claude Opus 5.5. La clasificación nueva procede de ejecuciones comparables de la edición actual. Los antecedentes seleccionan candidatos; no transfieren automáticamente sus calificaciones. La comprobación de una API no incorpora un modelo a la comparación ni permite sustituir su versión.
+La comparación actual se limita a candidatos con antecedentes: GPT-6 Astra, Grok 4.7, Qwen3.8-Max-0902, GLM-5.3, Kimi K3 y Claude Opus 5.5. La clasificación nueva procede de ejecuciones comparables de la edición actual. Los antecedentes seleccionan candidatos; no transfieren automáticamente sus calificaciones. La comprobación de una API no incorpora un modelo a la comparación ni permite sustituir su versión. Por incorporación expresa posterior, Gemini 4 Argon se añade como séptimo candidato pendiente, con el mismo paquete íntegro, orden común, regla de aptitud y condiciones recibidas. Su conexión y el contador de tokens no constituyen un examen ni un resultado.
 
 El criterio **SV-CLASIFICACION-EET-CYB16-1**, fijado antes de las ejecuciones, admite a la recomendación sólo resultados Aptos (0). Ordena sucesivamente por **más aciertos, menos errores, menor tiempo total y menor coste general comparable**, en ese orden. Una ventaja posterior no compensa una desventaja anterior. A igualdad de aciertos, menos errores distingue la incertidumbre declarada de una respuesta errónea; no convierte una U en conocimiento.
 
