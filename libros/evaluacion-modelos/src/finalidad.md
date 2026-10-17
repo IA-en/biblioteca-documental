@@ -4,7 +4,7 @@ La validación, la autorización institucional y la selección para producción 
 
 Este libro presenta el procedimiento común de EET-IA, **Exámenes – Ensayos – Tests IA**, y sus restricciones. La sede administrativa se denomina **Investigación y puesta en marcha de modelos de IA**. Comparte la identificación humana del gestor documental y mantiene admisiones y expedientes propios. El dominio científico evaluado se conserva como dato distinto de esta sede administrativa.
 
-La fase inicial permite preparar ediciones, conservar originales, fijar plantillas y comprobar el instrumento sin consultar modelos. El inicio de exámenes y la puesta en producción permanecen bloqueados. Un expediente preparado no recibe dictamen. Las comprobaciones con respuestas prefijadas no son exámenes de candidatos.
+La preparación permite conservar originales, fijar plantillas y comprobar el instrumento sin consultar modelos. El modo de examen exige la recepción de condiciones técnicas y documentales concretas, saldo reciente y una petición expresa de lanzamiento. La producción permanece bloqueada. Un expediente preparado no recibe dictamen. Las comprobaciones con respuestas prefijadas no son exámenes de candidatos.
 
 ## Organización documental
 

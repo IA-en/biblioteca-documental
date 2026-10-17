@@ -12,6 +12,15 @@ EET-CYB16 toma como fuente el acta original OP-CYB-001, en una revisión identif
 
 Las comparaciones históricas conservan sus contratos originales. La nueva edición no modifica las calificaciones anteriores ni establece equivalencia automática con bancos de veinticinco preguntas o pruebas de varias etapas.
 
+## Selección, clasificación e independencia
+
+La comparación actual se limita a candidatos con antecedentes: GPT-6 Astra, Grok 4.7, Qwen3.8-Max-0902, GLM-5.3, Kimi K3 y Claude Opus 5.5. La clasificación nueva procede de ejecuciones comparables de la edición actual. Los antecedentes seleccionan candidatos; no transfieren automáticamente sus calificaciones. La comprobación de una API no incorpora un modelo a la comparación ni permite sustituir su versión.
+
+El protocolo de ordenación y desempate debe fijarse antes de las ejecuciones. Debe distinguir aptitud y calidad de respuestas, duración y consumo comunicado. Los tokens de proveedores diferentes no son unidades lingüísticas idénticas; los ausentes no valen cero. Una incidencia o falta de comparabilidad no se convierte en inferioridad científica. La recomendación del SV será única cuando haya un primer puesto apto justificable. Sin evidencia suficiente o ante un empate no resuelto se explicará la ausencia de recomendación.
+
+La [clasificación pública](https://administracion.itvia.online/benchmark) aparece en la primera pantalla del Gestor, junto a sus demás accesos. Incluye prosa y datos estructurados. La publicación no divulga la plantilla, los originales reservados, las respuestas privadas, credenciales ni datos personales.
+
+La [solicitud de evaluación](https://administracion.itvia.online/benchmark/proveedores) permite a proveedores proponer nuevas evaluaciones sin coste para el SV, con identificación del representante, motivo, recursos y confirmación de correo. La aportación de recursos no compra posiciones, aceptación ni resultados favorables. Todo acuerdo debe identificar financiación, recursos y posibles conflictos de interés. No se presume una inexistencia de conflictos por el mero enunciado de esta política.
 ## Sedes de consulta
 
 - [Estándar comparativo y ediciones](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark).
