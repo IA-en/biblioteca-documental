@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "capitulos": [
+    {
+      "id": "VISUALIZADORES-02",
+      "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
+      "sha256": "a7d2d726d93b6ca026da9816f2181e04f527ae494ed82acb9c905ac8268a4142",
+      "ruta": "finalidad.md",
+      "url": "urn:sv:documento:sha256:a7d2d726d93b6ca026da9816f2181e04f527ae494ed82acb9c905ac8268a4142"
+    },
+    {
+      "id": "VISUALIZADORES-03",
+      "titulo": "Formatos, representaciones y límites",
+      "sha256": "f2d1e5ec058a4c7cef902b457b041b5015ae1dbdd464bb89e2daf02465146bd1",
+      "ruta": "formatos.md",
+      "url": "urn:sv:documento:sha256:f2d1e5ec058a4c7cef902b457b041b5015ae1dbdd464bb89e2daf02465146bd1"
+    },
+    {
+      "id": "VISUALIZADORES-07",
+      "titulo": "Prioridades documentales y Universos relacionados",
+      "url": "urn:sv:documento:sha256:89ff65a1ac9a924d3ae538d93bbbb977e010be32bae438652a1feb65e0a578a4",
+      "ruta": "prioridades.md",
+      "sha256": "89ff65a1ac9a924d3ae538d93bbbb977e010be32bae438652a1feb65e0a578a4"
+    },
+    {
+      "id": "VISUALIZADORES-04",
+      "titulo": "Permisos documentales y bloqueo de entregas",
+      "sha256": "5ffa0258c8745cce0e95996c44eafea4ec1e83c597b6fc5d9636573ff3eceb78",
+      "ruta": "entrega.md",
+      "url": "urn:sv:documento:sha256:5ffa0258c8745cce0e95996c44eafea4ec1e83c597b6fc5d9636573ff3eceb78"
+    },
+    {
+      "id": "VISUALIZADORES-05",
+      "titulo": "Información disponible para la revisión",
+      "sha256": "90acceda7c5516d9b20aa62692beaee0eca5fa8f3d1f1aaf1a2ef6a79a496fbe",
+      "ruta": "revision.md",
+      "url": "urn:sv:documento:sha256:90acceda7c5516d9b20aa62692beaee0eca5fa8f3d1f1aaf1a2ef6a79a496fbe"
+    },
+    {
+      "id": "VISUALIZADORES-06",
+      "titulo": "Comprobaciones, estado y fuentes",
+      "sha256": "9ac02958b8d8347f8dc98c6a2168322c37a77fb6623c46ed5bfcf826106a407c",
+      "ruta": "verificacion.md",
+      "url": "urn:sv:documento:sha256:9ac02958b8d8347f8dc98c6a2168322c37a77fb6623c46ed5bfcf826106a407c"
+    }
+  ],
+  "summary": {
+    "id": "VISUALIZADORES-01",
+    "titulo": "Índice",
+    "sha256": "2b09bcb94740214f313a0a7034c62178549d023486eae8bcd9b9dd399b27223d",
+    "ruta": "SUMMARY.md",
+    "url": "urn:sv:documento:sha256:2b09bcb94740214f313a0a7034c62178549d023486eae8bcd9b9dd399b27223d"
+  },
+  "revision": "83b3ba9b2c0f6aed9799403876fd4ee35b8ddd76fbb2b727c1218b56e3bffd49",
+  "libro": "SV_VISUALIZADORES"
+}

@@ -1,0 +1,16 @@
+{
+  "permitir_restringidos": false,
+  "permitir_sinteticos": false,
+  "biblioteca_sha256": "3acc4eca75ba89e913e772fd9aa68b866817818ffcd7f7fbc1597099e7289579",
+  "finalidad": "verificacion_local",
+  "libros_permitidos": [
+    "guia",
+    "visualizadores",
+    "normativa",
+    "manual",
+    "dominios",
+    "evaluacion-modelos"
+  ],
+  "nodo": 1,
+  "version": 1
+}

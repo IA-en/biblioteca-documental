@@ -1,8 +1,8 @@
 # Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA
 
-**V.07 · 12 de octubre de 2026 · Original en español.**
+**V.08 · 18 de octubre de 2026 · Original en español.**
 
-El Sistema Vectorial SV permite conservar documentos, leerlos, preparar otras representaciones y autorizar el contenido que puede suministrarse a una IA. Este libro explica esas operaciones, sus requisitos y sus límites. Es una guía de consulta; los datos de cada documento se encuentran en su ficha y su historial.
+El Sistema Vectorial SV permite conservar documentos, leerlos, preparar representaciones y administrar sus permisos. En esta versión, las entregas de contenido a proveedores de IA están bloqueadas, incluidos sus contadores. Este libro explica esas operaciones, sus requisitos y sus límites. Es una guía de consulta; los datos de cada documento se encuentran en su ficha y su historial.
 
 ## Qué conserva el sistema
 
@@ -10,19 +10,19 @@ El **original** es el archivo recibido: PDF, página web conservada en HTML o te
 
 Una **representación** facilita su lectura: una página PDF mostrada como imagen o un texto extraído y organizado mediante mdBook. Permanece vinculada al original. La transformación puede omitir elementos; por ello se indican su cobertura y el resultado de su revisión.
 
-El **contenido entregado a la IA** es la selección efectivamente preparada para una consulta. Puede ser menor que el documento visible. Su registro permite comprobar qué se envió y con qué autorización.
+El **contenido preparado** y el **contenido efectivamente entregado** son hechos distintos. Los expedientes conservan la evidencia de cada actuación. Una preparación no acredita envío ni autoriza a repetir una entrega histórica.
 
 ## Cómo trabajar con un documento
 
 1. Registre su referencia, procedencia y licencia, y deposite el original cuando disponga del permiso correspondiente.
 2. Abra la lectura disponible. Al abrir un PDF, el visor muestra sus páginas; puede recorrerlas y ampliar la vista. La ficha queda disponible por separado.
 3. Si necesita texto, solicite la conversión autorizada y revise el resultado frente al original.
-4. Compruebe la licencia y la autorización de suministro antes de utilizarlo en una consulta a la IA.
+4. Consulte los permisos particulares y el bloqueo de entregas vigente; no use una autorización antigua para eludirlo.
 5. Consulte el historial para conocer las actuaciones, sus responsables y sus fechas; abra el expediente de la consulta para comprobar la entrega.
 
 ## Quién autoriza el uso por la IA
 
-La decisión corresponde al **administrador** o al **Proveedor de documentos para la IA**, con autoridad vigente en el dominio. El Árbitro-Director aplica esa decisión. Una cuenta identificada, un documento cargado o una conversión terminada no otorgan por sí solos autorización de suministro.
+La gestión de los permisos documentales corresponde al **administrador** o al **Proveedor de documentos para la IA**, con autoridad vigente en el dominio. Esa gestión no levanta la prohibición general de entregar contenido a proveedores. Una cuenta identificada, un documento cargado o una conversión terminada no otorgan por sí solos autorización de suministro.
 
 Consultar, convertir y suministrar son operaciones distintas. Cada una debe respetar la licencia y los permisos aplicables. El sistema conserva las decisiones y permite retirar una autorización sin borrar sus antecedentes.
 
@@ -30,7 +30,7 @@ Consultar, convertir y suministrar son operaciones distintas. Cada una debe resp
 
 mdBook organiza la presentación del texto y del índice; no extrae por sí mismo un PDF ni determina su fidelidad. El español es el original de referencia de este libro. La traducción automática facilita su consulta, pero no incorpora automáticamente una traducción al material autorizado para una IA.
 
-Los siguientes capítulos describen los [formatos](formatos.md), las [prioridades documentales y los Universos relacionados](prioridades.md), la [entrega a la IA](entrega.md), la [revisión](revision.md) y las [capacidades comprobadas y sus límites](verificacion.md).
+Los siguientes capítulos describen los [formatos](formatos.md), las [prioridades documentales y los Universos relacionados](prioridades.md), los [permisos y el bloqueo de entregas](entrega.md), la [revisión](revision.md) y las [capacidades comprobadas y sus límites](verificacion.md).
 
 ---
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-publica-20261015-explorador-tensorial",
+  "edicion": "biblioteca-sv-lectura-frontera-v08-20261018",
   "libros": [
     {
       "id": "guia",
@@ -91,7 +91,7 @@
     {
       "id": "visualizadores",
       "plan": {
-        "sha256": "433eedc350a4bf7e72e63fc584f7419492a5b029e618104e24c98f8175b33e6b",
+        "sha256": "1c3aefaa125cca398f3a688efbd5c3b3be636ee8a9f5637b83c1d05450f7b65d",
         "ruta": "libros/visualizadores/plan.json"
       },
       "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
@@ -100,13 +100,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "21180ecb7dcc97d6dd0a5930fa6de8d1a1ca755c3bd96a4e0340e3f6db2885ce",
+            "sha256": "2b09bcb94740214f313a0a7034c62178549d023486eae8bcd9b9dd399b27223d",
             "ruta": "libros/visualizadores/src/SUMMARY.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "VISUALIZADORES-01",
-          "procedencia": "Edición pública propia de 12/10/2026",
-          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -115,13 +115,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "197f4cef6ace14d348e3ff867f257513e46058ae200dcc4f4d9dccf147f86e21",
+            "sha256": "a7d2d726d93b6ca026da9816f2181e04f527ae494ed82acb9c905ac8268a4142",
             "ruta": "libros/visualizadores/src/finalidad.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "VISUALIZADORES-02",
-          "procedencia": "Edición pública propia de 12/10/2026",
-          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -145,13 +145,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "c4a16ee095930bbe946406035b6892d9d5119d1d3517538d5190cbbc30574ed0",
+            "sha256": "5ffa0258c8745cce0e95996c44eafea4ec1e83c597b6fc5d9636573ff3eceb78",
             "ruta": "libros/visualizadores/src/entrega.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "VISUALIZADORES-04",
-          "procedencia": "Edición pública propia de 11/10/2026",
-          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -175,13 +175,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "b55b321083966e7f32ceef2b929c1c1596c4bcb3246b0a42d7a796176493a2a4",
+            "sha256": "9ac02958b8d8347f8dc98c6a2168322c37a77fb6623c46ed5bfcf826106a407c",
             "ruta": "libros/visualizadores/src/verificacion.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "VISUALIZADORES-06",
-          "procedencia": "Edición pública propia de 12/10/2026",
-          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -191,13 +191,13 @@
           "documento": "VISUALIZADORES-07",
           "licencia": "CC BY-NC-ND 4.0",
           "identificador_editorial_r0": null,
-          "alcance": "Especificación de clasificación; no acredita implementación, validación ni autorización de suministro.",
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
           "sintetico": false,
           "original": {
             "ruta": "libros/visualizadores/src/prioridades.md",
-            "sha256": "f793cd14e5af52045524d00ed0cee274ed42c91df605dc94c24d32eaf17b929e"
+            "sha256": "89ff65a1ac9a924d3ae538d93bbbb977e010be32bae438652a1feb65e0a578a4"
           },
-          "procedencia": "https://github.com/juantoniolloretegea/SVperitus-dataset/blob/217f981b9724b406a6c94e30e0c77042cd019d85/dominios/documentos-y-universos-relacionados/readme.md; marco conceptual: https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/marco-tecnico-de-universos-subdominios-y-modulos/README.md",
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "correspondencia": "identidad_literal"

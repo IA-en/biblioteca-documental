@@ -1,0 +1,778 @@
+{
+  "version": 1,
+  "edicion": "biblioteca-sv-lectura-frontera-v08-20261018",
+  "libros": [
+    {
+      "id": "guia",
+      "plan": {
+        "sha256": "4858f24ddf31542876d7f922c7a8617f4d91025525c90c960863a3c489fd0d1c",
+        "ruta": "libros/guia/plan.json"
+      },
+      "titulo": "Biblioteca documental del SV",
+      "raiz": "libros/guia/src",
+      "metadatos": [
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
+            "ruta": "libros/guia/src/SUMMARY.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-01",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "b060289ffe72ccf63b299e5fc93a8694434d239187143c4e84dd2f2687715fa9",
+            "ruta": "libros/guia/src/indice.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-02",
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "102a75627bf8fd1496ea0468069aa6d6a828cb34b8018b6d447e46b7c01f070b",
+            "ruta": "libros/guia/src/organizacion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-03",
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "dc9b1b1fad1ef1c174df9fcd4c67ba0b9d5252fb2345a0e52e4ded8a8808110d",
+            "ruta": "libros/guia/src/consulta.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-04",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "cf3cf23c00ee9cee3b246919eef91b85b7006c219b2e48c7774cee46c8c7dd46",
+            "ruta": "libros/guia/src/licencias.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-05",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        }
+      ]
+    },
+    {
+      "id": "visualizadores",
+      "plan": {
+        "sha256": "1c3aefaa125cca398f3a688efbd5c3b3be636ee8a9f5637b83c1d05450f7b65d",
+        "ruta": "libros/visualizadores/plan.json"
+      },
+      "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
+      "raiz": "libros/visualizadores/src",
+      "metadatos": [
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "2b09bcb94740214f313a0a7034c62178549d023486eae8bcd9b9dd399b27223d",
+            "ruta": "libros/visualizadores/src/SUMMARY.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-01",
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "a7d2d726d93b6ca026da9816f2181e04f527ae494ed82acb9c905ac8268a4142",
+            "ruta": "libros/visualizadores/src/finalidad.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-02",
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "f2d1e5ec058a4c7cef902b457b041b5015ae1dbdd464bb89e2daf02465146bd1",
+            "ruta": "libros/visualizadores/src/formatos.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-03",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "5ffa0258c8745cce0e95996c44eafea4ec1e83c597b6fc5d9636573ff3eceb78",
+            "ruta": "libros/visualizadores/src/entrega.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-04",
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "90acceda7c5516d9b20aa62692beaee0eca5fa8f3d1f1aaf1a2ef6a79a496fbe",
+            "ruta": "libros/visualizadores/src/revision.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-05",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "9ac02958b8d8347f8dc98c6a2168322c37a77fb6623c46ed5bfcf826106a407c",
+            "ruta": "libros/visualizadores/src/verificacion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "VISUALIZADORES-06",
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "documento": "VISUALIZADORES-07",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null,
+          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+          "sintetico": false,
+          "original": {
+            "ruta": "libros/visualizadores/src/prioridades.md",
+            "sha256": "89ff65a1ac9a924d3ae538d93bbbb977e010be32bae438652a1feb65e0a578a4"
+          },
+          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "correspondencia": "identidad_literal"
+        }
+      ]
+    },
+    {
+      "id": "normativa",
+      "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
+      "plan": {
+        "ruta": "libros/normativa/plan.json",
+        "sha256": "ba688a49345f89d9ef415bee46766ddbdba5dfbcff7e71f065756420ab4e6bb5"
+      },
+      "metadatos": [
+        {
+          "documento": "NORMATIVA-01",
+          "original": {
+            "ruta": "libros/normativa/src/SUMMARY.md",
+            "sha256": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-02",
+          "original": {
+            "ruta": "libros/normativa/src/presentacion.md",
+            "sha256": "bdb08774f5a23af6237ce2bb3d05b7feb33c6cc86b952762b07b90121549b769"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-03",
+          "original": {
+            "ruta": "libros/normativa/src/garantias.md",
+            "sha256": "c1ea55cae07e42bffd9611c5b1ac0ac06f1b6a29f07deec9ac4b7168ffb73fc4"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-04",
+          "original": {
+            "ruta": "libros/normativa/src/trazabilidad.md",
+            "sha256": "f5ac6a959d34d52cbabd5ebcd77abb291c89498667c70ac19b2ab27866c7c822"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-05",
+          "original": {
+            "ruta": "libros/normativa/src/marco-normativo.md",
+            "sha256": "a07bf70497b4602ba384c84082fc3bf089d4815324f4b76a97d4512942d7b468"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-06",
+          "original": {
+            "ruta": "libros/normativa/src/ciberseguridad.md",
+            "sha256": "098735b7786e81b15b73d97e3a6b6a5a50dffd7b17a906d7059670a41c0d26f4"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-07",
+          "original": {
+            "ruta": "libros/normativa/src/uso-sanitario.md",
+            "sha256": "bed7acb4ebe90b35f075b2c136f1bbd21504907176f9d049350c21fd7089eefb"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-08",
+          "original": {
+            "ruta": "libros/normativa/src/derechos.md",
+            "sha256": "fe9e45bbf6f6e0fe0e8a46c8ef590288926546cd80ed756704d6ad0b03360507"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-09",
+          "original": {
+            "ruta": "libros/normativa/src/evaluacion.md",
+            "sha256": "90700334409926449911b3e28fe7707b199eb98685c0be30eedc53f3de0b5fd7"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-10",
+          "original": {
+            "ruta": "libros/normativa/src/referencias.md",
+            "sha256": "4dcf6e6f53f807b4db46d892ef872e0a61edc084f72a977c5c0350c2888821a4"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        }
+      ],
+      "raiz": "libros/normativa/src"
+    },
+    {
+      "id": "manual",
+      "titulo": "Manual del Lenguaje de Computación SV",
+      "raiz": "libros/manual/src",
+      "plan": {
+        "ruta": "libros/manual/plan.json",
+        "sha256": "d44a963055ed7bd0fd00c4acd1d801205d9860566b93ec826195ebe792118405"
+      },
+      "metadatos": [
+        {
+          "documento": "MANUAL_INDICE",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/SUMMARY.md",
+            "sha256": "45b696e046a9ee1deb0788504df22e8a6768df09175e88e01fd03ec3fc52b9e0"
+          },
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_PRESENTACION",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/presentacion.md",
+            "sha256": "21ffdf45b34f1a70b75ec166dee3af957192f274c83748c3f121b1a77436d39f"
+          },
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_CONSTRUCTOR",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/constructor.md",
+            "sha256": "148450867f213803bd045e2068e94355404674e9d884078b4b55d990d0f94240"
+          },
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_TRAMO10",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/tramo-10.md",
+            "sha256": "c74dc59bc04ad4e8fd1579497eaaf3ef6d96db10770b6ecfcc72cb5535512580"
+          },
+          "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_PARAMETROS_RUTAS",
+          "identificador_editorial_r0": null,
+          "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "original": {
+            "ruta": "libros/manual/src/parametros-rutas.md",
+            "sha256": "a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb"
+          },
+          "sintetico": false
+        },
+        {
+          "documento": "MANUAL_ARBITRO_DIRECTOR",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/arbitro-director.md",
+            "sha256": "70d5adb0ccd7bd4c724bb163734aae2925eaac131d875857b351e85af39693b5"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/selector-arbitro-director.md",
+            "sha256": "2212ed2272d4efe4dee95e407a2104f463a51c21e92e5e51ca344f60777d986c"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_HARDWARE_ACELERACION",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
+            "sha256": "8e2e2cff0fddeff3fe0acb87bc28082fc9598b6908d725c480fb039b042f6c9c"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_EXPLORADOR_TENSORIAL",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/explorador-tensorial-sv.md",
+            "sha256": "9cf73a4456062bace6e7de5e9b70ece6fa96a9db949071410c5a90fb898c2652"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        }
+      ]
+    },
+    {
+      "plan": {
+        "sha256": "9ba8f63526425f8ae20353cede8805379eb0cfcbc613bc2dbc9185f2c05a37b7",
+        "ruta": "libros/dominios/plan.json"
+      },
+      "raiz": "libros/dominios/src",
+      "titulo": "Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros",
+      "metadatos": [
+        {
+          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-01",
+          "original": {
+            "sha256": "b42bf815760f61abb8cc46eef143926b524c578493a9af8b5935c9c38f96b269",
+            "ruta": "libros/dominios/src/SUMMARY.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+        },
+        {
+          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-02",
+          "original": {
+            "sha256": "b267e948af28a9ac95fa4ed0cca38fad8e320ddfdbc66e3add3c433453d1d5d0",
+            "ruta": "libros/dominios/src/presentacion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+        },
+        {
+          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-03",
+          "original": {
+            "sha256": "aae17ad1087e82602c0b76282f523cae6cd7a58691fa69fe3fab1b8f488e0dda",
+            "ruta": "libros/dominios/src/conceptos.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+        },
+        {
+          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-04",
+          "original": {
+            "sha256": "2b8e04bd9f8cca27dfe46cb555671611a0c3fdd2dc1d5965a06d368f15631ee6",
+            "ruta": "libros/dominios/src/metodologia.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+        },
+        {
+          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-05",
+          "original": {
+            "sha256": "4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568",
+            "ruta": "libros/dominios/src/inmunologia.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+        },
+        {
+          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-06",
+          "original": {
+            "sha256": "902c0bae3cc72209ff20aee4566a66bd32039f775b09297e6dd82ead42972aa0",
+            "ruta": "libros/dominios/src/ciberseguridad.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+        },
+        {
+          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-07",
+          "original": {
+            "sha256": "2434ed493e448e1e89a8c3a7ffef97f030f901ccdc57cebf669019ff600176fb",
+            "ruta": "libros/dominios/src/fuentes.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+        },
+        {
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "DOMINIOS-08",
+          "identificador_editorial_r0": null,
+          "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026 con ejemplos explicativos y bibliografía identificada.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "original": {
+            "ruta": "libros/dominios/src/parametros-rutas.md",
+            "sha256": "21eccf95aec0c718f8f4f0f2d581283ad89e9e52afb88d3705056a26fa26ea58"
+          },
+          "sintetico": false
+        }
+      ],
+      "id": "dominios"
+    },
+    {
+      "plan": {
+        "sha256": "bcf4554a2f3dcad90f5cb81c63811226276229afc42ca0e686ce31a11dfe8c05",
+        "ruta": "libros/evaluacion-modelos/plan.json"
+      },
+      "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
+      "metadatos": [
+        {
+          "procedencia": "Edición pública propia de 14/10/2026",
+          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "b00ee6af7ee404ac3fa4f978d27d9f7faabd1372d29ba563877b8585d3de3660",
+            "ruta": "libros/evaluacion-modelos/src/autoridad.md"
+          },
+          "documento": "EET-01",
+          "identificador_editorial_r0": null,
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "procedencia": "Edición pública propia de 14/10/2026",
+          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "37f57ddb11d1ae63c1369c26cdaea89e2fbfa33e3f40bdf3e3b68e8502879fe0",
+            "ruta": "libros/evaluacion-modelos/src/comparacion.md"
+          },
+          "documento": "EET-02",
+          "identificador_editorial_r0": null,
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "procedencia": "Edición pública propia de 14/10/2026",
+          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "7949a6c3a7547596dd1be6862da351c469fc030d74d08e488ea6d58b3710bf7f",
+            "ruta": "libros/evaluacion-modelos/src/correccion.md"
+          },
+          "documento": "EET-03",
+          "identificador_editorial_r0": null,
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "procedencia": "Edición pública propia de 14/10/2026",
+          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "e57bcd5d70f6c57666b62ed8e50c6f4377ac52d20700e98e4d2c4025a6b06f52",
+            "ruta": "libros/evaluacion-modelos/src/documentos.md"
+          },
+          "documento": "EET-04",
+          "identificador_editorial_r0": null,
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "procedencia": "Edición pública propia de 14/10/2026",
+          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "9790fb383dcbd452e2fe946da180028fdb8652fe9ff4a2f971cfad92341c01d0",
+            "ruta": "libros/evaluacion-modelos/src/edicion.md"
+          },
+          "documento": "EET-05",
+          "identificador_editorial_r0": null,
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "procedencia": "Edición pública propia de 14/10/2026",
+          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "d5659b45c9fb6f244370d19c5ab1a97621579e96f0e9556e307bfb4d59703562",
+            "ruta": "libros/evaluacion-modelos/src/finalidad.md"
+          },
+          "documento": "EET-13",
+          "identificador_editorial_r0": null,
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "procedencia": "Edición pública propia de 14/10/2026",
+          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "73f892bb73a1bc7269d8f6d68add20a66ef0615a84609b99e515c46ba1e16330",
+            "ruta": "libros/evaluacion-modelos/src/SUMMARY.md"
+          },
+          "documento": "EET-14",
+          "identificador_editorial_r0": null,
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "procedencia": "Edición pública propia de 14/10/2026",
+          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "6bd6ed048bfbff2674e8d797d5f78d003d8a5db53b5b49f625d7fd192edd9621",
+            "ruta": "libros/evaluacion-modelos/src/transporte.md"
+          },
+          "documento": "EET-15",
+          "identificador_editorial_r0": null,
+          "licencia": "CC BY-NC-ND 4.0"
+        }
+      ],
+      "id": "evaluacion-modelos",
+      "raiz": "libros/evaluacion-modelos/src"
+    }
+  ],
+  "estado": "preparacion_local"
+}

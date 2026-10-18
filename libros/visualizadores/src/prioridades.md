@@ -1,8 +1,8 @@
 # Prioridades documentales y Universos relacionados
 
-**Reglas documentales previstas · V.07 · 12 de octubre de 2026.**
+**Reglas documentales · V.08 · 18 de octubre de 2026.**
 
-Este capítulo explica cómo organizar la pertenencia, las relaciones y la precedencia de las fuentes. Estas funciones están especificadas y pendientes de incorporación y comprobación en el gestor. No deben confundirse con las operaciones de lectura, permisos e historial ya disponibles.
+Este capítulo explica cómo organizar la pertenencia, las relaciones y la precedencia de las fuentes. El Gestor dispone de registro de Universos, propiedad documental, relaciones, selección y prioridades, con preparación y confirmación de cambios. Estos controles no constituyen un dominio científico completado ni habilitan envíos a proveedores.
 
 ## Universo y responsabilidad documental
 
@@ -122,7 +122,7 @@ Si una consulta reúne varios Universos, las precedencias locales no bastan para
 
 Retirar una relación no borra el documento. Cambiar de propietario exige una decisión expresa y registrada. No puede suprimirse un Universo dejando documentos sin propietario.
 
-## 6. Incorporación, cambios y entrega a la IA
+## 6. Incorporación, cambios y condiciones de suministro
 
 El recorrido previsto es sencillo:
 
@@ -137,7 +137,7 @@ Una edición nueva se registra como tal. No sustituye silenciosamente el origina
 
 Una consulta debe conservar qué ediciones, relaciones, prioridades y órdenes se aplicaron, junto con las autorizaciones y el contenido efectivamente preparado. La presentación gráfica por sí sola no basta: la información de precedencia tiene que acompañar de forma explícita al material suministrado.
 
-La autorización de suministro corresponde a las figuras habilitadas en el dominio; el Árbitro-Director aplica esa decisión. La retirada de una autorización impide nuevas entregas, aunque una preparación anterior estuviera terminada. Los antecedentes de consultas ya realizadas se conservan.
+La autorización de suministro corresponde a las figuras habilitadas en el dominio; esa facultad no levanta el bloqueo general de contenido a proveedores de esta versión. La retirada de una autorización impide nuevas entregas, aunque una preparación anterior estuviera terminada. Los antecedentes de consultas ya realizadas se conservan.
 
 La IA no puede modificar estas reglas a partir de instrucciones contenidas en un documento. Si falta material necesario, existe una discrepancia no resuelta o el alcance no permite concluir, la respuesta debe expresar esa limitación. La existencia de una clasificación no garantiza que el modelo la respete: su aplicación y la respuesta obtenida requieren comprobación.
 
@@ -170,7 +170,7 @@ Esta especificación no define ese algoritmo, no declara rutas críticas operati
 
 El sistema debe conservar las decisiones de forma íntegra y aplicar las reglas mediante procedimientos deterministas. Debe comprobar la validez de las referencias, la propiedad única, la autoridad y los órdenes confirmados.
 
-Antes de declarar disponibles las funciones, la implementación debe acreditar al menos:
+Los requisitos de revisión del circuito son:
 
 | Comprobación | Resultado exigido |
 | --- | --- |
@@ -183,7 +183,7 @@ Antes de declarar disponibles las funciones, la implementación debe acreditar a
 | Nueva edición o retirada de autorización | Antecedentes preservados y nuevas entregas sometidas al estado vigente. |
 | Respuesta basada en varias fuentes | Referencias cotejables, complementos conservados y discrepancias pertinentes visibles. |
 
-Estas comprobaciones se enuncian como requisitos pendientes de acreditación. El documento no comunica resultados de ensayos que no se hayan realizado.
+Se dispone de controles y pruebas para propietario, prioridades, maestro, selecciones, permisos, revocación y conservación en el registro. La tabla expresa obligaciones de todo el circuito; no acredita por sí sola la validación científica de rutas ni un uso experto en producción. Los envíos a proveedores permanecen bloqueados.
 
 ## Referencias y derechos
 

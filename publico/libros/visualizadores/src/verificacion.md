@@ -1,8 +1,10 @@
 # Comprobaciones, estado y fuentes
 
-**Referencia de esta edición: 12 de octubre de 2026.**
+**Referencia de esta edición: 18 de octubre de 2026.**
 
 ## Capacidades y límites
+
+Las entregas de contenido a proveedores, incluidas las mediciones remotas, están bloqueadas. Los expedientes históricos se conservan para revisión. La traducción local de lectura es opcional y tiene un control institucional persistente; véase [permisos y bloqueo](entrega.md).
 
 El sistema dispone de lectura Markdown mediante mdBook, representación gráfica de páginas PDF, conversión textual autorizada, índice y cobertura por intervalos, historial documental y consulta de los expedientes de entrega.
 
@@ -12,7 +14,7 @@ Se han comprobado libros sintéticos de 130 y 1.025 páginas mediante intervalos
 
 Permanecen sin acreditar la fidelidad universal de los PDF, la reconstrucción íntegra de tablas y diagramas complejos y la entrega directa de PDF o HTML a los modelos en este recorrido. El extractor no realiza reconocimiento óptico de caracteres.
 
-Las [prioridades documentales y los Universos relacionados](prioridades.md) se incorporan como especificación. Su selección, ordenación y aplicación en la entrega todavía requieren implementación y comprobación; esta edición no las presenta como funciones disponibles.
+Las [prioridades documentales y los Universos relacionados](prioridades.md) disponen de registro, preparación y confirmación de cambios en el Gestor, con controles de propiedad, maestro, selecciones y precedencia. No acreditan rutas de conocimiento completas, producción ni permiso de envío a proveedores.
 
 ## Función de los componentes
 
