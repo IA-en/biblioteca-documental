@@ -27,6 +27,7 @@ Los historiales anteriores se preservan. Las actuaciones de prueba permanecen id
 La función **Responsable de evaluar peticiones de Proveedores** es independiente de Evaluador de modelos. Junto con la administración de la instalación, permite revisar solicitudes confirmadas y emitir respuestas trazables. No autoriza a lanzar exámenes, conceder aptitud o activar producción. Una cuenta experta puede acumularla sin recibir por ello las restantes funciones.
 
 La representación institucional, el acuerdo, los recursos sin coste para el SV y la independencia de resultados deben quedar establecidos antes de preparar una nueva evaluación solicitada por un proveedor. La solicitud se ofrece públicamente en español e inglés, sin exponer el correo del SV. La confirmación del correo no sustituye la comprobación de representación.
+
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
