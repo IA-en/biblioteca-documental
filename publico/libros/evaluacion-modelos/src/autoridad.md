@@ -1,33 +1,16 @@
 # Facultades, autorización y producción
 
+> **Política vigente de esta versión:** sólo se permiten autenticación y consulta del catálogo sin contenido. No se envían documentos, preguntas, respuestas ni textos sintéticos a proveedores. Los pasos de entrega y examen descritos a continuación documentan el método y sus antecedentes; están bloqueados y no son instrucciones ejecutables en esta versión. Los permisos conservados no levantan esta restricción. Producción permanece deshabilitada.
+
+
 La identificación compartida evita cuentas personales duplicadas. La autorización sigue siendo específica. Acceder a inmunología o ciberseguridad no concede acceso a EET-IA; pertenecer a EET-IA tampoco autoriza documentos o repositorios científicos.
 
 | Acto | Administrador de EET-IA | Evaluador de modelos de IA | Fase inicial |
-| ## Gestión de solicitudes de proveedores
-
-La función **Responsable de evaluar peticiones de Proveedores** es independiente de Evaluador de modelos. Junto con la administración de la instalación, permite revisar solicitudes confirmadas y emitir respuestas trazables. No autoriza a lanzar exámenes, conceder aptitud o activar producción. Una cuenta experta puede acumularla sin recibir por ello las restantes funciones.
-
-La representación institucional, el acuerdo, los recursos sin coste para el SV y la independencia de resultados deben quedar establecidos antes de preparar una nueva evaluación solicitada por un proveedor. La solicitud se ofrece públicamente en español e inglés, sin exponer el correo del SV. La confirmación del correo no sustituye la comprobación de representación.
---- | ## Gestión de solicitudes de proveedores
-
-La función **Responsable de evaluar peticiones de Proveedores** es independiente de Evaluador de modelos. Junto con la administración de la instalación, permite revisar solicitudes confirmadas y emitir respuestas trazables. No autoriza a lanzar exámenes, conceder aptitud o activar producción. Una cuenta experta puede acumularla sin recibir por ello las restantes funciones.
-
-La representación institucional, el acuerdo, los recursos sin coste para el SV y la independencia de resultados deben quedar establecidos antes de preparar una nueva evaluación solicitada por un proveedor. La solicitud se ofrece públicamente en español e inglés, sin exponer el correo del SV. La confirmación del correo no sustituye la comprobación de representación.
---- | ## Gestión de solicitudes de proveedores
-
-La función **Responsable de evaluar peticiones de Proveedores** es independiente de Evaluador de modelos. Junto con la administración de la instalación, permite revisar solicitudes confirmadas y emitir respuestas trazables. No autoriza a lanzar exámenes, conceder aptitud o activar producción. Una cuenta experta puede acumularla sin recibir por ello las restantes funciones.
-
-La representación institucional, el acuerdo, los recursos sin coste para el SV y la independencia de resultados deben quedar establecidos antes de preparar una nueva evaluación solicitada por un proveedor. La solicitud se ofrece públicamente en español e inglés, sin exponer el correo del SV. La confirmación del correo no sustituye la comprobación de representación.
---- | ## Gestión de solicitudes de proveedores
-
-La función **Responsable de evaluar peticiones de Proveedores** es independiente de Evaluador de modelos. Junto con la administración de la instalación, permite revisar solicitudes confirmadas y emitir respuestas trazables. No autoriza a lanzar exámenes, conceder aptitud o activar producción. Una cuenta experta puede acumularla sin recibir por ello las restantes funciones.
-
-La representación institucional, el acuerdo, los recursos sin coste para el SV y la independencia de resultados deben quedar establecidos antes de preparar una nueva evaluación solicitada por un proveedor. La solicitud se ofrece públicamente en español e inglés, sin exponer el correo del SV. La confirmación del correo no sustituye la comprobación de representación.
---- |
+| --- | --- | --- | --- |
 | Consultar ediciones y expedientes del área | Sí | Sí | Disponible |
 | Preparar y fijar ediciones | Sí | Sí | Disponible |
 | Conceder o revocar el perfil Evaluador | Sí | No | Disponible |
-| Lanzar el examen de un candidato | Sólo si es la cuenta designada | Sólo si es la cuenta designada | Condiciones recibidas, saldo y petición expresa |
+| Lanzar el examen de un candidato | Sólo si es la cuenta designada | Sólo si es la cuenta designada | Bloqueado: sólo conexión sin contenido a proveedores |
 | Autorizar un modelo apto | Sí | Sí | Bloqueada |
 | Seleccionar un modelo autorizado para producción | Sí | Sí | Bloqueada |
 
@@ -47,3 +30,4 @@ La representación institucional, el acuerdo, los recursos sin coste para el SV 
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
