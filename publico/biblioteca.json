@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-lectura-frontera-v08-20261018",
+  "edicion": "biblioteca-sv-herramientas-lenguaje-20261018",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "d44a963055ed7bd0fd00c4acd1d801205d9860566b93ec826195ebe792118405"
+        "sha256": "35e11037318d9eedfd1ddd5b4d79e13bdf26b85a29699803b4d99e6008813bb4"
       },
       "metadatos": [
         {
@@ -379,7 +379,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "45b696e046a9ee1deb0788504df22e8a6768df09175e88e01fd03ec3fc52b9e0"
+            "sha256": "3b0cdd76955c091a2b6c92f0009787ef4eed0135d53b17de52ac521bc9ed6711"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -508,6 +508,21 @@
           "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null
+        },
+        {
+          "procedencia": "Edición pública propia de 18/10/2026",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "dd558696d7e03cdb23012511c7e7b95165b122230664455628f4bbb2060be68c",
+            "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md"
+          },
+          "sintetico": false,
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "alcance": "Herramientas de construcción y comprobación del lenguaje; finalidad, uso y límites de sus resultados.",
+          "documento": "MANUAL_HERRAMIENTAS"
         }
       ]
     },
@@ -644,7 +659,7 @@
     },
     {
       "plan": {
-        "sha256": "bcf4554a2f3dcad90f5cb81c63811226276229afc42ca0e686ce31a11dfe8c05",
+        "sha256": "3399a5da8b493dd6cea1214fb69d1423a2819f535a67b322d5ba9b19609de459",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
@@ -657,7 +672,7 @@
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "b00ee6af7ee404ac3fa4f978d27d9f7faabd1372d29ba563877b8585d3de3660",
+            "sha256": "985a18cdc37bdc9ab71667bcba2d9ef8e437e7bd5e2c4653e52ff9ae31c363b9",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",
@@ -672,7 +687,7 @@
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "37f57ddb11d1ae63c1369c26cdaea89e2fbfa33e3f40bdf3e3b68e8502879fe0",
+            "sha256": "490e1e0808bc25c3984be06e50528455da1d70f9377fa2439d5cff991bc6b065",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",
@@ -687,7 +702,7 @@
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "7949a6c3a7547596dd1be6862da351c469fc030d74d08e488ea6d58b3710bf7f",
+            "sha256": "7781b73187c0b4966154b8b8abcbb5f297f9a1953af1cda5fb346052340fe63f",
             "ruta": "libros/evaluacion-modelos/src/correccion.md"
           },
           "documento": "EET-03",
@@ -732,7 +747,7 @@
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "d5659b45c9fb6f244370d19c5ab1a97621579e96f0e9556e307bfb4d59703562",
+            "sha256": "143c76f77f71bc5f33ed7cf835d77b64c25a7a2506d4f358e48b0d0b3e53c2a5",
             "ruta": "libros/evaluacion-modelos/src/finalidad.md"
           },
           "documento": "EET-13",
@@ -762,7 +777,7 @@
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "6bd6ed048bfbff2674e8d797d5f78d003d8a5db53b5b49f625d7fd192edd9621",
+            "sha256": "e90c5fc40cf68d5f804b72d1334f71cbd2075c75d21aa90d86a0741b3b6e8c31",
             "ruta": "libros/evaluacion-modelos/src/transporte.md"
           },
           "documento": "EET-15",

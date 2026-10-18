@@ -40,7 +40,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-7fb2c56f.js"></script>
+        <script src="toc-89212cbd.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -306,6 +306,74 @@
 <li><a href="https://github.com/juantoniolloretegea/SV-motor/blob/8d3aeda0bf8b7ba71fdde9af4f973b5b41a21638/laboratorio/sistema-conjunto-lenguaje-computacion-ia-gobernada/NECESIDADES-PARAMETROS-RUTAS-Y-TRAZABILIDAD.md">Especificación de necesidades del sistema conjunto</a>.</li>
 </ul>
 <p>La especificación documenta requisitos y una propuesta en evaluación. No sustituye el pliego, la gramática, la representación intermedia ni las recepciones competentes del Lenguaje.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="herramientas-de-desarrollo-y-comprobación"><a class="header" href="#herramientas-de-desarrollo-y-comprobación">Herramientas de desarrollo y comprobación</a></h1>
+<p>El Lenguaje de Computación SV dispone de herramientas para construir su realización en Rust, revisar el código y contrastar sus resultados. Cada instrumento aporta una evidencia concreta: el formato de las fuentes, la admisión por el compilador, el comportamiento ante entradas conocidas o la correspondencia entre destinos de ejecución. Sus resultados deben interpretarse conforme a ese alcance.</p>
+<p>Este capítulo presenta las herramientas de construcción y comprobación documentadas en el proyecto y las previstas por su norma de <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/continuacion-15-09-2026/CODIGO-LIMPIO-Y-AUDITABLE.md">Código limpio y auditable</a>. La presencia de una herramienta no acredita que todas las versiones del lenguaje hayan superado sus comprobaciones.</p>
+<h2 id="qué-aporta-cada-herramienta"><a class="header" href="#qué-aporta-cada-herramienta">Qué aporta cada herramienta</a></h2>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Herramienta</th><th>Finalidad en el desarrollo del lenguaje</th><th>Límite de la comprobación</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>rustup</strong></td><td>Seleccionar la versión de Rust y los destinos de compilación requeridos.</td><td>Disponer del compilador no demuestra que el programa compile o funcione.</td></tr>
+<tr><td><strong>rustc</strong></td><td>Compilar Rust y comprobar sus reglas de tipos, propiedad y préstamos.</td><td>No verifica por sí solo la corrección de las reglas del SV ni elimina todos los posibles fallos.</td></tr>
+<tr><td><strong>Cargo</strong></td><td>Organizar los componentes, sus dependencias, la construcción y las pruebas.</td><td>Cada orden tiene un alcance distinto; comprobar, construir y ejecutar pruebas son operaciones separadas.</td></tr>
+<tr><td><strong>rustfmt</strong></td><td>Mantener una presentación uniforme del código Rust, conforme a la norma de calidad.</td><td>El formato no demuestra corrección funcional ni seguridad.</td></tr>
+<tr><td><strong>Clippy</strong></td><td>Detectar patrones problemáticos y proponer mejoras de claridad, complejidad y eficiencia, conforme a la norma de calidad.</td><td>Sus avisos necesitan interpretación; no sustituye las pruebas ni la revisión de seguridad.</td></tr>
+<tr><td><strong>Git y GitHub Actions</strong></td><td>Identificar revisiones y ejecutar las comprobaciones automatizadas declaradas por el proyecto.</td><td>Un resultado sólo corresponde a la revisión, los trabajos y las condiciones que efectivamente se comprobaron.</td></tr>
+<tr><td><strong>Comprobaciones de conformidad y paridad del SV</strong></td><td>Contrastar entradas, resultados esperados y correspondencia entre ejecución nativa y WebAssembly.</td><td>La evidencia se limita a los casos y propiedades examinados.</td></tr>
+<tr><td><strong>mdBook</strong></td><td>Construir los libros a partir de sus capítulos y su índice.</td><td>Una construcción correcta no garantiza la exactitud del contenido ni la validez de todos sus enlaces.</td></tr>
+</tbody>
+</table>
+</div>
+<h2 id="versión-de-rust-y-construcción-de-los-componentes"><a class="header" href="#versión-de-rust-y-construcción-de-los-componentes">Versión de Rust y construcción de los componentes</a></h2>
+<p><code>rustup</code> permite mantener versiones identificadas de Rust y sus componentes. La versión de referencia debe obtenerse de las instrucciones y comprobaciones correspondientes a la revisión del proyecto que se vaya a construir. El canal <code>stable</code> puede cambiar con el tiempo; por eso no basta con indicar que se utilizó «Rust estable».</p>
+<p>El espacio de trabajo de <code>rust/Cargo.toml</code> contiene tres componentes:</p>
+<ul>
+<li><strong><code>sv_core</code></strong>: realización compartida de las reglas del lenguaje.</li>
+<li><strong><code>sv_native</code></strong>: acceso al núcleo desde el ejecutable nativo.</li>
+<li><strong><code>sv_wasm</code></strong>: adaptación del mismo núcleo a WebAssembly.</li>
+</ul>
+<p>Esta organización permite comprobar distintos destinos sin mantener una segunda definición de las reglas del lenguaje en cada uno. La correspondencia debe comprobarse también mediante pruebas; no se deduce únicamente de la estructura de las carpetas.</p>
+<p>Cargo utiliza <code>Cargo.toml</code> para describir el proyecto y <code>Cargo.lock</code> para identificar las versiones resueltas de sus dependencias. La opción <code>--locked</code> impide modificar esa resolución durante una comprobación. <code>--offline</code> impide el acceso a la red por parte de Cargo y requiere disponer previamente de las dependencias necesarias; no convierte la ejecución posterior de cualquier programa en una ejecución sin red.</p>
+<p>Los siguientes ejemplos parten de la raíz del repositorio y presuponen que se ha seleccionado la versión de Rust correspondiente:</p>
+<pre><code class="language-text">rustc --version --verbose
+cargo --version
+cargo check --manifest-path rust/Cargo.toml --workspace --locked
+cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
+</code></pre>
+<p><code>cargo check</code> detecta errores sin completar la generación final del programa. <code>cargo build</code> realiza la construcción. Ninguna de estas dos órdenes ejecuta por sí sola la batería de pruebas. Véanse el <a href="https://doc.rust-lang.org/cargo/">manual de Cargo</a> y la <a href="https://doc.rust-lang.org/cargo/commands/cargo-check.html">descripción de cargo check</a>.</p>
+<h2 id="formato-uniforme-con-rustfmt"><a class="header" href="#formato-uniforme-con-rustfmt">Formato uniforme con rustfmt</a></h2>
+<p>La norma de calidad del SV utiliza <code>rustfmt</code> para normalizar la presentación de las fuentes Rust. La comprobación del formato permite detectar diferencias sin reescribir los archivos:</p>
+<pre><code class="language-text">cargo fmt --manifest-path rust/Cargo.toml --all -- --check
+</code></pre>
+<p>Al aplicar el formato se revisan las diferencias resultantes junto con el resto del cambio. Una presentación uniforme facilita la lectura y reduce diferencias irrelevantes entre revisiones; no corrige una regla semántica errónea. La referencia de la herramienta es <a href="https://rust-lang.github.io/rustfmt/">Rustfmt</a>.</p>
+<h2 id="análisis-estático-con-clippy"><a class="header" href="#análisis-estático-con-clippy">Análisis estático con Clippy</a></h2>
+<p><a href="https://doc.rust-lang.org/clippy/">Clippy</a> analiza código Rust mediante reglas de diagnóstico. Puede señalar operaciones incorrectas, construcciones sospechosas, complejidad innecesaria, problemas de estilo o posibilidades de mejora del rendimiento. Se integra con Cargo y necesita un componente compatible con la versión de Rust seleccionada.</p>
+<pre><code class="language-text">cargo clippy --manifest-path rust/Cargo.toml --workspace --all-targets --locked
+</code></pre>
+<p>En esta orden, <code>--all-targets</code> incluye los tipos de objetivos del proyecto, como bibliotecas, ejecutables, ejemplos y pruebas; no significa «todas las arquitecturas» ni «todas las combinaciones de características». Clippy analiza las pruebas seleccionadas, pero no las ejecuta.</p>
+<p>Cada aviso debe resolverse mediante una corrección o una excepción acotada y justificada. La norma del SV exige conservar el motivo de las excepciones y evita silenciamientos generales. Las reglas adicionales se seleccionan según las necesidades del componente. En particular, la documentación oficial desaconseja activar indiscriminadamente toda la categoría <code>restriction</code>, pues contiene restricciones que pueden resultar incompatibles entre sí.</p>
+<p>Un análisis terminado sin errores puede conservar advertencias. El informe debe distinguir ambos resultados e indicar el alcance examinado. Tampoco la ausencia de advertencias constituye una certificación de seguridad o de conformidad del lenguaje.</p>
+<h2 id="pruebas-conformidad-y-paridad"><a class="header" href="#pruebas-conformidad-y-paridad">Pruebas, conformidad y paridad</a></h2>
+<p>Las pruebas de Rust comprueban comportamientos concretos y relaciones entre componentes:</p>
+<pre><code class="language-text">cargo test --manifest-path rust/Cargo.toml --workspace --locked
+</code></pre>
+<p>Debe conservarse la distinción entre pruebas favorables, fallidas y excluidas. Una prueba excluida no cuenta como favorable. Las pruebas de documentación, cuando existan y estén habilitadas, comprueban los ejemplos ejecutables que les correspondan. El comportamiento de la orden se describe en <a href="https://doc.rust-lang.org/cargo/commands/cargo-test.html">cargo test</a>.</p>
+<p>El proyecto dispone además de comprobaciones propias con fuentes válidas e inválidas y resultados esperados conservados. La <strong>conformidad</strong> contrasta la respuesta del lenguaje con esos resultados. Las pruebas de <strong>sensibilidad del observador</strong> comprueban que el procedimiento de comparación detecte alteraciones relevantes: no basta con que siempre devuelva un resultado favorable.</p>
+<p>La <strong>paridad</strong> contrasta los destinos nativo y WebAssembly. Se distinguen <code>wasm32-wasip1</code>, utilizado con un entorno de ejecución WASI, y <code>wasm32-unknown-unknown</code>, utilizado por el adaptador de navegador. Compilar para ambos destinos sólo acredita su construcción; la paridad requiere ejecutar y comparar los casos previstos. Que dos destinos produzcan el mismo resultado tampoco demuestra, por sí solo, que dicho resultado sea correcto: ambos deben contrastarse con la especificación y los resultados esperados.</p>
+<p>Los programas auxiliares de las baterías preparan entradas, invocan realizaciones y comparan resultados. Su función debe mantenerse separada de la autoridad semántica del núcleo Rust. El contraste técnico tampoco autoriza operaciones del Árbitro - Director ni determina la aptitud de un modelo de IA.</p>
+<h2 id="revisiones-identificadas-y-comprobaciones-automatizadas"><a class="header" href="#revisiones-identificadas-y-comprobaciones-automatizadas">Revisiones identificadas y comprobaciones automatizadas</a></h2>
+<p>Git conserva la relación entre una modificación y su revisión. GitHub Actions ejecuta los procedimientos definidos en el repositorio para los acontecimientos y rutas que cada procedimiento declara. Debe comprobarse que el trabajo pertinente se haya ejecutado, que corresponda a la revisión examinada y que haya concluido; la mera existencia de su archivo de configuración no acredita un resultado.</p>
+<p>Las definiciones de <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/.github/workflows/r0-rust.yml">comprobación Rust</a>, <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/.github/workflows/conformance.yml">conformidad</a> y <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/.github/workflows/r0-wasm-parity.yml">paridad nativa y WebAssembly</a> permiten consultar el alcance automatizado. La norma de formato y análisis estático debe distinguirse de los trabajos efectivamente configurados: no se presupone que un resultado favorable de estos procedimientos incluya rustfmt o Clippy.</p>
+<p>Una huella SHA-256 permite comprobar que un archivo coincide con otro identificado. Por sí sola no prueba la identidad del autor, la autorización de una actuación ni la corrección de su contenido. Para interpretar una comprobación deben relacionarse la revisión, las fuentes, las herramientas utilizadas, las opciones, los resultados y las exclusiones.</p>
+<h2 id="documentación-con-mdbook"><a class="header" href="#documentación-con-mdbook">Documentación con mdBook</a></h2>
+<p>Este manual se construye con <a href="https://rust-lang.github.io/mdBook/">mdBook</a>. Los capítulos se redactan en Markdown y <code>SUMMARY.md</code> determina su organización y navegación. La configuración de <code>book.toml</code> establece la presentación y la salida del libro.</p>
+<p>La revisión documental comprueba la jerarquía, los enlaces, los ejemplos, la legibilidad y la correspondencia con la versión explicada. La documentación oficial de cada herramienta complementa este capítulo; las reglas y límites propios del lenguaje se mantienen en sus fuentes normativas.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
