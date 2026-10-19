@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-0e5db0df.js"></script>
+        <script src="toc-af36cc7e.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -172,7 +172,7 @@
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
                         <h1 id="árbitro---director"><a class="header" href="#árbitro---director">Árbitro - Director</a></h1>
-<p><strong>Representación y ejecución · 15 de octubre de 2026.</strong></p>
+<p><strong>Representación y ejecución · Revisión de 19 de octubre de 2026.</strong></p>
 <p>El Árbitro - Director es el componente del Sistema Vectorial que gobierna una ejecución conforme a sus condiciones autorizadas. Relaciona la solicitud, el modelo identificado, los documentos admitidos, las operaciones permitidas y la evidencia obtenida. Su actuación se define mediante reglas explícitas realizadas en Rust.</p>
 <p>Su función comprende el control del recorrido completo: qué puede comenzar, qué debe conservarse durante la ejecución y qué comprobaciones permiten recibir su resultado. La selección del dispositivo de cálculo constituye una función subordinada, desarrollada en el capítulo del <a href="selector-arbitro-director.html">Selector del Árbitro - Director CPU/GPU/TPU/NPU</a>.</p>
 <h2 id="responsabilidad-y-alcance"><a class="header" href="#responsabilidad-y-alcance">Responsabilidad y alcance</a></h2>
@@ -195,7 +195,8 @@
 <h2 id="documentos-y-herramientas"><a class="header" href="#documentos-y-herramientas">Documentos y herramientas</a></h2>
 <p>La preparación identifica las fuentes y los pasajes requeridos. Cuando interviene una herramienta documental, deben comprobarse tanto la petición como la respuesta: documento, versión, localizador, extensión y correspondencia del contenido. Una referencia correcta no compensa la omisión de una condición relevante.</p>
 <p>Antes de generar una respuesta se verifica la entrada efectiva, incluida su representación para el modelo, su extensión y la capacidad reservada para la salida. La falta de espacio no autoriza a recortar o resumir automáticamente los documentos. Debe resolverse conforme a las condiciones de la actuación.</p>
-<p>En un examen, las respuestas reservadas para la corrección permanecen separadas de la información entregada al modelo. El control de esa separación forma parte del recorrido, al igual que la conservación de la respuesta original.</p>
+<p>En un examen que exige documentos íntegros, la entrada conserva los textos nativos completos: una selección de pasajes, traducción o resumen no satisface esa condición. Las respuestas reservadas para la corrección permanecen separadas de la información entregada al modelo. El control de esa separación forma parte del recorrido, al igual que la conservación de la respuesta original.</p>
+<p>La autorización de conexión no incluye entrega de contenido. Un contador remoto también recibe el texto que mide y necesita permiso documental para ese destinatario y finalidad. Si la política de la instalación sólo permite conexión, el Árbitro - Director debe impedir tanto la entrega al contador como la inferencia, aunque existan permisos históricos. Su modificación exige una decisión expresa, delimitada y trazable; la preparación de un examen no la sustituye.</p>
 <h2 id="relación-con-el-selector"><a class="header" href="#relación-con-el-selector">Relación con el Selector</a></h2>
 <p>Una vez admitida la operación, el Árbitro - Director solicita al Selector un destino compatible con la carga y con la política autorizada. El Selector devuelve la elección y su fundamento, o identifica la ausencia de un destino admisible. El adaptador correspondiente realiza la ejecución y devuelve los resultados y las medidas que permiten contrastar lo ocurrido.</p>
 <p><strong>Solicitud admitida → selección del dispositivo → ejecución observada → recepción del resultado.</strong></p>

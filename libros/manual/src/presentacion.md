@@ -6,20 +6,16 @@ Este manual reúne explicaciones sobre el Lenguaje de Computación SV, su relaci
 
 ## Alcance de la edición
 
-El manual está incompleto: todavía no ofrece una exposición integral de la sintaxis, las operaciones y los diagnósticos del lenguaje. La [organización temática](constructor.md) permite reconocer esas materias. Los capítulos disponibles identifican expresamente los conceptos de diseño y los requisitos pendientes de comprobación.
+El manual ofrece una introducción a las construcciones del lenguaje, al Playground y a los ejemplos SVP. Todavía no constituye una exposición integral de la sintaxis, las operaciones, los diagnósticos y la programación de aplicaciones completas. La [organización temática](constructor.md) permite reconocer esas materias. Los capítulos disponibles identifican expresamente los conceptos de diseño y los requisitos pendientes de comprobación.
 
 El pliego, la gramática, la representación intermedia —la estructura formal que permite interpretar y ejecutar el lenguaje— y los contratos vigentes determinan su significado. Este manual los explica; una propuesta descrita en sus páginas no modifica por sí sola esas reglas ni acredita una función disponible.
 
 ## Lectura recomendada
 
-1. Consulte el [ámbito y la organización temática](constructor.md) para situar las materias.
-2. Examine los [principios de compatibilidad](tramo-10.md) para comprender qué debe conservar la comunicación con otros lenguajes.
-3. Lea los [requisitos de parámetros, recorridos y evidencia](parametros-rutas.md) para relacionar conocimiento, decisiones, representación gráfica y ejecución.
-
-4. Continúe con el [Árbitro - Director](arbitro-director.md), su [Selector](selector-arbitro-director.md), el [Explorador Tensorial](explorador-tensorial-sv.md) y el [hardware de aceleración tensorial](hardware-aceleracion-tensorial.md) para distinguir gobierno, reconocimiento de capacidades, elección del dispositivo y ejecución física.
-5. Consulte [Herramientas de desarrollo y comprobación](herramientas-desarrollo-comprobacion.md) para conocer qué acreditan la compilación, Clippy, las pruebas y la construcción documental.
-
-6. Lea [Desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md) para distinguir las obligaciones pendientes, las capacidades recibidas y sus criterios de comprobación.
+1. Consulte el [ámbito del lenguaje](constructor.md), sus [principios de compatibilidad](tramo-10.md) y los [requisitos de parámetros, recorridos y evidencia](parametros-rutas.md).
+2. Para una primera comprobación, siga la guía del [Playground](playground-sv.md). Estudie por separado los [ejemplos SVP](ejemplos-svp.md) y las [construcciones y componentes propios](construcciones-y-componentes.md). La [programación aplicada con la DSL](programacion-dsl.md) figura expresamente en desarrollo.
+3. Examine las [herramientas de desarrollo y comprobación](herramientas-desarrollo-comprobacion.md) y el [desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md) para interpretar las pruebas y sus límites.
+4. Continúe con el [Árbitro - Director](arbitro-director.md), su [Selector](selector-arbitro-director.md), el [Explorador Tensorial](explorador-tensorial-sv.md) y el [hardware de aceleración tensorial](hardware-aceleracion-tensorial.md) para distinguir gobierno, observación de recursos, elección del dispositivo y ejecución física.
 
 Los [Agradecimientos](agradecimientos.md) reconocen, por orden alfabético, las comunidades, proyectos y tecnologías utilizados.
 

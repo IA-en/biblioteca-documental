@@ -1,6 +1,6 @@
 # Explorador Tensorial del SV
 
-**Componente subordinado al Selector · 16 de octubre de 2026.**
+**Componente subordinado al Selector · Revisión explicativa de 19 de octubre de 2026.**
 
 El Explorador Tensorial del SV observa los recursos que el entorno de ejecución expone al proceso. Identifica los dispositivos, sus interfaces y la información disponible sobre su estado. Proporciona esos datos al [Selector del Árbitro - Director CPU/GPU/TPU/NPU](selector-arbitro-director.md), que los relaciona con capacidades comprobadas para la operación solicitada.
 
@@ -27,7 +27,7 @@ El inventario pertenece a una sesión y conserva el instante de observación. Un
 
 Antes de invocar la operación, el enlace vuelve a consultar el entorno y contrasta la decisión. Un cambio que invalida el destino impide continuar por esa vía; no se sustituye silenciosamente por CPU. Esta reconsulta no reserva recursos ni reemplaza la observación de la ejecución efectiva.
 
-La aplicación depende del control sobre la operación. Helsinki-NLP/opus-mt-en-es, como traductor del Gestor documental ejecutado bajo control propio, corresponde al nodo 1. Que su traducción acompañe una consulta a una IA externa no cambia esa modalidad. El hardware de inferencia de una API ajena queda fuera de la exploración si el proveedor no lo expone mediante una interfaz verificable.
+La aplicación depende del control sobre la operación. Helsinki-NLP/opus-mt-en-es es una herramienta auxiliar de traducción del Gestor documental y queda fuera de los nodos de inferencia experta: no pertenece al nodo 1 por ejecutarse localmente. La institución puede desactivar esa ayuda; el original documental conserva su autoridad. Observar sus recursos o utilizar un Selector no cambia su función ni concede permiso para enviar traducciones a terceros. El hardware de inferencia de una API ajena queda fuera de la exploración si el proveedor no lo expone mediante una interfaz verificable.
 
 ## Comprobación de la realización inicial
 

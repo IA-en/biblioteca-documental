@@ -1,6 +1,6 @@
 # Árbitro - Director
 
-**Representación y ejecución · 15 de octubre de 2026.**
+**Representación y ejecución · Revisión de 19 de octubre de 2026.**
 
 El Árbitro - Director es el componente del Sistema Vectorial que gobierna una ejecución conforme a sus condiciones autorizadas. Relaciona la solicitud, el modelo identificado, los documentos admitidos, las operaciones permitidas y la evidencia obtenida. Su actuación se define mediante reglas explícitas realizadas en Rust.
 
@@ -26,7 +26,9 @@ La preparación identifica las fuentes y los pasajes requeridos. Cuando intervie
 
 Antes de generar una respuesta se verifica la entrada efectiva, incluida su representación para el modelo, su extensión y la capacidad reservada para la salida. La falta de espacio no autoriza a recortar o resumir automáticamente los documentos. Debe resolverse conforme a las condiciones de la actuación.
 
-En un examen, las respuestas reservadas para la corrección permanecen separadas de la información entregada al modelo. El control de esa separación forma parte del recorrido, al igual que la conservación de la respuesta original.
+En un examen que exige documentos íntegros, la entrada conserva los textos nativos completos: una selección de pasajes, traducción o resumen no satisface esa condición. Las respuestas reservadas para la corrección permanecen separadas de la información entregada al modelo. El control de esa separación forma parte del recorrido, al igual que la conservación de la respuesta original.
+
+La autorización de conexión no incluye entrega de contenido. Un contador remoto también recibe el texto que mide y necesita permiso documental para ese destinatario y finalidad. Si la política de la instalación sólo permite conexión, el Árbitro - Director debe impedir tanto la entrega al contador como la inferencia, aunque existan permisos históricos. Su modificación exige una decisión expresa, delimitada y trazable; la preparación de un examen no la sustituye.
 
 ## Relación con el Selector
 
