@@ -630,23 +630,56 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="agradecimientos"><a class="header" href="#agradecimientos">Agradecimientos</a></h1>
-<p>El Lenguaje de Computación del Sistema Vectorial SV se apoya en proyectos, herramientas y tecnologías que contribuyen a su desarrollo, comprobación, representación y documentación. Agradecemos el trabajo de las comunidades, equipos y personas que los crean, mantienen y documentan.</p>
-<p>La relación se presenta en <strong>orden alfabético</strong>, sin clasificación de importancia:</p>
+<p>El Lenguaje de Computación del Sistema Vectorial SV y sus herramientas asociadas se apoyan en proyectos, bibliotecas y tecnologías que contribuyen a su desarrollo, comprobación, gestión documental y representación. Agradecemos el trabajo de las comunidades y equipos que los crean, mantienen y documentan. Este reconocimiento comprende también las herramientas utilizadas en pruebas técnicas de inferencia, sin atribuirles por ello una función activa en todas las instalaciones.</p>
+<p>La relación se presenta en <strong>orden alfabético</strong>, sin clasificación de importancia. Cada entrada indica el ámbito de su aportación:</p>
 <ul>
+<li><strong><a href="https://github.com/dtolnay/anyhow">anyhow</a></strong>: tratamiento y descripción de errores en herramientas auxiliares y adaptadores de inferencia en Rust.</li>
+<li><strong><a href="https://github.com/tokio-rs/axum">Axum</a></strong>: organización de las rutas y atención de las solicitudes del servicio web del Gestor.</li>
+<li><strong><a href="https://github.com/marshallpierce/rust-base64">base64</a></strong>: codificación de datos binarios en los formatos de intercambio que la requieren.</li>
+<li><strong><a href="https://github.com/huggingface/candle">Candle</a></strong>: bibliotecas de Hugging Face para cálculo tensorial y ejecución de modelos en Rust, utilizadas por la traducción auxiliar local.</li>
 <li><strong><a href="https://doc.rust-lang.org/cargo/">Cargo</a></strong>: organización de los componentes Rust, sus dependencias, construcción y pruebas.</li>
 <li><strong><a href="https://doc.rust-lang.org/clippy/">Clippy</a></strong>: análisis estático y ayuda para revisar la claridad y calidad del código Rust.</li>
+<li><strong><a href="https://developers.cloudflare.com/">Cloudflare</a></strong>: servicios de publicación y protección del alojamiento web institucional. Su uso corresponde a la instalación que los configure.</li>
+<li><strong><a href="https://github.com/SergioBenitez/cookie-rs">cookie</a></strong>: construcción e interpretación de cookies HTTP en el servicio web.</li>
 <li><strong><a href="https://github.com/emilk/egui">egui y eframe</a></strong>: interfaces y visualizadores en Rust para presentar los resultados del SV.</li>
+<li><strong><a href="https://github.com/googlefonts/fontations">Fontations y Skrifa</a></strong>: lectura de fuentes tipográficas y sus métricas en el tratamiento documental de PDF.</li>
 <li><strong><a href="https://git-scm.com/">Git</a></strong>: identificación de revisiones y conservación de la evolución del código y los documentos.</li>
 <li><strong><a href="https://docs.github.com/en/actions">GitHub</a></strong>: alojamiento de las fuentes y ejecución de las comprobaciones automatizadas declaradas por el proyecto.</li>
+<li><strong><a href="https://github.com/openai/harmony">Harmony, de OpenAI</a></strong>: formato de mensajes y representación de conversaciones utilizado en las pruebas de integración de modelos de la familia gpt-oss. Es un formato de intercambio, no un motor de inferencia.</li>
+<li><strong><a href="https://github.com/LaurenzV/hayro">Hayro</a></strong>: interpretación y representación gráfica de documentos PDF en Rust.</li>
+<li><strong><a href="https://huggingface.co/Helsinki-NLP/opus-mt-en-es">Helsinki-NLP y OPUS-MT</a></strong>: modelo de traducción inglés-español utilizado como herramienta auxiliar local del Gestor. Su función es apoyar la lectura; no sustituye el original ni realiza el consejo experto de un dominio.</li>
+<li><strong><a href="https://github.com/xberg-io/html-to-markdown">html-to-markdown</a></strong>: conversión de contenido HTML a Markdown en el tratamiento documental.</li>
+<li><strong><a href="https://github.com/hyperium/hyper">hyper y hyper-util</a></strong>: transporte HTTP del servicio, junto con los componentes del mismo ecosistema para cuerpos de mensajes y fechas HTTP.</li>
+<li><strong><a href="https://github.com/image-rs/image">image</a></strong>: lectura y tratamiento de imágenes en los componentes documentales y visuales.</li>
+<li><strong><a href="https://github.com/Keats/jsonwebtoken">jsonwebtoken</a></strong>: interpretación y verificación de credenciales estructuradas JWT en los recorridos de autenticación que las utilizan.</li>
+<li><strong><a href="https://github.com/J-F-Liu/lopdf">lopdf</a></strong>: lectura y análisis de la estructura de documentos PDF.</li>
 <li><strong><a href="https://rust-lang.github.io/mdBook/">mdBook</a></strong>: construcción y navegación de los libros de documentación.</li>
-<li><strong><a href="https://openai.com/">OpenAI</a></strong>: tecnología de inteligencia artificial utilizada como apoyo al análisis, la programación y la revisión documental.</li>
+<li><strong><a href="https://github.com/mermaid-js/mermaid">Mermaid</a></strong>: descripción textual y representación de diagramas de arquitectura, organización y procesos en la documentación.</li>
+<li><strong><a href="https://github.com/mitsuhiko/minijinja">MiniJinja</a></strong>: aplicación de plantillas de conversación en las pruebas de integración de motores de inferencia.</li>
+<li><strong><a href="https://github.com/EricLBuehler/mistral.rs">mistral.rs</a></strong>: motor de inferencia en Rust utilizado en pruebas técnicas de integración y observabilidad. Esta mención corresponde al proyecto de software, no a una recomendación de modelos de Mistral AI.</li>
+<li><strong><a href="https://openai.com/">OpenAI</a></strong>: tecnología de inteligencia artificial utilizada como apoyo al análisis, la programación y la revisión documental; también modelos abiertos empleados en pruebas de integración.</li>
+<li><strong><a href="https://github.com/jrmuizel/pdf-extract">pdf-extract</a></strong>: extracción de texto de documentos PDF, base de la adaptación documental utilizada por el SV.</li>
+<li><strong><a href="https://github.com/pulldown-cmark/pulldown-cmark">pulldown-cmark</a></strong>: interpretación de Markdown para su presentación documental.</li>
+<li><strong><a href="https://github.com/rust-random/rand">rand</a></strong>: generación de valores aleatorios en los mecanismos que la requieren.</li>
+<li><strong><a href="https://github.com/cberner/redb">redb</a></strong>: base de datos integrada en Rust utilizada para los registros persistentes del Gestor y componentes asociados.</li>
+<li><strong><a href="https://github.com/seanmonstar/reqwest">Reqwest</a></strong>: cliente HTTP para las comunicaciones expresamente habilitadas por la aplicación.</li>
 <li><strong><a href="https://rust-lang.org/">Rust</a></strong>: lenguaje, compilador y biblioteca estándar sobre los que se realiza el Lenguaje de Computación SV.</li>
+<li><strong><a href="https://github.com/RustCrypto">RustCrypto</a></strong>: bibliotecas de resumen criptográfico y autenticación de mensajes, como SHA-2 y HMAC, y utilidades como zeroize para el borrado de valores sensibles en memoria.</li>
 <li><strong><a href="https://github.com/rust-lang/rustfmt">rustfmt</a></strong>: presentación uniforme de las fuentes Rust.</li>
+<li><strong><a href="https://github.com/bytecodealliance/rustix">rustix</a></strong>: acceso desde Rust a funciones del sistema operativo utilizadas por los controles de procesos.</li>
+<li><strong><a href="https://github.com/rustls/rustls">Rustls</a></strong>: protección TLS de comunicaciones, con las bibliotecas criptográficas y de comprobación de certificados que incorpora la configuración utilizada.</li>
 <li><strong><a href="https://rust-lang.github.io/rustup/">rustup</a></strong>: gestión de las versiones de Rust y de sus componentes de desarrollo.</li>
-<li><strong><a href="https://serde.rs/">Serde y serde_json</a></strong>: lectura y escritura de datos estructurados en herramientas documentales y visualizadores asociados.</li>
+<li><strong><a href="https://serde.rs/">Serde y serde_json</a></strong>: lectura y escritura de datos estructurados en componentes, herramientas documentales y visualizadores asociados.</li>
+<li><strong><a href="https://github.com/GuillaumeGomez/sysinfo">sysinfo</a></strong>: obtención de información del sistema y de sus recursos para la telemetría y las comprobaciones de hardware.</li>
+<li><strong><a href="https://github.com/huggingface/tokenizers">Tokenizers</a></strong>: bibliotecas de Hugging Face para convertir texto y secuencias de tokens en las herramientas de traducción e integración de modelos.</li>
+<li><strong><a href="https://github.com/tokio-rs/tokio">Tokio</a></strong>: ejecución de tareas asíncronas y coordinación de operaciones de entrada y salida en servicios y herramientas de inferencia.</li>
+<li><strong><a href="https://github.com/tower-rs/tower">Tower</a></strong>: utilidades para comprobar los servicios HTTP del Gestor.</li>
+<li><strong><a href="https://github.com/unicode-rs/unicode-normalization">unicode-normalization</a></strong>: normalización Unicode en la extracción y el tratamiento de texto documental.</li>
+<li><strong><a href="https://userway.org/">UserWay</a></strong>: herramienta complementaria de accesibilidad incorporada a la web institucional; no sustituye la accesibilidad propia de la interfaz.</li>
 <li><strong><a href="https://wasm-bindgen.github.io/wasm-bindgen/">wasm-bindgen</a></strong>: comunicación entre WebAssembly y JavaScript en los visualizadores web asociados.</li>
+<li><strong><a href="https://github.com/zip-rs/zip2">zip</a></strong>: lectura y preparación de archivos ZIP, incluidas las copias descargables previstas por el Gestor.</li>
 </ul>
-<p>Cada aportación se reconoce en su ámbito. Esta relación no constituye un inventario exhaustivo de dependencias ni atribuye a sus responsables participación en las decisiones, certificación o aval del SV. Las licencias y atribuciones de cada componente se conservan en sus fuentes y distribuciones correspondientes.</p>
+<p>Cada aportación se reconoce en su ámbito. La relación no sustituye el inventario de dependencias y versiones de cada distribución, ni atribuye a sus responsables participación en las decisiones, certificación o aval del SV. Se reconoce asimismo el trabajo de quienes mantienen las dependencias indirectas de estos proyectos. Sus licencias y atribuciones se conservan en las fuentes y distribuciones correspondientes; la licencia de este documento no las modifica.</p>
 <p>La relación se revisará cuando cambien las herramientas utilizadas. La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/AGRADECIMIENTOS.md">relación de referencia en GitHub</a> mantiene el mismo contenido y orden.</p>
 <p>Revisión: 19 de octubre de 2026.</p>
 <hr>

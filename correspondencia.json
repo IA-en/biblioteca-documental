@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "0989c184be94c440e3bc342820e8addb69ed6680e32d3abee90df689912abaa9",
+  "biblioteca_sha256": "d48897ff455d2304f86afc1c801d5328798fc4f232c51bdf15728786fb134e44",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2092,7 +2092,7 @@
     },
     {
       "alcance": "Reconocimiento alfabético de comunidades, proyectos y tecnologías utilizados en el lenguaje y sus herramientas asociadas.",
-      "cobertura_bytes": 2946,
+      "cobertura_bytes": 8899,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_AGRADECIMIENTOS",
       "identificador_editorial_r0": null,
@@ -2100,18 +2100,18 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/agradecimientos.md",
-        "sha256": "ceda22fe17d69a537d1c77b4032f38d2103bfd31df6acf53262486517bf0170f"
+        "sha256": "9f6956f51a1022329d4804d15ef32fd1a3cb009cf8456b917e99468af6bcf6dc"
       },
       "procedencia": "Edición pública propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 2946,
+          "fin_byte_exclusivo": 8899,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000028",
-          "sha256": "ceda22fe17d69a537d1c77b4032f38d2103bfd31df6acf53262486517bf0170f",
+          "seccion": "MD-L000001-L000061",
+          "sha256": "9f6956f51a1022329d4804d15ef32fd1a3cb009cf8456b917e99468af6bcf6dc",
           "titulo": "Agradecimientos",
-          "ultima_linea": 28
+          "ultima_linea": 61
         }
       ]
     },
@@ -3056,9 +3056,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-desarrollo-validacion-agradecimientos-20261019",
+  "edicion": "biblioteca-sv-agradecimientos-ampliados-20261019",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "7e803f29fa44679b481293ada6b791c3e11bb6e2f7aa57c40470e6fcf539dc32",
+  "politica_sha256": "6cb648eb77aac6d0c20ab39a6bc643220c9d0e4714cebea4038a1465b46d539a",
   "recepcion_visual": false,
   "version": 1
 }
