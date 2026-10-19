@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-dfa0c3a8.js"></script>
+        <script src="toc-ae9af702.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -174,6 +174,22 @@
                         <h1 id="construcciones-del-lenguaje-y-componentes-propios"><a class="header" href="#construcciones-del-lenguaje-y-componentes-propios">Construcciones e instrucciones propias</a></h1>
 <p><strong>Referencia explicativa · 19 de octubre de 2026.</strong></p>
 <p>El Lenguaje SV dispone de una gramática superficial y una representación intermedia. La primera determina cómo se escriben sus programas; la segunda conserva sus objetos y operaciones de forma estructurada. Las bibliotecas Rust que realizan estas funciones pertenecen a la implementación y no son, por ello, bibliotecas importables desde un archivo SVP.</p>
+<h2 id="estados-celulares-y-terna"><a class="header" href="#estados-celulares-y-terna">Estados celulares y terna</a></h2>
+<p>El estado de una célula conserva una secuencia ordenada de posiciones. Cada posición identifica un parámetro conforme a la constitución del dominio. La terna vigente expresa:</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Valor</th><th>Significado</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>0</strong></td><td><strong>Apto</strong>.</td></tr>
+<tr><td><strong>1</strong></td><td><strong>No apto</strong>.</td></tr>
+<tr><td><strong>U</strong></td><td><strong>Indeterminado</strong>: no determinación actual conforme al contrato aplicable.</td></tr>
+</tbody>
+</table>
+</div>
+<p>La interpretación de cada posición identifica la cuestión evaluada, los datos admitidos y las reglas utilizadas. U no es un número para promediar ni un sustituto automático de un fallo de ejecución. La conclusión de una evaluación depende de la operación y del codominio declarados; un recuento de valores no sustituye esa regla ni conserva su orden.</p>
+<p>El convenio se recoge en los <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f10aac725676997adc3840a1bd1a41e1579589ea/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/Fundamentos%20algebraico-sem%C3%A1nticos%20del%20Sistema%20Vectorial%20SV.md">Fundamentos algebraico-semánticos del Sistema Vectorial SV</a>. La <a href="parametros-rutas.html#correspondencia-visual">correspondencia visual</a> explica su representación mediante el polígono del SV.</p>
 <h2 id="declaraciones-y-operaciones"><a class="header" href="#declaraciones-y-operaciones">Declaraciones y operaciones</a></h2>
 <p>Las declaraciones expresan, entre otros objetos, codominios, semánticas de salida, especificaciones y estados celulares, tablas de admisibilidad, grafos, marcos, trayectorias, dominios y agentes. El análisis del programa conserva esas definiciones en la representación intermedia. Las operaciones utilizan referencias explícitas a los objetos declarados.</p>
 <div class="table-wrapper">

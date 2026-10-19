@@ -1,21 +1,21 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "31a80e1b96df7262050af549a92df764e3548d30932c09929b872a1bad8d46a2",
+  "revision": "8ddb97e6be81db4ff9676d97283971b369553991deb7846397f0b0179b54b529",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
     "titulo": "Índice del Manual del Lenguaje de Computación SV",
-    "url": "urn:sv:documento:sha256:0347fe69412f445be3c1e12c1f45e1de62fd4b8bbb9c0d70ad7ca507af747b4b",
-    "sha256": "0347fe69412f445be3c1e12c1f45e1de62fd4b8bbb9c0d70ad7ca507af747b4b"
+    "url": "urn:sv:documento:sha256:88deb7f5f7fa9880c6cb30b068153683ab3c65ee8c05c2cb5a276c6438aeb2e6",
+    "sha256": "88deb7f5f7fa9880c6cb30b068153683ab3c65ee8c05c2cb5a276c6438aeb2e6"
   },
   "capitulos": [
     {
       "id": "MANUAL_PRESENTACION",
       "ruta": "presentacion.md",
       "titulo": "Presentación y alcance",
-      "url": "urn:sv:documento:sha256:35bd28697d33c511f244dd468f0c3f33b3e43bff3848f87493dc23fcae6d0e6b",
-      "sha256": "35bd28697d33c511f244dd468f0c3f33b3e43bff3848f87493dc23fcae6d0e6b"
+      "url": "urn:sv:documento:sha256:b98954608252bd55a429086bc88c2a6cee1247fbf00b7c1449638eb8cd5cf57d",
+      "sha256": "b98954608252bd55a429086bc88c2a6cee1247fbf00b7c1449638eb8cd5cf57d"
     },
     {
       "id": "MANUAL_CONSTRUCTOR",
@@ -27,8 +27,8 @@
     {
       "titulo": "Construcciones e instrucciones propias",
       "id": "MANUAL_CONSTRUCCIONES_Y_COMPONENTES",
-      "url": "urn:sv:documento:sha256:3575e6d451d85c2f2eba35c67c6212d8ca2fb91a70a68e1a03e7545bbadafd76",
-      "sha256": "3575e6d451d85c2f2eba35c67c6212d8ca2fb91a70a68e1a03e7545bbadafd76",
+      "url": "urn:sv:documento:sha256:b37acf93022e186d8dad73ceeab3f033da186add7a0a1ae5d4045fcda9eda58f",
+      "sha256": "b37acf93022e186d8dad73ceeab3f033da186add7a0a1ae5d4045fcda9eda58f",
       "ruta": "construcciones-y-componentes.md"
     },
     {
@@ -53,11 +53,11 @@
       "ruta": "programacion-dsl.md"
     },
     {
-      "url": "urn:sv:documento:sha256:c0d79405af2a4c27e7130b0071204dd4c8204f05432b7edb856a49b9114ef37b",
+      "url": "urn:sv:documento:sha256:11e596b0388fa5538b6e29684919827d0670dc6074e44e5d11671fd8bed3f503",
       "ruta": "arquitectura-ejecucion.md",
       "id": "MANUAL_ARQUITECTURA_EJECUCION",
       "titulo": "Arquitectura y entornos de ejecución",
-      "sha256": "c0d79405af2a4c27e7130b0071204dd4c8204f05432b7edb856a49b9114ef37b"
+      "sha256": "11e596b0388fa5538b6e29684919827d0670dc6074e44e5d11671fd8bed3f503"
     },
     {
       "id": "MANUAL_ARBITRO_DIRECTOR",
@@ -102,16 +102,16 @@
       "titulo": "Herramientas de desarrollo y comprobación"
     },
     {
-      "url": "urn:sv:documento:sha256:6780b6b8f0e21f3baad79072af756ff06a001c5e59a7161cc143fd69588587f6",
+      "url": "urn:sv:documento:sha256:ed1745e101073c8e395ee8b0a11227e2b7f6bf5f8cd8077468267b2d6985c108",
       "ruta": "conformidad-diagnosticos.md",
       "id": "MANUAL_CONFORMIDAD_DIAGNOSTICOS",
       "titulo": "Conformidad y diagnósticos",
-      "sha256": "6780b6b8f0e21f3baad79072af756ff06a001c5e59a7161cc143fd69588587f6"
+      "sha256": "ed1745e101073c8e395ee8b0a11227e2b7f6bf5f8cd8077468267b2d6985c108"
     },
     {
       "ruta": "parametros-rutas.md",
-      "sha256": "a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb",
-      "url": "urn:sv:documento:sha256:a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb",
+      "sha256": "11b897415201790b7d7e0b1fa23e921dd08527e3d27b3485c8c15169d331dc04",
+      "url": "urn:sv:documento:sha256:11b897415201790b7d7e0b1fa23e921dd08527e3d27b3485c8c15169d331dc04",
       "titulo": "Parámetros, recorridos y evidencia",
       "id": "MANUAL_PARAMETROS_RUTAS"
     },
@@ -126,15 +126,22 @@
       "ruta": "desarrollo-validacion-nucleo.md",
       "titulo": "Desarrollo y validación del núcleo",
       "id": "MANUAL_DESARROLLO_VALIDACION",
-      "url": "urn:sv:documento:sha256:3573fd75bb96d76fce61dcd061f6a3fe0d5c1643de6c599ab5b6e476b25af123",
-      "sha256": "3573fd75bb96d76fce61dcd061f6a3fe0d5c1643de6c599ab5b6e476b25af123"
+      "url": "urn:sv:documento:sha256:5141c9a71eee3e25f8bfa972c75841e9e6b31474a79023abb3b40da2f3067752",
+      "sha256": "5141c9a71eee3e25f8bfa972c75841e9e6b31474a79023abb3b40da2f3067752"
     },
     {
-      "url": "urn:sv:documento:sha256:28cb5cad845936101794080c79de31957c867c9e0a27a20ad4286b7c6da2e68b",
+      "ruta": "integracion-gestor-sv.md",
+      "id": "MANUAL_INTEGRACION_GESTOR_SV",
+      "url": "urn:sv:documento:sha256:b6398f0d56e7642e840347e1a3a9ee9b095c9087de762acf3a8b0b18d641adb3",
+      "titulo": "Integración con el Gestor del Sistema Vectorial SV",
+      "sha256": "b6398f0d56e7642e840347e1a3a9ee9b095c9087de762acf3a8b0b18d641adb3"
+    },
+    {
+      "url": "urn:sv:documento:sha256:2ba8bb0828bc9fd34da5abd6c7dab95f6e7852b22664587841fe475e79021a44",
       "ruta": "referencia-terminologia.md",
       "id": "MANUAL_REFERENCIA_TERMINOLOGIA",
       "titulo": "Terminología y referencias del lenguaje",
-      "sha256": "28cb5cad845936101794080c79de31957c867c9e0a27a20ad4286b7c6da2e68b"
+      "sha256": "2ba8bb0828bc9fd34da5abd6c7dab95f6e7852b22664587841fe475e79021a44"
     },
     {
       "ruta": "agradecimientos.md",

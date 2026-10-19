@@ -39,6 +39,14 @@ El Lenguaje SV utiliza WASI y Wasmtime en comprobaciones documentadas del núcle
 
 El Director gobierna la operación; el Selector consulta las capacidades que aporta el Explorador antes de elegir el destino. La disponibilidad de un acelerador no le concede prioridad automática. El capítulo de [hardware de aceleración tensorial](hardware-aceleracion-tensorial.md) presenta las realizaciones comprobadas y sus condiciones.
 
+## Aplicaciones y condiciones de integración
+
+Las aplicaciones relacionadas con el Lenguaje conservan identidad, revisión, procedencia y alcance autorizado en las entradas que preparan y los resultados que reciben. El contrato de integración delimita operaciones, tipos admitidos, permisos y recursos; la interfaz de una aplicación no puede ampliar esas facultades. La autorización institucional y la admisibilidad de una entrada son comprobaciones distintas y deben cumplirse conjuntamente cuando la operación las exige.
+
+El [Gestor del Sistema Vectorial SV](integracion-gestor-sv.md) es una aplicación desarrollada en Rust para la administración de dominios, documentos, modelos, accesos y actuaciones. Su configuración institucional se explica en el apéndice de integración. Esa configuración identifica decisiones y condiciones de uso; las construcciones del lenguaje y su representación intermedia conservan las definiciones de sus capítulos propios.
+
+Cada integración declara las capacidades efectivamente habilitadas. La existencia de una ficha de configuración, un transporte o una interfaz de funciones no acredita la ejecución de una operación nuclear. El capítulo de [desarrollo y validación](desarrollo-validacion-nucleo.md) delimita las capacidades recibidas y pendientes del Lenguaje.
+
 ## Fronteras y observación
 
 La interfaz visual transporta datos y presenta resultados. No modifica las reglas del núcleo, la terna, los permisos ni los dictámenes. Los contratos de frontera deben validar los datos antes de incorporarlos al recorrido que les corresponda. La construcción de un módulo WebAssembly no sustituye esas comprobaciones.

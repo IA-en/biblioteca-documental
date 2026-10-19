@@ -11,7 +11,7 @@ Este apéndice permite localizar los conceptos y las fuentes formales utilizados
 | Gramática superficial | Reglas de escritura de las construcciones del lenguaje. | [Construcciones e instrucciones](construcciones-y-componentes.md). |
 | Representación intermedia, IR | Estructura de objetos y operaciones obtenida tras interpretar el texto y aplicar las comprobaciones correspondientes. | [Arquitectura](arquitectura-ejecucion.md). |
 | Célula y estado celular | Especificación de una célula y valores de una instancia identificada, respectivamente. | [Ejemplo inicial](ejemplos-svp.md#ejemplo-inicial-una-célula). |
-| Terna | Valores 0, 1 y U conforme al convenio y a las reglas vigentes del SV. No representa los fallos de una máquina. | [Desarrollo y validación](desarrollo-validacion-nucleo.md). |
+| Terna | 0 = Apto, 1 = No apto y U = Indeterminado, conforme a la cuestión y las reglas aplicables. Los fallos técnicos conservan su diagnóstico propio. | [Estados celulares y terna](construcciones-y-componentes.md#estados-celulares-y-terna) y [desarrollo y validación](desarrollo-validacion-nucleo.md). |
 | Frame | Representación estructurada de un suceso y de las relaciones exigidas por su contrato. | [Parámetros, recorridos y evidencia](parametros-rutas.md). |
 | Admisión técnica | Cumplimiento de las condiciones de entrada y comprobación aplicables. Se distingue del resultado semántico. | [Conformidad y diagnósticos](conformidad-diagnosticos.md). |
 | Traza | Registro que relaciona actuaciones observadas y sus medidas. Su cobertura depende de los puntos instrumentados. | [Observabilidad](observabilidad.md). |

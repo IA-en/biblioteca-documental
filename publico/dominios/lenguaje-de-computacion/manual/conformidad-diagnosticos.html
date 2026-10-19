@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-dfa0c3a8.js"></script>
+        <script src="toc-ae9af702.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -188,7 +188,7 @@
 </table>
 </div>
 <p>El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/docs/referencia/ERRORES_CANONICOS_SV_v0_3.md">catálogo de errores v0.3</a> identifica los diagnósticos. La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/GRAMATICA_SUPERFICIAL_MINIMA_SV_v0_2.md">gramática v0.2</a> y las reglas de <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/IR_CANONICA_BIENFORMACION_SV_v0_3.md">bienformación de IR v0.3</a> vinculan sus restricciones con los diagnósticos correspondientes.</p>
-<p>Los códigos declarados en el catálogo y los mensajes emitidos por una realización no son equivalentes por mera enumeración. La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/docs/calidad/MATRIZ_DE_CONCORDANCIA_DIAGNOSTICA_IR_IMPLEMENTACION_SV.md">concordancia diagnóstica</a> distingue obligaciones, fases y resultados observados. Se conserva el mensaje real, su causa y el código cuando la implementación lo emite; no se inventa un código estructurado para completar un resultado textual.</p>
+<p>Los códigos declarados en el catálogo y los mensajes emitidos por una realización tienen alcances distintos. La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/docs/calidad/MATRIZ_DE_CONCORDANCIA_DIAGNOSTICA_IR_IMPLEMENTACION_SV.md">concordancia diagnóstica</a> distingue obligaciones, fases y resultados observados. Cuando la implementación emite un código estructurado, se conserva junto con el mensaje y su causa. Si sólo emite un resultado textual, éste se conserva sin asignarle un código por interpretación.</p>
 <h2 id="rechazos-deliberados"><a class="header" href="#rechazos-deliberados">Rechazos deliberados</a></h2>
 <p>El archivo <code>cellstate_vector_length_mismatch.svp</code> comprueba la discordancia entre la longitud del vector y la dimensión de la célula. Se espera un rechazo. Se conserva sin corregirlo dentro de la colección negativa: su finalidad consiste precisamente en comprobar esa restricción.</p>
 <p>Una prueba reproducible identifica el archivo íntegro, su perfil, la versión del comprobador y la causa esperada. Se conserva también el resultado obtenido, incluso cuando difiere de lo previsto.</p>

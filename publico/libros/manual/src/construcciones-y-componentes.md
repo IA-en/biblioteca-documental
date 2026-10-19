@@ -4,6 +4,20 @@
 
 El Lenguaje SV dispone de una gramática superficial y una representación intermedia. La primera determina cómo se escriben sus programas; la segunda conserva sus objetos y operaciones de forma estructurada. Las bibliotecas Rust que realizan estas funciones pertenecen a la implementación y no son, por ello, bibliotecas importables desde un archivo SVP.
 
+## Estados celulares y terna
+
+El estado de una célula conserva una secuencia ordenada de posiciones. Cada posición identifica un parámetro conforme a la constitución del dominio. La terna vigente expresa:
+
+| Valor | Significado |
+| --- | --- |
+| **0** | **Apto**. |
+| **1** | **No apto**. |
+| **U** | **Indeterminado**: no determinación actual conforme al contrato aplicable. |
+
+La interpretación de cada posición identifica la cuestión evaluada, los datos admitidos y las reglas utilizadas. U no es un número para promediar ni un sustituto automático de un fallo de ejecución. La conclusión de una evaluación depende de la operación y del codominio declarados; un recuento de valores no sustituye esa regla ni conserva su orden.
+
+El convenio se recoge en los [Fundamentos algebraico-semánticos del Sistema Vectorial SV](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f10aac725676997adc3840a1bd1a41e1579589ea/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/Fundamentos%20algebraico-sem%C3%A1nticos%20del%20Sistema%20Vectorial%20SV.md). La [correspondencia visual](parametros-rutas.md#correspondencia-visual) explica su representación mediante el polígono del SV.
+
 ## Declaraciones y operaciones
 
 Las declaraciones expresan, entre otros objetos, codominios, semánticas de salida, especificaciones y estados celulares, tablas de admisibilidad, grafos, marcos, trayectorias, dominios y agentes. El análisis del programa conserva esas definiciones en la representación intermedia. Las operaciones utilizan referencias explícitas a los objetos declarados.

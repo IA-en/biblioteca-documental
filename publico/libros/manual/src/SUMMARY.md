@@ -35,5 +35,6 @@
 
 # Apéndices y agradecimientos
 
+- [Integración con el Gestor del Sistema Vectorial SV](integracion-gestor-sv.md)
 - [Terminología y referencias del lenguaje](referencia-terminologia.md)
 - [Agradecimientos](agradecimientos.md)

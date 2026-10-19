@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-manual-estructura-20261019",
+  "edicion": "biblioteca-sv-manual-integracion-20261019",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "8587090e2e8c0fd9771a0e53a003ad2af798673a38f9651cf63bd894e264bd46"
+        "sha256": "ebe3ad961c992fc3b590fb8b83914b225f03128ac36e03f28feeee829235ac36"
       },
       "metadatos": [
         {
@@ -379,7 +379,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "0347fe69412f445be3c1e12c1f45e1de62fd4b8bbb9c0d70ad7ca507af747b4b"
+            "sha256": "88deb7f5f7fa9880c6cb30b068153683ab3c65ee8c05c2cb5a276c6438aeb2e6"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -394,7 +394,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "35bd28697d33c511f244dd468f0c3f33b3e43bff3848f87493dc23fcae6d0e6b"
+            "sha256": "b98954608252bd55a429086bc88c2a6cee1247fbf00b7c1449638eb8cd5cf57d"
           },
           "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -445,7 +445,7 @@
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/manual/src/parametros-rutas.md",
-            "sha256": "a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb"
+            "sha256": "11b897415201790b7d7e0b1fa23e921dd08527e3d27b3485c8c15169d331dc04"
           },
           "sintetico": false
         },
@@ -534,7 +534,7 @@
           "documento": "MANUAL_DESARROLLO_VALIDACION",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "3573fd75bb96d76fce61dcd061f6a3fe0d5c1643de6c599ab5b6e476b25af123",
+            "sha256": "5141c9a71eee3e25f8bfa972c75841e9e6b31474a79023abb3b40da2f3067752",
             "ruta": "libros/manual/src/desarrollo-validacion-nucleo.md"
           },
           "visibilidad": "publica"
@@ -605,7 +605,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/construcciones-y-componentes.md",
-            "sha256": "3575e6d451d85c2f2eba35c67c6212d8ca2fb91a70a68e1a03e7545bbadafd76"
+            "sha256": "b37acf93022e186d8dad73ceeab3f033da186add7a0a1ae5d4045fcda9eda58f"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -625,7 +625,7 @@
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "original": {
             "ruta": "libros/manual/src/arquitectura-ejecucion.md",
-            "sha256": "c0d79405af2a4c27e7130b0071204dd4c8204f05432b7edb856a49b9114ef37b"
+            "sha256": "11e596b0388fa5538b6e29684919827d0670dc6074e44e5d11671fd8bed3f503"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -655,7 +655,7 @@
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "original": {
             "ruta": "libros/manual/src/conformidad-diagnosticos.md",
-            "sha256": "6780b6b8f0e21f3baad79072af756ff06a001c5e59a7161cc143fd69588587f6"
+            "sha256": "ed1745e101073c8e395ee8b0a11227e2b7f6bf5f8cd8077468267b2d6985c108"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -670,9 +670,24 @@
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "original": {
             "ruta": "libros/manual/src/referencia-terminologia.md",
-            "sha256": "28cb5cad845936101794080c79de31957c867c9e0a27a20ad4286b7c6da2e68b"
+            "sha256": "2ba8bb0828bc9fd34da5abd6c7dab95f6e7852b22664587841fe475e79021a44"
           },
           "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null,
+          "sintetico": false,
+          "documento": "MANUAL_INTEGRACION_GESTOR_SV",
+          "original": {
+            "ruta": "libros/manual/src/integracion-gestor-sv.md",
+            "sha256": "b6398f0d56e7642e840347e1a3a9ee9b095c9087de762acf3a8b0b18d641adb3"
+          },
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "alcance": "Relación del Gestor con los contratos del Lenguaje, asignaciones por dominio y acceso documental.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "visibilidad": "publica",
+          "tipo_original": "markdown"
         }
       ]
     },

@@ -53,15 +53,25 @@ La evidencia de una actuación debe enlazar:
 
 Preparación, envío, consulta observable, cita y contraste son hechos diferentes. Deben conservarse incluso cuando una etapa falla o no llega a realizarse. La evidencia no certifica procesos cognitivos internos del modelo.
 
-Los nodos 1, 2 y 3 y la frontera de comunicación deben preservar las mismas identidades, alcance autorizado y distinciones semánticas. Una adaptación que no pueda conservarlas debe declarar la incompatibilidad; no omitirlas ni reconstruirlas por inferencia. El acceso por Internet a un servicio no concede permiso de búsqueda documental abierta.
+Los [nodos 1, 2 y 3](integracion-gestor-sv.md#configuración-por-dominio) y la frontera de comunicación deben preservar las mismas identidades, alcance autorizado y distinciones semánticas. Una adaptación que no pueda conservarlas debe declarar la incompatibilidad; no omitirlas ni reconstruirlas por inferencia. El acceso por Internet a un servicio no concede permiso de búsqueda documental abierta.
 
 El Calificador de actividades documentales asigna las categorías de actividad mediante reglas deterministas en Rust. La custodia debe permitir reconstrucción por documento, Universo, parámetro y actuación, bajo los permisos correspondientes. Una actualización añade una nueva revisión; no reescribe la evidencia anterior.
 
+### Fidelidad y acceso a las fuentes
+
+La huella identifica los bytes conservados; la fidelidad documental exige además preservar el contenido y sus relaciones. Una transformación debe conservar cantidades, unidades, negaciones, condiciones, fórmulas y asociaciones entre celdas de una tabla. Si no puede hacerlo, debe declarar su limitación y mantener disponible el original bajo sus permisos. Una transcripción o conversión legible no acredita por sí sola esa fidelidad.
+
+El permiso de lectura, el de transformación y el de suministro a un modelo tienen alcances propios. Conocer una referencia de procedencia no concede acceso al documento ni a sus fragmentos. La traducción auxiliar para lectura humana conserva su identificación y sus límites; no sustituye la fuente admitida en una evaluación ni modifica el conocimiento del dominio. El apéndice de [documentos y evidencias en el Gestor](integracion-gestor-sv.md#documentos-y-evidencias) explica la aplicación de estas condiciones.
+
 ## Correspondencia visual
+
+El SV utiliza un único contrato de representación del polígono, con la dimensión que corresponda a la célula constituida. La [terna](construcciones-y-componentes.md#estados-celulares-y-terna) se representa mediante radios **ρ(0) = 1, ρ(1) = 2 y ρ(U) = 3**. Estos radios codifican estados: el radio exterior de U no constituye una escala de mayor gravedad. El número de posiciones y su orden se conservan, con los ejes y la orientación declarados por el contrato.
+
+El polígono hace visible el estado sobre el que se interpreta la decisión del SV. La evaluación conserva las reglas y las condiciones de las posiciones; el área, el perímetro o un promedio no sustituyen ese fundamento. Estado y representación deben corresponder a la misma instancia, constitución y revisión. Esta relación se desarrolla en [Célula, imagen y agentes en el SV](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f10aac725676997adc3840a1bd1a41e1579589ea/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/CELULA_IMAGEN_Y_AGENTES_EN_EL_SV_P1_P3_BIS_2026_09_13_V2.md).
 
 El mapa de composición muestra relaciones entre objetos. El recorrido registrado muestra hechos de una actuación. El frame decisional muestra posiciones y valores de una instancia. Egui deberá presentarlos de manera enlazada, conservando esas diferencias y su correspondencia con las evidencias.
 
-Al seleccionar una posición, el experto debe poder acceder a la pregunta evaluada, su valor, las reglas aplicadas y los documentos o pasajes que lo sustentan. La presentación no debe generar relaciones, ocultar U críticas ni sustituir la evidencia por una explicación plausible.
+Al seleccionar una posición, el experto debe poder consultar la pregunta evaluada, su valor, las reglas aplicadas y las referencias de procedencia, dentro de su autorización. La apertura de documentos y la presentación de fragmentos requieren además el permiso documental correspondiente. Quien esté autorizado para consultar el consejo y su procedencia, pero no el documento, recibe esa información sin apertura ni fragmentos del contenido protegido. La presentación no debe generar relaciones, ocultar U críticas ni sustituir la evidencia por una explicación plausible.
 
 ### Correspondencia entre Universo y ejecución
 

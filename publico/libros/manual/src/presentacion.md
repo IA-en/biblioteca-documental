@@ -19,7 +19,7 @@ La gramática determina las formas de escritura; la representación intermedia c
 | **Arquitectura y recursos** | Sitúe los [entornos de ejecución](arquitectura-ejecucion.md), el [Árbitro - Director](arbitro-director.md), el [Selector](selector-arbitro-director.md), el [Explorador Tensorial](explorador-tensorial-sv.md) y el [hardware de aceleración tensorial](hardware-aceleracion-tensorial.md). |
 | **Observabilidad y comprobación** | Interprete las [medidas y trazas](observabilidad.md), las [herramientas de desarrollo](herramientas-desarrollo-comprobacion.md) y las pruebas de [conformidad y diagnósticos](conformidad-diagnosticos.md). |
 | **Desarrollo e integración** | Consulte los requisitos de [parámetros, recorridos y evidencia](parametros-rutas.md), la [compatibilidad](tramo-10.md) y el [desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md). |
-| **Apéndices y agradecimientos** | Localice la [terminología y las referencias](referencia-terminologia.md) y las [aportaciones reconocidas](agradecimientos.md), ordenadas alfabéticamente. |
+| **Apéndices y agradecimientos** | Consulte la [integración con el Gestor del Sistema Vectorial SV](integracion-gestor-sv.md), la [terminología y las referencias](referencia-terminologia.md) y las [aportaciones reconocidas](agradecimientos.md), ordenadas alfabéticamente. |
 
 Para aprender, siga el orden del libro. Para resolver una consulta concreta, utilice el índice lateral y los enlaces entre capítulos. Las pruebas deliberadamente inválidas se estudian en conformidad y diagnósticos, separadas de los ejemplos de escritura.
 
