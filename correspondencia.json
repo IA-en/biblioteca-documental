@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "aff97db5575bdcaed8109637a94f509ba4489159a9c430ed7e6db9c84ac2805e",
+  "biblioteca_sha256": "e0e41a597f03b30e862b6243a6fa0010c7eb9f9d648a2aec9316016edf2c0baa",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1358,7 +1358,7 @@
     },
     {
       "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
-      "cobertura_bytes": 1631,
+      "cobertura_bytes": 1679,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_INDICE",
       "identificador_editorial_r0": null,
@@ -1366,7 +1366,7 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/SUMMARY.md",
-        "sha256": "42e2d712f3f85d013f553d53840787f501cc086ae3aa54db5298d7515cc88936"
+        "sha256": "00801920e2f5efe0f281cbf33a166e95d3f8761c5f8865254c27f1ec13c7b5a0"
       },
       "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
       "secciones": [
@@ -1380,57 +1380,57 @@
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 238,
+          "fin_byte_exclusivo": 246,
           "inicio_byte": 62,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000009",
-          "sha256": "8d3f261fed83b4896f12f03c4ae7a530aa54117c1f5b182b6907184b35cda8ba",
-          "titulo": "I. El Lenguaje de Computación SV",
+          "sha256": "8ce7e9f36c3d2cdee8a3663bbcd34987ed1ee1e5b7b11f7802ff68046eb71f61",
+          "titulo": "PARTE I · El Lenguaje de Computación SV",
           "ultima_linea": 9
         },
         {
-          "fin_byte_exclusivo": 473,
-          "inicio_byte": 238,
+          "fin_byte_exclusivo": 489,
+          "inicio_byte": 246,
           "primera_linea": 10,
           "seccion": "MD-L000010-L000015",
-          "sha256": "df6dfbfec0f96cb4f710f8fc10d003b31ce05bf647086529abb2ba2600f4595c",
-          "titulo": "II. Práctica con archivos SVP",
+          "sha256": "4979803abfa026c7f7f4cd3bf39cfeedbdb501c5bc69ff0e4f84ea5687863cfc",
+          "titulo": "PARTE II · Práctica con archivos SVP",
           "ultima_linea": 15
         },
         {
-          "fin_byte_exclusivo": 860,
-          "inicio_byte": 473,
+          "fin_byte_exclusivo": 884,
+          "inicio_byte": 489,
           "primera_linea": 16,
           "seccion": "MD-L000016-L000023",
-          "sha256": "26e2eeabeacca07352efd7691ba5ebb8e97f862bc047ff61f7932066fda64c9a",
-          "titulo": "III. Arquitectura y recursos",
+          "sha256": "42157931ae04be1ac427005c4abc0cb83dc450d84b504d4f7b4906b621bd88f9",
+          "titulo": "PARTE III · Arquitectura y recursos",
           "ultima_linea": 23
         },
         {
-          "fin_byte_exclusivo": 1124,
-          "inicio_byte": 860,
+          "fin_byte_exclusivo": 1156,
+          "inicio_byte": 884,
           "primera_linea": 24,
           "seccion": "MD-L000024-L000029",
-          "sha256": "83dd4d52b76995f22976fd4a0e5b9c2baf5c3e68aae18011f24773399176c5d8",
-          "titulo": "IV. Observabilidad y comprobación",
+          "sha256": "4e35f089d743a98050ca49f0ce83b1314e01d2012d170594c356437f9fc39be4",
+          "titulo": "PARTE IV · Observabilidad y comprobación",
           "ultima_linea": 29
         },
         {
-          "fin_byte_exclusivo": 1372,
-          "inicio_byte": 1124,
+          "fin_byte_exclusivo": 1412,
+          "inicio_byte": 1156,
           "primera_linea": 30,
           "seccion": "MD-L000030-L000035",
-          "sha256": "82454416a299a86ce8bb37e649d1fd7bd89733ec5c89bedfa3ab94fd4266e3b2",
-          "titulo": "V. Desarrollo e integración",
+          "sha256": "4f17e910599304dd11b16355556d20a46ede3d8ce6dc2fbbdfca6934ece77596",
+          "titulo": "PARTE V · Desarrollo e integración",
           "ultima_linea": 35
         },
         {
-          "fin_byte_exclusivo": 1631,
-          "inicio_byte": 1372,
+          "fin_byte_exclusivo": 1679,
+          "inicio_byte": 1412,
           "primera_linea": 36,
           "seccion": "MD-L000036-L000040",
-          "sha256": "fb6e3c0983ff43d6d5f40103813c28bb9be49c47f77c1890b8f3370ac88a5979",
-          "titulo": "VI. Apéndices y agradecimientos",
+          "sha256": "575200b5ac64e546c26b4bf08b93d5acc70ed1ec3b15c3e1f31f6bd00e2f3c55",
+          "titulo": "PARTE VI · Apéndices y agradecimientos",
           "ultima_linea": 40
         }
       ]
@@ -3652,7 +3652,7 @@
   ],
   "edicion": "biblioteca-sv-manual-integracion-20261019",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "6581ee5f96af862efa30e483dc928cdae05cf08b27a841253c7e979e481edfb3",
+  "politica_sha256": "ee245f8edf380b221eb07e7a0f36c92660d2ded317efa26175a1b4e70cca3fd0",
   "recepcion_visual": false,
   "version": 1
 }

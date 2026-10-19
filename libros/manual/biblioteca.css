@@ -36,3 +36,27 @@ main>hr+.sv-brand-footer{border-block-start:0;margin-block-start:0}
 .sv-language-form select{flex:0 1 26rem}
 .sv-language-tools[data-estado="preparando"] #sv-language-status,.sv-language-tools[data-estado="traduciendo"] #sv-language-status{font-style:italic}
 @media(max-width:480px){.sv-language-form select{flex:1 1 100%;width:100%}.sv-language-form button{margin-block-start:.25rem}}
+
+/* ES: Jerarquía del índice; conserva los enlaces y la numeración documental.
+   EN: Contents hierarchy; preserves links and document numbering. */
+.chapter > li.part-title {
+    margin-block: 1.65em .65em;
+    padding: 0;
+    color: #12465b;
+    font-weight: 700;
+    line-height: 1.45;
+}
+.coal .chapter > .part-title,
+.navy .chapter > .part-title,
+.ayu .chapter > .part-title { color: #a8d8e8; }
+.chapter > .part-title ~ .chapter-item { padding-inline-start: .9em; }
+.chapter .chapter-item > .section { padding-inline-start: 1.1em; }
+.chapter li.chapter-item { margin-block-start: .55em; }
+.chapter .chapter-link-wrapper > a { overflow-wrap: anywhere; }
+.chapter .on-this-page {
+    margin: .45em 0 .3em .9em;
+    padding-inline-start: .65em;
+    border-inline-start-width: 3px;
+}
+.chapter .on-this-page > .section { padding-inline-start: 0; }
+.chapter .on-this-page li.header-item { margin-block-end: .35em; }

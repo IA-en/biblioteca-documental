@@ -1,13 +1,13 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "5ce22379fa90a787132841aa470c2d2c3c293068ee6afed2dd31a4bfc680f07a",
+  "revision": "6459905b95963b02e28fe62fb7ba17e21d9c28b368669cce4cc868fdf1c24c15",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
     "titulo": "Índice del Manual del Lenguaje de Computación SV",
-    "url": "urn:sv:documento:sha256:42e2d712f3f85d013f553d53840787f501cc086ae3aa54db5298d7515cc88936",
-    "sha256": "42e2d712f3f85d013f553d53840787f501cc086ae3aa54db5298d7515cc88936"
+    "url": "urn:sv:documento:sha256:00801920e2f5efe0f281cbf33a166e95d3f8761c5f8865254c27f1ec13c7b5a0",
+    "sha256": "00801920e2f5efe0f281cbf33a166e95d3f8761c5f8865254c27f1ec13c7b5a0"
   },
   "capitulos": [
     {

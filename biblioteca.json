@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "0afc222db6774ffdafe4a37156d4929c80fc13b8c39cf19853f78e3fe738ddfd"
+        "sha256": "ec89dce33452e2183c492c1764ede98357848dfed7d44aa52e1398edb6712530"
       },
       "metadatos": [
         {
@@ -379,7 +379,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "42e2d712f3f85d013f553d53840787f501cc086ae3aa54db5298d7515cc88936"
+            "sha256": "00801920e2f5efe0f281cbf33a166e95d3f8761c5f8865254c27f1ec13c7b5a0"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
