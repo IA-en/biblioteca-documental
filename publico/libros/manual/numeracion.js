@@ -9,7 +9,7 @@
     for (const enlace of indice.querySelectorAll('a')) {
       const texto = enlace.firstChild;
       if (!texto || texto.nodeType !== Node.TEXT_NODE) continue;
-      const numero = texto.data.match(/^\d+(?:\.\d+)*\.(?=\s)/);
+      const numero = texto.data.match(/^\d+(?:\.\d+)*\.(?=\s|$)/);
       if (!numero) continue;
       const marca = document.createElement('strong');
       marca.textContent = numero[0];
