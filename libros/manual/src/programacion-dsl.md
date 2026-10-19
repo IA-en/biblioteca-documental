@@ -2,21 +2,11 @@
 
 **Sección en desarrollo · 19 de octubre de 2026.**
 
-La DSL es el lenguaje específico con el que se expresan las construcciones del Sistema Vectorial SV. Esta sección se reserva para explicar programas que resuelvan necesidades completas y cuyos resultados puedan comprobarse. Todavía no constituye una guía de aplicaciones profesionales disponibles.
+La DSL es el lenguaje específico con el que se expresan las construcciones del Sistema Vectorial SV. Esta sección reunirá ejemplos de programas completos: desde la necesidad que resuelven y sus entradas hasta la ejecución, el resultado y sus límites de uso.
 
-Los [ejemplos SVP de conformidad](ejemplos-svp.md) permiten estudiar declaraciones y diagnósticos. Son útiles para aprender el lenguaje, pero no sustituyen una aplicación recibida de extremo a extremo.
+La versión actual permite estudiar las construcciones del lenguaje y comprobar archivos SVP. Los [ejemplos de conformidad](ejemplos-svp.md) explican qué programas se admiten y qué diagnósticos corresponden a entradas incorrectas. Las aplicaciones profesionales completas de esta sección todavía no están disponibles.
 
-## Qué debe contener cada ejemplo aplicado
-
-Cada ejemplo deberá precisar la necesidad, el dominio y sus límites; las entradas admitidas; las construcciones utilizadas; el resultado esperado; los estados indeterminados y las causas de rechazo. También deberá identificar las versiones, las comprobaciones ejecutadas y los permisos necesarios para reproducirlo.
-
-La presentación distinguirá la representación estructurada del programa, la ejecución efectiva y la decisión que corresponda al usuario responsable. Si utiliza una fuente documental o una IA, deberá explicar su procedencia, autorización, frontera de comunicación y alcance observable.
-
-## Condición de incorporación
-
-Un ejemplo se incorporará como disponible cuando su recorrido esté implementado, comprobado y recibido para el alcance descrito. La presencia de una instrucción en la gramática no basta para anunciar una aplicación completa. Las dependencias pendientes deben declararse expresamente.
-
-Hasta entonces, la lectura puede continuar por [Construcciones del lenguaje y componentes propios](construcciones-y-componentes.md) y [Desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md). Esta separación permite ampliar la guía cuando existan capacidades verificadas sin convertir propuestas en funciones aparentes.
+Para comenzar, consulte [Construcciones del lenguaje y componentes propios](construcciones-y-componentes.md). La guía del [Playground](playground-sv.md) explica cómo presentar un programa y consultar su representación. El capítulo [Desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md) describe las capacidades disponibles y las condiciones pendientes para ampliar su ejecución.
 
 ---
 

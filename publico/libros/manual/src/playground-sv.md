@@ -12,7 +12,7 @@ El [Playground del SV](https://lenguaje-sv.itvia.online/) permite escribir o car
 4. Pulse **Compilar**. Examine el resultado de admisión y los diagnósticos. Un rechazo debe resolverse conforme a su causa, sin sustituir valores ni eliminar condiciones para ocultarlo.
 5. Consulte la representación estructurada y conserve el archivo SVP, su perfil y las versiones utilizadas si necesita reproducir la comprobación.
 
-En la edición consultada, la cabecera identifica gramática 0.2, representación intermedia 0.3 y proyección 0.1.0. Las versiones publicadas pueden cambiar: para reproducir una observación prevalece la identificación que acompañó a esa observación.
+La distribución descrita en esta guía utiliza gramática 0.2, representación intermedia 0.3 y proyección 0.1.0. La cabecera identifica las versiones de la distribución abierta. Conserve esa identificación junto con el archivo cuando necesite reproducir una comprobación.
 
 ## Qué significa «Admitido»
 
@@ -22,7 +22,7 @@ La admisión indica que el programa supera las comprobaciones implementadas por 
 
 ## Ensamblar unidades
 
-El apartado de ensamblaje permite presentar dos unidades con perfiles de origen independientes. La realización publicada transforma cada unidad y comprueba conjuntamente el resultado; no se limita a concatenar sus textos. Una referencia entre unidades debe quedar resuelta y los identificadores deben respetar las reglas del conjunto.
+El apartado de ensamblaje permite presentar dos unidades con perfiles de origen independientes. El lenguaje transforma cada unidad y comprueba conjuntamente sus declaraciones y referencias. Una referencia entre unidades debe quedar resuelta y los identificadores deben respetar las reglas del conjunto.
 
 El ensamblaje no equivale a disponer de un sistema general de importación de bibliotecas o de macros. Sus límites se explican en [Construcciones del lenguaje y componentes propios](construcciones-y-componentes.md).
 

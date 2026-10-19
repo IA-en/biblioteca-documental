@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "1b147d8d99f97a93d0d8731aa44efbec19613e1aaedf2f845df749e644e22e5b"
+        "sha256": "3ddaea89bdf31dfe255f93cea464421e17f3da0275679d77fabbd2a044ecb7b7"
       },
       "metadatos": [
         {
@@ -409,7 +409,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/constructor.md",
-            "sha256": "148450867f213803bd045e2068e94355404674e9d884078b4b55d990d0f94240"
+            "sha256": "d43c519bc5347060cbe3556490afd81f2d08f8a9d680e891e68cdd17573c398b"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -513,7 +513,7 @@
           "procedencia": "Edición pública propia de 18/10/2026",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "c4732f44d2eeedfb0861b4fd9b2afdce63242550e800876473b04306b7e4d1c7",
+            "sha256": "bf3447bcf04871ec78ae88f9c5285b1e7f1ab31fe98b1968b6dceb4c090802ba",
             "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md"
           },
           "sintetico": false,
@@ -549,7 +549,7 @@
           "documento": "MANUAL_AGRADECIMIENTOS",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "c3d3ef689066681e3c61ed3baa216158e6668ded9c7c6c3844c3a7f081675fe3",
+            "sha256": "af638e36f4d48af4c6a34f4343ad27009c429bcee7c6c9299b30632b0640a98b",
             "ruta": "libros/manual/src/agradecimientos.md"
           },
           "visibilidad": "publica"
@@ -560,7 +560,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/playground-sv.md",
-            "sha256": "3bd9b06d63d974d68c9f831bed5b8bb2bd25bfab49315f8b6fd9dbdd4319bd63"
+            "sha256": "9d2cadde904505651326c90f7e85fa32abaf1b054698f10b375f1a2c1e4396fb"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -590,7 +590,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/programacion-dsl.md",
-            "sha256": "f3fee7bc497411352ccd53752a35b0142735e1fd0f76c45707618e779bf11331"
+            "sha256": "5bb476e9c80315f0209f77d283cea6f745a119dfcc70bd9dab3bad7e5835ae3d"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -605,7 +605,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/construcciones-y-componentes.md",
-            "sha256": "3b088b687a3239c9f2050f66e1574e85433cc707126f5bf8d77a0da3a6ab7323"
+            "sha256": "9a0e02044ee6c9a16cc647078ed3dc6b17da9b6a602f8b52ec1c6fad2df85241"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,

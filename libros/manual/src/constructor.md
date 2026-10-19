@@ -18,17 +18,17 @@ El Lenguaje de Computación SV expresa definiciones, estados, evaluaciones y rel
 | Representación y ejecución | Uso del intérprete, intercambio de datos y realización en Rust. [Árbitro - Director](arbitro-director.md), [Selector subordinado](selector-arbitro-director.md) y [hardware de aceleración tensorial](hardware-aceleracion-tensorial.md). |
 | Compatibilidad | Comunicación con otros lenguajes conservando el significado del SV. |
 
-Esta organización delimita materias; no acredita que todas estén desarrolladas en la presente edición. Los textos disponibles se encuentran en el índice lateral.
+El índice lateral reúne los capítulos disponibles. La programación aplicada figura en desarrollo; las capacidades del núcleo y sus pendientes se explican en su capítulo específico.
 
 ## Cómo interpretar una descripción del lenguaje
 
-Una descripción completa debe identificar la operación, sus entradas y resultados, las condiciones de aplicación, las dependencias y las exclusiones. Los ejemplos deben acompañarse de casos que permitan reconocer cuándo la operación no es aplicable o debe rechazar una entrada.
+Para utilizar una operación hay que conocer sus entradas, el resultado que produce y las condiciones de aplicación. Los ejemplos de conformidad permiten reconocer tanto las construcciones admitidas como las entradas que deben rechazarse.
 
-La relación con la gramática y la representación intermedia debe ser explícita. Una explicación conceptual, una forma de escritura admitida y una ejecución comprobada son evidencias diferentes. El manual debe indicar cuál respalda cada afirmación.
+La gramática establece cómo escribir el programa; la representación intermedia conserva sus objetos y operaciones; la realización ejecutiva aplica las capacidades disponibles. Esta distinción permite interpretar el resultado del Playground y reconocer qué actuaciones posteriores requieren una ejecución y una autorización propias.
 
 ## Referencia
 
-La organización temática se basa en la [estructura de referencia del manual](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/CONSTRUCTOR_DEL_MANUAL_DEL_LENGUAJE_SVP.md). Se presenta aquí como explicación para el lector, sin reproducir instrucciones de preparación editorial.
+La organización temática se basa en la [estructura de referencia del manual](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/CONSTRUCTOR_DEL_MANUAL_DEL_LENGUAJE_SVP.md). Los capítulos desarrollan esas materias y remiten a sus definiciones formales.
 
 ---
 

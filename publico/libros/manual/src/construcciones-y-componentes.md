@@ -6,7 +6,7 @@ El Lenguaje SV dispone de una gramática superficial y una representación inter
 
 ## Declaraciones y operaciones
 
-Las declaraciones expresan, entre otros objetos, codominios, semánticas de salida, especificaciones y estados celulares, tablas de admisibilidad, grafos, marcos, trayectorias, dominios y agentes. Una declaración conserva una definición; no demuestra por sí sola que exista una ejecución operativa de todos sus efectos.
+Las declaraciones expresan, entre otros objetos, codominios, semánticas de salida, especificaciones y estados celulares, tablas de admisibilidad, grafos, marcos, trayectorias, dominios y agentes. El análisis del programa conserva esas definiciones en la representación intermedia. Las operaciones utilizan referencias explícitas a los objetos declarados.
 
 | Operación en SVP-EN | Finalidad definida | Precisión necesaria |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ Las declaraciones expresan, entre otros objetos, codominios, semánticas de sali
 | `compose` | Construir una arquitectura con grafo, relaciones y patrones declarados. | No es una suma de células ni una composición semántica implícita. |
 | Proyección de campos | Acceder explícitamente a un campo permitido de un resultado. | No crea ese resultado ni elimina sus condiciones de validez. |
 
-Los nombres anteriores pertenecen al perfil SVP-EN. El perfil SVP-ES ofrece sus formas documentadas, como `evaluar`, `compuerta`, `resolver`, `consultar`, `supervisar` y `componer`. La selección del perfil es explícita. Este cuadro explica finalidades; no reemplaza las firmas y restricciones de la gramática ni certifica la ejecución integral de cada operación.
+Los nombres anteriores pertenecen al perfil SVP-EN. El perfil SVP-ES ofrece sus formas documentadas, como `evaluar`, `compuerta`, `resolver`, `consultar`, `supervisar` y `componer`. La selección del perfil es explícita. La gramática define las firmas y restricciones de estas operaciones. El capítulo de desarrollo y validación del núcleo distingue su representación de las capacidades de ejecución disponibles.
 
 ## Componentes Rust
 
@@ -32,9 +32,9 @@ Estos componentes comparten la realización del lenguaje en lugar de definir sem
 
 ## Bibliotecas de la DSL y macros
 
-La gramática superficial consultada no incorpora macros ni un mecanismo general de importación de bibliotecas de la DSL. No deben confundirse con las dependencias de Cargo, los módulos Rust o el ensamblaje explícito de unidades que ofrece el Playground.
+SVP 0.2 no incluye macros ni importación general de bibliotecas de la DSL. Cargo organiza las dependencias de la realización en Rust; los módulos Rust distribuyen su código, y el Playground permite ensamblar unidades SVP. Cada mecanismo cumple una función distinta.
 
-Una futura biblioteca de la DSL necesitaría identidad, versión, contratos públicos, reglas de compatibilidad, permisos y comprobaciones reproducibles. Su incorporación deberá documentarse cuando exista. Este manual no presenta instrucciones de importación ni expansión de macros que el lenguaje todavía no ofrece.
+El ensamblaje disponible permite relacionar las declaraciones de varias unidades y comprobar el conjunto. La incorporación futura de bibliotecas de la DSL deberá conservar la identidad y versión de cada biblioteca, sus contratos, compatibilidad y permisos. SVP 0.2 mantiene, por ahora, el ensamblaje explícito de unidades.
 
 ## Fuentes y alcance
 
