@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-revision-editorial-20261019",
+  "edicion": "biblioteca-sv-desarrollo-validacion-agradecimientos-20261019",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "63f285d30a336c94a12424a5a1157949368b7e6258561bb2ef67ddb2162fbf10"
+        "sha256": "2a21f77ed7dd01c8d502852d49aa7ea8cf9ffb3df87058f2d653765a31c1529d"
       },
       "metadatos": [
         {
@@ -379,7 +379,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "3b0cdd76955c091a2b6c92f0009787ef4eed0135d53b17de52ac521bc9ed6711"
+            "sha256": "c150d39d02072fdcdcb3bf7e4709a02abd0fa15fbf82bb7a419627f10260a4e5"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -394,7 +394,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "8008535d570d83079306824e9f0cf1bc211242c4ebd4bd43611b1fdcdd1659a4"
+            "sha256": "ba7fb00195134b910d91a890abed57b5bb23da2713a3c9d5ab1f5442b7c79686"
           },
           "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -523,6 +523,36 @@
           "visibilidad": "publica",
           "alcance": "Herramientas de construcción y comprobación del lenguaje; finalidad, uso y límites de sus resultados.",
           "documento": "MANUAL_HERRAMIENTAS"
+        },
+        {
+          "alcance": "Capacidades en desarrollo, exigencias y condiciones de comprobación del núcleo; estado referido a fuentes y recepciones identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null,
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 19/10/2026",
+          "documento": "MANUAL_DESARROLLO_VALIDACION",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "4c5dc0d3e31a1aa8aa76111481e6aed69a7023063f549a64bb0fa9c9a344f243",
+            "ruta": "libros/manual/src/desarrollo-validacion-nucleo.md"
+          },
+          "visibilidad": "publica"
+        },
+        {
+          "alcance": "Reconocimiento alfabético de comunidades, proyectos y tecnologías utilizados en el lenguaje y sus herramientas asociadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null,
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 19/10/2026",
+          "documento": "MANUAL_AGRADECIMIENTOS",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "ceda22fe17d69a537d1c77b4032f38d2103bfd31df6acf53262486517bf0170f",
+            "ruta": "libros/manual/src/agradecimientos.md"
+          },
+          "visibilidad": "publica"
         }
       ]
     },

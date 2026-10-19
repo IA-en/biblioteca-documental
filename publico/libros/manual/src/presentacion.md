@@ -2,7 +2,7 @@
 
 **Edición de consulta · Revisión editorial de 19 de octubre de 2026 · Original en español.**
 
-Este manual reúne explicaciones sobre el Lenguaje de Computación SV, su relación con el conocimiento de los Universos y las condiciones que debe preservar una ejecución. La edición disponible comprende el ámbito del lenguaje, los principios de compatibilidad y los requisitos de representación de parámetros, rutas y evidencias. Incorpora también el gobierno de la ejecución por el Árbitro - Director, la selección subordinada del dispositivo de cálculo y las condiciones del hardware comprobado.
+Este manual reúne explicaciones sobre el Lenguaje de Computación SV, su relación con el conocimiento de los Universos y las condiciones que debe preservar una ejecución. La edición disponible comprende el ámbito del lenguaje, los principios de compatibilidad y los requisitos de representación de parámetros, rutas y evidencias. Explica asimismo el desarrollo y la validación del núcleo, con criterios para interpretar sus capacidades y las pruebas que las respaldan. Incorpora también el gobierno de la ejecución por el Árbitro - Director, la selección subordinada del dispositivo de cálculo y las condiciones del hardware comprobado.
 
 ## Alcance de la edición
 
@@ -18,6 +18,10 @@ El pliego, la gramática, la representación intermedia —la estructura formal 
 
 4. Continúe con el [Árbitro - Director](arbitro-director.md), su [Selector](selector-arbitro-director.md), el [Explorador Tensorial](explorador-tensorial-sv.md) y el [hardware de aceleración tensorial](hardware-aceleracion-tensorial.md) para distinguir gobierno, reconocimiento de capacidades, elección del dispositivo y ejecución física.
 5. Consulte [Herramientas de desarrollo y comprobación](herramientas-desarrollo-comprobacion.md) para conocer qué acreditan la compilación, Clippy, las pruebas y la construcción documental.
+
+6. Lea [Desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md) para distinguir las obligaciones pendientes, las capacidades recibidas y sus criterios de comprobación.
+
+Los [Agradecimientos](agradecimientos.md) reconocen, por orden alfabético, las comunidades, proyectos y tecnologías utilizados.
 
 El libro [Dominios y universos del Sistema Vectorial SV](../../universos/index.html) desarrolla las definiciones y los ejemplos conceptuales. Las operaciones de lectura, autorización y entrega de fuentes se explican en el [libro documental](../../../documentacion/reglas-usos-descripciones-documentales/index.html).
 

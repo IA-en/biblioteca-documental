@@ -40,7 +40,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-89212cbd.js"></script>
+        <script src="toc-0e5db0df.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -174,7 +174,7 @@
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
                         <h1 id="manual-del-lenguaje-de-computación-sv"><a class="header" href="#manual-del-lenguaje-de-computación-sv">Manual del Lenguaje de Computación SV</a></h1>
 <p><strong>Edición de consulta · Revisión editorial de 19 de octubre de 2026 · Original en español.</strong></p>
-<p>Este manual reúne explicaciones sobre el Lenguaje de Computación SV, su relación con el conocimiento de los Universos y las condiciones que debe preservar una ejecución. La edición disponible comprende el ámbito del lenguaje, los principios de compatibilidad y los requisitos de representación de parámetros, rutas y evidencias. Incorpora también el gobierno de la ejecución por el Árbitro - Director, la selección subordinada del dispositivo de cálculo y las condiciones del hardware comprobado.</p>
+<p>Este manual reúne explicaciones sobre el Lenguaje de Computación SV, su relación con el conocimiento de los Universos y las condiciones que debe preservar una ejecución. La edición disponible comprende el ámbito del lenguaje, los principios de compatibilidad y los requisitos de representación de parámetros, rutas y evidencias. Explica asimismo el desarrollo y la validación del núcleo, con criterios para interpretar sus capacidades y las pruebas que las respaldan. Incorpora también el gobierno de la ejecución por el Árbitro - Director, la selección subordinada del dispositivo de cálculo y las condiciones del hardware comprobado.</p>
 <h2 id="alcance-de-la-edición"><a class="header" href="#alcance-de-la-edición">Alcance de la edición</a></h2>
 <p>El manual está incompleto: todavía no ofrece una exposición integral de la sintaxis, las operaciones y los diagnósticos del lenguaje. La <a href="#ámbito-y-organización-del-lenguaje">organización temática</a> permite reconocer esas materias. Los capítulos disponibles identifican expresamente los conceptos de diseño y los requisitos pendientes de comprobación.</p>
 <p>El pliego, la gramática, la representación intermedia —la estructura formal que permite interpretar y ejecutar el lenguaje— y los contratos vigentes determinan su significado. Este manual los explica; una propuesta descrita en sus páginas no modifica por sí sola esas reglas ni acredita una función disponible.</p>
@@ -195,7 +195,11 @@
 <li>
 <p>Consulte <a href="#herramientas-de-desarrollo-y-comprobación">Herramientas de desarrollo y comprobación</a> para conocer qué acreditan la compilación, Clippy, las pruebas y la construcción documental.</p>
 </li>
+<li>
+<p>Lea <a href="#desarrollo-y-validación-del-núcleo">Desarrollo y validación del núcleo</a> para distinguir las obligaciones pendientes, las capacidades recibidas y sus criterios de comprobación.</p>
+</li>
 </ol>
+<p>Los <a href="#agradecimientos">Agradecimientos</a> reconocen, por orden alfabético, las comunidades, proyectos y tecnologías utilizados.</p>
 <p>El libro <a href="../../universos/index.html">Dominios y universos del Sistema Vectorial SV</a> desarrolla las definiciones y los ejemplos conceptuales. Las operaciones de lectura, autorización y entrega de fuentes se explican en el <a href="../../../documentacion/reglas-usos-descripciones-documentales/index.html">libro documental</a>.</p>
 <h2 id="fuentes-y-versiones"><a class="header" href="#fuentes-y-versiones">Fuentes y versiones</a></h2>
 <p>Esta edición ofrece una adaptación explicativa de las fuentes citadas en cada capítulo. Las referencias identifican la versión utilizada y permiten distinguir el fundamento existente de las propuestas. Los originales permanecen en sus publicaciones de referencia; esta adaptación no se presenta como una reproducción literal. La fecha de revisión editorial identifica la presentación y organización del libro; no cambia las fechas de sus fuentes ni acredita una nueva recepción técnica de todos sus componentes.</p>
@@ -380,6 +384,83 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
+<h1 id="desarrollo-y-validación-del-núcleo"><a class="header" href="#desarrollo-y-validación-del-núcleo">Desarrollo y validación del núcleo</a></h1>
+<p>El desarrollo del Lenguaje de Computación SV debe demostrar que las reglas descritas pueden ejecutarse conservando su significado, sus límites de autoridad y la evidencia de cada actuación. Las necesidades de los dominios y de los componentes que utilizan el lenguaje permiten comprobar si esa realización es suficiente.</p>
+<p>Este capítulo ofrece dos perspectivas complementarias: <strong>qué capacidades requieren desarrollo o integración</strong> y <strong>cómo se someten a comprobación las exigencias que recaen sobre el núcleo</strong>. La explicación corresponde a la documentación consolidada el <strong>19 de octubre de 2026</strong>. Las recepciones técnicas posteriores deben consultarse en los registros enlazados; la fecha de este capítulo no acredita por sí sola su ejecución.</p>
+<h2 id="cómo-interpretar-el-estado-de-una-capacidad"><a class="header" href="#cómo-interpretar-el-estado-de-una-capacidad">Cómo interpretar el estado de una capacidad</a></h2>
+<p>Una capacidad puede estar descrita en un contrato, representada mediante estructuras de datos, realizada en código o comprobada en una operación concreta. Esas situaciones deben distinguirse:</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Estado</th><th>Qué permite afirmar</th><th>Qué debe comprobarse a continuación</th></tr>
+</thead>
+<tbody>
+<tr><td>Requisito definido</td><td>Se conoce la obligación y el resultado exigible.</td><td>Que exista una realización que la cumpla.</td></tr>
+<tr><td>Representación disponible</td><td>El lenguaje puede expresar o validar determinada información.</td><td>Que la operación utilice esa información y produzca el efecto previsto.</td></tr>
+<tr><td>Realización comprobada parcialmente</td><td>Hay resultados identificados para un componente o un conjunto de casos.</td><td>Sus límites y la composición con los demás componentes.</td></tr>
+<tr><td>Recepción integrada</td><td>El recorrido concreto ha sido ejecutado y recibido con evidencia suficiente para su alcance.</td><td>Las condiciones institucionales y de uso que correspondan.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Compilar un componente no equivale a comprobar toda su conducta. Las pruebas de una interfaz, de un servicio documental o de un supervisor tampoco sustituyen una prueba del núcleo. Una recepción favorable conserva la versión, las entradas y los límites examinados; no se extiende automáticamente a otros dominios, soportes u operaciones.</p>
+<h2 id="capacidades-en-desarrollo-e-integración"><a class="header" href="#capacidades-en-desarrollo-e-integración">Capacidades en desarrollo e integración</a></h2>
+<p>La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/e4346b2971a8775608b761fa0823f76b5eb2b020/docs/evoluciones-desde-el-nucleo-no-cotejadas-generadas-por-pruebas-con-la-ia-sin-aprobacion-aun/entrega-consolidada-2026-10-19/ENTREGA.md">entrega consolidada de exigencias</a> relaciona obligaciones, evidencias parciales, responsables funcionales y criterios de recepción. La siguiente tabla explica sus ámbitos sin sustituir ese registro.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Ámbito</th><th>Exigencia que debe conservar la realización</th></tr>
+</thead>
+<tbody>
+<tr><td>Identidad y autoridad</td><td>Relacionar dominio, instancia, configuración y operación con las facultades legítimamente constituidas. Compartir un modelo o un recurso no comparte permisos.</td></tr>
+<tr><td>Documentación y procedencia</td><td>Identificar el material realmente consumido y comprobar la cobertura necesaria. La integridad de un archivo no demuestra que se haya utilizado toda la información pertinente.</td></tr>
+<tr><td>Causas y efectos</td><td>Distinguir rechazo, insuficiencia, fallo instrumental y efecto externo incierto. No transformar un fallo de transporte en un resultado semántico.</td></tr>
+<tr><td>Contexto, revisión y evaluación</td><td>Conservar el fundamento de cada resultado y distinguir una revisión posterior. Identificar qué se presentó al revisor y con qué competencia y alcance.</td></tr>
+<tr><td>Semántica y representación intermedia</td><td>Demostrar que la operación ejecuta el significado representado. Expresar una consulta, una transición o una observación no acredita que se haya realizado.</td></tr>
+<tr><td>Recursos y aislamiento</td><td>Imponer y comprobar límites de tiempo, memoria, almacenamiento y canales de comunicación en el soporte utilizado.</td></tr>
+<tr><td>Fidelidad documental</td><td>Preservar unidades, negaciones, excepciones, orden y magnitudes a través de las transformaciones y de su uso final.</td></tr>
+<tr><td>Privacidad y entrega</td><td>Hacer efectivos finalidad, contenido mínimo y destinatario autorizado antes de cualquier salida que llegue a habilitarse.</td></tr>
+<tr><td>Persistencia y continuidad</td><td>Recuperar un estado legítimo sin resucitar permisos consumidos o revocados ni borrar el fundamento de actuaciones anteriores.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Al corte documental indicado, la consolidación de necesidades está terminada, pero <strong>la recepción nuclear integrada y la adenda completa de integridad y trazabilidad siguen pendientes</strong>. Se conservan recepciones parciales y no se repiten como trabajo inexistente. Entre las obligaciones materiales pendientes de la adenda figuran la autoridad de la instrucción directa, la no dependencia indebida de información protegida, la revisión efectiva y la entrega limitada al destinatario legítimo.</p>
+<p>La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/integracion-adenda-ia-frame-y-catalogo-errores/s13-suficiencia-semantica-ir/ACTA_SUFICIENCIA.md">suficiencia semántica y de representación intermedia</a> distingue una consulta representada de su resultado ejecutado, una transición validada de su ejecución y una observación del procedimiento que determina su valor ternario. El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/arquitectura/CONTRATO_R2_0_PERSISTENCIA_CONTINUIDAD_Y_RECUPERACION_2026_08_25.md">contrato R2 de persistencia, continuidad y recuperación</a> mantiene sus propias condiciones de recepción.</p>
+<p>El SV conserva <strong>un único contrato del polígono y la terna vigente</strong>. Su dimensión procede de la constitución del dominio; no se deduce del número de definiciones de un documento. La representación con Rust y egui debe reflejar fielmente el resultado correspondiente. La presentación gráfica no introduce otra semántica ni sustituye la decisión del núcleo.</p>
+<h2 id="exigencias-y-pruebas-de-presión-sobre-el-núcleo"><a class="header" href="#exigencias-y-pruebas-de-presión-sobre-el-núcleo">Exigencias y pruebas de presión sobre el núcleo</a></h2>
+<p>La presión funcional consiste en enfrentar una operación a obligaciones que debe conservar: una autorización revocada, una fuente incompleta, dos causas distintas o una recuperación que pudiera alterar el pasado. El estrés de recursos examina su comportamiento ante límites y concurrencia. Son perspectivas relacionadas, con criterios y recintos de prueba distintos.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Familia de comprobación</th><th>Ejemplo de contraste</th><th>Propiedad que se observa</th></tr>
+</thead>
+<tbody>
+<tr><td>Autoridad e identidad</td><td>Cambiar sólo el dominio, la instancia o la revisión de un permiso.</td><td>La operación autorizada funciona y la sustitución indebida se rechaza antes de producir efectos.</td></tr>
+<tr><td>Integridad y cobertura</td><td>Omitir una revocación pertinente conservando citas verdaderas.</td><td>El procedimiento detecta la insuficiencia del conjunto utilizado.</td></tr>
+<tr><td>Significado y causa</td><td>Alterar una negación o provocar un fallo de comunicación.</td><td>La negación se conserva y el fallo mantiene su causa instrumental.</td></tr>
+<tr><td>Recursos y concurrencia</td><td>Alcanzar una cota o intentar consumir simultáneamente un comprobante de uso único.</td><td>El límite se impone materialmente y no se duplica la autorización.</td></tr>
+<tr><td>Confidencialidad y entrega</td><td>Variar un dato protegido ajeno a la finalidad o cambiar el receptor.</td><td>No se produce dependencia indebida ni salida por una vía no autorizada, dentro de los canales examinados.</td></tr>
+<tr><td>Continuidad y recuperación</td><td>Recuperar una copia anterior al consumo o revocación de una facultad.</td><td>La recuperación no restablece una autoridad que ya dejó de existir.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Cada comprobación debe incluir un <strong>caso admisible</strong>, un <strong>caso adverso</strong> y una <strong>alteración controlada que pruebe la sensibilidad del observador</strong>. Rechazar todas las entradas no demuestra corrección. Comparar dos realizaciones entre sí tampoco basta si ambas pueden cometer el mismo error: el resultado esperado debe apoyarse en el contrato y en una referencia independiente de la propuesta evaluada.</p>
+<p>Antes de ejecutar se fijan la operación, las versiones, el estado inicial, las entradas, el permiso, el soporte, el resultado esperado y el método de observación. Después se conservan el resultado observado, los efectos materiales, las causas, las exclusiones y la recepción competente. La evidencia debe permitir seguir la información desde su fuente hasta su interpretación y uso por la operación, incluyendo su recuperación cuando se empleen referencias.</p>
+<p>Las pruebas de disponibilidad se efectúan en un recinto de ensayo autorizado. No se deduce una garantía sobre canales no observados ni sobre soportes distintos. Las <a href="#herramientas-de-desarrollo-y-comprobación">herramientas de desarrollo y comprobación</a> ayudan a producir estas evidencias, pero no sustituyen la revisión de su alcance.</p>
+<h2 id="de-la-necesidad-a-la-capacidad-recibida"><a class="header" href="#de-la-necesidad-a-la-capacidad-recibida">De la necesidad a la capacidad recibida</a></h2>
+<ol>
+<li><strong>Definir la obligación.</strong> Precisar qué información o propiedad debe conservarse y qué operación la necesita.</li>
+<li><strong>Asignar y recibir el trabajo.</strong> Identificar la función responsable, las aportaciones y la función que comprobará el resultado. Una asignación funcional no acredita por sí sola que un ejecutor haya aceptado el encargo.</li>
+<li><strong>Realizar y contrastar.</strong> Comprobar cada componente y después el recorrido integrado requerido. Una limitación de la representación intermedia sólo se modifica tras demostrar la pérdida o insuficiencia concreta.</li>
+<li><strong>Registrar la recepción.</strong> Declarar aceptación, aceptación parcial o rechazo, con evidencia y límites. La decisión de uso corresponde a la autoridad competente y conserva sus condiciones propias.</li>
+</ol>
+<p>Una necesidad del dominio no convierte toda su solución en una obligación interna del núcleo: la institución constituye facultades y finalidades, el dominio determina el significado profesional, los contratos del lenguaje expresan sus obligaciones y los componentes de ejecución demuestran su cumplimiento material. La composición debe respetar esas responsabilidades.</p>
+<p>Al corte de esta edición, la conexión con proveedores de IA está limitada a autenticación y consulta del catálogo: no habilita el envío de documentos, consultas, respuestas, datos sintéticos ni contenido a contadores remotos. Los criterios descritos aquí no levantan ese límite ni autorizan exámenes o uso profesional.</p>
+<h2 id="fuentes-vigentes-y-mantenimiento-del-capítulo"><a class="header" href="#fuentes-vigentes-y-mantenimiento-del-capítulo">Fuentes vigentes y mantenimiento del capítulo</a></h2>
+<p>Para conocer el estado posterior al corte de esta edición, consulte el <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/REGISTRO_DEUDA_VIVA_DEL_FRENTE_FINAL_DEL_LENGUAJE_SV.md">registro de obligaciones pendientes y recepciones del Lenguaje</a> y los documentos de recepción que éste enlaza. La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/integracion-adenda-ia-frame-y-catalogo-errores/s19-recepcion-integracion-y-causas/MATRIZ_COBERTURA_A_L.md">matriz de cobertura de la adenda</a> conserva el alcance de sus contrastes. La entrega consolidada ofrece la correspondencia completa y sus fuentes identificadas.</p>
+<p>Este capítulo se revisará cuando una recepción cambie las capacidades aquí descritas o se modifique un contrato que afecte a su explicación. Se actualizarán la fecha, el alcance y las referencias, conservando las versiones anteriores. Los registros técnicos mantienen el detalle de cada obligación; el manual explica su significado y sus condiciones de comprobación. Una recepción nueva puede cerrar un pendiente concreto, y un contraejemplo nuevo puede revelar otra necesidad.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
 <h1 id="árbitro---director"><a class="header" href="#árbitro---director">Árbitro - Director</a></h1>
 <p><strong>Representación y ejecución · 15 de octubre de 2026.</strong></p>
 <p>El Árbitro - Director es el componente del Sistema Vectorial que gobierna una ejecución conforme a sus condiciones autorizadas. Relaciona la solicitud, el modelo identificado, los documentos admitidos, las operaciones permitidas y la evidencia obtenida. Su actuación se define mediante reglas explícitas realizadas en Rust.</p>
@@ -545,6 +626,29 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <p>Una comparación reproducible identifica operación, datos, modelo y revisión, representación numérica, dimensiones, memoria, dispositivo, adaptador, versiones y límites temporales de la medición. Debe distinguir calentamiento y calibración de las solicitudes posteriores, así como actividad propia y utilización agregada.</p>
 <p>La equivalencia del resultado y el rendimiento se comprueban por separado. Las diferencias numéricas requieren tolerancias justificadas para la operación; la aceleración no autoriza a alterar estados, umbrales ni reglas de evaluación. Los ejemplos de <a href="#ejemplos-comprobados">selección por tiempo total</a> muestran por qué un cálculo más rápido no garantiza un recorrido completo más rápido.</p>
 <p>La medición distingue el tiempo del dispositivo, el de la operación con transferencias y el recorrido desde la petición hasta la entrega. La recuperación del resultado debe observarse por separado: una demora en esa fase no identifica por sí sola su causa en la biblioteca, el controlador o el entorno. La calibración tampoco garantiza la latencia de cada petición. Las mediciones y el análisis de cada configuración se conservan en su ficha experimental.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="agradecimientos"><a class="header" href="#agradecimientos">Agradecimientos</a></h1>
+<p>El Lenguaje de Computación del Sistema Vectorial SV se apoya en proyectos, herramientas y tecnologías que contribuyen a su desarrollo, comprobación, representación y documentación. Agradecemos el trabajo de las comunidades, equipos y personas que los crean, mantienen y documentan.</p>
+<p>La relación se presenta en <strong>orden alfabético</strong>, sin clasificación de importancia:</p>
+<ul>
+<li><strong><a href="https://doc.rust-lang.org/cargo/">Cargo</a></strong>: organización de los componentes Rust, sus dependencias, construcción y pruebas.</li>
+<li><strong><a href="https://doc.rust-lang.org/clippy/">Clippy</a></strong>: análisis estático y ayuda para revisar la claridad y calidad del código Rust.</li>
+<li><strong><a href="https://github.com/emilk/egui">egui y eframe</a></strong>: interfaces y visualizadores en Rust para presentar los resultados del SV.</li>
+<li><strong><a href="https://git-scm.com/">Git</a></strong>: identificación de revisiones y conservación de la evolución del código y los documentos.</li>
+<li><strong><a href="https://docs.github.com/en/actions">GitHub</a></strong>: alojamiento de las fuentes y ejecución de las comprobaciones automatizadas declaradas por el proyecto.</li>
+<li><strong><a href="https://rust-lang.github.io/mdBook/">mdBook</a></strong>: construcción y navegación de los libros de documentación.</li>
+<li><strong><a href="https://openai.com/">OpenAI</a></strong>: tecnología de inteligencia artificial utilizada como apoyo al análisis, la programación y la revisión documental.</li>
+<li><strong><a href="https://rust-lang.org/">Rust</a></strong>: lenguaje, compilador y biblioteca estándar sobre los que se realiza el Lenguaje de Computación SV.</li>
+<li><strong><a href="https://github.com/rust-lang/rustfmt">rustfmt</a></strong>: presentación uniforme de las fuentes Rust.</li>
+<li><strong><a href="https://rust-lang.github.io/rustup/">rustup</a></strong>: gestión de las versiones de Rust y de sus componentes de desarrollo.</li>
+<li><strong><a href="https://serde.rs/">Serde y serde_json</a></strong>: lectura y escritura de datos estructurados en herramientas documentales y visualizadores asociados.</li>
+<li><strong><a href="https://wasm-bindgen.github.io/wasm-bindgen/">wasm-bindgen</a></strong>: comunicación entre WebAssembly y JavaScript en los visualizadores web asociados.</li>
+</ul>
+<p>Cada aportación se reconoce en su ámbito. Esta relación no constituye un inventario exhaustivo de dependencias ni atribuye a sus responsables participación en las decisiones, certificación o aval del SV. Las licencias y atribuciones de cada componente se conservan en sus fuentes y distribuciones correspondientes.</p>
+<p>La relación se revisará cuando cambien las herramientas utilizadas. La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/AGRADECIMIENTOS.md">relación de referencia en GitHub</a> mantiene el mismo contenido y orden.</p>
+<p>Revisión: 19 de octubre de 2026.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 

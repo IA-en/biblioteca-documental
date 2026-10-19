@@ -1,21 +1,21 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "19d55af8256315f9914dbb9d2e33044ecd336c797800272c59080cf8b786b532",
+  "revision": "b21fb006dc129fcb0d523cb5ad56e1e2bff9d4442359a6b4d6e9ce2bd1c1effd",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
     "titulo": "Índice del Manual del Lenguaje de Computación SV",
-    "url": "urn:sv:documento:sha256:3b0cdd76955c091a2b6c92f0009787ef4eed0135d53b17de52ac521bc9ed6711",
-    "sha256": "3b0cdd76955c091a2b6c92f0009787ef4eed0135d53b17de52ac521bc9ed6711"
+    "url": "urn:sv:documento:sha256:c150d39d02072fdcdcb3bf7e4709a02abd0fa15fbf82bb7a419627f10260a4e5",
+    "sha256": "c150d39d02072fdcdcb3bf7e4709a02abd0fa15fbf82bb7a419627f10260a4e5"
   },
   "capitulos": [
     {
       "id": "MANUAL_PRESENTACION",
       "ruta": "presentacion.md",
       "titulo": "Presentación y alcance",
-      "url": "urn:sv:documento:sha256:8008535d570d83079306824e9f0cf1bc211242c4ebd4bd43611b1fdcdd1659a4",
-      "sha256": "8008535d570d83079306824e9f0cf1bc211242c4ebd4bd43611b1fdcdd1659a4"
+      "url": "urn:sv:documento:sha256:ba7fb00195134b910d91a890abed57b5bb23da2713a3c9d5ab1f5442b7c79686",
+      "sha256": "ba7fb00195134b910d91a890abed57b5bb23da2713a3c9d5ab1f5442b7c79686"
     },
     {
       "id": "MANUAL_CONSTRUCTOR",
@@ -46,6 +46,13 @@
       "titulo": "Herramientas de desarrollo y comprobación"
     },
     {
+      "ruta": "desarrollo-validacion-nucleo.md",
+      "titulo": "Desarrollo y validación del núcleo",
+      "id": "MANUAL_DESARROLLO_VALIDACION",
+      "url": "urn:sv:documento:sha256:4c5dc0d3e31a1aa8aa76111481e6aed69a7023063f549a64bb0fa9c9a344f243",
+      "sha256": "4c5dc0d3e31a1aa8aa76111481e6aed69a7023063f549a64bb0fa9c9a344f243"
+    },
+    {
       "id": "MANUAL_ARBITRO_DIRECTOR",
       "ruta": "arbitro-director.md",
       "titulo": "Árbitro - Director",
@@ -72,6 +79,13 @@
       "titulo": "Hardware de aceleración tensorial",
       "url": "urn:sv:documento:sha256:8e2e2cff0fddeff3fe0acb87bc28082fc9598b6908d725c480fb039b042f6c9c",
       "sha256": "8e2e2cff0fddeff3fe0acb87bc28082fc9598b6908d725c480fb039b042f6c9c"
+    },
+    {
+      "ruta": "agradecimientos.md",
+      "titulo": "Agradecimientos",
+      "id": "MANUAL_AGRADECIMIENTOS",
+      "url": "urn:sv:documento:sha256:ceda22fe17d69a537d1c77b4032f38d2103bfd31df6acf53262486517bf0170f",
+      "sha256": "ceda22fe17d69a537d1c77b4032f38d2103bfd31df6acf53262486517bf0170f"
     }
   ]
 }

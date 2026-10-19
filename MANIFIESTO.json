@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
+      "sha256": "0989c184be94c440e3bc342820e8addb69ed6680e32d3abee90df689912abaa9",
       "ruta": "biblioteca.json",
-      "bytes": 37963,
-      "sha256": "639a71e359d2198129635a3d6f0891e4dc26f649c9eaf59133038b5d60d318f7"
+      "bytes": 39468
     },
     {
       "ruta": "copias-historicas.json",
@@ -27,9 +27,9 @@
       "bytes": 711
     },
     {
-      "bytes": 113228,
+      "sha256": "2a1683394f369432d902eb9aea2b674ddb9a6bd5d9f06f6dd721559a617431e1",
       "ruta": "correspondencia.json",
-      "sha256": "06e708289276775b6b41045640c95347bbb39fb3a4d8b7f99edee1bf77fa5e42"
+      "bytes": 117493
     },
     {
       "ruta": "libros/criterio-terminologia.md",
@@ -287,14 +287,19 @@
       "sha256": "2cf135b67aabd9a0e04256d1634c7930cd581465f3f8a904bb5732030ae37634"
     },
     {
+      "sha256": "2a21f77ed7dd01c8d502852d49aa7ea8cf9ffb3df87058f2d653765a31c1529d",
       "ruta": "libros/manual/plan.json",
-      "bytes": 3582,
-      "sha256": "63f285d30a336c94a12424a5a1157949368b7e6258561bb2ef67ddb2162fbf10"
+      "bytes": 4256
     },
     {
       "ruta": "libros/manual/presentacion.js",
       "bytes": 13567,
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
+    },
+    {
+      "sha256": "ceda22fe17d69a537d1c77b4032f38d2103bfd31df6acf53262486517bf0170f",
+      "ruta": "libros/manual/src/agradecimientos.md",
+      "bytes": 2946
     },
     {
       "ruta": "libros/manual/src/arbitro-director.md",
@@ -305,6 +310,11 @@
       "ruta": "libros/manual/src/constructor.md",
       "bytes": 3013,
       "sha256": "148450867f213803bd045e2068e94355404674e9d884078b4b55d990d0f94240"
+    },
+    {
+      "sha256": "4c5dc0d3e31a1aa8aa76111481e6aed69a7023063f549a64bb0fa9c9a344f243",
+      "ruta": "libros/manual/src/desarrollo-validacion-nucleo.md",
+      "bytes": 11785
     },
     {
       "ruta": "libros/manual/src/explorador-tensorial-sv.md",
@@ -352,9 +362,9 @@
       "sha256": "a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb"
     },
     {
+      "sha256": "ba7fb00195134b910d91a890abed57b5bb23da2713a3c9d5ab1f5442b7c79686",
       "ruta": "libros/manual/src/presentacion.md",
-      "bytes": 3510,
-      "sha256": "8008535d570d83079306824e9f0cf1bc211242c4ebd4bd43611b1fdcdd1659a4"
+      "bytes": 3967
     },
     {
       "ruta": "libros/manual/src/selector-arbitro-director.md",
@@ -362,9 +372,9 @@
       "sha256": "2212ed2272d4efe4dee95e407a2104f463a51c21e92e5e51ca344f60777d986c"
     },
     {
+      "sha256": "c150d39d02072fdcdcb3bf7e4709a02abd0fa15fbf82bb7a419627f10260a4e5",
       "ruta": "libros/manual/src/SUMMARY.md",
-      "bytes": 614,
-      "sha256": "3b0cdd76955c091a2b6c92f0009787ef4eed0135d53b17de52ac521bc9ed6711"
+      "bytes": 748
     },
     {
       "ruta": "libros/manual/src/tramo-10.md",
@@ -552,9 +562,9 @@
       "bytes": 15921
     },
     {
+      "sha256": "7e803f29fa44679b481293ada6b791c3e11bb6e2f7aa57c40470e6fcf539dc32",
       "ruta": "politica-verificacion.json",
-      "bytes": 377,
-      "sha256": "ddbd486f41098f970a91d689c3ef7936d03a157b740ec06281e6c7d871acf8de"
+      "bytes": 377
     },
     {
       "ruta": "presentacion.js",
@@ -612,9 +622,9 @@
       "bytes": 962
     },
     {
+      "sha256": "0989c184be94c440e3bc342820e8addb69ed6680e32d3abee90df689912abaa9",
       "ruta": "publico/biblioteca.json",
-      "bytes": 37963,
-      "sha256": "639a71e359d2198129635a3d6f0891e4dc26f649c9eaf59133038b5d60d318f7"
+      "bytes": 39468
     },
     {
       "ruta": "publico/book-609e4cb8.js",
@@ -632,9 +642,9 @@
       "sha256": "46b97cc14a43e808d082b10dc85394edb7715d43f1ac1f5e7a320911655bd92f"
     },
     {
-      "bytes": 113228,
+      "sha256": "2a1683394f369432d902eb9aea2b674ddb9a6bd5d9f06f6dd721559a617431e1",
       "ruta": "publico/correspondencia.json",
-      "sha256": "06e708289276775b6b41045640c95347bbb39fb3a4d8b7f99edee1bf77fa5e42"
+      "bytes": 117493
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1107,14 +1117,19 @@
       "sha256": "235d4f83c4c71612f43995dbda167720cd0c5384bf9ea64f9328b187c409b51d"
     },
     {
+      "sha256": "7831ab61902b0a48232973c0c0293776ee55081d5bf29717090021205640d25e",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/404.html",
-      "bytes": 18434,
-      "sha256": "7a09ab04a965c9e57efcc24acf8c754ce26efb86916102fbb5623e4cea64d795"
+      "bytes": 18434
     },
     {
+      "sha256": "4d12b66141fbd8bb1fa79a878817e02210ed69df03cd0bc275360dd51d78509a",
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/agradecimientos.html",
+      "bytes": 23155
+    },
+    {
+      "sha256": "c365b2de3d3af5ac725fcf340af84e596dd2be03220082fe651bf9b643649520",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/arbitro-director.html",
-      "bytes": 27698,
-      "sha256": "d0aad4a6cf225a1ff775b48d8a6b4c3089bb5477168e33e9d3aa3a36479494e9"
+      "bytes": 27682
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/ayu-highlight-3fdfc3ac.css",
@@ -1152,9 +1167,9 @@
       "sha256": "1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44"
     },
     {
+      "sha256": "c23fa00d3e2536b60da22f5f7ac21692c6d67ca23ae5976aa70dd50fd5988ec9",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/constructor.html",
-      "bytes": 24952,
-      "sha256": "ee45903a4de4b455509c077580537a5f9903c9113c2a6d9834cbc3f21d78204a"
+      "bytes": 24952
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/css/chrome-d279d366.css",
@@ -1177,9 +1192,14 @@
       "sha256": "8adf115df892369c90b830767c4651a9e058b79273e219935f7c8a96c6eab9c0"
     },
     {
+      "sha256": "b283f743534003409b7a8e20faba6c567ab19feb48144e46fc826a29f71fdd22",
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/desarrollo-validacion-nucleo.html",
+      "bytes": 34837
+    },
+    {
+      "sha256": "b7b932abcef554f45236b26e1e8d3349efb8d3768e3a57eff13618a2fe017e09",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/explorador-tensorial-sv.html",
-      "bytes": 26980,
-      "sha256": "0df531cc3454689a224ee677ab1334abd37d8a2410550ad62878d12986dfb9f6"
+      "bytes": 26980
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/favicon-8114d1fc.png",
@@ -1262,14 +1282,14 @@
       "sha256": "2bdd9410b0141db3cbbf4cfc3818cc6fad279e8e63940940e06cd6af76ccbfcf"
     },
     {
+      "sha256": "ae78b0a683aad525e998201c7102fe5af1a60e318658b795f7762844bf1a45dd",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/hardware-aceleracion-tensorial.html",
-      "bytes": 28401,
-      "sha256": "3fe66c35199d02fe5ac23e13536d63ff2cbcb3b8b3edfd17ea5e7e47929d4c56"
+      "bytes": 29874
     },
     {
+      "sha256": "fe4c428487e5c1b65507a6fb42c2adcd6c204a4022235ba38611f23e86391ca2",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/herramientas-desarrollo-comprobacion.html",
-      "bytes": 34112,
-      "sha256": "be09e6b223cd4d2269da7f91e9842a410cc110ba471a9530bc3db0d07c8bad77"
+      "bytes": 34136
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/highlight-493f70e1.css",
@@ -1307,14 +1327,14 @@
       "bytes": 3114
     },
     {
+      "sha256": "04fcf3595f797558dc7ac621fc44b8058c9debd0d7e8bef0027abcbc7c0ca913",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/index.html",
-      "bytes": 23835,
-      "sha256": "ea942af433f2cfd5edc872ef2ce3bef9489abd87cece3c6cc6975ca7d019e7da"
+      "bytes": 24338
     },
     {
+      "sha256": "50292e531a997744b95cbea87da35940a5330b0c7b1fa45b6c25bed2238772eb",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/parametros-rutas.html",
-      "bytes": 36931,
-      "sha256": "b25e2bc9432f5427417d91fc3d684992a8fed7b189fb3c179b43c8c8259b2281"
+      "bytes": 36931
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion-0cfc7f9c.js",
@@ -1332,19 +1352,24 @@
       "bytes": 3422
     },
     {
+      "sha256": "04fcf3595f797558dc7ac621fc44b8058c9debd0d7e8bef0027abcbc7c0ca913",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion.html",
-      "bytes": 23835,
-      "sha256": "ea942af433f2cfd5edc872ef2ce3bef9489abd87cece3c6cc6975ca7d019e7da"
+      "bytes": 24338
     },
     {
+      "sha256": "43f21270fbc74e190089121eea9cebceb963f4d761f68df5652ab851c9e93bfa",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/print.html",
-      "bytes": 86898,
-      "sha256": "f811fa836ef68c7ebec1a164afa9aa5595e12e4df3b81f5b14ce75958b87e87b"
+      "bytes": 104635
     },
     {
+      "sha256": "43f62f08cfe12a7f55dc98a85c814b43cc0f3e0bc57ab4bb89f480281286f3c3",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/selector-arbitro-director.html",
-      "bytes": 29054,
-      "sha256": "5b307b0999f7e7fe0935231adbb09c320a4dcb887520242cedffeafb809cec38"
+      "bytes": 29054
+    },
+    {
+      "sha256": "0e5db0df9bc8da76ab388fe8ec026b847efbb99aef523306bf7caf8117fb3da3",
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/toc-0e5db0df.js",
+      "bytes": 21200
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/toc-75d04f73.js",
@@ -1377,9 +1402,9 @@
       "bytes": 19868
     },
     {
+      "sha256": "1298b7a756f6cc183db30cae77b622fc7f48a70e1115324737098cbc4c1222e0",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/toc.html",
-      "bytes": 3252,
-      "sha256": "788354da901d93838b7c62bf0cfca304660e44661df3ec151963dbffc535e936"
+      "bytes": 3667
     },
     {
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/tomorrow-night-4c0ae647.css",
@@ -1387,9 +1412,9 @@
       "sha256": "4c0ae647a06ef1699806fb9b4b6d0ef72de026708c6e8581362641c9298cb5f7"
     },
     {
+      "sha256": "5d67abfac98a35894c0e34b89b8b8dce3b5bbd2171774b5a619d39db91d11f02",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/tramo-10.html",
-      "bytes": 23414,
-      "sha256": "e846ff2856476c7f5719a15931c9868fc921bdbefc03d84bf281858c81dbf01a"
+      "bytes": 23414
     },
     {
       "ruta": "publico/dominios/universos/.nojekyll",
@@ -2262,14 +2287,19 @@
       "sha256": "2cf135b67aabd9a0e04256d1634c7930cd581465f3f8a904bb5732030ae37634"
     },
     {
+      "sha256": "2a21f77ed7dd01c8d502852d49aa7ea8cf9ffb3df87058f2d653765a31c1529d",
       "ruta": "publico/libros/manual/plan.json",
-      "bytes": 3582,
-      "sha256": "63f285d30a336c94a12424a5a1157949368b7e6258561bb2ef67ddb2162fbf10"
+      "bytes": 4256
     },
     {
       "ruta": "publico/libros/manual/presentacion.js",
       "bytes": 13567,
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
+    },
+    {
+      "sha256": "ceda22fe17d69a537d1c77b4032f38d2103bfd31df6acf53262486517bf0170f",
+      "ruta": "publico/libros/manual/src/agradecimientos.md",
+      "bytes": 2946
     },
     {
       "ruta": "publico/libros/manual/src/arbitro-director.md",
@@ -2280,6 +2310,11 @@
       "ruta": "publico/libros/manual/src/constructor.md",
       "bytes": 3013,
       "sha256": "148450867f213803bd045e2068e94355404674e9d884078b4b55d990d0f94240"
+    },
+    {
+      "sha256": "4c5dc0d3e31a1aa8aa76111481e6aed69a7023063f549a64bb0fa9c9a344f243",
+      "ruta": "publico/libros/manual/src/desarrollo-validacion-nucleo.md",
+      "bytes": 11785
     },
     {
       "ruta": "publico/libros/manual/src/explorador-tensorial-sv.md",
@@ -2327,9 +2362,9 @@
       "sha256": "a85570f3a11a1c55fcf2b25e2c3df5d508e708c575fa608fc5adaece1de77cbb"
     },
     {
+      "sha256": "ba7fb00195134b910d91a890abed57b5bb23da2713a3c9d5ab1f5442b7c79686",
       "ruta": "publico/libros/manual/src/presentacion.md",
-      "bytes": 3510,
-      "sha256": "8008535d570d83079306824e9f0cf1bc211242c4ebd4bd43611b1fdcdd1659a4"
+      "bytes": 3967
     },
     {
       "ruta": "publico/libros/manual/src/selector-arbitro-director.md",
@@ -2337,9 +2372,9 @@
       "sha256": "2212ed2272d4efe4dee95e407a2104f463a51c21e92e5e51ca344f60777d986c"
     },
     {
+      "sha256": "c150d39d02072fdcdcb3bf7e4709a02abd0fa15fbf82bb7a419627f10260a4e5",
       "ruta": "publico/libros/manual/src/SUMMARY.md",
-      "bytes": 614,
-      "sha256": "3b0cdd76955c091a2b6c92f0009787ef4eed0135d53b17de52ac521bc9ed6711"
+      "bytes": 748
     },
     {
       "ruta": "publico/libros/manual/src/tramo-10.md",
@@ -2712,9 +2747,9 @@
       "sha256": "cd8f79a2921ea527409860816c857bdd7f7e269937439423f6b511f6577143de"
     },
     {
+      "sha256": "7e803f29fa44679b481293ada6b791c3e11bb6e2f7aa57c40470e6fcf539dc32",
       "ruta": "publico/politica-verificacion.json",
-      "bytes": 377,
-      "sha256": "ddbd486f41098f970a91d689c3ef7936d03a157b740ec06281e6c7d871acf8de"
+      "bytes": 377
     },
     {
       "ruta": "publico/presentacion-0cfc7f9c.js",
