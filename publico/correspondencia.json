@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "a3be599cdf2334f691e863475f264427602c34c56121dec65341a4b0b7884628",
+  "biblioteca_sha256": "0c9b876e53f9578fe28ebde76ec4fd1652cae1985034ea8ca8d170469c337451",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1952,7 +1952,7 @@
     },
     {
       "alcance": "Herramientas de construcción y comprobación del lenguaje; finalidad, uso y límites de sus resultados.",
-      "cobertura_bytes": 10914,
+      "cobertura_bytes": 12454,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_HERRAMIENTAS",
       "identificador_editorial_r0": null,
@@ -1960,7 +1960,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md",
-        "sha256": "dd558696d7e03cdb23012511c7e7b95165b122230664455628f4bbb2060be68c"
+        "sha256": "c4732f44d2eeedfb0861b4fd9b2afdce63242550e800876473b04306b7e4d1c7"
       },
       "procedencia": "Edición pública propia de 18/10/2026",
       "secciones": [
@@ -2028,13 +2028,22 @@
           "ultima_linea": 92
         },
         {
-          "fin_byte_exclusivo": 10914,
+          "fin_byte_exclusivo": 11526,
           "inicio_byte": 9986,
           "primera_linea": 93,
-          "seccion": "MD-L000093-L000101",
+          "seccion": "MD-L000093-L000100",
+          "sha256": "a1f34c8a2ef21a485944b6bc024aac4285e235e48c05a4c94276fe6e2b563189",
+          "titulo": "Instrumentación de componentes asociados",
+          "ultima_linea": 100
+        },
+        {
+          "fin_byte_exclusivo": 12454,
+          "inicio_byte": 11526,
+          "primera_linea": 101,
+          "seccion": "MD-L000101-L000109",
           "sha256": "c8d73704f71d14fdfc8360c1eb5a533c1e8f014d9ecfe9abe4b99c379396a2df",
           "titulo": "Documentación con mdBook",
-          "ultima_linea": 101
+          "ultima_linea": 109
         }
       ]
     },
@@ -2110,7 +2119,7 @@
     },
     {
       "alcance": "Reconocimiento alfabético de comunidades, proyectos y tecnologías utilizados en el lenguaje y sus herramientas asociadas.",
-      "cobertura_bytes": 9760,
+      "cobertura_bytes": 10058,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_AGRADECIMIENTOS",
       "identificador_editorial_r0": null,
@@ -2118,18 +2127,18 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/agradecimientos.md",
-        "sha256": "397d2011fc7a0e637be679b6eacd593d34b7593136c28380d8c86c6d0f7e2da1"
+        "sha256": "c3d3ef689066681e3c61ed3baa216158e6668ded9c7c6c3844c3a7f081675fe3"
       },
       "procedencia": "Edición pública propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 9760,
+          "fin_byte_exclusivo": 10058,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000066",
-          "sha256": "397d2011fc7a0e637be679b6eacd593d34b7593136c28380d8c86c6d0f7e2da1",
+          "seccion": "MD-L000001-L000067",
+          "sha256": "c3d3ef689066681e3c61ed3baa216158e6668ded9c7c6c3844c3a7f081675fe3",
           "titulo": "Agradecimientos",
-          "ultima_linea": 66
+          "ultima_linea": 67
         }
       ]
     },
@@ -3311,7 +3320,7 @@
   ],
   "edicion": "biblioteca-sv-manual-playground-ejemplos-20261019",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "7a34cb55c9ae3536b3d755e8cc061448b2a6132ab2526e232630cfebdc9e9554",
+  "politica_sha256": "6659b9f4a493ac371cdab9fdf8a82db8cc578fe162eb8b48848e81dfb58904ba",
   "recepcion_visual": false,
   "version": 1
 }

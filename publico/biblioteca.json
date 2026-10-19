@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "edb74382ac06ee75d319b71b2eaff6cfb7a0caa08de96fbfb83c1b5624ddf8e8"
+        "sha256": "1b147d8d99f97a93d0d8731aa44efbec19613e1aaedf2f845df749e644e22e5b"
       },
       "metadatos": [
         {
@@ -513,7 +513,7 @@
           "procedencia": "Edición pública propia de 18/10/2026",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "dd558696d7e03cdb23012511c7e7b95165b122230664455628f4bbb2060be68c",
+            "sha256": "c4732f44d2eeedfb0861b4fd9b2afdce63242550e800876473b04306b7e4d1c7",
             "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md"
           },
           "sintetico": false,
@@ -549,7 +549,7 @@
           "documento": "MANUAL_AGRADECIMIENTOS",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "397d2011fc7a0e637be679b6eacd593d34b7593136c28380d8c86c6d0f7e2da1",
+            "sha256": "c3d3ef689066681e3c61ed3baa216158e6668ded9c7c6c3844c3a7f081675fe3",
             "ruta": "libros/manual/src/agradecimientos.md"
           },
           "visibilidad": "publica"

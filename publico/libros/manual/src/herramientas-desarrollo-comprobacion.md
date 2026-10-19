@@ -90,6 +90,14 @@ Las definiciones de [comprobación Rust](https://github.com/juantoniolloretegea/
 
 Una huella SHA-256 permite comprobar que un archivo coincide con otro identificado. Por sí sola no prueba la identidad del autor, la autorización de una actuación ni la corrección de su contenido. Para interpretar una comprobación deben relacionarse la revisión, las fuentes, las herramientas utilizadas, las opciones, los resultados y las exclusiones.
 
+## Instrumentación de componentes asociados
+
+Los ensayos de inferencia y acceso documental asociados al SV han incorporado [OpenTelemetry Rust](https://github.com/open-telemetry/opentelemetry-rust) para relacionar operaciones mediante identificadores de traza, registrar su duración y conservar los puntos instrumentados. La [realización de conversación nativa](https://github.com/juantoniolloretegea/SV-motor/blob/0d01e72302e9006eb747c4a1fe7da8c7a4822156/laboratorio/ensayo-ia-y-observabilidad/conversacion-nativa/src/telemetry.rs) utiliza la API y el SDK de OpenTelemetry y un exportador local acotado. Esta pertenencia a componentes asociados no convierte OpenTelemetry en una dependencia del núcleo del lenguaje ni acredita su activación en cualquier instalación.
+
+Las trazas de operaciones, el muestreo de recursos y la conservación de los datos de uso tienen funciones distintas. Una traza puede relacionar una petición con su operación documental; una muestra de memoria o conexiones describe recursos observados. Ninguna de ellas permite inspeccionar por sí sola el razonamiento interno de un proveedor de IA. Cada comprobación debe declarar cobertura, interrupciones y pérdidas, conservar sus evidencias y evitar atribuir a un componente las mediciones de otro.
+
+OpenTelemetry Rust y la biblioteca externa denominada `telemetry-rust` son proyectos distintos. La semejanza del nombre no acredita que ambos se utilicen. Las dependencias y los registros de la realización examinada determinan la atribución técnica.
+
 ## Documentación con mdBook
 
 Este manual se construye con [mdBook](https://rust-lang.github.io/mdBook/). Los capítulos se redactan en Markdown y `SUMMARY.md` determina su organización y navegación. La configuración de `book.toml` establece la presentación y la salida del libro.
