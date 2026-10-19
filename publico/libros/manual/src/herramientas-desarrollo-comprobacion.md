@@ -92,17 +92,7 @@ Una huella SHA-256 permite comprobar que un archivo coincide con otro identifica
 
 ## Instrumentación de componentes asociados
 
-La instrumentación del SV relaciona las operaciones de inferencia y acceso documental mediante identificadores de traza, tiempos y resultados. [OpenTelemetry Rust](https://github.com/open-telemetry/opentelemetry-rust) proporciona la API y el SDK utilizados en los componentes instrumentados. La [aplicación de conversación nativa](https://github.com/juantoniolloretegea/SV-motor/blob/0d01e72302e9006eb747c4a1fe7da8c7a4822156/laboratorio/ensayo-ia-y-observabilidad/conversacion-nativa/src/telemetry.rs) conserva sus trazas mediante un exportador local acotado.
-
-Tres tipos de registro se complementan:
-
-- **Trazas de operaciones:** relacionan una petición con el acceso documental, el transporte y la respuesta en los puntos instrumentados.
-- **Mediciones de recursos:** describen el consumo de memoria, la actividad del proceso y sus conexiones observables.
-- **Registros de uso:** conservan los tokens y otros datos de consumo comunicados por el servicio, con su procedencia y las ausencias conocidas.
-
-La cobertura depende de los componentes y puntos de medida activos en cada configuración. En una API externa, el SV observa su propio recorrido y los datos que devuelve el proveedor; no inspecciona el razonamiento interno del modelo. Las interrupciones y pérdidas de registro forman parte del resultado de la medición.
-
-Esta instrumentación pertenece a los componentes asociados que la incorporan. No constituye una dependencia del núcleo del lenguaje ni se activa automáticamente en toda instalación.
+La instrumentación, sus registros y los límites de las medidas se explican en [Observabilidad y medidas](observabilidad.md). Este capítulo reúne las herramientas utilizadas para construir y comprobar el lenguaje.
 
 ## Documentación con mdBook
 

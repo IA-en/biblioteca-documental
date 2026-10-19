@@ -67,7 +67,7 @@ Las pruebas de disponibilidad se efectúan en un recinto de ensayo autorizado. N
 
 Una necesidad del dominio no convierte toda su solución en una obligación interna del núcleo: la institución constituye facultades y finalidades, el dominio determina el significado profesional, los contratos del lenguaje expresan sus obligaciones y los componentes de ejecución demuestran su cumplimiento material. La composición debe respetar esas responsabilidades.
 
-Al corte de esta edición, la conexión con proveedores de IA está limitada a autenticación y consulta del catálogo: no habilita el envío de documentos, consultas, respuestas, datos sintéticos ni contenido a contadores remotos. Los criterios descritos aquí no levantan ese límite ni autorizan exámenes o uso profesional.
+La conexión con un proveedor no concede permiso para entregarle contenido. La política de la instalación y la autorización específica de cada actuación determinan los datos y destinos admisibles. El [Árbitro - Director](arbitro-director.md#documentos-y-herramientas) debe aplicar esa frontera también a los contadores remotos; describir una capacidad del núcleo no autoriza su uso.
 
 ## Fuentes vigentes y mantenimiento del capítulo
 

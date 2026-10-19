@@ -1,4 +1,4 @@
-# Construcciones del lenguaje y componentes propios
+# Construcciones e instrucciones propias {#construcciones-del-lenguaje-y-componentes-propios}
 
 **Referencia explicativa · 19 de octubre de 2026.**
 
@@ -22,19 +22,13 @@ Los nombres anteriores pertenecen al perfil SVP-EN. El perfil SVP-ES ofrece sus 
 
 ## Componentes Rust
 
-| Componente | Función en la distribución del lenguaje |
-| --- | --- |
-| `sv_core` | Biblioteca del lenguaje: análisis, comprobaciones y representación estructurada, con los contratos implementados en esa revisión. |
-| `sv_native` | Interfaz de ejecución nativa para presentar archivos al comprobador y consultar su resultado. |
-| `sv_wasm` | Interfaz de las funciones del lenguaje expuestas al entorno WebAssembly. |
-
-Estos componentes comparten la realización del lenguaje en lugar de definir semánticas independientes para cada interfaz. Una interfaz concreta sólo puede utilizar las funciones que su distribución expone. JavaScript no adquiere autoridad para modificar las reglas del núcleo por transportar un texto o presentar una respuesta.
+La organización de `sv_core`, `sv_native` y `sv_wasm`, sus entornos y sus fronteras se explica en [Arquitectura y entornos de ejecución](arquitectura-ejecucion.md). Son componentes de la implementación; no son instrucciones que un archivo SVP pueda importar.
 
 ## Bibliotecas de la DSL y macros
 
 SVP 0.2 no incluye macros ni importación general de bibliotecas de la DSL. Cargo organiza las dependencias de la realización en Rust; los módulos Rust distribuyen su código, y el Playground permite ensamblar unidades SVP. Cada mecanismo cumple una función distinta.
 
-El ensamblaje disponible permite relacionar las declaraciones de varias unidades y comprobar el conjunto. La incorporación futura de bibliotecas de la DSL deberá conservar la identidad y versión de cada biblioteca, sus contratos, compatibilidad y permisos. SVP 0.2 mantiene, por ahora, el ensamblaje explícito de unidades.
+El ensamblaje permite relacionar las declaraciones de varias unidades y comprobar el conjunto. La guía del [Playground](playground-sv.md#ensamblar-unidades) explica su utilización.
 
 ## Fuentes y alcance
 

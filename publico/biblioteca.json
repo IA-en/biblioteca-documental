@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-manual-playground-ejemplos-20261019",
+  "edicion": "biblioteca-sv-manual-estructura-20261019",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "3ddaea89bdf31dfe255f93cea464421e17f3da0275679d77fabbd2a044ecb7b7"
+        "sha256": "8587090e2e8c0fd9771a0e53a003ad2af798673a38f9651cf63bd894e264bd46"
       },
       "metadatos": [
         {
@@ -379,7 +379,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "df215adcae9f63f144c3435f97d6e2af92a76a9b994448e558fe9fc22761722f"
+            "sha256": "0347fe69412f445be3c1e12c1f45e1de62fd4b8bbb9c0d70ad7ca507af747b4b"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -394,7 +394,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "81730c71f4acc3bc18618ef0908834c61fb782a7150fb4fb1a54994e28cf0e9e"
+            "sha256": "35bd28697d33c511f244dd468f0c3f33b3e43bff3848f87493dc23fcae6d0e6b"
           },
           "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -513,7 +513,7 @@
           "procedencia": "Edición pública propia de 18/10/2026",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "bf3447bcf04871ec78ae88f9c5285b1e7f1ab31fe98b1968b6dceb4c090802ba",
+            "sha256": "b195c20e27cb1d73b5d01d2e293d6a1ca2d3a33b67ff2ad74689e4fbf6c4227e",
             "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md"
           },
           "sintetico": false,
@@ -534,7 +534,7 @@
           "documento": "MANUAL_DESARROLLO_VALIDACION",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "4c5dc0d3e31a1aa8aa76111481e6aed69a7023063f549a64bb0fa9c9a344f243",
+            "sha256": "3573fd75bb96d76fce61dcd061f6a3fe0d5c1643de6c599ab5b6e476b25af123",
             "ruta": "libros/manual/src/desarrollo-validacion-nucleo.md"
           },
           "visibilidad": "publica"
@@ -575,7 +575,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/ejemplos-svp.md",
-            "sha256": "ab60c342bad5e067edcd3d87d4fb371cf1a26eb436ec078b8b34a93ae79db6b0"
+            "sha256": "c694ce6ec714c2d7e1a12ab8ea80e4000c26d79780809ca212526a70d8547aef"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -590,7 +590,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/programacion-dsl.md",
-            "sha256": "5bb476e9c80315f0209f77d283cea6f745a119dfcc70bd9dab3bad7e5835ae3d"
+            "sha256": "77edf7983f5754b56f4c3978cb0131fbc99b0a64e1d73fa34bfb75d81157f715"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -605,7 +605,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/construcciones-y-componentes.md",
-            "sha256": "9a0e02044ee6c9a16cc647078ed3dc6b17da9b6a602f8b52ec1c6fad2df85241"
+            "sha256": "3575e6d451d85c2f2eba35c67c6212d8ca2fb91a70a68e1a03e7545bbadafd76"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -613,6 +613,66 @@
           "correspondencia": "identidad_literal",
           "alcance": "Guía de consulta; distingue conformidad, ejecución y capacidades pendientes. No autoriza uso de datos ni inferencia.",
           "documento": "MANUAL_CONSTRUCCIONES_Y_COMPONENTES"
+        },
+        {
+          "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_ARQUITECTURA_EJECUCION",
+          "identificador_editorial_r0": null,
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "original": {
+            "ruta": "libros/manual/src/arquitectura-ejecucion.md",
+            "sha256": "c0d79405af2a4c27e7130b0071204dd4c8204f05432b7edb856a49b9114ef37b"
+          },
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_OBSERVABILIDAD",
+          "identificador_editorial_r0": null,
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "original": {
+            "ruta": "libros/manual/src/observabilidad.md",
+            "sha256": "2f7e80cab358d37fbc94fa13830d7eecf955623cdf3c0be542dbdd89a0a9fbee"
+          },
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_CONFORMIDAD_DIAGNOSTICOS",
+          "identificador_editorial_r0": null,
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "original": {
+            "ruta": "libros/manual/src/conformidad-diagnosticos.md",
+            "sha256": "6780b6b8f0e21f3baad79072af756ff06a001c5e59a7161cc143fd69588587f6"
+          },
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_REFERENCIA_TERMINOLOGIA",
+          "identificador_editorial_r0": null,
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "original": {
+            "ruta": "libros/manual/src/referencia-terminologia.md",
+            "sha256": "28cb5cad845936101794080c79de31957c867c9e0a27a20ad4286b7c6da2e68b"
+          },
+          "licencia": "CC BY-NC-ND 4.0"
         }
       ]
     },

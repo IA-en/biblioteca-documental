@@ -1,12 +1,10 @@
-# Programación con la DSL
+# Programas completos y aplicaciones {#programación-con-la-dsl}
 
-**Sección en desarrollo · 19 de octubre de 2026.**
+**En desarrollo en esta edición.**
 
-La DSL es el lenguaje específico con el que se expresan las construcciones del Sistema Vectorial SV. Esta sección reunirá ejemplos de programas completos: desde la necesidad que resuelven y sus entradas hasta la ejecución, el resultado y sus límites de uso.
+Esta sección está destinada a programas completos del Lenguaje SV: la necesidad que resuelven, sus entradas, las instrucciones, la ejecución y los resultados. Las aplicaciones de esta sección todavía no están disponibles.
 
-La versión actual permite estudiar las construcciones del lenguaje y comprobar archivos SVP. Los [ejemplos de conformidad](ejemplos-svp.md) explican qué programas se admiten y qué diagnósticos corresponden a entradas incorrectas. Las aplicaciones profesionales completas de esta sección todavía no están disponibles.
-
-Para comenzar, consulte [Construcciones del lenguaje y componentes propios](construcciones-y-componentes.md). La guía del [Playground](playground-sv.md) explica cómo presentar un programa y consultar su representación. El capítulo [Desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md) describe las capacidades disponibles y las condiciones pendientes para ampliar su ejecución.
+Para comenzar con las funciones actuales, consulte las [construcciones e instrucciones propias](construcciones-y-componentes.md), los [ejemplos por construcción](ejemplos-svp.md) y la guía del [Playground](playground-sv.md). Las condiciones de ampliación se explican en [Desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md).
 
 ---
 

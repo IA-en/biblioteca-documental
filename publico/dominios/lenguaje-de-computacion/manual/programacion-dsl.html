@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Programación con la DSL — en desarrollo - Manual del Lenguaje de Computación SV</title>
+        <title>Programas completos y aplicaciones — en desarrollo - Manual del Lenguaje de Computación SV</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-af36cc7e.js"></script>
+        <script src="toc-dfa0c3a8.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -171,11 +171,10 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="programación-con-la-dsl"><a class="header" href="#programación-con-la-dsl">Programación con la DSL</a></h1>
-<p><strong>Sección en desarrollo · 19 de octubre de 2026.</strong></p>
-<p>La DSL es el lenguaje específico con el que se expresan las construcciones del Sistema Vectorial SV. Esta sección reunirá ejemplos de programas completos: desde la necesidad que resuelven y sus entradas hasta la ejecución, el resultado y sus límites de uso.</p>
-<p>La versión actual permite estudiar las construcciones del lenguaje y comprobar archivos SVP. Los <a href="ejemplos-svp.html">ejemplos de conformidad</a> explican qué programas se admiten y qué diagnósticos corresponden a entradas incorrectas. Las aplicaciones profesionales completas de esta sección todavía no están disponibles.</p>
-<p>Para comenzar, consulte <a href="construcciones-y-componentes.html">Construcciones del lenguaje y componentes propios</a>. La guía del <a href="playground-sv.html">Playground</a> explica cómo presentar un programa y consultar su representación. El capítulo <a href="desarrollo-validacion-nucleo.html">Desarrollo y validación del núcleo</a> describe las capacidades disponibles y las condiciones pendientes para ampliar su ejecución.</p>
+                        <h1 id="programación-con-la-dsl"><a class="header" href="#programación-con-la-dsl">Programas completos y aplicaciones</a></h1>
+<p><strong>En desarrollo en esta edición.</strong></p>
+<p>Esta sección está destinada a programas completos del Lenguaje SV: la necesidad que resuelven, sus entradas, las instrucciones, la ejecución y los resultados. Las aplicaciones de esta sección todavía no están disponibles.</p>
+<p>Para comenzar con las funciones actuales, consulte las <a href="construcciones-y-componentes.html">construcciones e instrucciones propias</a>, los <a href="ejemplos-svp.html">ejemplos por construcción</a> y la guía del <a href="playground-sv.html">Playground</a>. Las condiciones de ampliación se explican en <a href="desarrollo-validacion-nucleo.html">Desarrollo y validación del núcleo</a>.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 
@@ -190,7 +189,7 @@
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
-                            <a rel="next prefetch" href="construcciones-y-componentes.html" class="mobile-nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="arquitectura-ejecucion.html" class="mobile-nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
@@ -204,7 +203,7 @@
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
-                    <a rel="next prefetch" href="construcciones-y-componentes.html" class="nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="arquitectura-ejecucion.html" class="nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>

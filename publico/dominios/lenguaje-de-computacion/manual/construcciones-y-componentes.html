@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Construcciones del lenguaje y componentes propios - Manual del Lenguaje de Computación SV</title>
+        <title>Construcciones e instrucciones propias - Manual del Lenguaje de Computación SV</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-af36cc7e.js"></script>
+        <script src="toc-dfa0c3a8.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -171,7 +171,7 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="construcciones-del-lenguaje-y-componentes-propios"><a class="header" href="#construcciones-del-lenguaje-y-componentes-propios">Construcciones del lenguaje y componentes propios</a></h1>
+                        <h1 id="construcciones-del-lenguaje-y-componentes-propios"><a class="header" href="#construcciones-del-lenguaje-y-componentes-propios">Construcciones e instrucciones propias</a></h1>
 <p><strong>Referencia explicativa · 19 de octubre de 2026.</strong></p>
 <p>El Lenguaje SV dispone de una gramática superficial y una representación intermedia. La primera determina cómo se escriben sus programas; la segunda conserva sus objetos y operaciones de forma estructurada. Las bibliotecas Rust que realizan estas funciones pertenecen a la implementación y no son, por ello, bibliotecas importables desde un archivo SVP.</p>
 <h2 id="declaraciones-y-operaciones"><a class="header" href="#declaraciones-y-operaciones">Declaraciones y operaciones</a></h2>
@@ -194,22 +194,10 @@
 </div>
 <p>Los nombres anteriores pertenecen al perfil SVP-EN. El perfil SVP-ES ofrece sus formas documentadas, como <code>evaluar</code>, <code>compuerta</code>, <code>resolver</code>, <code>consultar</code>, <code>supervisar</code> y <code>componer</code>. La selección del perfil es explícita. La gramática define las firmas y restricciones de estas operaciones. El capítulo de desarrollo y validación del núcleo distingue su representación de las capacidades de ejecución disponibles.</p>
 <h2 id="componentes-rust"><a class="header" href="#componentes-rust">Componentes Rust</a></h2>
-<div class="table-wrapper">
-<table>
-<thead>
-<tr><th>Componente</th><th>Función en la distribución del lenguaje</th></tr>
-</thead>
-<tbody>
-<tr><td><code>sv_core</code></td><td>Biblioteca del lenguaje: análisis, comprobaciones y representación estructurada, con los contratos implementados en esa revisión.</td></tr>
-<tr><td><code>sv_native</code></td><td>Interfaz de ejecución nativa para presentar archivos al comprobador y consultar su resultado.</td></tr>
-<tr><td><code>sv_wasm</code></td><td>Interfaz de las funciones del lenguaje expuestas al entorno WebAssembly.</td></tr>
-</tbody>
-</table>
-</div>
-<p>Estos componentes comparten la realización del lenguaje en lugar de definir semánticas independientes para cada interfaz. Una interfaz concreta sólo puede utilizar las funciones que su distribución expone. JavaScript no adquiere autoridad para modificar las reglas del núcleo por transportar un texto o presentar una respuesta.</p>
+<p>La organización de <code>sv_core</code>, <code>sv_native</code> y <code>sv_wasm</code>, sus entornos y sus fronteras se explica en <a href="arquitectura-ejecucion.html">Arquitectura y entornos de ejecución</a>. Son componentes de la implementación; no son instrucciones que un archivo SVP pueda importar.</p>
 <h2 id="bibliotecas-de-la-dsl-y-macros"><a class="header" href="#bibliotecas-de-la-dsl-y-macros">Bibliotecas de la DSL y macros</a></h2>
 <p>SVP 0.2 no incluye macros ni importación general de bibliotecas de la DSL. Cargo organiza las dependencias de la realización en Rust; los módulos Rust distribuyen su código, y el Playground permite ensamblar unidades SVP. Cada mecanismo cumple una función distinta.</p>
-<p>El ensamblaje disponible permite relacionar las declaraciones de varias unidades y comprobar el conjunto. La incorporación futura de bibliotecas de la DSL deberá conservar la identidad y versión de cada biblioteca, sus contratos, compatibilidad y permisos. SVP 0.2 mantiene, por ahora, el ensamblaje explícito de unidades.</p>
+<p>El ensamblaje permite relacionar las declaraciones de varias unidades y comprobar el conjunto. La guía del <a href="playground-sv.html#ensamblar-unidades">Playground</a> explica su utilización.</p>
 <h2 id="fuentes-y-alcance"><a class="header" href="#fuentes-y-alcance">Fuentes y alcance</a></h2>
 <ul>
 <li><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/GRAMATICA_SUPERFICIAL_MINIMA_SV_v0_1.md">Gramática superficial mínima v0.1</a> y <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/GRAMATICA_SUPERFICIAL_MINIMA_SV_v0_2.md">precisiones de v0.2</a>. Las precisiones posteriores prevalecen sobre las formas que sustituyen.</li>
@@ -226,11 +214,11 @@
 
                     <nav class="nav-wrapper" aria-label="Navegación de capítulos">
                         <!-- Mobile navigation buttons -->
-                            <a rel="prev" href="programacion-dsl.html" class="mobile-nav-chapters previous" title="Capítulo anterior" aria-label="Capítulo anterior" aria-keyshortcuts="Left">
+                            <a rel="prev" href="constructor.html" class="mobile-nav-chapters previous" title="Capítulo anterior" aria-label="Capítulo anterior" aria-keyshortcuts="Left">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                             </a>
 
-                            <a rel="next prefetch" href="herramientas-desarrollo-comprobacion.html" class="mobile-nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                            <a rel="next prefetch" href="playground-sv.html" class="mobile-nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
                                 <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                             </a>
 
@@ -240,11 +228,11 @@
             </div>
 
             <nav class="nav-wide-wrapper" aria-label="Navegación de capítulos">
-                    <a rel="prev" href="programacion-dsl.html" class="nav-chapters previous" title="Capítulo anterior" aria-label="Capítulo anterior" aria-keyshortcuts="Left">
+                    <a rel="prev" href="constructor.html" class="nav-chapters previous" title="Capítulo anterior" aria-label="Capítulo anterior" aria-keyshortcuts="Left">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg></span>
                     </a>
 
-                    <a rel="next prefetch" href="herramientas-desarrollo-comprobacion.html" class="nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
+                    <a rel="next prefetch" href="playground-sv.html" class="nav-chapters next" title="Capítulo siguiente" aria-label="Capítulo siguiente" aria-keyshortcuts="Right">
                         <span class=fa-svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z"/></svg></span>
                     </a>
             </nav>

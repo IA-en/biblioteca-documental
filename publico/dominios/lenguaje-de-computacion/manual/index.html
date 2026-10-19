@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-af36cc7e.js"></script>
+        <script src="toc-dfa0c3a8.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -172,22 +172,31 @@
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
                         <h1 id="manual-del-lenguaje-de-computación-sv"><a class="header" href="#manual-del-lenguaje-de-computación-sv">Manual del Lenguaje de Computación SV</a></h1>
-<p><strong>Edición de consulta · Revisión editorial de 19 de octubre de 2026 · Original en español.</strong></p>
-<p>Este manual reúne explicaciones sobre el Lenguaje de Computación SV, su relación con el conocimiento de los Universos y las condiciones que debe preservar una ejecución. La edición disponible comprende el ámbito del lenguaje, los principios de compatibilidad y los requisitos de representación de parámetros, rutas y evidencias. Explica asimismo el desarrollo y la validación del núcleo, con criterios para interpretar sus capacidades y las pruebas que las respaldan. Incorpora también el gobierno de la ejecución por el Árbitro - Director, la selección subordinada del dispositivo de cálculo y las condiciones del hardware comprobado.</p>
+<p><strong>Edición de consulta · 19 de octubre de 2026 · Original en español.</strong></p>
+<p>El Lenguaje de Computación SV expresa estados, relaciones y operaciones del Sistema Vectorial SV mediante construcciones explícitas. Este manual introduce su escritura en archivos SVP, explica cómo comprobarlos y presenta la arquitectura que relaciona el núcleo con la ejecución y sus recursos.</p>
 <h2 id="alcance-de-la-edición"><a class="header" href="#alcance-de-la-edición">Alcance de la edición</a></h2>
-<p>El manual ofrece una introducción a las construcciones del lenguaje, al Playground y a los ejemplos SVP. Todavía no constituye una exposición integral de la sintaxis, las operaciones, los diagnósticos y la programación de aplicaciones completas. La <a href="constructor.html">organización temática</a> permite reconocer esas materias. Los capítulos disponibles identifican expresamente los conceptos de diseño y los requisitos pendientes de comprobación.</p>
-<p>El pliego, la gramática, la representación intermedia —la estructura formal que permite interpretar y ejecutar el lenguaje— y los contratos vigentes determinan su significado. Este manual los explica; una propuesta descrita en sus páginas no modifica por sí sola esas reglas ni acredita una función disponible.</p>
+<p>La edición reúne construcciones del lenguaje, ejemplos, uso del Playground, arquitectura, observabilidad y requisitos de integración. La sección de programas completos y aplicaciones permanece en desarrollo. Cada capítulo diferencia las funciones disponibles de los contratos cuya realización integrada continúa pendiente.</p>
+<p>La gramática determina las formas de escritura; la representación intermedia conserva los objetos y operaciones de forma estructurada. El pliego y los contratos del lenguaje establecen su significado. La <a href="referencia-terminologia.html">referencia del lenguaje</a> reúne los enlaces para consultar estas fuentes y sus versiones.</p>
 <h2 id="lectura-recomendada"><a class="header" href="#lectura-recomendada">Lectura recomendada</a></h2>
-<ol>
-<li>Consulte el <a href="constructor.html">ámbito del lenguaje</a>, sus <a href="tramo-10.html">principios de compatibilidad</a> y los <a href="parametros-rutas.html">requisitos de parámetros, recorridos y evidencia</a>.</li>
-<li>Para una primera comprobación, siga la guía del <a href="playground-sv.html">Playground</a>. Estudie por separado los <a href="ejemplos-svp.html">ejemplos SVP</a> y las <a href="construcciones-y-componentes.html">construcciones y componentes propios</a>. La <a href="programacion-dsl.html">programación aplicada con la DSL</a> figura expresamente en desarrollo.</li>
-<li>Examine las <a href="herramientas-desarrollo-comprobacion.html">herramientas de desarrollo y comprobación</a> y el <a href="desarrollo-validacion-nucleo.html">desarrollo y validación del núcleo</a> para interpretar las pruebas y sus límites.</li>
-<li>Continúe con el <a href="arbitro-director.html">Árbitro - Director</a>, su <a href="selector-arbitro-director.html">Selector</a>, el <a href="explorador-tensorial-sv.html">Explorador Tensorial</a> y el <a href="hardware-aceleracion-tensorial.html">hardware de aceleración tensorial</a> para distinguir gobierno, observación de recursos, elección del dispositivo y ejecución física.</li>
-</ol>
-<p>Los <a href="agradecimientos.html">Agradecimientos</a> reconocen, por orden alfabético, las comunidades, proyectos y tecnologías utilizados.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Parte</th><th>Contenido y finalidad</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>El Lenguaje de Computación SV</strong></td><td>Comience por su <a href="constructor.html">ámbito y organización</a> y las <a href="construcciones-y-componentes.html">construcciones e instrucciones propias</a>.</td></tr>
+<tr><td><strong>Práctica con archivos SVP</strong></td><td>Utilice el <a href="playground-sv.html">Playground</a> y estudie los <a href="ejemplos-svp.html">ejemplos por construcción</a>. El apartado de <a href="programacion-dsl.html">programas completos y aplicaciones</a> tiene un alcance distinto.</td></tr>
+<tr><td><strong>Arquitectura y recursos</strong></td><td>Sitúe los <a href="arquitectura-ejecucion.html">entornos de ejecución</a>, el <a href="arbitro-director.html">Árbitro - Director</a>, el <a href="selector-arbitro-director.html">Selector</a>, el <a href="explorador-tensorial-sv.html">Explorador Tensorial</a> y el <a href="hardware-aceleracion-tensorial.html">hardware de aceleración tensorial</a>.</td></tr>
+<tr><td><strong>Observabilidad y comprobación</strong></td><td>Interprete las <a href="observabilidad.html">medidas y trazas</a>, las <a href="herramientas-desarrollo-comprobacion.html">herramientas de desarrollo</a> y las pruebas de <a href="conformidad-diagnosticos.html">conformidad y diagnósticos</a>.</td></tr>
+<tr><td><strong>Desarrollo e integración</strong></td><td>Consulte los requisitos de <a href="parametros-rutas.html">parámetros, recorridos y evidencia</a>, la <a href="tramo-10.html">compatibilidad</a> y el <a href="desarrollo-validacion-nucleo.html">desarrollo y validación del núcleo</a>.</td></tr>
+<tr><td><strong>Apéndices y agradecimientos</strong></td><td>Localice la <a href="referencia-terminologia.html">terminología y las referencias</a> y las <a href="agradecimientos.html">aportaciones reconocidas</a>, ordenadas alfabéticamente.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Para aprender, siga el orden del libro. Para resolver una consulta concreta, utilice el índice lateral y los enlaces entre capítulos. Las pruebas deliberadamente inválidas se estudian en conformidad y diagnósticos, separadas de los ejemplos de escritura.</p>
 <p>El libro <a href="../../universos/index.html">Dominios y universos del Sistema Vectorial SV</a> desarrolla las definiciones y los ejemplos conceptuales. Las operaciones de lectura, autorización y entrega de fuentes se explican en el <a href="../../../documentacion/reglas-usos-descripciones-documentales/index.html">libro documental</a>.</p>
 <h2 id="fuentes-y-versiones"><a class="header" href="#fuentes-y-versiones">Fuentes y versiones</a></h2>
-<p>Esta edición ofrece una adaptación explicativa de las fuentes citadas en cada capítulo. Las referencias identifican la versión utilizada y permiten distinguir el fundamento existente de las propuestas. Los originales permanecen en sus publicaciones de referencia; esta adaptación no se presenta como una reproducción literal. La fecha de revisión editorial identifica la presentación y organización del libro; no cambia las fechas de sus fuentes ni acredita una nueva recepción técnica de todos sus componentes.</p>
+<p>Las referencias de cada capítulo identifican las especificaciones y realizaciones que sustentan su explicación. La revisión editorial del manual no sustituye las versiones de la gramática, de la representación intermedia o de los programas, ni acredita nuevas capacidades de ejecución. Los ejemplos deben utilizarse con el perfil y la distribución que indican.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 
