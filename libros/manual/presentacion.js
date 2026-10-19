@@ -22,23 +22,6 @@
   const patron = new RegExp('(?<![\\p{L}\\p{N}_])(?:' + expresiones.join('|') + ')(?![\\p{L}\\p{N}_])', 'giu');
   const excluir = 'script,style,noscript,textarea,input,select,option,pre,code,math,svg,.math,.notranslate,[translate="no"],#google_translate_element,.sv-language-tools';
   const bloque = /^(ADDRESS|ARTICLE|ASIDE|BLOCKQUOTE|BR|CAPTION|DD|DIV|DL|DT|FIGCAPTION|FIGURE|FOOTER|H[1-6]|HEADER|HR|LI|MAIN|NAV|OL|P|SECTION|TABLE|TBODY|TD|TH|THEAD|TR|UL)$/;
-  // ES/EN: mdBook conserva los números pero elimina su énfasis del índice.
-  // Restore emphasis only; numbering and destinations remain in the document.
-  function destacarNumeros(raiz) {
-    if (!raiz || !raiz.querySelectorAll) return;
-    const enlaces = [...raiz.querySelectorAll('#mdbook-sidebar a,.chapter a')];
-    if (raiz.matches?.('a') && raiz.closest('#mdbook-sidebar,.chapter')) enlaces.push(raiz);
-    for (const enlace of enlaces) {
-      const texto = enlace.firstChild;
-      if (!texto || texto.nodeType !== Node.TEXT_NODE) continue;
-      const numero = texto.data.match(/^\d+(?:\.\d+)*\.(?=\s)/);
-      if (!numero) continue;
-      const marca = document.createElement('strong');
-      marca.textContent = numero[0];
-      texto.data = texto.data.slice(numero[0].length);
-      enlace.insertBefore(marca, texto);
-    }
-  }
   function proteger(raiz) {
     if (!raiz || (raiz.nodeType === 1 && raiz.closest(excluir))) return;
     const grupos = [];
@@ -91,7 +74,6 @@
   // El título de la pestaña no admite marcas interiores: conserva su original completo.
   const titulo = document.querySelector('title');
   if (titulo) { titulo.setAttribute('translate','no'); titulo.classList.add('notranslate'); }
-  destacarNumeros(document.body);
   proteger(document.body);
   // Índices y búsquedas pueden incorporarse después de la carga inicial.
   const dinamicos = '#mdbook-sidebar,#sidebar,#mdbook-searchresults,#searchresults';
@@ -108,7 +90,7 @@
         nodo.querySelectorAll(dinamicos).forEach(e => pendientes.add(e));
       }
     }
-    pendientes.forEach(raiz => { destacarNumeros(raiz); proteger(raiz); });
+    pendientes.forEach(proteger);
   });
   observador.observe(document.body, {subtree:true,childList:true});
 })();

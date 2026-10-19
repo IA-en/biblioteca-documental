@@ -9,7 +9,7 @@ use-default-preprocessors = false
 [output.html]
 theme = "theme"
 additional-css = ["biblioteca.css"]
-additional-js = ["presentacion.js"]
+additional-js = ["presentacion.js", "numeracion.js"]
 mathjax-support = false
 no-section-label = true
 smart-punctuation = false
