@@ -1,4 +1,4 @@
-# Selector del Árbitro - Director CPU/GPU/TPU/NPU
+# **9.** Selector del Árbitro - Director CPU/GPU/TPU/NPU {#selector-del-árbitro---director-cpugputpunpu}
 
 **Componente subordinado al Árbitro - Director · 15 de octubre de 2026.**
 
@@ -6,7 +6,7 @@ El Selector del Árbitro - Director CPU/GPU/TPU/NPU determina el dispositivo adm
 
 El [Árbitro - Director](arbitro-director.md) conserva el gobierno de la actuación. El Selector no cambia el modelo, la finalidad, las fuentes ni las reglas de evaluación. Su biblioteca de selección utiliza información suministrada y requiere un adaptador que realice la operación y permita comprobarla. La observación automática se desarrolla en el [Explorador Tensorial del SV](explorador-tensorial-sv.md), subordinado al Selector. Ninguno de estos hechos sustituye la reserva del recurso ni la comprobación del cálculo efectivo.
 
-## Condiciones de selección
+## **9.1.** Condiciones de selección {#condiciones-de-selección}
 
 La petición identifica la operación, su revisión, el perfil de cálculo, las dimensiones relevantes y las necesidades de memoria, incluido el margen exigido. Cada recurso identifica el dispositivo, el adaptador y su versión, las capacidades comprobadas, la disponibilidad, la memoria utilizable y el momento de observación.
 
@@ -16,7 +16,7 @@ Cuando todos los candidatos admisibles disponen de estimaciones comparables del 
 
 La comparación comprende el recorrido completo: preparación, transferencia, cálculo, sincronización y recuperación. La GPU, la TPU o la NPU no reciben prioridad automática por pertenecer a una clase de aceleradores.
 
-## De la decisión a la comprobación
+## **9.2.** De la decisión a la comprobación {#de-la-decisión-a-la-comprobación}
 
 Antes de ejecutar debe confirmarse que siguen vigentes las condiciones que sustentaron la elección. La ejecución debe conservar la identidad de la petición y registrar el dispositivo realmente utilizado. Una sustitución o distribución parcial del trabajo requiere una condición explícita; no puede introducirse como una desviación silenciosa.
 
@@ -30,7 +30,7 @@ La telemetría debe distinguir:
 
 La utilización agregada de un dispositivo no basta para atribuirle una operación concreta. Se necesitan evidencias asociadas a la petición o al proceso, junto con el contraste numérico y funcional que corresponda.
 
-## Ejemplos comprobados
+## **9.3.** Ejemplos comprobados {#ejemplos-comprobados}
 
 Las pruebas siguientes corresponden a cargas y configuraciones determinadas. Permiten explicar el criterio de selección; no establecen una preferencia permanente entre CPU y aceleradores.
 
@@ -41,13 +41,13 @@ Las pruebas siguientes corresponden a cargas y configuraciones determinadas. Per
 
 La ejecución gobernada de Qwen comprendió ocho solicitudes —tres en CPU y cinco en GPU—, además de seis generaciones de calibración. Sus tiempos corresponden a generaciones con los pesos ya preparados e incluyen observación y conservación; la preparación inicial se midió aparte. La serie final del traductor comprendió veintidós traducciones —doce en CPU y diez en TPU— y comprobaciones de rechazo por indisponibilidad declarada. Los informes conservan el detalle de las medidas y sus condiciones.
 
-## Alcance de la realización
+## **9.4.** Alcance de la realización {#alcance-de-la-realización}
 
 La evidencia experimental citada corresponde a dos configuraciones: CPU Intel Xeon con GPU NVIDIA Tesla T4, y CPU AMD EPYC 7B13 con TPU Google v5e. Sus resultados se circunscriben a las cargas, operaciones y condiciones descritas; no se extrapolan a otros dispositivos.
 
 El objeto de estas pruebas es la elección del dispositivo y su correspondencia con la ejecución física. La evaluación de la calidad científica de las respuestas del modelo constituye una cuestión distinta. La correspondencia entre células, representación tensorial y significado se desarrolla en [Parámetros, recorridos y evidencia](parametros-rutas.md#representación-tensorial-y-ejecución-acelerada).
 
-## Referencias
+## **9.5.** Referencias {#referencias}
 
 - [Descripción y realización del Selector](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/bb73fcb65e3d6d5f292569c00c1ee1af857fe557/docs/hardware-de-aceleracion-tensorial/selector-arbitro-director-cpu-gpu-tpu-npu/readme.md).
 - [Ensayo Qwen3-8B en Kaggle](https://github.com/juantoniolloretegea/SV-motor/blob/32239f974af3a6367efd75d36ba984a6c2fc747e/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/qwen/qwen3-8b-cuantizacion-q4_k_m-gguf/sv-contraste-qwen-cpu-gpu-rust-20261014.md).

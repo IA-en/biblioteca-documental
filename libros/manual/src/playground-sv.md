@@ -1,10 +1,10 @@
-# Playground del Lenguaje SV
+# **4.** Playground del Lenguaje SV {#playground-del-lenguaje-sv}
 
 **Guía de uso · 19 de octubre de 2026.**
 
 El [Playground del SV](https://lenguaje-sv.itvia.online/) permite escribir o cargar un programa SVP, comprobar su admisión y consultar su representación estructurada desde el navegador. Es una interfaz del Lenguaje de Computación SV. No es un servicio de consulta a modelos de IA ni un entorno de examen de candidatos.
 
-## Primer recorrido
+## **4.1.** Primer recorrido {#primer-recorrido}
 
 1. Abra el Playground y compruebe las versiones de gramática, representación intermedia y proyección que muestra la cabecera.
 2. Seleccione el perfil del programa: **SVP-ES** o **SVP-EN**. Este perfil determina las palabras del lenguaje; el idioma de la interfaz es una elección independiente. No hay detección automática del perfil.
@@ -14,19 +14,19 @@ El [Playground del SV](https://lenguaje-sv.itvia.online/) permite escribir o car
 
 La distribución descrita en esta guía utiliza gramática 0.2, representación intermedia 0.3 y proyección 0.1.0. La cabecera identifica las versiones de la distribución abierta. Conserve esa identificación junto con el archivo cuando necesite reproducir una comprobación.
 
-## Qué significa «Admitido»
+## **4.2.** Qué significa «Admitido» {#qué-significa-admitido}
 
 La admisión indica que el programa supera las comprobaciones implementadas por esa versión. El resultado estructurado conserva declaraciones, referencias y operaciones. Por ejemplo, que aparezca una operación de evaluación no demuestra por sí solo que se haya calculado y recibido su resultado decisional.
 
 **Texto SVP → comprobación del lenguaje → representación estructurada.** La ejecución de una operación, la recepción de su resultado y la autorización de un uso institucional son comprobaciones adicionales. La interfaz no convierte la admisión sintáctica y estructural en aptitud de un modelo de IA ni en autorización de producción.
 
-## Ensamblar unidades
+## **4.3.** Ensamblar unidades {#ensamblar-unidades}
 
 El apartado de ensamblaje permite presentar dos unidades con perfiles de origen independientes. El lenguaje transforma cada unidad y comprueba conjuntamente sus declaraciones y referencias. Una referencia entre unidades debe quedar resuelta y los identificadores deben respetar las reglas del conjunto.
 
 El ensamblaje no equivale a disponer de un sistema general de importación de bibliotecas o de macros. Sus límites se explican en [Construcciones del lenguaje y componentes propios](construcciones-y-componentes.md).
 
-## Archivo, navegador y límites
+## **4.4.** Archivo, navegador y límites {#archivo-navegador-y-límites}
 
 La comprobación del programa se realiza mediante el componente Rust compilado a WebAssembly que recibe el navegador. JavaScript proporciona la interfaz y el transporte de datos hacia sus funciones expuestas. La página descarga los recursos necesarios del sitio; ello no concede a un programa SVP acceso arbitrario a la red, al sistema de archivos o a servicios de IA.
 
@@ -34,7 +34,7 @@ La identificación del componente, su tamaño y sus exportaciones obligatorias s
 
 Para practicar, utilice los ejemplos públicos. La admisión de un archivo no autoriza a introducir datos personales o documentación reservada. Los diagnósticos y las métricas de programación describen la comprobación del lenguaje; no son medidas del razonamiento de una IA externa.
 
-## Ejemplos y referencias
+## **4.5.** Ejemplos y referencias {#ejemplos-y-referencias}
 
 La [guía de ejemplos SVP](ejemplos-svp.md) distingue los casos que deben admitirse de los preparados para comprobar un rechazo. La futura [programación de aplicaciones con la DSL](programacion-dsl.md) tiene un alcance diferente.
 

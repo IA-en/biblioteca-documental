@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Observabilidad y medidas - Manual del Lenguaje de Computación SV</title>
+        <title>12. Observabilidad y medidas - Manual del Lenguaje de Computación SV</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-ae9af702.js"></script>
+        <script src="toc-16090f56.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -171,9 +171,9 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="observabilidad-y-medidas"><a class="header" href="#observabilidad-y-medidas">Observabilidad y medidas</a></h1>
+                        <h1 id="observabilidad-y-medidas"><a class="header" href="#observabilidad-y-medidas"><strong>12.</strong> Observabilidad y medidas</a></h1>
 <p>La observabilidad permite relacionar una actuación con sus tiempos, resultados y recursos medidos. Su utilidad depende de identificar qué componente produce cada dato, en qué intervalo se obtiene y qué parte del recorrido cubre.</p>
-<h2 id="trazas-recursos-y-consumo"><a class="header" href="#trazas-recursos-y-consumo">Trazas, recursos y consumo</a></h2>
+<h2 id="trazas-recursos-y-consumo"><a class="header" href="#trazas-recursos-y-consumo"><strong>12.1.</strong> Trazas, recursos y consumo</a></h2>
 <div class="table-wrapper">
 <table>
 <thead>
@@ -187,13 +187,13 @@
 </table>
 </div>
 <p>Los tres registros se complementan. Para interpretar un resultado se conservan la identidad de la actuación, la versión del componente, las unidades, el intervalo y las incidencias. Una interrupción, una medida parcial o una pérdida de registro deben quedar visibles.</p>
-<h2 id="instrumentación-con-opentelemetry-rust"><a class="header" href="#instrumentación-con-opentelemetry-rust">Instrumentación con OpenTelemetry Rust</a></h2>
+<h2 id="instrumentación-con-opentelemetry-rust"><a class="header" href="#instrumentación-con-opentelemetry-rust"><strong>12.2.</strong> Instrumentación con OpenTelemetry Rust</a></h2>
 <p><a href="https://github.com/open-telemetry/opentelemetry-rust">OpenTelemetry Rust</a> proporciona la API y el SDK utilizados en los componentes instrumentados. La <a href="https://github.com/juantoniolloretegea/SV-motor/blob/0d01e72302e9006eb747c4a1fe7da8c7a4822156/laboratorio/ensayo-ia-y-observabilidad/conversacion-nativa/src/telemetry.rs">aplicación de conversación nativa</a> conserva sus trazas mediante un exportador local acotado. La <a href="https://opentelemetry.io/docs/languages/rust/">documentación de OpenTelemetry para Rust</a> explica sus interfaces.</p>
 <p>La instrumentación relaciona operaciones mediante identificadores de traza, tiempos y resultados. Pertenece a los componentes asociados que la incorporan; no constituye una dependencia del núcleo del lenguaje ni se activa automáticamente en toda instalación. Los destinos de conservación o exportación forman parte de la configuración y de sus permisos.</p>
-<h2 id="alcance-de-la-observación"><a class="header" href="#alcance-de-la-observación">Alcance de la observación</a></h2>
+<h2 id="alcance-de-la-observación"><a class="header" href="#alcance-de-la-observación"><strong>12.3.</strong> Alcance de la observación</a></h2>
 <p>La cobertura depende de los componentes y puntos de medida activos. En una API externa, el SV observa su propio recorrido y la información que devuelve el proveedor. Esas medidas no permiten inspeccionar el razonamiento interno del modelo ni acreditar una observación íntegra de su infraestructura.</p>
 <p>El <a href="explorador-tensorial-sv.html">Explorador Tensorial</a> identifica recursos y capacidades. El <a href="selector-arbitro-director.html">Selector</a> utiliza la información pertinente para elegir el destino. Las medidas de ejecución permiten contrastar después la elección con el dispositivo realmente empleado. Descubrir un dispositivo y medir una operación ejecutada en él son comprobaciones diferentes.</p>
-<h2 id="lectura-de-los-resultados"><a class="header" href="#lectura-de-los-resultados">Lectura de los resultados</a></h2>
+<h2 id="lectura-de-los-resultados"><a class="header" href="#lectura-de-los-resultados"><strong>12.4.</strong> Lectura de los resultados</a></h2>
 <p>Los tiempos deben indicar su origen y el tramo medido: preparación, transferencia, cálculo o recorrido completo. La comparación de rendimientos requiere condiciones equivalentes y la misma definición de las medidas. El capítulo de <a href="hardware-aceleracion-tensorial.html">hardware</a> concreta estos límites en las realizaciones disponibles.</p>
 <p>Las trazas y los registros no cambian el significado de los resultados del SV. Una incidencia técnica no se convierte en un valor de la terna. La corrección semántica se contrasta mediante la especificación y las pruebas de <a href="conformidad-diagnosticos.html">conformidad</a>; la reproducibilidad de las comprobaciones se trata en <a href="herramientas-desarrollo-comprobacion.html">herramientas de desarrollo</a>.</p>
 <hr>
@@ -250,7 +250,7 @@
         <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="presentacion-0cfc7f9c.js"></script>
+        <script src="presentacion-63c97d25.js"></script>
 
 
 

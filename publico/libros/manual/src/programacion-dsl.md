@@ -1,4 +1,4 @@
-# Programas completos y aplicaciones {#programación-con-la-dsl}
+# **6.** Programas completos y aplicaciones {#programación-con-la-dsl}
 
 **En desarrollo en esta edición.**
 

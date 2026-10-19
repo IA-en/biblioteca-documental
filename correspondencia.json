@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "30a84f2e7a364966a473ee72b8f088e577adc80c33d0d80269ce1cda606c8944",
+  "biblioteca_sha256": "aff97db5575bdcaed8109637a94f509ba4489159a9c430ed7e6db9c84ac2805e",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1358,7 +1358,7 @@
     },
     {
       "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
-      "cobertura_bytes": 1433,
+      "cobertura_bytes": 1631,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_INDICE",
       "identificador_editorial_r0": null,
@@ -1366,78 +1366,78 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/SUMMARY.md",
-        "sha256": "88deb7f5f7fa9880c6cb30b068153683ab3c65ee8c05c2cb5a276c6438aeb2e6"
+        "sha256": "42e2d712f3f85d013f553d53840787f501cc086ae3aa54db5298d7515cc88936"
       },
       "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 55,
+          "fin_byte_exclusivo": 62,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000004",
-          "sha256": "bd7de87d0ee9dc47a74c0777af0ef492c7332085c753f06078e66356e49265c5",
+          "sha256": "c5324448540acbe22f73e3bfcbedc9971e93a89c0a106ffd18b2947eaf6ecf53",
           "titulo": "Índice",
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 210,
-          "inicio_byte": 55,
+          "fin_byte_exclusivo": 238,
+          "inicio_byte": 62,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000009",
-          "sha256": "35156d9386492f7d2bbed6dab7126e1607a96fce9e80ea721f3453766b87932f",
-          "titulo": "El Lenguaje de Computación SV",
+          "sha256": "8d3f261fed83b4896f12f03c4ae7a530aa54117c1f5b182b6907184b35cda8ba",
+          "titulo": "I. El Lenguaje de Computación SV",
           "ultima_linea": 9
         },
         {
-          "fin_byte_exclusivo": 416,
-          "inicio_byte": 210,
+          "fin_byte_exclusivo": 473,
+          "inicio_byte": 238,
           "primera_linea": 10,
           "seccion": "MD-L000010-L000015",
-          "sha256": "f85e64b9adcc6ea40af3cd3f71e6aa6ee04ca9f0830c3e1a8335bfcc58851646",
-          "titulo": "Práctica con archivos SVP",
+          "sha256": "df6dfbfec0f96cb4f710f8fc10d003b31ce05bf647086529abb2ba2600f4595c",
+          "titulo": "II. Práctica con archivos SVP",
           "ultima_linea": 15
         },
         {
-          "fin_byte_exclusivo": 757,
-          "inicio_byte": 416,
+          "fin_byte_exclusivo": 860,
+          "inicio_byte": 473,
           "primera_linea": 16,
           "seccion": "MD-L000016-L000023",
-          "sha256": "190adc4aa09b41f04dd836da4941e7e9c199152f0626e83410458406bd64e285",
-          "titulo": "Arquitectura y recursos",
+          "sha256": "26e2eeabeacca07352efd7691ba5ebb8e97f862bc047ff61f7932066fda64c9a",
+          "titulo": "III. Arquitectura y recursos",
           "ultima_linea": 23
         },
         {
-          "fin_byte_exclusivo": 989,
-          "inicio_byte": 757,
+          "fin_byte_exclusivo": 1124,
+          "inicio_byte": 860,
           "primera_linea": 24,
           "seccion": "MD-L000024-L000029",
-          "sha256": "f1add21c5a773a07346b2a97d7d3d0c0f958a3797e441840e15add75806ccd03",
-          "titulo": "Observabilidad y comprobación",
+          "sha256": "83dd4d52b76995f22976fd4a0e5b9c2baf5c3e68aae18011f24773399176c5d8",
+          "titulo": "IV. Observabilidad y comprobación",
           "ultima_linea": 29
         },
         {
-          "fin_byte_exclusivo": 1206,
-          "inicio_byte": 989,
+          "fin_byte_exclusivo": 1372,
+          "inicio_byte": 1124,
           "primera_linea": 30,
           "seccion": "MD-L000030-L000035",
-          "sha256": "5d0fd7dda77ed842e0ee28926147a944909553ba05b11fc9c01f3febe0f30425",
-          "titulo": "Desarrollo e integración",
+          "sha256": "82454416a299a86ce8bb37e649d1fd7bd89733ec5c89bedfa3ab94fd4266e3b2",
+          "titulo": "V. Desarrollo e integración",
           "ultima_linea": 35
         },
         {
-          "fin_byte_exclusivo": 1433,
-          "inicio_byte": 1206,
+          "fin_byte_exclusivo": 1631,
+          "inicio_byte": 1372,
           "primera_linea": 36,
           "seccion": "MD-L000036-L000040",
-          "sha256": "dc037410aa6a65129a5e0b6e245e3f86236670a8e769e7d6899e81eb05f3131e",
-          "titulo": "Apéndices y agradecimientos",
+          "sha256": "fb6e3c0983ff43d6d5f40103813c28bb9be49c47f77c1890b8f3370ac88a5979",
+          "titulo": "VI. Apéndices y agradecimientos",
           "ultima_linea": 40
         }
       ]
     },
     {
       "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
-      "cobertura_bytes": 3993,
+      "cobertura_bytes": 4141,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_PRESENTACION",
       "identificador_editorial_r0": null,
@@ -1445,51 +1445,51 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/presentacion.md",
-        "sha256": "b98954608252bd55a429086bc88c2a6cee1247fbf00b7c1449638eb8cd5cf57d"
+        "sha256": "795088e61206263cca19057f0ca1c882fe1df2b703d7f2f805c0c128033a83ea"
       },
       "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
       "secciones": [
         {
-          "fin_byte_exclusivo": 419,
+          "fin_byte_exclusivo": 468,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "856750b930f75d3d52393931c491ec383282ddd118e8d0ba6c9645125922ed63",
-          "titulo": "Manual del Lenguaje de Computación SV",
+          "sha256": "9c0b2c5d910f3fc5ab4be11a69a29adf776ec986bbb05553528042766c0297dd",
+          "titulo": "1. Manual del Lenguaje de Computación SV {#manual-del-lenguaje-de-computación-sv}",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1103,
-          "inicio_byte": 419,
+          "fin_byte_exclusivo": 1187,
+          "inicio_byte": 468,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000012",
-          "sha256": "297de9ebe83596c9d99afca1f217e863561b781069867e68958715124f44334b",
-          "titulo": "Alcance de la edición",
+          "sha256": "813766bf9da1c52f9b1ffa233d05b76b123f10d7f65c84744a65469e41876146",
+          "titulo": "1.1. Alcance de la edición {#alcance-de-la-edición}",
           "ultima_linea": 12
         },
         {
-          "fin_byte_exclusivo": 3255,
-          "inicio_byte": 1103,
+          "fin_byte_exclusivo": 3371,
+          "inicio_byte": 1187,
           "primera_linea": 13,
           "seccion": "MD-L000013-L000027",
-          "sha256": "219cae8f5a101238e36abd4bf74910bf8311799b27f3dd0e269b548b9c594383",
-          "titulo": "Lectura recomendada",
+          "sha256": "346e2ec3cafefc3ffdc07f39e70080fea64eb599f0605a509bf384e33fede638",
+          "titulo": "1.2. Lectura recomendada {#lectura-recomendada}",
           "ultima_linea": 27
         },
         {
-          "fin_byte_exclusivo": 3993,
-          "inicio_byte": 3255,
+          "fin_byte_exclusivo": 4141,
+          "inicio_byte": 3371,
           "primera_linea": 28,
           "seccion": "MD-L000028-L000034",
-          "sha256": "faf7d2fee1eb90f69dac2c69ff0ef1769dcf63006c7190212a1a01645517e601",
-          "titulo": "Fuentes y versiones",
+          "sha256": "4bbc4966d4026caa2572a1fc11d37a5419c19863435ff2a4e8421ac32e16b2f6",
+          "titulo": "1.3. Fuentes y versiones {#fuentes-y-versiones}",
           "ultima_linea": 34
         }
       ]
     },
     {
       "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
-      "cobertura_bytes": 3047,
+      "cobertura_bytes": 3209,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_CONSTRUCTOR",
       "identificador_editorial_r0": null,
@@ -1497,51 +1497,51 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/constructor.md",
-        "sha256": "d43c519bc5347060cbe3556490afd81f2d08f8a9d680e891e68cdd17573c398b"
+        "sha256": "672b4ee7ad46c8d06e38c12b617edd5ae0013fbec9a2bd12b8bb1ffa79b3a91a"
       },
       "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 337,
+          "fin_byte_exclusivo": 384,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000004",
-          "sha256": "aebb5d1ce6193d8b98e416d9f226ad71f3c03f073d38e7d490a4573076d0f4ee",
-          "titulo": "Ámbito y organización del lenguaje",
+          "sha256": "f4123eb56900d63914ecadcec3024b9bdc0421a2b53363c0fe46aa0fe9999270",
+          "titulo": "2. Ámbito y organización del lenguaje {#ámbito-y-organización-del-lenguaje}",
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1720,
-          "inicio_byte": 337,
+          "fin_byte_exclusivo": 1799,
+          "inicio_byte": 384,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000022",
-          "sha256": "b7fa0b38bcf00533f70695117d20e2b94ddfe674d6b4fec77cd5dd09c7809eaa",
-          "titulo": "Materias del manual",
+          "sha256": "de53b27aeacfe97b1aaef11172570440e6c4e47daa47f0c1936584476a2216e5",
+          "titulo": "2.1. Materias del manual {#materias-del-manual}",
           "ultima_linea": 22
         },
         {
-          "fin_byte_exclusivo": 2354,
-          "inicio_byte": 1720,
+          "fin_byte_exclusivo": 2493,
+          "inicio_byte": 1799,
           "primera_linea": 23,
           "seccion": "MD-L000023-L000028",
-          "sha256": "a30918f7d3bbb62c2a3ac8739e6f381627261916d9a455c54f9d650d054e2d54",
-          "titulo": "Cómo interpretar una descripción del lenguaje",
+          "sha256": "3c8684951194551dd4075af555b1d44a3fd7808eeda05a310a8df45f453d68e7",
+          "titulo": "2.2. Cómo interpretar una descripción del lenguaje {#cómo-interpretar-una-descripción-del-lenguaje}",
           "ultima_linea": 28
         },
         {
-          "fin_byte_exclusivo": 3047,
-          "inicio_byte": 2354,
+          "fin_byte_exclusivo": 3209,
+          "inicio_byte": 2493,
           "primera_linea": 29,
           "seccion": "MD-L000029-L000035",
-          "sha256": "78ddf4402d8a560b94d07919e88c9451bc33185e40a927f53710f4abea332132",
-          "titulo": "Referencia",
+          "sha256": "8d1d520875f6ed65886fc4643cd164e2416f8edda622ab07914c9d585d7d8e70",
+          "titulo": "2.3. Referencia {#referencia}",
           "ultima_linea": 35
         }
       ]
     },
     {
       "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
-      "cobertura_bytes": 1860,
+      "cobertura_bytes": 2008,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_TRAMO10",
       "identificador_editorial_r0": null,
@@ -1549,51 +1549,51 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/tramo-10.md",
-        "sha256": "c74dc59bc04ad4e8fd1579497eaaf3ef6d96db10770b6ecfcc72cb5535512580"
+        "sha256": "1f4973b17ef596758eb1cede9b9ae404132b6d67caaa3c419d863e1d2e438270"
       },
       "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 259,
+          "fin_byte_exclusivo": 305,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000004",
-          "sha256": "7a8febc08ff050b9399644b4877cfddd7b43415393b1016f00d556b173abe7dd",
-          "titulo": "Compatibilidad con otros lenguajes",
+          "sha256": "991cb833a2c2106e19fcdcbcb6efc87bd34ea6cc7ee9d541a4138402836828a8",
+          "titulo": "16. Compatibilidad con otros lenguajes {#compatibilidad-con-otros-lenguajes}",
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 792,
-          "inicio_byte": 259,
+          "fin_byte_exclusivo": 875,
+          "inicio_byte": 305,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000010",
-          "sha256": "7a8670f963d1902af482245859c4ccd3c7f25de10ac567ff4a000a35f424ec7d",
-          "titulo": "Qué debe especificarse",
+          "sha256": "4ae6d36a3068d1c77f6f806ab50cf0646411791fa1505de69919a405809c6881",
+          "titulo": "16.1. Qué debe especificarse {#qué-debe-especificarse}",
           "ultima_linea": 10
         },
         {
-          "fin_byte_exclusivo": 1114,
-          "inicio_byte": 792,
+          "fin_byte_exclusivo": 1238,
+          "inicio_byte": 875,
           "primera_linea": 11,
           "seccion": "MD-L000011-L000014",
-          "sha256": "a92cbd27775e54fe6f4062f49deadacad7d4d1b847a0bf34bb56f58cd9693126",
-          "titulo": "Estado de esta descripción",
+          "sha256": "860f78b65eae9ee062e5668020ca6dde067c28358f7c6c78b0128898b941ac7a",
+          "titulo": "16.2. Estado de esta descripción {#estado-de-esta-descripción}",
           "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 1860,
-          "inicio_byte": 1114,
+          "fin_byte_exclusivo": 2008,
+          "inicio_byte": 1238,
           "primera_linea": 15,
           "seccion": "MD-L000015-L000021",
-          "sha256": "98f63fe994d114a052b61beff27ffedcd3b398e2fcf0a8a540afb267b3cc47dd",
-          "titulo": "Referencia",
+          "sha256": "756025bf4340918eccc174ac036b4a65c98cf6367c88f1d016b4d1f9fe63e3aa",
+          "titulo": "16.3. Referencia {#referencia}",
           "ultima_linea": 21
         }
       ]
     },
     {
       "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
-      "cobertura_bytes": 15577,
+      "cobertura_bytes": 16253,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_PARAMETROS_RUTAS",
       "identificador_editorial_r0": null,
@@ -1601,132 +1601,132 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/parametros-rutas.md",
-        "sha256": "11b897415201790b7d7e0b1fa23e921dd08527e3d27b3485c8c15169d331dc04"
+        "sha256": "2636f2b4db64f4ca930331c6ba8bc03c6dc1fac92d2376a18f31015e4904b928"
       },
       "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 518,
+          "fin_byte_exclusivo": 591,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "0e95a8255174efec68cc8c3342e9391bd36ec20e4a0166132467d61bc7f176c4",
-          "titulo": "Parámetros, recorridos y evidencia: requisitos de integración",
+          "sha256": "3c58c4efb51aa4ec7927b9519dcd3a66eeb05873353e7d86a79a47da9911b50f",
+          "titulo": "15. Parámetros, recorridos y evidencia: requisitos de integración {#parámetros-recorridos-y-evidencia-requisitos-de-integración}",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1807,
-          "inicio_byte": 518,
+          "fin_byte_exclusivo": 1935,
+          "inicio_byte": 591,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000018",
-          "sha256": "de5a7c30cfaa5fcb6319e28d9a0eece7942241dac5c58e3526bb51dd8acd5e80",
-          "titulo": "Separar identidad, relación y valoración",
+          "sha256": "83a6088d942e6c112e124c697f06fa43d5f34b6077415a1429c9e7c5671a610a",
+          "titulo": "15.1. Separar identidad, relación y valoración {#separar-identidad-relación-y-valoración}",
           "ultima_linea": 18
         },
         {
-          "fin_byte_exclusivo": 2930,
-          "inicio_byte": 1807,
+          "fin_byte_exclusivo": 3111,
+          "inicio_byte": 1935,
           "primera_linea": 19,
           "seccion": "MD-L000019-L000026",
-          "sha256": "55ea7d3e2dd9fc57f56d626faceb7caeee8b19873b6f396cf4d81cf5f272bb79",
-          "titulo": "Constitución y representación celular",
+          "sha256": "4e0547fbc69ce2ac8c98fa33a1758662f89dfb70913e4961e8f0639a081162a9",
+          "titulo": "15.2. Constitución y representación celular {#constitución-y-representación-celular}",
           "ultima_linea": 26
         },
         {
-          "fin_byte_exclusivo": 3740,
-          "inicio_byte": 2930,
+          "fin_byte_exclusivo": 3960,
+          "inicio_byte": 3111,
           "primera_linea": 27,
           "seccion": "MD-L000027-L000034",
-          "sha256": "2539cc72bc5c1a4e01e06a31a833de4d1c9a01b0434cc27ad985ecaabd015c07",
-          "titulo": "Dependencias y ejecución",
+          "sha256": "543c1f287c976b295309782921af1166e97ee5bee49a31ce2904f1003b908c65",
+          "titulo": "15.3. Dependencias y ejecución {#dependencias-y-ejecución}",
           "ultima_linea": 34
         },
         {
-          "fin_byte_exclusivo": 4539,
-          "inicio_byte": 3740,
+          "fin_byte_exclusivo": 4815,
+          "inicio_byte": 3960,
           "primera_linea": 35,
           "seccion": "MD-L000035-L000042",
-          "sha256": "d0b70a1fcd931436e2978f70486f2f402cbb335acf25d2fecd5934a1eac9f3e6",
-          "titulo": "Ejemplo de comprobación de dependencias",
+          "sha256": "c7af6490317a767c6feaf6d15262dc53e0673da1eca3f1e606cf89d3fc1e3813",
+          "titulo": "15.3.1. Ejemplo de comprobación de dependencias {#ejemplo-de-comprobación-de-dependencias}",
           "ultima_linea": 42
         },
         {
-          "fin_byte_exclusivo": 6042,
-          "inicio_byte": 4539,
+          "fin_byte_exclusivo": 6369,
+          "inicio_byte": 4815,
           "primera_linea": 43,
           "seccion": "MD-L000043-L000059",
-          "sha256": "70c989fe3ab2e663c257d122bc981871020fc62eefbb94762b76eccc6e7333be",
-          "titulo": "De la fuente al resultado comprobable",
+          "sha256": "0fcb0d04422c077fda5b7c1138531e7484723368eb8669aebf59d32042d86c75",
+          "titulo": "15.4. De la fuente al resultado comprobable {#de-la-fuente-al-resultado-comprobable}",
           "ultima_linea": 59
         },
         {
-          "fin_byte_exclusivo": 7044,
-          "inicio_byte": 6042,
+          "fin_byte_exclusivo": 7419,
+          "inicio_byte": 6369,
           "primera_linea": 60,
           "seccion": "MD-L000060-L000065",
-          "sha256": "ae2af20a531b0779ab49b107832088ed01de513b4fcfb46a1972b9b6ddfdb637",
-          "titulo": "Fidelidad y acceso a las fuentes",
+          "sha256": "ebe1cd9049f08434be193bc381ff30d9952aeb838d56a53e5ac4498a29931fea",
+          "titulo": "15.4.1. Fidelidad y acceso a las fuentes {#fidelidad-y-acceso-a-las-fuentes}",
           "ultima_linea": 65
         },
         {
-          "fin_byte_exclusivo": 9046,
-          "inicio_byte": 7044,
+          "fin_byte_exclusivo": 9457,
+          "inicio_byte": 7419,
           "primera_linea": 66,
           "seccion": "MD-L000066-L000075",
-          "sha256": "a937a14bd1255b3926f0ebc9fec19658890982e86379826c1524046272532551",
-          "titulo": "Correspondencia visual",
+          "sha256": "12aa4f57a26942f4a5a3635c50a9fa018bbf3715e90ce5cbf087f881fb422410",
+          "titulo": "15.5. Correspondencia visual {#correspondencia-visual}",
           "ultima_linea": 75
         },
         {
-          "fin_byte_exclusivo": 9762,
-          "inicio_byte": 9046,
+          "fin_byte_exclusivo": 10232,
+          "inicio_byte": 9457,
           "primera_linea": 76,
           "seccion": "MD-L000076-L000083",
-          "sha256": "36a803b11f8636d05c723d9777022747605261a38b5ebaaf0d811202d4ec3832",
-          "titulo": "Correspondencia entre Universo y ejecución",
+          "sha256": "e6ef998f117860db431f54a8fb78dae131a8b816075ec2aa9b98581e0da3f2e4",
+          "titulo": "15.5.1. Correspondencia entre Universo y ejecución {#correspondencia-entre-universo-y-ejecución}",
           "ultima_linea": 83
         },
         {
-          "fin_byte_exclusivo": 10798,
-          "inicio_byte": 9762,
+          "fin_byte_exclusivo": 11330,
+          "inicio_byte": 10232,
           "primera_linea": 84,
           "seccion": "MD-L000084-L000091",
-          "sha256": "01b96e126f1e90717faf862dc3cadc947d52523e46404ea685a686b406b8a0dd",
-          "titulo": "Representación tensorial y ejecución acelerada",
+          "sha256": "efbf2150fc3cd2b105b38a516f726448196f80546c9b8ffaa3319c909bdddd04",
+          "titulo": "15.6. Representación tensorial y ejecución acelerada {#representación-tensorial-y-ejecución-acelerada}",
           "ultima_linea": 91
         },
         {
-          "fin_byte_exclusivo": 13269,
-          "inicio_byte": 10798,
+          "fin_byte_exclusivo": 13856,
+          "inicio_byte": 11330,
           "primera_linea": 92,
           "seccion": "MD-L000092-L000105",
-          "sha256": "76be7dd3b33d39c416c625e399c3bc804f1128f41da219b996095a1160b2b55d",
-          "titulo": "Condiciones de una operación matricial",
+          "sha256": "2fe9b368a905a9b8a49ecbe883b68be7ede1498fa31d204ff67de14f79fe1927",
+          "titulo": "15.6.1. Condiciones de una operación matricial {#condiciones-de-una-operación-matricial}",
           "ultima_linea": 105
         },
         {
-          "fin_byte_exclusivo": 13947,
-          "inicio_byte": 13269,
+          "fin_byte_exclusivo": 14598,
+          "inicio_byte": 13856,
           "primera_linea": 106,
           "seccion": "MD-L000106-L000111",
-          "sha256": "0bd82ba3273ce7b049fb6033738ff34165e39c710bc5bcd13413e61d580ac045",
-          "titulo": "Condiciones para declarar una capacidad disponible",
+          "sha256": "aa9fb96249412bc762473a20bda46076ddbe9f934bbea5ce3b97377c4404c15f",
+          "titulo": "15.7. Condiciones para declarar una capacidad disponible {#condiciones-para-declarar-una-capacidad-disponible}",
           "ultima_linea": 111
         },
         {
-          "fin_byte_exclusivo": 15577,
-          "inicio_byte": 13947,
+          "fin_byte_exclusivo": 16253,
+          "inicio_byte": 14598,
           "primera_linea": 112,
           "seccion": "MD-L000112-L000123",
-          "sha256": "8071459fe80fa00fa897854d6594b20ccd37e2d23233cbb1ba14c7911f83ce37",
-          "titulo": "Referencias",
+          "sha256": "8a6eab7c719bb59d95018025fda34d1379f26c2d6c6110d27e643baf06030f97",
+          "titulo": "15.8. Referencias {#referencias}",
           "ultima_linea": 123
         }
       ]
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 6237,
+      "cobertura_bytes": 6457,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_ARBITRO_DIRECTOR",
       "identificador_editorial_r0": null,
@@ -1734,69 +1734,69 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/arbitro-director.md",
-        "sha256": "da4e9a98948f7275b27befde3b57cfced264177e69badad47ac2611eaa8039fe"
+        "sha256": "90330d358ea3fb2f845c138e38f2fa601cf5474207ae4bc9c657361395832ac5"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 795,
+          "fin_byte_exclusivo": 825,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "a0513c633d5a68c0fa300d31fff6fc818a30414184a20dc53df1f4998ae42144",
-          "titulo": "Árbitro - Director",
+          "sha256": "ef69d0ced34e55929a14267a07000c4381045f1e2c7d24c3056bd0c01ab08787",
+          "titulo": "8. Árbitro - Director {#árbitro---director}",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 2118,
-          "inicio_byte": 795,
+          "fin_byte_exclusivo": 2186,
+          "inicio_byte": 825,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000022",
-          "sha256": "3bbee2075f68d9ec00088773c41cf2aab43db3bfd26433378fcd494b6a91cff2",
-          "titulo": "Responsabilidad y alcance",
+          "sha256": "926ca681bcc7dc343581df25f0d6efd4937b462e8041e91fa6a66960f59bab14",
+          "titulo": "8.1. Responsabilidad y alcance {#responsabilidad-y-alcance}",
           "ultima_linea": 22
         },
         {
-          "fin_byte_exclusivo": 3655,
-          "inicio_byte": 2118,
+          "fin_byte_exclusivo": 3761,
+          "inicio_byte": 2186,
           "primera_linea": 23,
           "seccion": "MD-L000023-L000032",
-          "sha256": "348fcc04ba4f03ba5ac47c0b6b4d31bf8016b4c6e76723eb3144a08de1baeca8",
-          "titulo": "Documentos y herramientas",
+          "sha256": "2c1b53559d7b489bd7f13a854c510e4e121ea305e20e784a6396a973d3c75b85",
+          "titulo": "8.2. Documentos y herramientas {#documentos-y-herramientas}",
           "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 4786,
-          "inicio_byte": 3655,
+          "fin_byte_exclusivo": 4930,
+          "inicio_byte": 3761,
           "primera_linea": 33,
           "seccion": "MD-L000033-L000042",
-          "sha256": "48f652392884a7bbe311c193d64cc289f4664934c19950e029693a638b9e68e2",
-          "titulo": "Relación con el Selector",
+          "sha256": "5ddff442fa492924891a6e9ac35067b6f38acf7dc486c8d7df1f3a3adfd407bd",
+          "titulo": "8.3. Relación con el Selector {#relación-con-el-selector}",
           "ultima_linea": 42
         },
         {
-          "fin_byte_exclusivo": 5523,
-          "inicio_byte": 4786,
+          "fin_byte_exclusivo": 5719,
+          "inicio_byte": 4930,
           "primera_linea": 43,
           "seccion": "MD-L000043-L000048",
-          "sha256": "9836351b0755a93175b06ebc62c2e9a7f44efbc80d97fadabb5335aedb7e651c",
-          "titulo": "Incidencias y significado del resultado",
+          "sha256": "98ae3a25bff453d71dcccc56b2c59aae714f9ea3b0538ae7e87b131519b790c1",
+          "titulo": "8.4. Incidencias y significado del resultado {#incidencias-y-significado-del-resultado}",
           "ultima_linea": 48
         },
         {
-          "fin_byte_exclusivo": 6237,
-          "inicio_byte": 5523,
+          "fin_byte_exclusivo": 6457,
+          "inicio_byte": 5719,
           "primera_linea": 49,
           "seccion": "MD-L000049-L000056",
-          "sha256": "fe819727ff9e91f0413bcc17cd0a1f15320b7eaefdd00ecc7519e1c2e585586a",
-          "titulo": "Referencias",
+          "sha256": "54af1b2b3825e2d19f0d1b306652b42b7406c7f0634e4283200a203a055f4920",
+          "titulo": "8.5. Referencias {#referencias}",
           "ultima_linea": 56
         }
       ]
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 6882,
+      "cobertura_bytes": 7119,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
       "identificador_editorial_r0": null,
@@ -1804,69 +1804,69 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/selector-arbitro-director.md",
-        "sha256": "2212ed2272d4efe4dee95e407a2104f463a51c21e92e5e51ca344f60777d986c"
+        "sha256": "1cf2bb97d0d9edb70bd2b5768553ccf2a217c78f84ffba30d6651e5e904cad99"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1020,
+          "fin_byte_exclusivo": 1076,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "919760d7e58b23d53787d5ef35032fdabdc0fa9f05a7ace6337a9a8cfcd4a95d",
-          "titulo": "Selector del Árbitro - Director CPU/GPU/TPU/NPU",
+          "sha256": "6669117dfb67d769aad6e886a33ad2e398c0cd3d55969a97900bcf508a91cc56",
+          "titulo": "9. Selector del Árbitro - Director CPU/GPU/TPU/NPU {#selector-del-árbitro---director-cpugputpunpu}",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 2444,
-          "inicio_byte": 1020,
+          "fin_byte_exclusivo": 2538,
+          "inicio_byte": 1076,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000018",
-          "sha256": "827e29cfc59c4c5c23f1ee573eb40419384bf699c186ed2e1471dfebb0000ed3",
-          "titulo": "Condiciones de selección",
+          "sha256": "4feec1730b576b2064c5b637d78676489bb9056853bb9596bf765fedd54168ba",
+          "titulo": "9.1. Condiciones de selección {#condiciones-de-selección}",
           "ultima_linea": 18
         },
         {
-          "fin_byte_exclusivo": 3437,
-          "inicio_byte": 2444,
+          "fin_byte_exclusivo": 3578,
+          "inicio_byte": 2538,
           "primera_linea": 19,
           "seccion": "MD-L000019-L000032",
-          "sha256": "b9b0c49fb19df3b160fa42e789743e51fe29e85df169a44aed0e765549c75d16",
-          "titulo": "De la decisión a la comprobación",
+          "sha256": "ad02c237c5ab72a553f191d3419a6e652874bb033b0b22de3354c5c4d3b2ce55",
+          "titulo": "9.2. De la decisión a la comprobación {#de-la-decisión-a-la-comprobación}",
           "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 4987,
-          "inicio_byte": 3437,
+          "fin_byte_exclusivo": 5161,
+          "inicio_byte": 3578,
           "primera_linea": 33,
           "seccion": "MD-L000033-L000043",
-          "sha256": "eff6db41207da49edb739691d3c24840d8c38e11038ca00391e606c3722ba6d2",
-          "titulo": "Ejemplos comprobados",
+          "sha256": "d65e8a1d87ccc335b9e0162f7434130940eb638b190f46e932232cf5e45f6ee9",
+          "titulo": "9.3. Ejemplos comprobados {#ejemplos-comprobados}",
           "ultima_linea": 43
         },
         {
-          "fin_byte_exclusivo": 5703,
-          "inicio_byte": 4987,
+          "fin_byte_exclusivo": 5916,
+          "inicio_byte": 5161,
           "primera_linea": 44,
           "seccion": "MD-L000044-L000049",
-          "sha256": "99acc7c0f5c4b5e3b42312b51b7c98666163fba767b78ecab1f4730d9bd84218",
-          "titulo": "Alcance de la realización",
+          "sha256": "788d7669d2aaf73dc434f623a77078d52c1ee9216011d9a0e56bb75bb37280e3",
+          "titulo": "9.4. Alcance de la realización {#alcance-de-la-realización}",
           "ultima_linea": 49
         },
         {
-          "fin_byte_exclusivo": 6882,
-          "inicio_byte": 5703,
+          "fin_byte_exclusivo": 7119,
+          "inicio_byte": 5916,
           "primera_linea": 50,
           "seccion": "MD-L000050-L000059",
-          "sha256": "c82fbf389a570c1f27533084d7aadeb5046ec6ea053a96acdbb271282624c684",
-          "titulo": "Referencias",
+          "sha256": "2b749cd98ffd0837668771762f8a70ae91858c5c8fb69fccb5c87d4863e6f733",
+          "titulo": "9.5. Referencias {#referencias}",
           "ultima_linea": 59
         }
       ]
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 7514,
+      "cobertura_bytes": 7749,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_HARDWARE_ACELERACION",
       "identificador_editorial_r0": null,
@@ -1874,60 +1874,60 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
-        "sha256": "8e2e2cff0fddeff3fe0acb87bc28082fc9598b6908d725c480fb039b042f6c9c"
+        "sha256": "0ec830fee2101a910d6b9db8133b3e534fe46a232a625503ebca591461826e34"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 851,
+          "fin_byte_exclusivo": 897,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "7cbbd04530a516708241101789cb759325fbdde0780f3ed0da7003b77b10d0d4",
-          "titulo": "Hardware de aceleración tensorial",
+          "sha256": "d38c8b9d6de6066bbd74499e1a5f52e024be734684a2ce2957d21e37981d0cdb",
+          "titulo": "11. Hardware de aceleración tensorial {#hardware-de-aceleración-tensorial}",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 1786,
-          "inicio_byte": 851,
+          "fin_byte_exclusivo": 1868,
+          "inicio_byte": 897,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000019",
-          "sha256": "21ed65d7c9f20d0ce736858c396cf50e918bc1eb6031f80ae40a9679f6fcb550",
-          "titulo": "Clases de dispositivos",
+          "sha256": "86b8134d63dc8be2fee558edbc5e164b0bcdf2c810451eb73c2e18c3e1b38b29",
+          "titulo": "11.1. Clases de dispositivos {#clases-de-dispositivos}",
           "ultima_linea": 19
         },
         {
-          "fin_byte_exclusivo": 4808,
-          "inicio_byte": 1786,
+          "fin_byte_exclusivo": 4942,
+          "inicio_byte": 1868,
           "primera_linea": 20,
           "seccion": "MD-L000020-L000033",
-          "sha256": "5827654f92a004a796d9510060636dbcbd3c2fdbea9f17d2913f55c3cda9f123",
-          "titulo": "Dispositivos observados en los ensayos",
+          "sha256": "7b735d1ce6a5fb69d1d59c86f6048aca2e3f472a1aaa34d46d1e9a3605b208c1",
+          "titulo": "11.2. Dispositivos observados en los ensayos {#dispositivos-observados-en-los-ensayos}",
           "ultima_linea": 33
         },
         {
-          "fin_byte_exclusivo": 5910,
-          "inicio_byte": 4808,
+          "fin_byte_exclusivo": 6104,
+          "inicio_byte": 4942,
           "primera_linea": 34,
           "seccion": "MD-L000034-L000041",
-          "sha256": "6b3ddf9e63591ea8f27f92ddd71622c1eb1e6f44cdc734482ef03da97ea72149",
-          "titulo": "Realización en Rust y soporte del dispositivo",
+          "sha256": "8d4e86cba1f1ac4edf31c9c9160c4f2a3c01654f2e0337890c40bde95a5d8887",
+          "titulo": "11.3. Realización en Rust y soporte del dispositivo {#realización-en-rust-y-soporte-del-dispositivo}",
           "ultima_linea": 41
         },
         {
-          "fin_byte_exclusivo": 7514,
-          "inicio_byte": 5910,
+          "fin_byte_exclusivo": 7749,
+          "inicio_byte": 6104,
           "primera_linea": 42,
           "seccion": "MD-L000042-L000052",
-          "sha256": "cecd1f4b08421a9105027acdfc50505e0170c85fd65b1adbbba83bc1e00f9586",
-          "titulo": "Condiciones de comparación",
+          "sha256": "3a8f34d323efe734ba0675ea8dd804d7ca3d82debcdefdaed4e9957269a5ffca",
+          "titulo": "11.4. Condiciones de comparación {#condiciones-de-comparación}",
           "ultima_linea": 52
         }
       ]
     },
     {
       "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
-      "cobertura_bytes": 5310,
+      "cobertura_bytes": 5479,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_EXPLORADOR_TENSORIAL",
       "identificador_editorial_r0": null,
@@ -1935,51 +1935,51 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/explorador-tensorial-sv.md",
-        "sha256": "8b1a0655e1ca1d59c705df18244dd176a7cfb76ffde37c8a2de18f247124641a"
+        "sha256": "4fde56586841ba35651b49117c7a4f05cf10b101d4bee8a2b5a37dd5eb8319fb"
       },
       "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1122,
+          "fin_byte_exclusivo": 1161,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000015",
-          "sha256": "f0c24ee3cfcb2cf8aa733b1828812d6f33208826704fedd1e06839fc175a96f2",
-          "titulo": "Explorador Tensorial del SV",
+          "sha256": "22467e46918a44bdae858eae8ca081173c42af838beabebb9fc1383e457f0a9f",
+          "titulo": "10. Explorador Tensorial del SV {#explorador-tensorial-del-sv}",
           "ultima_linea": 15
         },
         {
-          "fin_byte_exclusivo": 2508,
-          "inicio_byte": 1122,
+          "fin_byte_exclusivo": 2588,
+          "inicio_byte": 1161,
           "primera_linea": 16,
           "seccion": "MD-L000016-L000023",
-          "sha256": "be19451947c7f78dabe63eb5ff9d884acea726e4562781f9899d047644e9c629",
-          "titulo": "Identificación y capacidad",
+          "sha256": "a0ea93d7797e7e13969212713e8527b4ca0edac967ffacc50d01df2801923b71",
+          "titulo": "10.1. Identificación y capacidad {#identificación-y-capacidad}",
           "ultima_linea": 23
         },
         {
-          "fin_byte_exclusivo": 3688,
-          "inicio_byte": 2508,
+          "fin_byte_exclusivo": 3803,
+          "inicio_byte": 2588,
           "primera_linea": 24,
           "seccion": "MD-L000024-L000031",
-          "sha256": "ca191c821337fffaeeff2ff2d2ca68f170957d29b620c453fd2ed241155d58dc",
-          "titulo": "Vigencia y ejecución",
+          "sha256": "c0df494cfef4800b3e9611370fd2315b330b93bbf3153c42c898516b00ce7bd9",
+          "titulo": "10.2. Vigencia y ejecución {#vigencia-y-ejecución}",
           "ultima_linea": 31
         },
         {
-          "fin_byte_exclusivo": 5310,
-          "inicio_byte": 3688,
+          "fin_byte_exclusivo": 5479,
+          "inicio_byte": 3803,
           "primera_linea": 32,
           "seccion": "MD-L000032-L000042",
-          "sha256": "1925b666455a140074fe5ac592b6f51b58fd470af5912e3f9c09c32f7c4816ba",
-          "titulo": "Comprobación de la realización inicial",
+          "sha256": "9f93c5af49f2a24ed62212dc6ea40d4b82f7cd93543796115d12c0af8bf3fe86",
+          "titulo": "10.3. Comprobación de la realización inicial {#comprobación-de-la-realización-inicial}",
           "ultima_linea": 42
         }
       ]
     },
     {
       "alcance": "Herramientas de construcción y comprobación del lenguaje; finalidad, uso y límites de sus resultados.",
-      "cobertura_bytes": 11178,
+      "cobertura_bytes": 11631,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_HERRAMIENTAS",
       "identificador_editorial_r0": null,
@@ -1987,96 +1987,96 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md",
-        "sha256": "b195c20e27cb1d73b5d01d2e293d6a1ca2d3a33b67ff2ad74689e4fbf6c4227e"
+        "sha256": "cf7ed1797e6fe0a1a0f5777dbf3c0a6ace610223ca11525cd6615ef6d4e55e79"
       },
       "procedencia": "Edición pública propia de 18/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 885,
+          "fin_byte_exclusivo": 939,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "38e7588fb166d1017ae799f9be9a857f9f00bf20c82531cdbf47907993d6f2f5",
-          "titulo": "Herramientas de desarrollo y comprobación",
+          "sha256": "a7c502d22a9b0aa31d0aab3655f2d1f5534bccdb58df8cb7e8265754bb75f792",
+          "titulo": "13. Herramientas de desarrollo y comprobación {#herramientas-de-desarrollo-y-comprobación}",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 2626,
-          "inicio_byte": 885,
+          "fin_byte_exclusivo": 2722,
+          "inicio_byte": 939,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000019",
-          "sha256": "1930779368bc3323fa5bf9f95507a1dd6bca8be09df7f72a6c866cc7d6172921",
-          "titulo": "Qué aporta cada herramienta",
+          "sha256": "10926cccfc1227eb03f077424aaaf0c1ef3c30035b68b06e9e3bdcf40b78180b",
+          "titulo": "13.1. Qué aporta cada herramienta {#qué-aporta-cada-herramienta}",
           "ultima_linea": 19
         },
         {
-          "fin_byte_exclusivo": 4636,
-          "inicio_byte": 2626,
+          "fin_byte_exclusivo": 4797,
+          "inicio_byte": 2722,
           "primera_linea": 20,
           "seccion": "MD-L000020-L000044",
-          "sha256": "7dfe3169c695062f3db378031047272933a0b7e06a3d4110a0126db81c04968f",
-          "titulo": "Versión de Rust y construcción de los componentes",
+          "sha256": "937209f0a580f7056d9cdc2edb4b1bb7c30009c69c76a04a1fc12ddf15a489d2",
+          "titulo": "13.2. Versión de Rust y construcción de los componentes {#versión-de-rust-y-construcción-de-los-componentes}",
           "ultima_linea": 44
         },
         {
-          "fin_byte_exclusivo": 5246,
-          "inicio_byte": 4636,
+          "fin_byte_exclusivo": 5449,
+          "inicio_byte": 4797,
           "primera_linea": 45,
           "seccion": "MD-L000045-L000054",
-          "sha256": "dd483564b308e4cfd0407225fcf6b605b8320aff81f8b43a5d5fdcb56dd8b098",
-          "titulo": "Formato uniforme con rustfmt",
+          "sha256": "0525799a3eb01c318105135da22f1a50a4d4f2a322d7f70cfb92ba395fbc18f5",
+          "titulo": "13.3. Formato uniforme con rustfmt {#formato-uniforme-con-rustfmt}",
           "ultima_linea": 54
         },
         {
-          "fin_byte_exclusivo": 6714,
-          "inicio_byte": 5246,
+          "fin_byte_exclusivo": 6961,
+          "inicio_byte": 5449,
           "primera_linea": 55,
           "seccion": "MD-L000055-L000068",
-          "sha256": "2c9cc696e960fd41bf73c9df32e0abbb761a7f9003f43974c194ccee097d5b8b",
-          "titulo": "Análisis estático con Clippy",
+          "sha256": "53535f0e551948799cae01187d806a4225469578ef533d9a3f2f8b26c2892909",
+          "titulo": "13.4. Análisis estático con Clippy {#análisis-estático-con-clippy}",
           "ultima_linea": 68
         },
         {
-          "fin_byte_exclusivo": 8499,
-          "inicio_byte": 6714,
+          "fin_byte_exclusivo": 8789,
+          "inicio_byte": 6961,
           "primera_linea": 69,
           "seccion": "MD-L000069-L000084",
-          "sha256": "905e50fe4053381bd43dae877f793bdb5753a6042d86d6ac4241b104d1f27e66",
-          "titulo": "Pruebas, conformidad y paridad",
+          "sha256": "53e8448fba2ecff664c463369ea71a958490d1164ac62066aeb79a208ef77b9a",
+          "titulo": "13.5. Pruebas, conformidad y paridad {#pruebas-conformidad-y-paridad}",
           "ultima_linea": 84
         },
         {
-          "fin_byte_exclusivo": 9986,
-          "inicio_byte": 8499,
+          "fin_byte_exclusivo": 10345,
+          "inicio_byte": 8789,
           "primera_linea": 85,
           "seccion": "MD-L000085-L000092",
-          "sha256": "5344d2995fa1e35d0fb317a6a158189e6364752ed478501ed188192c0ac66d72",
-          "titulo": "Revisiones identificadas y comprobaciones automatizadas",
+          "sha256": "5e4f7826cca0b66ec7ccc2ede3090a635c19ca0398456f3ad0b37398e32914ba",
+          "titulo": "13.6. Revisiones identificadas y comprobaciones automatizadas {#revisiones-identificadas-y-comprobaciones-automatizadas}",
           "ultima_linea": 92
         },
         {
-          "fin_byte_exclusivo": 10250,
-          "inicio_byte": 9986,
+          "fin_byte_exclusivo": 10664,
+          "inicio_byte": 10345,
           "primera_linea": 93,
           "seccion": "MD-L000093-L000096",
-          "sha256": "48a5868c9bb4f161a0e55e10f27aee43dd0106e7887269885c741c4ea139e6da",
-          "titulo": "Instrumentación de componentes asociados",
+          "sha256": "28c87a5b202c3542058da3791feeb9bddcd5c503dca5cadbf0f747fbb44d0277",
+          "titulo": "13.7. Instrumentación de componentes asociados {#instrumentación-de-componentes-asociados}",
           "ultima_linea": 96
         },
         {
-          "fin_byte_exclusivo": 11178,
-          "inicio_byte": 10250,
+          "fin_byte_exclusivo": 11631,
+          "inicio_byte": 10664,
           "primera_linea": 97,
           "seccion": "MD-L000097-L000105",
-          "sha256": "c8d73704f71d14fdfc8360c1eb5a533c1e8f014d9ecfe9abe4b99c379396a2df",
-          "titulo": "Documentación con mdBook",
+          "sha256": "36cdce9aa1467bfb10805ac3e38e43cc3f004a8b5d09e7fcc54b86e8b391c390",
+          "titulo": "13.8. Documentación con mdBook {#documentación-con-mdbook}",
           "ultima_linea": 105
         }
       ]
     },
     {
       "alcance": "Capacidades en desarrollo, exigencias y condiciones de comprobación del núcleo; estado referido a fuentes y recepciones identificadas.",
-      "cobertura_bytes": 11874,
+      "cobertura_bytes": 12210,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_DESARROLLO_VALIDACION",
       "identificador_editorial_r0": null,
@@ -2084,69 +2084,69 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/desarrollo-validacion-nucleo.md",
-        "sha256": "5141c9a71eee3e25f8bfa972c75841e9e6b31474a79023abb3b40da2f3067752"
+        "sha256": "ee68c99c0e7a3849cf2cc24979acb31470bae28f9df5effb81c88da5b79bef54"
       },
       "procedencia": "Edición pública propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 804,
+          "fin_byte_exclusivo": 852,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "34622613d9acf676ea9a100f749fd8c6d7893b60360efe5cf0e8e3964e74783b",
-          "titulo": "Desarrollo y validación del núcleo",
+          "sha256": "2f52890bf114ad0db66c2ade73c0a102cbbde6a451b777b2572c8cd5aacb5cc4",
+          "titulo": "17. Desarrollo y validación del núcleo {#desarrollo-y-validación-del-núcleo}",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 2130,
-          "inicio_byte": 804,
+          "fin_byte_exclusivo": 2236,
+          "inicio_byte": 852,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000019",
-          "sha256": "b01cca807bba0028f021fae03ac35d3eb9ca363cc2f8201b940a37bd084036a1",
-          "titulo": "Cómo interpretar el estado de una capacidad",
+          "sha256": "4a8abbb230c9dba1665b8a359df91981a9ec29d5ea2f46395a8388bd412e2e40",
+          "titulo": "17.1. Cómo interpretar el estado de una capacidad {#cómo-interpretar-el-estado-de-una-capacidad}",
           "ultima_linea": 19
         },
         {
-          "fin_byte_exclusivo": 5879,
-          "inicio_byte": 2130,
+          "fin_byte_exclusivo": 6039,
+          "inicio_byte": 2236,
           "primera_linea": 20,
           "seccion": "MD-L000020-L000041",
-          "sha256": "31b1902515ef23e8aff261af78957e6b5f46255be4ce2dba48ee52795d99cf49",
-          "titulo": "Capacidades en desarrollo e integración",
+          "sha256": "d20ac8736c7d2b4956ea8b763f66707a5fc734ffea6d55d25c638e2957e60c45",
+          "titulo": "17.2. Capacidades en desarrollo e integración {#capacidades-en-desarrollo-e-integración}",
           "ultima_linea": 41
         },
         {
-          "fin_byte_exclusivo": 8703,
-          "inicio_byte": 5879,
+          "fin_byte_exclusivo": 8926,
+          "inicio_byte": 6039,
           "primera_linea": 42,
           "seccion": "MD-L000042-L000060",
-          "sha256": "914acfc839ae8ae37de2681159455f0cc4e5330ec4086a4a318f5e32b5ece81b",
-          "titulo": "Exigencias y pruebas de presión sobre el núcleo",
+          "sha256": "dd26536030a11c2e436c15b0949dd5f5345a3bf73a3da8b6f6673cb05a1b7521",
+          "titulo": "17.3. Exigencias y pruebas de presión sobre el núcleo {#exigencias-y-pruebas-de-presión-sobre-el-núcleo}",
           "ultima_linea": 60
         },
         {
-          "fin_byte_exclusivo": 10288,
-          "inicio_byte": 8703,
+          "fin_byte_exclusivo": 10564,
+          "inicio_byte": 8926,
           "primera_linea": 61,
           "seccion": "MD-L000061-L000071",
-          "sha256": "a0c7a77168f93229358d03a46a6bd0c919c7f33248dcb117c24f63dac2c97eda",
-          "titulo": "De la necesidad a la capacidad recibida",
+          "sha256": "3b3e63d3e05ab4efae594f1a4d0a441857246502dd7d921d26e8bdf46fed1d1e",
+          "titulo": "17.4. De la necesidad a la capacidad recibida {#de-la-necesidad-a-la-capacidad-recibida}",
           "ultima_linea": 71
         },
         {
-          "fin_byte_exclusivo": 11874,
-          "inicio_byte": 10288,
+          "fin_byte_exclusivo": 12210,
+          "inicio_byte": 10564,
           "primera_linea": 72,
           "seccion": "MD-L000072-L000080",
-          "sha256": "1fe0b525af61dbbf4e7cac1d8a78336c1c90f2b2c018e159a4e5beb49b941edd",
-          "titulo": "Fuentes vigentes y mantenimiento del capítulo",
+          "sha256": "2c1a5ad4db98ef41532e1a6bf3f30857190c84019b2c5f2e712cec94b0bb78e8",
+          "titulo": "17.5. Fuentes vigentes y mantenimiento del capítulo {#fuentes-vigentes-y-mantenimiento-del-capítulo}",
           "ultima_linea": 80
         }
       ]
     },
     {
       "alcance": "Reconocimiento alfabético de comunidades, proyectos y tecnologías utilizados en el lenguaje y sus herramientas asociadas.",
-      "cobertura_bytes": 9995,
+      "cobertura_bytes": 10022,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_AGRADECIMIENTOS",
       "identificador_editorial_r0": null,
@@ -2154,24 +2154,24 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/agradecimientos.md",
-        "sha256": "af638e36f4d48af4c6a34f4343ad27009c429bcee7c6c9299b30632b0640a98b"
+        "sha256": "ead59b3c98cea0c37b139a828d384dc6d6be4dd57ebee23d61e3e1358fc5ae0b"
       },
       "procedencia": "Edición pública propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 9995,
+          "fin_byte_exclusivo": 10022,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000067",
-          "sha256": "af638e36f4d48af4c6a34f4343ad27009c429bcee7c6c9299b30632b0640a98b",
-          "titulo": "Agradecimientos",
+          "sha256": "ead59b3c98cea0c37b139a828d384dc6d6be4dd57ebee23d61e3e1358fc5ae0b",
+          "titulo": "20. Agradecimientos {#agradecimientos}",
           "ultima_linea": 67
         }
       ]
     },
     {
       "alcance": "Guía de consulta; distingue conformidad, ejecución y capacidades pendientes. No autoriza uso de datos ni inferencia.",
-      "cobertura_bytes": 4664,
+      "cobertura_bytes": 4873,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_PLAYGROUND_SV",
       "identificador_editorial_r0": null,
@@ -2179,69 +2179,69 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/playground-sv.md",
-        "sha256": "9d2cadde904505651326c90f7e85fa32abaf1b054698f10b375f1a2c1e4396fb"
+        "sha256": "dd51e96c2a6107e99b4aeda836ecfba7a7ea8f0720aaef52fc1c80030929df14"
       },
       "procedencia": "Edición explicativa propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 397,
+          "fin_byte_exclusivo": 434,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "1b4444e8007be07c1af4f0c7c5123144daf322d83d5f9e5194ee1b5fff5bf2b9",
-          "titulo": "Playground del Lenguaje SV",
+          "sha256": "a57a6a806a027a2c0ab99acf892050005ad29278fecdda2f77ca8b4d489b7fa8",
+          "titulo": "4. Playground del Lenguaje SV {#playground-del-lenguaje-sv}",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1523,
-          "inicio_byte": 397,
+          "fin_byte_exclusivo": 1589,
+          "inicio_byte": 434,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000016",
-          "sha256": "faaf2b124126b0ce55a8a8c47d0732d7056ec92422076c5d0c00828b7d1ae690",
-          "titulo": "Primer recorrido",
+          "sha256": "860dc5539f80d93a262cbfa7f3083306d7ad5bc6869470a63ae78d62afe73304",
+          "titulo": "4.1. Primer recorrido {#primer-recorrido}",
           "ultima_linea": 16
         },
         {
-          "fin_byte_exclusivo": 2215,
-          "inicio_byte": 1523,
+          "fin_byte_exclusivo": 2317,
+          "inicio_byte": 1589,
           "primera_linea": 17,
           "seccion": "MD-L000017-L000022",
-          "sha256": "1aabda5d72d2c1f221d567d881ae5e1a593e478f42ca33b940784f017735b93c",
-          "titulo": "Qué significa «Admitido»",
+          "sha256": "a29f3fd5e4a8805a8906935fb135c94085cadcf371b633f33d5ab39bd82df8b0",
+          "titulo": "4.2. Qué significa «Admitido» {#qué-significa-admitido}",
           "ultima_linea": 22
         },
         {
-          "fin_byte_exclusivo": 2760,
-          "inicio_byte": 2215,
+          "fin_byte_exclusivo": 2893,
+          "inicio_byte": 2317,
           "primera_linea": 23,
           "seccion": "MD-L000023-L000028",
-          "sha256": "3fcd55e5c4b07346c1fa3ed2413935a88e4fce9a41de5fe87ed99e1bceb63b1e",
-          "titulo": "Ensamblar unidades",
+          "sha256": "d387c2ab1e539cc5d8f1a0ac8c852ceea1bcb74be7fcb5671a6201a225b926a1",
+          "titulo": "4.3. Ensamblar unidades {#ensamblar-unidades}",
           "ultima_linea": 28
         },
         {
-          "fin_byte_exclusivo": 3711,
-          "inicio_byte": 2760,
+          "fin_byte_exclusivo": 3885,
+          "inicio_byte": 2893,
           "primera_linea": 29,
           "seccion": "MD-L000029-L000036",
-          "sha256": "2f41ca5f8685317b43546b82e45af5165bb525214cca0f48647bf260a08b06da",
-          "titulo": "Archivo, navegador y límites",
+          "sha256": "9421530b26d8b887cdf6d167a010c5f4022013362c36e9207c98eb4c2405a392",
+          "titulo": "4.4. Archivo, navegador y límites {#archivo-navegador-y-límites}",
           "ultima_linea": 36
         },
         {
-          "fin_byte_exclusivo": 4664,
-          "inicio_byte": 3711,
+          "fin_byte_exclusivo": 4873,
+          "inicio_byte": 3885,
           "primera_linea": 37,
           "seccion": "MD-L000037-L000048",
-          "sha256": "36fc0b3c546c28a8f641f7a49f731844af446e6def60692fcae29041b2083e41",
-          "titulo": "Ejemplos y referencias",
+          "sha256": "b5d4745abc83c36c44f2e7c35f11538cba2b9c360d97d5a734097fe7ec586583",
+          "titulo": "4.5. Ejemplos y referencias {#ejemplos-y-referencias}",
           "ultima_linea": 48
         }
       ]
     },
     {
       "alcance": "Guía de consulta; distingue conformidad, ejecución y capacidades pendientes. No autoriza uso de datos ni inferencia.",
-      "cobertura_bytes": 5080,
+      "cobertura_bytes": 5281,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_EJEMPLOS_SVP",
       "identificador_editorial_r0": null,
@@ -2249,69 +2249,69 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/ejemplos-svp.md",
-        "sha256": "c694ce6ec714c2d7e1a12ab8ea80e4000c26d79780809ca212526a70d8547aef"
+        "sha256": "3055e2d655c5bdeb2a29f46efaceaae0e76f5b038bf980b1f5b8c086d81f7183"
       },
       "procedencia": "Edición explicativa propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 373,
+          "fin_byte_exclusivo": 380,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "565d8587a94a1f3bf76e6886d29efc88ac698b9a4485b432e1fb1759f2586d2f",
-          "titulo": "Ejemplos por construcción {#ejemplos-svp-y-comprobaciones}",
+          "sha256": "4e419d26014d768660ccf9d8025161dc902fb8b2b98194b42bda256754cc70d2",
+          "titulo": "5. Ejemplos por construcción {#ejemplos-svp-y-comprobaciones}",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1571,
-          "inicio_byte": 373,
+          "fin_byte_exclusivo": 1619,
+          "inicio_byte": 380,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000021",
-          "sha256": "9cfac2af72c5dfaa380063725cba5fb82ceacfdcfb60cca6055efe6d4d044095",
-          "titulo": "Recorrido por construcciones",
+          "sha256": "e305783cf7c00af5e3e2dddc8224c6607eaf83fb8cefb8f9df2748ba2c0d4933",
+          "titulo": "5.1. Recorrido por construcciones {#recorrido-por-construcciones}",
           "ultima_linea": 21
         },
         {
-          "fin_byte_exclusivo": 3016,
-          "inicio_byte": 1571,
+          "fin_byte_exclusivo": 3104,
+          "inicio_byte": 1619,
           "primera_linea": 22,
           "seccion": "MD-L000022-L000057",
-          "sha256": "9a07aae9f427f825b0f2da19935ebdf24176cc3e8443d46efeeab1f611347f1f",
-          "titulo": "Ejemplo inicial: una célula",
+          "sha256": "de3fb69cd27faca53757d590bb208ef88de19152b0ababd7f9d918ae93296121",
+          "titulo": "5.2. Ejemplo inicial: una célula {#ejemplo-inicial-una-célula}",
           "ultima_linea": 57
         },
         {
-          "fin_byte_exclusivo": 3306,
-          "inicio_byte": 3016,
+          "fin_byte_exclusivo": 3427,
+          "inicio_byte": 3104,
           "primera_linea": 58,
           "seccion": "MD-L000058-L000061",
-          "sha256": "b408f20b5cb55b1c1acb7b21edab9155ba9f37dec9a142728e5b0734431b11f6",
-          "titulo": "Rechazos deliberados",
+          "sha256": "0c8d30b531e0a86205d11355274cf719c6cf92cd83afc5b1381dfcd2cccb882a",
+          "titulo": "5.3. Rechazos deliberados {#rechazos-deliberados}",
           "ultima_linea": 61
         },
         {
-          "fin_byte_exclusivo": 4482,
-          "inicio_byte": 3306,
+          "fin_byte_exclusivo": 4648,
+          "inicio_byte": 3427,
           "primera_linea": 62,
           "seccion": "MD-L000062-L000069",
-          "sha256": "1954ab74c79564cf54ac984b96e805e54b7a74b51a41900b8976cd13f6a5b4ad",
-          "titulo": "Organización de las colecciones",
+          "sha256": "9a2735728a417db0446c913b5042b543770f888e95c38a681c464ac4799c8ad9",
+          "titulo": "5.4. Organización de las colecciones {#organización-de-las-colecciones}",
           "ultima_linea": 69
         },
         {
-          "fin_byte_exclusivo": 5080,
-          "inicio_byte": 4482,
+          "fin_byte_exclusivo": 5281,
+          "inicio_byte": 4648,
           "primera_linea": 70,
           "seccion": "MD-L000070-L000076",
-          "sha256": "e09063e508ea1216c395f4bbcfe1fcb4d6fa0cefc12cae69118a6a144b152983",
-          "titulo": "Programación aplicada",
+          "sha256": "82d4e5d8c5fc1736354cd9f5a76fdb82bbe4c11a5cdf5fb70275771e7317df63",
+          "titulo": "5.5. Programación aplicada {#programación-aplicada}",
           "ultima_linea": 76
         }
       ]
     },
     {
       "alcance": "Guía de consulta; distingue conformidad, ejecución y capacidades pendientes. No autoriza uso de datos ni inferencia.",
-      "cobertura_bytes": 1024,
+      "cobertura_bytes": 1031,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_PROGRAMACION_DSL",
       "identificador_editorial_r0": null,
@@ -2319,24 +2319,24 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/programacion-dsl.md",
-        "sha256": "77edf7983f5754b56f4c3978cb0131fbc99b0a64e1d73fa34bfb75d81157f715"
+        "sha256": "657009590896d7b8d1e4035f835aa3d88b3f6c1705431ae1cc2c621b0be43f3e"
       },
       "procedencia": "Edición explicativa propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1024,
+          "fin_byte_exclusivo": 1031,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000011",
-          "sha256": "77edf7983f5754b56f4c3978cb0131fbc99b0a64e1d73fa34bfb75d81157f715",
-          "titulo": "Programas completos y aplicaciones {#programación-con-la-dsl}",
+          "sha256": "657009590896d7b8d1e4035f835aa3d88b3f6c1705431ae1cc2c621b0be43f3e",
+          "titulo": "6. Programas completos y aplicaciones {#programación-con-la-dsl}",
           "ultima_linea": 11
         }
       ]
     },
     {
       "alcance": "Guía de consulta; distingue conformidad, ejecución y capacidades pendientes. No autoriza uso de datos ni inferencia.",
-      "cobertura_bytes": 5644,
+      "cobertura_bytes": 5831,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_CONSTRUCCIONES_Y_COMPONENTES",
       "identificador_editorial_r0": null,
@@ -2344,69 +2344,69 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/construcciones-y-componentes.md",
-        "sha256": "b37acf93022e186d8dad73ceeab3f033da186add7a0a1ae5d4045fcda9eda58f"
+        "sha256": "52241722c8a8315ff5c666a1d240dc82a8519af8262382e698c41dd3514fd6f6"
       },
       "procedencia": "Edición explicativa propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 508,
+          "fin_byte_exclusivo": 515,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "df61414cfc422c95108576dd99cac3a7f09183b07627890ee5981f4002ff6b72",
-          "titulo": "Construcciones e instrucciones propias {#construcciones-del-lenguaje-y-componentes-propios}",
+          "sha256": "47f0e2e55a75055b9023c5b7d57a0c672b619f053cfcd76c1f40572311ba61e0",
+          "titulo": "3. Construcciones e instrucciones propias {#construcciones-del-lenguaje-y-componentes-propios}",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1723,
-          "inicio_byte": 508,
+          "fin_byte_exclusivo": 1768,
+          "inicio_byte": 515,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000020",
-          "sha256": "93b3848c2dd8a27c6ca64e20616687c95b2953faac723b4c6f8cd57aca242081",
-          "titulo": "Estados celulares y terna",
+          "sha256": "34156559bc422cbd3cc1b41cb3ddd93a7599263c88a1577e811374e099187984",
+          "titulo": "3.1. Estados celulares y terna {#estados-celulares-y-terna}",
           "ultima_linea": 20
         },
         {
-          "fin_byte_exclusivo": 3745,
-          "inicio_byte": 1723,
+          "fin_byte_exclusivo": 3830,
+          "inicio_byte": 1768,
           "primera_linea": 21,
           "seccion": "MD-L000021-L000036",
-          "sha256": "667c7159a6b191cca5416d52d2e420bd130912c0b3539908f513c33c9956d646",
-          "titulo": "Declaraciones y operaciones",
+          "sha256": "da201fee24989f6c1e9198e59aeb495e307043b5a570c874af5926726b9c1662",
+          "titulo": "3.2. Declaraciones y operaciones {#declaraciones-y-operaciones}",
           "ultima_linea": 36
         },
         {
-          "fin_byte_exclusivo": 4029,
-          "inicio_byte": 3745,
+          "fin_byte_exclusivo": 4143,
+          "inicio_byte": 3830,
           "primera_linea": 37,
           "seccion": "MD-L000037-L000040",
-          "sha256": "ddf070021f87d50a69a86fefc73a8e83c4c52ae04341200edcc5b32bfda9d899",
-          "titulo": "Componentes Rust",
+          "sha256": "399cfb0a681c7140119ccd3dca222625b6de9468defdcf262882552b36fca363",
+          "titulo": "3.3. Componentes Rust {#componentes-rust}",
           "ultima_linea": 40
         },
         {
-          "fin_byte_exclusivo": 4520,
-          "inicio_byte": 4029,
+          "fin_byte_exclusivo": 4677,
+          "inicio_byte": 4143,
           "primera_linea": 41,
           "seccion": "MD-L000041-L000046",
-          "sha256": "cc2d3b7631228239b01d15e251cf37d1814e0dc02c4d14b8d06086d96ca6221b",
-          "titulo": "Bibliotecas de la DSL y macros",
+          "sha256": "ba3cd46998cbab3a3fe2dc0876049483f93c68673d21649c3b8e97a20c1cf10e",
+          "titulo": "3.4. Bibliotecas de la DSL y macros {#bibliotecas-de-la-dsl-y-macros}",
           "ultima_linea": 46
         },
         {
-          "fin_byte_exclusivo": 5644,
-          "inicio_byte": 4520,
+          "fin_byte_exclusivo": 5831,
+          "inicio_byte": 4677,
           "primera_linea": 47,
           "seccion": "MD-L000047-L000055",
-          "sha256": "1e57c31f22f0c72d8464e0971b8647c76ec7b4fda3ce3044e7f834702b6f68b2",
-          "titulo": "Fuentes y alcance",
+          "sha256": "520520da2af8af65cd34c609c162fef2ea26fe9b990f787bd93957b0faea5099",
+          "titulo": "3.5. Fuentes y alcance {#fuentes-y-alcance}",
           "ultima_linea": 55
         }
       ]
     },
     {
       "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
-      "cobertura_bytes": 7080,
+      "cobertura_bytes": 7365,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_ARQUITECTURA_EJECUCION",
       "identificador_editorial_r0": null,
@@ -2414,69 +2414,69 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/arquitectura-ejecucion.md",
-        "sha256": "11e596b0388fa5538b6e29684919827d0670dc6074e44e5d11671fd8bed3f503"
+        "sha256": "5cd50749616a528c40c8982bc5c452106db347a602c9ffe6bf6f68675e83cf07"
       },
       "procedencia": "Edición explicativa propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 408,
+          "fin_byte_exclusivo": 456,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000004",
-          "sha256": "6ee06a407e39a73bf0f6c9e072f4ba33cd71708fba0f4ec01eb161c73a76e39a",
-          "titulo": "Arquitectura y entornos de ejecución",
+          "sha256": "cb32e18070cd909a90dbda651c35229df72348c6a5dab4e953ba98d7fe19f2ab",
+          "titulo": "7. Arquitectura y entornos de ejecución {#arquitectura-y-entornos-de-ejecución}",
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1532,
-          "inicio_byte": 408,
+          "fin_byte_exclusivo": 1629,
+          "inicio_byte": 456,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000016",
-          "sha256": "0d542c2abfb1a730731cd1106fa48f808fac637a4b855b0dbd517f35cdc85868",
-          "titulo": "Del archivo SVP a su representación",
+          "sha256": "2e93f55cb45ccc18919d4bd415508ddc76d0f63f90d7c1f8fea8540f6cae7506",
+          "titulo": "7.1. Del archivo SVP a su representación {#del-archivo-svp-a-su-representación}",
           "ultima_linea": 16
         },
         {
-          "fin_byte_exclusivo": 3437,
-          "inicio_byte": 1532,
+          "fin_byte_exclusivo": 3581,
+          "inicio_byte": 1629,
           "primera_linea": 17,
           "seccion": "MD-L000017-L000030",
-          "sha256": "c79916b5d450d1b1feebc94d8870ab0b391dd9003aa8fed0b8491ef92006f721",
-          "titulo": "Ejecución nativa, navegador y WASI",
+          "sha256": "f13c6454f1a2e34cf0bca20146db46ca01fdc769db88057ba061e70da817d0d8",
+          "titulo": "7.2. Ejecución nativa, navegador y WASI {#ejecución-nativa-navegador-y-wasi}",
           "ultima_linea": 30
         },
         {
-          "fin_byte_exclusivo": 4729,
-          "inicio_byte": 3437,
+          "fin_byte_exclusivo": 4922,
+          "inicio_byte": 3581,
           "primera_linea": 31,
           "seccion": "MD-L000031-L000041",
-          "sha256": "2d3d630f40b81b66da474f40c5331a2c83b100f47e8a08fe88a8a8071363baf9",
-          "titulo": "Gobierno de la ejecución y recursos",
+          "sha256": "68660e445d86bdad77ce2224745e5e0091b1db245bac821b811e90e2daac15fa",
+          "titulo": "7.3. Gobierno de la ejecución y recursos {#gobierno-de-la-ejecución-y-recursos}",
           "ultima_linea": 41
         },
         {
-          "fin_byte_exclusivo": 6049,
-          "inicio_byte": 4729,
+          "fin_byte_exclusivo": 6297,
+          "inicio_byte": 4922,
           "primera_linea": 42,
           "seccion": "MD-L000042-L000049",
-          "sha256": "76de785760d06fccc3adefefc594cd130bff4e5fe40143d58e76f3d5d8d28f06",
-          "titulo": "Aplicaciones y condiciones de integración",
+          "sha256": "7f6cc88d451f3bde4c6ccec4954b4a11b4944a70d3613c07f457da3b772cc171",
+          "titulo": "7.4. Aplicaciones y condiciones de integración {#aplicaciones-y-condiciones-de-integración}",
           "ultima_linea": 49
         },
         {
-          "fin_byte_exclusivo": 7080,
-          "inicio_byte": 6049,
+          "fin_byte_exclusivo": 7365,
+          "inicio_byte": 6297,
           "primera_linea": 50,
           "seccion": "MD-L000050-L000058",
-          "sha256": "49938e4932dc50a2a7ae26f7d166f9641ed93d71e9a3c5cab9fae35bb5f96fdc",
-          "titulo": "Fronteras y observación",
+          "sha256": "69f008529426ccf98f05c51b2d52fc11c38e9a633080b3718c72e6c5af45554f",
+          "titulo": "7.5. Fronteras y observación {#fronteras-y-observación}",
           "ultima_linea": 58
         }
       ]
     },
     {
       "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
-      "cobertura_bytes": 4078,
+      "cobertura_bytes": 4285,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_OBSERVABILIDAD",
       "identificador_editorial_r0": null,
@@ -2484,60 +2484,60 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/observabilidad.md",
-        "sha256": "2f7e80cab358d37fbc94fa13830d7eecf955623cdf3c0be542dbdd89a0a9fbee"
+        "sha256": "7b67f726f9aef42623af0a8eb9225b315b0154e45b7cf369c69873b59e0fe8d2"
       },
       "procedencia": "Edición explicativa propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 262,
+          "fin_byte_exclusivo": 298,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000004",
-          "sha256": "18843c5abb9a125e63e5867877c1941dfccb71464acf857590842501457d36ef",
-          "titulo": "Observabilidad y medidas",
+          "sha256": "bcf4d9ccf3ade83a47ae5a4cd558204b051f12daf436634fab3d2cd2ec7170b5",
+          "titulo": "12. Observabilidad y medidas {#observabilidad-y-medidas}",
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1290,
-          "inicio_byte": 262,
+          "fin_byte_exclusivo": 1365,
+          "inicio_byte": 298,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000014",
-          "sha256": "46c28d2fce33a49498eabfe729c729237756f55214b39bbe6ddfe9cfb22c81ec",
-          "titulo": "Trazas, recursos y consumo",
+          "sha256": "0fda4ead198be65b974b92c4b4914e73fbb0ff42846a45b9a67cd22a1561f2c4",
+          "titulo": "12.1. Trazas, recursos y consumo {#trazas-recursos-y-consumo}",
           "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 2234,
-          "inicio_byte": 1290,
+          "fin_byte_exclusivo": 2362,
+          "inicio_byte": 1365,
           "primera_linea": 15,
           "seccion": "MD-L000015-L000020",
-          "sha256": "e94c984ec26530cd6ce2ede8e4a352dfae88c22cec24d15abe27ebf435527b92",
-          "titulo": "Instrumentación con OpenTelemetry Rust",
+          "sha256": "2353c086f1ecf16320fb39d6194c654ebbffa57a5694fd138f3528782ae7be81",
+          "titulo": "12.2. Instrumentación con OpenTelemetry Rust {#instrumentación-con-opentelemetry-rust}",
           "ultima_linea": 20
         },
         {
-          "fin_byte_exclusivo": 2964,
-          "inicio_byte": 2234,
+          "fin_byte_exclusivo": 3132,
+          "inicio_byte": 2362,
           "primera_linea": 21,
           "seccion": "MD-L000021-L000026",
-          "sha256": "57f39262880f52cc08766023341ba942c4982f71d7a7ad5b1a3e7a191ebbc9a2",
-          "titulo": "Alcance de la observación",
+          "sha256": "d34efa7565810c7c1c6d8a3b2b41e43485fca42d998aa7bf0c4d3f07c59f08c9",
+          "titulo": "12.3. Alcance de la observación {#alcance-de-la-observación}",
           "ultima_linea": 26
         },
         {
-          "fin_byte_exclusivo": 4078,
-          "inicio_byte": 2964,
+          "fin_byte_exclusivo": 4285,
+          "inicio_byte": 3132,
           "primera_linea": 27,
           "seccion": "MD-L000027-L000035",
-          "sha256": "fdb1966ea7f73899dacb1ac03d37e145a2125ccc6e805f287b55f389341c976d",
-          "titulo": "Lectura de los resultados",
+          "sha256": "703fb6022e0295bcaeaad203c06c18a2acd711da18b162eacf64d983b9db96f8",
+          "titulo": "12.4. Lectura de los resultados {#lectura-de-los-resultados}",
           "ultima_linea": 35
         }
       ]
     },
     {
       "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
-      "cobertura_bytes": 4178,
+      "cobertura_bytes": 4331,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_CONFORMIDAD_DIAGNOSTICOS",
       "identificador_editorial_r0": null,
@@ -2545,51 +2545,51 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/conformidad-diagnosticos.md",
-        "sha256": "ed1745e101073c8e395ee8b0a11227e2b7f6bf5f8cd8077468267b2d6985c108"
+        "sha256": "1db2302bf1d95386ca02e352cd63b56ab71291bff2072719ce216fc76dbb487e"
       },
       "procedencia": "Edición explicativa propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 261,
+          "fin_byte_exclusivo": 300,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000004",
-          "sha256": "0dfa866ce9b13319c15fe524c0c0fe99d1016f096d1eaafaf063c14bafe36bf6",
-          "titulo": "Conformidad y diagnósticos",
+          "sha256": "1040a18beed32fdcb90627e714a1ec943d7aac183310c2beba47be978cff3663",
+          "titulo": "14. Conformidad y diagnósticos {#conformidad-y-diagnósticos}",
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 2145,
-          "inicio_byte": 261,
+          "fin_byte_exclusivo": 2228,
+          "inicio_byte": 300,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000017",
-          "sha256": "4836d01dcd86dc7e564f1a91640951f08dcc30cd7db2ef15021f61b343ef650c",
-          "titulo": "Admisión, rechazo e incidencia",
+          "sha256": "6950f7d22cd410ee9ec7fe273693cb071f3a569186b11538380f4554ca92ce82",
+          "titulo": "14.1. Admisión, rechazo e incidencia {#admisión-rechazo-e-incidencia}",
           "ultima_linea": 17
         },
         {
-          "fin_byte_exclusivo": 3205,
-          "inicio_byte": 2145,
+          "fin_byte_exclusivo": 3322,
+          "inicio_byte": 2228,
           "primera_linea": 18,
           "seccion": "MD-L000018-L000025",
-          "sha256": "f94df73d6950e6bf8bcf84b44d30692e0d5f09d69a98e7b3ef0f3616b70ea46b",
-          "titulo": "Rechazos deliberados",
+          "sha256": "595d39bde381204792adf3f5da29029542b6be7b9a31f441a7aec905edcf74e7",
+          "titulo": "14.2. Rechazos deliberados {#rechazos-deliberados}",
           "ultima_linea": 25
         },
         {
-          "fin_byte_exclusivo": 4178,
-          "inicio_byte": 3205,
+          "fin_byte_exclusivo": 4331,
+          "inicio_byte": 3322,
           "primera_linea": 26,
           "seccion": "MD-L000026-L000034",
-          "sha256": "af3a68751f853bc7d320fbebae8b3a325b438ee84218298a398218c53ea87517",
-          "titulo": "Paridad entre destinos",
+          "sha256": "0b666584b1cc2a7b078343915160de54aa17ce494a6622d56e27adaa856a664d",
+          "titulo": "14.3. Paridad entre destinos {#paridad-entre-destinos}",
           "ultima_linea": 34
         }
       ]
     },
     {
       "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
-      "cobertura_bytes": 3500,
+      "cobertura_bytes": 3640,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_REFERENCIA_TERMINOLOGIA",
       "identificador_editorial_r0": null,
@@ -2597,42 +2597,42 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/referencia-terminologia.md",
-        "sha256": "2ba8bb0828bc9fd34da5abd6c7dab95f6e7852b22664587841fe475e79021a44"
+        "sha256": "0dc9c1b8930aad36cab5267c0bc95cdd11c758c03c6e0fdf3e492184c735edc0"
       },
       "procedencia": "Edición explicativa propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 234,
+          "fin_byte_exclusivo": 286,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000004",
-          "sha256": "7f69aff5eedc9c1a6eb5e4032d0ffd8e999f89287bef4dcd97595d672ad6ef74",
-          "titulo": "Terminología y referencias del lenguaje",
+          "sha256": "17fe380c24dd722fb472d7ed41f0f13e16c199b9452ac19bcea0be645c94b2b2",
+          "titulo": "19. Terminología y referencias del lenguaje {#terminología-y-referencias-del-lenguaje}",
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 2127,
-          "inicio_byte": 234,
+          "fin_byte_exclusivo": 2214,
+          "inicio_byte": 286,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000019",
-          "sha256": "8ef2bb32272f7bee483f1adba393d1010bc1fde62a1c66c522ee7332d2d5b28e",
-          "titulo": "Términos de consulta",
+          "sha256": "3ad0d55bf906ac0ee3ff35b2a8475a7273437891145a17c1e75636d46d3c01ed",
+          "titulo": "19.1. Términos de consulta {#términos-de-consulta}",
           "ultima_linea": 19
         },
         {
-          "fin_byte_exclusivo": 3500,
-          "inicio_byte": 2127,
+          "fin_byte_exclusivo": 3640,
+          "inicio_byte": 2214,
           "primera_linea": 20,
           "seccion": "MD-L000020-L000032",
-          "sha256": "dce5d13019393ffc02b7535c335951c87727b4a79b22b89484e5f75dd94bdd01",
-          "titulo": "Gramática y representación intermedia",
+          "sha256": "c814eb53b45b29b8d70b36dbbf6f7ce0970739fea6ea87445bef9de91fc0ff67",
+          "titulo": "19.2. Gramática y representación intermedia {#gramática-y-representación-intermedia}",
           "ultima_linea": 32
         }
       ]
     },
     {
       "alcance": "Relación del Gestor con los contratos del Lenguaje, asignaciones por dominio y acceso documental.",
-      "cobertura_bytes": 9465,
+      "cobertura_bytes": 9778,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_INTEGRACION_GESTOR_SV",
       "identificador_editorial_r0": null,
@@ -2640,71 +2640,71 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/integracion-gestor-sv.md",
-        "sha256": "b6398f0d56e7642e840347e1a3a9ee9b095c9087de762acf3a8b0b18d641adb3"
+        "sha256": "aa9c0ad2a25402cf4df1ea434ec684f610c077407cf526141e3aa7d99ec8ca1a"
       },
       "procedencia": "Edición explicativa propia de 19/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 852,
+          "fin_byte_exclusivo": 915,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "29f9b1578662aa908c522a735b817a477965dc75a80f3adc438819476b540d5a",
-          "titulo": "Integración con el Gestor del Sistema Vectorial SV",
+          "sha256": "d219ca3caafe2328ba81d00b78183dd3efbfce972bbd0a96201a2d31e8f56d88",
+          "titulo": "18. Integración con el Gestor del Sistema Vectorial SV {#integración-con-el-gestor-del-sistema-vectorial-sv}",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 2968,
-          "inicio_byte": 852,
+          "fin_byte_exclusivo": 3092,
+          "inicio_byte": 915,
           "primera_linea": 7,
           "seccion": "MD-L000007-L000023",
-          "sha256": "8dfaf77bc946c9d1ff6841f3276722034bdd8151b60e260e1b4a7b69cb1aa4fb",
-          "titulo": "Función del Gestor y relación con el Lenguaje",
+          "sha256": "d0ebc9c01815cd69b7fc54a998a1ab39b4d703712771c44c604e3070bb52c4ba",
+          "titulo": "18.1. Función del Gestor y relación con el Lenguaje {#función-del-gestor-y-relación-con-el-lenguaje}",
           "ultima_linea": 23
         },
         {
-          "fin_byte_exclusivo": 3715,
-          "inicio_byte": 2968,
+          "fin_byte_exclusivo": 3878,
+          "inicio_byte": 3092,
           "primera_linea": 24,
           "seccion": "MD-L000024-L000029",
-          "sha256": "0c03d4553df49297cf80ad9214ec3571f97191fd7b89f3b87040d7444516386a",
-          "titulo": "Estados y representación",
+          "sha256": "b61baa50207a6321d382e2c0a726aed2935256e8f69f73be67227095fe82f94f",
+          "titulo": "18.2. Estados y representación {#estados-y-representación}",
           "ultima_linea": 29
         },
         {
-          "fin_byte_exclusivo": 6626,
-          "inicio_byte": 3715,
+          "fin_byte_exclusivo": 6829,
+          "inicio_byte": 3878,
           "primera_linea": 30,
           "seccion": "MD-L000030-L000049",
-          "sha256": "5a6dfffa760ada28e91bd9c89f61c0de1af68fffc3fce4941077865de9706d27",
-          "titulo": "Configuración por dominio",
+          "sha256": "6c2b863ef8f89a8c713d28533fc6e453f67350d21c8ec19675ae69198025603f",
+          "titulo": "18.3. Configuración por dominio {#configuración-por-dominio}",
           "ultima_linea": 49
         },
         {
-          "fin_byte_exclusivo": 7011,
-          "inicio_byte": 6626,
+          "fin_byte_exclusivo": 7251,
+          "inicio_byte": 6829,
           "primera_linea": 50,
           "seccion": "MD-L000050-L000053",
-          "sha256": "bfcf488bad024c446896d38d8835c7b240a439e443fc81e8ea0a83f34d8483d6",
-          "titulo": "Documentos y evidencias",
+          "sha256": "9c9e5d0d187975048a52ab0c81ee1228f0bfba8ede1f862faf7ce48b99353064",
+          "titulo": "18.4. Documentos y evidencias {#documentos-y-evidencias}",
           "ultima_linea": 53
         },
         {
-          "fin_byte_exclusivo": 8245,
-          "inicio_byte": 7011,
+          "fin_byte_exclusivo": 8521,
+          "inicio_byte": 7251,
           "primera_linea": 54,
           "seccion": "MD-L000054-L000061",
-          "sha256": "81786aa8e564b728d32a9d15e00ed3a854402942223787956e01b43f43d611c1",
-          "titulo": "Traducción auxiliar",
+          "sha256": "c78bcd5c2fb594dcebb381bbe93ce19ca40117bf54c48655a00adc813a0c0f4f",
+          "titulo": "18.4.1. Traducción auxiliar {#traducción-auxiliar}",
           "ultima_linea": 61
         },
         {
-          "fin_byte_exclusivo": 9465,
-          "inicio_byte": 8245,
+          "fin_byte_exclusivo": 9778,
+          "inicio_byte": 8521,
           "primera_linea": 62,
           "seccion": "MD-L000062-L000070",
-          "sha256": "e5872a1c0ce572e9524fedb2a94b051f90a1774e3f1c2daaff32054208504ea7",
-          "titulo": "Acceso y trazabilidad",
+          "sha256": "695ea6645684552fbe1e581ff203d95cf9174529e2e791ffaa5b922334826776",
+          "titulo": "18.4.2. Acceso y trazabilidad {#acceso-y-trazabilidad}",
           "ultima_linea": 70
         }
       ]
@@ -3652,7 +3652,7 @@
   ],
   "edicion": "biblioteca-sv-manual-integracion-20261019",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "cff8acf4fdb296c2ec8522f82339eb90eb4204a1896f982218ec70820bc1a961",
+  "politica_sha256": "6581ee5f96af862efa30e483dc928cdae05cf08b27a841253c7e979e481edfb3",
   "recepcion_visual": false,
   "version": 1
 }

@@ -1,4 +1,4 @@
-# Agradecimientos
+# **20.** Agradecimientos {#agradecimientos}
 
 El Lenguaje de Computación del Sistema Vectorial SV y sus herramientas asociadas se apoyan en proyectos, bibliotecas y tecnologías que contribuyen a su desarrollo, comprobación, gestión documental y representación. Agradecemos el trabajo de las comunidades y equipos que los crean, mantienen y documentan. Este reconocimiento comprende también las herramientas utilizadas en pruebas técnicas de inferencia, sin atribuirles por ello una función activa en todas las instalaciones.
 

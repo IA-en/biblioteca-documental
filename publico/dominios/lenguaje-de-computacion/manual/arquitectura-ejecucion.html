@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Arquitectura y entornos de ejecución - Manual del Lenguaje de Computación SV</title>
+        <title>7. Arquitectura y entornos de ejecución - Manual del Lenguaje de Computación SV</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-ae9af702.js"></script>
+        <script src="toc-16090f56.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -171,9 +171,9 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="arquitectura-y-entornos-de-ejecución"><a class="header" href="#arquitectura-y-entornos-de-ejecución">Arquitectura y entornos de ejecución</a></h1>
+                        <h1 id="arquitectura-y-entornos-de-ejecución"><a class="header" href="#arquitectura-y-entornos-de-ejecución"><strong>7.</strong> Arquitectura y entornos de ejecución</a></h1>
 <p>El Lenguaje SV mantiene sus reglas en Rust. Los entornos nativo y WebAssembly ofrecen vías de acceso a las funciones de una distribución; la interfaz utilizada no determina una semántica diferente. El gobierno de una operación y la elección de sus recursos se describen mediante contratos propios del Árbitro - Director, el Selector y el Explorador Tensorial.</p>
-<h2 id="del-archivo-svp-a-su-representación"><a class="header" href="#del-archivo-svp-a-su-representación">Del archivo SVP a su representación</a></h2>
+<h2 id="del-archivo-svp-a-su-representación"><a class="header" href="#del-archivo-svp-a-su-representación"><strong>7.1.</strong> Del archivo SVP a su representación</a></h2>
 <p>Un archivo SVP se interpreta conforme a su perfil lingüístico y a la versión de la gramática. El análisis y las comprobaciones producen una representación estructurada o un diagnóstico. La admisión del archivo acredita ese recorrido; la ejecución posterior de sus operaciones depende de las capacidades implementadas y recibidas para la versión correspondiente.</p>
 <div class="table-wrapper">
 <table>
@@ -188,7 +188,7 @@
 </table>
 </div>
 <p>La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/rust/Cargo.toml">organización de los componentes Rust</a> permite localizar su implementación. El capítulo de <a href="desarrollo-validacion-nucleo.html">desarrollo y validación del núcleo</a> precisa el alcance de las capacidades y sus comprobaciones.</p>
-<h2 id="ejecución-nativa-navegador-y-wasi"><a class="header" href="#ejecución-nativa-navegador-y-wasi">Ejecución nativa, navegador y WASI</a></h2>
+<h2 id="ejecución-nativa-navegador-y-wasi"><a class="header" href="#ejecución-nativa-navegador-y-wasi"><strong>7.2.</strong> Ejecución nativa, navegador y WASI</a></h2>
 <div class="table-wrapper">
 <table>
 <thead>
@@ -204,7 +204,7 @@
 <p>Linux es uno de los sistemas utilizados para compilar y comprobar el lenguaje. El sistema operativo, la arquitectura y las herramientas forman parte de la identificación del entorno; su nombre por sí solo no acredita compatibilidad con todos los destinos.</p>
 <p><a href="https://webassembly.org/">WebAssembly</a> es un formato de instrucciones que permite distribuir módulos compilados. <a href="https://wasi.dev/">WASI</a> define interfaces para su relación con el entorno. <a href="https://docs.wasmtime.dev/">Wasmtime</a> es un entorno de ejecución que puede utilizarse en equipos locales y servidores, como programa autónomo o como biblioteca. Una ejecución nativa no necesita Wasmtime por el hecho de realizarse en un PC.</p>
 <p>El Lenguaje SV utiliza WASI y Wasmtime en comprobaciones documentadas del núcleo, incluidas las <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/733202084d21f5bffbd082498a4599bad309fc04/docs/calidad/tuberias-ia/recepcion-integrada-2026-10-19/RESULTADOS.json">pruebas de recepción integrada</a>. Su alcance es distinto del de un motor de inferencia: comprobar el núcleo con WebAssembly no acredita que un modelo de IA pueda ejecutarse en ese entorno.</p>
-<h2 id="gobierno-de-la-ejecución-y-recursos"><a class="header" href="#gobierno-de-la-ejecución-y-recursos">Gobierno de la ejecución y recursos</a></h2>
+<h2 id="gobierno-de-la-ejecución-y-recursos"><a class="header" href="#gobierno-de-la-ejecución-y-recursos"><strong>7.3.</strong> Gobierno de la ejecución y recursos</a></h2>
 <div class="table-wrapper">
 <table>
 <thead>
@@ -219,11 +219,11 @@
 </table>
 </div>
 <p>El Director gobierna la operación; el Selector consulta las capacidades que aporta el Explorador antes de elegir el destino. La disponibilidad de un acelerador no le concede prioridad automática. El capítulo de <a href="hardware-aceleracion-tensorial.html">hardware de aceleración tensorial</a> presenta las realizaciones comprobadas y sus condiciones.</p>
-<h2 id="aplicaciones-y-condiciones-de-integración"><a class="header" href="#aplicaciones-y-condiciones-de-integración">Aplicaciones y condiciones de integración</a></h2>
+<h2 id="aplicaciones-y-condiciones-de-integración"><a class="header" href="#aplicaciones-y-condiciones-de-integración"><strong>7.4.</strong> Aplicaciones y condiciones de integración</a></h2>
 <p>Las aplicaciones relacionadas con el Lenguaje conservan identidad, revisión, procedencia y alcance autorizado en las entradas que preparan y los resultados que reciben. El contrato de integración delimita operaciones, tipos admitidos, permisos y recursos; la interfaz de una aplicación no puede ampliar esas facultades. La autorización institucional y la admisibilidad de una entrada son comprobaciones distintas y deben cumplirse conjuntamente cuando la operación las exige.</p>
 <p>El <a href="integracion-gestor-sv.html">Gestor del Sistema Vectorial SV</a> es una aplicación desarrollada en Rust para la administración de dominios, documentos, modelos, accesos y actuaciones. Su configuración institucional se explica en el apéndice de integración. Esa configuración identifica decisiones y condiciones de uso; las construcciones del lenguaje y su representación intermedia conservan las definiciones de sus capítulos propios.</p>
 <p>Cada integración declara las capacidades efectivamente habilitadas. La existencia de una ficha de configuración, un transporte o una interfaz de funciones no acredita la ejecución de una operación nuclear. El capítulo de <a href="desarrollo-validacion-nucleo.html">desarrollo y validación</a> delimita las capacidades recibidas y pendientes del Lenguaje.</p>
-<h2 id="fronteras-y-observación"><a class="header" href="#fronteras-y-observación">Fronteras y observación</a></h2>
+<h2 id="fronteras-y-observación"><a class="header" href="#fronteras-y-observación"><strong>7.5.</strong> Fronteras y observación</a></h2>
 <p>La interfaz visual transporta datos y presenta resultados. No modifica las reglas del núcleo, la terna, los permisos ni los dictámenes. Los contratos de frontera deben validar los datos antes de incorporarlos al recorrido que les corresponda. La construcción de un módulo WebAssembly no sustituye esas comprobaciones.</p>
 <p>La <a href="observabilidad.html">observabilidad</a> relaciona actuaciones y medidas en los puntos instrumentados. Cuando el cálculo pertenece a un servicio externo, la observación queda limitada al recorrido controlado por el SV y a los datos que proporciona ese servicio. El Director no selecciona el hardware interno de un proveedor externo.</p>
 <hr>
@@ -280,7 +280,7 @@
         <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="presentacion-0cfc7f9c.js"></script>
+        <script src="presentacion-63c97d25.js"></script>
 
 
 

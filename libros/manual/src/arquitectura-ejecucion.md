@@ -1,8 +1,8 @@
-# Arquitectura y entornos de ejecución
+# **7.** Arquitectura y entornos de ejecución {#arquitectura-y-entornos-de-ejecución}
 
 El Lenguaje SV mantiene sus reglas en Rust. Los entornos nativo y WebAssembly ofrecen vías de acceso a las funciones de una distribución; la interfaz utilizada no determina una semántica diferente. El gobierno de una operación y la elección de sus recursos se describen mediante contratos propios del Árbitro - Director, el Selector y el Explorador Tensorial.
 
-## Del archivo SVP a su representación
+## **7.1.** Del archivo SVP a su representación {#del-archivo-svp-a-su-representación}
 
 Un archivo SVP se interpreta conforme a su perfil lingüístico y a la versión de la gramática. El análisis y las comprobaciones producen una representación estructurada o un diagnóstico. La admisión del archivo acredita ese recorrido; la ejecución posterior de sus operaciones depende de las capacidades implementadas y recibidas para la versión correspondiente.
 
@@ -14,7 +14,7 @@ Un archivo SVP se interpreta conforme a su perfil lingüístico y a la versión 
 
 La [organización de los componentes Rust](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/rust/Cargo.toml) permite localizar su implementación. El capítulo de [desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md) precisa el alcance de las capacidades y sus comprobaciones.
 
-## Ejecución nativa, navegador y WASI
+## **7.2.** Ejecución nativa, navegador y WASI {#ejecución-nativa-navegador-y-wasi}
 
 | Entorno | Función en el Lenguaje SV | Condición de uso |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ Linux es uno de los sistemas utilizados para compilar y comprobar el lenguaje. E
 
 El Lenguaje SV utiliza WASI y Wasmtime en comprobaciones documentadas del núcleo, incluidas las [pruebas de recepción integrada](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/733202084d21f5bffbd082498a4599bad309fc04/docs/calidad/tuberias-ia/recepcion-integrada-2026-10-19/RESULTADOS.json). Su alcance es distinto del de un motor de inferencia: comprobar el núcleo con WebAssembly no acredita que un modelo de IA pueda ejecutarse en ese entorno.
 
-## Gobierno de la ejecución y recursos
+## **7.3.** Gobierno de la ejecución y recursos {#gobierno-de-la-ejecución-y-recursos}
 
 | Componente | Responsabilidad | Resultado esperado |
 | --- | --- | --- |
@@ -39,7 +39,7 @@ El Lenguaje SV utiliza WASI y Wasmtime en comprobaciones documentadas del núcle
 
 El Director gobierna la operación; el Selector consulta las capacidades que aporta el Explorador antes de elegir el destino. La disponibilidad de un acelerador no le concede prioridad automática. El capítulo de [hardware de aceleración tensorial](hardware-aceleracion-tensorial.md) presenta las realizaciones comprobadas y sus condiciones.
 
-## Aplicaciones y condiciones de integración
+## **7.4.** Aplicaciones y condiciones de integración {#aplicaciones-y-condiciones-de-integración}
 
 Las aplicaciones relacionadas con el Lenguaje conservan identidad, revisión, procedencia y alcance autorizado en las entradas que preparan y los resultados que reciben. El contrato de integración delimita operaciones, tipos admitidos, permisos y recursos; la interfaz de una aplicación no puede ampliar esas facultades. La autorización institucional y la admisibilidad de una entrada son comprobaciones distintas y deben cumplirse conjuntamente cuando la operación las exige.
 
@@ -47,7 +47,7 @@ El [Gestor del Sistema Vectorial SV](integracion-gestor-sv.md) es una aplicació
 
 Cada integración declara las capacidades efectivamente habilitadas. La existencia de una ficha de configuración, un transporte o una interfaz de funciones no acredita la ejecución de una operación nuclear. El capítulo de [desarrollo y validación](desarrollo-validacion-nucleo.md) delimita las capacidades recibidas y pendientes del Lenguaje.
 
-## Fronteras y observación
+## **7.5.** Fronteras y observación {#fronteras-y-observación}
 
 La interfaz visual transporta datos y presenta resultados. No modifica las reglas del núcleo, la terna, los permisos ni los dictámenes. Los contratos de frontera deben validar los datos antes de incorporarlos al recorrido que les corresponda. La construcción de un módulo WebAssembly no sustituye esas comprobaciones.
 

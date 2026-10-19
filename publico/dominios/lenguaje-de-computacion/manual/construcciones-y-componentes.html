@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Construcciones e instrucciones propias - Manual del Lenguaje de Computación SV</title>
+        <title>3. Construcciones e instrucciones propias - Manual del Lenguaje de Computación SV</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-ae9af702.js"></script>
+        <script src="toc-16090f56.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -171,10 +171,10 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="construcciones-del-lenguaje-y-componentes-propios"><a class="header" href="#construcciones-del-lenguaje-y-componentes-propios">Construcciones e instrucciones propias</a></h1>
+                        <h1 id="construcciones-del-lenguaje-y-componentes-propios"><a class="header" href="#construcciones-del-lenguaje-y-componentes-propios"><strong>3.</strong> Construcciones e instrucciones propias</a></h1>
 <p><strong>Referencia explicativa · 19 de octubre de 2026.</strong></p>
 <p>El Lenguaje SV dispone de una gramática superficial y una representación intermedia. La primera determina cómo se escriben sus programas; la segunda conserva sus objetos y operaciones de forma estructurada. Las bibliotecas Rust que realizan estas funciones pertenecen a la implementación y no son, por ello, bibliotecas importables desde un archivo SVP.</p>
-<h2 id="estados-celulares-y-terna"><a class="header" href="#estados-celulares-y-terna">Estados celulares y terna</a></h2>
+<h2 id="estados-celulares-y-terna"><a class="header" href="#estados-celulares-y-terna"><strong>3.1.</strong> Estados celulares y terna</a></h2>
 <p>El estado de una célula conserva una secuencia ordenada de posiciones. Cada posición identifica un parámetro conforme a la constitución del dominio. La terna vigente expresa:</p>
 <div class="table-wrapper">
 <table>
@@ -190,7 +190,7 @@
 </div>
 <p>La interpretación de cada posición identifica la cuestión evaluada, los datos admitidos y las reglas utilizadas. U no es un número para promediar ni un sustituto automático de un fallo de ejecución. La conclusión de una evaluación depende de la operación y del codominio declarados; un recuento de valores no sustituye esa regla ni conserva su orden.</p>
 <p>El convenio se recoge en los <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f10aac725676997adc3840a1bd1a41e1579589ea/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/Fundamentos%20algebraico-sem%C3%A1nticos%20del%20Sistema%20Vectorial%20SV.md">Fundamentos algebraico-semánticos del Sistema Vectorial SV</a>. La <a href="parametros-rutas.html#correspondencia-visual">correspondencia visual</a> explica su representación mediante el polígono del SV.</p>
-<h2 id="declaraciones-y-operaciones"><a class="header" href="#declaraciones-y-operaciones">Declaraciones y operaciones</a></h2>
+<h2 id="declaraciones-y-operaciones"><a class="header" href="#declaraciones-y-operaciones"><strong>3.2.</strong> Declaraciones y operaciones</a></h2>
 <p>Las declaraciones expresan, entre otros objetos, codominios, semánticas de salida, especificaciones y estados celulares, tablas de admisibilidad, grafos, marcos, trayectorias, dominios y agentes. El análisis del programa conserva esas definiciones en la representación intermedia. Las operaciones utilizan referencias explícitas a los objetos declarados.</p>
 <div class="table-wrapper">
 <table>
@@ -209,12 +209,12 @@
 </table>
 </div>
 <p>Los nombres anteriores pertenecen al perfil SVP-EN. El perfil SVP-ES ofrece sus formas documentadas, como <code>evaluar</code>, <code>compuerta</code>, <code>resolver</code>, <code>consultar</code>, <code>supervisar</code> y <code>componer</code>. La selección del perfil es explícita. La gramática define las firmas y restricciones de estas operaciones. El capítulo de desarrollo y validación del núcleo distingue su representación de las capacidades de ejecución disponibles.</p>
-<h2 id="componentes-rust"><a class="header" href="#componentes-rust">Componentes Rust</a></h2>
+<h2 id="componentes-rust"><a class="header" href="#componentes-rust"><strong>3.3.</strong> Componentes Rust</a></h2>
 <p>La organización de <code>sv_core</code>, <code>sv_native</code> y <code>sv_wasm</code>, sus entornos y sus fronteras se explica en <a href="arquitectura-ejecucion.html">Arquitectura y entornos de ejecución</a>. Son componentes de la implementación; no son instrucciones que un archivo SVP pueda importar.</p>
-<h2 id="bibliotecas-de-la-dsl-y-macros"><a class="header" href="#bibliotecas-de-la-dsl-y-macros">Bibliotecas de la DSL y macros</a></h2>
+<h2 id="bibliotecas-de-la-dsl-y-macros"><a class="header" href="#bibliotecas-de-la-dsl-y-macros"><strong>3.4.</strong> Bibliotecas de la DSL y macros</a></h2>
 <p>SVP 0.2 no incluye macros ni importación general de bibliotecas de la DSL. Cargo organiza las dependencias de la realización en Rust; los módulos Rust distribuyen su código, y el Playground permite ensamblar unidades SVP. Cada mecanismo cumple una función distinta.</p>
 <p>El ensamblaje permite relacionar las declaraciones de varias unidades y comprobar el conjunto. La guía del <a href="playground-sv.html#ensamblar-unidades">Playground</a> explica su utilización.</p>
-<h2 id="fuentes-y-alcance"><a class="header" href="#fuentes-y-alcance">Fuentes y alcance</a></h2>
+<h2 id="fuentes-y-alcance"><a class="header" href="#fuentes-y-alcance"><strong>3.5.</strong> Fuentes y alcance</a></h2>
 <ul>
 <li><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/GRAMATICA_SUPERFICIAL_MINIMA_SV_v0_1.md">Gramática superficial mínima v0.1</a> y <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/GRAMATICA_SUPERFICIAL_MINIMA_SV_v0_2.md">precisiones de v0.2</a>. Las precisiones posteriores prevalecen sobre las formas que sustituyen.</li>
 <li><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/rust/Cargo.toml">Organización de los componentes Rust</a>.</li>
@@ -274,7 +274,7 @@
         <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="presentacion-0cfc7f9c.js"></script>
+        <script src="presentacion-63c97d25.js"></script>
 
 
 

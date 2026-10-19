@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Desarrollo y validación del núcleo - Manual del Lenguaje de Computación SV</title>
+        <title>17. Desarrollo y validación del núcleo - Manual del Lenguaje de Computación SV</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-ae9af702.js"></script>
+        <script src="toc-16090f56.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -171,10 +171,10 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="desarrollo-y-validación-del-núcleo"><a class="header" href="#desarrollo-y-validación-del-núcleo">Desarrollo y validación del núcleo</a></h1>
+                        <h1 id="desarrollo-y-validación-del-núcleo"><a class="header" href="#desarrollo-y-validación-del-núcleo"><strong>17.</strong> Desarrollo y validación del núcleo</a></h1>
 <p>El desarrollo del Lenguaje de Computación SV debe demostrar que las reglas descritas pueden ejecutarse conservando su significado, sus límites de autoridad y la evidencia de cada actuación. Las necesidades de los dominios y de los componentes que utilizan el lenguaje permiten comprobar si esa realización es suficiente.</p>
 <p>Este capítulo ofrece dos perspectivas complementarias: <strong>qué capacidades requieren desarrollo o integración</strong> y <strong>cómo se someten a comprobación las exigencias que recaen sobre el núcleo</strong>. La explicación corresponde a la documentación consolidada el <strong>19 de octubre de 2026</strong>. Las recepciones técnicas posteriores deben consultarse en los registros enlazados; la fecha de este capítulo no acredita por sí sola su ejecución.</p>
-<h2 id="cómo-interpretar-el-estado-de-una-capacidad"><a class="header" href="#cómo-interpretar-el-estado-de-una-capacidad">Cómo interpretar el estado de una capacidad</a></h2>
+<h2 id="cómo-interpretar-el-estado-de-una-capacidad"><a class="header" href="#cómo-interpretar-el-estado-de-una-capacidad"><strong>17.1.</strong> Cómo interpretar el estado de una capacidad</a></h2>
 <p>Una capacidad puede estar descrita en un contrato, representada mediante estructuras de datos, realizada en código o comprobada en una operación concreta. Esas situaciones deben distinguirse:</p>
 <div class="table-wrapper">
 <table>
@@ -190,7 +190,7 @@
 </table>
 </div>
 <p>Compilar un componente no equivale a comprobar toda su conducta. Las pruebas de una interfaz, de un servicio documental o de un supervisor tampoco sustituyen una prueba del núcleo. Una recepción favorable conserva la versión, las entradas y los límites examinados; no se extiende automáticamente a otros dominios, soportes u operaciones.</p>
-<h2 id="capacidades-en-desarrollo-e-integración"><a class="header" href="#capacidades-en-desarrollo-e-integración">Capacidades en desarrollo e integración</a></h2>
+<h2 id="capacidades-en-desarrollo-e-integración"><a class="header" href="#capacidades-en-desarrollo-e-integración"><strong>17.2.</strong> Capacidades en desarrollo e integración</a></h2>
 <p>La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/e4346b2971a8775608b761fa0823f76b5eb2b020/docs/evoluciones-desde-el-nucleo-no-cotejadas-generadas-por-pruebas-con-la-ia-sin-aprobacion-aun/entrega-consolidada-2026-10-19/ENTREGA.md">entrega consolidada de exigencias</a> relaciona obligaciones, evidencias parciales, responsables funcionales y criterios de recepción. La siguiente tabla explica sus ámbitos sin sustituir ese registro.</p>
 <div class="table-wrapper">
 <table>
@@ -213,7 +213,7 @@
 <p>En esta edición, las necesidades están recogidas en la entrega consolidada, pero <strong>la recepción nuclear integrada y la adenda completa de integridad y trazabilidad siguen pendientes</strong>. Las recepciones parciales acreditan las capacidades y condiciones expresamente comprobadas en sus documentos. Entre las obligaciones materiales pendientes de la adenda figuran la autoridad de la instrucción directa, la no dependencia indebida de información protegida, la revisión efectiva y la entrega limitada al destinatario legítimo.</p>
 <p>La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/integracion-adenda-ia-frame-y-catalogo-errores/s13-suficiencia-semantica-ir/ACTA_SUFICIENCIA.md">suficiencia semántica y de representación intermedia</a> distingue una consulta representada de su resultado ejecutado, una transición validada de su ejecución y una observación del procedimiento que determina su valor ternario. El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/arquitectura/CONTRATO_R2_0_PERSISTENCIA_CONTINUIDAD_Y_RECUPERACION_2026_08_25.md">contrato R2 de persistencia, continuidad y recuperación</a> mantiene sus propias condiciones de recepción.</p>
 <p>El SV conserva <strong>un único contrato del polígono y la terna vigente</strong>. Su dimensión procede de la constitución del dominio; no se deduce del número de definiciones de un documento. La representación con Rust y egui debe reflejar fielmente el resultado correspondiente. La presentación gráfica no introduce otra semántica ni sustituye la decisión del núcleo.</p>
-<h2 id="exigencias-y-pruebas-de-presión-sobre-el-núcleo"><a class="header" href="#exigencias-y-pruebas-de-presión-sobre-el-núcleo">Exigencias y pruebas de presión sobre el núcleo</a></h2>
+<h2 id="exigencias-y-pruebas-de-presión-sobre-el-núcleo"><a class="header" href="#exigencias-y-pruebas-de-presión-sobre-el-núcleo"><strong>17.3.</strong> Exigencias y pruebas de presión sobre el núcleo</a></h2>
 <p>La presión funcional consiste en enfrentar una operación a obligaciones que debe conservar: una autorización revocada, una fuente incompleta, dos causas distintas o una recuperación que pudiera alterar el pasado. El estrés de recursos examina su comportamiento ante límites y concurrencia. Son perspectivas relacionadas, con criterios y recintos de prueba distintos.</p>
 <div class="table-wrapper">
 <table>
@@ -233,7 +233,7 @@
 <p>Cada comprobación debe incluir un <strong>caso admisible</strong>, un <strong>caso adverso</strong> y una <strong>alteración controlada que pruebe la sensibilidad del observador</strong>. Rechazar todas las entradas no demuestra corrección. Comparar dos realizaciones entre sí tampoco basta si ambas pueden cometer el mismo error: el resultado esperado debe apoyarse en el contrato y en una referencia independiente de la propuesta evaluada.</p>
 <p>Antes de ejecutar se fijan la operación, las versiones, el estado inicial, las entradas, el permiso, el soporte, el resultado esperado y el método de observación. Después se conservan el resultado observado, los efectos materiales, las causas, las exclusiones y la recepción competente. La evidencia debe permitir seguir la información desde su fuente hasta su interpretación y uso por la operación, incluyendo su recuperación cuando se empleen referencias.</p>
 <p>Las pruebas de disponibilidad se efectúan en un recinto de ensayo autorizado. No se deduce una garantía sobre canales no observados ni sobre soportes distintos. Las <a href="herramientas-desarrollo-comprobacion.html">herramientas de desarrollo y comprobación</a> ayudan a producir estas evidencias, pero no sustituyen la revisión de su alcance.</p>
-<h2 id="de-la-necesidad-a-la-capacidad-recibida"><a class="header" href="#de-la-necesidad-a-la-capacidad-recibida">De la necesidad a la capacidad recibida</a></h2>
+<h2 id="de-la-necesidad-a-la-capacidad-recibida"><a class="header" href="#de-la-necesidad-a-la-capacidad-recibida"><strong>17.4.</strong> De la necesidad a la capacidad recibida</a></h2>
 <ol>
 <li><strong>Definir la obligación.</strong> Precisar qué información o propiedad debe conservarse y qué operación la necesita.</li>
 <li><strong>Asignar y recibir el trabajo.</strong> Identificar la función responsable, las aportaciones y la función que comprobará el resultado. Una asignación funcional no acredita por sí sola que un ejecutor haya aceptado el encargo.</li>
@@ -242,7 +242,7 @@
 </ol>
 <p>Una necesidad del dominio no convierte toda su solución en una obligación interna del núcleo: la institución constituye facultades y finalidades, el dominio determina el significado profesional, los contratos del lenguaje expresan sus obligaciones y los componentes de ejecución demuestran su cumplimiento material. La composición debe respetar esas responsabilidades.</p>
 <p>La conexión con un proveedor no concede permiso para entregarle contenido. La política de la instalación y la autorización específica de cada actuación determinan los datos y destinos admisibles. El <a href="arbitro-director.html#documentos-y-herramientas">Árbitro - Director</a> debe aplicar esa frontera también a los contadores remotos; describir una capacidad del núcleo no autoriza su uso.</p>
-<h2 id="fuentes-vigentes-y-mantenimiento-del-capítulo"><a class="header" href="#fuentes-vigentes-y-mantenimiento-del-capítulo">Fuentes vigentes y mantenimiento del capítulo</a></h2>
+<h2 id="fuentes-vigentes-y-mantenimiento-del-capítulo"><a class="header" href="#fuentes-vigentes-y-mantenimiento-del-capítulo"><strong>17.5.</strong> Fuentes vigentes y mantenimiento del capítulo</a></h2>
 <p>Las actualizaciones posteriores a esta edición se recogen en el <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/REGISTRO_DEUDA_VIVA_DEL_FRENTE_FINAL_DEL_LENGUAJE_SV.md">registro de obligaciones pendientes y recepciones del Lenguaje</a> y en los documentos de recepción que éste enlaza. La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/integracion-adenda-ia-frame-y-catalogo-errores/s19-recepcion-integracion-y-causas/MATRIZ_COBERTURA_A_L.md">matriz de cobertura de la adenda</a> conserva el alcance de sus contrastes. La entrega consolidada ofrece la correspondencia completa y sus fuentes identificadas.</p>
 <p>Este capítulo se revisará cuando una recepción cambie las capacidades aquí descritas o se modifique un contrato que afecte a su explicación. Se actualizarán la fecha, el alcance y las referencias, conservando las versiones anteriores. Los registros técnicos mantienen el detalle de cada obligación; el manual explica su significado y sus condiciones de comprobación. Una recepción nueva puede cerrar un pendiente concreto, y un contraejemplo nuevo puede revelar otra necesidad.</p>
 <hr>
@@ -299,7 +299,7 @@
         <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="presentacion-0cfc7f9c.js"></script>
+        <script src="presentacion-63c97d25.js"></script>
 
 
 

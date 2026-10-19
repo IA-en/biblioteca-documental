@@ -1,10 +1,10 @@
-# Integración con el Gestor del Sistema Vectorial SV
+# **18.** Integración con el Gestor del Sistema Vectorial SV {#integración-con-el-gestor-del-sistema-vectorial-sv}
 
 El **Gestor del Sistema Vectorial SV** es una aplicación desarrollada en Rust que reúne la administración de dominios, documentación, modelos y conexiones, permisos, evaluaciones y registros de actividad. La gestión documental es uno de sus módulos. El acceso a cada función depende de su habilitación y de las facultades de la cuenta.
 
 Este apéndice explica la relación del Gestor con los contratos del Lenguaje. Las instrucciones y los archivos SVP se estudian en los capítulos del lenguaje; las operaciones cotidianas del aplicativo disponen de ayuda contextual. La [portada del Gestor](https://administracion.itvia.online/) ofrece acceso a la aplicación y a sus servicios públicos. El alojamiento, los proveedores de identidad y la custodia se determinan para cada instalación.
 
-## Función del Gestor y relación con el Lenguaje
+## **18.1.** Función del Gestor y relación con el Lenguaje {#función-del-gestor-y-relación-con-el-lenguaje}
 
 El Gestor prepara y conserva decisiones institucionales: qué dominio se configura, qué recursos puede utilizar, quién está autorizado y qué documentos sustentan una actuación. El Lenguaje expresa y comprueba los objetos y operaciones definidos por sus contratos, dentro del alcance implementado. La configuración administrativa no modifica la semántica ni añade instrucciones a la DSL.
 
@@ -21,13 +21,13 @@ El diagrama expresa responsabilidades y condiciones de integración. Las operaci
 
 HTML y CSS presentan los controles; JavaScript desempeña las funciones de transporte y presentación delimitadas para el visor. El visor Rust/egui compilado a WebAssembly conserva la representación recibida y carece de autoridad para cambiar estados, permisos o reglas del núcleo. Una IA tampoco obtiene acceso directo al núcleo: la tubería y la instrucción de frontera deben comprobar las entradas admisibles. Estas obligaciones son distintas del control de salida de datos hacia un proveedor.
 
-## Estados y representación
+## **18.2.** Estados y representación {#estados-y-representación}
 
 El Gestor conserva el significado de los [estados celulares](construcciones-y-componentes.md#estados-celulares-y-terna) y su [correspondencia con el polígono](parametros-rutas.md#correspondencia-visual). La posición, el parámetro, el estado y la revisión deben mantenerse unidos al consultar la evidencia. Una representación desactualizada no describe el estado vigente.
 
 Los indicadores de conexión o preparación informan de comprobaciones administrativas y técnicas. No constituyen valoraciones de la terna: una conexión correcta no concede aptitud a un modelo, y un fallo de conexión necesita su diagnóstico propio. La vigencia y el alcance de la comprobación deben ser visibles junto a su resultado.
 
-## Configuración por dominio
+## **18.3.** Configuración por dominio {#configuración-por-dominio}
 
 La preparación institucional sigue el orden **dominio → nodo → modelo**. El dominio establece la necesidad y el alcance; el nodo delimita las posibilidades de ejecución y de auditoría; después se elige un modelo compatible con esas condiciones.
 
@@ -47,11 +47,11 @@ La ficha institucional registra la decisión, su aplicación, la cuenta responsa
 
 **Alcance de esta edición del Gestor.** Los nodos 1 y 2 no están habilitados. El nodo 3 permite preparar y comprobar conexiones; el control vigente limita la comunicación con proveedores a autenticación y consulta del catálogo sin contenido documental. Bloquea documentos, preguntas y respuestas, incluidas las entregas a contadores remotos. La inferencia experta en producción permanece deshabilitada. Una decisión institucional sobre un candidato no elimina estos límites.
 
-## Documentos y evidencias
+## **18.4.** Documentos y evidencias {#documentos-y-evidencias}
 
 El Gestor aplica las condiciones de [fidelidad y acceso a las fuentes](parametros-rutas.md#fidelidad-y-acceso-a-las-fuentes). La identidad del original, su versión, la selección y las transformaciones permiten reconstruir qué información se utilizó. La integridad de un archivo y la fidelidad de su representación son comprobaciones complementarias.
 
-### Traducción auxiliar
+### **18.4.1.** Traducción auxiliar {#traducción-auxiliar}
 
 HelsinkiNLP es una herramienta auxiliar de lectura, fuera de los tres nodos de inferencia experta. El motor local y los archivos del modelo forman parte de la instalación del Gestor; su ejecución aislada utiliza un proceso auxiliar. La disponibilidad exige que estén presentes los componentes identificados, además de la habilitación institucional y el permiso documental del lector.
 
@@ -59,7 +59,7 @@ La administración puede desactivarla desde la ficha institucional. El Gestor im
 
 La traducción facilita la comprensión humana y debe contrastarse con el original. No es una traducción certificada ni sustituye una revisión científica, clínica o jurídica. Su salida no se incorpora como entrada al núcleo, a la semántica, a la IR, a un examen o al consejo experto. En las evaluaciones que exigen documentación íntegra y nativa, se conserva ese requisito.
 
-### Acceso y trazabilidad
+### **18.4.2.** Acceso y trazabilidad {#acceso-y-trazabilidad}
 
 La consulta de una conclusión y de sus referencias no concede permiso para abrir los documentos que la sustentan. Cuando el usuario carece de permiso documental, la presentación se limita al consejo y a la procedencia autorizados, sin fragmentos ni apertura del original. La comprobación corresponde al servicio y debe mantenerse en cada vía de acceso, incluida la representación visual.
 

@@ -1,8 +1,8 @@
-# Observabilidad y medidas
+# **12.** Observabilidad y medidas {#observabilidad-y-medidas}
 
 La observabilidad permite relacionar una actuación con sus tiempos, resultados y recursos medidos. Su utilidad depende de identificar qué componente produce cada dato, en qué intervalo se obtiene y qué parte del recorrido cubre.
 
-## Trazas, recursos y consumo
+## **12.1.** Trazas, recursos y consumo {#trazas-recursos-y-consumo}
 
 | Registro | Qué describe | Límite de interpretación |
 | --- | --- | --- |
@@ -12,19 +12,19 @@ La observabilidad permite relacionar una actuación con sus tiempos, resultados 
 
 Los tres registros se complementan. Para interpretar un resultado se conservan la identidad de la actuación, la versión del componente, las unidades, el intervalo y las incidencias. Una interrupción, una medida parcial o una pérdida de registro deben quedar visibles.
 
-## Instrumentación con OpenTelemetry Rust
+## **12.2.** Instrumentación con OpenTelemetry Rust {#instrumentación-con-opentelemetry-rust}
 
 [OpenTelemetry Rust](https://github.com/open-telemetry/opentelemetry-rust) proporciona la API y el SDK utilizados en los componentes instrumentados. La [aplicación de conversación nativa](https://github.com/juantoniolloretegea/SV-motor/blob/0d01e72302e9006eb747c4a1fe7da8c7a4822156/laboratorio/ensayo-ia-y-observabilidad/conversacion-nativa/src/telemetry.rs) conserva sus trazas mediante un exportador local acotado. La [documentación de OpenTelemetry para Rust](https://opentelemetry.io/docs/languages/rust/) explica sus interfaces.
 
 La instrumentación relaciona operaciones mediante identificadores de traza, tiempos y resultados. Pertenece a los componentes asociados que la incorporan; no constituye una dependencia del núcleo del lenguaje ni se activa automáticamente en toda instalación. Los destinos de conservación o exportación forman parte de la configuración y de sus permisos.
 
-## Alcance de la observación
+## **12.3.** Alcance de la observación {#alcance-de-la-observación}
 
 La cobertura depende de los componentes y puntos de medida activos. En una API externa, el SV observa su propio recorrido y la información que devuelve el proveedor. Esas medidas no permiten inspeccionar el razonamiento interno del modelo ni acreditar una observación íntegra de su infraestructura.
 
 El [Explorador Tensorial](explorador-tensorial-sv.md) identifica recursos y capacidades. El [Selector](selector-arbitro-director.md) utiliza la información pertinente para elegir el destino. Las medidas de ejecución permiten contrastar después la elección con el dispositivo realmente empleado. Descubrir un dispositivo y medir una operación ejecutada en él son comprobaciones diferentes.
 
-## Lectura de los resultados
+## **12.4.** Lectura de los resultados {#lectura-de-los-resultados}
 
 Los tiempos deben indicar su origen y el tramo medido: preparación, transferencia, cálculo o recorrido completo. La comparación de rendimientos requiere condiciones equivalentes y la misma definición de las medidas. El capítulo de [hardware](hardware-aceleracion-tensorial.md) concreta estos límites en las realizaciones disponibles.
 

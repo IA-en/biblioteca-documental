@@ -1,4 +1,4 @@
-# Hardware de aceleración tensorial
+# **11.** Hardware de aceleración tensorial {#hardware-de-aceleración-tensorial}
 
 **Dispositivos, plataformas y condiciones de ejecución · 16 de octubre de 2026.**
 
@@ -6,7 +6,7 @@ Este capítulo describe el soporte físico sobre el que pueden ejecutarse las op
 
 La capacidad del SV se documenta por dispositivo y configuración comprobados. Los resultados de un procesador concreto se circunscriben a su arquitectura, operaciones y condiciones de ejecución; no se atribuyen al conjunto de productos de su fabricante.
 
-## Clases de dispositivos
+## **11.1.** Clases de dispositivos {#clases-de-dispositivos}
 
 | Clase | Función y condición de uso |
 | --- | --- |
@@ -17,7 +17,7 @@ La capacidad del SV se documenta por dispositivo y configuración comprobados. L
 
 La utilización de un acelerador requiere identificar su modelo exacto, comprobar su exposición al sistema y las operaciones compatibles, y observar su participación efectiva en el cálculo.
 
-## Dispositivos observados en los ensayos
+## **11.2.** Dispositivos observados en los ensayos {#dispositivos-observados-en-los-ensayos}
 
 | Fabricante y dispositivo | Plataforma | Alcance comprobado |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ La utilización de un acelerador requiere identificar su modelo exacto, comproba
 
 El [catálogo por fabricantes](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/64486cd28394f066e550d50b13be2326ade48d2d/docs/hardware-de-aceleracion-tensorial) conserva las especificaciones, las fuentes y las condiciones de cada prueba. Las fichas relacionan cada resultado con el dispositivo que lo produjo. Las fichas CPU y acelerador de una misma plataforma describen el mismo experimento y no deben contabilizarse como pruebas independientes.
 
-## Realización en Rust y soporte del dispositivo
+## **11.3.** Realización en Rust y soporte del dispositivo {#realización-en-rust-y-soporte-del-dispositivo}
 
 El lenguaje de la aplicación y el soporte de ejecución del fabricante deben identificarse por separado. En la prueba NVIDIA, SV-Aprender realiza en Rust el control y la generación de instrucciones PTX para las operaciones utilizadas. El recorrido comprobado utiliza la interfaz CUDA Driver y el controlador NVIDIA; no utiliza cuBLAS ni un motor de cálculo del modelo en CUDA C++. Por tanto, la prueba no demuestra independencia de CUDA ni que el controlador del dispositivo esté escrito en Rust.
 
@@ -39,7 +39,7 @@ En la prueba Google, la realización del traductor y su control están en Rust; 
 
 En la prueba MI300X, el producto matricial se define en Rust/CubeCL y se compila mediante LLVM AMDGPU. HIP proporciona carga, transferencias y ejecución; LLVM/LLD y sus adaptaciones nativas siguen siendo dependencias externas. El ensayo no utiliza rocBLAS ni hipBLAS.
 
-## Condiciones de comparación
+## **11.4.** Condiciones de comparación {#condiciones-de-comparación}
 
 Una comparación reproducible identifica operación, datos, modelo y revisión, representación numérica, dimensiones, memoria, dispositivo, adaptador, versiones y límites temporales de la medición. Debe distinguir calentamiento y calibración de las solicitudes posteriores, así como actividad propia y utilización agregada.
 

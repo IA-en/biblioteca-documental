@@ -1,8 +1,8 @@
-# Conformidad y diagnósticos
+# **14.** Conformidad y diagnósticos {#conformidad-y-diagnósticos}
 
 La conformidad comprueba que una realización del lenguaje cumple las reglas y los resultados esperados para una versión determinada. Incluye programas que deben admitirse y programas que deben rechazarse por una causa precisa.
 
-## Admisión, rechazo e incidencia
+## **14.1.** Admisión, rechazo e incidencia {#admisión-rechazo-e-incidencia}
 
 | Situación | Interpretación |
 | --- | --- |
@@ -15,7 +15,7 @@ El [catálogo de errores v0.3](https://github.com/juantoniolloretegea/SV-lenguaj
 
 Los códigos declarados en el catálogo y los mensajes emitidos por una realización tienen alcances distintos. La [concordancia diagnóstica](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/docs/calidad/MATRIZ_DE_CONCORDANCIA_DIAGNOSTICA_IR_IMPLEMENTACION_SV.md) distingue obligaciones, fases y resultados observados. Cuando la implementación emite un código estructurado, se conserva junto con el mensaje y su causa. Si sólo emite un resultado textual, éste se conserva sin asignarle un código por interpretación.
 
-## Rechazos deliberados
+## **14.2.** Rechazos deliberados {#rechazos-deliberados}
 
 El archivo `cellstate_vector_length_mismatch.svp` comprueba la discordancia entre la longitud del vector y la dimensión de la célula. Se espera un rechazo. Se conserva sin corregirlo dentro de la colección negativa: su finalidad consiste precisamente en comprobar esa restricción.
 
@@ -23,7 +23,7 @@ Una prueba reproducible identifica el archivo íntegro, su perfil, la versión d
 
 El repositorio separa los archivos [válidos de conformidad](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/ed93885589015d567905d1c880d8097869310085/tests/conformance/valid) y los [casos de rechazo](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/ed93885589015d567905d1c880d8097869310085/tests/conformance/invalid). Los [ejemplos por construcción](ejemplos-svp.md) ofrecen una entrada didáctica a los programas admitidos; las aplicaciones completas tienen su [sección propia](programacion-dsl.md).
 
-## Paridad entre destinos
+## **14.3.** Paridad entre destinos {#paridad-entre-destinos}
 
 La paridad contrasta los resultados de los destinos nativo y WebAssembly sobre los casos establecidos. La coincidencia entre destinos no basta: ambos resultados deben corresponder a la especificación y a las expectativas de cada prueba. Las [herramientas de comprobación](herramientas-desarrollo-comprobacion.md) describen la ejecución de estas verificaciones.
 

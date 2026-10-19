@@ -1,40 +1,40 @@
 # Índice
 
-[Presentación y alcance](presentacion.md)
+[**1.** Presentación y alcance](presentacion.md)
 
-# El Lenguaje de Computación SV
+# **I.** El Lenguaje de Computación SV
 
-- [Ámbito y organización](constructor.md)
-- [Construcciones e instrucciones propias](construcciones-y-componentes.md)
+- [**2.** Ámbito y organización](constructor.md)
+- [**3.** Construcciones e instrucciones propias](construcciones-y-componentes.md)
 
-# Práctica con archivos SVP
+# **II.** Práctica con archivos SVP
 
-- [Playground del Lenguaje SV](playground-sv.md)
-- [Ejemplos por construcción](ejemplos-svp.md)
-- [Programas completos y aplicaciones — en desarrollo](programacion-dsl.md)
+- [**4.** Playground del Lenguaje SV](playground-sv.md)
+- [**5.** Ejemplos por construcción](ejemplos-svp.md)
+- [**6.** Programas completos y aplicaciones — en desarrollo](programacion-dsl.md)
 
-# Arquitectura y recursos
+# **III.** Arquitectura y recursos
 
-- [Arquitectura y entornos de ejecución](arquitectura-ejecucion.md)
-- [Árbitro - Director](arbitro-director.md)
-  - [Selector CPU/GPU/TPU/NPU](selector-arbitro-director.md)
-    - [Explorador Tensorial del SV](explorador-tensorial-sv.md)
-- [Hardware de aceleración tensorial](hardware-aceleracion-tensorial.md)
+- [**7.** Arquitectura y entornos de ejecución](arquitectura-ejecucion.md)
+- [**8.** Árbitro - Director](arbitro-director.md)
+  - [**9.** Selector CPU/GPU/TPU/NPU](selector-arbitro-director.md)
+    - [**10.** Explorador Tensorial del SV](explorador-tensorial-sv.md)
+- [**11.** Hardware de aceleración tensorial](hardware-aceleracion-tensorial.md)
 
-# Observabilidad y comprobación
+# **IV.** Observabilidad y comprobación
 
-- [Observabilidad y medidas](observabilidad.md)
-- [Herramientas de desarrollo y comprobación](herramientas-desarrollo-comprobacion.md)
-- [Conformidad y diagnósticos](conformidad-diagnosticos.md)
+- [**12.** Observabilidad y medidas](observabilidad.md)
+- [**13.** Herramientas de desarrollo y comprobación](herramientas-desarrollo-comprobacion.md)
+- [**14.** Conformidad y diagnósticos](conformidad-diagnosticos.md)
 
-# Desarrollo e integración
+# **V.** Desarrollo e integración
 
-- [Parámetros, recorridos y evidencia](parametros-rutas.md)
-- [Compatibilidad con otros lenguajes](tramo-10.md)
-- [Desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md)
+- [**15.** Parámetros, recorridos y evidencia](parametros-rutas.md)
+- [**16.** Compatibilidad con otros lenguajes](tramo-10.md)
+- [**17.** Desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md)
 
-# Apéndices y agradecimientos
+# **VI.** Apéndices y agradecimientos
 
-- [Integración con el Gestor del Sistema Vectorial SV](integracion-gestor-sv.md)
-- [Terminología y referencias del lenguaje](referencia-terminologia.md)
-- [Agradecimientos](agradecimientos.md)
+- [**18.** Integración con el Gestor del Sistema Vectorial SV](integracion-gestor-sv.md)
+- [**19.** Terminología y referencias del lenguaje](referencia-terminologia.md)
+- [**20.** Agradecimientos](agradecimientos.md)

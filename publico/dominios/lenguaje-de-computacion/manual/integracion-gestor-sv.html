@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Integración con el Gestor del Sistema Vectorial SV - Manual del Lenguaje de Computación SV</title>
+        <title>18. Integración con el Gestor del Sistema Vectorial SV - Manual del Lenguaje de Computación SV</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-ae9af702.js"></script>
+        <script src="toc-16090f56.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -171,10 +171,10 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="integración-con-el-gestor-del-sistema-vectorial-sv"><a class="header" href="#integración-con-el-gestor-del-sistema-vectorial-sv">Integración con el Gestor del Sistema Vectorial SV</a></h1>
+                        <h1 id="integración-con-el-gestor-del-sistema-vectorial-sv"><a class="header" href="#integración-con-el-gestor-del-sistema-vectorial-sv"><strong>18.</strong> Integración con el Gestor del Sistema Vectorial SV</a></h1>
 <p>El <strong>Gestor del Sistema Vectorial SV</strong> es una aplicación desarrollada en Rust que reúne la administración de dominios, documentación, modelos y conexiones, permisos, evaluaciones y registros de actividad. La gestión documental es uno de sus módulos. El acceso a cada función depende de su habilitación y de las facultades de la cuenta.</p>
 <p>Este apéndice explica la relación del Gestor con los contratos del Lenguaje. Las instrucciones y los archivos SVP se estudian en los capítulos del lenguaje; las operaciones cotidianas del aplicativo disponen de ayuda contextual. La <a href="https://administracion.itvia.online/">portada del Gestor</a> ofrece acceso a la aplicación y a sus servicios públicos. El alojamiento, los proveedores de identidad y la custodia se determinan para cada instalación.</p>
-<h2 id="función-del-gestor-y-relación-con-el-lenguaje"><a class="header" href="#función-del-gestor-y-relación-con-el-lenguaje">Función del Gestor y relación con el Lenguaje</a></h2>
+<h2 id="función-del-gestor-y-relación-con-el-lenguaje"><a class="header" href="#función-del-gestor-y-relación-con-el-lenguaje"><strong>18.1.</strong> Función del Gestor y relación con el Lenguaje</a></h2>
 <p>El Gestor prepara y conserva decisiones institucionales: qué dominio se configura, qué recursos puede utilizar, quién está autorizado y qué documentos sustentan una actuación. El Lenguaje expresa y comprueba los objetos y operaciones definidos por sus contratos, dentro del alcance implementado. La configuración administrativa no modifica la semántica ni añade instrucciones a la DSL.</p>
 <div class="table-wrapper">
 <table>
@@ -192,10 +192,10 @@
 <p><label class="checkbox-label"><input class="checkbox-img" type="checkbox"><img src="imagenes/integracion-gestor-sv.svg" alt="Responsabilidades del Gestor y condiciones de integración con el Lenguaje"><span class="img-wrapper"><img src="imagenes/integracion-gestor-sv.svg" alt="Responsabilidades del Gestor y condiciones de integración con el Lenguaje"></span></label></p>
 <p>El diagrama expresa responsabilidades y condiciones de integración. Las operaciones disponibles dependen de la versión recibida de cada componente. La presencia de un transporte, una interfaz de funciones o una pantalla no acredita por sí sola el recorrido completo hasta el núcleo. Los <a href="arquitectura-ejecucion.html">entornos de ejecución</a> y el <a href="desarrollo-validacion-nucleo.html">desarrollo y validación del núcleo</a> precisan estos límites.</p>
 <p>HTML y CSS presentan los controles; JavaScript desempeña las funciones de transporte y presentación delimitadas para el visor. El visor Rust/egui compilado a WebAssembly conserva la representación recibida y carece de autoridad para cambiar estados, permisos o reglas del núcleo. Una IA tampoco obtiene acceso directo al núcleo: la tubería y la instrucción de frontera deben comprobar las entradas admisibles. Estas obligaciones son distintas del control de salida de datos hacia un proveedor.</p>
-<h2 id="estados-y-representación"><a class="header" href="#estados-y-representación">Estados y representación</a></h2>
+<h2 id="estados-y-representación"><a class="header" href="#estados-y-representación"><strong>18.2.</strong> Estados y representación</a></h2>
 <p>El Gestor conserva el significado de los <a href="construcciones-y-componentes.html#estados-celulares-y-terna">estados celulares</a> y su <a href="parametros-rutas.html#correspondencia-visual">correspondencia con el polígono</a>. La posición, el parámetro, el estado y la revisión deben mantenerse unidos al consultar la evidencia. Una representación desactualizada no describe el estado vigente.</p>
 <p>Los indicadores de conexión o preparación informan de comprobaciones administrativas y técnicas. No constituyen valoraciones de la terna: una conexión correcta no concede aptitud a un modelo, y un fallo de conexión necesita su diagnóstico propio. La vigencia y el alcance de la comprobación deben ser visibles junto a su resultado.</p>
-<h2 id="configuración-por-dominio"><a class="header" href="#configuración-por-dominio">Configuración por dominio</a></h2>
+<h2 id="configuración-por-dominio"><a class="header" href="#configuración-por-dominio"><strong>18.3.</strong> Configuración por dominio</a></h2>
 <p>La preparación institucional sigue el orden <strong>dominio → nodo → modelo</strong>. El dominio establece la necesidad y el alcance; el nodo delimita las posibilidades de ejecución y de auditoría; después se elige un modelo compatible con esas condiciones.</p>
 <div class="table-wrapper">
 <table>
@@ -214,13 +214,13 @@
 <p>Las autorizaciones no se transfieren por compartir una conexión. Cada dominio permanece sujeto a sus condiciones, a las restricciones generales de la instalación y a los límites de los recursos comunes. Compatibilidad técnica, aptitud evaluada y autorización de uso son comprobaciones distintas. Una evaluación favorable conserva su ámbito y no se extiende automáticamente a otro dominio.</p>
 <p>La ficha institucional registra la decisión, su aplicación, la cuenta responsable, la fecha, el alcance y el motivo. Los cambios conservan su revisión; el historial de una actuación debe permitir conocer la asignación que le correspondía. La preparación, la comprobación y la habilitación de uso son etapas diferenciadas.</p>
 <p><strong>Alcance de esta edición del Gestor.</strong> Los nodos 1 y 2 no están habilitados. El nodo 3 permite preparar y comprobar conexiones; el control vigente limita la comunicación con proveedores a autenticación y consulta del catálogo sin contenido documental. Bloquea documentos, preguntas y respuestas, incluidas las entregas a contadores remotos. La inferencia experta en producción permanece deshabilitada. Una decisión institucional sobre un candidato no elimina estos límites.</p>
-<h2 id="documentos-y-evidencias"><a class="header" href="#documentos-y-evidencias">Documentos y evidencias</a></h2>
+<h2 id="documentos-y-evidencias"><a class="header" href="#documentos-y-evidencias"><strong>18.4.</strong> Documentos y evidencias</a></h2>
 <p>El Gestor aplica las condiciones de <a href="parametros-rutas.html#fidelidad-y-acceso-a-las-fuentes">fidelidad y acceso a las fuentes</a>. La identidad del original, su versión, la selección y las transformaciones permiten reconstruir qué información se utilizó. La integridad de un archivo y la fidelidad de su representación son comprobaciones complementarias.</p>
-<h3 id="traducción-auxiliar"><a class="header" href="#traducción-auxiliar">Traducción auxiliar</a></h3>
+<h3 id="traducción-auxiliar"><a class="header" href="#traducción-auxiliar"><strong>18.4.1.</strong> Traducción auxiliar</a></h3>
 <p>HelsinkiNLP es una herramienta auxiliar de lectura, fuera de los tres nodos de inferencia experta. El motor local y los archivos del modelo forman parte de la instalación del Gestor; su ejecución aislada utiliza un proceso auxiliar. La disponibilidad exige que estén presentes los componentes identificados, además de la habilitación institucional y el permiso documental del lector.</p>
 <p>La administración puede desactivarla desde la ficha institucional. El Gestor impide nuevas solicitudes, cancela las pendientes al detectar el cambio y comprueba otra vez la habilitación antes de entregar el resultado. Los originales, sus permisos y los antecedentes se conservan; una traducción ya mostrada no puede retirarse de la lectura efectuada. Al ser opcional, su desactivación no constituye un defecto de configuración.</p>
 <p>La traducción facilita la comprensión humana y debe contrastarse con el original. No es una traducción certificada ni sustituye una revisión científica, clínica o jurídica. Su salida no se incorpora como entrada al núcleo, a la semántica, a la IR, a un examen o al consejo experto. En las evaluaciones que exigen documentación íntegra y nativa, se conserva ese requisito.</p>
-<h3 id="acceso-y-trazabilidad"><a class="header" href="#acceso-y-trazabilidad">Acceso y trazabilidad</a></h3>
+<h3 id="acceso-y-trazabilidad"><a class="header" href="#acceso-y-trazabilidad"><strong>18.4.2.</strong> Acceso y trazabilidad</a></h3>
 <p>La consulta de una conclusión y de sus referencias no concede permiso para abrir los documentos que la sustentan. Cuando el usuario carece de permiso documental, la presentación se limita al consejo y a la procedencia autorizados, sin fragmentos ni apertura del original. La comprobación corresponde al servicio y debe mantenerse en cada vía de acceso, incluida la representación visual.</p>
 <p>Lectura, transformación, descarga y suministro a una IA conservan sus autorizaciones específicas. La revisión documental, la disponibilidad técnica o la conservación de una evidencia no conceden facultades adicionales. Cada actuación debe registrar identidad, alcance y resultado, distinguiendo solicitud, preparación, entrega y consulta observable. La traza no acredita procesos internos del modelo ni que una persona haya leído lo presentado.</p>
 <hr>
@@ -277,7 +277,7 @@
         <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="presentacion-0cfc7f9c.js"></script>
+        <script src="presentacion-63c97d25.js"></script>
 
 
 

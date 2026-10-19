@@ -1,10 +1,10 @@
-# Desarrollo y validación del núcleo
+# **17.** Desarrollo y validación del núcleo {#desarrollo-y-validación-del-núcleo}
 
 El desarrollo del Lenguaje de Computación SV debe demostrar que las reglas descritas pueden ejecutarse conservando su significado, sus límites de autoridad y la evidencia de cada actuación. Las necesidades de los dominios y de los componentes que utilizan el lenguaje permiten comprobar si esa realización es suficiente.
 
 Este capítulo ofrece dos perspectivas complementarias: **qué capacidades requieren desarrollo o integración** y **cómo se someten a comprobación las exigencias que recaen sobre el núcleo**. La explicación corresponde a la documentación consolidada el **19 de octubre de 2026**. Las recepciones técnicas posteriores deben consultarse en los registros enlazados; la fecha de este capítulo no acredita por sí sola su ejecución.
 
-## Cómo interpretar el estado de una capacidad
+## **17.1.** Cómo interpretar el estado de una capacidad {#cómo-interpretar-el-estado-de-una-capacidad}
 
 Una capacidad puede estar descrita en un contrato, representada mediante estructuras de datos, realizada en código o comprobada en una operación concreta. Esas situaciones deben distinguirse:
 
@@ -17,7 +17,7 @@ Una capacidad puede estar descrita en un contrato, representada mediante estruct
 
 Compilar un componente no equivale a comprobar toda su conducta. Las pruebas de una interfaz, de un servicio documental o de un supervisor tampoco sustituyen una prueba del núcleo. Una recepción favorable conserva la versión, las entradas y los límites examinados; no se extiende automáticamente a otros dominios, soportes u operaciones.
 
-## Capacidades en desarrollo e integración
+## **17.2.** Capacidades en desarrollo e integración {#capacidades-en-desarrollo-e-integración}
 
 La [entrega consolidada de exigencias](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/e4346b2971a8775608b761fa0823f76b5eb2b020/docs/evoluciones-desde-el-nucleo-no-cotejadas-generadas-por-pruebas-con-la-ia-sin-aprobacion-aun/entrega-consolidada-2026-10-19/ENTREGA.md) relaciona obligaciones, evidencias parciales, responsables funcionales y criterios de recepción. La siguiente tabla explica sus ámbitos sin sustituir ese registro.
 
@@ -39,7 +39,7 @@ La [suficiencia semántica y de representación intermedia](https://github.com/j
 
 El SV conserva **un único contrato del polígono y la terna vigente**. Su dimensión procede de la constitución del dominio; no se deduce del número de definiciones de un documento. La representación con Rust y egui debe reflejar fielmente el resultado correspondiente. La presentación gráfica no introduce otra semántica ni sustituye la decisión del núcleo.
 
-## Exigencias y pruebas de presión sobre el núcleo
+## **17.3.** Exigencias y pruebas de presión sobre el núcleo {#exigencias-y-pruebas-de-presión-sobre-el-núcleo}
 
 La presión funcional consiste en enfrentar una operación a obligaciones que debe conservar: una autorización revocada, una fuente incompleta, dos causas distintas o una recuperación que pudiera alterar el pasado. El estrés de recursos examina su comportamiento ante límites y concurrencia. Son perspectivas relacionadas, con criterios y recintos de prueba distintos.
 
@@ -58,7 +58,7 @@ Antes de ejecutar se fijan la operación, las versiones, el estado inicial, las 
 
 Las pruebas de disponibilidad se efectúan en un recinto de ensayo autorizado. No se deduce una garantía sobre canales no observados ni sobre soportes distintos. Las [herramientas de desarrollo y comprobación](herramientas-desarrollo-comprobacion.md) ayudan a producir estas evidencias, pero no sustituyen la revisión de su alcance.
 
-## De la necesidad a la capacidad recibida
+## **17.4.** De la necesidad a la capacidad recibida {#de-la-necesidad-a-la-capacidad-recibida}
 
 1. **Definir la obligación.** Precisar qué información o propiedad debe conservarse y qué operación la necesita.
 2. **Asignar y recibir el trabajo.** Identificar la función responsable, las aportaciones y la función que comprobará el resultado. Una asignación funcional no acredita por sí sola que un ejecutor haya aceptado el encargo.
@@ -69,7 +69,7 @@ Una necesidad del dominio no convierte toda su solución en una obligación inte
 
 La conexión con un proveedor no concede permiso para entregarle contenido. La política de la instalación y la autorización específica de cada actuación determinan los datos y destinos admisibles. El [Árbitro - Director](arbitro-director.md#documentos-y-herramientas) debe aplicar esa frontera también a los contadores remotos; describir una capacidad del núcleo no autoriza su uso.
 
-## Fuentes vigentes y mantenimiento del capítulo
+## **17.5.** Fuentes vigentes y mantenimiento del capítulo {#fuentes-vigentes-y-mantenimiento-del-capítulo}
 
 Las actualizaciones posteriores a esta edición se recogen en el [registro de obligaciones pendientes y recepciones del Lenguaje](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/REGISTRO_DEUDA_VIVA_DEL_FRENTE_FINAL_DEL_LENGUAJE_SV.md) y en los documentos de recepción que éste enlaza. La [matriz de cobertura de la adenda](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/integracion-adenda-ia-frame-y-catalogo-errores/s19-recepcion-integracion-y-causas/MATRIZ_COBERTURA_A_L.md) conserva el alcance de sus contrastes. La entrega consolidada ofrece la correspondencia completa y sus fuentes identificadas.
 

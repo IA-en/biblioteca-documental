@@ -1,10 +1,10 @@
-# Herramientas de desarrollo y comprobación
+# **13.** Herramientas de desarrollo y comprobación {#herramientas-de-desarrollo-y-comprobación}
 
 El Lenguaje de Computación SV dispone de herramientas para construir su realización en Rust, revisar el código y contrastar sus resultados. Cada instrumento aporta una evidencia concreta: el formato de las fuentes, la admisión por el compilador, el comportamiento ante entradas conocidas o la correspondencia entre destinos de ejecución. Sus resultados deben interpretarse conforme a ese alcance.
 
 Este capítulo presenta las herramientas de construcción y comprobación documentadas en el proyecto y las previstas por su norma de [Código limpio y auditable](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/continuacion-15-09-2026/CODIGO-LIMPIO-Y-AUDITABLE.md). La presencia de una herramienta no acredita que todas las versiones del lenguaje hayan superado sus comprobaciones.
 
-## Qué aporta cada herramienta
+## **13.1.** Qué aporta cada herramienta {#qué-aporta-cada-herramienta}
 
 | Herramienta | Finalidad en el desarrollo del lenguaje | Límite de la comprobación |
 | --- | --- | --- |
@@ -17,7 +17,7 @@ Este capítulo presenta las herramientas de construcción y comprobación docume
 | **Comprobaciones de conformidad y paridad del SV** | Contrastar entradas, resultados esperados y correspondencia entre ejecución nativa y WebAssembly. | La evidencia se limita a los casos y propiedades examinados. |
 | **mdBook** | Construir los libros a partir de sus capítulos y su índice. | Una construcción correcta no garantiza la exactitud del contenido ni la validez de todos sus enlaces. |
 
-## Versión de Rust y construcción de los componentes
+## **13.2.** Versión de Rust y construcción de los componentes {#versión-de-rust-y-construcción-de-los-componentes}
 
 `rustup` permite mantener versiones identificadas de Rust y sus componentes. La versión de referencia debe obtenerse de las instrucciones y comprobaciones correspondientes a la revisión del proyecto que se vaya a construir. El canal `stable` puede cambiar con el tiempo; por eso no basta con indicar que se utilizó «Rust estable».
 
@@ -42,7 +42,7 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 
 `cargo check` detecta errores sin completar la generación final del programa. `cargo build` realiza la construcción. Ninguna de estas dos órdenes ejecuta por sí sola la batería de pruebas. Véanse el [manual de Cargo](https://doc.rust-lang.org/cargo/) y la [descripción de cargo check](https://doc.rust-lang.org/cargo/commands/cargo-check.html).
 
-## Formato uniforme con rustfmt
+## **13.3.** Formato uniforme con rustfmt {#formato-uniforme-con-rustfmt}
 
 La norma de calidad del SV utiliza `rustfmt` para normalizar la presentación de las fuentes Rust. La comprobación del formato permite detectar diferencias sin reescribir los archivos:
 
@@ -52,7 +52,7 @@ cargo fmt --manifest-path rust/Cargo.toml --all -- --check
 
 Al aplicar el formato se revisan las diferencias resultantes junto con el resto del cambio. Una presentación uniforme facilita la lectura y reduce diferencias irrelevantes entre revisiones; no corrige una regla semántica errónea. La referencia de la herramienta es [Rustfmt](https://rust-lang.github.io/rustfmt/).
 
-## Análisis estático con Clippy
+## **13.4.** Análisis estático con Clippy {#análisis-estático-con-clippy}
 
 [Clippy](https://doc.rust-lang.org/clippy/) analiza código Rust mediante reglas de diagnóstico. Puede señalar operaciones incorrectas, construcciones sospechosas, complejidad innecesaria, problemas de estilo o posibilidades de mejora del rendimiento. Se integra con Cargo y necesita un componente compatible con la versión de Rust seleccionada.
 
@@ -66,7 +66,7 @@ Cada aviso debe resolverse mediante una corrección o una excepción acotada y j
 
 Un análisis terminado sin errores puede conservar advertencias. El informe debe distinguir ambos resultados e indicar el alcance examinado. Tampoco la ausencia de advertencias constituye una certificación de seguridad o de conformidad del lenguaje.
 
-## Pruebas, conformidad y paridad
+## **13.5.** Pruebas, conformidad y paridad {#pruebas-conformidad-y-paridad}
 
 Las pruebas de Rust comprueban comportamientos concretos y relaciones entre componentes:
 
@@ -82,7 +82,7 @@ La **paridad** contrasta los destinos nativo y WebAssembly. Se distinguen `wasm3
 
 Los programas auxiliares de las baterías preparan entradas, invocan realizaciones y comparan resultados. Su función debe mantenerse separada de la autoridad semántica del núcleo Rust. El contraste técnico tampoco autoriza operaciones del Árbitro - Director ni determina la aptitud de un modelo de IA.
 
-## Revisiones identificadas y comprobaciones automatizadas
+## **13.6.** Revisiones identificadas y comprobaciones automatizadas {#revisiones-identificadas-y-comprobaciones-automatizadas}
 
 Git conserva la relación entre una modificación y su revisión. GitHub Actions ejecuta los procedimientos definidos en el repositorio para los acontecimientos y rutas que cada procedimiento declara. Debe comprobarse que el trabajo pertinente se haya ejecutado, que corresponda a la revisión examinada y que haya concluido; la mera existencia de su archivo de configuración no acredita un resultado.
 
@@ -90,11 +90,11 @@ Las definiciones de [comprobación Rust](https://github.com/juantoniolloretegea/
 
 Una huella SHA-256 permite comprobar que un archivo coincide con otro identificado. Por sí sola no prueba la identidad del autor, la autorización de una actuación ni la corrección de su contenido. Para interpretar una comprobación deben relacionarse la revisión, las fuentes, las herramientas utilizadas, las opciones, los resultados y las exclusiones.
 
-## Instrumentación de componentes asociados
+## **13.7.** Instrumentación de componentes asociados {#instrumentación-de-componentes-asociados}
 
 La instrumentación, sus registros y los límites de las medidas se explican en [Observabilidad y medidas](observabilidad.md). Este capítulo reúne las herramientas utilizadas para construir y comprobar el lenguaje.
 
-## Documentación con mdBook
+## **13.8.** Documentación con mdBook {#documentación-con-mdbook}
 
 Este manual se construye con [mdBook](https://rust-lang.github.io/mdBook/). Los capítulos se redactan en Markdown y `SUMMARY.md` determina su organización y navegación. La configuración de `book.toml` establece la presentación y la salida del libro.
 

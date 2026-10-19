@@ -1,16 +1,16 @@
-# Manual del Lenguaje de Computación SV
+# **1.** Manual del Lenguaje de Computación SV {#manual-del-lenguaje-de-computación-sv}
 
 **Edición de consulta · 19 de octubre de 2026 · Original en español.**
 
 El Lenguaje de Computación SV expresa estados, relaciones y operaciones del Sistema Vectorial SV mediante construcciones explícitas. Este manual introduce su escritura en archivos SVP, explica cómo comprobarlos y presenta la arquitectura que relaciona el núcleo con la ejecución y sus recursos.
 
-## Alcance de la edición
+## **1.1.** Alcance de la edición {#alcance-de-la-edición}
 
 La edición reúne construcciones del lenguaje, ejemplos, uso del Playground, arquitectura, observabilidad y requisitos de integración. La sección de programas completos y aplicaciones permanece en desarrollo. Cada capítulo diferencia las funciones disponibles de los contratos cuya realización integrada continúa pendiente.
 
 La gramática determina las formas de escritura; la representación intermedia conserva los objetos y operaciones de forma estructurada. El pliego y los contratos del lenguaje establecen su significado. La [referencia del lenguaje](referencia-terminologia.md) reúne los enlaces para consultar estas fuentes y sus versiones.
 
-## Lectura recomendada
+## **1.2.** Lectura recomendada {#lectura-recomendada}
 
 | Parte | Contenido y finalidad |
 | --- | --- |
@@ -25,7 +25,7 @@ Para aprender, siga el orden del libro. Para resolver una consulta concreta, uti
 
 El libro [Dominios y universos del Sistema Vectorial SV](../../universos/index.html) desarrolla las definiciones y los ejemplos conceptuales. Las operaciones de lectura, autorización y entrega de fuentes se explican en el [libro documental](../../../documentacion/reglas-usos-descripciones-documentales/index.html).
 
-## Fuentes y versiones
+## **1.3.** Fuentes y versiones {#fuentes-y-versiones}
 
 Las referencias de cada capítulo identifican las especificaciones y realizaciones que sustentan su explicación. La revisión editorial del manual no sustituye las versiones de la gramática, de la representación intermedia o de los programas, ni acredita nuevas capacidades de ejecución. Los ejemplos deben utilizarse con el perfil y la distribución que indican.
 

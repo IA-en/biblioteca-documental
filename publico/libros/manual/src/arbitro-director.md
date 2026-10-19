@@ -1,4 +1,4 @@
-# Árbitro - Director
+# **8.** Árbitro - Director {#árbitro---director}
 
 **Representación y ejecución · Revisión de 19 de octubre de 2026.**
 
@@ -6,7 +6,7 @@ El Árbitro - Director es el componente del Sistema Vectorial que gobierna una e
 
 Su función comprende el control del recorrido completo: qué puede comenzar, qué debe conservarse durante la ejecución y qué comprobaciones permiten recibir su resultado. La selección del dispositivo de cálculo constituye una función subordinada, desarrollada en el capítulo del [Selector del Árbitro - Director CPU/GPU/TPU/NPU](selector-arbitro-director.md).
 
-## Responsabilidad y alcance
+## **8.1.** Responsabilidad y alcance {#responsabilidad-y-alcance}
 
 El dominio y los contratos aplicables determinan las obligaciones de la actuación. El Árbitro - Director comprueba y aplica esas condiciones; el modelo y los documentos consultados no pueden modificarlas durante la ejecución. La incorporación de una fuente tampoco concede por sí sola permiso para emplearla en cualquier finalidad.
 
@@ -20,7 +20,7 @@ El dominio y los contratos aplicables determinan las obligaciones de la actuaci�
 
 El diseño general reúne estas funciones. Las realizaciones experimentales disponibles demuestran recorridos delimitados; su existencia no acredita que todos los modelos, conectores o dispositivos puedan utilizarlos sin adaptación y comprobación.
 
-## Documentos y herramientas
+## **8.2.** Documentos y herramientas {#documentos-y-herramientas}
 
 La preparación identifica las fuentes y los pasajes requeridos. Cuando interviene una herramienta documental, deben comprobarse tanto la petición como la respuesta: documento, versión, localizador, extensión y correspondencia del contenido. Una referencia correcta no compensa la omisión de una condición relevante.
 
@@ -30,7 +30,7 @@ En un examen que exige documentos íntegros, la entrada conserva los textos nati
 
 La autorización de conexión no incluye entrega de contenido. Un contador remoto también recibe el texto que mide y necesita permiso documental para ese destinatario y finalidad. Si la política de la instalación sólo permite conexión, el Árbitro - Director debe impedir tanto la entrega al contador como la inferencia, aunque existan permisos históricos. Su modificación exige una decisión expresa, delimitada y trazable; la preparación de un examen no la sustituye.
 
-## Relación con el Selector
+## **8.3.** Relación con el Selector {#relación-con-el-selector}
 
 Una vez admitida la operación, el Árbitro - Director solicita al Selector un destino compatible con la carga y con la política autorizada. El Selector devuelve la elección y su fundamento, o identifica la ausencia de un destino admisible. El adaptador correspondiente realiza la ejecución y devuelve los resultados y las medidas que permiten contrastar lo ocurrido.
 
@@ -40,13 +40,13 @@ La elección de una GPU o una TPU no demuestra por sí sola que se haya calculad
 
 Este control es aplicable a los modelos y motores que el SV pueda ejecutar bajo su gestión, incluido un motor de traducción. Cuando se consulta una IA externa por una interfaz de servicio, la selección de sus dispositivos pertenece al proveedor; el SV sólo puede dirigir los recursos que controla.
 
-## Incidencias y significado del resultado
+## **8.4.** Incidencias y significado del resultado {#incidencias-y-significado-del-resultado}
 
 Una falta de integridad, una fuente obligatoria ausente o una operación incompatible impide continuar el recorrido afectado. Deben conservarse la causa y los resultados parciales existentes. La incidencia no concede permiso para cambiar silenciosamente el modelo, los documentos o el dispositivo.
 
 La finalización técnica y la corrección del contenido son cuestiones distintas. Una respuesta puede cumplir el formato y citar un documento, pero interpretar incorrectamente una excepción. Del mismo modo, un error de ejecución no constituye por sí solo una valoración U. Los valores 0, 1 y U corresponden a la cuestión evaluada y a sus reglas, no al estado incidental de una máquina.
 
-## Referencias
+## **8.5.** Referencias {#referencias}
 
 - [Diseño del Árbitro - Director y condiciones del recorrido documental](https://github.com/juantoniolloretegea/SV-motor/blob/32239f974af3a6367efd75d36ba984a6c2fc747e/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/model-context-protocol/controlador-pictograma-algoritmo/DISENO.md).
 - [Parámetros, recorridos y evidencia](parametros-rutas.md).

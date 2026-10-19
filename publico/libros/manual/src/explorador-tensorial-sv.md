@@ -1,4 +1,4 @@
-# Explorador Tensorial del SV
+# **10.** Explorador Tensorial del SV {#explorador-tensorial-del-sv}
 
 **Componente subordinado al Selector · Revisión explicativa de 19 de octubre de 2026.**
 
@@ -13,7 +13,7 @@ La observación, la selección y el gobierno de la ejecución tienen funciones d
 | Árbitro - Director | Gobernar la solicitud, sus permisos, la ejecución y la recepción del resultado. |
 | Adaptador de ejecución | Realizar la operación y aportar las medidas que permitan comprobar el dispositivo utilizado. |
 
-## Identificación y capacidad
+## **10.1.** Identificación y capacidad {#identificación-y-capacidad}
 
 Encontrar un dispositivo no demuestra que pueda ejecutar un modelo. Es necesario comprobar que el adaptador admite la operación exacta, que existe memoria utilizable y que la configuración sigue disponible. Una GPU integrada y una GPU dedicada pueden exponer condiciones de memoria diferentes; una denominación comercial no resuelve esa diferencia.
 
@@ -21,7 +21,7 @@ Las consultas del sistema operativo, NVML, HIP, PJRT, Vulkan y NNAPI tienen alca
 
 La realización está escrita en Rust y consulta CPU, memoria y dispositivos declarados por Windows o por PCI en Linux. También incorpora la consulta de NVIDIA mediante NVML y la de dispositivos TPU mediante un cliente PJRT aportado por el adaptador. La consulta AMD mediante HIP y la observación Android mediante propiedades del sistema, Vulkan y NNAPI amplían las interfaces disponibles. NNAPI puede exponer sólo una ejecución de referencia en CPU: la ausencia de una NPU en esa enumeración no demuestra su ausencia física. Los controladores y las bibliotecas de los fabricantes conservan su propia realización tecnológica.
 
-## Vigencia y ejecución
+## **10.2.** Vigencia y ejecución {#vigencia-y-ejecución}
 
 El inventario pertenece a una sesión y conserva el instante de observación. Una capacidad comprobada debe corresponder a la identidad observada y a la carga exacta. La información incompleta, caducada o discordante impide habilitar el destino afectado.
 
@@ -29,7 +29,7 @@ Antes de invocar la operación, el enlace vuelve a consultar el entorno y contra
 
 La aplicación depende del control sobre la operación. Helsinki-NLP/opus-mt-en-es es una herramienta auxiliar de traducción del Gestor documental y queda fuera de los nodos de inferencia experta: no pertenece al nodo 1 por ejecutarse localmente. La institución puede desactivar esa ayuda; el original documental conserva su autoridad. Observar sus recursos o utilizar un Selector no cambia su función ni concede permiso para enviar traducciones a terceros. El hardware de inferencia de una API ajena queda fuera de la exploración si el proveedor no lo expone mediante una interfaz verificable.
 
-## Comprobación de la realización inicial
+## **10.3.** Comprobación de la realización inicial {#comprobación-de-la-realización-inicial}
 
 La identificación se contrastó mediante veinte consultas en Windows y veinte en Linux sobre WSL2. Se comprobaron además veintitrés casos artificiales del Explorador y los dieciocho existentes del Selector. El [informe experimental](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/46d6dc09dc72fa37518f2b0819ee60aff10da59e/docs/hardware-de-aceleracion-tensorial/selector-arbitro-director-cpu-gpu-tpu-npu/explorador-tensorial-sv/readme.md) conserva dispositivos, medidas, código y límites de cada contraste. Estos resultados comprueban observación y reglas de selección; no miden velocidad de inferencia ni cobertura universal de aceleradores.
 

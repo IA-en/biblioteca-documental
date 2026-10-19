@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "ebe3ad961c992fc3b590fb8b83914b225f03128ac36e03f28feeee829235ac36"
+        "sha256": "0afc222db6774ffdafe4a37156d4929c80fc13b8c39cf19853f78e3fe738ddfd"
       },
       "metadatos": [
         {
@@ -379,7 +379,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "88deb7f5f7fa9880c6cb30b068153683ab3c65ee8c05c2cb5a276c6438aeb2e6"
+            "sha256": "42e2d712f3f85d013f553d53840787f501cc086ae3aa54db5298d7515cc88936"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -394,7 +394,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "b98954608252bd55a429086bc88c2a6cee1247fbf00b7c1449638eb8cd5cf57d"
+            "sha256": "795088e61206263cca19057f0ca1c882fe1df2b703d7f2f805c0c128033a83ea"
           },
           "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -409,7 +409,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/constructor.md",
-            "sha256": "d43c519bc5347060cbe3556490afd81f2d08f8a9d680e891e68cdd17573c398b"
+            "sha256": "672b4ee7ad46c8d06e38c12b617edd5ae0013fbec9a2bd12b8bb1ffa79b3a91a"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -424,7 +424,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/tramo-10.md",
-            "sha256": "c74dc59bc04ad4e8fd1579497eaaf3ef6d96db10770b6ecfcc72cb5535512580"
+            "sha256": "1f4973b17ef596758eb1cede9b9ae404132b6d67caaa3c419d863e1d2e438270"
           },
           "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -445,7 +445,7 @@
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/manual/src/parametros-rutas.md",
-            "sha256": "11b897415201790b7d7e0b1fa23e921dd08527e3d27b3485c8c15169d331dc04"
+            "sha256": "2636f2b4db64f4ca930331c6ba8bc03c6dc1fac92d2376a18f31015e4904b928"
           },
           "sintetico": false
         },
@@ -454,7 +454,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/arbitro-director.md",
-            "sha256": "da4e9a98948f7275b27befde3b57cfced264177e69badad47ac2611eaa8039fe"
+            "sha256": "90330d358ea3fb2f845c138e38f2fa601cf5474207ae4bc9c657361395832ac5"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",
@@ -469,7 +469,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/selector-arbitro-director.md",
-            "sha256": "2212ed2272d4efe4dee95e407a2104f463a51c21e92e5e51ca344f60777d986c"
+            "sha256": "1cf2bb97d0d9edb70bd2b5768553ccf2a217c78f84ffba30d6651e5e904cad99"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",
@@ -484,7 +484,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
-            "sha256": "8e2e2cff0fddeff3fe0acb87bc28082fc9598b6908d725c480fb039b042f6c9c"
+            "sha256": "0ec830fee2101a910d6b9db8133b3e534fe46a232a625503ebca591461826e34"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",
@@ -499,7 +499,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/explorador-tensorial-sv.md",
-            "sha256": "8b1a0655e1ca1d59c705df18244dd176a7cfb76ffde37c8a2de18f247124641a"
+            "sha256": "4fde56586841ba35651b49117c7a4f05cf10b101d4bee8a2b5a37dd5eb8319fb"
           },
           "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
           "licencia": "CC BY-NC-ND 4.0",
@@ -513,7 +513,7 @@
           "procedencia": "Edición pública propia de 18/10/2026",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "b195c20e27cb1d73b5d01d2e293d6a1ca2d3a33b67ff2ad74689e4fbf6c4227e",
+            "sha256": "cf7ed1797e6fe0a1a0f5777dbf3c0a6ace610223ca11525cd6615ef6d4e55e79",
             "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md"
           },
           "sintetico": false,
@@ -534,7 +534,7 @@
           "documento": "MANUAL_DESARROLLO_VALIDACION",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "5141c9a71eee3e25f8bfa972c75841e9e6b31474a79023abb3b40da2f3067752",
+            "sha256": "ee68c99c0e7a3849cf2cc24979acb31470bae28f9df5effb81c88da5b79bef54",
             "ruta": "libros/manual/src/desarrollo-validacion-nucleo.md"
           },
           "visibilidad": "publica"
@@ -549,7 +549,7 @@
           "documento": "MANUAL_AGRADECIMIENTOS",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "af638e36f4d48af4c6a34f4343ad27009c429bcee7c6c9299b30632b0640a98b",
+            "sha256": "ead59b3c98cea0c37b139a828d384dc6d6be4dd57ebee23d61e3e1358fc5ae0b",
             "ruta": "libros/manual/src/agradecimientos.md"
           },
           "visibilidad": "publica"
@@ -560,7 +560,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/playground-sv.md",
-            "sha256": "9d2cadde904505651326c90f7e85fa32abaf1b054698f10b375f1a2c1e4396fb"
+            "sha256": "dd51e96c2a6107e99b4aeda836ecfba7a7ea8f0720aaef52fc1c80030929df14"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -575,7 +575,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/ejemplos-svp.md",
-            "sha256": "c694ce6ec714c2d7e1a12ab8ea80e4000c26d79780809ca212526a70d8547aef"
+            "sha256": "3055e2d655c5bdeb2a29f46efaceaae0e76f5b038bf980b1f5b8c086d81f7183"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -590,7 +590,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/programacion-dsl.md",
-            "sha256": "77edf7983f5754b56f4c3978cb0131fbc99b0a64e1d73fa34bfb75d81157f715"
+            "sha256": "657009590896d7b8d1e4035f835aa3d88b3f6c1705431ae1cc2c621b0be43f3e"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -605,7 +605,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/construcciones-y-componentes.md",
-            "sha256": "b37acf93022e186d8dad73ceeab3f033da186add7a0a1ae5d4045fcda9eda58f"
+            "sha256": "52241722c8a8315ff5c666a1d240dc82a8519af8262382e698c41dd3514fd6f6"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -625,7 +625,7 @@
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "original": {
             "ruta": "libros/manual/src/arquitectura-ejecucion.md",
-            "sha256": "11e596b0388fa5538b6e29684919827d0670dc6074e44e5d11671fd8bed3f503"
+            "sha256": "5cd50749616a528c40c8982bc5c452106db347a602c9ffe6bf6f68675e83cf07"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -640,7 +640,7 @@
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "original": {
             "ruta": "libros/manual/src/observabilidad.md",
-            "sha256": "2f7e80cab358d37fbc94fa13830d7eecf955623cdf3c0be542dbdd89a0a9fbee"
+            "sha256": "7b67f726f9aef42623af0a8eb9225b315b0154e45b7cf369c69873b59e0fe8d2"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -655,7 +655,7 @@
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "original": {
             "ruta": "libros/manual/src/conformidad-diagnosticos.md",
-            "sha256": "ed1745e101073c8e395ee8b0a11227e2b7f6bf5f8cd8077468267b2d6985c108"
+            "sha256": "1db2302bf1d95386ca02e352cd63b56ab71291bff2072719ce216fc76dbb487e"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -670,7 +670,7 @@
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "original": {
             "ruta": "libros/manual/src/referencia-terminologia.md",
-            "sha256": "2ba8bb0828bc9fd34da5abd6c7dab95f6e7852b22664587841fe475e79021a44"
+            "sha256": "0dc9c1b8930aad36cab5267c0bc95cdd11c758c03c6e0fdf3e492184c735edc0"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -681,7 +681,7 @@
           "documento": "MANUAL_INTEGRACION_GESTOR_SV",
           "original": {
             "ruta": "libros/manual/src/integracion-gestor-sv.md",
-            "sha256": "b6398f0d56e7642e840347e1a3a9ee9b095c9087de762acf3a8b0b18d641adb3"
+            "sha256": "aa9c0ad2a25402cf4df1ea434ec684f610c077407cf526141e3aa7d99ec8ca1a"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "alcance": "Relación del Gestor con los contratos del Lenguaje, asignaciones por dominio y acceso documental.",

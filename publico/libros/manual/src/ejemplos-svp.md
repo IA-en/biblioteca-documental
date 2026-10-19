@@ -1,10 +1,10 @@
-# Ejemplos por construcción {#ejemplos-svp-y-comprobaciones}
+# **5.** Ejemplos por construcción {#ejemplos-svp-y-comprobaciones}
 
 **Guía de lectura y reproducción · 19 de octubre de 2026.**
 
 Un archivo `.svp` contiene texto del Lenguaje de Computación SV. Su utilidad depende de su finalidad y de la versión con la que se comprueba. Un ejemplo de admisión, una prueba de rechazo y una aplicación profesional no son intercambiables.
 
-## Recorrido por construcciones
+## **5.1.** Recorrido por construcciones {#recorrido-por-construcciones}
 
 La colección publicada del Playground permite seleccionar los siguientes ejemplos en SVP-ES y SVP-EN:
 
@@ -19,7 +19,7 @@ La colección publicada del Playground permite seleccionar los siguientes ejempl
 
 La guía del [Playground](playground-sv.md) explica cómo cargar y comprobar los archivos. Las [construcciones e instrucciones](construcciones-y-componentes.md) permiten consultar el significado de sus operaciones. La admisión de estos ejemplos no equivale a disponer de aplicaciones profesionales completas.
 
-## Ejemplo inicial: una célula
+## **5.2.** Ejemplo inicial: una célula {#ejemplo-inicial-una-célula}
 
 El ejemplo `cell_basic.svp` declara un codominio, una semántica de salida, una especificación celular, un estado y una operación de evaluación. Con `b: 3`, la instancia tiene nueve posiciones. El vector conserva el orden de sus nueve estados; no puede reemplazarse por un recuento si después se necesita identificar cada posición.
 
@@ -55,11 +55,11 @@ sea E1 = evaluar(S1);
 
 La comprobación inicial consiste en admitir el archivo y examinar su representación estructurada. La terna mantiene su convenio vigente: cambiar la palabra con que se explica un valor no autoriza a cambiar su significado formal.
 
-## Rechazos deliberados
+## **5.3.** Rechazos deliberados {#rechazos-deliberados}
 
 Los archivos deliberadamente inválidos y la interpretación de sus resultados se estudian en [Conformidad y diagnósticos](conformidad-diagnosticos.md#rechazos-deliberados). Su finalidad es comprobar una restricción; no sirven como modelos de escritura válida.
 
-## Organización de las colecciones
+## **5.4.** Organización de las colecciones {#organización-de-las-colecciones}
 
 El repositorio distingue los archivos [válidos de conformidad](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/ed93885589015d567905d1c880d8097869310085/tests/conformance/valid) y los [casos de rechazo](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/ed93885589015d567905d1c880d8097869310085/tests/conformance/invalid). Las revisiones están fijadas para poder reproducir la consulta. El Playground mantiene su propia [colección publicada](https://lenguaje-sv.itvia.online/examples.json), vinculada a la distribución que declara su cabecera.
 
@@ -67,7 +67,7 @@ No debe suponerse que un ejemplo histórico admitido por una distribución conse
 
 La colección pública incluye células, compuertas, resolución, composición, contextos de consulta y datos de transición. Es una selección de construcciones y comprobaciones; no constituye un catálogo de aplicaciones clínicas o de ciberseguridad listas para producción.
 
-## Programación aplicada
+## **5.5.** Programación aplicada {#programación-aplicada}
 
 La sección de [programas completos y aplicaciones](programacion-dsl.md) permanece en desarrollo en esta edición. Se mantiene separada de los casos de conformidad y del [uso de la interfaz del Playground](playground-sv.md).
 

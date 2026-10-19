@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Ejemplos por construcción - Manual del Lenguaje de Computación SV</title>
+        <title>5. Ejemplos por construcción - Manual del Lenguaje de Computación SV</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-ae9af702.js"></script>
+        <script src="toc-16090f56.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -171,10 +171,10 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="ejemplos-svp-y-comprobaciones"><a class="header" href="#ejemplos-svp-y-comprobaciones">Ejemplos por construcción</a></h1>
+                        <h1 id="ejemplos-svp-y-comprobaciones"><a class="header" href="#ejemplos-svp-y-comprobaciones"><strong>5.</strong> Ejemplos por construcción</a></h1>
 <p><strong>Guía de lectura y reproducción · 19 de octubre de 2026.</strong></p>
 <p>Un archivo <code>.svp</code> contiene texto del Lenguaje de Computación SV. Su utilidad depende de su finalidad y de la versión con la que se comprueba. Un ejemplo de admisión, una prueba de rechazo y una aplicación profesional no son intercambiables.</p>
-<h2 id="recorrido-por-construcciones"><a class="header" href="#recorrido-por-construcciones">Recorrido por construcciones</a></h2>
+<h2 id="recorrido-por-construcciones"><a class="header" href="#recorrido-por-construcciones"><strong>5.1.</strong> Recorrido por construcciones</a></h2>
 <p>La colección publicada del Playground permite seleccionar los siguientes ejemplos en SVP-ES y SVP-EN:</p>
 <div class="table-wrapper">
 <table>
@@ -192,7 +192,7 @@
 </table>
 </div>
 <p>La guía del <a href="playground-sv.html">Playground</a> explica cómo cargar y comprobar los archivos. Las <a href="construcciones-y-componentes.html">construcciones e instrucciones</a> permiten consultar el significado de sus operaciones. La admisión de estos ejemplos no equivale a disponer de aplicaciones profesionales completas.</p>
-<h2 id="ejemplo-inicial-una-célula"><a class="header" href="#ejemplo-inicial-una-célula">Ejemplo inicial: una célula</a></h2>
+<h2 id="ejemplo-inicial-una-célula"><a class="header" href="#ejemplo-inicial-una-célula"><strong>5.2.</strong> Ejemplo inicial: una célula</a></h2>
 <p>El ejemplo <code>cell_basic.svp</code> declara un codominio, una semántica de salida, una especificación celular, un estado y una operación de evaluación. Con <code>b: 3</code>, la instancia tiene nueve posiciones. El vector conserva el orden de sus nueve estados; no puede reemplazarse por un recuento si después se necesita identificar cada posición.</p>
 <p>La colección del Playground ofrece perfiles SVP-ES y SVP-EN. Los nombres definidos por el programa y los textos explicativos no deben traducirse automáticamente al cambiar el idioma de la interfaz. Debe utilizarse la versión del ejemplo que corresponde al perfil seleccionado.</p>
 <pre><code class="language-svp">-- cell_basic.svp — Célula simple b=3, n=9
@@ -221,13 +221,13 @@ estado_de_celda S1 {
 sea E1 = evaluar(S1);
 </code></pre>
 <p>La comprobación inicial consiste en admitir el archivo y examinar su representación estructurada. La terna mantiene su convenio vigente: cambiar la palabra con que se explica un valor no autoriza a cambiar su significado formal.</p>
-<h2 id="rechazos-deliberados"><a class="header" href="#rechazos-deliberados">Rechazos deliberados</a></h2>
+<h2 id="rechazos-deliberados"><a class="header" href="#rechazos-deliberados"><strong>5.3.</strong> Rechazos deliberados</a></h2>
 <p>Los archivos deliberadamente inválidos y la interpretación de sus resultados se estudian en <a href="conformidad-diagnosticos.html#rechazos-deliberados">Conformidad y diagnósticos</a>. Su finalidad es comprobar una restricción; no sirven como modelos de escritura válida.</p>
-<h2 id="organización-de-las-colecciones"><a class="header" href="#organización-de-las-colecciones">Organización de las colecciones</a></h2>
+<h2 id="organización-de-las-colecciones"><a class="header" href="#organización-de-las-colecciones"><strong>5.4.</strong> Organización de las colecciones</a></h2>
 <p>El repositorio distingue los archivos <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/ed93885589015d567905d1c880d8097869310085/tests/conformance/valid">válidos de conformidad</a> y los <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/ed93885589015d567905d1c880d8097869310085/tests/conformance/invalid">casos de rechazo</a>. Las revisiones están fijadas para poder reproducir la consulta. El Playground mantiene su propia <a href="https://lenguaje-sv.itvia.online/examples.json">colección publicada</a>, vinculada a la distribución que declara su cabecera.</p>
 <p>No debe suponerse que un ejemplo histórico admitido por una distribución conserva ese resultado en una versión posterior con comprobaciones adicionales. Para comparar versiones se conserva el resultado de ambas; no se altera el original para aparentar continuidad.</p>
 <p>La colección pública incluye células, compuertas, resolución, composición, contextos de consulta y datos de transición. Es una selección de construcciones y comprobaciones; no constituye un catálogo de aplicaciones clínicas o de ciberseguridad listas para producción.</p>
-<h2 id="programación-aplicada"><a class="header" href="#programación-aplicada">Programación aplicada</a></h2>
+<h2 id="programación-aplicada"><a class="header" href="#programación-aplicada"><strong>5.5.</strong> Programación aplicada</a></h2>
 <p>La sección de <a href="programacion-dsl.html">programas completos y aplicaciones</a> permanece en desarrollo en esta edición. Se mantiene separada de los casos de conformidad y del <a href="playground-sv.html">uso de la interfaz del Playground</a>.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
@@ -283,7 +283,7 @@ sea E1 = evaluar(S1);
         <script src="book-609e4cb8.js"></script>
 
         <!-- Custom JS scripts -->
-        <script src="presentacion-0cfc7f9c.js"></script>
+        <script src="presentacion-63c97d25.js"></script>
 
 
 

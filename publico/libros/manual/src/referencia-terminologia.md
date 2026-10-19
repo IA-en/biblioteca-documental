@@ -1,8 +1,8 @@
-# Terminología y referencias del lenguaje
+# **19.** Terminología y referencias del lenguaje {#terminología-y-referencias-del-lenguaje}
 
 Este apéndice permite localizar los conceptos y las fuentes formales utilizados en el manual. Las definiciones completas y sus restricciones corresponden a las especificaciones enlazadas.
 
-## Términos de consulta
+## **19.1.** Términos de consulta {#términos-de-consulta}
 
 | Término | Uso en este manual | Desarrollo |
 | --- | --- | --- |
@@ -17,7 +17,7 @@ Este apéndice permite localizar los conceptos y las fuentes formales utilizados
 | Traza | Registro que relaciona actuaciones observadas y sus medidas. Su cobertura depende de los puntos instrumentados. | [Observabilidad](observabilidad.md). |
 | DSL | Lenguaje específico de dominio; en este manual, el lenguaje propio del Sistema Vectorial SV. | [Ámbito y organización](constructor.md). |
 
-## Gramática y representación intermedia
+## **19.2.** Gramática y representación intermedia {#gramática-y-representación-intermedia}
 
 La gramática superficial v0.2 conserva v0.1 salvo las producciones y restricciones que sustituye expresamente; su representación de destino es IR v0.3. Deben consultarse conjuntamente:
 
