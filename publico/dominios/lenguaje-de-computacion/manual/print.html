@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>Manual del Lenguaje de Computación SV</title>
+        <title>Lenguaje de Computación SV: fundamentos, arquitectura y referencia</title>
         <meta name="robots" content="noindex">
 
 
@@ -40,7 +40,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-89e1c41a.js"></script>
+        <script src="toc-eaedf71d.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -135,7 +135,7 @@
                         </ul>
                     </div>
 
-                    <h1 class="menu-title">Manual del Lenguaje de Computación SV</h1>
+                    <h1 class="menu-title">Lenguaje de Computación SV: fundamentos, arquitectura y referencia</h1>
 
                     <div class="right-buttons">
                         <a class="sv-institution-logo" href="https://itvia.online/" title="ITVIA · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español" aria-label="ITVIA · Sitio institucional">
@@ -172,9 +172,9 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="manual-del-lenguaje-de-computación-sv"><a class="header" href="#manual-del-lenguaje-de-computación-sv"><strong>1.</strong> Manual del Lenguaje de Computación SV</a></h1>
+                        <h1 id="manual-del-lenguaje-de-computación-sv"><a class="header" href="#manual-del-lenguaje-de-computación-sv"><strong>1.</strong> Lenguaje de Computación SV: fundamentos, arquitectura y referencia</a></h1>
 <p><strong>Edición de consulta · 19 de octubre de 2026 · Original en español.</strong></p>
-<p>El Lenguaje de Computación SV expresa estados, relaciones y operaciones del Sistema Vectorial SV mediante construcciones explícitas. Este manual introduce su escritura en archivos SVP, explica cómo comprobarlos y presenta la arquitectura que relaciona el núcleo con la ejecución y sus recursos.</p>
+<p>El Lenguaje de Computación SV expresa estados, relaciones y operaciones del Sistema Vectorial SV mediante construcciones explícitas. Este libro desarrolla la teoría del lenguaje: sus fundamentos, el significado de sus construcciones y la arquitectura que relaciona el núcleo con la ejecución y sus recursos. Los ejemplos ilustran esas explicaciones.</p>
 <h2 id="alcance-de-la-edición"><a class="header" href="#alcance-de-la-edición"><strong>1.1.</strong> Alcance de la edición</a></h2>
 <p>La edición reúne construcciones del lenguaje, ejemplos, uso del Playground, arquitectura, observabilidad y requisitos de integración. La sección de programas completos y aplicaciones permanece en desarrollo. Cada capítulo diferencia las funciones disponibles de los contratos cuya realización integrada continúa pendiente.</p>
 <p>La gramática determina las formas de escritura; la representación intermedia conserva los objetos y operaciones de forma estructurada. El pliego y los contratos del lenguaje establecen su significado. La <a href="#terminología-y-referencias-del-lenguaje">referencia del lenguaje</a> reúne los enlaces para consultar estas fuentes y sus versiones.</p>
@@ -186,7 +186,7 @@
 </thead>
 <tbody>
 <tr><td><strong>El Lenguaje de Computación SV</strong></td><td>Comience por su <a href="#ámbito-y-organización-del-lenguaje">ámbito y organización</a> y las <a href="#construcciones-del-lenguaje-y-componentes-propios">construcciones e instrucciones propias</a>.</td></tr>
-<tr><td><strong>Práctica con archivos SVP</strong></td><td>Utilice el <a href="#playground-del-lenguaje-sv">Playground</a> y estudie los <a href="#ejemplos-svp-y-comprobaciones">ejemplos por construcción</a>. El apartado de <a href="#programación-con-la-dsl">programas completos y aplicaciones</a> tiene un alcance distinto.</td></tr>
+<tr><td><strong>Escritura y comprobación de SVP</strong></td><td>Utilice el <a href="#playground-del-lenguaje-sv">Playground</a> y estudie los <a href="#ejemplos-svp-y-comprobaciones">ejemplos por construcción</a>. El apartado de <a href="#programación-con-la-dsl">programas completos y aplicaciones</a> tiene un alcance distinto.</td></tr>
 <tr><td><strong>Arquitectura y recursos</strong></td><td>Sitúe los <a href="#arquitectura-y-entornos-de-ejecución">entornos de ejecución</a>, el <a href="#árbitro---director">Árbitro - Director</a>, el <a href="#selector-del-árbitro---director-cpugputpunpu">Selector</a>, el <a href="#explorador-tensorial-del-sv">Explorador Tensorial</a> y el <a href="#hardware-de-aceleración-tensorial">hardware de aceleración tensorial</a>.</td></tr>
 <tr><td><strong>Observabilidad y comprobación</strong></td><td>Interprete las <a href="#observabilidad-y-medidas">medidas y trazas</a>, las <a href="#herramientas-de-desarrollo-y-comprobación">herramientas de desarrollo</a> y las pruebas de <a href="#conformidad-y-diagnósticos">conformidad y diagnósticos</a>.</td></tr>
 <tr><td><strong>Desarrollo e integración</strong></td><td>Consulte los requisitos de <a href="#parámetros-recorridos-y-evidencia-requisitos-de-integración">parámetros, recorridos y evidencia</a>, la <a href="#compatibilidad-con-otros-lenguajes">compatibilidad</a> y el <a href="#desarrollo-y-validación-del-núcleo">desarrollo y validación del núcleo</a>.</td></tr>
@@ -194,16 +194,16 @@
 </tbody>
 </table>
 </div>
-<p>Para aprender, siga el orden del libro. Para resolver una consulta concreta, utilice el índice lateral y los enlaces entre capítulos. Las pruebas deliberadamente inválidas se estudian en conformidad y diagnósticos, separadas de los ejemplos de escritura.</p>
+<p>Para estudiar los fundamentos, siga el orden del libro. El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp">Manual de programación en SV para desarrolladores</a> lleva esta teoría a la práctica mediante lecciones, archivos SVP comentados y ejercicios. Para resolver una consulta concreta, utilice el índice lateral y los enlaces entre capítulos. Las pruebas deliberadamente inválidas se estudian en conformidad y diagnósticos, separadas de los ejemplos de escritura.</p>
 <p>El libro <a href="../../universos/index.html">Dominios y universos del Sistema Vectorial SV</a> desarrolla las definiciones y los ejemplos conceptuales. Las operaciones de lectura, autorización y entrega de fuentes se explican en el <a href="../../../documentacion/reglas-usos-descripciones-documentales/index.html">libro documental</a>.</p>
 <h2 id="fuentes-y-versiones"><a class="header" href="#fuentes-y-versiones"><strong>1.3.</strong> Fuentes y versiones</a></h2>
-<p>Las referencias de cada capítulo identifican las especificaciones y realizaciones que sustentan su explicación. La revisión editorial del manual no sustituye las versiones de la gramática, de la representación intermedia o de los programas, ni acredita nuevas capacidades de ejecución. Los ejemplos deben utilizarse con el perfil y la distribución que indican.</p>
+<p>Las referencias de cada capítulo identifican las especificaciones y realizaciones que sustentan su explicación. La revisión editorial del libro no sustituye las versiones de la gramática, de la representación intermedia o de los programas, ni acredita nuevas capacidades de ejecución. Los ejemplos deben utilizarse con el perfil y la distribución que indican.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="ámbito-y-organización-del-lenguaje"><a class="header" href="#ámbito-y-organización-del-lenguaje"><strong>2.</strong> Ámbito y organización del lenguaje</a></h1>
 <p>El Lenguaje de Computación SV expresa definiciones, estados, evaluaciones y relaciones del Sistema Vectorial. Su estudio requiere distinguir el significado de una operación, su representación formal y la realización que la ejecuta. La extensión <code>.svp</code> identifica sus documentos de programa.</p>
-<h2 id="materias-del-manual"><a class="header" href="#materias-del-manual"><strong>2.1.</strong> Materias del manual</a></h2>
+<h2 id="materias-del-manual"><a class="header" href="#materias-del-manual"><strong>2.1.</strong> Materias del lenguaje</a></h2>
 <div class="table-wrapper">
 <table>
 <thead>
@@ -229,7 +229,7 @@
 <p>Para utilizar una operación hay que conocer sus entradas, el resultado que produce y las condiciones de aplicación. Los ejemplos de conformidad permiten reconocer tanto las construcciones admitidas como las entradas que deben rechazarse.</p>
 <p>La gramática establece cómo escribir el programa; la representación intermedia conserva sus objetos y operaciones; la realización ejecutiva aplica las capacidades disponibles. Esta distinción permite interpretar el resultado del Playground y reconocer qué actuaciones posteriores requieren una ejecución y una autorización propias.</p>
 <h2 id="referencia"><a class="header" href="#referencia"><strong>2.3.</strong> Referencia</a></h2>
-<p>La organización temática se basa en la <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/CONSTRUCTOR_DEL_MANUAL_DEL_LENGUAJE_SVP.md">estructura de referencia del manual</a>. Los capítulos desarrollan esas materias y remiten a sus definiciones formales.</p>
+<p>Las definiciones formales se reúnen en <a href="#terminología-y-referencias-del-lenguaje">Terminología y referencias del lenguaje</a>. El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp">Manual de programación en SV para desarrolladores</a> desarrolla su aplicación práctica mediante lecciones y ejercicios. La organización del libro sigue las relaciones entre fundamentos, construcciones, arquitectura y comprobación.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
@@ -286,16 +286,11 @@
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="playground-del-lenguaje-sv"><a class="header" href="#playground-del-lenguaje-sv"><strong>4.</strong> Playground del Lenguaje SV</a></h1>
-<p><strong>Guía de uso · 19 de octubre de 2026.</strong></p>
+<p><strong>Interfaz y alcance de la comprobación · 19 de octubre de 2026.</strong></p>
 <p>El <a href="https://lenguaje-sv.itvia.online/">Playground del SV</a> permite escribir o cargar un programa SVP, comprobar su admisión y consultar su representación estructurada desde el navegador. Es una interfaz del Lenguaje de Computación SV. No es un servicio de consulta a modelos de IA ni un entorno de examen de candidatos.</p>
 <h2 id="primer-recorrido"><a class="header" href="#primer-recorrido"><strong>4.1.</strong> Primer recorrido</a></h2>
-<ol>
-<li>Abra el Playground y compruebe las versiones de gramática, representación intermedia y proyección que muestra la cabecera.</li>
-<li>Seleccione el perfil del programa: <strong>SVP-ES</strong> o <strong>SVP-EN</strong>. Este perfil determina las palabras del lenguaje; el idioma de la interfaz es una elección independiente. No hay detección automática del perfil.</li>
-<li>Utilice el ejemplo inicial <code>cell_basic.svp</code> o elija otro en el apartado de ejemplos. Revise su texto antes de sustituir el contenido del editor.</li>
-<li>Pulse <strong>Compilar</strong>. Examine el resultado de admisión y los diagnósticos. Un rechazo debe resolverse conforme a su causa, sin sustituir valores ni eliminar condiciones para ocultarlo.</li>
-<li>Consulte la representación estructurada y conserve el archivo SVP, su perfil y las versiones utilizadas si necesita reproducir la comprobación.</li>
-</ol>
+<p>El recorrido comprende la elección explícita del perfil, la entrada del archivo SVP, su comprobación y la consulta de la representación obtenida. El perfil del programa y el idioma de la interfaz son decisiones distintas. Las versiones declaradas permiten interpretar el resultado y reproducirlo.</p>
+<p>El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/manual_svp/01-primer-programa.md">primer programa del manual para desarrolladores</a> explica los pasos de uso y conduce a los ejercicios.</p>
 <p>La distribución descrita en esta guía utiliza gramática 0.2, representación intermedia 0.3 y proyección 0.1.0. La cabecera identifica las versiones de la distribución abierta. Conserve esa identificación junto con el archivo cuando necesite reproducir una comprobación.</p>
 <h2 id="qué-significa-admitido"><a class="header" href="#qué-significa-admitido"><strong>4.2.</strong> Qué significa «Admitido»</a></h2>
 <p>La admisión indica que el programa supera las comprobaciones implementadas por esa versión. El resultado estructurado conserva declaraciones, referencias y operaciones. Por ejemplo, que aparezca una operación de evaluación no demuestra por sí solo que se haya calculado y recibido su resultado decisional.</p>
@@ -319,7 +314,7 @@
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="ejemplos-svp-y-comprobaciones"><a class="header" href="#ejemplos-svp-y-comprobaciones"><strong>5.</strong> Ejemplos por construcción</a></h1>
-<p><strong>Guía de lectura y reproducción · 19 de octubre de 2026.</strong></p>
+<p><strong>Interpretación de las construcciones · 19 de octubre de 2026.</strong></p>
 <p>Un archivo <code>.svp</code> contiene texto del Lenguaje de Computación SV. Su utilidad depende de su finalidad y de la versión con la que se comprueba. Un ejemplo de admisión, una prueba de rechazo y una aplicación profesional no son intercambiables.</p>
 <h2 id="recorrido-por-construcciones"><a class="header" href="#recorrido-por-construcciones"><strong>5.1.</strong> Recorrido por construcciones</a></h2>
 <p>La colección publicada del Playground permite seleccionar los siguientes ejemplos en SVP-ES y SVP-EN:</p>
@@ -338,7 +333,7 @@
 </tbody>
 </table>
 </div>
-<p>La guía del <a href="#playground-del-lenguaje-sv">Playground</a> explica cómo cargar y comprobar los archivos. Las <a href="#construcciones-del-lenguaje-y-componentes-propios">construcciones e instrucciones</a> permiten consultar el significado de sus operaciones. La admisión de estos ejemplos no equivale a disponer de aplicaciones profesionales completas.</p>
+<p>El capítulo del <a href="#playground-del-lenguaje-sv">Playground</a> explica el alcance de su comprobación. Las lecciones, los archivos y los ejercicios se desarrollan en el <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp">Manual de programación en SV para desarrolladores</a>. Las <a href="#construcciones-del-lenguaje-y-componentes-propios">construcciones e instrucciones</a> permiten consultar el significado de sus operaciones. La admisión de estos ejemplos no equivale a disponer de aplicaciones profesionales completas.</p>
 <h2 id="ejemplo-inicial-una-célula"><a class="header" href="#ejemplo-inicial-una-célula"><strong>5.2.</strong> Ejemplo inicial: una célula</a></h2>
 <p>El ejemplo <code>cell_basic.svp</code> declara un codominio, una semántica de salida, una especificación celular, un estado y una operación de evaluación. Con <code>b: 3</code>, la instancia tiene nueve posiciones. El vector conserva el orden de sus nueve estados; no puede reemplazarse por un recuento si después se necesita identificar cada posición.</p>
 <p>La colección del Playground ofrece perfiles SVP-ES y SVP-EN. Los nombres definidos por el programa y los textos explicativos no deben traducirse automáticamente al cambiar el idioma de la interfaz. Debe utilizarse la versión del ejemplo que corresponde al perfil seleccionado.</p>
@@ -381,8 +376,9 @@ sea E1 = evaluar(S1);
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="programación-con-la-dsl"><a class="header" href="#programación-con-la-dsl"><strong>6.</strong> Programas completos y aplicaciones</a></h1>
 <p><strong>En desarrollo en esta edición.</strong></p>
-<p>Esta sección está destinada a programas completos del Lenguaje SV: la necesidad que resuelven, sus entradas, las instrucciones, la ejecución y los resultados. Las aplicaciones de esta sección todavía no están disponibles.</p>
+<p>Una aplicación completa debe relacionar una necesidad, sus entradas, las operaciones del lenguaje y los resultados de su ejecución. La suficiencia requiere comprobar el recorrido integrado y las condiciones de uso. Las aplicaciones de este alcance todavía no están disponibles en esta edición; su enseñanza práctica corresponde al <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/manual_svp/08-programas-completos.md">manual para desarrolladores</a>.</p>
 <p>Para comenzar con las funciones actuales, consulte las <a href="#construcciones-del-lenguaje-y-componentes-propios">construcciones e instrucciones propias</a>, los <a href="#ejemplos-svp-y-comprobaciones">ejemplos por construcción</a> y la guía del <a href="#playground-del-lenguaje-sv">Playground</a>. Las condiciones de ampliación se explican en <a href="#desarrollo-y-validación-del-núcleo">Desarrollo y validación del núcleo</a>.</p>
+<p>La programación asistida por IA permanece pendiente. Su integración deberá respetar los mismos fundamentos, semántica y controles que la escritura directa, sin acceso directo de la IA al núcleo ni ampliación de permisos. El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/manual_svp/09-programacion-asistida.md">apartado reservado en el manual para desarrolladores</a> delimita su alcance futuro.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
@@ -706,7 +702,7 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <h2 id="instrumentación-de-componentes-asociados"><a class="header" href="#instrumentación-de-componentes-asociados"><strong>13.7.</strong> Instrumentación de componentes asociados</a></h2>
 <p>La instrumentación, sus registros y los límites de las medidas se explican en <a href="#observabilidad-y-medidas">Observabilidad y medidas</a>. Este capítulo reúne las herramientas utilizadas para construir y comprobar el lenguaje.</p>
 <h2 id="documentación-con-mdbook"><a class="header" href="#documentación-con-mdbook"><strong>13.8.</strong> Documentación con mdBook</a></h2>
-<p>Este manual se construye con <a href="https://rust-lang.github.io/mdBook/">mdBook</a>. Los capítulos se redactan en Markdown y <code>SUMMARY.md</code> determina su organización y navegación. La configuración de <code>book.toml</code> establece la presentación y la salida del libro.</p>
+<p>Este libro se construye con <a href="https://rust-lang.github.io/mdBook/">mdBook</a>. Los capítulos se redactan en Markdown y <code>SUMMARY.md</code> determina su organización y navegación. La configuración de <code>book.toml</code> establece la presentación y la salida del libro.</p>
 <p>La revisión documental comprueba la jerarquía, los enlaces, los ejemplos, la legibilidad y la correspondencia con la versión explicada. La documentación oficial de cada herramienta complementa este capítulo; las reglas y límites propios del lenguaje se mantienen en sus fuentes normativas.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
@@ -818,7 +814,7 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <h2 id="estado-de-esta-descripción"><a class="header" href="#estado-de-esta-descripción"><strong>16.2.</strong> Estado de esta descripción</a></h2>
 <p>Este capítulo delimita requisitos. No proporciona instrucciones de uso de una interfaz concreta ni acredita una integración disponible. Su especificación se subordina al pliego del SV, la normativa del lenguaje, la representación intermedia aplicable y la política de compatibilidad.</p>
 <h2 id="referencia-1"><a class="header" href="#referencia-1"><strong>16.3.</strong> Referencia</a></h2>
-<p>Los requisitos proceden del <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/TRAMO_10_COMPATIBILIDAD_INTERLENGUAJES_Y_ADOPCION_DEL_LENGUAJE_SV.md">documento de compatibilidad interlenguajes</a>. La edición citada delimita la materia y declara pendiente su desarrollo; esta adaptación conserva ese alcance.</p>
+<p>La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/e01d108e65e9be7d97a099d844b324413ea8c4cb/docs/gobierno/POLITICA_Y_PROTOCOLO_DE_COMPATIBILIDAD_INTERLENGUAJES_DEL_LENGUAJE_SV.md">política y protocolo de compatibilidad interlenguajes</a> establece los requisitos comunes. Su aplicación debe conservar el pliego, los tipos y las condiciones de la representación intermedia. La existencia de esta política no acredita interfaces de integración disponibles.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
@@ -960,7 +956,7 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <div class="table-wrapper">
 <table>
 <thead>
-<tr><th>Término</th><th>Uso en este manual</th><th>Desarrollo</th></tr>
+<tr><th>Término</th><th>Uso en este libro</th><th>Desarrollo</th></tr>
 </thead>
 <tbody>
 <tr><td>Archivo SVP</td><td>Texto que expresa declaraciones y operaciones del Lenguaje de Computación SV.</td><td><a href="#ejemplos-svp-y-comprobaciones">Ejemplos</a>.</td></tr>
@@ -972,7 +968,7 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <tr><td>Frame</td><td>Representación estructurada de un suceso y de las relaciones exigidas por su contrato.</td><td><a href="#parámetros-recorridos-y-evidencia-requisitos-de-integración">Parámetros, recorridos y evidencia</a>.</td></tr>
 <tr><td>Admisión técnica</td><td>Cumplimiento de las condiciones de entrada y comprobación aplicables. Se distingue del resultado semántico.</td><td><a href="#conformidad-y-diagnósticos">Conformidad y diagnósticos</a>.</td></tr>
 <tr><td>Traza</td><td>Registro que relaciona actuaciones observadas y sus medidas. Su cobertura depende de los puntos instrumentados.</td><td><a href="#observabilidad-y-medidas">Observabilidad</a>.</td></tr>
-<tr><td>DSL</td><td>Lenguaje específico de dominio; en este manual, el lenguaje propio del Sistema Vectorial SV.</td><td><a href="#ámbito-y-organización-del-lenguaje">Ámbito y organización</a>.</td></tr>
+<tr><td>DSL</td><td>Lenguaje específico de dominio; en este libro, el lenguaje propio del Sistema Vectorial SV.</td><td><a href="#ámbito-y-organización-del-lenguaje">Ámbito y organización</a>.</td></tr>
 </tbody>
 </table>
 </div>
@@ -983,7 +979,7 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <li><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/GRAMATICA_SUPERFICIAL_MINIMA_SV_v0_2.md">Precisiones y sustituciones de la gramática v0.2</a>.</li>
 <li><a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/IR_CANONICA_BIENFORMACION_SV_v0_3.md">Reglas de bienformación de IR v0.3</a>.</li>
 </ul>
-<p>Las referencias fijan una revisión para que pueda reproducirse la consulta. La distribución utilizada declara sus propias versiones. La fecha de edición de este manual no modifica esas identidades.</p>
+<p>Las referencias fijan una revisión para que pueda reproducirse la consulta. La distribución utilizada declara sus propias versiones. La fecha de edición de este libro no modifica esas identidades.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>

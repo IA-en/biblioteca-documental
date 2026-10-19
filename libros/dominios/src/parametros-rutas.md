@@ -168,7 +168,7 @@ La explicación de una IA no prueba por sí sola qué proceso interno siguió. E
 
 Esta trazabilidad permite examinar actuaciones y responsabilidades. No equivale por sí sola a corrección científica, certificación ni exoneración jurídica. El experto debe poder distinguir la insuficiencia documental, la incertidumbre de una cuestión y un fallo técnico.
 
-El encaje de estas necesidades en la ejecución se desarrolla en el [Manual del Lenguaje de Computación SV](../lenguaje-de-computacion/manual/parametros-rutas.html). La definición de rutas y su comprobación siguen siendo requisitos previos a su uso.
+El encaje de estas necesidades en la ejecución se desarrolla en el [Lenguaje de Computación SV: fundamentos, arquitectura y referencia](../lenguaje-de-computacion/manual/parametros-rutas.html). La definición de rutas y su comprobación siguen siendo requisitos previos a su uso.
 
 ---
 

@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>1. Presentación y alcance - Manual del Lenguaje de Computación SV</title>
+        <title>1. Presentación y alcance - Lenguaje de Computación SV: fundamentos, arquitectura y referencia</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-89e1c41a.js"></script>
+        <script src="toc-eaedf71d.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -134,7 +134,7 @@
                         </ul>
                     </div>
 
-                    <h1 class="menu-title">Manual del Lenguaje de Computación SV</h1>
+                    <h1 class="menu-title">Lenguaje de Computación SV: fundamentos, arquitectura y referencia</h1>
 
                     <div class="right-buttons">
                         <a class="sv-institution-logo" href="https://itvia.online/" title="ITVIA · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español" aria-label="ITVIA · Sitio institucional">
@@ -171,9 +171,9 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
-                        <h1 id="manual-del-lenguaje-de-computación-sv"><a class="header" href="#manual-del-lenguaje-de-computación-sv"><strong>1.</strong> Manual del Lenguaje de Computación SV</a></h1>
+                        <h1 id="manual-del-lenguaje-de-computación-sv"><a class="header" href="#manual-del-lenguaje-de-computación-sv"><strong>1.</strong> Lenguaje de Computación SV: fundamentos, arquitectura y referencia</a></h1>
 <p><strong>Edición de consulta · 19 de octubre de 2026 · Original en español.</strong></p>
-<p>El Lenguaje de Computación SV expresa estados, relaciones y operaciones del Sistema Vectorial SV mediante construcciones explícitas. Este manual introduce su escritura en archivos SVP, explica cómo comprobarlos y presenta la arquitectura que relaciona el núcleo con la ejecución y sus recursos.</p>
+<p>El Lenguaje de Computación SV expresa estados, relaciones y operaciones del Sistema Vectorial SV mediante construcciones explícitas. Este libro desarrolla la teoría del lenguaje: sus fundamentos, el significado de sus construcciones y la arquitectura que relaciona el núcleo con la ejecución y sus recursos. Los ejemplos ilustran esas explicaciones.</p>
 <h2 id="alcance-de-la-edición"><a class="header" href="#alcance-de-la-edición"><strong>1.1.</strong> Alcance de la edición</a></h2>
 <p>La edición reúne construcciones del lenguaje, ejemplos, uso del Playground, arquitectura, observabilidad y requisitos de integración. La sección de programas completos y aplicaciones permanece en desarrollo. Cada capítulo diferencia las funciones disponibles de los contratos cuya realización integrada continúa pendiente.</p>
 <p>La gramática determina las formas de escritura; la representación intermedia conserva los objetos y operaciones de forma estructurada. El pliego y los contratos del lenguaje establecen su significado. La <a href="referencia-terminologia.html">referencia del lenguaje</a> reúne los enlaces para consultar estas fuentes y sus versiones.</p>
@@ -185,7 +185,7 @@
 </thead>
 <tbody>
 <tr><td><strong>El Lenguaje de Computación SV</strong></td><td>Comience por su <a href="constructor.html">ámbito y organización</a> y las <a href="construcciones-y-componentes.html">construcciones e instrucciones propias</a>.</td></tr>
-<tr><td><strong>Práctica con archivos SVP</strong></td><td>Utilice el <a href="playground-sv.html">Playground</a> y estudie los <a href="ejemplos-svp.html">ejemplos por construcción</a>. El apartado de <a href="programacion-dsl.html">programas completos y aplicaciones</a> tiene un alcance distinto.</td></tr>
+<tr><td><strong>Escritura y comprobación de SVP</strong></td><td>Utilice el <a href="playground-sv.html">Playground</a> y estudie los <a href="ejemplos-svp.html">ejemplos por construcción</a>. El apartado de <a href="programacion-dsl.html">programas completos y aplicaciones</a> tiene un alcance distinto.</td></tr>
 <tr><td><strong>Arquitectura y recursos</strong></td><td>Sitúe los <a href="arquitectura-ejecucion.html">entornos de ejecución</a>, el <a href="arbitro-director.html">Árbitro - Director</a>, el <a href="selector-arbitro-director.html">Selector</a>, el <a href="explorador-tensorial-sv.html">Explorador Tensorial</a> y el <a href="hardware-aceleracion-tensorial.html">hardware de aceleración tensorial</a>.</td></tr>
 <tr><td><strong>Observabilidad y comprobación</strong></td><td>Interprete las <a href="observabilidad.html">medidas y trazas</a>, las <a href="herramientas-desarrollo-comprobacion.html">herramientas de desarrollo</a> y las pruebas de <a href="conformidad-diagnosticos.html">conformidad y diagnósticos</a>.</td></tr>
 <tr><td><strong>Desarrollo e integración</strong></td><td>Consulte los requisitos de <a href="parametros-rutas.html">parámetros, recorridos y evidencia</a>, la <a href="tramo-10.html">compatibilidad</a> y el <a href="desarrollo-validacion-nucleo.html">desarrollo y validación del núcleo</a>.</td></tr>
@@ -193,10 +193,10 @@
 </tbody>
 </table>
 </div>
-<p>Para aprender, siga el orden del libro. Para resolver una consulta concreta, utilice el índice lateral y los enlaces entre capítulos. Las pruebas deliberadamente inválidas se estudian en conformidad y diagnósticos, separadas de los ejemplos de escritura.</p>
+<p>Para estudiar los fundamentos, siga el orden del libro. El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp">Manual de programación en SV para desarrolladores</a> lleva esta teoría a la práctica mediante lecciones, archivos SVP comentados y ejercicios. Para resolver una consulta concreta, utilice el índice lateral y los enlaces entre capítulos. Las pruebas deliberadamente inválidas se estudian en conformidad y diagnósticos, separadas de los ejemplos de escritura.</p>
 <p>El libro <a href="../../universos/index.html">Dominios y universos del Sistema Vectorial SV</a> desarrolla las definiciones y los ejemplos conceptuales. Las operaciones de lectura, autorización y entrega de fuentes se explican en el <a href="../../../documentacion/reglas-usos-descripciones-documentales/index.html">libro documental</a>.</p>
 <h2 id="fuentes-y-versiones"><a class="header" href="#fuentes-y-versiones"><strong>1.3.</strong> Fuentes y versiones</a></h2>
-<p>Las referencias de cada capítulo identifican las especificaciones y realizaciones que sustentan su explicación. La revisión editorial del manual no sustituye las versiones de la gramática, de la representación intermedia o de los programas, ni acredita nuevas capacidades de ejecución. Los ejemplos deben utilizarse con el perfil y la distribución que indican.</p>
+<p>Las referencias de cada capítulo identifican las especificaciones y realizaciones que sustentan su explicación. La revisión editorial del libro no sustituye las versiones de la gramática, de la representación intermedia o de los programas, ni acredita nuevas capacidades de ejecución. Los ejemplos deben utilizarse con el perfil y la distribución que indican.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 

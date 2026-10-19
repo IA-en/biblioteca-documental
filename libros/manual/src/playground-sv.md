@@ -1,16 +1,14 @@
 # **4.** Playground del Lenguaje SV {#playground-del-lenguaje-sv}
 
-**Guía de uso · 19 de octubre de 2026.**
+**Interfaz y alcance de la comprobación · 19 de octubre de 2026.**
 
 El [Playground del SV](https://lenguaje-sv.itvia.online/) permite escribir o cargar un programa SVP, comprobar su admisión y consultar su representación estructurada desde el navegador. Es una interfaz del Lenguaje de Computación SV. No es un servicio de consulta a modelos de IA ni un entorno de examen de candidatos.
 
 ## **4.1.** Primer recorrido {#primer-recorrido}
 
-1. Abra el Playground y compruebe las versiones de gramática, representación intermedia y proyección que muestra la cabecera.
-2. Seleccione el perfil del programa: **SVP-ES** o **SVP-EN**. Este perfil determina las palabras del lenguaje; el idioma de la interfaz es una elección independiente. No hay detección automática del perfil.
-3. Utilice el ejemplo inicial `cell_basic.svp` o elija otro en el apartado de ejemplos. Revise su texto antes de sustituir el contenido del editor.
-4. Pulse **Compilar**. Examine el resultado de admisión y los diagnósticos. Un rechazo debe resolverse conforme a su causa, sin sustituir valores ni eliminar condiciones para ocultarlo.
-5. Consulte la representación estructurada y conserve el archivo SVP, su perfil y las versiones utilizadas si necesita reproducir la comprobación.
+El recorrido comprende la elección explícita del perfil, la entrada del archivo SVP, su comprobación y la consulta de la representación obtenida. El perfil del programa y el idioma de la interfaz son decisiones distintas. Las versiones declaradas permiten interpretar el resultado y reproducirlo.
+
+El [primer programa del manual para desarrolladores](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/manual_svp/01-primer-programa.md) explica los pasos de uso y conduce a los ejercicios.
 
 La distribución descrita en esta guía utiliza gramática 0.2, representación intermedia 0.3 y proyección 0.1.0. La cabecera identifica las versiones de la distribución abierta. Conserve esa identificación junto con el archivo cuando necesite reproducir una comprobación.
 

@@ -2,7 +2,7 @@
 
 El Lenguaje de Computación SV expresa definiciones, estados, evaluaciones y relaciones del Sistema Vectorial. Su estudio requiere distinguir el significado de una operación, su representación formal y la realización que la ejecuta. La extensión `.svp` identifica sus documentos de programa.
 
-## **2.1.** Materias del manual {#materias-del-manual}
+## **2.1.** Materias del lenguaje {#materias-del-manual}
 
 | Materia | Contenido |
 | --- | --- |
@@ -28,7 +28,7 @@ La gramática establece cómo escribir el programa; la representación intermedi
 
 ## **2.3.** Referencia {#referencia}
 
-La organización temática se basa en la [estructura de referencia del manual](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/CONSTRUCTOR_DEL_MANUAL_DEL_LENGUAJE_SVP.md). Los capítulos desarrollan esas materias y remiten a sus definiciones formales.
+Las definiciones formales se reúnen en [Terminología y referencias del lenguaje](referencia-terminologia.md). El [Manual de programación en SV para desarrolladores](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp) desarrolla su aplicación práctica mediante lecciones y ejercicios. La organización del libro sigue las relaciones entre fundamentos, construcciones, arquitectura y comprobación.
 
 ---
 

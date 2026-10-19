@@ -14,7 +14,7 @@ Este capítulo delimita requisitos. No proporciona instrucciones de uso de una i
 
 ## **16.3.** Referencia {#referencia}
 
-Los requisitos proceden del [documento de compatibilidad interlenguajes](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/f97173e07a9dfb8385ed1268d11de422b291507d/docs/manual_svp/TRAMO_10_COMPATIBILIDAD_INTERLENGUAJES_Y_ADOPCION_DEL_LENGUAJE_SV.md). La edición citada delimita la materia y declara pendiente su desarrollo; esta adaptación conserva ese alcance.
+La [política y protocolo de compatibilidad interlenguajes](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/e01d108e65e9be7d97a099d844b324413ea8c4cb/docs/gobierno/POLITICA_Y_PROTOCOLO_DE_COMPATIBILIDAD_INTERLENGUAJES_DEL_LENGUAJE_SV.md) establece los requisitos comunes. Su aplicación debe conservar el pliego, los tipos y las condiciones de la representación intermedia. La existencia de esta política no acredita interfaces de integración disponibles.
 
 ---
 

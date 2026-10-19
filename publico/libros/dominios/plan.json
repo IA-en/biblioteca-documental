@@ -1,0 +1,63 @@
+{
+  "version": 3,
+  "libro": "SV_DOMINIOS",
+  "summary": {
+    "titulo": "Índice",
+    "url": "urn:sv:documento:sha256:b42bf815760f61abb8cc46eef143926b524c578493a9af8b5935c9c38f96b269",
+    "sha256": "b42bf815760f61abb8cc46eef143926b524c578493a9af8b5935c9c38f96b269",
+    "ruta": "SUMMARY.md",
+    "id": "DOMINIOS-01"
+  },
+  "capitulos": [
+    {
+      "titulo": "Presentación",
+      "url": "urn:sv:documento:sha256:b267e948af28a9ac95fa4ed0cca38fad8e320ddfdbc66e3add3c433453d1d5d0",
+      "sha256": "b267e948af28a9ac95fa4ed0cca38fad8e320ddfdbc66e3add3c433453d1d5d0",
+      "ruta": "presentacion.md",
+      "id": "DOMINIOS-02"
+    },
+    {
+      "titulo": "Definiciones y relaciones",
+      "url": "urn:sv:documento:sha256:aae17ad1087e82602c0b76282f523cae6cd7a58691fa69fe3fab1b8f488e0dda",
+      "sha256": "aae17ad1087e82602c0b76282f523cae6cd7a58691fa69fe3fab1b8f488e0dda",
+      "ruta": "conceptos.md",
+      "id": "DOMINIOS-03"
+    },
+    {
+      "titulo": "Metodología de construcción",
+      "url": "urn:sv:documento:sha256:2b8e04bd9f8cca27dfe46cb555671611a0c3fdd2dc1d5965a06d368f15631ee6",
+      "sha256": "2b8e04bd9f8cca27dfe46cb555671611a0c3fdd2dc1d5965a06d368f15631ee6",
+      "ruta": "metodologia.md",
+      "id": "DOMINIOS-04"
+    },
+    {
+      "ruta": "parametros-rutas.md",
+      "sha256": "a35c0b8243ffe1f37a087cc03d80373f77cced11885c3800c77accec4cb0a53e",
+      "url": "urn:sv:documento:sha256:a35c0b8243ffe1f37a087cc03d80373f77cced11885c3800c77accec4cb0a53e",
+      "titulo": "Parámetros, rutas y evidencia",
+      "id": "DOMINIOS-08"
+    },
+    {
+      "titulo": "Inmunología",
+      "url": "urn:sv:documento:sha256:4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568",
+      "sha256": "4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568",
+      "ruta": "inmunologia.md",
+      "id": "DOMINIOS-05"
+    },
+    {
+      "titulo": "Ciberseguridad",
+      "url": "urn:sv:documento:sha256:902c0bae3cc72209ff20aee4566a66bd32039f775b09297e6dd82ead42972aa0",
+      "sha256": "902c0bae3cc72209ff20aee4566a66bd32039f775b09297e6dd82ead42972aa0",
+      "ruta": "ciberseguridad.md",
+      "id": "DOMINIOS-06"
+    },
+    {
+      "titulo": "Fuentes, versiones y ampliación",
+      "url": "urn:sv:documento:sha256:2434ed493e448e1e89a8c3a7ffef97f030f901ccdc57cebf669019ff600176fb",
+      "sha256": "2434ed493e448e1e89a8c3a7ffef97f030f901ccdc57cebf669019ff600176fb",
+      "ruta": "fuentes.md",
+      "id": "DOMINIOS-07"
+    }
+  ],
+  "revision": "c3b50e712c95c00c494c4f94d4b01c5f41e42466d277e939fdfdbabc170386ab"
+}

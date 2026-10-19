@@ -4,7 +4,7 @@ Este apéndice permite localizar los conceptos y las fuentes formales utilizados
 
 ## **19.1.** Términos de consulta {#términos-de-consulta}
 
-| Término | Uso en este manual | Desarrollo |
+| Término | Uso en este libro | Desarrollo |
 | --- | --- | --- |
 | Archivo SVP | Texto que expresa declaraciones y operaciones del Lenguaje de Computación SV. | [Ejemplos](ejemplos-svp.md). |
 | Perfil SVP-ES o SVP-EN | Forma lingüística explícita del programa, independiente del idioma de la interfaz. | [Playground](playground-sv.md). |
@@ -15,7 +15,7 @@ Este apéndice permite localizar los conceptos y las fuentes formales utilizados
 | Frame | Representación estructurada de un suceso y de las relaciones exigidas por su contrato. | [Parámetros, recorridos y evidencia](parametros-rutas.md). |
 | Admisión técnica | Cumplimiento de las condiciones de entrada y comprobación aplicables. Se distingue del resultado semántico. | [Conformidad y diagnósticos](conformidad-diagnosticos.md). |
 | Traza | Registro que relaciona actuaciones observadas y sus medidas. Su cobertura depende de los puntos instrumentados. | [Observabilidad](observabilidad.md). |
-| DSL | Lenguaje específico de dominio; en este manual, el lenguaje propio del Sistema Vectorial SV. | [Ámbito y organización](constructor.md). |
+| DSL | Lenguaje específico de dominio; en este libro, el lenguaje propio del Sistema Vectorial SV. | [Ámbito y organización](constructor.md). |
 
 ## **19.2.** Gramática y representación intermedia {#gramática-y-representación-intermedia}
 
@@ -25,7 +25,7 @@ La gramática superficial v0.2 conserva v0.1 salvo las producciones y restriccio
 - [Precisiones y sustituciones de la gramática v0.2](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/GRAMATICA_SUPERFICIAL_MINIMA_SV_v0_2.md).
 - [Reglas de bienformación de IR v0.3](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/IR_CANONICA_BIENFORMACION_SV_v0_3.md).
 
-Las referencias fijan una revisión para que pueda reproducirse la consulta. La distribución utilizada declara sus propias versiones. La fecha de edición de este manual no modifica esas identidades.
+Las referencias fijan una revisión para que pueda reproducirse la consulta. La distribución utilizada declara sus propias versiones. La fecha de edición de este libro no modifica esas identidades.
 
 ---
 

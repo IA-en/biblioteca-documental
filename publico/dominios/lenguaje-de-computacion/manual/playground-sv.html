@@ -3,7 +3,7 @@
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <title>4. Playground del Lenguaje SV - Manual del Lenguaje de Computación SV</title>
+        <title>4. Playground del Lenguaje SV - Lenguaje de Computación SV: fundamentos, arquitectura y referencia</title>
 
 
         <!-- Custom HTML head -->
@@ -39,7 +39,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-89e1c41a.js"></script>
+        <script src="toc-eaedf71d.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -134,7 +134,7 @@
                         </ul>
                     </div>
 
-                    <h1 class="menu-title">Manual del Lenguaje de Computación SV</h1>
+                    <h1 class="menu-title">Lenguaje de Computación SV: fundamentos, arquitectura y referencia</h1>
 
                     <div class="right-buttons">
                         <a class="sv-institution-logo" href="https://itvia.online/" title="ITVIA · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español" aria-label="ITVIA · Sitio institucional">
@@ -172,16 +172,11 @@
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="../../../index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="../../../consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="../../../licencias.html">Licencias</a><p>Edición de consulta · Revisión editorial 19/10/2026 · Original en español</p></nav>
                         <h1 id="playground-del-lenguaje-sv"><a class="header" href="#playground-del-lenguaje-sv"><strong>4.</strong> Playground del Lenguaje SV</a></h1>
-<p><strong>Guía de uso · 19 de octubre de 2026.</strong></p>
+<p><strong>Interfaz y alcance de la comprobación · 19 de octubre de 2026.</strong></p>
 <p>El <a href="https://lenguaje-sv.itvia.online/">Playground del SV</a> permite escribir o cargar un programa SVP, comprobar su admisión y consultar su representación estructurada desde el navegador. Es una interfaz del Lenguaje de Computación SV. No es un servicio de consulta a modelos de IA ni un entorno de examen de candidatos.</p>
 <h2 id="primer-recorrido"><a class="header" href="#primer-recorrido"><strong>4.1.</strong> Primer recorrido</a></h2>
-<ol>
-<li>Abra el Playground y compruebe las versiones de gramática, representación intermedia y proyección que muestra la cabecera.</li>
-<li>Seleccione el perfil del programa: <strong>SVP-ES</strong> o <strong>SVP-EN</strong>. Este perfil determina las palabras del lenguaje; el idioma de la interfaz es una elección independiente. No hay detección automática del perfil.</li>
-<li>Utilice el ejemplo inicial <code>cell_basic.svp</code> o elija otro en el apartado de ejemplos. Revise su texto antes de sustituir el contenido del editor.</li>
-<li>Pulse <strong>Compilar</strong>. Examine el resultado de admisión y los diagnósticos. Un rechazo debe resolverse conforme a su causa, sin sustituir valores ni eliminar condiciones para ocultarlo.</li>
-<li>Consulte la representación estructurada y conserve el archivo SVP, su perfil y las versiones utilizadas si necesita reproducir la comprobación.</li>
-</ol>
+<p>El recorrido comprende la elección explícita del perfil, la entrada del archivo SVP, su comprobación y la consulta de la representación obtenida. El perfil del programa y el idioma de la interfaz son decisiones distintas. Las versiones declaradas permiten interpretar el resultado y reproducirlo.</p>
+<p>El <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/manual_svp/01-primer-programa.md">primer programa del manual para desarrolladores</a> explica los pasos de uso y conduce a los ejercicios.</p>
 <p>La distribución descrita en esta guía utiliza gramática 0.2, representación intermedia 0.3 y proyección 0.1.0. La cabecera identifica las versiones de la distribución abierta. Conserve esa identificación junto con el archivo cuando necesite reproducir una comprobación.</p>
 <h2 id="qué-significa-admitido"><a class="header" href="#qué-significa-admitido"><strong>4.2.</strong> Qué significa «Admitido»</a></h2>
 <p>La admisión indica que el programa supera las comprobaciones implementadas por esa versión. El resultado estructurado conserva declaraciones, referencias y operaciones. Por ejemplo, que aparezca una operación de evaluación no demuestra por sí solo que se haya calculado y recibido su resultado decisional.</p>

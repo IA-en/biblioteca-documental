@@ -1,5 +1,5 @@
 [book]
-title = "Manual del Lenguaje de Computación SV"
+title = "Lenguaje de Computación SV: fundamentos, arquitectura y referencia"
 language = "es"
 src = "src"
 [build]

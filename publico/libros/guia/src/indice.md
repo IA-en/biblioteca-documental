@@ -11,8 +11,12 @@ Libros para comprender los fundamentos y las garantías documentales del Sistema
 | [Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros · V.03](dominios/universos/index.html) | Definiciones y metodología; conocimiento, pertenencia a rutas y valoración decisional con ejemplos y diagramas; inmunología y ciberseguridad. |
 | [Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA · V.08](documentacion/reglas-usos-descripciones-documentales/index.html) | Formatos, lectura, permisos y controles documentales; traducción auxiliar opcional y bloqueo de contenido hacia proveedores de IA. |
 | [Normativa, trazabilidad y seguimiento de la IA en el SV · V.02](normativa/trazabilidad-y-seguimiento-ia/index.html) | Procedencia, evaluación, derechos y referencias normativas; atención a ciberseguridad y uso sanitario. Marco explicativo, sin declaración de certificación. |
-| [Manual del Lenguaje de Computación SV](dominios/lenguaje-de-computacion/manual/index.html) | Organización del lenguaje, compatibilidad, parámetros, Árbitro - Director, Selector, Explorador y herramientas de desarrollo y comprobación. Edición de consulta todavía incompleta. |
+| [Lenguaje de Computación SV: fundamentos, arquitectura y referencia](dominios/lenguaje-de-computacion/manual/index.html) | Fundamentos y teoría del lenguaje, significado de sus construcciones, arquitectura, recursos y comprobación. Las capacidades disponibles y pendientes se delimitan en sus capítulos. |
 | [Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial](evaluacion/validacion-autorizacion-modelos/index.html) | Método de examen documental, corrección ciega, comparación y responsabilidades institucionales. Original en español; traducción automática para la lectura. |
+
+## Manual para desarrolladores
+
+El [Manual de programación en SV para desarrolladores](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp) lleva la teoría del libro a la práctica: escritura de archivos SVP, lecciones, ejercicios y resultados comprobados. Los programas completos y la asistencia de IA figuran pendientes de desarrollo.
 
 ## Consulta
 

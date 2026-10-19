@@ -7,7 +7,7 @@
 - [**2.** Ámbito y organización](constructor.md)
 - [**3.** Construcciones e instrucciones propias](construcciones-y-componentes.md)
 
-# **PARTE II · Práctica con archivos SVP**
+# **PARTE II · Escritura y comprobación de SVP**
 
 - [**4.** Playground del Lenguaje SV](playground-sv.md)
 - [**5.** Ejemplos por construcción](ejemplos-svp.md)

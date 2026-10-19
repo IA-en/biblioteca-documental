@@ -1,6 +1,6 @@
 # **5.** Ejemplos por construcción {#ejemplos-svp-y-comprobaciones}
 
-**Guía de lectura y reproducción · 19 de octubre de 2026.**
+**Interpretación de las construcciones · 19 de octubre de 2026.**
 
 Un archivo `.svp` contiene texto del Lenguaje de Computación SV. Su utilidad depende de su finalidad y de la versión con la que se comprueba. Un ejemplo de admisión, una prueba de rechazo y una aplicación profesional no son intercambiables.
 
@@ -17,7 +17,7 @@ La colección publicada del Playground permite seleccionar los siguientes ejempl
 | Consulta | `query_context_all_variants.svp` | Referencias y variantes del contexto de consulta. |
 | Sucesos y trayectoria | `transition_data_events.svp` | Datos y relaciones que describen transiciones. |
 
-La guía del [Playground](playground-sv.md) explica cómo cargar y comprobar los archivos. Las [construcciones e instrucciones](construcciones-y-componentes.md) permiten consultar el significado de sus operaciones. La admisión de estos ejemplos no equivale a disponer de aplicaciones profesionales completas.
+El capítulo del [Playground](playground-sv.md) explica el alcance de su comprobación. Las lecciones, los archivos y los ejercicios se desarrollan en el [Manual de programación en SV para desarrolladores](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp). Las [construcciones e instrucciones](construcciones-y-componentes.md) permiten consultar el significado de sus operaciones. La admisión de estos ejemplos no equivale a disponer de aplicaciones profesionales completas.
 
 ## **5.2.** Ejemplo inicial: una célula {#ejemplo-inicial-una-célula}
 

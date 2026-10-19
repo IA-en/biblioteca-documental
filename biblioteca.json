@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-manual-integracion-20261019",
+  "edicion": "biblioteca-sv-libro-y-manual-desarrolladores-20261019",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "0c2201433ec44f85597e571623e91b98d75ed2d2d7c37314fee199c392868f0b",
+        "sha256": "a7c14321550223e27e5aa66b2fe886b8e6e50434d1fedc2dd34022b24c29fa31",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,7 +29,7 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "c92a65cc9b64b69ec753493877ccb25ba0477d8d0c2ea871ac43843904355490",
+            "sha256": "455b24e5ceee8dc569a7277b5e9d0f6f4c8644e36b343f3a3e791cf9cbf7ca4b",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
@@ -367,11 +367,11 @@
     },
     {
       "id": "manual",
-      "titulo": "Manual del Lenguaje de Computación SV",
+      "titulo": "Lenguaje de Computación SV: fundamentos, arquitectura y referencia",
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "ec89dce33452e2183c492c1764ede98357848dfed7d44aa52e1398edb6712530"
+        "sha256": "f28ae0f458591f8f3f7ba69aa464e39c3abe151e9245b1e51b57114ca97b6152"
       },
       "metadatos": [
         {
@@ -379,7 +379,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/SUMMARY.md",
-            "sha256": "00801920e2f5efe0f281cbf33a166e95d3f8761c5f8865254c27f1ec13c7b5a0"
+            "sha256": "8a97a2690582340bc23fe7dc01ad5fd7bfe9a1fd4411aa1967a9ffecbb917cf9"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -394,7 +394,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "795088e61206263cca19057f0ca1c882fe1df2b703d7f2f805c0c128033a83ea"
+            "sha256": "924cc121095eff9db97984eb97898e99129e09a0e2cb5d2bf1d9e2698d2de876"
           },
           "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -409,7 +409,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/constructor.md",
-            "sha256": "672b4ee7ad46c8d06e38c12b617edd5ae0013fbec9a2bd12b8bb1ffa79b3a91a"
+            "sha256": "6258b9f7b0f18794022a23586fc86e9c39217310a8763271c76b2d60cc02c3d9"
           },
           "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -424,7 +424,7 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/tramo-10.md",
-            "sha256": "1f4973b17ef596758eb1cede9b9ae404132b6d67caaa3c419d863e1d2e438270"
+            "sha256": "10e7cae6cd6a51fc0ce31e49ff85e1a3258a4e2479ab26e746bf40ae5881bb53"
           },
           "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
@@ -513,7 +513,7 @@
           "procedencia": "Edición pública propia de 18/10/2026",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "cf7ed1797e6fe0a1a0f5777dbf3c0a6ace610223ca11525cd6615ef6d4e55e79",
+            "sha256": "65195b61f99530cc0263ea1caf05dfcb42ac0afc2ae7d8b96ccd19ef1f3dbe8f",
             "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md"
           },
           "sintetico": false,
@@ -549,7 +549,7 @@
           "documento": "MANUAL_AGRADECIMIENTOS",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "ead59b3c98cea0c37b139a828d384dc6d6be4dd57ebee23d61e3e1358fc5ae0b",
+            "sha256": "180088c2e1da4128640cfa755cb1b7b7dfbbfab09300f9f49ae58b0057618c52",
             "ruta": "libros/manual/src/agradecimientos.md"
           },
           "visibilidad": "publica"
@@ -560,7 +560,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/playground-sv.md",
-            "sha256": "dd51e96c2a6107e99b4aeda836ecfba7a7ea8f0720aaef52fc1c80030929df14"
+            "sha256": "fc2b0efbb3c4012d863e62319f756f26937c5b686d43336fbf1249ab47a31fa0"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -575,7 +575,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/ejemplos-svp.md",
-            "sha256": "3055e2d655c5bdeb2a29f46efaceaae0e76f5b038bf980b1f5b8c086d81f7183"
+            "sha256": "8ef2d2d5c5878cfeaa0a20cfe0b237514cacde4cdfab14a24f0456e74aab7402"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -590,7 +590,7 @@
           "visibilidad": "publica",
           "original": {
             "ruta": "libros/manual/src/programacion-dsl.md",
-            "sha256": "657009590896d7b8d1e4035f835aa3d88b3f6c1705431ae1cc2c621b0be43f3e"
+            "sha256": "057e9a32aa866949d6f91d5f31ac31a286215752a9e04cae311f905013fcb11b"
           },
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "sintetico": false,
@@ -670,7 +670,7 @@
           "procedencia": "Edición explicativa propia de 19/10/2026",
           "original": {
             "ruta": "libros/manual/src/referencia-terminologia.md",
-            "sha256": "0dc9c1b8930aad36cab5267c0bc95cdd11c758c03c6e0fdf3e492184c735edc0"
+            "sha256": "dce9740b3391e06160871412f3d920f9d74e0909eefc5eea8f37abda0496e856"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "9ba8f63526425f8ae20353cede8805379eb0cfcbc613bc2dbc9185f2c05a37b7",
+        "sha256": "018c2904d59f6fb7e4b1371cdbe5f435926530e1fafe3ceaa08ced2442907800",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -815,7 +815,7 @@
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/dominios/src/parametros-rutas.md",
-            "sha256": "21eccf95aec0c718f8f4f0f2d581283ad89e9e52afb88d3705056a26fa26ea58"
+            "sha256": "a35c0b8243ffe1f37a087cc03d80373f77cced11885c3800c77accec4cb0a53e"
           },
           "sintetico": false
         }

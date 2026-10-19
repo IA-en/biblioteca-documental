@@ -2,9 +2,11 @@
 
 **En desarrollo en esta edición.**
 
-Esta sección está destinada a programas completos del Lenguaje SV: la necesidad que resuelven, sus entradas, las instrucciones, la ejecución y los resultados. Las aplicaciones de esta sección todavía no están disponibles.
+Una aplicación completa debe relacionar una necesidad, sus entradas, las operaciones del lenguaje y los resultados de su ejecución. La suficiencia requiere comprobar el recorrido integrado y las condiciones de uso. Las aplicaciones de este alcance todavía no están disponibles en esta edición; su enseñanza práctica corresponde al [manual para desarrolladores](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/manual_svp/08-programas-completos.md).
 
 Para comenzar con las funciones actuales, consulte las [construcciones e instrucciones propias](construcciones-y-componentes.md), los [ejemplos por construcción](ejemplos-svp.md) y la guía del [Playground](playground-sv.md). Las condiciones de ampliación se explican en [Desarrollo y validación del núcleo](desarrollo-validacion-nucleo.md).
+
+La programación asistida por IA permanece pendiente. Su integración deberá respetar los mismos fundamentos, semántica y controles que la escritura directa, sin acceso directo de la IA al núcleo ni ampliación de permisos. El [apartado reservado en el manual para desarrolladores](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/manual_svp/09-programacion-asistida.md) delimita su alcance futuro.
 
 ---
 

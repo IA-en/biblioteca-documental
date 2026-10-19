@@ -96,7 +96,7 @@ La instrumentación, sus registros y los límites de las medidas se explican en 
 
 ## **13.8.** Documentación con mdBook {#documentación-con-mdbook}
 
-Este manual se construye con [mdBook](https://rust-lang.github.io/mdBook/). Los capítulos se redactan en Markdown y `SUMMARY.md` determina su organización y navegación. La configuración de `book.toml` establece la presentación y la salida del libro.
+Este libro se construye con [mdBook](https://rust-lang.github.io/mdBook/). Los capítulos se redactan en Markdown y `SUMMARY.md` determina su organización y navegación. La configuración de `book.toml` establece la presentación y la salida del libro.
 
 La revisión documental comprueba la jerarquía, los enlaces, los ejemplos, la legibilidad y la correspondencia con la versión explicada. La documentación oficial de cada herramienta complementa este capítulo; las reglas y límites propios del lenguaje se mantienen en sus fuentes normativas.
 
