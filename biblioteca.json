@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-herramientas-lenguaje-20261018",
+  "edicion": "biblioteca-sv-revision-editorial-20261019",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "4858f24ddf31542876d7f922c7a8617f4d91025525c90c960863a3c489fd0d1c",
+        "sha256": "0c2201433ec44f85597e571623e91b98d75ed2d2d7c37314fee199c392868f0b",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,13 +29,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "b060289ffe72ccf63b299e5fc93a8694434d239187143c4e84dd2f2687715fa9",
+            "sha256": "c92a65cc9b64b69ec753493877ccb25ba0477d8d0c2ea871ac43843904355490",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "GUIA-02",
-          "procedencia": "Edición pública propia; actualización de 13/10/2026",
-          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
+          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -44,13 +44,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "102a75627bf8fd1496ea0468069aa6d6a828cb34b8018b6d447e46b7c01f070b",
+            "sha256": "fbf462b7fa20680210d975215b564d07b2a942f5ac26337b69ce6d518aca4956",
             "ruta": "libros/guia/src/organizacion.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "GUIA-03",
-          "procedencia": "Edición pública propia; actualización de 13/10/2026",
-          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
+          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "35e11037318d9eedfd1ddd5b4d79e13bdf26b85a29699803b4d99e6008813bb4"
+        "sha256": "63f285d30a336c94a12424a5a1157949368b7e6258561bb2ef67ddb2162fbf10"
       },
       "metadatos": [
         {
@@ -394,13 +394,13 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "21ffdf45b34f1a70b75ec166dee3af957192f274c83748c3f121b1a77436d39f"
+            "sha256": "8008535d570d83079306824e9f0cf1bc211242c4ebd4bd43611b1fdcdd1659a4"
           },
-          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
+          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
           "sintetico": false,
           "visibilidad": "publica",
-          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
+          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null
         },
@@ -659,7 +659,7 @@
     },
     {
       "plan": {
-        "sha256": "3399a5da8b493dd6cea1214fb69d1423a2819f535a67b322d5ba9b19609de459",
+        "sha256": "b8c9c31a882754556722d75671e35d344538d204fd7c5461f2fb12b5638ba095",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
@@ -710,14 +710,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública propia de 14/10/2026",
-          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
+          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "e57bcd5d70f6c57666b62ed8e50c6f4377ac52d20700e98e4d2c4025a6b06f52",
+            "sha256": "daa1a67ff8a086e66e49d48a3acda4a524829981a3b54cbb4a992d279d28e52d",
             "ruta": "libros/evaluacion-modelos/src/documentos.md"
           },
           "documento": "EET-04",
@@ -740,14 +740,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública propia de 14/10/2026",
-          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
+          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "143c76f77f71bc5f33ed7cf835d77b64c25a7a2506d4f358e48b0d0b3e53c2a5",
+            "sha256": "ead32945f6e5144485b64422c6d94cc5241bce244299710290715a600fffcd90",
             "ruta": "libros/evaluacion-modelos/src/finalidad.md"
           },
           "documento": "EET-13",

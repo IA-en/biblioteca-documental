@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "capitulos": [
+    {
+      "id": "GUIA-02",
+      "titulo": "Biblioteca documental del SV",
+      "sha256": "c92a65cc9b64b69ec753493877ccb25ba0477d8d0c2ea871ac43843904355490",
+      "ruta": "indice.md",
+      "url": "urn:sv:documento:sha256:c92a65cc9b64b69ec753493877ccb25ba0477d8d0c2ea871ac43843904355490"
+    },
+    {
+      "id": "GUIA-03",
+      "titulo": "Organización y alcance",
+      "sha256": "fbf462b7fa20680210d975215b564d07b2a942f5ac26337b69ce6d518aca4956",
+      "ruta": "organizacion.md",
+      "url": "urn:sv:documento:sha256:fbf462b7fa20680210d975215b564d07b2a942f5ac26337b69ce6d518aca4956"
+    },
+    {
+      "id": "GUIA-04",
+      "titulo": "Consulta, fuentes y versiones",
+      "sha256": "dc9b1b1fad1ef1c174df9fcd4c67ba0b9d5252fb2345a0e52e4ded8a8808110d",
+      "ruta": "consulta.md",
+      "url": "urn:sv:documento:sha256:dc9b1b1fad1ef1c174df9fcd4c67ba0b9d5252fb2345a0e52e4ded8a8808110d"
+    },
+    {
+      "id": "GUIA-05",
+      "titulo": "Licencias y atribución",
+      "sha256": "cf3cf23c00ee9cee3b246919eef91b85b7006c219b2e48c7774cee46c8c7dd46",
+      "ruta": "licencias.md",
+      "url": "urn:sv:documento:sha256:cf3cf23c00ee9cee3b246919eef91b85b7006c219b2e48c7774cee46c8c7dd46"
+    }
+  ],
+  "summary": {
+    "id": "GUIA-01",
+    "titulo": "Biblioteca documental del SV",
+    "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
+    "ruta": "SUMMARY.md",
+    "url": "urn:sv:documento:sha256:a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f"
+  },
+  "revision": "ae802bf9a0c6439a1f37d63adc8988f5d58fae2802a2b51a44e3c29d7df1ba42",
+  "libro": "SV_GUIA"
+}

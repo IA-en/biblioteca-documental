@@ -8,7 +8,7 @@ La biblioteca ofrece publicaciones de consulta sobre el Sistema Vectorial SV. Ca
 
 **Dominios y Universos.** Definiciones, metodología de constitución, parámetros y relaciones, con ejemplos y fuentes identificadas.
 
-**Gestión documental.** Reglas de conservación, lectura, selección, autorización y entrega de fuentes a la IA.
+**Gestión documental.** Reglas de conservación, lectura, selección y autorización de fuentes. La versión actual bloquea la entrega de contenido a proveedores de IA; describe por separado los controles y los requisitos de una eventual entrega autorizada.
 
 **Lenguaje de Computación.** Ámbito del lenguaje, compatibilidad y requisitos de ejecución. La edición disponible tiene alcance limitado y no constituye un manual completo.
 
