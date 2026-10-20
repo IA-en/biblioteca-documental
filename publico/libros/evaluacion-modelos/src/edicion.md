@@ -8,13 +8,17 @@ Los mismos enunciados se presentan a todos los candidatos en un orden común, re
 
 ## Respuesta y calificación
 
+**Reserva de las próximas convocatorias.** Las soluciones se publican después de que todos los candidatos hayan finalizado. Hasta ese momento se reservan también las correcciones por pregunta y las evidencias que permitan deducirlas. La plantilla se revisa y fija antes del examen; no se modifica a partir de las respuestas recibidas. Una retirada o imposibilidad de continuar exige resolución registrada antes del cierre de la convocatoria.
+
+**Límite de esta edición pública.** La edición `eet-cyb16-multiformato-20261020-v1` conserva las soluciones que ya se publicaron. Aunque no se entreguen en el paquete del candidato, no puede acreditarse que un proveedor las desconozca previamente. Los resultados deben expresar esta limitación.
+
 | Símbolo en la respuesta | Significado para el candidato |
 | --- | --- |
 | 0 | El enunciado es conforme a la fuente recibida. |
 | 1 | El enunciado no es conforme a la fuente recibida. |
 | U | El candidato declara que no puede determinarlo. |
 
-El candidato no declara su propio acierto. La plantilla correctora permite calcular la calificación: coincidencia con una clave determinada → 0; contradicción → 1; respuesta U → U. La edición no admite claves U, faltantes o duplicadas. Preguntas y soluciones deben estar publicadas antes del examen; la entrega al candidato excluye las soluciones.
+El candidato no declara su propio acierto. La plantilla correctora permite calcular la calificación: coincidencia con una clave determinada → 0; contradicción → 1; respuesta U → U. La edición no admite claves U, faltantes o duplicadas. En las próximas convocatorias, las soluciones se publicarán después de que todos sus candidatos hayan finalizado el examen; nunca forman parte de la entrega al candidato.
 
 La [edición pública](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-multiformato-20261020-v1) reúne los enunciados, las soluciones justificadas y la plantilla JSON. Las huellas relacionan esa publicación con los seis originales conservados y la edición fijada.
 

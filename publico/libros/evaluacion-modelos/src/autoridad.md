@@ -9,12 +9,16 @@ La identificación compartida evita cuentas personales duplicadas. La autorizaci
 | --- | --- | --- | --- |
 | Consultar ediciones y expedientes del área | Sí | Sí | Disponible |
 | Preparar y fijar ediciones | Sí | Sí | Disponible |
+| Registrar y aplicar una asignación por dominio con dictamen Apto | Sí | Sí | Preparación; sin activar producción |
+| Admitir excepcionalmente un No apto, conservando su dictamen | Sí | Sí | Advertencia específica, aceptación expresa y motivo |
 | Conceder o revocar el perfil Evaluador | Sí | No | Disponible |
 | Lanzar el examen de un candidato | Sólo si es la cuenta designada | Sólo si es la cuenta designada | Bloqueado: sólo conexión sin contenido a proveedores |
 | Autorizar un modelo apto | Sí | Sí | Bloqueada |
 | Seleccionar un modelo autorizado para producción | Sí | Sí | Bloqueada |
 
 Las facultades pueden recaer en una misma cuenta conforme al régimen institucional. La separación exigida es entre actos: evaluación, autorización y selección conservan decisiones, responsables, fechas y fundamentos distintos. La concesión del perfil no sustituye la autorización de una ejecución concreta.
+
+La admisión excepcional se limita a un dictamen **1 — No apto** vigente para el dominio y la configuración identificados. No sustituye una evaluación ausente, no convierte un resultado U en aptitud y no permite utilizar una evaluación revocada. Las hipótesis del laboratorio se administran por separado y no conceden esta facultad al Evaluador.
 
 Un resultado apto de la configuración identificada permite considerar la recomendación del SV, sin conceder autorización automáticamente. Una decisión institucional de admitir un modelo No apto exige advertencia expresa y trazabilidad de quien la adopta; no cambia el dictamen ni convierte al modelo en recomendado por el SV. Su aplicación sigue sometida a las comprobaciones y permisos vigentes; no levanta un bloqueo de seguridad ni habilita producción. La institución delimita dominio, finalidad, destinatarios y vigencia. Un cambio del modelo, sus condiciones o la documentación exige revisar qué autorización o evaluación sigue siendo aplicable.
 

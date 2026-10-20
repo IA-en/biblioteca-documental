@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "a556328463240a18bb37c83afc8589e17f139154192ce4261f1f63ad643ba25f",
+  "biblioteca_sha256": "26ad86d381518bae44e11cd286b73385c892e4ed6c2e715422bd381de663a73b",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3342,8 +3342,8 @@
       ]
     },
     {
-      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
-      "cobertura_bytes": 4157,
+      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 4769,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
       "identificador_editorial_r0": null,
@@ -3351,32 +3351,32 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-        "sha256": "75d26c07656263f86cf06087b224e92ab0889b5e4cb9dfedb3b1bf8ec85e71c2"
+        "sha256": "50ffb8b8c258ce1ee97c883e17c90dcb2815f0bddd20a18bbf24a86bd4b17942"
       },
       "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 2999,
+          "fin_byte_exclusivo": 3611,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000024",
-          "sha256": "23080b95d56d429d95bd31478947f8b38f61ea1b2a54643f97609e4404f1a112",
+          "seccion": "MD-L000001-L000028",
+          "sha256": "68f7a669399e3b4c660b7ede262f442e763c674ba29ee85311ef2211c3d01e31",
           "titulo": "Facultades, autorización y producción",
-          "ultima_linea": 24
+          "ultima_linea": 28
         },
         {
-          "fin_byte_exclusivo": 4157,
-          "inicio_byte": 2999,
-          "primera_linea": 25,
-          "seccion": "MD-L000025-L000034",
+          "fin_byte_exclusivo": 4769,
+          "inicio_byte": 3611,
+          "primera_linea": 29,
+          "seccion": "MD-L000029-L000038",
           "sha256": "871d83982954d7866ef5c645371783dda14cc96bddace4e56fe36570eecd4a88",
           "titulo": "Gestión de solicitudes de proveedores",
-          "ultima_linea": 34
+          "ultima_linea": 38
         }
       ]
     },
     {
-      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 8201,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
@@ -3428,7 +3428,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 4079,
       "correspondencia": "identidad_literal",
       "documento": "EET-03",
@@ -3480,7 +3480,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 3709,
       "correspondencia": "identidad_literal",
       "documento": "EET-04",
@@ -3514,8 +3514,8 @@
       ]
     },
     {
-      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
-      "cobertura_bytes": 3600,
+      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 4410,
       "correspondencia": "identidad_literal",
       "documento": "EET-05",
       "identificador_editorial_r0": null,
@@ -3523,7 +3523,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/edicion.md",
-        "sha256": "d1b6ffc84f81608cfafcb21a21b82e900f16e22261d42a2c1431bbc4e3875a2f"
+        "sha256": "6932c0c932c4dddb45772bb110d938a5aac4f03fa18e7e7ee74f44c3433014b6"
       },
       "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
@@ -3537,18 +3537,18 @@
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 3600,
+          "fin_byte_exclusivo": 4410,
           "inicio_byte": 1043,
           "primera_linea": 9,
-          "seccion": "MD-L000009-L000029",
-          "sha256": "9391ee1e3db38960b2163e5b1b973ac7cb4ae01c699a69f2911604e84476d780",
+          "seccion": "MD-L000009-L000033",
+          "sha256": "b0325dda230efa38223c236cd8af926a725c65ee20bbfed826cd559a3411fbb5",
           "titulo": "Respuesta y calificación",
-          "ultima_linea": 29
+          "ultima_linea": 33
         }
       ]
     },
     {
-      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 3319,
       "correspondencia": "identidad_literal",
       "documento": "EET-13",
@@ -3582,7 +3582,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 420,
       "correspondencia": "identidad_literal",
       "documento": "EET-14",
@@ -3607,7 +3607,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 5550,
       "correspondencia": "identidad_literal",
       "documento": "EET-15",
@@ -3659,9 +3659,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-publicacion-comparativa-20261020",
+  "edicion": "biblioteca-sv-admision-excepcional-20261020",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "c5c63d336bc327c6bc427d1c11967b7c6b3189be4de60cb77a9cb07e8a1584f5",
+  "politica_sha256": "baeccd6752b6d9eead5ccad345335281a740b3c9bdacb849da2241896c534383",
   "recepcion_visual": false,
   "version": 1
 }

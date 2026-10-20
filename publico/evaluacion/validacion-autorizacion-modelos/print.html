@@ -228,6 +228,8 @@
 <p>La edición multiformato <code>eet-cyb16-multiformato-20261020-v1</code> tiene dieciséis enunciados, ocho afirmativos y ocho negativos, asociados a una representación de examen (16,4). Esta representación corresponde al examen y no asigna una célula al Universo científico del que proceden los documentos.</p>
 <p>Los mismos enunciados se presentan a todos los candidatos en un orden común, registrado antes del examen. Si se utiliza una permutación, debe contener una vez cada identificador y ser la misma para la comparación. La corrección recupera el orden de identificadores antes de comparar o dibujar. La forma afirmativa o negativa no determina si un enunciado es conforme a la fuente.</p>
 <h2 id="respuesta-y-calificación"><a class="header" href="#respuesta-y-calificación">Respuesta y calificación</a></h2>
+<p><strong>Reserva de las próximas convocatorias.</strong> Las soluciones se publican después de que todos los candidatos hayan finalizado. Hasta ese momento se reservan también las correcciones por pregunta y las evidencias que permitan deducirlas. La plantilla se revisa y fija antes del examen; no se modifica a partir de las respuestas recibidas. Una retirada o imposibilidad de continuar exige resolución registrada antes del cierre de la convocatoria.</p>
+<p><strong>Límite de esta edición pública.</strong> La edición <code>eet-cyb16-multiformato-20261020-v1</code> conserva las soluciones que ya se publicaron. Aunque no se entreguen en el paquete del candidato, no puede acreditarse que un proveedor las desconozca previamente. Los resultados deben expresar esta limitación.</p>
 <div class="table-wrapper">
 <table>
 <thead>
@@ -240,7 +242,7 @@
 </tbody>
 </table>
 </div>
-<p>El candidato no declara su propio acierto. La plantilla correctora permite calcular la calificación: coincidencia con una clave determinada → 0; contradicción → 1; respuesta U → U. La edición no admite claves U, faltantes o duplicadas. Preguntas y soluciones deben estar publicadas antes del examen; la entrega al candidato excluye las soluciones.</p>
+<p>El candidato no declara su propio acierto. La plantilla correctora permite calcular la calificación: coincidencia con una clave determinada → 0; contradicción → 1; respuesta U → U. La edición no admite claves U, faltantes o duplicadas. En las próximas convocatorias, las soluciones se publicarán después de que todos sus candidatos hayan finalizado el examen; nunca forman parte de la entrega al candidato.</p>
 <p>La <a href="https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-multiformato-20261020-v1">edición pública</a> reúne los enunciados, las soluciones justificadas y la plantilla JSON. Las huellas relacionan esa publicación con los seis originales conservados y la edición fijada.</p>
 <p>La respuesta exigida es un objeto JSON cuyo campo <code>respuestas</code> contiene dieciséis objetos con <code>id</code> y <code>valor</code>, en el orden presentado. <code>valor</code> es una cadena del alfabeto 0, 1, U. Las explicaciones se solicitan por pregunta en un campo separado, con sus revisiones adversariales identificadas y la respuesta final conjunta. Se conserva lo comunicado, incluidas sus limitaciones, sin incorporarlo a la puntuación. No se completan posiciones omitidas ni se reconstruye una respuesta por interpretación posterior.</p>
 <p>La entrega comprende el examen completo y una única respuesta con las dieciséis posiciones. Una revisión adversarial por pregunta es el valor inicial, ampliable antes del intento; las revisiones forman parte de la misma respuesta y no generan nuevas consultas automáticas. Las declaraciones del modelo no acreditan por sí solas su proceso interno.</p>
@@ -322,6 +324,8 @@
 <tbody>
 <tr><td>Consultar ediciones y expedientes del área</td><td>Sí</td><td>Sí</td><td>Disponible</td></tr>
 <tr><td>Preparar y fijar ediciones</td><td>Sí</td><td>Sí</td><td>Disponible</td></tr>
+<tr><td>Registrar y aplicar una asignación por dominio con dictamen Apto</td><td>Sí</td><td>Sí</td><td>Preparación; sin activar producción</td></tr>
+<tr><td>Admitir excepcionalmente un No apto, conservando su dictamen</td><td>Sí</td><td>Sí</td><td>Advertencia específica, aceptación expresa y motivo</td></tr>
 <tr><td>Conceder o revocar el perfil Evaluador</td><td>Sí</td><td>No</td><td>Disponible</td></tr>
 <tr><td>Lanzar el examen de un candidato</td><td>Sólo si es la cuenta designada</td><td>Sólo si es la cuenta designada</td><td>Bloqueado: sólo conexión sin contenido a proveedores</td></tr>
 <tr><td>Autorizar un modelo apto</td><td>Sí</td><td>Sí</td><td>Bloqueada</td></tr>
@@ -330,6 +334,7 @@
 </table>
 </div>
 <p>Las facultades pueden recaer en una misma cuenta conforme al régimen institucional. La separación exigida es entre actos: evaluación, autorización y selección conservan decisiones, responsables, fechas y fundamentos distintos. La concesión del perfil no sustituye la autorización de una ejecución concreta.</p>
+<p>La admisión excepcional se limita a un dictamen <strong>1 — No apto</strong> vigente para el dominio y la configuración identificados. No sustituye una evaluación ausente, no convierte un resultado U en aptitud y no permite utilizar una evaluación revocada. Las hipótesis del laboratorio se administran por separado y no conceden esta facultad al Evaluador.</p>
 <p>Un resultado apto de la configuración identificada permite considerar la recomendación del SV, sin conceder autorización automáticamente. Una decisión institucional de admitir un modelo No apto exige advertencia expresa y trazabilidad de quien la adopta; no cambia el dictamen ni convierte al modelo en recomendado por el SV. Su aplicación sigue sometida a las comprobaciones y permisos vigentes; no levanta un bloqueo de seguridad ni habilita producción. La institución delimita dominio, finalidad, destinatarios y vigencia. Un cambio del modelo, sus condiciones o la documentación exige revisar qué autorización o evaluación sigue siendo aplicable.</p>
 <p>La selección para producción mantiene un único modelo activo por ámbito institucional definido. Una sustitución debe registrar el cese anterior y la nueva decisión. No se permiten dos selecciones incompatibles dentro del mismo ámbito. Las comparaciones de rendimiento, coste y condiciones del proveedor informan esa decisión; no conceden facultades de contratación o pago.</p>
 <p>Los historiales anteriores se preservan. Las actuaciones de prueba permanecen identificadas como tales y no se convierten en evidencia de producción por cambiar una etiqueta. La nueva sede administrativa no reinicia ni borra los expedientes científicos.</p>
