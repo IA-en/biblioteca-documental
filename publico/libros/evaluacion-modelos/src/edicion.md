@@ -2,9 +2,9 @@
 
 Cada edición fija sus documentos, instrucciones, enunciados, respuestas de referencia, criticidades, formato de salida, regla agregada y límites. Se identifica antes de examinar candidatos. Un cambio sustantivo requiere otra edición; no sustituye silenciosamente la plantilla con la que se produjo un resultado.
 
-La primera edición tiene dieciséis enunciados, ocho afirmativos y ocho negativos, asociados a una representación de examen (16,4). Esta elección no asigna una célula al Universo científico del que proceden los documentos. Tampoco obliga a utilizar el antiguo banco de veinticinco preguntas ni sus etapas históricas.
+La edición multiformato `eet-cyb16-multiformato-20261020-v1` tiene dieciséis enunciados, ocho afirmativos y ocho negativos, asociados a una representación de examen (16,4). Esta representación corresponde al examen y no asigna una célula al Universo científico del que proceden los documentos.
 
-Los mismos enunciados se presentan a los candidatos mediante permutaciones registradas. La permutación debe contener una vez cada identificador. La corrección recupera el orden canónico antes de comparar o dibujar. La forma afirmativa o negativa no determina si un enunciado es conforme a la fuente.
+Los mismos enunciados se presentan a todos los candidatos en un orden común, registrado antes del examen. Si se utiliza una permutación, debe contener una vez cada identificador y ser la misma para la comparación. La corrección recupera el orden de identificadores antes de comparar o dibujar. La forma afirmativa o negativa no determina si un enunciado es conforme a la fuente.
 
 ## Respuesta y calificación
 
@@ -14,11 +14,15 @@ Los mismos enunciados se presentan a los candidatos mediante permutaciones regis
 | 1 | El enunciado no es conforme a la fuente recibida. |
 | U | El candidato declara que no puede determinarlo. |
 
-El candidato no declara su propio acierto. La plantilla reservada permite calcular la calificación: coincidencia con una clave determinada → 0; contradicción → 1; respuesta U → U. La primera edición no admite claves U, faltantes o duplicadas.
+El candidato no declara su propio acierto. La plantilla correctora permite calcular la calificación: coincidencia con una clave determinada → 0; contradicción → 1; respuesta U → U. La edición no admite claves U, faltantes o duplicadas. Preguntas y soluciones deben estar publicadas antes del examen; la entrega al candidato excluye las soluciones.
 
-La respuesta exigida es un objeto JSON con un único campo `respuestas`, que contiene dieciséis objetos con `id` y `valor`, en el orden presentado. `valor` es una cadena del alfabeto 0, 1, U. Se admite el espacio en blanco propio de JSON. No se admiten campos adicionales, explicaciones, cercos de código ni posiciones omitidas. El formato queda explicado antes de responder; no se reconstruye por interpretación posterior.
+La [edición pública](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-multiformato-20261020-v1) reúne los enunciados, las soluciones justificadas y la plantilla JSON. Las huellas relacionan esa publicación con los seis originales conservados y la edición fijada.
 
-La entrega comprende el examen completo y una única respuesta con las dieciséis posiciones. No se exige pensamiento interno ni se incorporan nuevas etapas de razonamiento. El límite de 300 segundos se aplica a esa entrega completa, incluidas petición y recepción, sin renovación entre fragmentos de respuesta.
+La respuesta exigida es un objeto JSON cuyo campo `respuestas` contiene dieciséis objetos con `id` y `valor`, en el orden presentado. `valor` es una cadena del alfabeto 0, 1, U. Las explicaciones se solicitan por pregunta en un campo separado, con sus revisiones adversariales identificadas y la respuesta final conjunta. Se conserva lo comunicado, incluidas sus limitaciones, sin incorporarlo a la puntuación. No se completan posiciones omitidas ni se reconstruye una respuesta por interpretación posterior.
+
+La entrega comprende el examen completo y una única respuesta con las dieciséis posiciones. Una revisión adversarial por pregunta es el valor inicial, ampliable antes del intento; las revisiones forman parte de la misma respuesta y no generan nuevas consultas automáticas. Las declaraciones del modelo no acreditan por sí solas su proceso interno.
+
+Los valores iniciales configurables son 32 minutos de tiempo efectivo total y 2 minutos de referencia por pregunta, sin corte individual. Cada incidencia acreditada dispone de 5 minutos para resolverse y pausa el tiempo efectivo. Los tiempos elegidos deben concordar con la edición y las condiciones recibidas.
 
 ---
 

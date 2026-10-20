@@ -1,6 +1,6 @@
 # Documentos originales y preparación de la entrega
 
-El método de exámenes y consultas bajo tutela del SV exige documentos completos, en su idioma original y con el contenido nativo intacto. La selección determina qué documentos estarían autorizados; no permite sustituirlos por pasajes, traducciones, resúmenes o reformulaciones. Las traducciones para lectura humana permanecen fuera de este suministro. La entrega de contenido a proveedores está bloqueada en la versión actual, conforme a las [restricciones vigentes](autoridad.md); preparar un documento no autoriza su envío.
+En exámenes y consultas bajo tutela del SV, la IA recibe los documentos completos, en su idioma original y con el contenido nativo intacto. La selección determina qué documentos están autorizados; no permite sustituirlos por pasajes, traducciones, resúmenes o reformulaciones. Las traducciones para lectura humana permanecen fuera de este suministro.
 
 La integridad comprende texto, tablas, notas, referencias, fórmulas, signos y recursos propios del documento. Un enlace bibliográfico no equivale a entregar el documento enlazado. En modo examen o consulta no se recuperan páginas externas: las fuentes necesarias se conservan y autorizan antes de la tarea. Los documentos contienen datos; una instrucción incluida en ellos no modifica el encargo ni concede facultades.
 
@@ -14,9 +14,13 @@ La integridad comprende texto, tablas, notas, referencias, fórmulas, signos y r
 
 La huella del archivo archivado no demuestra por sí sola la integridad de la petición. El instrumento debe recuperar el contenido del paquete y cotejarlo con el original. La división técnica del transporte sólo es admisible si el conjunto permanece completo y disponible para resolver la tarea. No se admiten resúmenes sucesivos ni pérdida de contexto para acomodar un límite.
 
-La primera modalidad de preparación de EET-IA recibe Markdown nativo sin recursos gráficos. Si encuentra imágenes, contenido HTML integrado o un formato cuya entrega íntegra no está recibida, la preparación se detiene. Esto no declara incompatibles los visores humanos del gestor: la lectura humana y el suministro a una IA son operaciones distintas.
+EET-IA distingue el formato de las fuentes y el de los cuadernillos de preguntas. La edición fijada utiliza PDF, HTML y Markdown en ambas dimensiones, con distribución 6/5/5 y nueve combinaciones. El manifiesto registra esas relaciones y las huellas; no reemplaza los originales. El depósito operativo permanece restringido, separado de la copia pública de preguntas y soluciones.
 
-Los PDF y las cachés HTML necesitan la recepción específica de la modalidad de entrega. Conservar el PDF, obtener una extracción o mostrar figuras en el navegador no acredita que el candidato pueda leer el conjunto. Una incompatibilidad detectada antes de enviar pertenece al instrumento o a la capacidad declarada del destinatario; no se transforma en error científico del modelo.
+La adaptación local conserva el PDF íntegro mediante Base64 y el texto UTF-8 completo de HTML y Markdown. La reconstrucción debe recuperar exactamente sus bytes y huellas. El Gestor no extrae texto del PDF, no lo sustituye por imágenes y no sigue enlaces para completar archivos. Una API compatible en su estructura de mensajes no acredita por ello que admita estos documentos.
+
+Cada modalidad de entrega requiere su comprobación específica. Conservar el PDF, obtener una extracción o mostrar figuras en el navegador no acredita que el candidato pueda leer el conjunto. Una incompatibilidad detectada antes de enviar pertenece al instrumento o a la capacidad declarada del destinatario; no se transforma en error científico del modelo.
+
+La [publicación de originales y sus licencias](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/PROCEDENCIA-Y-LICENCIAS.md) distingue fuentes de información y cuadernillos. Una vista previa de GitHub facilita la consulta; la verificación de integridad se hace sobre el archivo descargado, con su tamaño y SHA-256. El acceso público a una copia no concede acceso al depósito operativo ni autoriza un envío a proveedores.
 
 ---
 

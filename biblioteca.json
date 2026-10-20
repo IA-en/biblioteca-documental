@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-libro-y-manual-desarrolladores-20261019",
+  "edicion": "biblioteca-sv-publicacion-comparativa-20261020",
   "libros": [
     {
       "id": "guia",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "b8c9c31a882754556722d75671e35d344538d204fd7c5461f2fb12b5638ba095",
+        "sha256": "48d2dc7869d8f4e92f93a73c75c4b109b98f87a8568b00f90da49395238a9433",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
-          "procedencia": "Edición pública propia de 14/10/2026",
-          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "procedencia": "Edición pública de 20/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "985a18cdc37bdc9ab71667bcba2d9ef8e437e7bd5e2c4653e52ff9ae31c363b9",
+            "sha256": "75d26c07656263f86cf06087b224e92ab0889b5e4cb9dfedb3b1bf8ec85e71c2",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",
@@ -845,14 +845,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública propia de 14/10/2026",
-          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "procedencia": "Edición pública de 20/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "490e1e0808bc25c3984be06e50528455da1d70f9377fa2439d5cff991bc6b065",
+            "sha256": "53035a1f4740cc6eee1edb641db8a4a6c2808d29cfdef6e50051838a15f9787c",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",
@@ -860,14 +860,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública propia de 14/10/2026",
-          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "procedencia": "Edición pública de 20/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "7781b73187c0b4966154b8b8abcbb5f297f9a1953af1cda5fb346052340fe63f",
+            "sha256": "a9c10bc139382d0850506c5eef0d07d4acb5a71e8027ef7cf1f54345844abef0",
             "ruta": "libros/evaluacion-modelos/src/correccion.md"
           },
           "documento": "EET-03",
@@ -875,14 +875,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
-          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
+          "procedencia": "Edición pública de 20/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "daa1a67ff8a086e66e49d48a3acda4a524829981a3b54cbb4a992d279d28e52d",
+            "sha256": "7a60af599ff7cfdbba110903944b80eb7a2cd58c1af5a208bfa5017e31011364",
             "ruta": "libros/evaluacion-modelos/src/documentos.md"
           },
           "documento": "EET-04",
@@ -890,14 +890,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública propia de 14/10/2026",
-          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "procedencia": "Edición pública de 20/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "9790fb383dcbd452e2fe946da180028fdb8652fe9ff4a2f971cfad92341c01d0",
+            "sha256": "d1b6ffc84f81608cfafcb21a21b82e900f16e22261d42a2c1431bbc4e3875a2f",
             "ruta": "libros/evaluacion-modelos/src/edicion.md"
           },
           "documento": "EET-05",
@@ -905,14 +905,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
-          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
+          "procedencia": "Edición pública de 20/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "ead32945f6e5144485b64422c6d94cc5241bce244299710290715a600fffcd90",
+            "sha256": "ab3db451915fffaf84c9e424e3c7ce15dace8c98d8f68efa9525a6530802fe83",
             "ruta": "libros/evaluacion-modelos/src/finalidad.md"
           },
           "documento": "EET-13",
@@ -920,8 +920,8 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública propia de 14/10/2026",
-          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "procedencia": "Edición pública de 20/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -935,14 +935,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública propia de 14/10/2026",
-          "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+          "procedencia": "Edición pública de 20/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "e90c5fc40cf68d5f804b72d1334f71cbd2075c75d21aa90d86a0741b3b6e8c31",
+            "sha256": "932b6a2814f1ae10f6ced51201a6fd16d786b2b472f69822ecd637b116dbd456",
             "ruta": "libros/evaluacion-modelos/src/transporte.md"
           },
           "documento": "EET-15",

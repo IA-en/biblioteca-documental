@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "5afcbb5a72d164afc1bca7658e19ee7c660380cc36c379947c132cd16ff32357",
+  "biblioteca_sha256": "a556328463240a18bb37c83afc8589e17f139154192ce4261f1f63ad643ba25f",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3342,8 +3342,8 @@
       ]
     },
     {
-      "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
-      "cobertura_bytes": 4022,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 4157,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
       "identificador_editorial_r0": null,
@@ -3351,22 +3351,22 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-        "sha256": "985a18cdc37bdc9ab71667bcba2d9ef8e437e7bd5e2c4653e52ff9ae31c363b9"
+        "sha256": "75d26c07656263f86cf06087b224e92ab0889b5e4cb9dfedb3b1bf8ec85e71c2"
       },
-      "procedencia": "Edición pública propia de 14/10/2026",
+      "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 2864,
+          "fin_byte_exclusivo": 2999,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000024",
-          "sha256": "f75f50efd8622f1fd6529e66d0886f87c43d38df413abc4dfd63a86e2f0fbbce",
+          "sha256": "23080b95d56d429d95bd31478947f8b38f61ea1b2a54643f97609e4404f1a112",
           "titulo": "Facultades, autorización y producción",
           "ultima_linea": 24
         },
         {
-          "fin_byte_exclusivo": 4022,
-          "inicio_byte": 2864,
+          "fin_byte_exclusivo": 4157,
+          "inicio_byte": 2999,
           "primera_linea": 25,
           "seccion": "MD-L000025-L000034",
           "sha256": "871d83982954d7866ef5c645371783dda14cc96bddace4e56fe36570eecd4a88",
@@ -3376,8 +3376,8 @@
       ]
     },
     {
-      "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
-      "cobertura_bytes": 7160,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 8201,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3385,9 +3385,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "490e1e0808bc25c3984be06e50528455da1d70f9377fa2439d5cff991bc6b065"
+        "sha256": "53035a1f4740cc6eee1edb641db8a4a6c2808d29cfdef6e50051838a15f9787c"
       },
-      "procedencia": "Edición pública propia de 14/10/2026",
+      "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 1015,
@@ -3399,37 +3399,37 @@
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 1695,
+          "fin_byte_exclusivo": 2047,
           "inicio_byte": 1015,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000014",
-          "sha256": "c1043d590c6155b550ccf0f75250241c0942c4b3a938f882410a29aa402d5db5",
-          "titulo": "Alcance de la primera edición",
+          "sha256": "f3d00852e5ccdffe7b2969231f429d8d997150b40c5a157bc882391349593d3b",
+          "titulo": "Alcance de la edición multiformato",
           "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 6084,
-          "inicio_byte": 1695,
+          "fin_byte_exclusivo": 6617,
+          "inicio_byte": 2047,
           "primera_linea": 15,
           "seccion": "MD-L000015-L000033",
-          "sha256": "c57a3be9225046b699f40955e8fa9ee438c1bf1c8671273b4c8bf309d05edf61",
+          "sha256": "879898915d369bea5600d7952e2acf6716d35c12a4f2940043e61be0066090bf",
           "titulo": "Selección, clasificación e independencia",
           "ultima_linea": 33
         },
         {
-          "fin_byte_exclusivo": 7160,
-          "inicio_byte": 6084,
+          "fin_byte_exclusivo": 8201,
+          "inicio_byte": 6617,
           "primera_linea": 34,
-          "seccion": "MD-L000034-L000045",
-          "sha256": "d4746511fc9bc44e143be614ffb923757e97f5026b7c574bba78e7f0c5a9db2b",
+          "seccion": "MD-L000034-L000046",
+          "sha256": "a12b6bbb8a26493c14fc06741081cc2eee12dab1325b0792bd5ab43c4061e364",
           "titulo": "Sedes de consulta",
-          "ultima_linea": 45
+          "ultima_linea": 46
         }
       ]
     },
     {
-      "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
-      "cobertura_bytes": 4174,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 4079,
       "correspondencia": "identidad_literal",
       "documento": "EET-03",
       "identificador_editorial_r0": null,
@@ -3437,9 +3437,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/correccion.md",
-        "sha256": "7781b73187c0b4966154b8b8abcbb5f297f9a1953af1cda5fb346052340fe63f"
+        "sha256": "a9c10bc139382d0850506c5eef0d07d4acb5a71e8027ef7cf1f54345844abef0"
       },
-      "procedencia": "Edición pública propia de 14/10/2026",
+      "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 359,
@@ -3451,37 +3451,37 @@
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1984,
+          "fin_byte_exclusivo": 1831,
           "inicio_byte": 359,
           "primera_linea": 5,
           "seccion": "MD-L000005-L000018",
-          "sha256": "6a66a20078446e9e54f3e40f24b808cb29488017569a220ff550f147ce9e4574",
+          "sha256": "ab6c648a1788e00f01c5676b9fca8e0fd46b95040f06e3b40358d9ba5aa087fc",
           "titulo": "Clasificación matemática y dictamen del contrato",
           "ultima_linea": 18
         },
         {
-          "fin_byte_exclusivo": 2418,
-          "inicio_byte": 1984,
+          "fin_byte_exclusivo": 2312,
+          "inicio_byte": 1831,
           "primera_linea": 19,
           "seccion": "MD-L000019-L000022",
-          "sha256": "9cb60dd75598cd9e022ea4996f15429735edfdc12e7e763e25fb48de8b1a3aa7",
+          "sha256": "711359360f4221a825148bec9403f0e5c6102d3cceb7625b18a07015a0c6a9f6",
           "titulo": "Fallos formales y fallos del instrumento",
           "ultima_linea": 22
         },
         {
-          "fin_byte_exclusivo": 4174,
-          "inicio_byte": 2418,
+          "fin_byte_exclusivo": 4079,
+          "inicio_byte": 2312,
           "primera_linea": 23,
           "seccion": "MD-L000023-L000033",
-          "sha256": "63a3f4536c6c0902837f4e6ecf9a2e599233c46781243143a61596d9b48deb33",
+          "sha256": "aa36cce5e606315ab7d631b452b1bf2d6e2d66f1a4408a149bab766cf6bb9b85",
           "titulo": "Polígono SV",
           "ultima_linea": 33
         }
       ]
     },
     {
-      "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
-      "cobertura_bytes": 2980,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 3709,
       "correspondencia": "identidad_literal",
       "documento": "EET-04",
       "identificador_editorial_r0": null,
@@ -3489,33 +3489,33 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/documentos.md",
-        "sha256": "daa1a67ff8a086e66e49d48a3acda4a524829981a3b54cbb4a992d279d28e52d"
+        "sha256": "7a60af599ff7cfdbba110903944b80eb7a2cd58c1af5a208bfa5017e31011364"
       },
-      "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
+      "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1014,
+          "fin_byte_exclusivo": 835,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "a2a7a8ee825a92d5f89702d91543cb0448aa77aa8e5fc22112258ceb9f7a0e68",
+          "sha256": "6f42863269e341caa57209112ea1aa601ba5dd16c3a9969e10a9852326c74c10",
           "titulo": "Documentos originales y preparación de la entrega",
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 2980,
-          "inicio_byte": 1014,
+          "fin_byte_exclusivo": 3709,
+          "inicio_byte": 835,
           "primera_linea": 7,
-          "seccion": "MD-L000007-L000023",
-          "sha256": "06356dbf0d79295f7aacbe3efa017120b5d57d75b50dbc4057486722dc202656",
+          "seccion": "MD-L000007-L000027",
+          "sha256": "a981529f180430cf018ee215e992cd47511a7bf4446c2be4ff34ae22f6dd13e5",
           "titulo": "Qué debe comprobarse",
-          "ultima_linea": 23
+          "ultima_linea": 27
         }
       ]
     },
     {
-      "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
-      "cobertura_bytes": 2604,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 3600,
       "correspondencia": "identidad_literal",
       "documento": "EET-05",
       "identificador_editorial_r0": null,
@@ -3523,33 +3523,33 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/edicion.md",
-        "sha256": "9790fb383dcbd452e2fe946da180028fdb8652fe9ff4a2f971cfad92341c01d0"
+        "sha256": "d1b6ffc84f81608cfafcb21a21b82e900f16e22261d42a2c1431bbc4e3875a2f"
       },
-      "procedencia": "Edición pública propia de 14/10/2026",
+      "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 986,
+          "fin_byte_exclusivo": 1043,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "f1903437a2a059a3def9fbd3f617a0c828a49c59ab39bc28d840f5f14efc1170",
+          "sha256": "2958609a80c53f3d4cac2510996d27d249e8eeeaceb118493c2fe3744bd8f450",
           "titulo": "Edición del examen y plantilla previa",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 2604,
-          "inicio_byte": 986,
+          "fin_byte_exclusivo": 3600,
+          "inicio_byte": 1043,
           "primera_linea": 9,
-          "seccion": "MD-L000009-L000025",
-          "sha256": "296c2e5368a861434a452a1077bfe45a5f3831b07faa43438be45839d6ecb4df",
+          "seccion": "MD-L000009-L000029",
+          "sha256": "9391ee1e3db38960b2163e5b1b973ac7cb4ae01c699a69f2911604e84476d780",
           "titulo": "Respuesta y calificación",
-          "ultima_linea": 25
+          "ultima_linea": 29
         }
       ]
     },
     {
-      "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
-      "cobertura_bytes": 3094,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 3319,
       "correspondencia": "identidad_literal",
       "documento": "EET-13",
       "identificador_editorial_r0": null,
@@ -3557,32 +3557,32 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/finalidad.md",
-        "sha256": "ead32945f6e5144485b64422c6d94cc5241bce244299710290715a600fffcd90"
+        "sha256": "ab3db451915fffaf84c9e424e3c7ce15dace8c98d8f68efa9525a6530802fe83"
       },
-      "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
+      "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1458,
+          "fin_byte_exclusivo": 1282,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "54bc6a2823d386b4e1b28f9f5030806d3227c778bfac33a7e1484ff963191b50",
+          "sha256": "bdee21f559384b2522864b753432e761f96fe877190ce0b234a8b576097912ac",
           "titulo": "Finalidad y alcance",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 3094,
-          "inicio_byte": 1458,
+          "fin_byte_exclusivo": 3319,
+          "inicio_byte": 1282,
           "primera_linea": 9,
-          "seccion": "MD-L000009-L000019",
-          "sha256": "12cb43985c88b96ff6abd2c540d89e0daff6fe5afd4b4527dea00ed3e5478f13",
+          "seccion": "MD-L000009-L000021",
+          "sha256": "b7afd0b0b94a6db7981241473a82a91eeedadb4e0a43c9a65f148f804da50221",
           "titulo": "Organización documental",
-          "ultima_linea": 19
+          "ultima_linea": 21
         }
       ]
     },
     {
-      "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 420,
       "correspondencia": "identidad_literal",
       "documento": "EET-14",
@@ -3593,7 +3593,7 @@
         "ruta": "libros/evaluacion-modelos/src/SUMMARY.md",
         "sha256": "73f892bb73a1bc7269d8f6d68add20a66ef0615a84609b99e515c46ba1e16330"
       },
-      "procedencia": "Edición pública propia de 14/10/2026",
+      "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 420,
@@ -3607,8 +3607,8 @@
       ]
     },
     {
-      "alcance": "Método de preparación y evaluación; no contiene claves reservadas ni acredita modelos aptos o producción.",
-      "cobertura_bytes": 4163,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 5550,
       "correspondencia": "identidad_literal",
       "documento": "EET-15",
       "identificador_editorial_r0": null,
@@ -3616,22 +3616,22 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/transporte.md",
-        "sha256": "e90c5fc40cf68d5f804b72d1334f71cbd2075c75d21aa90d86a0741b3b6e8c31"
+        "sha256": "932b6a2814f1ae10f6ced51201a6fd16d786b2b472f69822ecd637b116dbd456"
       },
-      "procedencia": "Edición pública propia de 14/10/2026",
+      "procedencia": "Edición pública de 20/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1637,
+          "fin_byte_exclusivo": 1961,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000011",
-          "sha256": "30e71a885b5218ae16e583bb7d9f19874e91f41da7d2f8bf7308c8f090ea3cfe",
+          "sha256": "9f02143513a166ca670bf872cc8b35eb0cb181f58a820e3823e7581211e5f666",
           "titulo": "Transporte, conservación y mediciones",
           "ultima_linea": 11
         },
         {
-          "fin_byte_exclusivo": 2453,
-          "inicio_byte": 1637,
+          "fin_byte_exclusivo": 2777,
+          "inicio_byte": 1961,
           "primera_linea": 12,
           "seccion": "MD-L000012-L000023",
           "sha256": "0236632d8425424853a5daee3cbb26eeb81667fa7f50a851396dc652c1c2a79d",
@@ -3639,29 +3639,29 @@
           "ultima_linea": 23
         },
         {
-          "fin_byte_exclusivo": 3084,
-          "inicio_byte": 2453,
+          "fin_byte_exclusivo": 4471,
+          "inicio_byte": 2777,
           "primera_linea": 24,
-          "seccion": "MD-L000024-L000031",
-          "sha256": "d66f16732dad6d1250a794d4428276979c392777271a4132b11e00db18bd1d7a",
+          "seccion": "MD-L000024-L000037",
+          "sha256": "8e8b0b48abae1fb7c0eac43302e99880e29e1bda014064d8bcf15a075795b827",
           "titulo": "Telemetría",
-          "ultima_linea": 31
+          "ultima_linea": 37
         },
         {
-          "fin_byte_exclusivo": 4163,
-          "inicio_byte": 3084,
-          "primera_linea": 32,
-          "seccion": "MD-L000032-L000037",
+          "fin_byte_exclusivo": 5550,
+          "inicio_byte": 4471,
+          "primera_linea": 38,
+          "seccion": "MD-L000038-L000043",
           "sha256": "1a81bb86734b8f15c929793cc517e4537fe64b7c1f8afd4f522b3acef6c45851",
           "titulo": "Aislamiento y frontera: referencias comunes",
-          "ultima_linea": 37
+          "ultima_linea": 43
         }
       ]
     }
   ],
-  "edicion": "biblioteca-sv-libro-y-manual-desarrolladores-20261019",
+  "edicion": "biblioteca-sv-publicacion-comparativa-20261020",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "3c2de969d830432ecf8bc8abb2221226dcb1fdb5af41aa20d98af5b8caa907c5",
+  "politica_sha256": "c5c63d336bc327c6bc427d1c11967b7c6b3189be4de60cb77a9cb07e8a1584f5",
   "recepcion_visual": false,
   "version": 1
 }

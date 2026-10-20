@@ -7,7 +7,7 @@ La igualdad exigible se refiere al contenido documental, al contrato de examen y
 
 La preparación conserva la edición, el orden presentado, las huellas de documentos y paquete, la identidad del adaptador y la configuración exacta del destinatario cuando se haya seleccionado. La capacidad de contexto debe medirse con el procedimiento apropiado para esa configuración; no se infiere sólo del tamaño en bytes o de una denominación comercial.
 
-El plazo es absoluto: 300 segundos para la entrega y recepción completas. Una comunicación cortada después del envío deja incierto el procesamiento remoto hasta obtener evidencia. No se repite automáticamente la solicitud. Cada nuevo intento requiere identidad y fundamento propios; no reemplaza el anterior ni convierte el coste desconocido en cero.
+El límite total consume tiempo efectivo de entrega y recepción: 32 minutos por defecto, con referencia de 2 minutos por pregunta sin corte individual. Ambos valores se configuran antes del intento y deben concordar con la edición. Cada incidencia acreditada admite 5 minutos para resolverse y pausa el límite efectivo. Se conservan tiempo activo, pausas y duración del transporte por separado. Una comunicación cortada después del envío deja incierto el procesamiento remoto hasta obtener evidencia. No se repite automáticamente la solicitud. Cada nuevo intento requiere identidad y fundamento propios; no reemplaza el anterior ni convierte el coste desconocido en cero.
 
 ## Atribución de incidencias
 
@@ -25,7 +25,13 @@ La investigación de una incidencia conserva lo observado y su referencia. Un er
 
 La duración observada por el SV, los tokens comunicados por el proveedor, los consumos auxiliares y el coste se registran con unidad, procedencia y estado de disponibilidad. Un contador ausente permanece ausente. El consumo agregado de una cuenta compartida no se imputa automáticamente al examen.
 
-Si el servicio entrega texto auxiliar, se conserva separado de la respuesta final y con sus límites. No se exige al modelo que revele pensamiento interno ni que declare sus propias mediciones. La ausencia de una medición administrativa no cambia silenciosamente la calificación de una respuesta íntegra.
+Las explicaciones y revisiones adversariales se solicitan por pregunta en la misma entrega y se conservan sin puntuación. Se distingue lo declarado por el modelo de las mediciones del SV y los contadores del proveedor. Un relato no prueba el proceso interno que describe.
+
+La observación local utiliza OpenTelemetry Rust y conserva inicio, muestras y cierre en el almacenamiento del Gestor, sin exportación a un proveedor de IA. CPU, memoria y E/S corresponden al proceso compartido del Gestor; no describen el hardware remoto ni pueden atribuirse íntegramente a un candidato. El primer fragmento HTTP tampoco acredita el primer token generado. Las pausas del examen no suspenden esta observación.
+
+El cierre comprueba la integridad y el estado de la observación obligatoria. Si falta capacidad para conservarla, el intento no se inicia; si falla durante la ejecución, se detiene, conserva lo recuperado y queda sin dictamen ni clasificación. Un contador opcional que el proveedor no comunique permanece como no disponible y no se convierte en fallo local.
+
+Las evidencias publicadas deben mantener unidad, procedencia, ámbito y disponibilidad. Los campos nativos de razonamiento, caché o uso no se suman de nuevo cuando son subconjuntos de otros totales. Coste comunicado, cálculo comparable e importe facturado y conciliado conservan significados distintos.
 
 ---
 

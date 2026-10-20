@@ -6,19 +6,19 @@ El estándar utiliza una fila por ejecución identificada. Conserva estado, dict
 
 Antes de la primera ejecución, la tabla de resultados permanece sin resultados. Las respuestas prefijadas empleadas para comprobar el corrector pertenecen a la verificación instrumental y se publican separadamente si procede. No se atribuyen a candidatos reales ni se usan para ordenar modelos.
 
-## Alcance de la primera edición
+## Alcance de la edición multiformato
 
-EET-CYB16 toma como fuente el acta original OP-CYB-001, en una revisión identificada e íntegra. Examina comprensión de sus distinciones documentales y de autoridad. No acredita competencia general en ciberseguridad, aptitud clínica, ejecución del Lenguaje ni funcionamiento completo del Árbitro–Director. La representación (16,4) corresponde al examen y no constituye una asignación celular del Universo.
+La edición EET-CYB16 multiformato utiliza NIST SP 800-207 en PDF, RFC 8996 en HTML y el acta OP-CYB-001 en Markdown, conservados íntegramente e identificados por revisión y huella. Sus cuadernillos también se distribuyen entre esos tres formatos y los cruzan con los de las fuentes. Examina comprensión documental; no acredita competencia general en ciberseguridad, aptitud clínica, ejecución del Lenguaje ni funcionamiento completo del Árbitro–Director. La representación (16,4) corresponde al examen y no constituye una asignación celular del Universo.
 
-Las comparaciones históricas conservan sus contratos originales. La nueva edición no modifica las calificaciones anteriores ni establece equivalencia automática con bancos de veinticinco preguntas o pruebas de varias etapas.
+Cada comparación conserva su edición y condiciones. Los resultados de otra edición no se incorporan como si se hubieran obtenido con ésta. El cruce de formatos describe cobertura, pero no aísla el efecto del formato: las fuentes también difieren en materia e idioma. Las preguntas vinculadas a una figura pueden apoyarse en el texto contiguo y no constituyen por sí solas una prueba exclusiva de percepción visual.
 
 ## Selección, clasificación e independencia
 
-La comparación actual se limita a candidatos con antecedentes: GPT-6 Astra, Grok 4.7, Qwen3.8-Max-0902, GLM-5.3, Kimi K3 y Claude Opus 5.5. La clasificación nueva procede de ejecuciones comparables de la edición actual. Los antecedentes seleccionan candidatos; no transfieren automáticamente sus calificaciones. La comprobación de una API no incorpora un modelo a la comparación ni permite sustituir su versión. Por incorporación expresa posterior, Gemini 4 Argon se añade como séptimo candidato pendiente, con el mismo paquete íntegro, orden común, regla de aptitud y condiciones recibidas. Su conexión y el contador de tokens no constituyen un examen ni un resultado.
+La comparación comprende ocho candidatos, en orden alfabético de examen: Claude Opus 5.5, DeepSeek-V4.1-Flash-1017, Gemini 4 Argon, GLM-5.3, GPT-6 Astra, Grok 4.7, Kimi K3 y Qwen3.8-Max-0902. Todos requieren el mismo paquete íntegro, orden común, regla de aptitud y condiciones comparables. Los antecedentes no transfieren calificaciones; comprobar una API no permite sustituir una versión ni constituye examen o resultado. Los candidatos cuya compatibilidad documental siga pendiente se conservan sin dictamen y sin iniciar el examen.
 
-El criterio **SV-CLASIFICACION-EET-CYB16-1**, fijado antes de las ejecuciones, admite a la recomendación sólo resultados Aptos (0). Ordena sucesivamente por **más aciertos, menos errores, menor tiempo total y menor coste general comparable**, en ese orden. Una ventaja posterior no compensa una desventaja anterior. A igualdad de aciertos, menos errores distingue la incertidumbre declarada de una respuesta errónea; no convierte una U en conocimiento.
+El criterio **SV-CLASIFICACION-EET-CYB16-2**, fijado antes de las ejecuciones, admite a la recomendación sólo resultados Aptos (0). Ordena sucesivamente por **más aciertos, menos errores, menor tiempo efectivo y menor coste general comparable**, en ese orden. Una ventaja posterior no compensa una desventaja anterior. A igualdad de aciertos, menos errores distingue la incertidumbre declarada de una respuesta errónea; no convierte una U en conocimiento.
 
-El tiempo comprende la petición y la recepción completa, con el reloj del SV. El primer fragmento se presenta aparte. Los tokens de proveedores diferentes no son unidades lingüísticas idénticas y no desempatan; las categorías de razonamiento y caché no se suman de nuevo cuando ya están incluidas en otros contadores. El polígono conserva la pareja entre vector, estados y dictamen; la [regla fundacional y el control de criticidad](correccion.md) determinan la aptitud. Su área no sustituye esa regla ni puntúa para ordenar candidatos.
+El tiempo efectivo comprende la petición y la recepción completa, descontando las pausas acreditadas por el reloj del SV. Pausas, duración del transporte y primer fragmento se presentan por separado. El clasificador exige concordancia de la edición, el paquete común, los originales y el cierre registrado del reloj; condiciones temporales distintas impiden una recomendación común. Los tokens de proveedores diferentes no son unidades lingüísticas idénticas y no desempatan; las categorías de razonamiento y caché no se suman de nuevo cuando ya están incluidas en otros contadores. El polígono conserva la pareja entre vector, estados y dictamen; la [regla fundacional y el control de criticidad](correccion.md) determinan la aptitud. Su área no sustituye esa regla ni puntúa para ordenar candidatos.
 
 El coste debe abarcar el examen completo, antes de impuestos, con tarifa general, moneda, fecha común de referencia, fuente y cálculo documentados. Créditos, descuentos particulares y recursos aportados no modifican la posición. El gasto efectivo de la cuenta se conserva por separado. La administración de EET-IA recibe el cálculo, ligado a la huella de la respuesta; cualquier rectificación conserva su autoría, fecha y fundamento en el historial.
 
@@ -28,17 +28,18 @@ La clasificación permanece provisional mientras haya candidatos pendientes, inc
 
 En **EET-IA → Resultados**, la presentación y la descarga estructurada proceden del mismo cálculo. Se cotejan edición, paquete íntegro, condiciones, petición y respuesta conservadas, corrección y registro previo del criterio. Este cálculo privado no publica automáticamente los resultados ni activa producción; la recepción científica y su distribución mantienen sus propias autorizaciones.
 
-La [clasificación pública](https://administracion.itvia.online/benchmark) aparece en la primera pantalla del Gestor, junto a sus demás accesos. Incluye prosa y datos estructurados. La publicación no divulga la plantilla, los originales reservados, las respuestas privadas, credenciales ni datos personales.
+La [clasificación pública](https://administracion.itvia.online/benchmark) aparece en la primera pantalla del Gestor, junto a sus demás accesos. Incluye prosa y datos estructurados. Las preguntas y soluciones tienen su publicación identificada, separada de los registros privados de ejecución. La clasificación no divulga credenciales ni datos personales.
 
 La [solicitud de evaluación](https://administracion.itvia.online/benchmark/proveedores) permite a proveedores proponer nuevas evaluaciones sin coste para el SV, con identificación del representante, motivo, recursos y confirmación de correo. La aportación de recursos no compra posiciones, aceptación ni resultados favorables. Todo acuerdo debe identificar financiación, recursos y posibles conflictos de interés. No se presume una inexistencia de conflictos por el mero enunciado de esta política.
 ## Sedes de consulta
 
 - [Estándar comparativo y ediciones](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark).
 - [Área EET-IA, con acceso autorizado](https://administracion.itvia.online/eet-ia/).
-- [Código y custodia privada del gestor](https://github.com/IA-en/gestion-usuarios-y-documentacion-sv).
 - [Biblioteca documental](https://documentos-sv.itvia.online/).
 
-La publicación del método facilita la revisión por terceros. No exige divulgar claves vigentes, credenciales, datos personales o documentación reservada. La huella de una evidencia identifica su contenido; el acceso y el permiso de uso se comprueban por separado.
+La [relación de evidencias publicables](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/EVIDENCIAS.md) vincula cada intento con sus respuestas, corrección, mediciones, gráficos y polígono. La copia pública debe coincidir con el conjunto seleccionado y custodiado para difusión. Si un original contiene información reservada, una proyección con omisiones debe identificarse como tal; nunca se presenta como original íntegro.
+
+La publicación de preguntas y soluciones facilita la revisión por terceros. Credenciales de acceso, datos personales y registros ajenos quedan fuera de ella. La huella de una evidencia identifica su contenido; el acceso y el permiso de uso se comprueban por separado. Tampoco permite descartar exposición previa del modelo a materiales publicados.
 
 ---
 
