@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-admision-excepcional-20261020",
+  "edicion": "biblioteca-sv-categorias-comparativas-20261021",
   "libros": [
     {
       "id": "guia",
@@ -824,14 +824,14 @@
     },
     {
       "plan": {
-        "sha256": "8407edc16150ca16d9d1a612e3d78ef7dfab334018b337cbd131421a03349e57",
+        "sha256": "fc1252e31d823026035de973d502c66f54f6712458a9185ae1e001c107fd589a",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
-          "procedencia": "Edición pública de 20/10/2026",
-          "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+          "procedencia": "Edición pública de 21/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -845,14 +845,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 20/10/2026",
-          "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+          "procedencia": "Edición pública de 21/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "53035a1f4740cc6eee1edb641db8a4a6c2808d29cfdef6e50051838a15f9787c",
+            "sha256": "6bbf67b8a55d3192fa53b90ff5e296f2d5af4cc09e82f8862a858354956adc17",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",
@@ -860,8 +860,8 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 20/10/2026",
-          "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+          "procedencia": "Edición pública de 21/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -875,14 +875,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 20/10/2026",
-          "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+          "procedencia": "Edición pública de 21/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "7a60af599ff7cfdbba110903944b80eb7a2cd58c1af5a208bfa5017e31011364",
+            "sha256": "564ed018ca4eb53134a2a7f1695818acbaf58cd5d2ad04c7491c301e4e3db114",
             "ruta": "libros/evaluacion-modelos/src/documentos.md"
           },
           "documento": "EET-04",
@@ -890,14 +890,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 20/10/2026",
-          "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+          "procedencia": "Edición pública de 21/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "6932c0c932c4dddb45772bb110d938a5aac4f03fa18e7e7ee74f44c3433014b6",
+            "sha256": "685fb9402dd1e2db60f45e05691f8fb31abc7ab160a0f30d177236edafa1e523",
             "ruta": "libros/evaluacion-modelos/src/edicion.md"
           },
           "documento": "EET-05",
@@ -905,8 +905,8 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 20/10/2026",
-          "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+          "procedencia": "Edición pública de 21/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -920,8 +920,8 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 20/10/2026",
-          "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+          "procedencia": "Edición pública de 21/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -935,8 +935,8 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 20/10/2026",
-          "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+          "procedencia": "Edición pública de 21/10/2026",
+          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,

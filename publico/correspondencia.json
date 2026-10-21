@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "26ad86d381518bae44e11cd286b73385c892e4ed6c2e715422bd381de663a73b",
+  "biblioteca_sha256": "bd4f8a443421ebd58ede39c2118c4a91e56f24e15a8303acbc2518c25e2ef751",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3342,7 +3342,7 @@
       ]
     },
     {
-      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 4769,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
@@ -3353,7 +3353,7 @@
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
         "sha256": "50ffb8b8c258ce1ee97c883e17c90dcb2815f0bddd20a18bbf24a86bd4b17942"
       },
-      "procedencia": "Edición pública de 20/10/2026",
+      "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 3611,
@@ -3376,8 +3376,8 @@
       ]
     },
     {
-      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
-      "cobertura_bytes": 8201,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 9114,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3385,9 +3385,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "53035a1f4740cc6eee1edb641db8a4a6c2808d29cfdef6e50051838a15f9787c"
+        "sha256": "6bbf67b8a55d3192fa53b90ff5e296f2d5af4cc09e82f8862a858354956adc17"
       },
-      "procedencia": "Edición pública de 20/10/2026",
+      "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 1015,
@@ -3408,27 +3408,27 @@
           "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 6617,
+          "fin_byte_exclusivo": 7530,
           "inicio_byte": 2047,
           "primera_linea": 15,
-          "seccion": "MD-L000015-L000033",
-          "sha256": "879898915d369bea5600d7952e2acf6716d35c12a4f2940043e61be0066090bf",
+          "seccion": "MD-L000015-L000037",
+          "sha256": "8d45867fa4b080f27f98a4043fac1093b78da57957f2e88981a8dd16612a756f",
           "titulo": "Selección, clasificación e independencia",
-          "ultima_linea": 33
+          "ultima_linea": 37
         },
         {
-          "fin_byte_exclusivo": 8201,
-          "inicio_byte": 6617,
-          "primera_linea": 34,
-          "seccion": "MD-L000034-L000046",
+          "fin_byte_exclusivo": 9114,
+          "inicio_byte": 7530,
+          "primera_linea": 38,
+          "seccion": "MD-L000038-L000050",
           "sha256": "a12b6bbb8a26493c14fc06741081cc2eee12dab1325b0792bd5ab43c4061e364",
           "titulo": "Sedes de consulta",
-          "ultima_linea": 46
+          "ultima_linea": 50
         }
       ]
     },
     {
-      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 4079,
       "correspondencia": "identidad_literal",
       "documento": "EET-03",
@@ -3439,7 +3439,7 @@
         "ruta": "libros/evaluacion-modelos/src/correccion.md",
         "sha256": "a9c10bc139382d0850506c5eef0d07d4acb5a71e8027ef7cf1f54345844abef0"
       },
-      "procedencia": "Edición pública de 20/10/2026",
+      "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 359,
@@ -3480,8 +3480,8 @@
       ]
     },
     {
-      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
-      "cobertura_bytes": 3709,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 4266,
       "correspondencia": "identidad_literal",
       "documento": "EET-04",
       "identificador_editorial_r0": null,
@@ -3489,9 +3489,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/documentos.md",
-        "sha256": "7a60af599ff7cfdbba110903944b80eb7a2cd58c1af5a208bfa5017e31011364"
+        "sha256": "564ed018ca4eb53134a2a7f1695818acbaf58cd5d2ad04c7491c301e4e3db114"
       },
-      "procedencia": "Edición pública de 20/10/2026",
+      "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 835,
@@ -3503,19 +3503,19 @@
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 3709,
+          "fin_byte_exclusivo": 4266,
           "inicio_byte": 835,
           "primera_linea": 7,
-          "seccion": "MD-L000007-L000027",
-          "sha256": "a981529f180430cf018ee215e992cd47511a7bf4446c2be4ff34ae22f6dd13e5",
+          "seccion": "MD-L000007-L000029",
+          "sha256": "8e38c1f447d1e0674c6ceb2a23306537ea425536e1380fd009b5d42a3444f4ba",
           "titulo": "Qué debe comprobarse",
-          "ultima_linea": 27
+          "ultima_linea": 29
         }
       ]
     },
     {
-      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
-      "cobertura_bytes": 4410,
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+      "cobertura_bytes": 4870,
       "correspondencia": "identidad_literal",
       "documento": "EET-05",
       "identificador_editorial_r0": null,
@@ -3523,32 +3523,32 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/edicion.md",
-        "sha256": "6932c0c932c4dddb45772bb110d938a5aac4f03fa18e7e7ee74f44c3433014b6"
+        "sha256": "685fb9402dd1e2db60f45e05691f8fb31abc7ab160a0f30d177236edafa1e523"
       },
-      "procedencia": "Edición pública de 20/10/2026",
+      "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1043,
+          "fin_byte_exclusivo": 1487,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000008",
-          "sha256": "2958609a80c53f3d4cac2510996d27d249e8eeeaceb118493c2fe3744bd8f450",
+          "seccion": "MD-L000001-L000010",
+          "sha256": "08a5d66754bc5c0a317c9fb22d33257e3f40e5d40a452dd5dd252ffb353f5e93",
           "titulo": "Edición del examen y plantilla previa",
-          "ultima_linea": 8
+          "ultima_linea": 10
         },
         {
-          "fin_byte_exclusivo": 4410,
-          "inicio_byte": 1043,
-          "primera_linea": 9,
-          "seccion": "MD-L000009-L000033",
-          "sha256": "b0325dda230efa38223c236cd8af926a725c65ee20bbfed826cd559a3411fbb5",
+          "fin_byte_exclusivo": 4870,
+          "inicio_byte": 1487,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000035",
+          "sha256": "09ac07f847cbcc8780c4433b2c21c53669514c44d3fd0b172899428b550daf15",
           "titulo": "Respuesta y calificación",
-          "ultima_linea": 33
+          "ultima_linea": 35
         }
       ]
     },
     {
-      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 3319,
       "correspondencia": "identidad_literal",
       "documento": "EET-13",
@@ -3559,7 +3559,7 @@
         "ruta": "libros/evaluacion-modelos/src/finalidad.md",
         "sha256": "ab3db451915fffaf84c9e424e3c7ce15dace8c98d8f68efa9525a6530802fe83"
       },
-      "procedencia": "Edición pública de 20/10/2026",
+      "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 1282,
@@ -3582,7 +3582,7 @@
       ]
     },
     {
-      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 420,
       "correspondencia": "identidad_literal",
       "documento": "EET-14",
@@ -3593,7 +3593,7 @@
         "ruta": "libros/evaluacion-modelos/src/SUMMARY.md",
         "sha256": "73f892bb73a1bc7269d8f6d68add20a66ef0615a84609b99e515c46ba1e16330"
       },
-      "procedencia": "Edición pública de 20/10/2026",
+      "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 420,
@@ -3607,7 +3607,7 @@
       ]
     },
     {
-      "alcance": "Facultades de admisión excepcional y reserva de soluciones en futuras convocatorias; sin exámenes ejecutados ni producción habilitada.",
+      "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
       "cobertura_bytes": 5550,
       "correspondencia": "identidad_literal",
       "documento": "EET-15",
@@ -3618,7 +3618,7 @@
         "ruta": "libros/evaluacion-modelos/src/transporte.md",
         "sha256": "932b6a2814f1ae10f6ced51201a6fd16d786b2b472f69822ecd637b116dbd456"
       },
-      "procedencia": "Edición pública de 20/10/2026",
+      "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 1961,
@@ -3659,9 +3659,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-admision-excepcional-20261020",
+  "edicion": "biblioteca-sv-categorias-comparativas-20261021",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "baeccd6752b6d9eead5ccad345335281a740b3c9bdacb849da2241896c534383",
+  "politica_sha256": "de00e7b1ca92412fbefbf46f4caae18cba329958b62f901687313c64b2c68a31",
   "recepcion_visual": false,
   "version": 1
 }

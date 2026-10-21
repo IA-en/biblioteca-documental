@@ -4,13 +4,15 @@ Cada edición fija sus documentos, instrucciones, enunciados, respuestas de refe
 
 La edición multiformato `eet-cyb16-multiformato-20261020-v1` tiene dieciséis enunciados, ocho afirmativos y ocho negativos, asociados a una representación de examen (16,4). Esta representación corresponde al examen y no asigna una célula al Universo científico del que proceden los documentos.
 
+La edición `eet-cyb16-markdown-adaptada-20261021-v1` conserva esos enunciados y la misma plantilla correctora para la categoría adaptada. Reúne tres fuentes y un cuadernillo en Markdown, con identidad y revisión documental propias. Las dos ediciones se consultan en el [estándar comparativo](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark).
+
 Los mismos enunciados se presentan a todos los candidatos en un orden común, registrado antes del examen. Si se utiliza una permutación, debe contener una vez cada identificador y ser la misma para la comparación. La corrección recupera el orden de identificadores antes de comparar o dibujar. La forma afirmativa o negativa no determina si un enunciado es conforme a la fuente.
 
 ## Respuesta y calificación
 
 **Reserva de las próximas convocatorias.** Las soluciones se publican después de que todos los candidatos hayan finalizado. Hasta ese momento se reservan también las correcciones por pregunta y las evidencias que permitan deducirlas. La plantilla se revisa y fija antes del examen; no se modifica a partir de las respuestas recibidas. Una retirada o imposibilidad de continuar exige resolución registrada antes del cierre de la convocatoria.
 
-**Límite de esta edición pública.** La edición `eet-cyb16-multiformato-20261020-v1` conserva las soluciones que ya se publicaron. Aunque no se entreguen en el paquete del candidato, no puede acreditarse que un proveedor las desconozca previamente. Los resultados deben expresar esta limitación.
+**Límite de esta convocatoria pública.** La edición general y su adaptación Markdown comparten las soluciones ya publicadas. Aunque no se entreguen en el paquete del candidato, no puede acreditarse que un proveedor las desconozca previamente. Los resultados de ambas categorías deben expresar esta limitación.
 
 | Símbolo en la respuesta | Significado para el candidato |
 | --- | --- |
