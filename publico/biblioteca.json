@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-categorias-comparativas-20261021",
+  "edicion": "biblioteca-sv-reglas-comparativas-v2-20261021",
   "libros": [
     {
       "id": "guia",
@@ -824,7 +824,7 @@
     },
     {
       "plan": {
-        "sha256": "fc1252e31d823026035de973d502c66f54f6712458a9185ae1e001c107fd589a",
+        "sha256": "629b68d69717029fcbc7d6a7b4f0b721d562b5e18294ec5f92d916df9a2f49b3",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
@@ -897,7 +897,7 @@
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "685fb9402dd1e2db60f45e05691f8fb31abc7ab160a0f30d177236edafa1e523",
+            "sha256": "ca74ac8b855faba12518861e4c037b300451312f755e63c79c3a9bdb729ee224",
             "ruta": "libros/evaluacion-modelos/src/edicion.md"
           },
           "documento": "EET-05",
@@ -942,7 +942,7 @@
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "932b6a2814f1ae10f6ced51201a6fd16d786b2b472f69822ecd637b116dbd456",
+            "sha256": "2405e90958d768cb79fce2958d4ddeea5b081201fdf8fb1beb3b97334ba7d0fb",
             "ruta": "libros/evaluacion-modelos/src/transporte.md"
           },
           "documento": "EET-15",

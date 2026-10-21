@@ -1,6 +1,6 @@
 # Transporte, conservación y mediciones
 
-> **Política vigente de esta versión:** sólo se permiten autenticación y consulta del catálogo sin contenido. No se envían documentos, preguntas, respuestas ni textos sintéticos a proveedores. Los pasos de entrega y examen descritos a continuación documentan el método y sus antecedentes; están bloqueados y no son instrucciones ejecutables en esta versión. Los permisos conservados no levantan esta restricción. Producción permanece deshabilitada.
+> **Estado de esta versión:** autenticación y catálogo no envían contenido documental. El contador oficial dispone de un recorrido independiente, sujeto a autorización expresa para los originales y destinatario concretos. Contar no genera respuestas ni autoriza el examen. La generación sigue bloqueada hasta recibir las condiciones y la autorización específica de ejecución; producción permanece deshabilitada.
 
 
 La igualdad exigible se refiere al contenido documental, al contrato de examen y a sus condiciones registradas. Los servicios pueden requerir envolturas técnicas diferentes. Cada adaptación debe acreditar que mantiene el contenido íntegro, no incorpora la plantilla y no transforma el significado de las instrucciones. Usar el mismo nombre de modelo no prueba identidad de configuración ni de contexto.
@@ -8,6 +8,8 @@ La igualdad exigible se refiere al contenido documental, al contrato de examen y
 La preparación conserva la edición, el orden presentado, las huellas de documentos y paquete, la identidad del adaptador y la configuración exacta del destinatario cuando se haya seleccionado. La capacidad de contexto debe medirse con el procedimiento apropiado para esa configuración; no se infiere sólo del tamaño en bytes o de una denominación comercial.
 
 El límite total consume tiempo efectivo de entrega y recepción: 32 minutos por defecto, con referencia de 2 minutos por pregunta sin corte individual. Ambos valores se configuran antes del intento y deben concordar con la edición. Cada incidencia acreditada admite 5 minutos para resolverse y pausa el límite efectivo. Se conservan tiempo activo, pausas y duración del transporte por separado. Una comunicación cortada después del envío deja incierto el procesamiento remoto hasta obtener evidencia. No se repite automáticamente la solicitud. Cada nuevo intento requiere identidad y fundamento propios; no reemplaza el anterior ni convierte el coste desconocido en cero.
+
+Un corte irreversible después de entregar la petición detiene el intento, conserva lo recibido y no produce reenvío ni dictamen. Los cinco minutos corresponden a incidencias recuperables dentro de la misma solicitud; no autorizan a repetirla.
 
 ## Atribución de incidencias
 
@@ -37,7 +39,7 @@ Las evidencias publicadas deben mantener unidad, procedencia, ámbito y disponib
 
 ## Aislamiento y frontera: referencias comunes
 
-El Gestor distingue dos obligaciones complementarias: [Aislamiento y entrega de datos](https://administracion.itvia.online/aislamiento-ia) explica la prohibición de enviar contenido a proveedores, incluidos sus contadores; [IA, frontera y núcleo](https://administracion.itvia.online/ia-frontera-nucleo) explica el transporte por la tubería del SV y la instrucción de frontera, sin acceso directo de la IA al núcleo. Ambas secciones reúnen las fuentes y los límites de la versión. La norma [Código limpio y auditable](https://administracion.itvia.online/normas/codigo-limpio) es de aplicación obligatoria al desarrollo. Estas referencias no conceden autorización de ejecución.
+El Gestor distingue dos obligaciones complementarias: [Aislamiento y entrega de datos](https://administracion.itvia.online/aislamiento-ia) distingue el bloqueo de inferencias del recuento oficial expresamente autorizado; [IA, frontera y núcleo](https://administracion.itvia.online/ia-frontera-nucleo) explica el transporte por la tubería del SV y la instrucción de frontera, sin acceso directo de la IA al núcleo. Ambas secciones reúnen las fuentes y los límites de la versión. La norma [Código limpio y auditable](https://administracion.itvia.online/normas/codigo-limpio) es de aplicación obligatoria al desarrollo. Estas referencias no conceden autorización de ejecución.
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
 

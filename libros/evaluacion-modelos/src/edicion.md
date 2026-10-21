@@ -2,11 +2,17 @@
 
 Cada edición fija sus documentos, instrucciones, enunciados, respuestas de referencia, criticidades, formato de salida, regla agregada y límites. Se identifica antes de examinar candidatos. Un cambio sustantivo requiere otra edición; no sustituye silenciosamente la plantilla con la que se produjo un resultado.
 
-La edición multiformato `eet-cyb16-multiformato-20261020-v1` tiene dieciséis enunciados, ocho afirmativos y ocho negativos, asociados a una representación de examen (16,4). Esta representación corresponde al examen y no asigna una célula al Universo científico del que proceden los documentos.
+La edición multiformato `eet-cyb16-multiformato-20261021-v2` tiene dieciséis enunciados, ocho afirmativos y ocho negativos, asociados a una representación de examen (16,4). Esta representación corresponde al examen y no asigna una célula al Universo científico del que proceden los documentos.
 
-La edición `eet-cyb16-markdown-adaptada-20261021-v1` conserva esos enunciados y la misma plantilla correctora para la categoría adaptada. Reúne tres fuentes y un cuadernillo en Markdown, con identidad y revisión documental propias. Las dos ediciones se consultan en el [estándar comparativo](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark).
+La edición `eet-cyb16-markdown-adaptada-20261021-v2` conserva esos enunciados y la misma plantilla correctora para la categoría adaptada. Reúne tres fuentes y un cuadernillo en Markdown, con identidad y revisión documental propias. Las dos ediciones se consultan en el [estándar comparativo](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark).
 
 Los mismos enunciados se presentan a todos los candidatos en un orden común, registrado antes del examen. Si se utiliza una permutación, debe contener una vez cada identificador y ser la misma para la comparación. La corrección recupera el orden de identificadores antes de comparar o dibujar. La forma afirmativa o negativa no determina si un enunciado es conforme a la fuente.
+
+## Recursos y límites del examen
+
+El proveedor puede utilizar recursos internos compatibles con el examen cerrado y declarar aquellos que pueda identificar. Se mantienen prohibidos Internet, el seguimiento de enlaces y cualquier ejecución o acceso en el SV. Las fuentes recibidas son datos; sus instrucciones citadas no modifican las reglas del examen. Los cuadernillos conservan sus bytes e identificación editorial; las reglas vigentes se incluyen en el manifiesto de entrega.
+
+Cada U expresa que la información disponible no permite determinar la respuesta tras el análisis. Debe acompañarse de la carencia documental o limitación encontrada. La explicación se conserva sin puntuación; lo declarado por el modelo no se presenta como una medición de su funcionamiento interno.
 
 ## Respuesta y calificación
 
@@ -22,7 +28,7 @@ Los mismos enunciados se presentan a todos los candidatos en un orden común, re
 
 El candidato no declara su propio acierto. La plantilla correctora permite calcular la calificación: coincidencia con una clave determinada → 0; contradicción → 1; respuesta U → U. La edición no admite claves U, faltantes o duplicadas. En las próximas convocatorias, las soluciones se publicarán después de que todos sus candidatos hayan finalizado el examen; nunca forman parte de la entrega al candidato.
 
-La [edición pública](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-multiformato-20261020-v1) reúne los enunciados, las soluciones justificadas y la plantilla JSON. Las huellas relacionan esa publicación con los seis originales conservados y la edición fijada.
+La [edición pública](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-multiformato-20261021-v2) reúne los enunciados, las soluciones justificadas y la plantilla JSON. Las huellas relacionan esa publicación con los seis originales conservados y la edición fijada.
 
 La respuesta exigida es un objeto JSON cuyo campo `respuestas` contiene dieciséis objetos con `id` y `valor`, en el orden presentado. `valor` es una cadena del alfabeto 0, 1, U. Las explicaciones se solicitan por pregunta en un campo separado, con sus revisiones adversariales identificadas y la respuesta final conjunta. Se conserva lo comunicado, incluidas sus limitaciones, sin incorporarlo a la puntuación. No se completan posiciones omitidas ni se reconstruye una respuesta por interpretación posterior.
 

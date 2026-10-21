@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "bd4f8a443421ebd58ede39c2118c4a91e56f24e15a8303acbc2518c25e2ef751",
+  "biblioteca_sha256": "dabfcb70d16bd1e2b97ce7ff50eb00cca487e4bc41f77ba15e91471df837d64c",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3515,7 +3515,7 @@
     },
     {
       "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
-      "cobertura_bytes": 4870,
+      "cobertura_bytes": 5660,
       "correspondencia": "identidad_literal",
       "documento": "EET-05",
       "identificador_editorial_r0": null,
@@ -3523,7 +3523,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/edicion.md",
-        "sha256": "685fb9402dd1e2db60f45e05691f8fb31abc7ab160a0f30d177236edafa1e523"
+        "sha256": "ca74ac8b855faba12518861e4c037b300451312f755e63c79c3a9bdb729ee224"
       },
       "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
@@ -3532,18 +3532,27 @@
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000010",
-          "sha256": "08a5d66754bc5c0a317c9fb22d33257e3f40e5d40a452dd5dd252ffb353f5e93",
+          "sha256": "63f3f8448135e4fa0e6b129d08c84bbedc09d736d8509c136b099a7c74be7783",
           "titulo": "Edición del examen y plantilla previa",
           "ultima_linea": 10
         },
         {
-          "fin_byte_exclusivo": 4870,
+          "fin_byte_exclusivo": 2277,
           "inicio_byte": 1487,
           "primera_linea": 11,
-          "seccion": "MD-L000011-L000035",
-          "sha256": "09ac07f847cbcc8780c4433b2c21c53669514c44d3fd0b172899428b550daf15",
+          "seccion": "MD-L000011-L000016",
+          "sha256": "1868fd733151b75000846c4eb626a6744ef3d98e51147193c5dd23e6cdfdaae2",
+          "titulo": "Recursos y límites del examen",
+          "ultima_linea": 16
+        },
+        {
+          "fin_byte_exclusivo": 5660,
+          "inicio_byte": 2277,
+          "primera_linea": 17,
+          "seccion": "MD-L000017-L000041",
+          "sha256": "5e8d824aa27f10ac046a79ecbc3878c7bc1e1a9afc4f26e6fad010d683b88ee0",
           "titulo": "Respuesta y calificación",
-          "ultima_linea": 35
+          "ultima_linea": 41
         }
       ]
     },
@@ -3608,7 +3617,7 @@
     },
     {
       "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
-      "cobertura_bytes": 5550,
+      "cobertura_bytes": 5754,
       "correspondencia": "identidad_literal",
       "documento": "EET-15",
       "identificador_editorial_r0": null,
@@ -3616,52 +3625,52 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/transporte.md",
-        "sha256": "932b6a2814f1ae10f6ced51201a6fd16d786b2b472f69822ecd637b116dbd456"
+        "sha256": "2405e90958d768cb79fce2958d4ddeea5b081201fdf8fb1beb3b97334ba7d0fb"
       },
       "procedencia": "Edición pública de 21/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1961,
+          "fin_byte_exclusivo": 2168,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000011",
-          "sha256": "9f02143513a166ca670bf872cc8b35eb0cb181f58a820e3823e7581211e5f666",
+          "seccion": "MD-L000001-L000013",
+          "sha256": "48df541cb163c7bf448b3dafeecfdb171397584d8bac0bad10508ab31a069197",
           "titulo": "Transporte, conservación y mediciones",
-          "ultima_linea": 11
+          "ultima_linea": 13
         },
         {
-          "fin_byte_exclusivo": 2777,
-          "inicio_byte": 1961,
-          "primera_linea": 12,
-          "seccion": "MD-L000012-L000023",
+          "fin_byte_exclusivo": 2984,
+          "inicio_byte": 2168,
+          "primera_linea": 14,
+          "seccion": "MD-L000014-L000025",
           "sha256": "0236632d8425424853a5daee3cbb26eeb81667fa7f50a851396dc652c1c2a79d",
           "titulo": "Atribución de incidencias",
-          "ultima_linea": 23
+          "ultima_linea": 25
         },
         {
-          "fin_byte_exclusivo": 4471,
-          "inicio_byte": 2777,
-          "primera_linea": 24,
-          "seccion": "MD-L000024-L000037",
+          "fin_byte_exclusivo": 4678,
+          "inicio_byte": 2984,
+          "primera_linea": 26,
+          "seccion": "MD-L000026-L000039",
           "sha256": "8e8b0b48abae1fb7c0eac43302e99880e29e1bda014064d8bcf15a075795b827",
           "titulo": "Telemetría",
-          "ultima_linea": 37
+          "ultima_linea": 39
         },
         {
-          "fin_byte_exclusivo": 5550,
-          "inicio_byte": 4471,
-          "primera_linea": 38,
-          "seccion": "MD-L000038-L000043",
-          "sha256": "1a81bb86734b8f15c929793cc517e4537fe64b7c1f8afd4f522b3acef6c45851",
+          "fin_byte_exclusivo": 5754,
+          "inicio_byte": 4678,
+          "primera_linea": 40,
+          "seccion": "MD-L000040-L000045",
+          "sha256": "e25b16fe10eb4a9ec53e4f36b46f20a09c810f0fce8a9fa2169ec86dca556de2",
           "titulo": "Aislamiento y frontera: referencias comunes",
-          "ultima_linea": 43
+          "ultima_linea": 45
         }
       ]
     }
   ],
-  "edicion": "biblioteca-sv-categorias-comparativas-20261021",
+  "edicion": "biblioteca-sv-reglas-comparativas-v2-20261021",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "de00e7b1ca92412fbefbf46f4caae18cba329958b62f901687313c64b2c68a31",
+  "politica_sha256": "6c3bcd06b17adc00d10f6fce18e242d1afe156d281218743fd0c490eda892f41",
   "recepcion_visual": false,
   "version": 1
 }
