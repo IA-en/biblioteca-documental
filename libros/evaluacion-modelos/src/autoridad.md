@@ -1,18 +1,18 @@
 # Facultades, autorización y producción
 
-> **Política vigente de esta versión:** sólo se permiten autenticación y consulta del catálogo sin contenido. No se envían documentos, preguntas, respuestas ni textos sintéticos a proveedores. Los pasos de entrega y examen descritos a continuación documentan el método y sus antecedentes; están bloqueados y no son instrucciones ejecutables en esta versión. Los permisos conservados no levantan esta restricción. Producción permanece deshabilitada.
+> **Política de salida:** la autenticación y la consulta del catálogo se realizan sin contenido documental. El recuento remoto y el examen requieren autorizaciones distintas para la entrega concreta y un recorrido habilitado conforme a la [norma de aislamiento](https://administracion.itvia.online/normas/codigo-limpio). La concesión de un perfil o una autorización histórica no elimina el bloqueo general. La producción permanece deshabilitada.
 
 
 La identificación compartida evita cuentas personales duplicadas. La autorización sigue siendo específica. Acceder a inmunología o ciberseguridad no concede acceso a EET-IA; pertenecer a EET-IA tampoco autoriza documentos o repositorios científicos.
 
-| Acto | Administrador de EET-IA | Evaluador de modelos de IA | Fase inicial |
+| Acto | Administrador de EET-IA | Evaluador de modelos de IA | Condición |
 | --- | --- | --- | --- |
 | Consultar ediciones y expedientes del área | Sí | Sí | Disponible |
 | Preparar y fijar ediciones | Sí | Sí | Disponible |
 | Registrar y aplicar una asignación por dominio con dictamen Apto | Sí | Sí | Preparación; sin activar producción |
 | Admitir excepcionalmente un No apto, conservando su dictamen | Sí | Sí | Advertencia específica, aceptación expresa y motivo |
 | Conceder o revocar el perfil Evaluador | Sí | No | Disponible |
-| Lanzar el examen de un candidato | Sólo si es la cuenta designada | Sólo si es la cuenta designada | Bloqueado: sólo conexión sin contenido a proveedores |
+| Lanzar el examen de un candidato | Sólo si es la cuenta designada | Sólo si es la cuenta designada | Únicamente con condiciones recibidas, habilitación expresa y transporte autorizado; los demás recorridos permanecen bloqueados |
 | Autorizar un modelo apto | Sí | Sí | Bloqueada |
 | Seleccionar un modelo autorizado para producción | Sí | Sí | Bloqueada |
 

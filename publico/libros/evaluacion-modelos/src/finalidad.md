@@ -10,7 +10,7 @@ La preparación permite conservar originales, fijar plantillas y comprobar el in
 
 Esta obra explica el método. El [estándar comparativo](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark) publica la edición concreta: preguntas, fuentes, cuadernillos, soluciones, regla de corrección y evidencias admitidas para difusión. El Gestor permite operar sobre ediciones y expedientes según los permisos concedidos. La custodia de cuentas, credenciales y actuaciones administrativas conserva su acceso restringido.
 
-**Edición documental de este libro: 20 de octubre de 2026.** El examen multiformato de dieciséis preguntas está fijado; aún no tiene ejecuciones ni resultados. Publicar las soluciones permite revisar la corrección, pero no acredita que un modelo desconozca previamente los materiales. Esta limitación debe acompañar la lectura de la comparación.
+**Edición documental de este libro: 21 de octubre de 2026.** El estado de cada convocatoria y sus resultados admitidos para difusión se consultan en el estándar comparativo. Publicar las soluciones permite revisar la corrección, pero no acredita que un modelo desconozca previamente los materiales. Esta limitación debe acompañar la lectura de la comparación.
 
 La obra complementa [Reglas, usos y descripciones documentales](https://documentos-sv.itvia.online/documentacion/reglas-usos-descripciones-documentales/) y [Normativa, trazabilidad y seguimiento de la IA](https://documentos-sv.itvia.online/normativa/trazabilidad-y-seguimiento-ia/). No constituye una autorización de documentos ni una certificación general de modelos.
 

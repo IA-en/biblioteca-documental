@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-reglas-comparativas-v2-20261021",
+  "edicion": "biblioteca-sv-evaluacion-recepcion-20261021",
   "libros": [
     {
       "id": "guia",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "629b68d69717029fcbc7d6a7b4f0b721d562b5e18294ec5f92d916df9a2f49b3",
+        "sha256": "6e1faa23834b605ddd4675fe9b50971dbb4f34b8a66fde4bd89bfe0465051542",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
           "procedencia": "Edición pública de 21/10/2026",
-          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+          "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "50ffb8b8c258ce1ee97c883e17c90dcb2815f0bddd20a18bbf24a86bd4b17942",
+            "sha256": "4c01d7b510b0ee05728466840a02fdba450f2a67a0892d11da44f2152bf873dd",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",
@@ -846,7 +846,7 @@
         },
         {
           "procedencia": "Edición pública de 21/10/2026",
-          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+          "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -861,13 +861,13 @@
         },
         {
           "procedencia": "Edición pública de 21/10/2026",
-          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+          "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "a9c10bc139382d0850506c5eef0d07d4acb5a71e8027ef7cf1f54345844abef0",
+            "sha256": "9fdc8f164351fd4ee5ce95a64b4d7e27bf36b6bd51cd9ef9d6a881e6a6eca3a1",
             "ruta": "libros/evaluacion-modelos/src/correccion.md"
           },
           "documento": "EET-03",
@@ -876,7 +876,7 @@
         },
         {
           "procedencia": "Edición pública de 21/10/2026",
-          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+          "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -891,7 +891,7 @@
         },
         {
           "procedencia": "Edición pública de 21/10/2026",
-          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+          "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -906,13 +906,13 @@
         },
         {
           "procedencia": "Edición pública de 21/10/2026",
-          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+          "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "ab3db451915fffaf84c9e424e3c7ce15dace8c98d8f68efa9525a6530802fe83",
+            "sha256": "cf2a829d47d216d91ed58db01a2aea9a4799fc0fb5529d41463dd580020b62b5",
             "ruta": "libros/evaluacion-modelos/src/finalidad.md"
           },
           "documento": "EET-13",
@@ -921,7 +921,7 @@
         },
         {
           "procedencia": "Edición pública de 21/10/2026",
-          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+          "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -936,13 +936,13 @@
         },
         {
           "procedencia": "Edición pública de 21/10/2026",
-          "alcance": "Método de evaluación y publicación de preguntas, soluciones y evidencias; sin exámenes ejecutados ni producción habilitada.",
+          "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "2405e90958d768cb79fce2958d4ddeea5b081201fdf8fb1beb3b97334ba7d0fb",
+            "sha256": "39bb01cca74738ee095a8d3f0fc7cb6a9bdee9a8005f363eb71a5cff610e8520",
             "ruta": "libros/evaluacion-modelos/src/transporte.md"
           },
           "documento": "EET-15",
