@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "0f49aea011dc67cfb2c5272b58d18323bb4f751be63e6c8814a883a5a469ee8d",
+  "biblioteca_sha256": "b9ea905df99f47c8f7ac58dd652bf56e44393929056a54848bd2412c1c1d7d3b",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3342,7 +3342,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
+      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
       "cobertura_bytes": 4833,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
@@ -3353,7 +3353,7 @@
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
         "sha256": "4c01d7b510b0ee05728466840a02fdba450f2a67a0892d11da44f2152bf873dd"
       },
-      "procedencia": "Edición pública de 21/10/2026",
+      "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 3675,
@@ -3376,7 +3376,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
+      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
       "cobertura_bytes": 9114,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
@@ -3387,7 +3387,7 @@
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
         "sha256": "6bbf67b8a55d3192fa53b90ff5e296f2d5af4cc09e82f8862a858354956adc17"
       },
-      "procedencia": "Edición pública de 21/10/2026",
+      "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 1015,
@@ -3428,8 +3428,8 @@
       ]
     },
     {
-      "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
-      "cobertura_bytes": 4213,
+      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+      "cobertura_bytes": 5115,
       "correspondencia": "identidad_literal",
       "documento": "EET-03",
       "identificador_editorial_r0": null,
@@ -3437,9 +3437,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/correccion.md",
-        "sha256": "9fdc8f164351fd4ee5ce95a64b4d7e27bf36b6bd51cd9ef9d6a881e6a6eca3a1"
+        "sha256": "c23c827dff1f3d8a2dd268856501752fb861095534132ba7e398d34457e47988"
       },
-      "procedencia": "Edición pública de 21/10/2026",
+      "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 359,
@@ -3460,27 +3460,27 @@
           "ultima_linea": 18
         },
         {
-          "fin_byte_exclusivo": 2312,
+          "fin_byte_exclusivo": 3214,
           "inicio_byte": 1831,
           "primera_linea": 19,
-          "seccion": "MD-L000019-L000022",
-          "sha256": "711359360f4221a825148bec9403f0e5c6102d3cceb7625b18a07015a0c6a9f6",
+          "seccion": "MD-L000019-L000026",
+          "sha256": "aa0c695ec582025cb0fc3eec983a3ea854b3c49a6f25f4c241a4dac9e3a2d364",
           "titulo": "Fallos formales y fallos del instrumento",
-          "ultima_linea": 22
+          "ultima_linea": 26
         },
         {
-          "fin_byte_exclusivo": 4213,
-          "inicio_byte": 2312,
-          "primera_linea": 23,
-          "seccion": "MD-L000023-L000033",
+          "fin_byte_exclusivo": 5115,
+          "inicio_byte": 3214,
+          "primera_linea": 27,
+          "seccion": "MD-L000027-L000037",
           "sha256": "540b27e5b4dd6aea94c036b5bacb4b2c85aa84245341b8bc30405b6b34192d06",
           "titulo": "Polígono SV",
-          "ultima_linea": 33
+          "ultima_linea": 37
         }
       ]
     },
     {
-      "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
+      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
       "cobertura_bytes": 4266,
       "correspondencia": "identidad_literal",
       "documento": "EET-04",
@@ -3491,7 +3491,7 @@
         "ruta": "libros/evaluacion-modelos/src/documentos.md",
         "sha256": "564ed018ca4eb53134a2a7f1695818acbaf58cd5d2ad04c7491c301e4e3db114"
       },
-      "procedencia": "Edición pública de 21/10/2026",
+      "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 835,
@@ -3514,7 +3514,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
+      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
       "cobertura_bytes": 5660,
       "correspondencia": "identidad_literal",
       "documento": "EET-05",
@@ -3525,7 +3525,7 @@
         "ruta": "libros/evaluacion-modelos/src/edicion.md",
         "sha256": "ca74ac8b855faba12518861e4c037b300451312f755e63c79c3a9bdb729ee224"
       },
-      "procedencia": "Edición pública de 21/10/2026",
+      "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 1487,
@@ -3557,7 +3557,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
+      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
       "cobertura_bytes": 3332,
       "correspondencia": "identidad_literal",
       "documento": "EET-13",
@@ -3568,7 +3568,7 @@
         "ruta": "libros/evaluacion-modelos/src/finalidad.md",
         "sha256": "cf2a829d47d216d91ed58db01a2aea9a4799fc0fb5529d41463dd580020b62b5"
       },
-      "procedencia": "Edición pública de 21/10/2026",
+      "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 1282,
@@ -3591,7 +3591,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
+      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
       "cobertura_bytes": 420,
       "correspondencia": "identidad_literal",
       "documento": "EET-14",
@@ -3602,7 +3602,7 @@
         "ruta": "libros/evaluacion-modelos/src/SUMMARY.md",
         "sha256": "73f892bb73a1bc7269d8f6d68add20a66ef0615a84609b99e515c46ba1e16330"
       },
-      "procedencia": "Edición pública de 21/10/2026",
+      "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 420,
@@ -3616,7 +3616,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación, autorización de entregas y publicación de preguntas, soluciones y evidencias. La aptitud de examen no autoriza producción.",
+      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
       "cobertura_bytes": 5783,
       "correspondencia": "identidad_literal",
       "documento": "EET-15",
@@ -3627,7 +3627,7 @@
         "ruta": "libros/evaluacion-modelos/src/transporte.md",
         "sha256": "39bb01cca74738ee095a8d3f0fc7cb6a9bdee9a8005f363eb71a5cff610e8520"
       },
-      "procedencia": "Edición pública de 21/10/2026",
+      "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 2168,
@@ -3668,9 +3668,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-evaluacion-recepcion-20261021",
+  "edicion": "biblioteca-sv-correccion-conservada-20261022",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "27a35561bf3b044a36172a03ec8f042d750a51be344d55039b639457867a08c8",
+  "politica_sha256": "0dca6c139f25a48e8841497bd751e3f793dccbab3db47da19c927786b6a3c41d",
   "recepcion_visual": false,
   "version": 1
 }

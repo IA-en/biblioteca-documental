@@ -18,7 +18,11 @@ La regla se identifica como **SV-FUNDAMENTOS-T7N9-CRITICIDAD-1**. Debe quedar as
 
 ## Fallos formales y fallos del instrumento
 
-Una respuesta íntegra y correctamente asociada que incumpla el formato exigido recibe 1 por incumplimiento formal. No se inventa un vector de dieciséis errores ni un polígono científico para ella. Una recepción truncada, un paquete defectuoso, una asociación incorrecta o un fallo de la observación local obligatoria producen una incidencia sin dictamen del candidato. El original se conserva antes de interpretar su contenido.
+Una respuesta íntegra y correctamente asociada cuyo campo de respuestas incumpla el formato exigido recibe 1 por incumplimiento formal. No se inventa un vector de dieciséis errores ni un polígono científico para ella. Una recepción truncada, un paquete defectuoso, una asociación incorrecta o un fallo de la observación local obligatoria producen una incidencia sin dictamen del candidato. El original se conserva antes de interpretar su contenido.
+
+Las explicaciones no puntúan. Un defecto de su formato no invalida respuestas válidas cuando pueden separarse sin ambigüedad: identificadores únicos, orden exigido, valores de la terna y delimitación inequívoca. El fragmento defectuoso se conserva literalmente y su limitación queda visible. No se reparan respuestas ni se infiere su contenido desde la prosa. Los campos duplicados de respuestas, cierres discordantes, cadenas inconclusas o contenido exterior impiden admitir una separación aparente.
+
+Si se corrige el instrumento de lectura, se comprueban todos los originales afectados con el mismo criterio. La rectificación conserva la corrección anterior, el motivo y las huellas; no requiere repetir el examen ni cambia sus reglas, fuentes, tiempos o consumos. La representación se publica sólo después de comprobar su concordancia con la corrección revisada.
 
 ## Polígono SV
 

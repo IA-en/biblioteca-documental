@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
-      "bytes": 46083,
+      "bytes": 46004,
       "ruta": "biblioteca.json",
-      "sha256": "0f49aea011dc67cfb2c5272b58d18323bb4f751be63e6c8814a883a5a469ee8d"
+      "sha256": "b9ea905df99f47c8f7ac58dd652bf56e44393929056a54848bd2412c1c1d7d3b"
     },
     {
       "ruta": "copias-historicas.json",
@@ -27,9 +27,9 @@
       "bytes": 711
     },
     {
-      "bytes": 144940,
+      "bytes": 144861,
       "ruta": "correspondencia.json",
-      "sha256": "e20fe96818d6b2040386671d5b1d2171cd5e80d7646e07c02d6cd37cfebc01c0"
+      "sha256": "b80067d58dbfbbd6ebc9f3e21cd17facaf4dcf8d9e9c3ac049bb823aa1118c78"
     },
     {
       "ruta": "libros/criterio-terminologia.md",
@@ -139,7 +139,7 @@
     {
       "bytes": 2682,
       "ruta": "libros/evaluacion-modelos/plan.json",
-      "sha256": "6e1faa23834b605ddd4675fe9b50971dbb4f34b8a66fde4bd89bfe0465051542"
+      "sha256": "fbde4eb4b79488fd787289358666df76445028ff00668f06cf92a9c49a51c411"
     },
     {
       "ruta": "libros/evaluacion-modelos/presentacion.js",
@@ -157,9 +157,9 @@
       "sha256": "6bbf67b8a55d3192fa53b90ff5e296f2d5af4cc09e82f8862a858354956adc17"
     },
     {
-      "bytes": 4213,
+      "bytes": 5115,
       "ruta": "libros/evaluacion-modelos/src/correccion.md",
-      "sha256": "9fdc8f164351fd4ee5ce95a64b4d7e27bf36b6bd51cd9ef9d6a881e6a6eca3a1"
+      "sha256": "c23c827dff1f3d8a2dd268856501752fb861095534132ba7e398d34457e47988"
     },
     {
       "bytes": 4266,
@@ -619,7 +619,7 @@
     {
       "bytes": 377,
       "ruta": "politica-verificacion.json",
-      "sha256": "27a35561bf3b044a36172a03ec8f042d750a51be344d55039b639457867a08c8"
+      "sha256": "0dca6c139f25a48e8841497bd751e3f793dccbab3db47da19c927786b6a3c41d"
     },
     {
       "ruta": "presentacion.js",
@@ -677,9 +677,9 @@
       "bytes": 962
     },
     {
-      "bytes": 46083,
+      "bytes": 46004,
       "ruta": "publico/biblioteca.json",
-      "sha256": "0f49aea011dc67cfb2c5272b58d18323bb4f751be63e6c8814a883a5a469ee8d"
+      "sha256": "b9ea905df99f47c8f7ac58dd652bf56e44393929056a54848bd2412c1c1d7d3b"
     },
     {
       "ruta": "publico/book-609e4cb8.js",
@@ -697,9 +697,9 @@
       "sha256": "46b97cc14a43e808d082b10dc85394edb7715d43f1ac1f5e7a320911655bd92f"
     },
     {
-      "bytes": 144940,
+      "bytes": 144861,
       "ruta": "publico/correspondencia.json",
-      "sha256": "e20fe96818d6b2040386671d5b1d2171cd5e80d7646e07c02d6cd37cfebc01c0"
+      "sha256": "b80067d58dbfbbd6ebc9f3e21cd17facaf4dcf8d9e9c3ac049bb823aa1118c78"
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1862,9 +1862,9 @@
       "bytes": 32393
     },
     {
-      "bytes": 29064,
+      "bytes": 29978,
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/correccion.html",
-      "sha256": "44e84ad21e2c80b510a4e4ec733bcd87a95818af8184a8843fab29d6bc6d5e31"
+      "sha256": "ed3a57e8606e2c11cf5b901cd1f0192264239b658b92fb324bba42fd57236243"
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/css/chrome.css",
@@ -2017,9 +2017,9 @@
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
-      "bytes": 63160,
+      "bytes": 64074,
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/print.html",
-      "sha256": "6f83a2ace4842fcd8926a5e4391b2a1d554cc55d42ff7f082aa96891871625ef"
+      "sha256": "fcbaa6c529081f558b0d56d9d9fae227d2f629072a87135fcd9c93192ed58291"
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searcher.js",
@@ -2027,9 +2027,9 @@
       "sha256": "b7551e8be39c55b55f61618fda226c3e058ac5e5d720875f8fed10ffb85e99d4"
     },
     {
-      "bytes": 364737,
+      "bytes": 370417,
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searchindex.js",
-      "sha256": "e066d5c23e35b0f71d2760e7bea791282f166d4caf139412193b4ddb593bc7db"
+      "sha256": "59add951a0f3a5ff2ae438c94bde268e7eb5ac619be31da80cf7294ec082713b"
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/toc.html",
@@ -2299,7 +2299,7 @@
     {
       "bytes": 2682,
       "ruta": "publico/libros/evaluacion-modelos/plan.json",
-      "sha256": "6e1faa23834b605ddd4675fe9b50971dbb4f34b8a66fde4bd89bfe0465051542"
+      "sha256": "fbde4eb4b79488fd787289358666df76445028ff00668f06cf92a9c49a51c411"
     },
     {
       "ruta": "publico/libros/evaluacion-modelos/presentacion.js",
@@ -2317,9 +2317,9 @@
       "sha256": "6bbf67b8a55d3192fa53b90ff5e296f2d5af4cc09e82f8862a858354956adc17"
     },
     {
-      "bytes": 4213,
+      "bytes": 5115,
       "ruta": "publico/libros/evaluacion-modelos/src/correccion.md",
-      "sha256": "9fdc8f164351fd4ee5ce95a64b4d7e27bf36b6bd51cd9ef9d6a881e6a6eca3a1"
+      "sha256": "c23c827dff1f3d8a2dd268856501752fb861095534132ba7e398d34457e47988"
     },
     {
       "bytes": 4266,
@@ -2964,7 +2964,7 @@
     {
       "bytes": 377,
       "ruta": "publico/politica-verificacion.json",
-      "sha256": "27a35561bf3b044a36172a03ec8f042d750a51be344d55039b639457867a08c8"
+      "sha256": "0dca6c139f25a48e8841497bd751e3f793dccbab3db47da19c927786b6a3c41d"
     },
     {
       "ruta": "publico/presentacion-0cfc7f9c.js",
