@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "b9ea905df99f47c8f7ac58dd652bf56e44393929056a54848bd2412c1c1d7d3b",
+  "biblioteca_sha256": "ec4944bc17003f271a23d848507340f1817becb5114a3c9813b71465100b27ed",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3342,7 +3342,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
       "cobertura_bytes": 4833,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
@@ -3376,8 +3376,8 @@
       ]
     },
     {
-      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
-      "cobertura_bytes": 9114,
+      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "cobertura_bytes": 9570,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3385,51 +3385,51 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "6bbf67b8a55d3192fa53b90ff5e296f2d5af4cc09e82f8862a858354956adc17"
+        "sha256": "7237f4e53d46628bfd422652e4fd16886c6e286348bdb9d3dd78cc55f11fb262"
       },
       "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1015,
+          "fin_byte_exclusivo": 1471,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000008",
-          "sha256": "0d9239bdbded67eabefcfb87ce0384b5e1ebd1ba923b352637527c700efe6f1c",
+          "seccion": "MD-L000001-L000010",
+          "sha256": "062d3989562bdee403181bee5476230dc0a0e894cd5325e282f80b5a811b073a",
           "titulo": "Comparación y lectura de resultados",
-          "ultima_linea": 8
+          "ultima_linea": 10
         },
         {
-          "fin_byte_exclusivo": 2047,
-          "inicio_byte": 1015,
-          "primera_linea": 9,
-          "seccion": "MD-L000009-L000014",
+          "fin_byte_exclusivo": 2503,
+          "inicio_byte": 1471,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000016",
           "sha256": "f3d00852e5ccdffe7b2969231f429d8d997150b40c5a157bc882391349593d3b",
           "titulo": "Alcance de la edición multiformato",
-          "ultima_linea": 14
+          "ultima_linea": 16
         },
         {
-          "fin_byte_exclusivo": 7530,
-          "inicio_byte": 2047,
-          "primera_linea": 15,
-          "seccion": "MD-L000015-L000037",
+          "fin_byte_exclusivo": 7986,
+          "inicio_byte": 2503,
+          "primera_linea": 17,
+          "seccion": "MD-L000017-L000039",
           "sha256": "8d45867fa4b080f27f98a4043fac1093b78da57957f2e88981a8dd16612a756f",
           "titulo": "Selección, clasificación e independencia",
-          "ultima_linea": 37
+          "ultima_linea": 39
         },
         {
-          "fin_byte_exclusivo": 9114,
-          "inicio_byte": 7530,
-          "primera_linea": 38,
-          "seccion": "MD-L000038-L000050",
+          "fin_byte_exclusivo": 9570,
+          "inicio_byte": 7986,
+          "primera_linea": 40,
+          "seccion": "MD-L000040-L000052",
           "sha256": "a12b6bbb8a26493c14fc06741081cc2eee12dab1325b0792bd5ab43c4061e364",
           "titulo": "Sedes de consulta",
-          "ultima_linea": 50
+          "ultima_linea": 52
         }
       ]
     },
     {
-      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
-      "cobertura_bytes": 5115,
+      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "cobertura_bytes": 6999,
       "correspondencia": "identidad_literal",
       "documento": "EET-03",
       "identificador_editorial_r0": null,
@@ -3437,7 +3437,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/correccion.md",
-        "sha256": "c23c827dff1f3d8a2dd268856501752fb861095534132ba7e398d34457e47988"
+        "sha256": "45b72ab32ff6208ffff1fdcebfb5840d07259e20276399789e70821b6f9b7acc"
       },
       "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
@@ -3451,36 +3451,45 @@
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1831,
+          "fin_byte_exclusivo": 1792,
           "inicio_byte": 359,
           "primera_linea": 5,
-          "seccion": "MD-L000005-L000018",
-          "sha256": "ab6c648a1788e00f01c5676b9fca8e0fd46b95040f06e3b40358d9ba5aa087fc",
+          "seccion": "MD-L000005-L000012",
+          "sha256": "4b8c53019274f12f25ca73cb0c19f052090a6663525f476713bd440aa05823cc",
+          "titulo": "Célula de cada prueba y cota autorizada",
+          "ultima_linea": 12
+        },
+        {
+          "fin_byte_exclusivo": 3635,
+          "inicio_byte": 1792,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000038",
+          "sha256": "31e72e2b862b07e955e7da75ca5a15185b574984eb0d0b6d0513c25dbda0e764",
           "titulo": "Clasificación matemática y dictamen del contrato",
-          "ultima_linea": 18
+          "ultima_linea": 38
         },
         {
-          "fin_byte_exclusivo": 3214,
-          "inicio_byte": 1831,
-          "primera_linea": 19,
-          "seccion": "MD-L000019-L000026",
-          "sha256": "aa0c695ec582025cb0fc3eec983a3ea854b3c49a6f25f4c241a4dac9e3a2d364",
+          "fin_byte_exclusivo": 5007,
+          "inicio_byte": 3635,
+          "primera_linea": 39,
+          "seccion": "MD-L000039-L000046",
+          "sha256": "665f2b80ae6ba417fc0eed710cd59220cd9cded0c94c97344e3e7063b973ee73",
           "titulo": "Fallos formales y fallos del instrumento",
-          "ultima_linea": 26
+          "ultima_linea": 46
         },
         {
-          "fin_byte_exclusivo": 5115,
-          "inicio_byte": 3214,
-          "primera_linea": 27,
-          "seccion": "MD-L000027-L000037",
-          "sha256": "540b27e5b4dd6aea94c036b5bacb4b2c85aa84245341b8bc30405b6b34192d06",
+          "fin_byte_exclusivo": 6999,
+          "inicio_byte": 5007,
+          "primera_linea": 47,
+          "seccion": "MD-L000047-L000057",
+          "sha256": "985fb121b714a0ec2d933a5610a1bb6829ba86891127ee1f436fa3c38b65d341",
           "titulo": "Polígono SV",
-          "ultima_linea": 37
+          "ultima_linea": 57
         }
       ]
     },
     {
-      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
       "cobertura_bytes": 4266,
       "correspondencia": "identidad_literal",
       "documento": "EET-04",
@@ -3514,8 +3523,8 @@
       ]
     },
     {
-      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
-      "cobertura_bytes": 5660,
+      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "cobertura_bytes": 8280,
       "correspondencia": "identidad_literal",
       "documento": "EET-05",
       "identificador_editorial_r0": null,
@@ -3523,7 +3532,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/edicion.md",
-        "sha256": "ca74ac8b855faba12518861e4c037b300451312f755e63c79c3a9bdb729ee224"
+        "sha256": "30bb636a0feb7a12648617222f7c78fe7ab6c662c052e0e45de8d16ca0514bf5"
       },
       "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
@@ -3537,27 +3546,36 @@
           "ultima_linea": 10
         },
         {
-          "fin_byte_exclusivo": 2277,
+          "fin_byte_exclusivo": 4107,
           "inicio_byte": 1487,
           "primera_linea": 11,
-          "seccion": "MD-L000011-L000016",
-          "sha256": "1868fd733151b75000846c4eb626a6744ef3d98e51147193c5dd23e6cdfdaae2",
-          "titulo": "Recursos y límites del examen",
-          "ultima_linea": 16
+          "seccion": "MD-L000011-L000029",
+          "sha256": "343cdd8d196667c43acab0344dcbe4e6f9c3d81da22c12dfcf72b9c0e334e6c6",
+          "titulo": "Identificación de la célula en la edición",
+          "ultima_linea": 29
         },
         {
-          "fin_byte_exclusivo": 5660,
-          "inicio_byte": 2277,
-          "primera_linea": 17,
-          "seccion": "MD-L000017-L000041",
+          "fin_byte_exclusivo": 4897,
+          "inicio_byte": 4107,
+          "primera_linea": 30,
+          "seccion": "MD-L000030-L000035",
+          "sha256": "1868fd733151b75000846c4eb626a6744ef3d98e51147193c5dd23e6cdfdaae2",
+          "titulo": "Recursos y límites del examen",
+          "ultima_linea": 35
+        },
+        {
+          "fin_byte_exclusivo": 8280,
+          "inicio_byte": 4897,
+          "primera_linea": 36,
+          "seccion": "MD-L000036-L000060",
           "sha256": "5e8d824aa27f10ac046a79ecbc3878c7bc1e1a9afc4f26e6fad010d683b88ee0",
           "titulo": "Respuesta y calificación",
-          "ultima_linea": 41
+          "ultima_linea": 60
         }
       ]
     },
     {
-      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
       "cobertura_bytes": 3332,
       "correspondencia": "identidad_literal",
       "documento": "EET-13",
@@ -3591,7 +3609,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
       "cobertura_bytes": 420,
       "correspondencia": "identidad_literal",
       "documento": "EET-14",
@@ -3616,7 +3634,7 @@
       ]
     },
     {
-      "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
       "cobertura_bytes": 5783,
       "correspondencia": "identidad_literal",
       "documento": "EET-15",
@@ -3668,9 +3686,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-correccion-conservada-20261022",
+  "edicion": "biblioteca-sv-celulas-por-prueba-20261022",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "0dca6c139f25a48e8841497bd751e3f793dccbab3db47da19c927786b6a3c41d",
+  "politica_sha256": "cf580780e80c64411c9801c34d39e9c3c91950cf4f0c323ae7623b0c16a15498",
   "recepcion_visual": false,
   "version": 1
 }

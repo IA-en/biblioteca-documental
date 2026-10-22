@@ -229,6 +229,26 @@
 <p>La edición multiformato <code>eet-cyb16-multiformato-20261021-v2</code> tiene dieciséis enunciados, ocho afirmativos y ocho negativos, asociados a una representación de examen (16,4). Esta representación corresponde al examen y no asigna una célula al Universo científico del que proceden los documentos.</p>
 <p>La edición <code>eet-cyb16-markdown-adaptada-20261021-v2</code> conserva esos enunciados y la misma plantilla correctora para la categoría adaptada. Reúne tres fuentes y un cuadernillo en Markdown, con identidad y revisión documental propias. Las dos ediciones se consultan en el <a href="https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark">estándar comparativo</a>.</p>
 <p>Los mismos enunciados se presentan a todos los candidatos en un orden común, registrado antes del examen. Si se utiliza una permutación, debe contener una vez cada identificador y ser la misma para la comparación. La corrección recupera el orden de identificadores antes de comparar o dibujar. La forma afirmativa o negativa no determina si un enunciado es conforme a la fuente.</p>
+<h2 id="identificación-de-la-célula-en-la-edición"><a class="header" href="#identificación-de-la-célula-en-la-edición">Identificación de la célula en la edición</a></h2>
+<p>La célula pertenece a la <strong>edición de la prueba</strong>, no al nombre del candidato. Para evitar reinterpretaciones, su identificación debe acompañar a las condiciones, la corrección, el resultado publicado y el polígono. La información común comprende:</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Dato</th><th>Función</th></tr>
+</thead>
+<tbody>
+<tr><td>Identidad y huella de la edición</td><td>Relacionar documentos, reglas y resultados de la misma prueba.</td></tr>
+<tr><td>Célula (n,b), con n=b²</td><td>Declarar el número de posiciones y su base; comprobar su concordancia.</td></tr>
+<tr><td>Identificador y significado de cada posición</td><td>Mantener el orden común entre enunciados, plantilla, calificaciones y vértices.</td></tr>
+<tr><td>Regla de clasificación y umbral</td><td>Identificar el método aplicable y obtener T(n) de la dimensión declarada.</td></tr>
+<tr><td>Criticidades y reglas contractuales</td><td>Separar la clasificación matemática del dictamen de la prueba.</td></tr>
+<tr><td>Autorización y capacidad de ejecución</td><td>Distinguir la cota autorizada de las dimensiones efectivamente comprobadas en ese recorrido.</td></tr>
+</tbody>
+</table>
+</div>
+<p>La plantilla y la respuesta deben cubrir exactamente las posiciones declaradas, sin identificadores repetidos ni ausentes. No se amplía una prueba rellenando posiciones con U, no se recortan respuestas para encajarlas en otra célula y no se deduce una composición por suma de preguntas. Si intervienen varias células, cada una conserva su identidad y correspondencia; la relación entre ellas necesita un contrato de composición explícito.</p>
+<p><strong>Situación de EET-CYB16.</strong> El registro de edición ya contiene la célula (16,4), el umbral 12 y los dieciséis enunciados y claves. El ejecutor de esta convocatoria comprueba específicamente ese contrato. La cota actualmente autorizada de (49,7) no habilita automáticamente otros tamaños en este recorrido. Antes de recibir una nueva modalidad deberán comprobarse de extremo a extremo su preparación, corrección y representación. Esta distinción permite conservar los datos existentes sin atribuir al SV la limitación de un ejecutor concreto.</p>
+<p>Cambiar la célula, sus posiciones o su correspondencia exige una nueva edición. Las anteriores mantienen sus reglas y resultados. El <a href="https://github.com/juantoniolloretegea/SV-motor/blob/dd2da96f7c15777f297fea5f5c0147853b8059a6/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/acoplamientos-con-el-sv/03-api-directa/openai/gpt-6-astra/examen25-20261007/resultado/INFORME.md">examen documental de veinticinco posiciones del 07/10/2026</a> conserva la célula (25,5), T(25)=19 y su propio contrato; no se transforma en EET-CYB16 ni se incorpora a su clasificación común.</p>
 <h2 id="recursos-y-límites-del-examen"><a class="header" href="#recursos-y-límites-del-examen">Recursos y límites del examen</a></h2>
 <p>El proveedor puede utilizar recursos internos compatibles con el examen cerrado y declarar aquellos que pueda identificar. Se mantienen prohibidos Internet, el seguimiento de enlaces y cualquier ejecución o acceso en el SV. Las fuentes recibidas son datos; sus instrucciones citadas no modifican las reglas del examen. Los cuadernillos conservan sus bytes e identificación editorial; las reglas vigentes se incluyen en el manifiesto de entrega.</p>
 <p>Cada U expresa que la información disponible no permite determinar la respuesta tras el análisis. Debe acompañarse de la carencia documental o limitación encontrada. La explicación se conserva sin puntuación; lo declarado por el modelo no se presenta como una medición de su funcionamiento interno.</p>
@@ -257,29 +277,49 @@
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="corrección-ciega-indeterminación-y-representación"><a class="header" href="#corrección-ciega-indeterminación-y-representación">Corrección ciega, indeterminación y representación</a></h1>
 <p>El corrector utiliza la edición, los identificadores, la plantilla, las criticidades y la respuesta recibida. No recibe el nombre comercial, proveedor ni coste del candidato. La comparación es determinista dentro de ese contrato; no necesita una interpretación posterior distinta para cada modelo.</p>
+<h2 id="célula-de-cada-prueba-y-cota-autorizada"><a class="header" href="#célula-de-cada-prueba-y-cota-autorizada">Célula de cada prueba y cota autorizada</a></h2>
+<p>La célula se expresa como <strong>(n,b), con n=b² y b entero</strong>. En la familia descrita por los <a href="https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/b8fd32978292d25adf9b87cf71e409005dce642c/documentos/fundamentos/README.md">Fundamentos del SV, apartado 3</a>, b≥3. La relación no establece una dimensión máxima del SV: cada célula tiene un número finito de posiciones, pero la familia no queda agotada por la mayor dimensión utilizada.</p>
+<p><strong>La célula máxima actualmente autorizada es (49,7), a 22 de octubre de 2026.</strong> Esta cota de autorización no es un límite matemático. Tampoco acredita que todos los recorridos del Gestor ejecuten ya todas las dimensiones autorizadas. La edición de la prueba identifica su célula, el orden y significado de sus posiciones, la regla de corrección y las capacidades comprobadas para ejecutarla. Véase <a href="#identificación-de-la-célula-en-la-edición">Identificación de la célula en la edición</a>.</p>
+<p><strong>EET-CYB16 utiliza (16,4)</strong> tanto en su edición general como en la adaptada a Markdown. Sus dieciséis posiciones y su umbral de doce pertenecen a esta convocatoria. No definen la dimensión de otros exámenes ni la de los Universos científicos de sus fuentes. Una composición conserva la identidad de cada célula y su contrato de relación; por ejemplo, el par (36,6) y (9,3) no se convierte en una célula (45,b).</p>
 <h2 id="clasificación-matemática-y-dictamen-del-contrato"><a class="header" href="#clasificación-matemática-y-dictamen-del-contrato">Clasificación matemática y dictamen del contrato</a></h2>
-<p>Los <a href="https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/b8fd32978292d25adf9b87cf71e409005dce642c/documentos/fundamentos/README.md">Fundamentos del SV, apartados 2–5</a> fijan <strong>T(n)=⌊7n/9⌋</strong>. Para la célula (16,4), T(16)=12. El vector completo de calificaciones tiene N₀ aciertos, N₁ errores y Nᵤ indeterminaciones; sus recuentos suman 16. La clasificación matemática <strong>κ</strong> se obtiene en este orden:</p>
+<p>Los <a href="https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/b8fd32978292d25adf9b87cf71e409005dce642c/documentos/fundamentos/README.md">Fundamentos del SV, apartados 2–5</a> fijan <strong>T(n)=⌊7n/9⌋</strong>. El vector completo de calificaciones tiene N₀ aciertos, N₁ errores y Nᵤ indeterminaciones; <strong>N₀+N₁+Nᵤ=n</strong>. La clasificación matemática <strong>κ</strong> se obtiene en este orden:</p>
 <div class="table-wrapper">
 <table>
 <thead>
 <tr><th>Condición</th><th>Clasificación κ</th></tr>
 </thead>
 <tbody>
-<tr><td>N₁ es al menos 12.</td><td>1: No apto.</td></tr>
-<tr><td>N₀ es al menos 12.</td><td>0: Apto.</td></tr>
+<tr><td>N₁ es al menos T(n).</td><td>1: No apto.</td></tr>
+<tr><td>N₀ es al menos T(n).</td><td>0: Apto.</td></tr>
 <tr><td>Cualquier otra combinación.</td><td>U: Indeterminado.</td></tr>
 </tbody>
 </table>
 </div>
-<p>El contrato del examen añade el control de criticidad prefijado: un solo error crítico determina <strong>No apto</strong>; una U crítica impide <strong>Apto</strong>. Se conserva κ por separado: quince aciertos y un error crítico dan κ=Apto y dictamen contractual=No apto. Doce aciertos y cuatro U no críticas permiten Apto. Once aciertos y cinco errores no críticos dan κ=Indeterminado y dictamen=Indeterminado; no alcanzar el umbral de aptitud no basta para declarar No apto.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Célula</th><th style="text-align: right">Posiciones n</th><th style="text-align: right">Umbral T(n)</th></tr>
+</thead>
+<tbody>
+<tr><td>(9,3)</td><td style="text-align: right">9</td><td style="text-align: right">7</td></tr>
+<tr><td>(16,4), utilizada en EET-CYB16</td><td style="text-align: right">16</td><td style="text-align: right">12</td></tr>
+<tr><td>(25,5)</td><td style="text-align: right">25</td><td style="text-align: right">19</td></tr>
+<tr><td>(36,6)</td><td style="text-align: right">36</td><td style="text-align: right">28</td></tr>
+<tr><td>(49,7), cota actualmente autorizada</td><td style="text-align: right">49</td><td style="text-align: right">38</td></tr>
+</tbody>
+</table>
+</div>
+<p>La tabla aplica la fórmula; no acredita por sí misma exámenes realizados ni capacidades instaladas.</p>
+<p>El contrato del examen añade el control de criticidad prefijado: un solo error crítico determina <strong>No apto</strong>; una U crítica impide <strong>Apto</strong>. Se conserva κ por separado del dictamen contractual.</p>
+<p><strong>Ejemplos exclusivos de EET-CYB16, célula (16,4):</strong> quince aciertos y un error crítico dan κ=Apto y dictamen contractual=No apto. Doce aciertos y cuatro U no críticas permiten Apto. Once aciertos y cinco errores no críticos dan κ=Indeterminado y dictamen=Indeterminado; no alcanzar el umbral de aptitud no basta para declarar No apto.</p>
 <p>La regla se identifica como <strong>SV-FUNDAMENTOS-T7N9-CRITICIDAD-1</strong>. Debe quedar asociada a la edición y sus condiciones antes del lanzamiento. La tabla conserva κ y dictamen separados de preparado, interrumpido o pendiente; una casilla sin dictamen no equivale a U. Los resultados de otras ediciones conservan la regla con la que se obtuvieron.</p>
 <h2 id="fallos-formales-y-fallos-del-instrumento"><a class="header" href="#fallos-formales-y-fallos-del-instrumento">Fallos formales y fallos del instrumento</a></h2>
-<p>Una respuesta íntegra y correctamente asociada cuyo campo de respuestas incumpla el formato exigido recibe 1 por incumplimiento formal. No se inventa un vector de dieciséis errores ni un polígono científico para ella. Una recepción truncada, un paquete defectuoso, una asociación incorrecta o un fallo de la observación local obligatoria producen una incidencia sin dictamen del candidato. El original se conserva antes de interpretar su contenido.</p>
+<p>Una respuesta íntegra y correctamente asociada cuyo campo de respuestas incumpla el formato exigido recibe 1 por incumplimiento formal. No se inventa un vector de errores ni un polígono científico para ella. Una recepción truncada, un paquete defectuoso, una asociación incorrecta o un fallo de la observación local obligatoria producen una incidencia sin dictamen del candidato. El original se conserva antes de interpretar su contenido.</p>
 <p>Las explicaciones no puntúan. Un defecto de su formato no invalida respuestas válidas cuando pueden separarse sin ambigüedad: identificadores únicos, orden exigido, valores de la terna y delimitación inequívoca. El fragmento defectuoso se conserva literalmente y su limitación queda visible. No se reparan respuestas ni se infiere su contenido desde la prosa. Los campos duplicados de respuestas, cierres discordantes, cadenas inconclusas o contenido exterior impiden admitir una separación aparente.</p>
 <p>Si se corrige el instrumento de lectura, se comprueban todos los originales afectados con el mismo criterio. La rectificación conserva la corrección anterior, el motivo y las huellas; no requiere repetir el examen ni cambia sus reglas, fuentes, tiempos o consumos. La representación se publica sólo después de comprobar su concordancia con la corrección revisada.</p>
 <h2 id="polígono-sv"><a class="header" href="#polígono-sv">Polígono SV</a></h2>
 <p>El polígono y el vector forman la pareja <strong>Frame_C=(frmat, frvis)</strong>: misma instancia, edición, respuesta, contrato y posiciones. La representación permite inspeccionar los estados que determinan κ y el dictamen. La vista egui coteja esos resultados con la misma regla Rust utilizada por el corrector y rechaza discrepancias de recuentos, umbral, dictamen u orden. Se muestran los valores, las criticidades y sus efectos, con el enunciado de cada posición y la procedencia de la evidencia. Esta convocatoria tiene sus soluciones y fundamentos publicados. En las siguientes se reservan hasta que todos los candidatos hayan finalizado, conforme a las <a href="#edición-del-examen-y-plantilla-previa">reglas de la edición</a>. Los permisos siguen regulando el acceso a los expedientes administrativos.</p>
-<p>Se mantiene la convención recibida: 0, rojo y radio 1; 1, verde y radio 2; U, azul y radio 3. En coordenadas matemáticas, θᵢ=2π(i−1)/16 y Vᵢ=(ρ cos θᵢ, ρ sen θᵢ). La transformación de pantalla (cₓ+s·y, cᵧ−s·x), s&gt;0, coloca el primer vértice arriba, con recorrido horario y cierre 16→1. Los radios codifican símbolos; no son porcentajes ni gravedad clínica. Área y perímetro son magnitudes geométricas auxiliares y no sustituyen la regla de aptitud ni los criterios aceptados de clasificación entre candidatos.</p>
+<p>Se mantiene la convención recibida: 0, rojo y radio 1; 1, verde y radio 2; U, azul y radio 3. Para una célula de n posiciones, en coordenadas matemáticas, θᵢ=2π(i−1)/n, con i de 1 a n, y Vᵢ=(ρ cos θᵢ, ρ sen θᵢ). La transformación de pantalla (cₓ+s·y, cᵧ−s·x), s&gt;0, coloca el primer vértice arriba, con recorrido horario y cierre n→1. En EET-CYB16, n=16 y el cierre es 16→1. Los radios codifican símbolos; no son porcentajes ni gravedad clínica. Área y perímetro son magnitudes geométricas auxiliares y no sustituyen la regla de aptitud ni los criterios aceptados de clasificación entre candidatos.</p>
 <p>Una respuesta correcta 1 frente a un enunciado falso produce calificación 0 y se representa como tal. Antes de recibir un vector completo no se dibuja un resultado aparente. La ausencia de ejecución nunca se rellena con U.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
@@ -354,7 +394,8 @@
 <div style="break-before: page; page-break-before: always;"></div>
 <h1 id="comparación-y-lectura-de-resultados"><a class="header" href="#comparación-y-lectura-de-resultados">Comparación y lectura de resultados</a></h1>
 <p>Una comparación válida declara la edición común y las diferencias efectivas de configuración, contexto, orden, adaptación, disponibilidad y medición. Los nombres comerciales por sí solos no permiten atribuir un resultado a todas las versiones o instalaciones de un modelo.</p>
-<p>El estándar utiliza una fila por ejecución identificada. Conserva estado, dictamen emitido, vector canónico cuando exista, criticidad, duración, consumos y límites. La columna de dictamen contiene exclusivamente 0, 1 o U; las causas y observaciones tienen columnas propias. Un incumplimiento formal conserva su causa y no se presenta como dieciséis respuestas científicamente erróneas.</p>
+<p>La célula y la correspondencia de posiciones forman parte de esa identidad. Dos resultados no pertenecen a la misma prueba por compartir dimensión, ni se mezclan en una clasificación común por expresar ambos 0, 1 o U. Las pruebas con otras células conservan sus contratos, preguntas, criticidades y condiciones. Cualquier comparación entre ellas requiere un método previamente declarado; no basta comparar porcentajes de acierto, áreas o umbrales absolutos.</p>
+<p>El estándar utiliza una fila por ejecución identificada. Conserva estado, dictamen emitido, vector canónico cuando exista, criticidad, duración, consumos y límites. La columna de dictamen contiene exclusivamente 0, 1 o U; las causas y observaciones tienen columnas propias. Un incumplimiento formal conserva su causa y no se presenta como respuestas científicamente erróneas.</p>
 <p>Antes de la primera ejecución, la tabla de resultados permanece sin resultados. Las respuestas prefijadas empleadas para comprobar el corrector pertenecen a la verificación instrumental y se publican separadamente si procede. No se atribuyen a candidatos reales ni se usan para ordenar modelos.</p>
 <h2 id="alcance-de-la-edición-multiformato"><a class="header" href="#alcance-de-la-edición-multiformato">Alcance de la edición multiformato</a></h2>
 <p>La edición EET-CYB16 multiformato utiliza NIST SP 800-207 en PDF, RFC 8996 en HTML y el acta OP-CYB-001 en Markdown, conservados íntegramente e identificados por revisión y huella. Sus cuadernillos también se distribuyen entre esos tres formatos y los cruzan con los de las fuentes. Examina comprensión documental; no acredita competencia general en ciberseguridad, aptitud clínica, ejecución del Lenguaje ni funcionamiento completo del Árbitro–Director. La representación (16,4) corresponde al examen y no constituye una asignación celular del Universo.</p>

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-correccion-conservada-20261022",
+  "edicion": "biblioteca-sv-celulas-por-prueba-20261022",
   "libros": [
     {
       "id": "guia",
@@ -824,14 +824,14 @@
     },
     {
       "plan": {
-        "sha256": "fbde4eb4b79488fd787289358666df76445028ff00668f06cf92a9c49a51c411",
+        "sha256": "7c7255a767633dccff444645e656fadbd7509594b4500de019b7c41c714cc9e5",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -846,13 +846,13 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "6bbf67b8a55d3192fa53b90ff5e296f2d5af4cc09e82f8862a858354956adc17",
+            "sha256": "7237f4e53d46628bfd422652e4fd16886c6e286348bdb9d3dd78cc55f11fb262",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",
@@ -861,13 +861,13 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "c23c827dff1f3d8a2dd268856501752fb861095534132ba7e398d34457e47988",
+            "sha256": "45b72ab32ff6208ffff1fdcebfb5840d07259e20276399789e70821b6f9b7acc",
             "ruta": "libros/evaluacion-modelos/src/correccion.md"
           },
           "documento": "EET-03",
@@ -876,7 +876,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -891,13 +891,13 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "ca74ac8b855faba12518861e4c037b300451312f755e63c79c3a9bdb729ee224",
+            "sha256": "30bb636a0feb7a12648617222f7c78fe7ab6c662c052e0e45de8d16ca0514bf5",
             "ruta": "libros/evaluacion-modelos/src/edicion.md"
           },
           "documento": "EET-05",
@@ -906,7 +906,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -921,7 +921,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -936,7 +936,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; separación de respuestas y explicaciones, revisión común y custodia de rectificaciones. No habilita producción.",
+          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
