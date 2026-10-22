@@ -1,7 +1,7 @@
 {
   "version": 2,
   "libro": "SV_EVALUACION_MODELOS",
-  "revision": "1f8b2544b4236370fd50949e890e03ece2e37112566f5dfe092b8d806665f02d",
+  "revision": "41507d02dabf2aa27001014d20b5837aae6b943e7c9b55266c7ce6ee06f34db9",
   "summary": {
     "titulo": "Índice",
     "url": "urn:sv:documento:sha256:73f892bb73a1bc7269d8f6d68add20a66ef0615a84609b99e515c46ba1e16330",
@@ -33,10 +33,10 @@
     },
     {
       "titulo": "Corrección ciega, indeterminación y representación",
-      "url": "urn:sv:documento:sha256:45b72ab32ff6208ffff1fdcebfb5840d07259e20276399789e70821b6f9b7acc",
+      "url": "urn:sv:documento:sha256:aef0b983f98350f471cfc80928f41dcf584eddbb3be32d9b015313229b7fc522",
       "ruta": "correccion.md",
       "id": "EET-03",
-      "sha256": "45b72ab32ff6208ffff1fdcebfb5840d07259e20276399789e70821b6f9b7acc"
+      "sha256": "aef0b983f98350f471cfc80928f41dcf584eddbb3be32d9b015313229b7fc522"
     },
     {
       "titulo": "Transporte, conservación y mediciones",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-celulas-por-prueba-20261022",
+  "edicion": "biblioteca-sv-cierre-auxiliar-20261022",
   "libros": [
     {
       "id": "guia",
@@ -824,14 +824,14 @@
     },
     {
       "plan": {
-        "sha256": "7c7255a767633dccff444645e656fadbd7509594b4500de019b7c41c714cc9e5",
+        "sha256": "aaaa628f604b2a1952b7c1bf9d97856ee84600ab27e266969b02286491ea5e02",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -846,7 +846,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -861,13 +861,13 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "45b72ab32ff6208ffff1fdcebfb5840d07259e20276399789e70821b6f9b7acc",
+            "sha256": "aef0b983f98350f471cfc80928f41dcf584eddbb3be32d9b015313229b7fc522",
             "ruta": "libros/evaluacion-modelos/src/correccion.md"
           },
           "documento": "EET-03",
@@ -876,7 +876,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -891,7 +891,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -906,7 +906,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -921,7 +921,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
@@ -936,7 +936,7 @@
         },
         {
           "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,

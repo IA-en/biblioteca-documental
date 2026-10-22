@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "ec4944bc17003f271a23d848507340f1817becb5114a3c9813b71465100b27ed",
+  "biblioteca_sha256": "7b6d014d92d077801937a7016c6b410818ba60d5b2dcd94b726522470dabef95",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3342,7 +3342,7 @@
       ]
     },
     {
-      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
       "cobertura_bytes": 4833,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
@@ -3376,7 +3376,7 @@
       ]
     },
     {
-      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
       "cobertura_bytes": 9570,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
@@ -3428,8 +3428,8 @@
       ]
     },
     {
-      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
-      "cobertura_bytes": 6999,
+      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
+      "cobertura_bytes": 7326,
       "correspondencia": "identidad_literal",
       "documento": "EET-03",
       "identificador_editorial_r0": null,
@@ -3437,7 +3437,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/correccion.md",
-        "sha256": "45b72ab32ff6208ffff1fdcebfb5840d07259e20276399789e70821b6f9b7acc"
+        "sha256": "aef0b983f98350f471cfc80928f41dcf584eddbb3be32d9b015313229b7fc522"
       },
       "procedencia": "Edición pública de 22/10/2026",
       "secciones": [
@@ -3469,17 +3469,17 @@
           "ultima_linea": 38
         },
         {
-          "fin_byte_exclusivo": 5007,
+          "fin_byte_exclusivo": 5334,
           "inicio_byte": 3635,
           "primera_linea": 39,
           "seccion": "MD-L000039-L000046",
-          "sha256": "665f2b80ae6ba417fc0eed710cd59220cd9cded0c94c97344e3e7063b973ee73",
+          "sha256": "5d1d934fec989f6bfeb6b5591a4e9cd14bc92bc4b3cf224cfa07d8697e8eba1b",
           "titulo": "Fallos formales y fallos del instrumento",
           "ultima_linea": 46
         },
         {
-          "fin_byte_exclusivo": 6999,
-          "inicio_byte": 5007,
+          "fin_byte_exclusivo": 7326,
+          "inicio_byte": 5334,
           "primera_linea": 47,
           "seccion": "MD-L000047-L000057",
           "sha256": "985fb121b714a0ec2d933a5610a1bb6829ba86891127ee1f436fa3c38b65d341",
@@ -3489,7 +3489,7 @@
       ]
     },
     {
-      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
       "cobertura_bytes": 4266,
       "correspondencia": "identidad_literal",
       "documento": "EET-04",
@@ -3523,7 +3523,7 @@
       ]
     },
     {
-      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
       "cobertura_bytes": 8280,
       "correspondencia": "identidad_literal",
       "documento": "EET-05",
@@ -3575,7 +3575,7 @@
       ]
     },
     {
-      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
       "cobertura_bytes": 3332,
       "correspondencia": "identidad_literal",
       "documento": "EET-13",
@@ -3609,7 +3609,7 @@
       ]
     },
     {
-      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
       "cobertura_bytes": 420,
       "correspondencia": "identidad_literal",
       "documento": "EET-14",
@@ -3634,7 +3634,7 @@
       ]
     },
     {
-      "alcance": "Método general, cota autorizada e identidad celular por edición; conservación de contratos y resultados. No habilita nuevas dimensiones de ejecución ni producción.",
+      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
       "cobertura_bytes": 5783,
       "correspondencia": "identidad_literal",
       "documento": "EET-15",
@@ -3686,9 +3686,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-celulas-por-prueba-20261022",
+  "edicion": "biblioteca-sv-cierre-auxiliar-20261022",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "cf580780e80c64411c9801c34d39e9c3c91950cf4f0c323ae7623b0c16a15498",
+  "politica_sha256": "6942d8e3091278c035dd1fca0aaf6e262685af5523b4d377e6f99cdd348bfafe",
   "recepcion_visual": false,
   "version": 1
 }
