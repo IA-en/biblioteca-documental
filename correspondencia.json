@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "7b6d014d92d077801937a7016c6b410818ba60d5b2dcd94b726522470dabef95",
+  "biblioteca_sha256": "214c62e37b9494e1402d9be3dece19e64ad2d3fba46b2c2d178467fdd08cf96e",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3201,7 +3201,7 @@
     },
     {
       "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
-      "cobertura_bytes": 22024,
+      "cobertura_bytes": 27826,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-08",
       "identificador_editorial_r0": null,
@@ -3209,9 +3209,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/parametros-rutas.md",
-        "sha256": "a35c0b8243ffe1f37a087cc03d80373f77cced11885c3800c77accec4cb0a53e"
+        "sha256": "58e5832a47ce761a8cf42a60265088ec37638b21ed3086e9d4b1954d05a7f488"
       },
-      "procedencia": "Edición pública propia de 12/10/2026 con ejemplos explicativos y bibliografía identificada.",
+      "procedencia": "Edición pública revisada el 23/10/2026; conserva los ejemplos y distingue conceptos recibidos y ampliación pendiente.",
       "secciones": [
         {
           "fin_byte_exclusivo": 34,
@@ -3331,13 +3331,40 @@
           "ultima_linea": 162
         },
         {
-          "fin_byte_exclusivo": 22024,
+          "fin_byte_exclusivo": 21839,
           "inicio_byte": 20430,
           "primera_linea": 163,
-          "seccion": "MD-L000163-L000175",
+          "seccion": "MD-L000163-L000170",
+          "sha256": "5146a7ddf6ee5879faac05444b6e125b78e4732443c830862365675fe6b13b23",
+          "titulo": "Consecuencias de omitir conocimiento necesario",
+          "ultima_linea": 170
+        },
+        {
+          "fin_byte_exclusivo": 23762,
+          "inicio_byte": 21839,
+          "primera_linea": 171,
+          "seccion": "MD-L000171-L000181",
+          "sha256": "5093cf8c4e76c95634dd2cb88dff55e3de298c772bd13470be7507035ebca6b9",
+          "titulo": "Consulta del conjunto y gestión de rutas críticas",
+          "ultima_linea": 181
+        },
+        {
+          "fin_byte_exclusivo": 26232,
+          "inicio_byte": 23762,
+          "primera_linea": 182,
+          "seccion": "MD-L000182-L000194",
+          "sha256": "4365542895c65065eddef69ca00071359e668a924c93a24f743c344602f1e105",
+          "titulo": "Invariantes y admisibilidad de la ampliación",
+          "ultima_linea": 194
+        },
+        {
+          "fin_byte_exclusivo": 27826,
+          "inicio_byte": 26232,
+          "primera_linea": 195,
+          "seccion": "MD-L000195-L000207",
           "sha256": "c95016f55b6c318ffac79d701015a5671efb13f9bfabe8304d65207a8253eb3e",
           "titulo": "Trazabilidad y límites de la explicación",
-          "ultima_linea": 175
+          "ultima_linea": 207
         }
       ]
     },
@@ -3686,9 +3713,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-cierre-auxiliar-20261022",
+  "edicion": "biblioteca-sv-rutas-criticas-20261023",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "6942d8e3091278c035dd1fca0aaf6e262685af5523b4d377e6f99cdd348bfafe",
+  "politica_sha256": "c921158e5afbeab40ef0e122692cea075807f877ecfc452fae90f0de6ad42029",
   "recepcion_visual": false,
   "version": 1
 }

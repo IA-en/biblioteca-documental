@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
-      "bytes": 46374,
       "ruta": "biblioteca.json",
-      "sha256": "7b6d014d92d077801937a7016c6b410818ba60d5b2dcd94b726522470dabef95"
+      "sha256": "214c62e37b9494e1402d9be3dece19e64ad2d3fba46b2c2d178467fdd08cf96e",
+      "bytes": 46399
     },
     {
       "ruta": "copias-historicas.json",
@@ -27,9 +27,9 @@
       "bytes": 711
     },
     {
-      "bytes": 145927,
       "ruta": "correspondencia.json",
-      "sha256": "f56feaa9f3c9fb7a1682aa5159d2c84cfdf7e18e44e27eebfbea3777a9a02a42"
+      "sha256": "cf14c6dc2ce64ee6b26baa04a44e61e6118759da0b39736d6758e0af004018f2",
+      "bytes": 147021
     },
     {
       "ruta": "libros/criterio-terminologia.md",
@@ -47,9 +47,9 @@
       "bytes": 561
     },
     {
-      "bytes": 2608,
       "ruta": "libros/dominios/plan.json",
-      "sha256": "018c2904d59f6fb7e4b1371cdbe5f435926530e1fafe3ceaa08ced2442907800"
+      "sha256": "198b5a1f6340280e341b22adeb0a524a836a4e28cddc28d9ba58f5494831f993",
+      "bytes": 2608
     },
     {
       "ruta": "libros/dominios/presentacion.js",
@@ -107,9 +107,9 @@
       "bytes": 10694
     },
     {
-      "bytes": 22024,
       "ruta": "libros/dominios/src/parametros-rutas.md",
-      "sha256": "a35c0b8243ffe1f37a087cc03d80373f77cced11885c3800c77accec4cb0a53e"
+      "sha256": "58e5832a47ce761a8cf42a60265088ec37638b21ed3086e9d4b1954d05a7f488",
+      "bytes": 27826
     },
     {
       "ruta": "libros/dominios/src/presentacion.md",
@@ -617,9 +617,9 @@
       "bytes": 15921
     },
     {
-      "bytes": 377,
       "ruta": "politica-verificacion.json",
-      "sha256": "6942d8e3091278c035dd1fca0aaf6e262685af5523b4d377e6f99cdd348bfafe"
+      "sha256": "c921158e5afbeab40ef0e122692cea075807f877ecfc452fae90f0de6ad42029",
+      "bytes": 377
     },
     {
       "ruta": "presentacion.js",
@@ -677,9 +677,9 @@
       "bytes": 962
     },
     {
-      "bytes": 46374,
       "ruta": "publico/biblioteca.json",
-      "sha256": "7b6d014d92d077801937a7016c6b410818ba60d5b2dcd94b726522470dabef95"
+      "sha256": "214c62e37b9494e1402d9be3dece19e64ad2d3fba46b2c2d178467fdd08cf96e",
+      "bytes": 46399
     },
     {
       "ruta": "publico/book-609e4cb8.js",
@@ -697,9 +697,9 @@
       "sha256": "46b97cc14a43e808d082b10dc85394edb7715d43f1ac1f5e7a320911655bd92f"
     },
     {
-      "bytes": 145927,
       "ruta": "publico/correspondencia.json",
-      "sha256": "f56feaa9f3c9fb7a1682aa5159d2c84cfdf7e18e44e27eebfbea3777a9a02a42"
+      "sha256": "cf14c6dc2ce64ee6b26baa04a44e61e6118759da0b39736d6758e0af004018f2",
+      "bytes": 147021
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1777,9 +1777,9 @@
       "sha256": "17549b26cedc078d334ac25647ed3856963990d5adcb09db06e854a2f1fc4067"
     },
     {
-      "bytes": 47618,
       "ruta": "publico/dominios/universos/parametros-rutas.html",
-      "sha256": "3447cdeee7d4b7a27687ba08c5239b2406c98142e6f0a550b645478314841b83"
+      "sha256": "25c7adc23706f8af3af7335b5eb86ac1b13539e658fb47daf3d153c2cb8cef4a",
+      "bytes": 54005
     },
     {
       "ruta": "publico/dominios/universos/presentacion-37d67f97.js",
@@ -1797,9 +1797,9 @@
       "sha256": "43385ece867248b247f92a15de7635ca7ce9c2c6ecb5c37d4663f972846f3f00"
     },
     {
-      "bytes": 90313,
       "ruta": "publico/dominios/universos/print.html",
-      "sha256": "a3abc88b060b9530f4e19e82d34f1a4a7cc75cf517f239a00e2fe23c1426d501"
+      "sha256": "327ab91cfc78a270b05dedf70deaf20d13396000a88f2ba06f072e9abe3c074a",
+      "bytes": 96684
     },
     {
       "ruta": "publico/dominios/universos/toc-57e74f04.js",
@@ -2217,9 +2217,9 @@
       "bytes": 974
     },
     {
-      "bytes": 2608,
       "ruta": "publico/libros/dominios/plan.json",
-      "sha256": "018c2904d59f6fb7e4b1371cdbe5f435926530e1fafe3ceaa08ced2442907800"
+      "sha256": "198b5a1f6340280e341b22adeb0a524a836a4e28cddc28d9ba58f5494831f993",
+      "bytes": 2608
     },
     {
       "ruta": "publico/libros/dominios/src/ciberseguridad.md",
@@ -2272,9 +2272,9 @@
       "bytes": 10694
     },
     {
-      "bytes": 22024,
       "ruta": "publico/libros/dominios/src/parametros-rutas.md",
-      "sha256": "a35c0b8243ffe1f37a087cc03d80373f77cced11885c3800c77accec4cb0a53e"
+      "sha256": "58e5832a47ce761a8cf42a60265088ec37638b21ed3086e9d4b1954d05a7f488",
+      "bytes": 27826
     },
     {
       "ruta": "publico/libros/dominios/src/presentacion.md",
@@ -2962,9 +2962,9 @@
       "sha256": "cd8f79a2921ea527409860816c857bdd7f7e269937439423f6b511f6577143de"
     },
     {
-      "bytes": 377,
       "ruta": "publico/politica-verificacion.json",
-      "sha256": "6942d8e3091278c035dd1fca0aaf6e262685af5523b4d377e6f99cdd348bfafe"
+      "sha256": "c921158e5afbeab40ef0e122692cea075807f877ecfc452fae90f0de6ad42029",
+      "bytes": 377
     },
     {
       "ruta": "publico/presentacion-0cfc7f9c.js",

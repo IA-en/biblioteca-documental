@@ -160,6 +160,38 @@ Microsoft Project ofrece una referencia útil de [selección y resaltado de rela
 
 Las figuras representan las relaciones definidas en este capítulo. Sus rótulos distinguen los objetos, las valoraciones y las transformaciones; los ejemplos no constituyen reglas profesionales de decisión.
 
+## Consecuencias de omitir conocimiento necesario
+
+La criticidad se refiere a las consecuencias de omitir conocimiento necesario para una operación, incluso cuando deba consultarse en otro Universo. La pertenencia, la activación y la obligatoriedad siguen siendo propiedades distintas. Una consecuencia candidata sirve para estudiar y justificar una unidad; sólo su constitución competente puede convertirla en una consecuencia operacional y establecer su tratamiento. Se conserva la [secuencia metodológica](metodologia.html#respetar-la-secuencia-de-constitución).
+
+Se prevén cinco niveles de consecuencias: **bajo, medio, alto, grave y muy grave**. Sus criterios, umbrales, contexto temporal, fundamento y revisión deberán definirse y validarse para el dominio. La clase de actuación omitida no determina por sí sola el nivel. La asignación exige justificar las consecuencias en el contexto aplicable y contar con revisión competente. La falta de información tampoco justifica asignar por defecto el nivel menor.
+
+Estos niveles no amplían la terna, no representan radios del polígono y no modifican la corrección de una prueba ya fijada. Una dependencia obligatoria no se vuelve prescindible por su nivel de consecuencias. Si su evaluación o criticidad está pendiente, se declara esa situación y se mantiene el tratamiento previsto por la regla aplicable, sin inventar una valoración.
+
+## Consulta del conjunto y gestión de rutas críticas
+
+Una evaluación puede comprender una célula, varias de un subdominio o las de un dominio completo. La participación del candidato conserva prueba, edición, intento y alcance; no equivale necesariamente a un polígono. El inventario de Universos candidatos tampoco acredita el número de células constituidas ni sus contactos.
+
+La consulta prevista distinguirá el conjunto, las rutas críticas y el detalle de cada célula. Permitirá abrir los polígonos necesarios sin representarlos todos simultáneamente. La selección y los filtros no alterarán la cobertura exigida y deberán indicar qué se muestra. Ruta prescrita, recorrido observado y declaración del modelo seguirán separados y vinculados a sus evidencias.
+
+En EET-IA, **Rutas críticas** identifica el panel descriptivo del Evaluador y del Administrador, con acceso desde Inicio. Su estado es **En preparación**: no permite todavía definir, autorizar ni ejecutar rutas. El uso experto en producción conserva su espacio y permisos propios. Las rutas concretas, los contactos y sus evidencias requerirán sesión y permisos sobre su alcance; esta explicación pública no publica esos recorridos.
+
+La definición de los métodos y su comparación requerirán una fase específica de análisis formal, documental, experimental y adversarial. Se comprobarán cobertura, dependencias, omisiones, condiciones de avance y terminación, incertidumbre y trazabilidad antes de valorar eficiencia. Las analogías anteriores y una conclusión aparentemente correcta no sustituyen esa validación. La [organización de la presentación de evaluaciones](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/PRESENTACION-CELULAS-Y-RUTAS.md) desarrolla sus criterios de consulta sin constituir un algoritmo de rutas.
+
+
+## Invariantes y admisibilidad de la ampliación
+
+La ampliación de células y rutas queda subordinada a los pilares y a las [invariantes constitutivas del SV, §§11–13](https://www.itvia.online/pub/presuncion-estructural-protopersonalidad-e-invariantes-constitutivos-en-el-sistema-vectorial-sv/release/3). Son condiciones de conformidad: una implementación incompatible no pertenece al SV. La revisión debe cubrir las seis invariantes, incluida la primacía humana y el Acta a la que remiten; no basta comprobar el dibujo ni una respuesta coincidente.
+
+La probabilidad, la estadística fundante, la minería de datos y la inferencia sin fundamento explícito no constituyen el método de decisión del SV. Los datos probabilísticos procedentes de fuentes externas conservan su condición externa y requieren admisibilidad, procedencia, método y alcance declarados; recibirlos no los convierte en certeza, regla de cierre o autoridad del sistema. El [régimen de la U, §§11–15](https://www.itvia.online/pub/origen-doctrinal-definicion-y-alcance-de-la-u-en-el-sistema-vectorial-sv/release/1) impide sustituir la no determinación por una probabilidad o una conclusión sin soporte suficiente.
+
+El [tiempo como medida y metadato, §1.4](https://www.itvia.online/pub/algebra-de-composicion-intercelular-del-marco-sv--iii-horizonte-de-sucesos-y-reevaluacion-discreta/release/2) permite registrar duraciones y referencias externas; el tiempo no es primitiva ontológica ni causa autónoma del cambio. Los sucesos y sus dependencias gobiernan la trayectoria. Medir un examen no modifica esta distinción.
+
+Toda regla futura de rutas deberá declarar sus argumentos, condiciones, derivación, autoridad y evidencias antes de ejecutarse. Las escalas externas de consecuencias pueden estudiarse como fuentes de dominio, sin importar automáticamente sus modelos probabilísticos, equiparar sus categorías ni alterar las invariantes. Su correspondencia y aplicabilidad necesitan justificación competente.
+
+
+El [contraste de fuentes de consecuencias](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/CONSECUENCIAS-Y-FUENTES.md) documenta el alcance de las referencias sanitarias, de ciberseguridad y jurídicas consultadas. Las cinco categorías previstas no equivalen al regulador de incorporación extrínseca del SV ni constituyen aún una escala operacional validada.
+
 ## Trazabilidad y límites de la explicación
 
 Cada actuación necesita conservar documentos, versiones, huellas, fragmentos, autorizaciones, reglas, entradas, salidas y decisiones de revisión. Un documento puede haberse preparado sin haberse enviado; una cita del modelo puede existir sin haberse contrastado. Estas situaciones deben identificarse por separado.

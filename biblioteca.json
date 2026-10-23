@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-cierre-auxiliar-20261022",
+  "edicion": "biblioteca-sv-rutas-criticas-20261023",
   "libros": [
     {
       "id": "guia",
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "018c2904d59f6fb7e4b1371cdbe5f435926530e1fafe3ceaa08ced2442907800",
+        "sha256": "198b5a1f6340280e341b22adeb0a524a836a4e28cddc28d9ba58f5494831f993",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -811,11 +811,11 @@
           "identificador_editorial_r0": null,
           "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública propia de 12/10/2026 con ejemplos explicativos y bibliografía identificada.",
+          "procedencia": "Edición pública revisada el 23/10/2026; conserva los ejemplos y distingue conceptos recibidos y ampliación pendiente.",
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/dominios/src/parametros-rutas.md",
-            "sha256": "a35c0b8243ffe1f37a087cc03d80373f77cced11885c3800c77accec4cb0a53e"
+            "sha256": "58e5832a47ce761a8cf42a60265088ec37638b21ed3086e9d4b1954d05a7f488"
           },
           "sintetico": false
         }
