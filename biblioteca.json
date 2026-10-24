@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-modos-modelos-20261024",
+  "edicion": "biblioteca-sv-registro-modos-20261024",
   "libros": [
     {
       "id": "guia",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "89c7602c13401b1e808054ff57a2aa9c1eb3fd4ca3f9dafd104713ab2dc3dddb",
+        "sha256": "b1d2fe54eb5f5b536a69a11e4350c4282f586fcb70c1bfa22a6cdb80d813da1e",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
           "procedencia": "Edición pública de 24/10/2026",
-          "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Definición funcional; registro todavía no implementado y producción deshabilitada.",
+          "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Registro por uso y conservación por examen; comparación individual y simultánea. Sin habilitación de producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "22aec600cdd69ef2b31981e6574d6ab12b053bc63168a8177e998189a27004d0",
+            "sha256": "3d01d63dd67c695ad91bc53ef54105cf60f80f88aae87e59f0d8584a83189bc9",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",
@@ -846,13 +846,13 @@
         },
         {
           "procedencia": "Edición pública de 24/10/2026",
-          "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Definición funcional; registro todavía no implementado y producción deshabilitada.",
+          "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Registro por uso y conservación por examen; comparación individual y simultánea. Sin habilitación de producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "6d07f0bf89ddd960686dee7a5251e6bb9f96c13e04f8587cbc61e70a190d509f",
+            "sha256": "104d2b80102f27ec6d49faf1c32f6c4d0d514b7b039ea9efb6731b143ba01242",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",
@@ -891,13 +891,13 @@
         },
         {
           "procedencia": "Edición pública de 24/10/2026",
-          "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Definición funcional; registro todavía no implementado y producción deshabilitada.",
+          "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Registro por uso y conservación por examen; comparación individual y simultánea. Sin habilitación de producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "1810fd672bfdba120cad0fbb652093fc10ab0f7b880ad299e5129325d243034a",
+            "sha256": "13099aba5b61fed62012a1f39acb431dc9a7a2bd90d70f2366698815dbfef109",
             "ruta": "libros/evaluacion-modelos/src/edicion.md"
           },
           "documento": "EET-05",

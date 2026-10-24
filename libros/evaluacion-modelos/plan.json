@@ -1,7 +1,7 @@
 {
   "version": 2,
   "libro": "SV_EVALUACION_MODELOS",
-  "revision": "9b0609287368063bf16508a556f10e137fc9e023dba990534c9c33e495a3f901",
+  "revision": "e9aa891b3a861ad25c12f8e7ded302af5cef071c6c5d3366d50f3c32fc346ae7",
   "summary": {
     "titulo": "Índice",
     "url": "urn:sv:documento:sha256:73f892bb73a1bc7269d8f6d68add20a66ef0615a84609b99e515c46ba1e16330",
@@ -26,10 +26,10 @@
     },
     {
       "titulo": "Edición del examen y plantilla previa",
-      "url": "urn:sv:documento:sha256:1810fd672bfdba120cad0fbb652093fc10ab0f7b880ad299e5129325d243034a",
+      "url": "urn:sv:documento:sha256:13099aba5b61fed62012a1f39acb431dc9a7a2bd90d70f2366698815dbfef109",
       "ruta": "edicion.md",
       "id": "EET-05",
-      "sha256": "1810fd672bfdba120cad0fbb652093fc10ab0f7b880ad299e5129325d243034a"
+      "sha256": "13099aba5b61fed62012a1f39acb431dc9a7a2bd90d70f2366698815dbfef109"
     },
     {
       "titulo": "Corrección ciega, indeterminación y representación",
@@ -47,17 +47,17 @@
     },
     {
       "titulo": "Facultades, autorización y producción",
-      "url": "urn:sv:documento:sha256:22aec600cdd69ef2b31981e6574d6ab12b053bc63168a8177e998189a27004d0",
+      "url": "urn:sv:documento:sha256:3d01d63dd67c695ad91bc53ef54105cf60f80f88aae87e59f0d8584a83189bc9",
       "ruta": "autoridad.md",
       "id": "EET-01",
-      "sha256": "22aec600cdd69ef2b31981e6574d6ab12b053bc63168a8177e998189a27004d0"
+      "sha256": "3d01d63dd67c695ad91bc53ef54105cf60f80f88aae87e59f0d8584a83189bc9"
     },
     {
       "titulo": "Comparación y lectura de resultados",
-      "url": "urn:sv:documento:sha256:6d07f0bf89ddd960686dee7a5251e6bb9f96c13e04f8587cbc61e70a190d509f",
+      "url": "urn:sv:documento:sha256:104d2b80102f27ec6d49faf1c32f6c4d0d514b7b039ea9efb6731b143ba01242",
       "ruta": "comparacion.md",
       "id": "EET-02",
-      "sha256": "6d07f0bf89ddd960686dee7a5251e6bb9f96c13e04f8587cbc61e70a190d509f"
+      "sha256": "104d2b80102f27ec6d49faf1c32f6c4d0d514b7b039ea9efb6731b143ba01242"
     }
   ]
 }
