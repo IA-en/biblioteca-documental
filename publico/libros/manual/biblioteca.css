@@ -60,3 +60,5 @@ main>hr+.sv-brand-footer{border-block-start:0;margin-block-start:0}
 }
 .chapter .on-this-page > .section { padding-inline-start: 0; }
 .chapter .on-this-page li.header-item { margin-block-end: .35em; }
+
+.rust .chapter > .part-title { color: var(--sidebar-fg); }
