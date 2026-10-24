@@ -72,6 +72,24 @@ La declaración y su comparación no conceden permisos de herramientas, acceso a
 
 La custodia admite actualmente 256 usos y 64 revisiones por uso; la última revisión queda reservada para su retirada. Son límites técnicos del registro, además de los límites generales de EET-IA, no cotas conceptuales del SV. Ante un aviso, el Administrador debe revisar y documentar la capacidad necesaria antes de ampliarla, conservando los registros. La guía del Gestor desarrolla la secuencia de uso y la consulta de sus metadatos.
 
+## Estado de seudo-producción
+
+La **seudo-producción** designa un estado de ensayo u observabilidad en laboratorio de una configuración de uso del SV. Puede ofrecer una demostración externa de la interacción con Agentes Especializados del SV, pero esa apariencia no acredita las condiciones de producción. Se denomina **estado**, para distinguirlo de los tres modos del modelo: Sin modo como objetivo, No actuación o neutral y Actuación o activo. Estado de funcionamiento, modo del modelo, visibilidad pública o privada y autorización de una operación son dimensiones diferentes.
+
+En una demostración de este estado pueden faltar la biblioteca documental constituida del dominio, sus células o sus rutas críticas. Si el protocolo autorizado permite información de Internet o respuestas no deterministas del modelo, esas condiciones deben declararse antes de la consulta y acompañar sus resultados. No se presentan como conocimiento validado del SV, decisión determinista ni consejo profesional recibido. La mención de los 32 Universos de Inmunología no acredita por sí sola una biblioteca disponible, células constituidas o conexiones operativas.
+
+La institución debe delimitar el objetivo del ensayo, los participantes, el modelo y su configuración, las fuentes permitidas, las operaciones, la supervisión, los límites de uso, la conservación y las condiciones de interrupción. Las cuentas invitadas requieren permisos propios y no heredan la cuenta ni la autoridad de quien organiza la demostración. Duración, tokens, número de consultas y coste son límites distintos; sus relaciones deben medirse y no se presumen equivalentes. La recepción del ensayo conserva las limitaciones, incidencias y evidencias observadas.
+
+La seudo-producción no constituye una etapa obligatoria para toda instalación ni una autorización abreviada de producción. Una institución puede preparar directamente la entrada en producción o realizar antes este ensayo; en ambos casos, la producción exige sus requisitos, comprobaciones y decisiones competentes. Cambiar la denominación del estado no transforma resultados de laboratorio en evidencia de producción ni dispensa las invariantes del SV.
+
+### Polígonos, datos y distribución del programa
+
+Los polígonos deben identificar su finalidad y las condiciones acreditadas de lo que representan. Un resultado de examen conserva su edición y contrato; una futura consulta de un agente requerirá identidad de consulta, revisión, fuentes y fundamentos propios. Una demostración no puede atribuirse rutas críticas o una constitución celular que todavía no existan. Compartir el programa gráfico no comparte datos, permisos ni significado científico.
+
+La distribución del programa común y versionado puede utilizar un CDN, otro servicio de distribución o el alojamiento directo de la institución. Esta elección técnica es independiente del estado de seudo-producción o producción. La reutilización del programa no congela el resultado de una consulta: sus datos se reciben y autorizan por separado. La información privada no se incorpora a recursos públicos compartidos; la actualización futura debe impedir confundir una revisión anterior, incompleta o ajena con el estado vigente.
+
+**Situación de esta edición:** se documentan el estado y sus condiciones de preparación. No se habilitan cuentas invitadas, consultas de agentes, acceso de modelos a Internet, rutas críticas ni producción. Cualquier ensayo posterior exige su protocolo y autorización específicos; esta descripción no levanta los bloqueos de salida vigentes.
+
 ## Gestión de solicitudes de proveedores
 
 La función **Responsable de evaluar peticiones de Proveedores** es independiente de Evaluador de modelos. Junto con la administración de la instalación, permite revisar solicitudes confirmadas y emitir respuestas trazables. No autoriza a lanzar exámenes, conceder aptitud o activar producción. Una cuenta experta puede acumularla sin recibir por ello las restantes funciones.

@@ -62,4 +62,8 @@ La publicación de preguntas y soluciones facilita la revisión por terceros. Cr
 
 ---
 
+### Programa gráfico y datos de la consulta
+
+Los polígonos publicados conservan los datos, la edición y el contrato de cada evaluación. El programa gráfico común puede reutilizarse sin reutilizar los datos de otra consulta ni cambiar la clasificación. La representación permite seleccionar posiciones aunque el resultado científico permanezca estable. Esta finalidad se distingue de la futura consulta privada de Agentes Especializados del SV, que exigirá estados y fundamentos propios: un polígono de examen no constituye consejo profesional ni acredita rutas críticas operativas.
+
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

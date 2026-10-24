@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-registro-modos-20261024",
+  "edicion": "biblioteca-sv-estado-seudo-produccion-20261024",
   "libros": [
     {
       "id": "guia",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "ac5903fd07114eca514574fe3c43cab01ed6160d2b1ae2437da401c551d0590f",
+        "sha256": "7c131177188ad7db6dc8ffa9182a61a47f1e78562e67e9a8ca16110d51a8013f",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
           "procedencia": "Edición pública de 24/10/2026",
-          "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Registro por uso y conservación por examen; comparación individual y simultánea. Sin habilitación de producción.",
+          "alcance": "Estado de seudo-producción, ensayo y observabilidad; separación del programa gráfico y los datos. Sin activación de agentes, invitados, rutas críticas ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "3d01d63dd67c695ad91bc53ef54105cf60f80f88aae87e59f0d8584a83189bc9",
+            "sha256": "3e8e1070f397298617561cd810f1a6458c20b45f64eaadfabf08c0066870b95b",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",
@@ -846,13 +846,13 @@
         },
         {
           "procedencia": "Edición pública de 24/10/2026",
-          "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Registro por uso y conservación por examen; comparación individual y simultánea. Sin habilitación de producción.",
+          "alcance": "Estado de seudo-producción, ensayo y observabilidad; separación del programa gráfico y los datos. Sin activación de agentes, invitados, rutas críticas ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "d232543eb3036e0532560137a9e1621d674db14593700fa1f1d77526e813fa98",
+            "sha256": "07194b8135e7ecc9916d87b80916604221956725bafdba3584195748331d1eb7",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",

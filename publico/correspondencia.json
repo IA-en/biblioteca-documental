@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "dd30bb31cd1ff21c79fe564624cd72d365a3c2c45ef3909ef3c972c5e3213bc3",
+  "biblioteca_sha256": "8575925e5b728152f23607788eeca6b537d73e8c0868bf1fddb88b020de109e0",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3369,8 +3369,8 @@
       ]
     },
     {
-      "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Registro por uso y conservación por examen; comparación individual y simultánea. Sin habilitación de producción.",
-      "cobertura_bytes": 12751,
+      "alcance": "Estado de seudo-producción, ensayo y observabilidad; separación del programa gráfico y los datos. Sin activación de agentes, invitados, rutas críticas ni producción.",
+      "cobertura_bytes": 16390,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
       "identificador_editorial_r0": null,
@@ -3378,7 +3378,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-        "sha256": "3d01d63dd67c695ad91bc53ef54105cf60f80f88aae87e59f0d8584a83189bc9"
+        "sha256": "3e8e1070f397298617561cd810f1a6458c20b45f64eaadfabf08c0066870b95b"
       },
       "procedencia": "Edición pública de 24/10/2026",
       "secciones": [
@@ -3428,19 +3428,37 @@
           "ultima_linea": 74
         },
         {
-          "fin_byte_exclusivo": 12751,
+          "fin_byte_exclusivo": 13818,
           "inicio_byte": 11593,
           "primera_linea": 75,
           "seccion": "MD-L000075-L000084",
+          "sha256": "08b86935190caa0317c33273040b08caf398a300a7df683399ecdba96549be40",
+          "titulo": "Estado de seudo-producción",
+          "ultima_linea": 84
+        },
+        {
+          "fin_byte_exclusivo": 15232,
+          "inicio_byte": 13818,
+          "primera_linea": 85,
+          "seccion": "MD-L000085-L000092",
+          "sha256": "7e2656fffb5cbed30f0209b6500abb9c186ba5807ae1d94f79bded6b7555bd69",
+          "titulo": "Polígonos, datos y distribución del programa",
+          "ultima_linea": 92
+        },
+        {
+          "fin_byte_exclusivo": 16390,
+          "inicio_byte": 15232,
+          "primera_linea": 93,
+          "seccion": "MD-L000093-L000102",
           "sha256": "871d83982954d7866ef5c645371783dda14cc96bddace4e56fe36570eecd4a88",
           "titulo": "Gestión de solicitudes de proveedores",
-          "ultima_linea": 84
+          "ultima_linea": 102
         }
       ]
     },
     {
-      "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Registro por uso y conservación por examen; comparación individual y simultánea. Sin habilitación de producción.",
-      "cobertura_bytes": 12829,
+      "alcance": "Estado de seudo-producción, ensayo y observabilidad; separación del programa gráfico y los datos. Sin activación de agentes, invitados, rutas críticas ni producción.",
+      "cobertura_bytes": 13424,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3448,7 +3466,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "d232543eb3036e0532560137a9e1621d674db14593700fa1f1d77526e813fa98"
+        "sha256": "07194b8135e7ecc9916d87b80916604221956725bafdba3584195748331d1eb7"
       },
       "procedencia": "Edición pública de 24/10/2026",
       "secciones": [
@@ -3489,13 +3507,22 @@
           "ultima_linea": 52
         },
         {
-          "fin_byte_exclusivo": 12829,
+          "fin_byte_exclusivo": 12489,
           "inicio_byte": 11245,
           "primera_linea": 53,
-          "seccion": "MD-L000053-L000065",
-          "sha256": "a12b6bbb8a26493c14fc06741081cc2eee12dab1325b0792bd5ab43c4061e364",
+          "seccion": "MD-L000053-L000064",
+          "sha256": "ffb06e6616d192a843af1d53daa14f3db3137a0aef4543d7db9ec5d548f16666",
           "titulo": "Sedes de consulta",
-          "ultima_linea": 65
+          "ultima_linea": 64
+        },
+        {
+          "fin_byte_exclusivo": 13424,
+          "inicio_byte": 12489,
+          "primera_linea": 65,
+          "seccion": "MD-L000065-L000069",
+          "sha256": "750f8c133119c674c8768c5f04f12aa66f71b664ad66e5e8dedb69a7c606ac19",
+          "titulo": "Programa gráfico y datos de la consulta",
+          "ultima_linea": 69
         }
       ]
     },
@@ -3758,9 +3785,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-registro-modos-20261024",
+  "edicion": "biblioteca-sv-estado-seudo-produccion-20261024",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "516e12b119f9b530d0760d19b0b1a3f4dc7d60c840fd558ad2664225b036f2a9",
+  "politica_sha256": "2108adb3838f9bfcc351218735a219ef1d750a2d5679919c5c67539ba138c37d",
   "recepcion_visual": false,
   "version": 1
 }
