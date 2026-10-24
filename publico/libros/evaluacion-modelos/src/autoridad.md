@@ -22,9 +22,49 @@ La admisión excepcional se limita a un dictamen **1 — No apto** vigente para 
 
 Un resultado apto de la configuración identificada permite considerar la recomendación del SV, sin conceder autorización automáticamente. Una decisión institucional de admitir un modelo No apto exige advertencia expresa y trazabilidad de quien la adopta; no cambia el dictamen ni convierte al modelo en recomendado por el SV. Su aplicación sigue sometida a las comprobaciones y permisos vigentes; no levanta un bloqueo de seguridad ni habilita producción. La institución delimita dominio, finalidad, destinatarios y vigencia. Un cambio del modelo, sus condiciones o la documentación exige revisar qué autorización o evaluación sigue siendo aplicable.
 
-La selección para producción mantiene un único modelo activo por ámbito institucional definido. Una sustitución debe registrar el cese anterior y la nueva decisión. No se permiten dos selecciones incompatibles dentro del mismo ámbito. Las comparaciones de rendimiento, coste y condiciones del proveedor informan esa decisión; no conceden facultades de contratación o pago.
+La organización de producción admite varios modelos predominantes en un mismo dominio y uso, siempre que sus funciones estén expresamente delimitadas. No exige un único modelo para toda la instalación ni para todo un dominio. La sustitución de una asignación conserva su cese y la nueva decisión; la coexistencia conserva por separado las funciones, evidencias y autorizaciones de cada modelo. Las comparaciones de rendimiento, coste y condiciones del proveedor informan esas decisiones; no conceden facultades de contratación o pago. Esta organización se define a continuación y todavía no está implementada en el Gestor.
 
 Los historiales anteriores se preservan. Las actuaciones de prueba permanecen identificadas como tales y no se convierten en evidencia de producción por cambiar una etiqueta. La nueva sede administrativa no reinicia ni borra los expedientes científicos.
+
+## Modos de uso del modelo
+
+El modo expresa la finalidad predominante de un **uso identificado**: modelo, versión y configuración, dominio, objetivo y alcance. No es una propiedad única e invariable del nombre comercial del modelo. Una misma versión puede intervenir con modos distintos en usos distintos.
+
+| Modo | Finalidad y alcance |
+| --- | --- |
+| **Sin modo como objetivo** | No se ha establecido un modo como objetivo de ese uso. Es el estado predeterminado. No equivale al modo neutral, a falta de aptitud ni al valor U de una evaluación. |
+| **No actuación o neutral** | Predominan el análisis, la evaluación y la orientación a la persona competente. La aplicación de las recomendaciones requiere la aprobación correspondiente. Las herramientas de consulta conservan sus propios permisos. |
+| **Actuación o activo** | Predominan actuaciones concretas, incluso automáticas cuando estén expresamente autorizadas, con capacidades comprobadas, recursos delimitados y condiciones de supervisión y parada. Declarar este modo no habilita esas actuaciones. |
+
+La predominancia no excluye otros usos del mismo modelo. Las funciones médicas y las de ciberseguridad son ejemplos; el dominio no asigna automáticamente un modo. Modo, capacidad comprobada, dictamen, asignación institucional y autorización de actuación son datos y decisiones diferentes.
+
+## Grados de libertad del modelo
+
+La denominación **Grados de libertad del modelo** reúne dos dimensiones de configuración: el modo predominante por uso y la vinculación con dominios, con función predominante o secundaria en cada relación pertinente. No introduce una magnitud matemática, una probabilidad ni un criterio adicional de calificación del SV.
+
+Un modelo puede ser predominante en varios dominios sin tener dominios secundarios, o ser predominante en uno y secundario en otros. No se le impone un único dominio principal global. También pueden coexistir varios modelos predominantes en el mismo dominio y uso, con funciones expresamente delimitadas. La predominancia describe la función asignada; no declara una superioridad universal entre modelos.
+
+La vinculación distinguirá **dominio científico**, **ámbito de instalación** y **función autorizada**. Por ejemplo, un servicio hospitalario de inmunología puede disponer de un modelo para apoyar la evaluación inmunológica y de otro para proteger sus sistemas. Ambos pueden ser predominantes en sus respectivas funciones. Proteger los sistemas del servicio no acredita aptitud clínica del modelo de ciberseguridad; la aptitud clínica tampoco autoriza operaciones de administración técnica. Compartir instalación no implica compartir permisos, acceso a documentos o autoridad.
+
+Cada vinculación deberá identificar el modelo y su configuración, el dominio y el ámbito atendidos, la función y su objetivo, su carácter predominante o secundario, las evidencias aplicables y la decisión competente. La cooperación requiere precisar qué aporta cada modelo, sus límites y cómo se revisan discrepancias o actuaciones incompatibles. No se resuelven por el nombre del proveedor, por el modo declarado ni por una preferencia automática no autorizada.
+
+## Capacidades, herramientas y autorización
+
+La selección debe justificar por qué un modelo es admisible para un uso y por qué no lo es para otro. Se distinguen las capacidades comprobadas, las herramientas disponibles en el catálogo MCP correspondiente, las habilidades acreditadas y las operaciones autorizadas. La disponibilidad de una herramienta o la declaración de una habilidad no demuestra competencia ni concede permiso para utilizarla.
+
+Una limitación de lectura de PDF afecta a los usos que exijan esa capacidad; no excluye por sí sola al modelo de todo un dominio. A la inversa, superar una prueba adaptada a Markdown no acredita lectura nativa de PDF ni aptitud general para tareas ajenas a su contrato. Las [condiciones de comparación](comparacion.md) conservan sus propios alcances y límites.
+
+Las autorizaciones de actuación identificarán recursos y operaciones permitidos, finalidad, persona competente, vigencia, supervisión, revocación y condiciones de parada. La cooperación entre modelos no suma permisos ni transfiere automáticamente aptitudes. La respuesta de un modelo permanece como dato sujeto a comprobación; no adquiere autoridad para ordenar actuaciones al SV por contener una instrucción.
+
+En ciberseguridad, el alcance se limita a actuaciones éticas y expresamente autorizadas. La finalidad defensiva no amplía el perímetro permitido. Considerar dañino un sistema externo no concede acceso ni autorización para intervenir sobre él. La contención o neutralización deberá respetar los sistemas, operaciones y efectos admitidos, sin daño deliberado a terceros ajenos al alcance autorizado.
+
+## Conservación por examen y estado de implementación
+
+Cada examen conservará la declaración de uso y su revisión aplicable durante la preparación. Una modificación posterior del modo, dominio o función no reescribirá las condiciones examinadas. Si una prueba pretende evaluar nuevas capacidades de actuación, deberá definirlas y autorizarlas antes de su ejecución; no podrá deducirlas después de una prueba de comprensión documental.
+
+Los exámenes anteriores no establecieron un modo como objetivo. Les corresponde **Sin modo como objetivo**, sin atribuir retrospectivamente una declaración, una fecha o una autorización inexistentes. Haber examinado documentos de ciberseguridad no acredita un modo activo. Los originales, resultados y reglas de aquellos exámenes se conservan.
+
+**Estado actual.** La definición de modos y grados de libertad está establecida; su registro y comprobaciones todavía no están implementados. La preparación institucional actual conserva una asignación por dominio y no representa aún la convivencia de funciones aquí descrita. Esta limitación del instrumento no constituye una restricción conceptual del SV. La producción permanece deshabilitada. La incorporación futura deberá comprobar la compatibilidad de los antecedentes, la separación de permisos y la conservación de cada declaración por examen.
 
 ## Gestión de solicitudes de proveedores
 

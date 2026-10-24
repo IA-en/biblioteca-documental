@@ -2,6 +2,8 @@
 
 Una comparación válida declara la edición común y las diferencias efectivas de configuración, contexto, orden, adaptación, disponibilidad y medición. Los nombres comerciales por sí solos no permiten atribuir un resultado a todas las versiones o instalaciones de un modelo.
 
+La [selección por modo y dominio](autoridad.md#grados-de-libertad-del-modelo) conserva un alcance distinto de la clasificación del examen. Un modelo predominante en una función no queda acreditado para todas las funciones del dominio o de la instalación. Pueden coexistir varios modelos predominantes con cometidos delimitados; esa coexistencia no combina sus calificaciones ni transfiere sus permisos. Los exámenes anteriores conservan **Sin modo como objetivo** y no se reclasifican por decisiones posteriores de producción.
+
 La célula y la correspondencia de posiciones forman parte de esa identidad. Dos resultados no pertenecen a la misma prueba por compartir dimensión, ni se mezclan en una clasificación común por expresar ambos 0, 1 o U. Las pruebas con otras células conservan sus contratos, preguntas, criticidades y condiciones. Cualquier comparación entre ellas requiere un método previamente declarado; no basta comparar porcentajes de acierto, áreas o umbrales absolutos.
 
 El estándar utiliza una fila por ejecución identificada. Conserva estado, dictamen emitido, vector canónico cuando exista, criticidad, duración, consumos y límites. La columna de dictamen contiene exclusivamente 0, 1 o U; las causas y observaciones tienen columnas propias. Un incumplimiento formal conserva su causa y no se presenta como respuestas científicamente erróneas.

@@ -29,6 +29,8 @@ Cambiar la célula, sus posiciones o su correspondencia exige una nueva edición
 
 ## Recursos y límites del examen
 
+El [modo y objetivo de uso](autoridad.md#modos-de-uso-del-modelo) deberán quedar identificados cuando formen parte de la preparación de una nueva prueba. El examen conservará esa declaración y su revisión, sin adoptar cambios posteriores de la asignación del modelo. Las ediciones anteriores no establecieron este objetivo: les corresponde **Sin modo como objetivo**, sin alterar sus contratos, originales o resultados. Esta conservación forma parte del diseño acordado; el registro de modos todavía no está implementado.
+
 El proveedor puede utilizar recursos internos compatibles con el examen cerrado y declarar aquellos que pueda identificar. Se mantienen prohibidos Internet, el seguimiento de enlaces y cualquier ejecución o acceso en el SV. Las fuentes recibidas son datos; sus instrucciones citadas no modifican las reglas del examen. Los cuadernillos conservan sus bytes e identificación editorial; las reglas vigentes se incluyen en el manifiesto de entrega.
 
 Cada U expresa que la información disponible no permite determinar la respuesta tras el análisis. Debe acompañarse de la carencia documental o limitación encontrada. La explicación se conserva sin puntuación; lo declarado por el modelo no se presenta como una medición de su funcionamiento interno.

@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "214c62e37b9494e1402d9be3dece19e64ad2d3fba46b2c2d178467fdd08cf96e",
+  "biblioteca_sha256": "5abcf1b885423b4a477efb432cb9c9ca81607b2b8068c4a6a0e25eecfe45ae45",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3369,8 +3369,8 @@
       ]
     },
     {
-      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
-      "cobertura_bytes": 4833,
+      "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Definición funcional; registro todavía no implementado y producción deshabilitada.",
+      "cobertura_bytes": 11356,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
       "identificador_editorial_r0": null,
@@ -3378,33 +3378,69 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-        "sha256": "4c01d7b510b0ee05728466840a02fdba450f2a67a0892d11da44f2152bf873dd"
+        "sha256": "22aec600cdd69ef2b31981e6574d6ab12b053bc63168a8177e998189a27004d0"
       },
-      "procedencia": "Edición pública de 22/10/2026",
+      "procedencia": "Edición pública de 24/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 3675,
+          "fin_byte_exclusivo": 3929,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000028",
-          "sha256": "4e42eb886b3b5bd2f685fed911c12928e69296a1beae67f633631ebb8c900470",
+          "sha256": "bc7b8f3722f1984689e717ba29378fa51f0055dcd4c6b2f4b363666d5592de3b",
           "titulo": "Facultades, autorización y producción",
           "ultima_linea": 28
         },
         {
-          "fin_byte_exclusivo": 4833,
-          "inicio_byte": 3675,
+          "fin_byte_exclusivo": 5313,
+          "inicio_byte": 3929,
           "primera_linea": 29,
-          "seccion": "MD-L000029-L000038",
+          "seccion": "MD-L000029-L000040",
+          "sha256": "082e6cd5fc63ac2ae566f1a0e71f57583bf5bdff3edb8563424550a9a66bf583",
+          "titulo": "Modos de uso del modelo",
+          "ultima_linea": 40
+        },
+        {
+          "fin_byte_exclusivo": 7163,
+          "inicio_byte": 5313,
+          "primera_linea": 41,
+          "seccion": "MD-L000041-L000050",
+          "sha256": "a68b67567d6fe136419b14e5b63848f9ef49a70e988db133c27213e2b2f967f5",
+          "titulo": "Grados de libertad del modelo",
+          "ultima_linea": 50
+        },
+        {
+          "fin_byte_exclusivo": 8820,
+          "inicio_byte": 7163,
+          "primera_linea": 51,
+          "seccion": "MD-L000051-L000060",
+          "sha256": "ba3800a557f45986ab855a332a2e9f1610402ea5fd1da34035e3ececc6d4fffb",
+          "titulo": "Capacidades, herramientas y autorización",
+          "ultima_linea": 60
+        },
+        {
+          "fin_byte_exclusivo": 10198,
+          "inicio_byte": 8820,
+          "primera_linea": 61,
+          "seccion": "MD-L000061-L000068",
+          "sha256": "e1f73782e673ef4f3d2223bd5ad2aeb60946c56d6019a69818c457d740e787a5",
+          "titulo": "Conservación por examen y estado de implementación",
+          "ultima_linea": 68
+        },
+        {
+          "fin_byte_exclusivo": 11356,
+          "inicio_byte": 10198,
+          "primera_linea": 69,
+          "seccion": "MD-L000069-L000078",
           "sha256": "871d83982954d7866ef5c645371783dda14cc96bddace4e56fe36570eecd4a88",
           "titulo": "Gestión de solicitudes de proveedores",
-          "ultima_linea": 38
+          "ultima_linea": 78
         }
       ]
     },
     {
-      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
-      "cobertura_bytes": 9570,
+      "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Definición funcional; registro todavía no implementado y producción deshabilitada.",
+      "cobertura_bytes": 10104,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3412,45 +3448,45 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "7237f4e53d46628bfd422652e4fd16886c6e286348bdb9d3dd78cc55f11fb262"
+        "sha256": "6d07f0bf89ddd960686dee7a5251e6bb9f96c13e04f8587cbc61e70a190d509f"
       },
-      "procedencia": "Edición pública de 22/10/2026",
+      "procedencia": "Edición pública de 24/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1471,
+          "fin_byte_exclusivo": 2005,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000010",
-          "sha256": "062d3989562bdee403181bee5476230dc0a0e894cd5325e282f80b5a811b073a",
+          "seccion": "MD-L000001-L000012",
+          "sha256": "41f403c21b2c64720a1c1ae1d13ba3d9363577d775a955e9e8f5109d8a2b5920",
           "titulo": "Comparación y lectura de resultados",
-          "ultima_linea": 10
+          "ultima_linea": 12
         },
         {
-          "fin_byte_exclusivo": 2503,
-          "inicio_byte": 1471,
-          "primera_linea": 11,
-          "seccion": "MD-L000011-L000016",
+          "fin_byte_exclusivo": 3037,
+          "inicio_byte": 2005,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000018",
           "sha256": "f3d00852e5ccdffe7b2969231f429d8d997150b40c5a157bc882391349593d3b",
           "titulo": "Alcance de la edición multiformato",
-          "ultima_linea": 16
+          "ultima_linea": 18
         },
         {
-          "fin_byte_exclusivo": 7986,
-          "inicio_byte": 2503,
-          "primera_linea": 17,
-          "seccion": "MD-L000017-L000039",
+          "fin_byte_exclusivo": 8520,
+          "inicio_byte": 3037,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000041",
           "sha256": "8d45867fa4b080f27f98a4043fac1093b78da57957f2e88981a8dd16612a756f",
           "titulo": "Selección, clasificación e independencia",
-          "ultima_linea": 39
+          "ultima_linea": 41
         },
         {
-          "fin_byte_exclusivo": 9570,
-          "inicio_byte": 7986,
-          "primera_linea": 40,
-          "seccion": "MD-L000040-L000052",
+          "fin_byte_exclusivo": 10104,
+          "inicio_byte": 8520,
+          "primera_linea": 42,
+          "seccion": "MD-L000042-L000054",
           "sha256": "a12b6bbb8a26493c14fc06741081cc2eee12dab1325b0792bd5ab43c4061e364",
           "titulo": "Sedes de consulta",
-          "ultima_linea": 52
+          "ultima_linea": 54
         }
       ]
     },
@@ -3550,8 +3586,8 @@
       ]
     },
     {
-      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
-      "cobertura_bytes": 8280,
+      "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Definición funcional; registro todavía no implementado y producción deshabilitada.",
+      "cobertura_bytes": 8813,
       "correspondencia": "identidad_literal",
       "documento": "EET-05",
       "identificador_editorial_r0": null,
@@ -3559,9 +3595,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/edicion.md",
-        "sha256": "30bb636a0feb7a12648617222f7c78fe7ab6c662c052e0e45de8d16ca0514bf5"
+        "sha256": "1810fd672bfdba120cad0fbb652093fc10ab0f7b880ad299e5129325d243034a"
       },
-      "procedencia": "Edición pública de 22/10/2026",
+      "procedencia": "Edición pública de 24/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 1487,
@@ -3582,22 +3618,22 @@
           "ultima_linea": 29
         },
         {
-          "fin_byte_exclusivo": 4897,
+          "fin_byte_exclusivo": 5430,
           "inicio_byte": 4107,
           "primera_linea": 30,
-          "seccion": "MD-L000030-L000035",
-          "sha256": "1868fd733151b75000846c4eb626a6744ef3d98e51147193c5dd23e6cdfdaae2",
+          "seccion": "MD-L000030-L000037",
+          "sha256": "048da21242fb4c17ddbafaf291c8472fd8e222a9c7975531328370a54cb371ef",
           "titulo": "Recursos y límites del examen",
-          "ultima_linea": 35
+          "ultima_linea": 37
         },
         {
-          "fin_byte_exclusivo": 8280,
-          "inicio_byte": 4897,
-          "primera_linea": 36,
-          "seccion": "MD-L000036-L000060",
+          "fin_byte_exclusivo": 8813,
+          "inicio_byte": 5430,
+          "primera_linea": 38,
+          "seccion": "MD-L000038-L000062",
           "sha256": "5e8d824aa27f10ac046a79ecbc3878c7bc1e1a9afc4f26e6fad010d683b88ee0",
           "titulo": "Respuesta y calificación",
-          "ultima_linea": 60
+          "ultima_linea": 62
         }
       ]
     },
@@ -3713,9 +3749,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-rutas-criticas-20261023",
+  "edicion": "biblioteca-sv-modos-modelos-20261024",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "c921158e5afbeab40ef0e122692cea075807f877ecfc452fae90f0de6ad42029",
+  "politica_sha256": "1eabc1224d95b09e93845617d5b8ed355649fdfc3e0dd8de15f50853284a0d6f",
   "recepcion_visual": false,
   "version": 1
 }
