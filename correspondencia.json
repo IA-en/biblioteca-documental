@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "8575925e5b728152f23607788eeca6b537d73e8c0868bf1fddb88b020de109e0",
+  "biblioteca_sha256": "292020b62f92cfb79e571616de30b44d6178afda5f46ec0c87adddd310d10823",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3369,8 +3369,8 @@
       ]
     },
     {
-      "alcance": "Estado de seudo-producción, ensayo y observabilidad; separación del programa gráfico y los datos. Sin activación de agentes, invitados, rutas críticas ni producción.",
-      "cobertura_bytes": 16390,
+      "alcance": "Condiciones de reutilización del programa gráfico y aislamiento exigible a la consulta en seudo-producción. Sin activación de agentes, invitados ni rutas críticas.",
+      "cobertura_bytes": 17743,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
       "identificador_editorial_r0": null,
@@ -3378,7 +3378,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-        "sha256": "3e8e1070f397298617561cd810f1a6458c20b45f64eaadfabf08c0066870b95b"
+        "sha256": "e198fcf0f8fcc469c4ab44034877b067ed91b1142a697a3550b186c8f71e75c6"
       },
       "procedencia": "Edición pública de 24/10/2026",
       "secciones": [
@@ -3428,37 +3428,46 @@
           "ultima_linea": 74
         },
         {
-          "fin_byte_exclusivo": 13818,
+          "fin_byte_exclusivo": 13877,
           "inicio_byte": 11593,
           "primera_linea": 75,
           "seccion": "MD-L000075-L000084",
-          "sha256": "08b86935190caa0317c33273040b08caf398a300a7df683399ecdba96549be40",
+          "sha256": "7560fc3b048b76e3ac896e5501fc6ce28877b38bc0efa00258e020213894a638",
           "titulo": "Estado de seudo-producción",
           "ultima_linea": 84
         },
         {
-          "fin_byte_exclusivo": 15232,
-          "inicio_byte": 13818,
+          "fin_byte_exclusivo": 15171,
+          "inicio_byte": 13877,
           "primera_linea": 85,
-          "seccion": "MD-L000085-L000092",
-          "sha256": "7e2656fffb5cbed30f0209b6500abb9c186ba5807ae1d94f79bded6b7555bd69",
-          "titulo": "Polígonos, datos y distribución del programa",
-          "ultima_linea": 92
+          "seccion": "MD-L000085-L000090",
+          "sha256": "8330f2ea7a967b779fbe61fa8c613b04dfa3058556f0b00cd9911e8a784df829",
+          "titulo": "Consulta sin autoridad sobre el sistema",
+          "ultima_linea": 90
         },
         {
-          "fin_byte_exclusivo": 16390,
-          "inicio_byte": 15232,
-          "primera_linea": 93,
-          "seccion": "MD-L000093-L000102",
+          "fin_byte_exclusivo": 16585,
+          "inicio_byte": 15171,
+          "primera_linea": 91,
+          "seccion": "MD-L000091-L000098",
+          "sha256": "7e2656fffb5cbed30f0209b6500abb9c186ba5807ae1d94f79bded6b7555bd69",
+          "titulo": "Polígonos, datos y distribución del programa",
+          "ultima_linea": 98
+        },
+        {
+          "fin_byte_exclusivo": 17743,
+          "inicio_byte": 16585,
+          "primera_linea": 99,
+          "seccion": "MD-L000099-L000108",
           "sha256": "871d83982954d7866ef5c645371783dda14cc96bddace4e56fe36570eecd4a88",
           "titulo": "Gestión de solicitudes de proveedores",
-          "ultima_linea": 102
+          "ultima_linea": 108
         }
       ]
     },
     {
-      "alcance": "Estado de seudo-producción, ensayo y observabilidad; separación del programa gráfico y los datos. Sin activación de agentes, invitados, rutas críticas ni producción.",
-      "cobertura_bytes": 13424,
+      "alcance": "Condiciones de reutilización del programa gráfico y aislamiento exigible a la consulta en seudo-producción. Sin activación de agentes, invitados ni rutas críticas.",
+      "cobertura_bytes": 13712,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3466,7 +3475,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "07194b8135e7ecc9916d87b80916604221956725bafdba3584195748331d1eb7"
+        "sha256": "aa86fb291556dff8c36cb8a540d109a112a819f7d05977809c1bbf5d479a5083"
       },
       "procedencia": "Edición pública de 24/10/2026",
       "secciones": [
@@ -3516,11 +3525,11 @@
           "ultima_linea": 64
         },
         {
-          "fin_byte_exclusivo": 13424,
+          "fin_byte_exclusivo": 13712,
           "inicio_byte": 12489,
           "primera_linea": 65,
           "seccion": "MD-L000065-L000069",
-          "sha256": "750f8c133119c674c8768c5f04f12aa66f71b664ad66e5e8dedb69a7c606ac19",
+          "sha256": "fae038b7b1f7ecf4ff13c18a916a698f23aa846b8693d85db266b17370e4e2ff",
           "titulo": "Programa gráfico y datos de la consulta",
           "ultima_linea": 69
         }
@@ -3785,9 +3794,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-estado-seudo-produccion-20261024",
+  "edicion": "biblioteca-sv-distribucion-aislamiento-20261024",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "2108adb3838f9bfcc351218735a219ef1d750a2d5679919c5c67539ba138c37d",
+  "politica_sha256": "39cbbbe7173ff6fc48dd802e40ca5e90c51cc437d5814a0398c353cc695961bb",
   "recepcion_visual": false,
   "version": 1
 }

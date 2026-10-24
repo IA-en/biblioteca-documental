@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-estado-seudo-produccion-20261024",
+  "edicion": "biblioteca-sv-distribucion-aislamiento-20261024",
   "libros": [
     {
       "id": "guia",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "7c131177188ad7db6dc8ffa9182a61a47f1e78562e67e9a8ca16110d51a8013f",
+        "sha256": "257452e6895ffbb9a7f6f6e1b93d277514372911c2e66a1db6a65fec86dabe54",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
           "procedencia": "Edición pública de 24/10/2026",
-          "alcance": "Estado de seudo-producción, ensayo y observabilidad; separación del programa gráfico y los datos. Sin activación de agentes, invitados, rutas críticas ni producción.",
+          "alcance": "Condiciones de reutilización del programa gráfico y aislamiento exigible a la consulta en seudo-producción. Sin activación de agentes, invitados ni rutas críticas.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "3e8e1070f397298617561cd810f1a6458c20b45f64eaadfabf08c0066870b95b",
+            "sha256": "e198fcf0f8fcc469c4ab44034877b067ed91b1142a697a3550b186c8f71e75c6",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",
@@ -846,13 +846,13 @@
         },
         {
           "procedencia": "Edición pública de 24/10/2026",
-          "alcance": "Estado de seudo-producción, ensayo y observabilidad; separación del programa gráfico y los datos. Sin activación de agentes, invitados, rutas críticas ni producción.",
+          "alcance": "Condiciones de reutilización del programa gráfico y aislamiento exigible a la consulta en seudo-producción. Sin activación de agentes, invitados ni rutas críticas.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "07194b8135e7ecc9916d87b80916604221956725bafdba3584195748331d1eb7",
+            "sha256": "aa86fb291556dff8c36cb8a540d109a112a819f7d05977809c1bbf5d479a5083",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",

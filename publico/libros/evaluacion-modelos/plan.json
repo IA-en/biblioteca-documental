@@ -1,7 +1,7 @@
 {
   "version": 2,
   "libro": "SV_EVALUACION_MODELOS",
-  "revision": "4a79cdceb7a9fdcdfb1dd4ab8dacde08614d80adeb8d8b6a67b3480f4fc45eca",
+  "revision": "f91c7f7676f6f7caade631072b3d6810a5f73394477f7720cc13a84350e87ead",
   "summary": {
     "titulo": "Índice",
     "url": "urn:sv:documento:sha256:73f892bb73a1bc7269d8f6d68add20a66ef0615a84609b99e515c46ba1e16330",
@@ -47,17 +47,17 @@
     },
     {
       "titulo": "Facultades, autorización y producción",
-      "url": "urn:sv:documento:sha256:3e8e1070f397298617561cd810f1a6458c20b45f64eaadfabf08c0066870b95b",
+      "url": "urn:sv:documento:sha256:e198fcf0f8fcc469c4ab44034877b067ed91b1142a697a3550b186c8f71e75c6",
       "ruta": "autoridad.md",
       "id": "EET-01",
-      "sha256": "3e8e1070f397298617561cd810f1a6458c20b45f64eaadfabf08c0066870b95b"
+      "sha256": "e198fcf0f8fcc469c4ab44034877b067ed91b1142a697a3550b186c8f71e75c6"
     },
     {
       "titulo": "Comparación y lectura de resultados",
-      "url": "urn:sv:documento:sha256:07194b8135e7ecc9916d87b80916604221956725bafdba3584195748331d1eb7",
+      "url": "urn:sv:documento:sha256:aa86fb291556dff8c36cb8a540d109a112a819f7d05977809c1bbf5d479a5083",
       "ruta": "comparacion.md",
       "id": "EET-02",
-      "sha256": "07194b8135e7ecc9916d87b80916604221956725bafdba3584195748331d1eb7"
+      "sha256": "aa86fb291556dff8c36cb8a540d109a112a819f7d05977809c1bbf5d479a5083"
     }
   ]
 }
