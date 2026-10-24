@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
-      "bytes": 46516,
-      "sha256": "dabb7ff4a2bf1bb49fe7aa373932d494149a7e16caf1eb2fe9df5d269a667cb3",
-      "ruta": "biblioteca.json"
+      "sha256": "dd30bb31cd1ff21c79fe564624cd72d365a3c2c45ef3909ef3c972c5e3213bc3",
+      "ruta": "biblioteca.json",
+      "bytes": 46516
     },
     {
       "ruta": "copias-historicas.json",
@@ -27,9 +27,9 @@
       "bytes": 711
     },
     {
-      "bytes": 148855,
-      "sha256": "53d1972cf92c3f1b236141d4dd21847039557d5914abc49be6fdf17c1a3ac402",
-      "ruta": "correspondencia.json"
+      "sha256": "1e728dd6dd33327094ad3442e28b92b64b03c50b2be1837f0b13e5443a2a459d",
+      "ruta": "correspondencia.json",
+      "bytes": 148855
     },
     {
       "ruta": "libros/criterio-terminologia.md",
@@ -137,9 +137,9 @@
       "sha256": "8b0821a85a0731f00b58f67d72d22fb6586d64d16d97bdd00d04858e41aaff3e"
     },
     {
-      "bytes": 2682,
-      "sha256": "b1d2fe54eb5f5b536a69a11e4350c4282f586fcb70c1bfa22a6cdb80d813da1e",
-      "ruta": "libros/evaluacion-modelos/plan.json"
+      "sha256": "ac5903fd07114eca514574fe3c43cab01ed6160d2b1ae2437da401c551d0590f",
+      "ruta": "libros/evaluacion-modelos/plan.json",
+      "bytes": 2682
     },
     {
       "ruta": "libros/evaluacion-modelos/presentacion.js",
@@ -152,9 +152,9 @@
       "ruta": "libros/evaluacion-modelos/src/autoridad.md"
     },
     {
-      "bytes": 12837,
-      "sha256": "104d2b80102f27ec6d49faf1c32f6c4d0d514b7b039ea9efb6731b143ba01242",
-      "ruta": "libros/evaluacion-modelos/src/comparacion.md"
+      "sha256": "d232543eb3036e0532560137a9e1621d674db14593700fa1f1d77526e813fa98",
+      "ruta": "libros/evaluacion-modelos/src/comparacion.md",
+      "bytes": 12829
     },
     {
       "bytes": 7326,
@@ -617,9 +617,9 @@
       "bytes": 15921
     },
     {
-      "bytes": 377,
-      "sha256": "eb7dc3eea584730482054a470caa11a674bb2a9420e53e4e4243a708aacce401",
-      "ruta": "politica-verificacion.json"
+      "sha256": "516e12b119f9b530d0760d19b0b1a3f4dc7d60c840fd558ad2664225b036f2a9",
+      "ruta": "politica-verificacion.json",
+      "bytes": 377
     },
     {
       "ruta": "presentacion.js",
@@ -677,9 +677,9 @@
       "bytes": 962
     },
     {
-      "bytes": 46516,
-      "sha256": "dabb7ff4a2bf1bb49fe7aa373932d494149a7e16caf1eb2fe9df5d269a667cb3",
-      "ruta": "publico/biblioteca.json"
+      "sha256": "dd30bb31cd1ff21c79fe564624cd72d365a3c2c45ef3909ef3c972c5e3213bc3",
+      "ruta": "publico/biblioteca.json",
+      "bytes": 46516
     },
     {
       "ruta": "publico/book-609e4cb8.js",
@@ -697,9 +697,9 @@
       "sha256": "46b97cc14a43e808d082b10dc85394edb7715d43f1ac1f5e7a320911655bd92f"
     },
     {
-      "bytes": 148855,
-      "sha256": "53d1972cf92c3f1b236141d4dd21847039557d5914abc49be6fdf17c1a3ac402",
-      "ruta": "publico/correspondencia.json"
+      "sha256": "1e728dd6dd33327094ad3442e28b92b64b03c50b2be1837f0b13e5443a2a459d",
+      "ruta": "publico/correspondencia.json",
+      "bytes": 148855
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1862,9 +1862,9 @@
       "sha256": "1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44"
     },
     {
-      "bytes": 36393,
-      "sha256": "dcf1b1c647fd60f0b6e34c2eb1ad0fd122c7e63b81082db7982293785e8c6e24",
-      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/comparacion.html"
+      "sha256": "3e8513a21aade83ce7c0d0e41969516c02d5b109da76acd470a02c4baa0683b4",
+      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/comparacion.html",
+      "bytes": 36385
     },
     {
       "bytes": 32973,
@@ -2022,9 +2022,9 @@
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
-      "bytes": 83571,
-      "sha256": "f9505eb10f187d0d1fb1c591b851f48cb6c10376ec1c23d167c2a2978bc0db51",
-      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/print.html"
+      "sha256": "12ce9f19eb46c83de23ac278e92d29a859f21c508a97fa2c31ff783e2ae47b09",
+      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/print.html",
+      "bytes": 83563
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searcher.js",
@@ -2032,9 +2032,9 @@
       "sha256": "b7551e8be39c55b55f61618fda226c3e058ac5e5d720875f8fed10ffb85e99d4"
     },
     {
-      "bytes": 475122,
-      "sha256": "38e98865802eced7ef83cc0f9c960e21d1a3194f76073c77d1b82f507e534c73",
-      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searchindex.js"
+      "sha256": "71a349f7521c4b17c5db5f3096ac240d77262e912c37308c5e90f8d533f8d646",
+      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searchindex.js",
+      "bytes": 475084
     },
     {
       "bytes": 2682,
@@ -2302,9 +2302,9 @@
       "sha256": "8b0821a85a0731f00b58f67d72d22fb6586d64d16d97bdd00d04858e41aaff3e"
     },
     {
-      "bytes": 2682,
-      "sha256": "b1d2fe54eb5f5b536a69a11e4350c4282f586fcb70c1bfa22a6cdb80d813da1e",
-      "ruta": "publico/libros/evaluacion-modelos/plan.json"
+      "sha256": "ac5903fd07114eca514574fe3c43cab01ed6160d2b1ae2437da401c551d0590f",
+      "ruta": "publico/libros/evaluacion-modelos/plan.json",
+      "bytes": 2682
     },
     {
       "ruta": "publico/libros/evaluacion-modelos/presentacion.js",
@@ -2317,9 +2317,9 @@
       "ruta": "publico/libros/evaluacion-modelos/src/autoridad.md"
     },
     {
-      "bytes": 12837,
-      "sha256": "104d2b80102f27ec6d49faf1c32f6c4d0d514b7b039ea9efb6731b143ba01242",
-      "ruta": "publico/libros/evaluacion-modelos/src/comparacion.md"
+      "sha256": "d232543eb3036e0532560137a9e1621d674db14593700fa1f1d77526e813fa98",
+      "ruta": "publico/libros/evaluacion-modelos/src/comparacion.md",
+      "bytes": 12829
     },
     {
       "bytes": 7326,
@@ -2967,9 +2967,9 @@
       "sha256": "cd8f79a2921ea527409860816c857bdd7f7e269937439423f6b511f6577143de"
     },
     {
-      "bytes": 377,
-      "sha256": "eb7dc3eea584730482054a470caa11a674bb2a9420e53e4e4243a708aacce401",
-      "ruta": "publico/politica-verificacion.json"
+      "sha256": "516e12b119f9b530d0760d19b0b1a3f4dc7d60c840fd558ad2664225b036f2a9",
+      "ruta": "publico/politica-verificacion.json",
+      "bytes": 377
     },
     {
       "ruta": "publico/presentacion-0cfc7f9c.js",

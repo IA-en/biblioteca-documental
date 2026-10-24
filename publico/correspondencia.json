@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "dabb7ff4a2bf1bb49fe7aa373932d494149a7e16caf1eb2fe9df5d269a667cb3",
+  "biblioteca_sha256": "dd30bb31cd1ff21c79fe564624cd72d365a3c2c45ef3909ef3c972c5e3213bc3",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3440,7 +3440,7 @@
     },
     {
       "alcance": "Modos por uso, grados de libertad, coexistencia de modelos y conservación de las declaraciones por examen. Registro por uso y conservación por examen; comparación individual y simultánea. Sin habilitación de producción.",
-      "cobertura_bytes": 12837,
+      "cobertura_bytes": 12829,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3448,7 +3448,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "104d2b80102f27ec6d49faf1c32f6c4d0d514b7b039ea9efb6731b143ba01242"
+        "sha256": "d232543eb3036e0532560137a9e1621d674db14593700fa1f1d77526e813fa98"
       },
       "procedencia": "Edición pública de 24/10/2026",
       "secciones": [
@@ -3480,17 +3480,17 @@
           "ultima_linea": 41
         },
         {
-          "fin_byte_exclusivo": 11253,
+          "fin_byte_exclusivo": 11245,
           "inicio_byte": 8520,
           "primera_linea": 42,
           "seccion": "MD-L000042-L000052",
-          "sha256": "bb2286aa118f20b8d764ff84b91ab26896a7fd543c9339573653c649749e730e",
+          "sha256": "46925c107a75c5c6b19b3d343b6665c389241764c20179a73e0184ac7cdbca36",
           "titulo": "Comparación por modos y predominancias",
           "ultima_linea": 52
         },
         {
-          "fin_byte_exclusivo": 12837,
-          "inicio_byte": 11253,
+          "fin_byte_exclusivo": 12829,
+          "inicio_byte": 11245,
           "primera_linea": 53,
           "seccion": "MD-L000053-L000065",
           "sha256": "a12b6bbb8a26493c14fc06741081cc2eee12dab1325b0792bd5ab43c4061e364",
@@ -3760,7 +3760,7 @@
   ],
   "edicion": "biblioteca-sv-registro-modos-20261024",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "eb7dc3eea584730482054a470caa11a674bb2a9420e53e4e4243a708aacce401",
+  "politica_sha256": "516e12b119f9b530d0760d19b0b1a3f4dc7d60c840fd558ad2664225b036f2a9",
   "recepcion_visual": false,
   "version": 1
 }
