@@ -11,8 +11,8 @@
   "capitulos": [
     {
       "titulo": "Presentación",
-      "url": "urn:sv:documento:sha256:b267e948af28a9ac95fa4ed0cca38fad8e320ddfdbc66e3add3c433453d1d5d0",
-      "sha256": "b267e948af28a9ac95fa4ed0cca38fad8e320ddfdbc66e3add3c433453d1d5d0",
+      "url": "urn:sv:documento:sha256:aa561f2647e9205b7a5499bbb0d9790e52085a708f4c934f9ab10f464556e39b",
+      "sha256": "aa561f2647e9205b7a5499bbb0d9790e52085a708f4c934f9ab10f464556e39b",
       "ruta": "presentacion.md",
       "id": "DOMINIOS-02"
     },
@@ -59,5 +59,5 @@
       "id": "DOMINIOS-07"
     }
   ],
-  "revision": "4e795f978e415b8d9b70480fea4abf3d81584fdc53c67a4c392e25e256384ccc"
+  "revision": "fb9721a0e49e242f3f6c63ea7dd6e09329d1c2311d6b19150ae62d58ab07c906"
 }

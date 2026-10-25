@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-sesiones-institucionales-20261025",
+  "edicion": "biblioteca-sv-dominios-en-investigacion-20261025",
   "libros": [
     {
       "id": "guia",
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "198b5a1f6340280e341b22adeb0a524a836a4e28cddc28d9ba58f5494831f993",
+        "sha256": "bb48d565a5f1709ef913007ed8acd87f92d50bb22a5bcce225685406aa5f6b60",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -715,7 +715,7 @@
           "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
         },
         {
-          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "alcance": "Catálogo de especialidades en investigación y desarrollo; no acredita Universos constituidos ni agentes activos.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -723,11 +723,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-02",
           "original": {
-            "sha256": "b267e948af28a9ac95fa4ed0cca38fad8e320ddfdbc66e3add3c433453d1d5d0",
+            "sha256": "aa561f2647e9205b7a5499bbb0d9790e52085a708f4c934f9ab10f464556e39b",
             "ruta": "libros/dominios/src/presentacion.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+          "procedencia": "Edición pública actualizada el 25/10/2026"
         },
         {
           "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "9f1f58d258ff046946d09e30b8498164c721d26f102cf2fa619949cc509c46d8",
+        "sha256": "6480f7ba7a3ab35d2ad88de99f993fa2e2583cab4d25d2342cde8ef9ac3baaba",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
-          "procedencia": "Edición pública de 25/10/2026",
-          "alcance": "Gobierno institucional de sesiones, autorizaciones, vigencias, presupuestos y capacidad técnica. Preparación sin consultas ni rutas críticas.",
+          "procedencia": "Edición pública actualizada el 25/10/2026",
+          "alcance": "Gobierno de sesiones y disponibilidad de agentes; preparación sin consultas ni rutas críticas.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "ff8fd90bb941831749c8cb409f595a8f7fe2090eda69ff749aa957e0c5b1cf84",
+            "sha256": "b757c36128280a96d0f067fdd10acac72804fc40b609e771177f2b736b6e6169",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",

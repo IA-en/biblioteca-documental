@@ -2,6 +2,8 @@
 
 **V.03 · 12 de octubre de 2026 · Original en español.**
 
+Catálogo de dominios actualizado el 25 de octubre de 2026.
+
 Este libro explica la metodología de construcción de los dominios y Universos del Sistema Vectorial SV: cómo se delimita el conocimiento pertinente, se seleccionan sus fuentes, se justifican los parámetros y se comprueban sus relaciones y límites. Inmunología y ciberseguridad permiten reconocer la aplicación de estos principios en ámbitos diferentes.
 
 ## Dominios
@@ -10,7 +12,14 @@ Este libro explica la metodología de construcción de los dominios y Universos 
 | --- | --- |
 | Inmunología | [Construcción del ámbito profesional y primer Universo](inmunologia.md) |
 | Ciberseguridad | [Aplicación del método a la corrección de vulnerabilidades](ciberseguridad.md) |
-| Neumología | Actualmente en estudio y evaluación. |
+| Neumología | En investigación y desarrollo; agente especializado aún no activo. |
+| Matemática Teórica y Aplicada | En investigación y desarrollo; agente especializado aún no activo. |
+| Investigación de Ciencias Físicas Teóricas | En investigación y desarrollo; agente especializado aún no activo. |
+| Investigación Química y Termodinámica Teóricas | En investigación y desarrollo; agente especializado aún no activo. |
+
+Estas cuatro especialidades se presentan como ámbitos previstos. Sus agentes no están todavía accesibles: no admiten solicitudes de sesiones, invitaciones de uso ni vinculaciones operativas con modelos de IA. Su inclusión en el catálogo no acredita Universos constituidos, parámetros definidos, bibliotecas documentales completas, rutas críticas establecidas ni capacidades evaluadas.
+
+La preparación documental y la disponibilidad de un agente son estados distintos. Los procedimientos de autorización, vinculación de modelos y acceso ordinario o invitado se explican en [Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial](../../evaluacion/validacion-autorizacion-modelos/autoridad.html#preparación-del-acceso-y-límites-individuales). Una incorporación futura deberá satisfacer esos procedimientos y los criterios metodológicos de este libro antes de habilitar su uso.
 
 ## Cómo leer este libro
 

@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
-      "bytes": 46388,
       "ruta": "biblioteca.json",
-      "sha256": "eafebd78045f1d788638953399b728bce9ec2a2a18b91d35f9c59396b9fd11df"
+      "bytes": 46312,
+      "sha256": "9e6b6eb2de2d65a305d85d37211c696f43a9743c092b7e773033ab73fa4196ee"
     },
     {
       "ruta": "copias-historicas.json",
@@ -27,9 +27,9 @@
       "bytes": 711
     },
     {
-      "bytes": 152237,
       "ruta": "correspondencia.json",
-      "sha256": "5dbcf3e864078de73d7b5cd0bccc798644114e1aac6fbcd8643bb5065780a285"
+      "bytes": 152165,
+      "sha256": "a32d60696f5b19026f112a7ab127bf8c6f6dcdbc29a74052021b0d8a8edf2e4d"
     },
     {
       "ruta": "libros/criterio-terminologia.md",
@@ -48,8 +48,8 @@
     },
     {
       "ruta": "libros/dominios/plan.json",
-      "sha256": "198b5a1f6340280e341b22adeb0a524a836a4e28cddc28d9ba58f5494831f993",
-      "bytes": 2608
+      "bytes": 2608,
+      "sha256": "bb48d565a5f1709ef913007ed8acd87f92d50bb22a5bcce225685406aa5f6b60"
     },
     {
       "ruta": "libros/dominios/presentacion.js",
@@ -113,8 +113,8 @@
     },
     {
       "ruta": "libros/dominios/src/presentacion.md",
-      "sha256": "b267e948af28a9ac95fa4ed0cca38fad8e320ddfdbc66e3add3c433453d1d5d0",
-      "bytes": 3063
+      "bytes": 4434,
+      "sha256": "aa561f2647e9205b7a5499bbb0d9790e52085a708f4c934f9ab10f464556e39b"
     },
     {
       "ruta": "libros/dominios/src/SUMMARY.md",
@@ -137,9 +137,9 @@
       "sha256": "8b0821a85a0731f00b58f67d72d22fb6586d64d16d97bdd00d04858e41aaff3e"
     },
     {
-      "bytes": 2682,
       "ruta": "libros/evaluacion-modelos/plan.json",
-      "sha256": "9f1f58d258ff046946d09e30b8498164c721d26f102cf2fa619949cc509c46d8"
+      "bytes": 2682,
+      "sha256": "6480f7ba7a3ab35d2ad88de99f993fa2e2583cab4d25d2342cde8ef9ac3baaba"
     },
     {
       "ruta": "libros/evaluacion-modelos/presentacion.js",
@@ -147,9 +147,9 @@
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
-      "bytes": 30913,
       "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-      "sha256": "ff8fd90bb941831749c8cb409f595a8f7fe2090eda69ff749aa957e0c5b1cf84"
+      "bytes": 31405,
+      "sha256": "b757c36128280a96d0f067fdd10acac72804fc40b609e771177f2b736b6e6169"
     },
     {
       "bytes": 13712,
@@ -617,9 +617,9 @@
       "bytes": 15921
     },
     {
-      "bytes": 377,
       "ruta": "politica-verificacion.json",
-      "sha256": "5fbd391f677d8f442bfb92536eb007f54fbf14f862da2a37d0c2d010d285706e"
+      "bytes": 377,
+      "sha256": "5314ea8c32f318db46f9d61db56e8733b3e26cf8651fea18f0ae36a1afcc0c11"
     },
     {
       "ruta": "presentacion.js",
@@ -677,9 +677,9 @@
       "bytes": 962
     },
     {
-      "bytes": 46388,
       "ruta": "publico/biblioteca.json",
-      "sha256": "eafebd78045f1d788638953399b728bce9ec2a2a18b91d35f9c59396b9fd11df"
+      "bytes": 46312,
+      "sha256": "9e6b6eb2de2d65a305d85d37211c696f43a9743c092b7e773033ab73fa4196ee"
     },
     {
       "ruta": "publico/book-609e4cb8.js",
@@ -697,9 +697,9 @@
       "sha256": "46b97cc14a43e808d082b10dc85394edb7715d43f1ac1f5e7a320911655bd92f"
     },
     {
-      "bytes": 152237,
       "ruta": "publico/correspondencia.json",
-      "sha256": "5dbcf3e864078de73d7b5cd0bccc798644114e1aac6fbcd8643bb5065780a285"
+      "bytes": 152165,
+      "sha256": "a32d60696f5b19026f112a7ab127bf8c6f6dcdbc29a74052021b0d8a8edf2e4d"
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1767,9 +1767,9 @@
       "bytes": 3114
     },
     {
-      "bytes": 23676,
       "ruta": "publico/dominios/universos/index.html",
-      "sha256": "43385ece867248b247f92a15de7635ca7ce9c2c6ecb5c37d4663f972846f3f00"
+      "bytes": 25136,
+      "sha256": "40c73a8d1fedd66880d088392288bbeccdb6348bc1a6b2741870538a9e511c5b"
     },
     {
       "bytes": 28530,
@@ -1797,14 +1797,14 @@
       "bytes": 3422
     },
     {
-      "bytes": 23676,
       "ruta": "publico/dominios/universos/presentacion.html",
-      "sha256": "43385ece867248b247f92a15de7635ca7ce9c2c6ecb5c37d4663f972846f3f00"
+      "bytes": 25136,
+      "sha256": "40c73a8d1fedd66880d088392288bbeccdb6348bc1a6b2741870538a9e511c5b"
     },
     {
       "ruta": "publico/dominios/universos/print.html",
-      "sha256": "327ab91cfc78a270b05dedf70deaf20d13396000a88f2ba06f072e9abe3c074a",
-      "bytes": 96684
+      "bytes": 98144,
+      "sha256": "ca2b3cd69e0326d6d0f5007003ab530c92e45dff2104019bc2f4b2e1b1769960"
     },
     {
       "ruta": "publico/dominios/universos/toc-57e74f04.js",
@@ -1837,9 +1837,9 @@
       "sha256": "59f01092a44b3203ec454244ac04f37d47b2dad55ebc960c065ccb7448a841c1"
     },
     {
-      "bytes": 58036,
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/autoridad.html",
-      "sha256": "532be189fbf30b67ea7e980c8481f9ede4858834a4474db54c81d19f8f7de1af"
+      "bytes": 58556,
+      "sha256": "0a0ef842cd53917290f7f0e1184daedded1cbbbf965758353188518565561a36"
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/ayu-highlight.css",
@@ -2022,9 +2022,9 @@
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
-      "bytes": 104287,
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/print.html",
-      "sha256": "116fb5256c493cec08b224c17c27e7768bcc0d3c251dcfc9df4487154b3d7d6b"
+      "bytes": 104807,
+      "sha256": "16ac85539342a3c8947c9e8b40a4b43479838aa787e229d1f147f8e7843f0599"
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searcher.js",
@@ -2032,9 +2032,9 @@
       "sha256": "b7551e8be39c55b55f61618fda226c3e058ac5e5d720875f8fed10ffb85e99d4"
     },
     {
-      "bytes": 600416,
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searchindex.js",
-      "sha256": "07609cc0f367ff6ffab0634437f7685087462675b3d823b66a254077aef8c75c"
+      "bytes": 602768,
+      "sha256": "933a740371ffca8ce69570f14b63ebea6f353eaf5f3589effb173600439e9038"
     },
     {
       "bytes": 2682,
@@ -2223,8 +2223,8 @@
     },
     {
       "ruta": "publico/libros/dominios/plan.json",
-      "sha256": "198b5a1f6340280e341b22adeb0a524a836a4e28cddc28d9ba58f5494831f993",
-      "bytes": 2608
+      "bytes": 2608,
+      "sha256": "bb48d565a5f1709ef913007ed8acd87f92d50bb22a5bcce225685406aa5f6b60"
     },
     {
       "ruta": "publico/libros/dominios/src/ciberseguridad.md",
@@ -2283,8 +2283,8 @@
     },
     {
       "ruta": "publico/libros/dominios/src/presentacion.md",
-      "sha256": "b267e948af28a9ac95fa4ed0cca38fad8e320ddfdbc66e3add3c433453d1d5d0",
-      "bytes": 3063
+      "bytes": 4434,
+      "sha256": "aa561f2647e9205b7a5499bbb0d9790e52085a708f4c934f9ab10f464556e39b"
     },
     {
       "ruta": "publico/libros/dominios/src/SUMMARY.md",
@@ -2302,9 +2302,9 @@
       "sha256": "8b0821a85a0731f00b58f67d72d22fb6586d64d16d97bdd00d04858e41aaff3e"
     },
     {
-      "bytes": 2682,
       "ruta": "publico/libros/evaluacion-modelos/plan.json",
-      "sha256": "9f1f58d258ff046946d09e30b8498164c721d26f102cf2fa619949cc509c46d8"
+      "bytes": 2682,
+      "sha256": "6480f7ba7a3ab35d2ad88de99f993fa2e2583cab4d25d2342cde8ef9ac3baaba"
     },
     {
       "ruta": "publico/libros/evaluacion-modelos/presentacion.js",
@@ -2312,9 +2312,9 @@
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
-      "bytes": 30913,
       "ruta": "publico/libros/evaluacion-modelos/src/autoridad.md",
-      "sha256": "ff8fd90bb941831749c8cb409f595a8f7fe2090eda69ff749aa957e0c5b1cf84"
+      "bytes": 31405,
+      "sha256": "b757c36128280a96d0f067fdd10acac72804fc40b609e771177f2b736b6e6169"
     },
     {
       "bytes": 13712,
@@ -2967,9 +2967,9 @@
       "sha256": "cd8f79a2921ea527409860816c857bdd7f7e269937439423f6b511f6577143de"
     },
     {
-      "bytes": 377,
       "ruta": "publico/politica-verificacion.json",
-      "sha256": "5fbd391f677d8f442bfb92536eb007f54fbf14f862da2a37d0c2d010d285706e"
+      "bytes": 377,
+      "sha256": "5314ea8c32f318db46f9d61db56e8733b3e26cf8651fea18f0ae36a1afcc0c11"
     },
     {
       "ruta": "publico/presentacion-0cfc7f9c.js",
