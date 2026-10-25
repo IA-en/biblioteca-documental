@@ -22,7 +22,7 @@ La [Enciclopedia temática del Sistema Vectorial SV](enciclopedia/index.html) of
 
 El [Manual de programación en SV para desarrolladores](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp) lleva la teoría del libro a la práctica: escritura de archivos SVP, lecciones, ejercicios y resultados comprobados. Los programas completos y la asistencia de IA figuran pendientes de desarrollo.
 
-## Consulta
+**Consulta**
 
 Seleccione un libro y recorra su índice de capítulos. El enlace «Biblioteca» permite regresar a esta portada. Puede consultar también la [organización](organizacion.md), las [fuentes y versiones](consulta.md) y las [licencias](licencias.md).
 
