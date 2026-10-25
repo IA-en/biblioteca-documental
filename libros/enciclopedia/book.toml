@@ -10,6 +10,7 @@ use-default-preprocessors = false
 [output.html]
 theme = "theme"
 additional-css = ["biblioteca.css"]
+additional-js = ["presentacion.js"]
 no-section-label = true
 git-repository-url = "https://github.com/IA-en/biblioteca-documental"
 [output.html.playground]

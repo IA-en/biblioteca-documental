@@ -148,13 +148,18 @@
     },
     {
       "ruta": "libros/enciclopedia/book.toml",
-      "sha256": "260c93570fe46b656440bf5a5b97c8b8a72ef351c4594b369a5158c6724dc929",
-      "bytes": 647
+      "bytes": 684,
+      "sha256": "b3a3b11bc912cb739a8b070ac49df3ae4af2fe712fd791017306039f7e5833cd"
     },
     {
       "ruta": "libros/enciclopedia/plan.json",
       "sha256": "2070a72889272460f7ac002a96f0ed1b5b57d43973ec09354894e938fce0a8b4",
       "bytes": 1754
+    },
+    {
+      "ruta": "libros/enciclopedia/presentacion.js",
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
       "ruta": "libros/enciclopedia/src/fisica-quimica-matematica.md",
@@ -188,8 +193,8 @@
     },
     {
       "ruta": "libros/enciclopedia/theme/searcher.js",
-      "sha256": "401cfaef16f085b082c6107da8003fc7873ae8c9e3cdbf364cbde0f5eb8288be",
-      "bytes": 20289
+      "bytes": 20330,
+      "sha256": "bccf35a85cdeec40e7084f7fe39a3a5c92c28c93081f03bad075d212513e3164"
     },
     {
       "ruta": "libros/evaluacion-modelos/biblioteca.css",
@@ -675,6 +680,11 @@
       "ruta": "libros/visualizadores/theme/index.hbs",
       "sha256": "bf13a9ff69e4fe62fb1f6d8a96a5a64004d8f9e4f78b3c3fc023bd32edd6103c",
       "bytes": 18545
+    },
+    {
+      "ruta": "MANIFIESTO.json",
+      "bytes": 136923,
+      "sha256": "082865d6e60c1a70b5764f3a3b3ed9f9205e540c645523b2960e9a64c2345981"
     },
     {
       "ruta": "mdbook-license.txt",
@@ -1928,8 +1938,8 @@
     },
     {
       "ruta": "publico/enciclopedia/404.html",
-      "sha256": "24c1384eaf83e3f017bd2c1a9fae906cef5c7ac413297117318132618859a4c1",
-      "bytes": 21576
+      "bytes": 21633,
+      "sha256": "13e81c0a8b59ad9ffc9fe1ff4de3e73c12fffc2475bab3f8cee60b938922ba77"
     },
     {
       "ruta": "publico/enciclopedia/ayu-highlight-3fdfc3ac.css",
@@ -1988,8 +1998,8 @@
     },
     {
       "ruta": "publico/enciclopedia/fisica-quimica-matematica.html",
-      "sha256": "0bd497dc74927f07dce8756a53009cd6d2da5fb3eedd05b338241c5b12c91948",
-      "bytes": 24538
+      "bytes": 24595,
+      "sha256": "c5eb6444d9b58746b10ccbf890cf866616fdb5cca0e35aaa4f947f5826a3e057"
     },
     {
       "ruta": "publico/enciclopedia/fonts/fonts-9644e21d.css",
@@ -2073,18 +2083,18 @@
     },
     {
       "ruta": "publico/enciclopedia/ia.html",
-      "sha256": "a478ce1461910bae5184035c3088ffcab07a721cbd03aeb0eba09401d58f7b09",
-      "bytes": 50288
+      "bytes": 50345,
+      "sha256": "bde355848f644b818a967cc942c155ab87198089523de586dbc932c188b3cb28"
     },
     {
       "ruta": "publico/enciclopedia/index.html",
-      "sha256": "97dd9e1197b922e8afb81650019081d79989510fbed0ce6a525a8463e7b47987",
-      "bytes": 28762
+      "bytes": 28819,
+      "sha256": "aa961a9f3fe98d55546bc09e2aaf4f6daa6d2518cb67c5d233774e0d41f2f7c5"
     },
     {
       "ruta": "publico/enciclopedia/lenguaje.html",
-      "sha256": "bb04ae152968dc050b39b744652b113f0bf7d63c76c15d8fa1a3de47ba23b1f3",
-      "bytes": 45057
+      "bytes": 45114,
+      "sha256": "90d2782ae4aae7301700e863706314c9eddf16c1447f547b18a57b2e30c78455"
     },
     {
       "ruta": "publico/enciclopedia/mark-09e88c2c.min.js",
@@ -2092,14 +2102,19 @@
       "bytes": 17320
     },
     {
+      "ruta": "publico/enciclopedia/presentacion-0cfc7f9c.js",
+      "bytes": 13567,
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
+    },
+    {
       "ruta": "publico/enciclopedia/presentacion.html",
-      "sha256": "97dd9e1197b922e8afb81650019081d79989510fbed0ce6a525a8463e7b47987",
-      "bytes": 28762
+      "bytes": 28819,
+      "sha256": "aa961a9f3fe98d55546bc09e2aaf4f6daa6d2518cb67c5d233774e0d41f2f7c5"
     },
     {
       "ruta": "publico/enciclopedia/print.html",
-      "sha256": "8376d5501d8c9ae58ba0b5220a8d47158d7fa34dffeacac24ff3250c1fabaf02",
-      "bytes": 74431
+      "bytes": 74488,
+      "sha256": "518745bdb75aecb0d23e613d077088bd868116b820d9f8df650489029da0d4da"
     },
     {
       "ruta": "publico/enciclopedia/searcher-09f2665d.js",
@@ -2110,6 +2125,11 @@
       "ruta": "publico/enciclopedia/searcher-es-136e962333e4.js",
       "sha256": "136e962333e4c3b4538b7b3df723b012570a313772a3996066d9c6bbbdd4c06e",
       "bytes": 20289
+    },
+    {
+      "ruta": "publico/enciclopedia/searcher-es-62bc31ff4744.js",
+      "bytes": 20330,
+      "sha256": "62bc31ff474415724193ae5a2ec5eb36b76cc71ab34ecfa5b71f30bbbafb5aaa"
     },
     {
       "ruta": "publico/enciclopedia/searchindex-9c566e84.js",

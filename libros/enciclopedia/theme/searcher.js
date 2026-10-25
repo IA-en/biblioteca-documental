@@ -291,7 +291,7 @@ window.search = window.search || {};
             doSearchOrMarkFromUrl();
         };
         // Suppress "submit" events so the page doesn't reload when the user presses Enter
-        document.addEventListener('submit', e => {
+        document.getElementById('mdbook-searchbar-outer').addEventListener('submit', e => {
             e.preventDefault();
         }, false);
 
