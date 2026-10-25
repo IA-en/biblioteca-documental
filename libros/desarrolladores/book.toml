@@ -1,0 +1,21 @@
+[book]
+title = "Manual de programación en SV para desarrolladores"
+description = "Lecciones de escritura y comprobación de SVP, organizadas en tres partes con ejercicios y referencias."
+language = "es"
+src = "src"
+[build]
+build-dir = "book-recibido"
+create-missing = false
+use-default-preprocessors = false
+[output.html]
+theme = "theme"
+additional-css = ["biblioteca.css"]
+additional-js = ["presentacion.js"]
+no-section-label = true
+git-repository-url = "https://github.com/IA-en/biblioteca-documental"
+[output.html.playground]
+runnable = false
+editable = false
+[output.html.search]
+enable = true
+limit-results = 30

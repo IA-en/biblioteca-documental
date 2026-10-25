@@ -5,7 +5,7 @@
     {
       "id": "guia",
       "plan": {
-        "sha256": "3ba6540d1225ce4f1b18176364c11e990bd8166760ea16fc41784c78b23fd91a",
+        "sha256": "9ea5141dbf8717bfdb9dbac4ac1c4ab57fa6d2746be1a0c9ad780be604580f1f",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,13 +29,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "8087f0083c5802b4aa71de44c96c1e14148bde567ed76b1667cae49cdd2c03f4",
+            "sha256": "f14aa504aca61eadd29e189d16dbed519d418dd09a5fd36b0884cd2c69b42807",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "GUIA-02",
-          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
-          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+          "procedencia": "Organización de consulta del 25/10/2026",
+          "alcance": "El Manual para desarrolladores se consulta en la biblioteca; se conservan sus condiciones y alcance.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",

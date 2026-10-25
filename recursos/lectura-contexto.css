@@ -1,0 +1,14 @@
+.sv-lectura{margin:1rem 0 1.5rem;padding:1rem 1.2rem;border:1px solid var(--table-border-color,#abc);border-left:4px solid #087f9a;border-radius:.4rem;background:var(--quote-bg,#f1f7f9)}
+.sv-lectura-opciones{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;align-items:center}
+.sv-lectura small{display:block;margin-top:.65rem;line-height:1.4;font-size:.85em}
+.sv-regreso{display:block;font-weight:700;margin-bottom:.8rem;overflow-wrap:anywhere}
+.sv-enlace-externo{font-size:.85em;white-space:nowrap}
+.sv-lectura a:focus-visible{outline:3px solid #087f9a;outline-offset:4px}
+.sv-figura-texto{margin:1rem 0;padding:.8rem 1rem;border:1px solid var(--table-border-color,#abc);border-radius:.4rem}
+.sv-figura-texto summary{cursor:pointer;font-weight:600}
+.sv-figura-texto ol{columns:2;column-gap:2rem;line-height:1.65}
+.sv-figura-texto li{break-inside:avoid;overflow-wrap:anywhere}
+@media(max-width:600px){.sv-lectura{padding:.8rem}.sv-figura-texto ol{columns:1}}
+@media print{.sv-lectura{display:none}.sv-enlace-externo{display:none}}
+
+/* © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). */

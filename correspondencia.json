@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "77bef4d938beb6928a4e5d2dff5ac1414a55c1cd8d5086447419b0cab52baf49",
+  "biblioteca_sha256": "4ab63792de034a8bbd899b87e760e1aadc53e6a47d21fc64d81553a45916e274",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -31,8 +31,8 @@
       ]
     },
     {
-      "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
-      "cobertura_bytes": 3401,
+      "alcance": "El Manual para desarrolladores se consulta en la biblioteca; se conservan sus condiciones y alcance.",
+      "cobertura_bytes": 3336,
       "correspondencia": "identidad_literal",
       "documento": "GUIA-02",
       "identificador_editorial_r0": null,
@@ -40,9 +40,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/indice.md",
-        "sha256": "8087f0083c5802b4aa71de44c96c1e14148bde567ed76b1667cae49cdd2c03f4"
+        "sha256": "f14aa504aca61eadd29e189d16dbed519d418dd09a5fd36b0884cd2c69b42807"
       },
-      "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
+      "procedencia": "Organización de consulta del 25/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 297,
@@ -72,17 +72,17 @@
           "ultima_linea": 20
         },
         {
-          "fin_byte_exclusivo": 2671,
+          "fin_byte_exclusivo": 2606,
           "inicio_byte": 2291,
           "primera_linea": 21,
           "seccion": "MD-L000021-L000024",
-          "sha256": "04c41cc21040d2be028cf893576e9a4b2807c5ee141dd00f7edf0eff17eb58b2",
+          "sha256": "e164fef4dc5aaaf92942dc8a87e4742ad25c3df2c24ccf802f0f947172105b4b",
           "titulo": "Manual para desarrolladores",
           "ultima_linea": 24
         },
         {
-          "fin_byte_exclusivo": 3401,
-          "inicio_byte": 2671,
+          "fin_byte_exclusivo": 3336,
+          "inicio_byte": 2606,
           "primera_linea": 25,
           "seccion": "MD-L000025-L000033",
           "sha256": "7cf9d0bf86ba6cc3261b9e05eea24b0fe40953bb0fd6953496810ed2bc99b586",
@@ -3886,7 +3886,7 @@
   ],
   "edicion": "biblioteca-sv-enciclopedia-20261025",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "89e643765c24091539029991f66afa55ef2b3d03e4917b686efaa96c5497b137",
+  "politica_sha256": "c4cf067da61996a34bac763cdf1d05ac81043eb7d568f3fdfeb06020ca36ccd5",
   "recepcion_visual": false,
   "version": 1
 }
