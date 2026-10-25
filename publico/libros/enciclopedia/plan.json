@@ -1,0 +1,42 @@
+{
+  "version": 2,
+  "summary": {
+    "ruta": "SUMMARY.md",
+    "sha256": "961e4af0f2862c521b35359707621e010fb3dab5e63338cf444fa6cd77cad200",
+    "id": "ENC-01",
+    "url": "urn:sv:documento:sha256:961e4af0f2862c521b35359707621e010fb3dab5e63338cf444fa6cd77cad200",
+    "titulo": "Índice"
+  },
+  "capitulos": [
+    {
+      "ruta": "presentacion.md",
+      "sha256": "e414392d09aeca70295b07d9480ca3a0bf221c61fa9dad0c6c8cdd0ecc9d2d06",
+      "id": "ENC-02",
+      "url": "urn:sv:documento:sha256:e414392d09aeca70295b07d9480ca3a0bf221c61fa9dad0c6c8cdd0ecc9d2d06",
+      "titulo": "Enciclopedia temática del Sistema Vectorial SV"
+    },
+    {
+      "ruta": "lenguaje.md",
+      "sha256": "303e8297d25a9992c1f25b723fc4a9959a3007406e5def542ae455167748421b",
+      "id": "ENC-03",
+      "url": "urn:sv:documento:sha256:303e8297d25a9992c1f25b723fc4a9959a3007406e5def542ae455167748421b",
+      "titulo": "Diccionario del Lenguaje de Computación"
+    },
+    {
+      "ruta": "ia.md",
+      "sha256": "4380de34197436daac4d7c22ca6eabca2ccd3476fd1546fbe7dd11338994f914",
+      "id": "ENC-04",
+      "url": "urn:sv:documento:sha256:4380de34197436daac4d7c22ca6eabca2ccd3476fd1546fbe7dd11338994f914",
+      "titulo": "Diccionario de la Inteligencia Artificial (IA)"
+    },
+    {
+      "ruta": "fisica-quimica-matematica.md",
+      "sha256": "9fddcd085f2e32579a8e5689b460e73149093f6c3c7222f6186d89872de79685",
+      "id": "ENC-05",
+      "url": "urn:sv:documento:sha256:9fddcd085f2e32579a8e5689b460e73149093f6c3c7222f6186d89872de79685",
+      "titulo": "Diccionario físico, químico y matemático del SV"
+    }
+  ],
+  "revision": "86cd67e9a702d24f89dcd9dc9151b96d5c47b118aed3c7d5d2b994d3b7c0cd49",
+  "libro": "SV_ENCICLOPEDIA"
+}

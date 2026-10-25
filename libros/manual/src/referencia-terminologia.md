@@ -4,18 +4,13 @@ Este apéndice permite localizar los conceptos y las fuentes formales utilizados
 
 ## **19.1.** Términos de consulta {#términos-de-consulta}
 
-| Término | Uso en este libro | Desarrollo |
-| --- | --- | --- |
-| Archivo SVP | Texto que expresa declaraciones y operaciones del Lenguaje de Computación SV. | [Ejemplos](ejemplos-svp.md). |
-| Perfil SVP-ES o SVP-EN | Forma lingüística explícita del programa, independiente del idioma de la interfaz. | [Playground](playground-sv.md). |
-| Gramática superficial | Reglas de escritura de las construcciones del lenguaje. | [Construcciones e instrucciones](construcciones-y-componentes.md). |
-| Representación intermedia, IR | Estructura de objetos y operaciones obtenida tras interpretar el texto y aplicar las comprobaciones correspondientes. | [Arquitectura](arquitectura-ejecucion.md). |
-| Célula y estado celular | Especificación de una célula y valores de una instancia identificada, respectivamente. | [Ejemplo inicial](ejemplos-svp.md#ejemplo-inicial-una-célula). |
-| Terna | 0 = Apto, 1 = No apto y U = Indeterminado, conforme a la cuestión y las reglas aplicables. Los fallos técnicos conservan su diagnóstico propio. | [Estados celulares y terna](construcciones-y-componentes.md#estados-celulares-y-terna) y [desarrollo y validación](desarrollo-validacion-nucleo.md). |
-| Frame | Representación estructurada de un suceso y de las relaciones exigidas por su contrato. | [Parámetros, recorridos y evidencia](parametros-rutas.md). |
-| Admisión técnica | Cumplimiento de las condiciones de entrada y comprobación aplicables. Se distingue del resultado semántico. | [Conformidad y diagnósticos](conformidad-diagnosticos.md). |
-| Traza | Registro que relaciona actuaciones observadas y sus medidas. Su cobertura depende de los puntos instrumentados. | [Observabilidad](observabilidad.md). |
-| DSL | Lenguaje específico de dominio; en este libro, el lenguaje propio del Sistema Vectorial SV. | [Ámbito y organización](constructor.md). |
+El [Diccionario del Lenguaje de Computación](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html) reúne las explicaciones comunes, sus relaciones y ejemplos. Para la consulta de este manual:
+
+- Escritura: archivo SVP, perfil lingüístico, gramática superficial y DSL.
+- Representación y comprobación: IR, admisión técnica, contrato y diagnóstico.
+- Ejecución y evidencia: Árbitro–Director, Selector, Explorador Tensorial, observabilidad y trazabilidad.
+
+Las definiciones celulares, la terna y los contratos de las operaciones se consultan en [Construcciones e instrucciones propias](construcciones-y-componentes.md) y [Parámetros, recorridos y evidencia](parametros-rutas.md). Su remisión no atribuye contenido al volumen físico, químico y matemático, que permanece anunciado.
 
 ## **19.2.** Gramática y representación intermedia {#gramática-y-representación-intermedia}
 

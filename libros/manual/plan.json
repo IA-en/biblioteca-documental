@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "976f1276336f1d37c95c775df3fa7ecb67feddee9496baf3b974b0611729eb68",
+  "revision": "393a391152ec4195cb94715abbe4ec92e0dcedbec3af7be1bf18d58025a9499a",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -137,11 +137,11 @@
       "sha256": "aa9c0ad2a25402cf4df1ea434ec684f610c077407cf526141e3aa7d99ec8ca1a"
     },
     {
-      "url": "urn:sv:documento:sha256:dce9740b3391e06160871412f3d920f9d74e0909eefc5eea8f37abda0496e856",
+      "url": "urn:sv:documento:sha256:4ce2400241265fda0cc97a6e05b652ffb2f3a4a67f6e80f90a8cb75989823ffb",
       "ruta": "referencia-terminologia.md",
       "id": "MANUAL_REFERENCIA_TERMINOLOGIA",
       "titulo": "19. Terminología y referencias del lenguaje",
-      "sha256": "dce9740b3391e06160871412f3d920f9d74e0909eefc5eea8f37abda0496e856"
+      "sha256": "4ce2400241265fda0cc97a6e05b652ffb2f3a4a67f6e80f90a8cb75989823ffb"
     },
     {
       "ruta": "agradecimientos.md",

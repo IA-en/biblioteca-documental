@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-institucional-20261025",
+  "edicion": "biblioteca-sv-enciclopedia-20261025",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "a7c14321550223e27e5aa66b2fe886b8e6e50434d1fedc2dd34022b24c29fa31",
+        "sha256": "3ba6540d1225ce4f1b18176364c11e990bd8166760ea16fc41784c78b23fd91a",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,13 +29,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "455b24e5ceee8dc569a7277b5e9d0f6f4c8644e36b343f3a3e791cf9cbf7ca4b",
+            "sha256": "8087f0083c5802b4aa71de44c96c1e14148bde567ed76b1667cae49cdd2c03f4",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "GUIA-02",
-          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
-          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
+          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
+          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -209,7 +209,7 @@
       "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
       "plan": {
         "ruta": "libros/normativa/plan.json",
-        "sha256": "ba688a49345f89d9ef415bee46766ddbdba5dfbcff7e71f065756420ab4e6bb5"
+        "sha256": "bd3d155a5b250a16b1637b0767d960d974f3691c6c7b69167fd71f5952d592f5"
       },
       "metadatos": [
         {
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "f28ae0f458591f8f3f7ba69aa464e39c3abe151e9245b1e51b57114ca97b6152"
+        "sha256": "4b0c2933748affc017012a56a72e69ab8adcf79666c3f517677f3f8f5582309a"
       },
       "metadatos": [
         {
@@ -660,17 +660,17 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
+          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
           "correspondencia": "identidad_literal",
           "sintetico": false,
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "documento": "MANUAL_REFERENCIA_TERMINOLOGIA",
           "identificador_editorial_r0": null,
-          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
           "original": {
             "ruta": "libros/manual/src/referencia-terminologia.md",
-            "sha256": "dce9740b3391e06160871412f3d920f9d74e0909eefc5eea8f37abda0496e856"
+            "sha256": "4ce2400241265fda0cc97a6e05b652ffb2f3a4a67f6e80f90a8cb75989823ffb"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "5eabd9809044b3b68950fd43eb56d05c427c926c61dc475d6eb1fbb27de16b87",
+        "sha256": "dd6bae2e76f2711f4195569366b4fa0fbad059d6ab107e6cb5f21dbfda4755a4",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -730,7 +730,7 @@
           "procedencia": "Edición pública actualizada el 25/10/2026"
         },
         {
-          "alcance": "Alcance de agentes en dominios y Universos; construcción DSL, dependencia y trazabilidad hasta células y polígonos.",
+          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -738,11 +738,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-03",
           "original": {
-            "sha256": "dbdcfc6dab91195e4f63842bad46abc61dc9112ce5b661bbe77ac8a3d3147089",
+            "sha256": "a4acfce2411223808688113ef0bdc3253a80077f6cdb00c1bd5142e8cb63ff17",
             "ruta": "libros/dominios/src/conceptos.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública actualizada el 25/10/2026"
+          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados"
         },
         {
           "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "92c6fd9c5891cbfba7ce032e0e7be4566291682b38203f9deb5e9271dfec7ac3",
+        "sha256": "fee7686cb12fa53bb9f63fd6b10ba1fad1dd9d3060191981f472b2ffd3ac7b84",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
-          "procedencia": "Edición pública actualizada el 25/10/2026",
-          "alcance": "Tubería de IA obligatoria, autorización y excepciones delimitadas de seudo-producción; conserva recepciones pendientes.",
+          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
+          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "975e70d761ce99d31be87692923dfa2802b086560cf5c39c3bf8f1495a69ea70",
+            "sha256": "542e1a5ca5503c6e4ad8e1c13480e2e3c077a95fa34c6ede604c23955a0ea6c4",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",
@@ -845,14 +845,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 24/10/2026",
-          "alcance": "Condiciones de reutilización del programa gráfico y aislamiento exigible a la consulta en seudo-producción. Sin activación de agentes, invitados ni rutas críticas.",
+          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
+          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "aa86fb291556dff8c36cb8a540d109a112a819f7d05977809c1bbf5d479a5083",
+            "sha256": "f49f405aa7423fd483c54045742dcbffd29484632376393ee7da7d7ac9eea07f",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",
@@ -905,14 +905,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
+          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
+          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "cf2a829d47d216d91ed58db01a2aea9a4799fc0fb5529d41463dd580020b62b5",
+            "sha256": "de7b3fa5410ad8574b410cce08d1ad2ebadc887f47cdf5d16b37e1689053b4ca",
             "ruta": "libros/evaluacion-modelos/src/finalidad.md"
           },
           "documento": "EET-13",

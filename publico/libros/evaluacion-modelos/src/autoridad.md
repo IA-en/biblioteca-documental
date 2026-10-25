@@ -24,7 +24,7 @@ Un resultado apto de la configuración identificada permite considerar la recome
 
 La organización de producción admite varios modelos predominantes en un mismo dominio y uso, siempre que sus funciones estén expresamente delimitadas. No exige un único modelo para toda la instalación ni para todo un dominio. La sustitución de una asignación conserva su cese y la nueva decisión; la coexistencia conserva por separado las funciones, evidencias y autorizaciones de cada modelo. Las comparaciones de rendimiento, coste y condiciones del proveedor informan esas decisiones; no conceden facultades de contratación o pago. El Gestor registra estas relaciones como declaraciones por uso; no las transforma en autorizaciones de producción.
 
-Los historiales anteriores se preservan. Las actuaciones de prueba permanecen identificadas como tales y no se convierten en evidencia de producción por cambiar una etiqueta. La nueva sede administrativa no reinicia ni borra los expedientes científicos.
+Los historiales anteriores se preservan. Las actuaciones de prueba permanecen identificadas como tales y no se convierten en evidencia de producción por cambiar una etiqueta. La nueva dirección del servicio de administración no reinicia ni borra los expedientes científicos.
 
 ## Modos de uso del modelo
 

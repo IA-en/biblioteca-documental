@@ -1,0 +1,48 @@
+.sv-library-nav{border-block-end:1px solid var(--table-border-color);padding:1rem 0;margin-block-end:2.4rem;font-size:.92em}.sv-library-nav p{font-size:.85em;opacity:.9}.sv-library-nav a{padding:.25rem;display:inline-block}a:focus-visible,button:focus-visible{outline:3px solid currentColor;outline-offset:3px}pre{white-space:pre-wrap;overflow-wrap:anywhere}@media(max-width:700px){.content{padding:0 18px}.table-wrapper{overflow-x:auto}}
+.sv-language-tools{padding:.8rem 0;border-bottom:1px solid var(--table-border-color);font-size:.92em}.sv-language-tools summary{cursor:pointer}.sv-language-tools select,.sv-language-tools button{padding:.4rem;margin:.4rem;color:var(--fg);background:var(--bg);border:1px solid currentColor}.ayu main a:not(.header),.navy main a:not(.header),.coal main a:not(.header){color:#9ed0ff}
+
+.sv-language-tools iframe{border:0;width:100%;min-height:240px;background:white;border-radius:8px}.sv-language-tools{overflow-wrap:anywhere}
+
+/* Identidad institucional: conserva las proporciones y los colores originales. */
+.menu-bar .right-buttons{display:flex;align-items:center;flex-shrink:0}
+.menu-bar .sv-institution-logo{display:inline-flex;align-items:center;justify-content:center;box-sizing:border-box;width:44px;height:44px;margin:3px 8px 3px 0;padding:3px;border-radius:5px;background:#fff}
+.menu-bar .sv-institution-logo img{display:block;width:38px;height:38px;object-fit:contain;max-width:none}
+.sv-brand-footer{display:flex;align-items:center;gap:1.5rem;margin-block:2.5rem 1.5rem;padding-block-start:1.5rem;border-block-start:1px solid var(--table-border-color);break-inside:avoid}
+.sv-brand-footer>img{display:block;max-width:none;flex:0 0 auto;width:104px;height:104px;object-fit:contain;background:#fff;border-radius:4px}
+.sv-brand-footer>p{flex:1;min-width:0;margin:0;font-size:.85em;line-height:1.65;overflow-wrap:anywhere}
+@media(max-width:600px){.menu-bar .sv-institution-logo{margin-inline-end:4px}.sv-brand-footer{gap:1rem;align-items:flex-start;flex-direction:column}.sv-brand-footer>img{width:80px;height:80px}}
+@media(max-width:380px){.sv-brand-footer{align-items:flex-start;flex-direction:column}}
+@media print{.sv-brand-footer{display:flex;flex-direction:row;gap:1rem;border-color:#bbb;break-inside:avoid}.sv-brand-footer>img{width:24mm;height:24mm}.sv-brand-footer>p{font-size:9pt;color:#000}}
+
+main>hr+.sv-brand-footer{border-block-start:0;margin-block-start:0}
+
+/* Opciones de lectura compactas y adaptables al ancho disponible. */
+.sv-language-tools{padding:.55rem 0;font-size:.92em}
+.sv-language-tools summary{cursor:pointer;padding:.35rem 0}
+.sv-language-tools p{margin:.55rem 0;line-height:1.45}
+.sv-language-form{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem .75rem;margin:.65rem 0}
+.sv-language-form label{font-weight:600}
+.sv-language-tools .sv-language-form select,.sv-language-tools .sv-language-form button{box-sizing:border-box;margin:0;min-height:2.25rem;max-width:100%;font:inherit;padding:.35rem .65rem;color:var(--fg);background:var(--bg);border:1px solid currentColor;border-radius:4px}
+.sv-language-form select{flex:0 1 17rem;min-width:0}
+.sv-language-form button{cursor:pointer}
+.sv-language-tools #google_translate_element{margin:.55rem 0}
+@media(max-width:480px){.sv-language-form label{flex-basis:100%}.sv-language-form select{flex:1 1 12rem}}
+@media print{.sv-language-tools{display:none}}
+/* © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). */
+
+/* Un único selector para el lector; se conserva visible la atribución de Google. */
+.sv-language-tools #google_translate_element select.goog-te-combo{display:none!important}
+.sv-language-tools #google_translate_element{min-height:1.2rem}
+.sv-language-form select{flex:0 1 26rem}
+.sv-language-tools[data-estado="preparando"] #sv-language-status,.sv-language-tools[data-estado="traduciendo"] #sv-language-status{font-style:italic}
+@media(max-width:480px){.sv-language-form select{flex:1 1 100%;width:100%}.sv-language-form button{margin-block-start:.25rem}}
+
+/* Consulta terminológica: controles nativos y lectura adaptable. */
+main details { border: 1px solid var(--table-border-color); border-radius: .35rem; margin: .7rem 0; padding: .7rem 1rem; scroll-margin-top: 5rem; }
+main details summary { cursor: pointer; font-size: 1.05em; padding: .2rem; }
+main details summary:focus-visible { outline: 3px solid #087f9a; outline-offset: 4px; }
+main details[open] summary { margin-bottom: .8rem; }
+main details:target { outline: 2px solid #087f9a; outline-offset: 2px; }
+main details a { overflow-wrap: anywhere; }
+@media (max-width: 600px) { main details { padding: .5rem .65rem; } }
+main details summary h3 { display: inline; font-size: 1em; margin: 0; }

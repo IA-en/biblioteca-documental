@@ -1,5 +1,7 @@
 # Finalidad y alcance
 
+La [Enciclopedia temática del Sistema Vectorial SV](https://documentos-sv.itvia.online/enciclopedia/index.html) reúne las definiciones comunes, sus fuentes y ejemplos. Este capítulo conserva las precisiones propias de su objeto; las referencias formales mantienen su autoridad.
+
 La validación, la autorización institucional y la selección para producción responden a preguntas diferentes. Un examen aporta evidencia sobre una configuración de un modelo y una edición documental determinadas. La autorización establece si la institución admite su uso dentro de un alcance. La selección identifica cuál de los modelos autorizados se empleará en ese ámbito. Ninguno de estos actos sustituye a los demás.
 
 Este libro presenta el procedimiento común de EET-IA, **Exámenes – Ensayos – Tests IA**, y sus restricciones. El área **Investigación y puesta en marcha de modelos de IA** forma parte del Gestor del Sistema Vectorial SV. Comparte su identificación de usuarios y mantiene admisiones y expedientes propios. El dominio científico evaluado se conserva como dato distinto de esta área administrativa.

@@ -1,5 +1,7 @@
 # Definiciones y relaciones
 
+La [Enciclopedia temática del Sistema Vectorial SV](https://documentos-sv.itvia.online/enciclopedia/index.html) reúne las definiciones comunes, sus fuentes y ejemplos. Este capítulo conserva las precisiones propias de su objeto; las referencias formales mantienen su autoridad.
+
 ## Dominio y Universo
 
 El dominio organiza un ámbito de conocimiento. Su denominación no equivale a la existencia de un agente ni demuestra que todo ese ámbito esté formalizado. Para conocer qué puede evaluarse es necesario identificar cada Universo, su finalidad, sus fuentes y sus límites.

@@ -3,5 +3,7 @@
   "normativa": "normativa/trazabilidad-y-seguimiento-ia",
   "guia": "",
   "visualizadores": "documentacion/reglas-usos-descripciones-documentales",
-  "evaluacion-modelos": "evaluacion/validacion-autorizacion-modelos"
+  "evaluacion-modelos": "evaluacion/validacion-autorizacion-modelos",
+  "dominios": "dominios/universos",
+  "enciclopedia": "enciclopedia"
 }

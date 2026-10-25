@@ -1,0 +1,77 @@
+{
+  "capitulos": [
+    {
+      "id": "NORMATIVA-02",
+      "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
+      "sha256": "bdb08774f5a23af6237ce2bb3d05b7feb33c6cc86b952762b07b90121549b769",
+      "ruta": "presentacion.md",
+      "url": "urn:sv:documento:sha256:bdb08774f5a23af6237ce2bb3d05b7feb33c6cc86b952762b07b90121549b769"
+    },
+    {
+      "id": "NORMATIVA-03",
+      "titulo": "Garantías y alcance",
+      "sha256": "c1ea55cae07e42bffd9611c5b1ac0ac06f1b6a29f07deec9ac4b7168ffb73fc4",
+      "ruta": "garantias.md",
+      "url": "urn:sv:documento:sha256:c1ea55cae07e42bffd9611c5b1ac0ac06f1b6a29f07deec9ac4b7168ffb73fc4"
+    },
+    {
+      "id": "NORMATIVA-04",
+      "titulo": "Procedencia y seguimiento documental",
+      "sha256": "f5ac6a959d34d52cbabd5ebcd77abb291c89498667c70ac19b2ab27866c7c822",
+      "ruta": "trazabilidad.md",
+      "url": "urn:sv:documento:sha256:f5ac6a959d34d52cbabd5ebcd77abb291c89498667c70ac19b2ab27866c7c822"
+    },
+    {
+      "id": "NORMATIVA-05",
+      "titulo": "Normas y marcos de referencia",
+      "sha256": "a07bf70497b4602ba384c84082fc3bf089d4815324f4b76a97d4512942d7b468",
+      "ruta": "marco-normativo.md",
+      "url": "urn:sv:documento:sha256:a07bf70497b4602ba384c84082fc3bf089d4815324f4b76a97d4512942d7b468"
+    },
+    {
+      "id": "NORMATIVA-06",
+      "titulo": "Ciberseguridad: evidencia y límites",
+      "sha256": "098735b7786e81b15b73d97e3a6b6a5a50dffd7b17a906d7059670a41c0d26f4",
+      "ruta": "ciberseguridad.md",
+      "url": "urn:sv:documento:sha256:098735b7786e81b15b73d97e3a6b6a5a50dffd7b17a906d7059670a41c0d26f4"
+    },
+    {
+      "id": "NORMATIVA-07",
+      "titulo": "Inmunología y uso sanitario",
+      "sha256": "bed7acb4ebe90b35f075b2c136f1bbd21504907176f9d049350c21fd7089eefb",
+      "ruta": "uso-sanitario.md",
+      "url": "urn:sv:documento:sha256:bed7acb4ebe90b35f075b2c136f1bbd21504907176f9d049350c21fd7089eefb"
+    },
+    {
+      "id": "NORMATIVA-08",
+      "titulo": "Derechos, confidencialidad y conservación",
+      "sha256": "fe9e45bbf6f6e0fe0e8a46c8ef590288926546cd80ed756704d6ad0b03360507",
+      "ruta": "derechos.md",
+      "url": "urn:sv:documento:sha256:fe9e45bbf6f6e0fe0e8a46c8ef590288926546cd80ed756704d6ad0b03360507"
+    },
+    {
+      "id": "NORMATIVA-09",
+      "titulo": "Evaluación y mejora",
+      "sha256": "90700334409926449911b3e28fe7707b199eb98685c0be30eedc53f3de0b5fd7",
+      "ruta": "evaluacion.md",
+      "url": "urn:sv:documento:sha256:90700334409926449911b3e28fe7707b199eb98685c0be30eedc53f3de0b5fd7"
+    },
+    {
+      "id": "NORMATIVA-10",
+      "titulo": "Referencias y edición",
+      "sha256": "4dcf6e6f53f807b4db46d892ef872e0a61edc084f72a977c5c0350c2888821a4",
+      "ruta": "referencias.md",
+      "url": "urn:sv:documento:sha256:4dcf6e6f53f807b4db46d892ef872e0a61edc084f72a977c5c0350c2888821a4"
+    }
+  ],
+  "version": 2,
+  "libro": "SV_NORMATIVA",
+  "revision": "102e5efda6fae97357a35273418f4c99c583a7a4a79b7b1d5d4abc7437a8b0ff",
+  "summary": {
+    "id": "NORMATIVA-01",
+    "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
+    "sha256": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc",
+    "ruta": "SUMMARY.md",
+    "url": "urn:sv:documento:sha256:49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc"
+  }
+}

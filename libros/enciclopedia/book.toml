@@ -1,0 +1,20 @@
+[book]
+title = "Enciclopedia temática del Sistema Vectorial SV"
+description = "Diccionarios temáticos del Lenguaje de Computación, la Inteligencia Artificial y las ciencias físicas, químicas y matemáticas del SV. Definiciones, fuentes y ejemplos."
+language = "es"
+src = "src"
+[build]
+build-dir = "book-recibido"
+create-missing = false
+use-default-preprocessors = false
+[output.html]
+theme = "theme"
+additional-css = ["biblioteca.css"]
+no-section-label = true
+git-repository-url = "https://github.com/IA-en/biblioteca-documental"
+[output.html.playground]
+runnable = false
+editable = false
+[output.html.search]
+enable = true
+limit-results = 30

@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "fe69bf572b7c89fabf55dcc6fd08b16a7a25afbc9af880fa7ede824caa87bae2",
+  "biblioteca_sha256": "77bef4d938beb6928a4e5d2dff5ac1414a55c1cd8d5086447419b0cab52baf49",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -31,8 +31,8 @@
       ]
     },
     {
-      "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
-      "cobertura_bytes": 2949,
+      "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+      "cobertura_bytes": 3401,
       "correspondencia": "identidad_literal",
       "documento": "GUIA-02",
       "identificador_editorial_r0": null,
@@ -40,16 +40,16 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/guia/src/indice.md",
-        "sha256": "455b24e5ceee8dc569a7277b5e9d0f6f4c8644e36b343f3a3e791cf9cbf7ca4b"
+        "sha256": "8087f0083c5802b4aa71de44c96c1e14148bde567ed76b1667cae49cdd2c03f4"
       },
-      "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
+      "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
       "secciones": [
         {
           "fin_byte_exclusivo": 297,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000006",
-          "sha256": "35d11bf940d70d4193df3566519f7b7832058e6579c3f8620e97cb0f2c15b2ea",
+          "sha256": "c06e8cdbfa43f33c8cf5eee027fe88a9ad8e4fca87b742ef0879c5a925454767",
           "titulo": "Biblioteca documental del SV",
           "ultima_linea": 6
         },
@@ -63,22 +63,31 @@
           "ultima_linea": 16
         },
         {
-          "fin_byte_exclusivo": 2219,
+          "fin_byte_exclusivo": 2291,
           "inicio_byte": 1839,
           "primera_linea": 17,
           "seccion": "MD-L000017-L000020",
-          "sha256": "04c41cc21040d2be028cf893576e9a4b2807c5ee141dd00f7edf0eff17eb58b2",
-          "titulo": "Manual para desarrolladores",
+          "sha256": "97b2753aa7ce439bb035c829687877d8ad2e4378cbcc7527ced463ab8a4771d3",
+          "titulo": "Enciclopedia temática del Sistema Vectorial SV",
           "ultima_linea": 20
         },
         {
-          "fin_byte_exclusivo": 2949,
-          "inicio_byte": 2219,
+          "fin_byte_exclusivo": 2671,
+          "inicio_byte": 2291,
           "primera_linea": 21,
-          "seccion": "MD-L000021-L000029",
+          "seccion": "MD-L000021-L000024",
+          "sha256": "04c41cc21040d2be028cf893576e9a4b2807c5ee141dd00f7edf0eff17eb58b2",
+          "titulo": "Manual para desarrolladores",
+          "ultima_linea": 24
+        },
+        {
+          "fin_byte_exclusivo": 3401,
+          "inicio_byte": 2671,
+          "primera_linea": 25,
+          "seccion": "MD-L000025-L000033",
           "sha256": "7cf9d0bf86ba6cc3261b9e05eea24b0fe40953bb0fd6953496810ed2bc99b586",
           "titulo": "Consulta",
-          "ultima_linea": 29
+          "ultima_linea": 33
         }
       ]
     },
@@ -2597,8 +2606,8 @@
       ]
     },
     {
-      "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
-      "cobertura_bytes": 3637,
+      "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+      "cobertura_bytes": 2578,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_REFERENCIA_TERMINOLOGIA",
       "identificador_editorial_r0": null,
@@ -2606,9 +2615,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/referencia-terminologia.md",
-        "sha256": "dce9740b3391e06160871412f3d920f9d74e0909eefc5eea8f37abda0496e856"
+        "sha256": "4ce2400241265fda0cc97a6e05b652ffb2f3a4a67f6e80f90a8cb75989823ffb"
       },
-      "procedencia": "Edición explicativa propia de 19/10/2026",
+      "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
       "secciones": [
         {
           "fin_byte_exclusivo": 286,
@@ -2620,22 +2629,22 @@
           "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 2212,
+          "fin_byte_exclusivo": 1153,
           "inicio_byte": 286,
           "primera_linea": 5,
-          "seccion": "MD-L000005-L000019",
-          "sha256": "45c3ae0835155aacc07a771709ba0f7ebe2a1190258b501dce3fb57f68458978",
+          "seccion": "MD-L000005-L000014",
+          "sha256": "6967b51c03564ae62e127d59974a1e878a49d4d0171b42f18432a5a16d69127f",
           "titulo": "19.1. Términos de consulta {#términos-de-consulta}",
-          "ultima_linea": 19
+          "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 3637,
-          "inicio_byte": 2212,
-          "primera_linea": 20,
-          "seccion": "MD-L000020-L000032",
+          "fin_byte_exclusivo": 2578,
+          "inicio_byte": 1153,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000027",
           "sha256": "25ac7999f03b3899429057a42a36b77243128afe3cba2198a9a8d11240c7e255",
           "titulo": "19.2. Gramática y representación intermedia {#gramática-y-representación-intermedia}",
-          "ultima_linea": 32
+          "ultima_linea": 27
         }
       ]
     },
@@ -2796,8 +2805,8 @@
       ]
     },
     {
-      "alcance": "Alcance de agentes en dominios y Universos; construcción DSL, dependencia y trazabilidad hasta células y polígonos.",
-      "cobertura_bytes": 7903,
+      "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+      "cobertura_bytes": 8185,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-03",
       "identificador_editorial_r0": null,
@@ -2805,81 +2814,81 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/conceptos.md",
-        "sha256": "dbdcfc6dab91195e4f63842bad46abc61dc9112ce5b661bbe77ac8a3d3147089"
+        "sha256": "a4acfce2411223808688113ef0bdc3253a80077f6cdb00c1bd5142e8cb63ff17"
       },
-      "procedencia": "Edición pública actualizada el 25/10/2026",
+      "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
       "secciones": [
         {
-          "fin_byte_exclusivo": 29,
+          "fin_byte_exclusivo": 311,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000002",
-          "sha256": "53faf7f917f486706f4ff029acd114039c861b177a584e6a0550fa00bc151036",
+          "seccion": "MD-L000001-L000004",
+          "sha256": "c1db879f70f84bc1c8deaeefae4d4deec9d93b82f4be19b760236142ae3a5ab3",
           "titulo": "Definiciones y relaciones",
-          "ultima_linea": 2
+          "ultima_linea": 4
         },
         {
-          "fin_byte_exclusivo": 1446,
-          "inicio_byte": 29,
-          "primera_linea": 3,
-          "seccion": "MD-L000003-L000012",
+          "fin_byte_exclusivo": 1728,
+          "inicio_byte": 311,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000014",
           "sha256": "874a3d3d86ad4479acfd42a614628690f1c5595fc64f6fb09791d56004fbfa2d",
           "titulo": "Dominio y Universo",
-          "ultima_linea": 12
+          "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 1823,
-          "inicio_byte": 1446,
-          "primera_linea": 13,
-          "seccion": "MD-L000013-L000016",
+          "fin_byte_exclusivo": 2105,
+          "inicio_byte": 1728,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000018",
           "sha256": "744504e5ce584ee2d48f6847310046d0e38b4a6c4e9a39b414ee218e24e09d19",
           "titulo": "Subdominio y módulo",
-          "ultima_linea": 16
+          "ultima_linea": 18
         },
         {
-          "fin_byte_exclusivo": 4232,
-          "inicio_byte": 1823,
-          "primera_linea": 17,
-          "seccion": "MD-L000017-L000028",
+          "fin_byte_exclusivo": 4514,
+          "inicio_byte": 2105,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000030",
           "sha256": "76b53b19de943f1157bb4e25d6b1943d33a6c31eb4d56a5dd6db9ad043c8a0a8",
           "titulo": "Alcance de un Agente Especializado",
-          "ultima_linea": 28
+          "ultima_linea": 30
         },
         {
-          "fin_byte_exclusivo": 5573,
-          "inicio_byte": 4232,
-          "primera_linea": 29,
-          "seccion": "MD-L000029-L000038",
+          "fin_byte_exclusivo": 5855,
+          "inicio_byte": 4514,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000040",
           "sha256": "08152b7bcd5cc86d78788146808023def87546e6b6a5362f95955d12ef2f8e57",
           "titulo": "Qué identifica un parámetro",
-          "ultima_linea": 38
+          "ultima_linea": 40
         },
         {
-          "fin_byte_exclusivo": 6248,
-          "inicio_byte": 5573,
-          "primera_linea": 39,
-          "seccion": "MD-L000039-L000044",
+          "fin_byte_exclusivo": 6530,
+          "inicio_byte": 5855,
+          "primera_linea": 41,
+          "seccion": "MD-L000041-L000046",
           "sha256": "9e7f47801262504fd92640601cf9330d8eac05d3c242e199e623b3a5d409c974",
           "titulo": "Propiedad de los parámetros",
-          "ultima_linea": 44
+          "ultima_linea": 46
         },
         {
-          "fin_byte_exclusivo": 6820,
-          "inicio_byte": 6248,
-          "primera_linea": 45,
-          "seccion": "MD-L000045-L000050",
+          "fin_byte_exclusivo": 7102,
+          "inicio_byte": 6530,
+          "primera_linea": 47,
+          "seccion": "MD-L000047-L000052",
           "sha256": "49b8da7fa12d8fc79638a3812b17af207f6f1dd681329c33f24e3b66178e3e1b",
           "titulo": "Versiones y reutilización",
-          "ultima_linea": 50
+          "ultima_linea": 52
         },
         {
-          "fin_byte_exclusivo": 7903,
-          "inicio_byte": 6820,
-          "primera_linea": 51,
-          "seccion": "MD-L000051-L000065",
+          "fin_byte_exclusivo": 8185,
+          "inicio_byte": 7102,
+          "primera_linea": 53,
+          "seccion": "MD-L000053-L000067",
           "sha256": "dae8302471c16a7a5c7cc1e847df7d6e3c1d1eee98f6f41c44e8ccb271262917",
           "titulo": "Estados que deben distinguirse",
-          "ultima_linea": 65
+          "ultima_linea": 67
         }
       ]
     },
@@ -3378,8 +3387,8 @@
       ]
     },
     {
-      "alcance": "Tubería de IA obligatoria, autorización y excepciones delimitadas de seudo-producción; conserva recepciones pendientes.",
-      "cobertura_bytes": 38145,
+      "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+      "cobertura_bytes": 38168,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
       "identificador_editorial_r0": null,
@@ -3387,22 +3396,22 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-        "sha256": "975e70d761ce99d31be87692923dfa2802b086560cf5c39c3bf8f1495a69ea70"
+        "sha256": "542e1a5ca5503c6e4ad8e1c13480e2e3c077a95fa34c6ede604c23955a0ea6c4"
       },
-      "procedencia": "Edición pública actualizada el 25/10/2026",
+      "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
       "secciones": [
         {
-          "fin_byte_exclusivo": 3953,
+          "fin_byte_exclusivo": 3976,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000028",
-          "sha256": "05179c19340ce61bf629168039062834aafae50f8125bbcb31796ba8338217bd",
+          "sha256": "201cb02854bfdc61861e3933b8bb9e982fb8ba480995210a97239e7c679ecc07",
           "titulo": "Facultades, autorización y producción",
           "ultima_linea": 28
         },
         {
-          "fin_byte_exclusivo": 5337,
-          "inicio_byte": 3953,
+          "fin_byte_exclusivo": 5360,
+          "inicio_byte": 3976,
           "primera_linea": 29,
           "seccion": "MD-L000029-L000040",
           "sha256": "082e6cd5fc63ac2ae566f1a0e71f57583bf5bdff3edb8563424550a9a66bf583",
@@ -3410,8 +3419,8 @@
           "ultima_linea": 40
         },
         {
-          "fin_byte_exclusivo": 7184,
-          "inicio_byte": 5337,
+          "fin_byte_exclusivo": 7207,
+          "inicio_byte": 5360,
           "primera_linea": 41,
           "seccion": "MD-L000041-L000050",
           "sha256": "c9eea126684c887d57672519b8bdd11a80d74c12653946a87d31b465b25564c3",
@@ -3419,8 +3428,8 @@
           "ultima_linea": 50
         },
         {
-          "fin_byte_exclusivo": 8841,
-          "inicio_byte": 7184,
+          "fin_byte_exclusivo": 8864,
+          "inicio_byte": 7207,
           "primera_linea": 51,
           "seccion": "MD-L000051-L000060",
           "sha256": "ba3800a557f45986ab855a332a2e9f1610402ea5fd1da34035e3ececc6d4fffb",
@@ -3428,8 +3437,8 @@
           "ultima_linea": 60
         },
         {
-          "fin_byte_exclusivo": 11593,
-          "inicio_byte": 8841,
+          "fin_byte_exclusivo": 11616,
+          "inicio_byte": 8864,
           "primera_linea": 61,
           "seccion": "MD-L000061-L000074",
           "sha256": "0482d41b22ca130c6c361fd333abe1b21835226d129789d4b7229241d8957be2",
@@ -3437,8 +3446,8 @@
           "ultima_linea": 74
         },
         {
-          "fin_byte_exclusivo": 13651,
-          "inicio_byte": 11593,
+          "fin_byte_exclusivo": 13674,
+          "inicio_byte": 11616,
           "primera_linea": 75,
           "seccion": "MD-L000075-L000084",
           "sha256": "3075d86628a8aa51040079bebd7edcff1cfcc5ebdc8c358644eabae7c9a8e365",
@@ -3446,8 +3455,8 @@
           "ultima_linea": 84
         },
         {
-          "fin_byte_exclusivo": 18228,
-          "inicio_byte": 13651,
+          "fin_byte_exclusivo": 18251,
+          "inicio_byte": 13674,
           "primera_linea": 85,
           "seccion": "MD-L000085-L000107",
           "sha256": "8c7cd3f486ab015a5e2c54d502737ac9996e41d32c59c1152881ffbc1e75533d",
@@ -3455,8 +3464,8 @@
           "ultima_linea": 107
         },
         {
-          "fin_byte_exclusivo": 19522,
-          "inicio_byte": 18228,
+          "fin_byte_exclusivo": 19545,
+          "inicio_byte": 18251,
           "primera_linea": 108,
           "seccion": "MD-L000108-L000113",
           "sha256": "8330f2ea7a967b779fbe61fa8c613b04dfa3058556f0b00cd9911e8a784df829",
@@ -3464,8 +3473,8 @@
           "ultima_linea": 113
         },
         {
-          "fin_byte_exclusivo": 21574,
-          "inicio_byte": 19522,
+          "fin_byte_exclusivo": 21597,
+          "inicio_byte": 19545,
           "primera_linea": 114,
           "seccion": "MD-L000114-L000123",
           "sha256": "bed7e884a41e3b981e74b1c40c140e81b7f471269171d43dcd0ff25f9a358854",
@@ -3473,8 +3482,8 @@
           "ultima_linea": 123
         },
         {
-          "fin_byte_exclusivo": 23727,
-          "inicio_byte": 21574,
+          "fin_byte_exclusivo": 23750,
+          "inicio_byte": 21597,
           "primera_linea": 124,
           "seccion": "MD-L000124-L000136",
           "sha256": "3dad9fda8eab5f09ca493ce255e309e56530bbb2504b2c9ea5894ec646586ff1",
@@ -3482,8 +3491,8 @@
           "ultima_linea": 136
         },
         {
-          "fin_byte_exclusivo": 27521,
-          "inicio_byte": 23727,
+          "fin_byte_exclusivo": 27544,
+          "inicio_byte": 23750,
           "primera_linea": 137,
           "seccion": "MD-L000137-L000150",
           "sha256": "6c4a88987ba42b4a130efe2efa1901cac54a34e05581b76e2e05fed11d3a92cc",
@@ -3491,8 +3500,8 @@
           "ultima_linea": 150
         },
         {
-          "fin_byte_exclusivo": 29475,
-          "inicio_byte": 27521,
+          "fin_byte_exclusivo": 29498,
+          "inicio_byte": 27544,
           "primera_linea": 151,
           "seccion": "MD-L000151-L000158",
           "sha256": "c8c4170d1e80ba0a0cfe01e4f233f02558be523c35969c49e26334eaec23df1e",
@@ -3500,8 +3509,8 @@
           "ultima_linea": 158
         },
         {
-          "fin_byte_exclusivo": 30244,
-          "inicio_byte": 29475,
+          "fin_byte_exclusivo": 30267,
+          "inicio_byte": 29498,
           "primera_linea": 159,
           "seccion": "MD-L000159-L000164",
           "sha256": "22aa091309f4e7a38ef8407fd26fa6ff3a6e0ef44a951a7248c8dd1a9a25bb40",
@@ -3509,8 +3518,8 @@
           "ultima_linea": 164
         },
         {
-          "fin_byte_exclusivo": 33184,
-          "inicio_byte": 30244,
+          "fin_byte_exclusivo": 33207,
+          "inicio_byte": 30267,
           "primera_linea": 165,
           "seccion": "MD-L000165-L000178",
           "sha256": "f499cbc0ad31a611853cdd5fc29229ea9c92f8797c94eefb4d5be4fd459f0e27",
@@ -3518,8 +3527,8 @@
           "ultima_linea": 178
         },
         {
-          "fin_byte_exclusivo": 34598,
-          "inicio_byte": 33184,
+          "fin_byte_exclusivo": 34621,
+          "inicio_byte": 33207,
           "primera_linea": 179,
           "seccion": "MD-L000179-L000186",
           "sha256": "7e2656fffb5cbed30f0209b6500abb9c186ba5807ae1d94f79bded6b7555bd69",
@@ -3527,8 +3536,8 @@
           "ultima_linea": 186
         },
         {
-          "fin_byte_exclusivo": 36987,
-          "inicio_byte": 34598,
+          "fin_byte_exclusivo": 37010,
+          "inicio_byte": 34621,
           "primera_linea": 187,
           "seccion": "MD-L000187-L000198",
           "sha256": "724cb48f75538431ea5b17de307c932a8452a73549db748025bc99a12a829a1d",
@@ -3536,8 +3545,8 @@
           "ultima_linea": 198
         },
         {
-          "fin_byte_exclusivo": 38145,
-          "inicio_byte": 36987,
+          "fin_byte_exclusivo": 38168,
+          "inicio_byte": 37010,
           "primera_linea": 199,
           "seccion": "MD-L000199-L000208",
           "sha256": "871d83982954d7866ef5c645371783dda14cc96bddace4e56fe36570eecd4a88",
@@ -3547,8 +3556,8 @@
       ]
     },
     {
-      "alcance": "Condiciones de reutilización del programa gráfico y aislamiento exigible a la consulta en seudo-producción. Sin activación de agentes, invitados ni rutas críticas.",
-      "cobertura_bytes": 13712,
+      "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+      "cobertura_bytes": 13755,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3556,9 +3565,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "aa86fb291556dff8c36cb8a540d109a112a819f7d05977809c1bbf5d479a5083"
+        "sha256": "f49f405aa7423fd483c54045742dcbffd29484632376393ee7da7d7ac9eea07f"
       },
-      "procedencia": "Edición pública de 24/10/2026",
+      "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
       "secciones": [
         {
           "fin_byte_exclusivo": 2005,
@@ -3597,20 +3606,20 @@
           "ultima_linea": 52
         },
         {
-          "fin_byte_exclusivo": 12489,
+          "fin_byte_exclusivo": 12522,
           "inicio_byte": 11245,
           "primera_linea": 53,
           "seccion": "MD-L000053-L000064",
-          "sha256": "ffb06e6616d192a843af1d53daa14f3db3137a0aef4543d7db9ec5d548f16666",
-          "titulo": "Sedes de consulta",
+          "sha256": "5338fdf263fa00396df1a90cb3a60ea657538370ac5655d02b923183672cfa77",
+          "titulo": "Fuentes y lugares de consulta {#sedes-de-consulta}",
           "ultima_linea": 64
         },
         {
-          "fin_byte_exclusivo": 13712,
-          "inicio_byte": 12489,
+          "fin_byte_exclusivo": 13755,
+          "inicio_byte": 12522,
           "primera_linea": 65,
           "seccion": "MD-L000065-L000069",
-          "sha256": "fae038b7b1f7ecf4ff13c18a916a698f23aa846b8693d85db266b17370e4e2ff",
+          "sha256": "e5653d784e1587245a9d3dd99246c8588559fe6dada1d05c00e646c8fc07d674",
           "titulo": "Programa gráfico y datos de la consulta",
           "ultima_linea": 69
         }
@@ -3764,8 +3773,8 @@
       ]
     },
     {
-      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
-      "cobertura_bytes": 3332,
+      "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+      "cobertura_bytes": 3614,
       "correspondencia": "identidad_literal",
       "documento": "EET-13",
       "identificador_editorial_r0": null,
@@ -3773,27 +3782,27 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/finalidad.md",
-        "sha256": "cf2a829d47d216d91ed58db01a2aea9a4799fc0fb5529d41463dd580020b62b5"
+        "sha256": "de7b3fa5410ad8574b410cce08d1ad2ebadc887f47cdf5d16b37e1689053b4ca"
       },
-      "procedencia": "Edición pública de 22/10/2026",
+      "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
       "secciones": [
         {
-          "fin_byte_exclusivo": 1282,
+          "fin_byte_exclusivo": 1564,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000008",
-          "sha256": "bdee21f559384b2522864b753432e761f96fe877190ce0b234a8b576097912ac",
+          "seccion": "MD-L000001-L000010",
+          "sha256": "7a0c3ef0a74e3e64a0e3000ecc056b896754dc5b77056f029d276ffb527ccdb1",
           "titulo": "Finalidad y alcance",
-          "ultima_linea": 8
+          "ultima_linea": 10
         },
         {
-          "fin_byte_exclusivo": 3332,
-          "inicio_byte": 1282,
-          "primera_linea": 9,
-          "seccion": "MD-L000009-L000021",
+          "fin_byte_exclusivo": 3614,
+          "inicio_byte": 1564,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000023",
           "sha256": "c9c4664530cc034cf9f09e2dccb238c99f26e2dc493edbe6b12506a4ba77d14f",
           "titulo": "Organización documental",
-          "ultima_linea": 21
+          "ultima_linea": 23
         }
       ]
     },
@@ -3875,9 +3884,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-institucional-20261025",
+  "edicion": "biblioteca-sv-enciclopedia-20261025",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "b575bf1cfa2adb704797611db10c471323bc06ba553f173b3ce16b7bc6b78daf",
+  "politica_sha256": "89e643765c24091539029991f66afa55ef2b3d03e4917b686efaa96c5497b137",
   "recepcion_visual": false,
   "version": 1
 }
