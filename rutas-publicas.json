@@ -5,6 +5,5 @@
   "visualizadores": "documentacion/reglas-usos-descripciones-documentales",
   "evaluacion-modelos": "evaluacion/validacion-autorizacion-modelos",
   "dominios": "dominios/universos",
-  "enciclopedia": "enciclopedia",
-  "desarrolladores": "desarrolladores"
+  "enciclopedia": "enciclopedia"
 }

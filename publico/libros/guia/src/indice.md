@@ -20,7 +20,7 @@ La [Enciclopedia temática del Sistema Vectorial SV](enciclopedia/index.html) of
 
 ## Manual para desarrolladores
 
-El [Manual de programación en SV para desarrolladores](desarrolladores/index.html) lleva la teoría del libro a la práctica: escritura de archivos SVP, lecciones, ejercicios y resultados comprobados. Los programas completos y la asistencia de IA figuran pendientes de desarrollo.
+El [Manual de programación en SV para desarrolladores](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp) lleva la teoría del libro a la práctica: escritura de archivos SVP, lecciones, ejercicios y resultados comprobados. Los programas completos y la asistencia de IA figuran pendientes de desarrollo.
 
 ## Consulta
 
