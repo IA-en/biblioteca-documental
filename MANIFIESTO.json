@@ -723,8 +723,8 @@
     },
     {
       "ruta": "publico/_routes.json",
-      "sha256": "5d3983191e572327e461c8723e9c273e07209ac9b8a7a7975d44d0fd7888ef5d",
-      "bytes": 156
+      "sha256": "33b856d53f9e2b6897a9ab2ec6c1489a2b847ea8ddba977623f629402b67c1fc",
+      "bytes": 3302
     },
     {
       "ruta": "publico/_worker.js",
