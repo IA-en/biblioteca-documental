@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-distribucion-aislamiento-20261024",
+  "edicion": "biblioteca-sv-sesiones-institucionales-20261025",
   "libros": [
     {
       "id": "guia",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "257452e6895ffbb9a7f6f6e1b93d277514372911c2e66a1db6a65fec86dabe54",
+        "sha256": "9f1f58d258ff046946d09e30b8498164c721d26f102cf2fa619949cc509c46d8",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
-          "procedencia": "Edición pública de 24/10/2026",
-          "alcance": "Condiciones de reutilización del programa gráfico y aislamiento exigible a la consulta en seudo-producción. Sin activación de agentes, invitados ni rutas críticas.",
+          "procedencia": "Edición pública de 25/10/2026",
+          "alcance": "Gobierno institucional de sesiones, autorizaciones, vigencias, presupuestos y capacidad técnica. Preparación sin consultas ni rutas críticas.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "e198fcf0f8fcc469c4ab44034877b067ed91b1142a697a3550b186c8f71e75c6",
+            "sha256": "ff8fd90bb941831749c8cb409f595a8f7fe2090eda69ff749aa957e0c5b1cf84",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",

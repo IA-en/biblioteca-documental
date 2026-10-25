@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "292020b62f92cfb79e571616de30b44d6178afda5f46ec0c87adddd310d10823",
+  "biblioteca_sha256": "eafebd78045f1d788638953399b728bce9ec2a2a18b91d35f9c59396b9fd11df",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3369,8 +3369,8 @@
       ]
     },
     {
-      "alcance": "Condiciones de reutilización del programa gráfico y aislamiento exigible a la consulta en seudo-producción. Sin activación de agentes, invitados ni rutas críticas.",
-      "cobertura_bytes": 17743,
+      "alcance": "Gobierno institucional de sesiones, autorizaciones, vigencias, presupuestos y capacidad técnica. Preparación sin consultas ni rutas críticas.",
+      "cobertura_bytes": 30913,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
       "identificador_editorial_r0": null,
@@ -3378,9 +3378,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-        "sha256": "e198fcf0f8fcc469c4ab44034877b067ed91b1142a697a3550b186c8f71e75c6"
+        "sha256": "ff8fd90bb941831749c8cb409f595a8f7fe2090eda69ff749aa957e0c5b1cf84"
       },
-      "procedencia": "Edición pública de 24/10/2026",
+      "procedencia": "Edición pública de 25/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 3953,
@@ -3446,22 +3446,76 @@
           "ultima_linea": 90
         },
         {
-          "fin_byte_exclusivo": 16585,
+          "fin_byte_exclusivo": 16731,
           "inicio_byte": 15171,
           "primera_linea": 91,
           "seccion": "MD-L000091-L000098",
-          "sha256": "7e2656fffb5cbed30f0209b6500abb9c186ba5807ae1d94f79bded6b7555bd69",
-          "titulo": "Polígonos, datos y distribución del programa",
+          "sha256": "51fb8f45f4ec444de4644602757ba17debbef535c8f2ec6270c7fbabb15d496e",
+          "titulo": "Preparación del acceso y límites individuales",
           "ultima_linea": 98
         },
         {
-          "fin_byte_exclusivo": 17743,
-          "inicio_byte": 16585,
+          "fin_byte_exclusivo": 18884,
+          "inicio_byte": 16731,
           "primera_linea": 99,
-          "seccion": "MD-L000099-L000108",
+          "seccion": "MD-L000099-L000111",
+          "sha256": "3dad9fda8eab5f09ca493ce255e309e56530bbb2504b2c9ea5894ec646586ff1",
+          "titulo": "Acceso ordinario y acceso invitado",
+          "ultima_linea": 111
+        },
+        {
+          "fin_byte_exclusivo": 22678,
+          "inicio_byte": 18884,
+          "primera_linea": 112,
+          "seccion": "MD-L000112-L000125",
+          "sha256": "6c4a88987ba42b4a130efe2efa1901cac54a34e05581b76e2e05fed11d3a92cc",
+          "titulo": "Presupuesto institucional y capacidad de uso por nodo",
+          "ultima_linea": 125
+        },
+        {
+          "fin_byte_exclusivo": 24632,
+          "inicio_byte": 22678,
+          "primera_linea": 126,
+          "seccion": "MD-L000126-L000133",
+          "sha256": "c8c4170d1e80ba0a0cfe01e4f233f02558be523c35969c49e26334eaec23df1e",
+          "titulo": "Capacidad técnica y cuotas, también sin coste de proveedor",
+          "ultima_linea": 133
+        },
+        {
+          "fin_byte_exclusivo": 25401,
+          "inicio_byte": 24632,
+          "primera_linea": 134,
+          "seccion": "MD-L000134-L000139",
+          "sha256": "22aa091309f4e7a38ef8407fd26fa6ff3a6e0ef44a951a7248c8dd1a9a25bb40",
+          "titulo": "Invitación, autenticación y utilización",
+          "ultima_linea": 139
+        },
+        {
+          "fin_byte_exclusivo": 28341,
+          "inicio_byte": 25401,
+          "primera_linea": 140,
+          "seccion": "MD-L000140-L000153",
+          "sha256": "f499cbc0ad31a611853cdd5fc29229ea9c92f8797c94eefb4d5be4fd459f0e27",
+          "titulo": "Información al usuario y conservación",
+          "ultima_linea": 153
+        },
+        {
+          "fin_byte_exclusivo": 29755,
+          "inicio_byte": 28341,
+          "primera_linea": 154,
+          "seccion": "MD-L000154-L000161",
+          "sha256": "7e2656fffb5cbed30f0209b6500abb9c186ba5807ae1d94f79bded6b7555bd69",
+          "titulo": "Polígonos, datos y distribución del programa",
+          "ultima_linea": 161
+        },
+        {
+          "fin_byte_exclusivo": 30913,
+          "inicio_byte": 29755,
+          "primera_linea": 162,
+          "seccion": "MD-L000162-L000171",
           "sha256": "871d83982954d7866ef5c645371783dda14cc96bddace4e56fe36570eecd4a88",
           "titulo": "Gestión de solicitudes de proveedores",
-          "ultima_linea": 108
+          "ultima_linea": 171
         }
       ]
     },
@@ -3794,9 +3848,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-distribucion-aislamiento-20261024",
+  "edicion": "biblioteca-sv-sesiones-institucionales-20261025",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "39cbbbe7173ff6fc48dd802e40ca5e90c51cc437d5814a0398c353cc695961bb",
+  "politica_sha256": "5fbd391f677d8f442bfb92536eb007f54fbf14f862da2a37d0c2d010d285706e",
   "recepcion_visual": false,
   "version": 1
 }
