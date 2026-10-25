@@ -184,6 +184,18 @@ La distribución del programa común y versionado puede utilizar un CDN, otro se
 
 **Situación de esta edición:** se documentan el estado y sus condiciones de preparación. No se habilitan cuentas invitadas, consultas de agentes, acceso de modelos a Internet, rutas críticas ni producción. Cualquier ensayo posterior exige su protocolo y autorización específicos; esta descripción no levanta los bloqueos de salida vigentes.
 
+## Recepción de una instalación institucional
+
+La puesta en producción comprende un servicio institucional de servidor y su interfaz de administración. La arquitectura del SV exige que sus decisiones y controles se implementen en Rust. Un alojamiento provisional no define la capacidad ni las condiciones de una instalación de producción. La evaluación de un modelo y la recepción del servidor son comprobaciones diferentes: ninguna sustituye a la otra.
+
+Antes de habilitar el uso, la institución deberá acreditar identidad, permisos por usuario y ámbito, aislamiento del núcleo mediante la tubería de IA, límites de recursos y presupuesto, conservación de evidencias y recuperación ante interrupciones. El panel visual reflejará las autorizaciones efectivas. Ocultar un acceso no revoca una autorización, y mostrar un icono no la concede; las operaciones y los enlaces directos requieren comprobación en el servidor.
+
+La propuesta de interoperabilidad permite estudiar el intercambio con bases externas de la institución, relacionales o no relacionales. No acredita conectores disponibles ni modifica el almacenamiento propio del SV. Cada integración necesitará un contrato de origen, finalidad, campos, tipos, transformaciones, derechos y tratamiento de errores, así como pruebas de integridad, repetición, concurrencia y recuperación. La incorporación de un dato externo no constituye una autorización ni valida su contenido científico. La IA permanece sin autoridad sobre ese transporte administrativo y sobre el núcleo, cualquiera que sea el nodo.
+
+Se conservará el original identificado; los datos estructurados se validarán conforme a su esquema, y podrá generarse una representación documental en Markdown cuando resulte adecuada y esté permitida. JSON y los formatos tabulares no se sustituyen obligatoriamente por Markdown. Las conversiones deben mantener procedencia y correspondencia, declarar pérdidas o incompatibilidades y evitar que un valor ausente se convierta en cero, permiso o resultado del SV.
+
+El libro privado de Bases desarrolla las responsabilidades arquitectónicas y el manual del Gestor explica las operaciones disponibles. Este capítulo fija las condiciones de autorización y recepción; no declara concluida la configuración general de accesos, la interoperabilidad ni la integración material del monitor.
+
 ## Gestión de solicitudes de proveedores
 
 La función **Responsable de evaluar peticiones de Proveedores** es independiente de Evaluador de modelos. Junto con la administración de la instalación, permite revisar solicitudes confirmadas y emitir respuestas trazables. No autoriza a lanzar exámenes, conceder aptitud o activar producción. Una cuenta experta puede acumularla sin recibir por ello las restantes funciones.

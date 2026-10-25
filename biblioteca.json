@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-pilares-agentes-20261025",
+  "edicion": "biblioteca-sv-institucional-20261025",
   "libros": [
     {
       "id": "guia",
@@ -824,7 +824,7 @@
     },
     {
       "plan": {
-        "sha256": "4106ff2ed834d602ac039ad6b761a7595b3d0e800529c0b5f0cd33b1a43f0f31",
+        "sha256": "92c6fd9c5891cbfba7ce032e0e7be4566291682b38203f9deb5e9271dfec7ac3",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
@@ -837,7 +837,7 @@
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "75fee5ffb43d384e2680b0f68e76e4cd44003922c73e0de6a96336ec1e338796",
+            "sha256": "975e70d761ce99d31be87692923dfa2802b086560cf5c39c3bf8f1495a69ea70",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",

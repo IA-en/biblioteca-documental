@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "d73396f657f661d787d1a3e497a2a1a02cb4395a499539688b0be18f5a89fe09",
+  "biblioteca_sha256": "fe69bf572b7c89fabf55dcc6fd08b16a7a25afbc9af880fa7ede824caa87bae2",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3379,7 +3379,7 @@
     },
     {
       "alcance": "Tubería de IA obligatoria, autorización y excepciones delimitadas de seudo-producción; conserva recepciones pendientes.",
-      "cobertura_bytes": 35756,
+      "cobertura_bytes": 38145,
       "correspondencia": "identidad_literal",
       "documento": "EET-01",
       "identificador_editorial_r0": null,
@@ -3387,7 +3387,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-        "sha256": "75fee5ffb43d384e2680b0f68e76e4cd44003922c73e0de6a96336ec1e338796"
+        "sha256": "975e70d761ce99d31be87692923dfa2802b086560cf5c39c3bf8f1495a69ea70"
       },
       "procedencia": "Edición pública actualizada el 25/10/2026",
       "secciones": [
@@ -3527,13 +3527,22 @@
           "ultima_linea": 186
         },
         {
-          "fin_byte_exclusivo": 35756,
+          "fin_byte_exclusivo": 36987,
           "inicio_byte": 34598,
           "primera_linea": 187,
-          "seccion": "MD-L000187-L000196",
+          "seccion": "MD-L000187-L000198",
+          "sha256": "724cb48f75538431ea5b17de307c932a8452a73549db748025bc99a12a829a1d",
+          "titulo": "Recepción de una instalación institucional",
+          "ultima_linea": 198
+        },
+        {
+          "fin_byte_exclusivo": 38145,
+          "inicio_byte": 36987,
+          "primera_linea": 199,
+          "seccion": "MD-L000199-L000208",
           "sha256": "871d83982954d7866ef5c645371783dda14cc96bddace4e56fe36570eecd4a88",
           "titulo": "Gestión de solicitudes de proveedores",
-          "ultima_linea": 196
+          "ultima_linea": 208
         }
       ]
     },
@@ -3866,9 +3875,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-pilares-agentes-20261025",
+  "edicion": "biblioteca-sv-institucional-20261025",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "c769b56f260c8d93b9d5c28b7a140d3ed85e7b106c9b357d221fe79c8af5eee7",
+  "politica_sha256": "b575bf1cfa2adb704797611db10c471323bc06ba553f173b3ce16b7bc6b78daf",
   "recepcion_visual": false,
   "version": 1
 }
