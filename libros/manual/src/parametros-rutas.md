@@ -81,6 +81,10 @@ La representación computable debe identificar qué parámetros ocupan cada posi
 
 La prioridad documental determina precedencia entre fuentes; no determina una posición celular. Una referencia compartida conserva su origen sin duplicar automáticamente el estado. Estas restricciones deben mantenerse en todas las transformaciones de representación.
 
+El **Polígono SV Decisional** exige conservar la correspondencia entre la cuestión singular, las células constituidas, su recorrido acreditado y el consejo presentado al experto. La DSL debe representar las condiciones de admisión y criticidad de la ruta, diferenciadas de la clasificación celular mediante T(n) = ⌊7n/9⌋. El modelo no obtiene facultades sobre el núcleo ni puede producir por su cuenta un estado celular válido. La decisión profesional permanece en la persona experta. El [libro de Dominios](../../universos/parametros-rutas.html#constitución-celular-de-las-rutas-y-polígono-decisional) desarrolla estas relaciones.
+
+La aplicación del potencial requiere tipos y correspondencias definidos para el objeto, las componentes polares, la escala, las operaciones, sus condiciones y el retorno al dominio. La identidad del parámetro y el estado ternario se conservan separados de las magnitudes auxiliares. Esta exigencia no añade sintaxis ni amplía silenciosamente la IR: cualquier realización deberá demostrar su correspondencia con los contratos admitidos. La declaración durante la seudo-producción no acredita disponibilidad operativa.
+
 ## **15.6.** Representación tensorial y ejecución acelerada {#representación-tensorial-y-ejecución-acelerada}
 
 El contrato de paridad vincula el estado matemático y su representación visual mediante **Frame_C = (frmat, frvis)**. Ambos deben conservar instancia, constitución y revisión. La imagen puede materializarse bajo demanda; una figura de un estado anterior no representa el estado vigente.

@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "4b0c2933748affc017012a56a72e69ab8adcf79666c3f517677f3f8f5582309a"
+        "sha256": "5a895ce1295901d0914472e5ea289c9a7871cfc65374be425cf8afd6f89d8f4b"
       },
       "metadatos": [
         {
@@ -439,13 +439,13 @@
           "visibilidad": "publica",
           "documento": "MANUAL_PARAMETROS_RUTAS",
           "identificador_editorial_r0": null,
-          "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
+          "alcance": "Constitución celular, consejo al experto y estudio del potencial; requisitos y límites de la seudo-producción, sin habilitación operativa.",
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
+          "procedencia": "Revisión editorial del 25/10/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/manual/src/parametros-rutas.md",
-            "sha256": "2636f2b4db64f4ca930331c6ba8bc03c6dc1fac92d2376a18f31015e4904b928"
+            "sha256": "5936336a7db8bda5b9970a66abb85986de8908bc0d4ed490f760626d4a83c0ca"
           },
           "sintetico": false
         },
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "dd6bae2e76f2711f4195569366b4fa0fbad059d6ab107e6cb5f21dbfda4755a4",
+        "sha256": "06bf9cdfe2f4011aa3c01a90bf393c27ffc832acdc5e1976d5b9d9b009135fcc",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -809,13 +809,13 @@
           "visibilidad": "publica",
           "documento": "DOMINIOS-08",
           "identificador_editorial_r0": null,
-          "alcance": "Fundamentos, conceptos de diseño y requisitos de integración; no acredita ejecución ni validación profesional.",
+          "alcance": "Constitución celular, consejo al experto y estudio del potencial; requisitos y límites de la seudo-producción, sin habilitación operativa.",
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública revisada el 23/10/2026; conserva los ejemplos y distingue conceptos recibidos y ampliación pendiente.",
+          "procedencia": "Revisión editorial del 25/10/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/dominios/src/parametros-rutas.md",
-            "sha256": "58e5832a47ce761a8cf42a60265088ec37638b21ed3086e9d4b1954d05a7f488"
+            "sha256": "4dacb01687fa94d652a5ef86a78633dd86fc6b8f276776d06d67167cd5da8a2e"
           },
           "sintetico": false
         }
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "fee7686cb12fa53bb9f63fd6b10ba1fad1dd9d3060191981f472b2ffd3ac7b84",
+        "sha256": "5ee3605a7d6d03c47ed0d1b4a6bb6b3d6dc294d9547c0dbaef5907222865470f",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
-          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
-          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+          "procedencia": "Revisión editorial del 25/10/2026",
+          "alcance": "Constitución celular, consejo al experto y estudio del potencial; requisitos y límites de la seudo-producción, sin habilitación operativa.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "542e1a5ca5503c6e4ad8e1c13480e2e3c077a95fa34c6ede604c23955a0ea6c4",
+            "sha256": "bed3d225738f2f4454cc42002b7a0737653dd390ef9763ee41f2ee895458d18b",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",

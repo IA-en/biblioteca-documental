@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
-      "sha256": "03daebe8101dd469df3028f1902c5f61903510c7dfcd26040ba0b3da493e206f",
       "ruta": "biblioteca.json",
-      "bytes": 46276
+      "bytes": 46158,
+      "sha256": "92c68b8a48868139ba04fd66c3a03f6b032dd2bd1d9fcd0ac1dd7eea455f4f65"
     },
     {
       "sha256": "72506635c1862c3ea6b9ac08146789bed1a2416d3880204f78f4e0d4fe3865de",
@@ -37,9 +37,9 @@
       "ruta": "correspondencia-enciclopedia.json"
     },
     {
-      "sha256": "bde9ed355cd0e749ca42090360c64d501fad9460df95afd9130d8a44fec230f1",
       "ruta": "correspondencia.json",
-      "bytes": 153241
+      "bytes": 154207,
+      "sha256": "7104d7a71b501a29f08993b05a9aaacf7894d4d8eef4acf1a752a482d7273a03"
     },
     {
       "sha256": "87ef90fafe783c0c9374223fdf1be57528b7435da895b256b3ca35922e15a307",
@@ -63,8 +63,8 @@
     },
     {
       "ruta": "libros/dominios/plan.json",
-      "sha256": "dd6bae2e76f2711f4195569366b4fa0fbad059d6ab107e6cb5f21dbfda4755a4",
-      "bytes": 2608
+      "bytes": 2608,
+      "sha256": "06bf9cdfe2f4011aa3c01a90bf393c27ffc832acdc5e1976d5b9d9b009135fcc"
     },
     {
       "ruta": "libros/dominios/presentacion.js",
@@ -123,8 +123,8 @@
     },
     {
       "ruta": "libros/dominios/src/parametros-rutas.md",
-      "sha256": "58e5832a47ce761a8cf42a60265088ec37638b21ed3086e9d4b1954d05a7f488",
-      "bytes": 27826
+      "bytes": 37867,
+      "sha256": "4dacb01687fa94d652a5ef86a78633dd86fc6b8f276776d06d67167cd5da8a2e"
     },
     {
       "ruta": "libros/dominios/src/presentacion.md",
@@ -218,8 +218,8 @@
     },
     {
       "ruta": "libros/evaluacion-modelos/plan.json",
-      "sha256": "fee7686cb12fa53bb9f63fd6b10ba1fad1dd9d3060191981f472b2ffd3ac7b84",
-      "bytes": 2682
+      "bytes": 2682,
+      "sha256": "5ee3605a7d6d03c47ed0d1b4a6bb6b3d6dc294d9547c0dbaef5907222865470f"
     },
     {
       "ruta": "libros/evaluacion-modelos/presentacion.js",
@@ -228,8 +228,8 @@
     },
     {
       "ruta": "libros/evaluacion-modelos/src/autoridad.md",
-      "sha256": "542e1a5ca5503c6e4ad8e1c13480e2e3c077a95fa34c6ede604c23955a0ea6c4",
-      "bytes": 38168
+      "bytes": 39955,
+      "sha256": "bed3d225738f2f4454cc42002b7a0737653dd390ef9763ee41f2ee895458d18b"
     },
     {
       "ruta": "libros/evaluacion-modelos/src/comparacion.md",
@@ -373,8 +373,8 @@
     },
     {
       "ruta": "libros/manual/plan.json",
-      "sha256": "4b0c2933748affc017012a56a72e69ab8adcf79666c3f517677f3f8f5582309a",
-      "bytes": 7376
+      "bytes": 7376,
+      "sha256": "5a895ce1295901d0914472e5ea289c9a7871cfc65374be425cf8afd6f89d8f4b"
     },
     {
       "bytes": 13567,
@@ -478,8 +478,8 @@
     },
     {
       "ruta": "libros/manual/src/parametros-rutas.md",
-      "bytes": 16253,
-      "sha256": "2636f2b4db64f4ca930331c6ba8bc03c6dc1fac92d2376a18f31015e4904b928"
+      "bytes": 17426,
+      "sha256": "5936336a7db8bda5b9970a66abb85986de8908bc0d4ed490f760626d4a83c0ca"
     },
     {
       "bytes": 4597,
@@ -707,9 +707,9 @@
       "ruta": "politica-enciclopedia.json"
     },
     {
-      "sha256": "db951c70536be2a3ed2f240113144335726c9b3031b5bcfb8c1f4f1b0b57576f",
       "ruta": "politica-verificacion.json",
-      "bytes": 377
+      "bytes": 377,
+      "sha256": "a7b0e3a9f783c31a2c29a9a86d2e114586b74cea3748b668b4edc0bdca693195"
     },
     {
       "ruta": "presentacion.js",
@@ -767,9 +767,9 @@
       "bytes": 962
     },
     {
-      "sha256": "03daebe8101dd469df3028f1902c5f61903510c7dfcd26040ba0b3da493e206f",
       "ruta": "publico/biblioteca.json",
-      "bytes": 46276
+      "bytes": 46158,
+      "sha256": "92c68b8a48868139ba04fd66c3a03f6b032dd2bd1d9fcd0ac1dd7eea455f4f65"
     },
     {
       "ruta": "publico/book-609e4cb8.js",
@@ -797,9 +797,9 @@
       "ruta": "publico/correspondencia-enciclopedia.json"
     },
     {
-      "sha256": "bde9ed355cd0e749ca42090360c64d501fad9460df95afd9130d8a44fec230f1",
       "ruta": "publico/correspondencia.json",
-      "bytes": 153241
+      "bytes": 154207,
+      "sha256": "7104d7a71b501a29f08993b05a9aaacf7894d4d8eef4acf1a752a482d7273a03"
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1542,9 +1542,9 @@
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/observabilidad.html"
     },
     {
-      "bytes": 47220,
-      "sha256": "c885c95e7e415a786286989d2033cca4c2bf9aee0527345f477661788bfc058e",
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/parametros-rutas.html"
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/parametros-rutas.html",
+      "bytes": 48429,
+      "sha256": "ee5bdc3299e50e28e98e7dbb8580c62e13771cba83b1f717fb39580fbbfe222f"
     },
     {
       "bytes": 27137,
@@ -1577,9 +1577,9 @@
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion.html"
     },
     {
-      "bytes": 188045,
-      "sha256": "f8449d2e382d8b32fdd548ae046c433ae4b928d714b2c87b50667dd24c037054",
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/print.html"
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/print.html",
+      "bytes": 189194,
+      "sha256": "bde669bcd663c1ae8b7001df1cff852d9a4d1c2fd3ed57de54acebe5525d3a7a"
     },
     {
       "bytes": 23679,
@@ -1887,9 +1887,9 @@
       "ruta": "publico/dominios/universos/metodologia.html"
     },
     {
-      "bytes": 65523,
-      "sha256": "788a1cd6b675121794de4840d85ee3fcfda1d73610f197e4de4b71bb2be82763",
-      "ruta": "publico/dominios/universos/parametros-rutas.html"
+      "ruta": "publico/dominios/universos/parametros-rutas.html",
+      "bytes": 76670,
+      "sha256": "b7ae1030e0686ffc44475c24ba11e83dfe9e3547f835d819052a0fa9fff1b093"
     },
     {
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b",
@@ -1912,9 +1912,9 @@
       "ruta": "publico/dominios/universos/presentacion.html"
     },
     {
-      "bytes": 113932,
-      "sha256": "9cdc7eeb686f072211e8d4b80bb3877aa819b5233e26d795dc92a413e13ef68c",
-      "ruta": "publico/dominios/universos/print.html"
+      "ruta": "publico/dominios/universos/print.html",
+      "bytes": 125079,
+      "sha256": "dfcb48541bc83e3553531f089060db2f2606a980a358468fa58d6127923cf589"
     },
     {
       "ruta": "publico/dominios/universos/toc-57e74f04.js",
@@ -2202,9 +2202,9 @@
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/404.html"
     },
     {
-      "bytes": 66353,
-      "sha256": "7dec85f16dedf8c22be801259627a6b697c323aa71fa11412a5747254debd710",
-      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/autoridad.html"
+      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/autoridad.html",
+      "bytes": 68176,
+      "sha256": "3b4229ede30c1bb5683d2863053b195aa8dbd014545d216292b8bd3ace438237"
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/ayu-highlight.css",
@@ -2387,9 +2387,9 @@
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
-      "bytes": 113479,
-      "sha256": "d2ede51d992e0b4b446b05a7d3f07a7ff0812358cb95abff71b7376b3e6da78d",
-      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/print.html"
+      "ruta": "publico/evaluacion/validacion-autorizacion-modelos/print.html",
+      "bytes": 115302,
+      "sha256": "239387a1bb65b796a71ecdd00129248127c20a3b7a548ca1c8f7f16d3d0401c1"
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searcher.js",
@@ -2398,8 +2398,8 @@
     },
     {
       "ruta": "publico/evaluacion/validacion-autorizacion-modelos/searchindex.js",
-      "sha256": "caec3e0aa0206cb2a879790b110fe3fd03c1dbdb20427c23d9d50bbccc1b1aa0",
-      "bytes": 642497
+      "bytes": 650659,
+      "sha256": "454b5bcf6588e479005c721185a6784124c5d4f6014847d5da6188738a31e28c"
     },
     {
       "bytes": 2924,
@@ -2638,8 +2638,8 @@
     },
     {
       "ruta": "publico/libros/dominios/plan.json",
-      "sha256": "dd6bae2e76f2711f4195569366b4fa0fbad059d6ab107e6cb5f21dbfda4755a4",
-      "bytes": 2608
+      "bytes": 2608,
+      "sha256": "06bf9cdfe2f4011aa3c01a90bf393c27ffc832acdc5e1976d5b9d9b009135fcc"
     },
     {
       "ruta": "publico/libros/dominios/src/ciberseguridad.md",
@@ -2693,8 +2693,8 @@
     },
     {
       "ruta": "publico/libros/dominios/src/parametros-rutas.md",
-      "sha256": "58e5832a47ce761a8cf42a60265088ec37638b21ed3086e9d4b1954d05a7f488",
-      "bytes": 27826
+      "bytes": 37867,
+      "sha256": "4dacb01687fa94d652a5ef86a78633dd86fc6b8f276776d06d67167cd5da8a2e"
     },
     {
       "ruta": "publico/libros/dominios/src/presentacion.md",
@@ -2753,8 +2753,8 @@
     },
     {
       "ruta": "publico/libros/evaluacion-modelos/plan.json",
-      "sha256": "fee7686cb12fa53bb9f63fd6b10ba1fad1dd9d3060191981f472b2ffd3ac7b84",
-      "bytes": 2682
+      "bytes": 2682,
+      "sha256": "5ee3605a7d6d03c47ed0d1b4a6bb6b3d6dc294d9547c0dbaef5907222865470f"
     },
     {
       "ruta": "publico/libros/evaluacion-modelos/presentacion.js",
@@ -2763,8 +2763,8 @@
     },
     {
       "ruta": "publico/libros/evaluacion-modelos/src/autoridad.md",
-      "sha256": "542e1a5ca5503c6e4ad8e1c13480e2e3c077a95fa34c6ede604c23955a0ea6c4",
-      "bytes": 38168
+      "bytes": 39955,
+      "sha256": "bed3d225738f2f4454cc42002b7a0737653dd390ef9763ee41f2ee895458d18b"
     },
     {
       "ruta": "publico/libros/evaluacion-modelos/src/comparacion.md",
@@ -2908,8 +2908,8 @@
     },
     {
       "ruta": "publico/libros/manual/plan.json",
-      "sha256": "4b0c2933748affc017012a56a72e69ab8adcf79666c3f517677f3f8f5582309a",
-      "bytes": 7376
+      "bytes": 7376,
+      "sha256": "5a895ce1295901d0914472e5ea289c9a7871cfc65374be425cf8afd6f89d8f4b"
     },
     {
       "bytes": 13567,
@@ -3013,8 +3013,8 @@
     },
     {
       "ruta": "publico/libros/manual/src/parametros-rutas.md",
-      "bytes": 16253,
-      "sha256": "2636f2b4db64f4ca930331c6ba8bc03c6dc1fac92d2376a18f31015e4904b928"
+      "bytes": 17426,
+      "sha256": "5936336a7db8bda5b9970a66abb85986de8908bc0d4ed490f760626d4a83c0ca"
     },
     {
       "bytes": 4597,
@@ -3427,9 +3427,9 @@
       "ruta": "publico/politica-enciclopedia.json"
     },
     {
-      "sha256": "db951c70536be2a3ed2f240113144335726c9b3031b5bcfb8c1f4f1b0b57576f",
       "ruta": "publico/politica-verificacion.json",
-      "bytes": 377
+      "bytes": 377,
+      "sha256": "a7b0e3a9f783c31a2c29a9a86d2e114586b74cea3748b668b4edc0bdca693195"
     },
     {
       "ruta": "publico/presentacion-0cfc7f9c.js",

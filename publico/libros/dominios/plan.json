@@ -32,8 +32,8 @@
     },
     {
       "ruta": "parametros-rutas.md",
-      "sha256": "58e5832a47ce761a8cf42a60265088ec37638b21ed3086e9d4b1954d05a7f488",
-      "url": "urn:sv:documento:sha256:58e5832a47ce761a8cf42a60265088ec37638b21ed3086e9d4b1954d05a7f488",
+      "sha256": "4dacb01687fa94d652a5ef86a78633dd86fc6b8f276776d06d67167cd5da8a2e",
+      "url": "urn:sv:documento:sha256:4dacb01687fa94d652a5ef86a78633dd86fc6b8f276776d06d67167cd5da8a2e",
       "titulo": "Parámetros, rutas y evidencia",
       "id": "DOMINIOS-08"
     },
@@ -59,5 +59,5 @@
       "id": "DOMINIOS-07"
     }
   ],
-  "revision": "75af20a01e2d9479ee49c87cf8c44f53f8422bd86553eed88d98d24d13c74b44"
+  "revision": "e3220c6401ff9105253e596ce625baba7e8b257e2c37013f7fb1ff9f1480e519"
 }

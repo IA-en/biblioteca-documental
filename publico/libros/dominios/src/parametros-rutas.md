@@ -192,6 +192,55 @@ Toda regla futura de rutas deberá declarar sus argumentos, condiciones, derivac
 
 El [contraste de fuentes de consecuencias](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/CONSECUENCIAS-Y-FUENTES.md) documenta el alcance de las referencias sanitarias, de ciberseguridad y jurídicas consultadas. Las cinco categorías previstas no equivalen al regulador de incorporación extrínseca del SV ni constituyen aún una escala operacional validada.
 
+## Constitución celular de las rutas y polígono decisional
+
+El Agente Especializado recibe su ámbito mediante Universos y células constituidos, con la biblioteca que fundamenta sus parámetros. La biblioteca anclada es el conjunto de fuentes, ediciones y selecciones identificadas que sostienen ese conocimiento; su vinculación no concede por sí sola permisos de entrega. El alcance puede comprender parte de un dominio o varios dominios autorizados. La ruta crítica delimita el conocimiento necesario para una consulta sin exigir la lectura indiscriminada de todos los libros y sin omitir dependencias obligatorias.
+
+Los puntos de relación entre rutas deben identificar los parámetros conceptuales que intervienen y su función. Su evaluación requiere una constitución celular admitida por el SV: dimensión, identidad y orden de posiciones, cuestiones evaluadas, fuentes, regla y condiciones de criticidad. El polígono representa esa célula; no se obtiene convirtiendo el mapa de rutas en una figura por semejanza geométrica. Un parámetro compartido conserva su identidad, mientras que las valoraciones correspondientes a preguntas, rutas o casos distintos permanecen diferenciadas.
+
+La clasificación de una célula aplica el umbral canónico **T(n) = ⌊7n/9⌋**, donde n es su número de posiciones y los signos ⌊ ⌋ indican la parte entera inferior. Se conservan por separado los recuentos N₀, N₁ y Nᵤ, cuya suma es n. Alcanzar el umbral de 0 permite la clasificación Apta; alcanzar el de 1, No apta; en los demás casos, Indeterminada, conforme a los [Fundamentos algebraico-semánticos, apartado 5](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/606c040afec77d4f2aeb62134b58d7d2b6bf48d1/documentos/fundamentos/README.md).
+
+**La clasificación celular no sustituye las condiciones de admisión de la ruta.** El contrato identifica previamente qué parámetros o dependencias son críticos y qué efecto tiene su incumplimiento o indeterminación. Un resultado global favorable no autoriza a omitir una obligación ni a compensar una prohibición crítica. La criticidad, la pertenencia a una ruta y la prioridad bibliográfica son propiedades distintas. Tampoco se traslada a una consulta profesional el contrato particular de un examen de modelos.
+
+Se denomina **Polígono SV Decisional** a la representación del resultado celular constituido para la cuestión singular del experto, vinculada al recorrido acreditado y a su fundamento documental. Puede requerirse más de un polígono; su composición debe conservar las reglas y las identidades de las células. La figura decisional se distingue de los polígonos intermedios de comprobación, de un mapa de relaciones y de la representación de un examen.
+
+| Momento de la consulta gobernada | Correspondencia que debe conservarse |
+| --- | --- |
+| Pregunta del experto | Identidad de consulta, finalidad, dominio y alcance autorizado. |
+| Selección del conocimiento | Universos, parámetros y fuentes pertinentes, con todas las dependencias obligatorias. |
+| Evaluación del recorrido | Ruta constituida, condiciones de admisión, células admitidas y actuaciones comprobadas. |
+| Valoración singular | Cuestiones del caso, valores 0, 1 o U y fundamentos propios de cada posición. |
+| Presentación del resultado | Polígono o polígonos decisionales, consejo asociado y acceso a sus antecedentes. |
+| Decisión profesional | Juicio de la persona experta, distinto del consejo recibido y registrado según el procedimiento aplicable. |
+
+La denominación «decisional» identifica la función de apoyo a la decisión; no confiere autoridad a la IA. El modelo puede formular el consejo y su explicación dentro de las condiciones autorizadas. La decisión profesional corresponde exclusivamente a la persona experta. El SV determina la representación conforme al estado comprobado; el modelo no inventa la figura, no modifica la célula y no obtiene acceso al núcleo mediante su respuesta.
+
+Al seleccionar una posición del polígono, el experto deberá poder consultar la cuestión evaluada, su valor, las condiciones críticas, la fuente y el pasaje que lo fundamentan, así como el recorrido registrado. La explicación de la IA se conserva diferenciada de esas comprobaciones. No se atribuye a la trazabilidad observable acceso al razonamiento interno del modelo.
+
+## Potencial matemático aplicado al conocimiento y a las rutas
+
+La ampliación incorpora como requisito de estudio la aplicación de las **Matemáticas del Potencial SV** a los parámetros y recorridos de cada dominio. Su antecedente es [Orientación universal y geográfica, potencial del suceso e interfaz de dominio, apartados 3–4 y 8.9](https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1), DOI [10.21428/39829d0b.5e15cabb](https://doi.org/10.21428/39829d0b.5e15cabb). Las [Reglas y condiciones de las Matemáticas del Potencial SV](https://www.itvia.online/pub/reglas-y-condiciones-de-las-matematicas-del-potencial-sv), especialmente sus apartados 1, 4 y 10–19, precisan las condiciones matemáticas de esa aplicación.
+
+Para un dominio D y un suceso admisible e, la lectura polar constituida define **P_D(e) = μ_D(e) − λ_D(e)** e **I_D(e) = μ_D(e) + λ_D(e)**. P_D es el potencial e I_D, la intensidad. Las componentes polares deben ser no negativas, tener orientación y escala comunes y proceder de una regla explícita. U no es una magnitud numérica y no interviene en esa resta.
+
+Aplicar esta lectura a una unidad de conocimiento exige definir qué objeto o suceso asociado al parámetro se evalúa, cómo se obtienen sus componentes, qué comparación entre rutas se admite y cómo se interpreta el resultado en el dominio. Se declararán entradas, unidades o escala, operación, condiciones de admisión, residual, retorno, versión y autoridad revisora. El **residual** expresa aquí el resultado de comprobar una condición exigida; el **retorno** explica qué significa el resultado para el objeto y el problema de origen. Una fórmula disponible no determina por sí sola los valores de un parámetro de Inmunología o Ciberseguridad.
+
+El potencial permite comparar diferencias bajo esas condiciones, pero **no identifica por sí solo cada parámetro**. Por ejemplo, los pares polares (7,2) y (9,4) tienen potencial 5 e intensidades 9 y 13. Incluso la igualdad de potencial e intensidad no demuestra que dos objetos sean idénticos. Se conservan el identificador del parámetro, su Universo, su definición, sus fuentes y el contexto de la valoración. No se añaden diferencias artificiales para forzar valores numéricos únicos.
+
+Como propósito de investigación, **se estudiará si el potencial permite comparar rutas que satisfagan las condiciones de cobertura y dependencia del dominio, y con qué límites**. Esta utilidad no se considera demostrada por disponer de una fórmula de potencial. Deben definirse la magnitud que se evalúa, el cálculo correspondiente al recorrido completo y su relación con el criterio de elección. El potencial de los parámetros individuales no determina automáticamente el de una ruta.
+
+La cobertura y las dependencias exigidas se comprueban antes de comparar las rutas. Una alternativa que incumpla esas condiciones no puede considerarse mejor por su potencial. Los criterios deben precisar qué significa «más adecuada» y cómo se resuelven los casos de igualdad; no se presupone que exista una única ruta preferible. La comprobación de que no se omite conocimiento obligatorio es una exigencia propia y no se deduce del valor del potencial.
+
+El potencial no sustituye el umbral celular, la terna, la criticidad ni la obligatoriedad de una dependencia. Su uso para seleccionar o comparar recorridos exige una regla expresa y comprobada; no autoriza a elegir automáticamente el mayor potencial ni a omitir conocimiento de menor valor calculado. Si falta la definición de una componente o su fundamento, se declara el cálculo pendiente. No se reemplaza lo desconocido por cero ni se presenta la falta de ejecución como una U ya evaluada.
+
+Esta aplicación se mantiene en el plano matemático y documental. No atribuye a un parámetro clínico energía física, edad cosmológica ni propiedades biológicas por analogía con el antecedente. El traslado entre dominios requiere una correspondencia justificada, denominada transducción en las fuentes, y pruebas de lo que conserva. La interpretación física de esas publicaciones conserva su ámbito propio y no constituye evidencia clínica ni de ciberseguridad para esta aplicación.
+
+## Preparación e incorporación progresiva
+
+Las definiciones anteriores son requisitos de constitución e integración. La disponibilidad operativa de las rutas y sus polígonos decisionales requiere completar y revisar el dominio correspondiente, al menos uno de los dominios considerados, constituir sus células y contratos y comprobar su realización en Rust bajo la DSL y la semántica regidas por el núcleo. El otro dominio conserva sus propias condiciones: la recepción de Inmunología no habilita automáticamente Ciberseguridad, ni a la inversa.
+
+Durante la seudo-producción, estos requisitos se declaran sin atribuirles una ejecución inexistente. Las respuestas externas permitidas por el protocolo conservan su carácter consultivo y no se presentan como Polígonos SV Decisionales acreditados. El aislamiento de la IA y la protección del núcleo permanecen obligatorios. Incorporar documentos a la biblioteca permite preparar conocimiento y, cuando exista autorización de entrega, fundamentar consultas; no activa por sí solo células, rutas o cálculos de potencial. Cada capacidad se habilita tras su constitución, comprobación y autorización específicas. Véanse las [condiciones de seudo-producción](../../evaluacion/validacion-autorizacion-modelos/autoridad.html#estado-de-seudo-producción).
+
 ## Trazabilidad y límites de la explicación
 
 Cada actuación necesita conservar documentos, versiones, huellas, fragmentos, autorizaciones, reglas, entradas, salidas y decisiones de revisión. Un documento puede haberse preparado sin haberse enviado; una cita del modelo puede existir sin haberse contrastado. Estas situaciones deben identificarse por separado.
