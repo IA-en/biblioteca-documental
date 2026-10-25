@@ -1,0 +1,608 @@
+{
+  "esquema": "sv-figura-fuente-1",
+  "original_sha256": "e8b4b4c8c92e13d0766c7f6616c85ff20a959f2e3520994d4c395b1e097c586e",
+  "relaciones": "no_inferidas",
+  "textos": [
+    {
+      "id": "t0001",
+      "valor": "Del Universo a la ejecución tensorial conservando las células y sus frames"
+    },
+    {
+      "id": "t0002",
+      "valor": "El Universo y sus parámetros se realizan mediante células constituidas. Sus estados pueden organizarse en matrices y tensores para ejecutar operaciones autorizadas. Cada instancia conserva posiciones, significado, evidencia y correspondencia con su frame. Es un concepto de diseño."
+    },
+    {
+      "id": "t0003",
+      "valor": "Realización computable del Universo"
+    },
+    {
+      "id": "t0004",
+      "valor": "Concepto de diseño: cada transformación conserva el significado y la identidad."
+    },
+    {
+      "id": "t0005",
+      "valor": "Universo"
+    },
+    {
+      "id": "t0006",
+      "valor": "Parámetros, fuentes"
+    },
+    {
+      "id": "t0007",
+      "valor": "y relaciones."
+    },
+    {
+      "id": "t0008",
+      "valor": "Células SV"
+    },
+    {
+      "id": "t0009",
+      "valor": "Posiciones y contratos."
+    },
+    {
+      "id": "t0010",
+      "valor": "Estado por instancia."
+    },
+    {
+      "id": "t0011",
+      "valor": "Matrices y tensores"
+    },
+    {
+      "id": "t0012",
+      "valor": "Datos organizados."
+    },
+    {
+      "id": "t0013",
+      "valor": "Identidad por célula."
+    },
+    {
+      "id": "t0014",
+      "valor": "Operaciones"
+    },
+    {
+      "id": "t0015",
+      "valor": "Significado autorizado."
+    },
+    {
+      "id": "t0016",
+      "valor": "Resultado comprobado."
+    },
+    {
+      "id": "t0017",
+      "valor": "Frame: estado matemático y representación visual"
+    },
+    {
+      "id": "t0018",
+      "valor": "Misma instancia, posiciones, constitución y versión."
+    },
+    {
+      "id": "t0019",
+      "valor": "La disposición de almacenamiento no altera la dimensión de la célula ni constituye una decisión."
+    },
+    {
+      "id": "t0020",
+      "valor": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
+    }
+  ],
+  "estructura_visual": {
+    "nombre": "svg",
+    "atributos": {
+      "aria-labelledby": "titulo descripcion",
+      "role": "img",
+      "viewBox": "0 0 1100 405",
+      "xmlns": "http://www.w3.org/2000/svg"
+    },
+    "hijos": [
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "title",
+          "atributos": {
+            "id": "titulo"
+          },
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0001"
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "desc",
+          "atributos": {
+            "id": "descripcion"
+          },
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0002"
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "defs",
+          "atributos": {},
+          "hijos": [
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "marker",
+                "atributos": {
+                  "id": "punta",
+                  "markerHeight": "10",
+                  "markerWidth": "10",
+                  "orient": "auto",
+                  "refX": "8",
+                  "refY": "3"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M0,0 L0,6 L8,3 z",
+                        "fill": "#446078"
+                      },
+                      "hijos": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "rect",
+          "atributos": {
+            "fill": "#f4f7fa",
+            "height": "405",
+            "rx": "14",
+            "width": "1100"
+          },
+          "hijos": []
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "g",
+          "atributos": {
+            "fill": "#15364c",
+            "font-family": "Arial, sans-serif"
+          },
+          "hijos": [
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "24",
+                  "font-weight": "bold",
+                  "x": "30",
+                  "y": "42"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0003"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "30",
+                  "y": "72"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0004"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "g",
+                "atributos": {
+                  "fill": "white",
+                  "stroke": "#446078",
+                  "stroke-width": "2"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "rect",
+                      "atributos": {
+                        "height": "125",
+                        "rx": "10",
+                        "width": "205",
+                        "x": "30",
+                        "y": "115"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "rect",
+                      "atributos": {
+                        "height": "125",
+                        "rx": "10",
+                        "width": "220",
+                        "x": "295",
+                        "y": "115"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "rect",
+                      "atributos": {
+                        "height": "125",
+                        "rx": "10",
+                        "width": "210",
+                        "x": "575",
+                        "y": "115"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "rect",
+                      "atributos": {
+                        "height": "125",
+                        "rx": "10",
+                        "width": "225",
+                        "x": "845",
+                        "y": "115"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "rect",
+                      "atributos": {
+                        "height": "70",
+                        "rx": "10",
+                        "width": "490",
+                        "x": "295",
+                        "y": "285"
+                      },
+                      "hijos": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "21",
+                  "font-weight": "bold",
+                  "x": "50",
+                  "y": "151"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0005"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "50",
+                  "y": "183"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0006"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "50",
+                  "y": "210"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0007"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "21",
+                  "font-weight": "bold",
+                  "x": "315",
+                  "y": "151"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0008"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "315",
+                  "y": "183"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0009"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "315",
+                  "y": "210"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0010"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "font-weight": "bold",
+                  "x": "595",
+                  "y": "151"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0011"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "595",
+                  "y": "183"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0012"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "595",
+                  "y": "210"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0013"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "21",
+                  "font-weight": "bold",
+                  "x": "865",
+                  "y": "151"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0014"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "865",
+                  "y": "183"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0015"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "865",
+                  "y": "210"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0016"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "path",
+                "atributos": {
+                  "d": "M235,176 H282 M515,176 H562 M785,176 H832",
+                  "fill": "none",
+                  "marker-end": "url(#punta)",
+                  "stroke": "#446078",
+                  "stroke-width": "2"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "path",
+                "atributos": {
+                  "d": "M405,240 V272",
+                  "fill": "none",
+                  "marker-end": "url(#punta)",
+                  "stroke": "#446078",
+                  "stroke-width": "2"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "19",
+                  "font-weight": "bold",
+                  "x": "315",
+                  "y": "314"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0017"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "17",
+                  "x": "315",
+                  "y": "340"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0018"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "17",
+                  "x": "30",
+                  "y": "388"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0019"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "metadata",
+          "atributos": {},
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0020"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

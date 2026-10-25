@@ -1,0 +1,603 @@
+{
+  "esquema": "sv-figura-fuente-1",
+  "original_sha256": "76b520283ce74f2414346f538c05a2de7314d7c141637c6e2a74fcef027acecb",
+  "relaciones": "no_inferidas",
+  "textos": [
+    {
+      "id": "t0001",
+      "valor": "Gestor del SV y condiciones de integración con el Lenguaje"
+    },
+    {
+      "id": "t0002",
+      "valor": "El Gestor administra configuraciones, permisos y fuentes. La presentación muestra los estados sin decidirlos. La relación con el Lenguaje exige tubería, contrato de frontera y admisión. La disponibilidad de las operaciones depende de la versión recibida."
+    },
+    {
+      "id": "t0003",
+      "valor": "Responsabilidades y condiciones de integración"
+    },
+    {
+      "id": "t0004",
+      "valor": "Gestor del Sistema Vectorial SV · Rust"
+    },
+    {
+      "id": "t0005",
+      "valor": "Dominios · asignaciones · permisos · documentos"
+    },
+    {
+      "id": "t0006",
+      "valor": "Decisiones y actuaciones identificadas por revisión"
+    },
+    {
+      "id": "t0007",
+      "valor": "Presentación"
+    },
+    {
+      "id": "t0008",
+      "valor": "Información autorizada"
+    },
+    {
+      "id": "t0009",
+      "valor": "Estado y polígono asociados"
+    },
+    {
+      "id": "t0010",
+      "valor": "Sin autoridad sobre el núcleo"
+    },
+    {
+      "id": "t0011",
+      "valor": "Condiciones de integración"
+    },
+    {
+      "id": "t0012",
+      "valor": "Identidad · revisión · permisos"
+    },
+    {
+      "id": "t0013",
+      "valor": "Fidelidad · procedencia · límites"
+    },
+    {
+      "id": "t0014",
+      "valor": "Tubería y contrato de frontera"
+    },
+    {
+      "id": "t0015",
+      "valor": "Admisión explícita de las entradas"
+    },
+    {
+      "id": "t0016",
+      "valor": "Lenguaje de Computación SV · Rust"
+    },
+    {
+      "id": "t0017",
+      "valor": "Objetos, reglas y operaciones de la versión recibida"
+    },
+    {
+      "id": "t0018",
+      "valor": "Trazo discontinuo: recorrido sujeto a contrato y capacidad habilitada."
+    }
+  ],
+  "estructura_visual": {
+    "nombre": "svg",
+    "atributos": {
+      "aria-labelledby": "titulo descripcion",
+      "role": "img",
+      "viewBox": "0 0 860 720",
+      "xmlns": "http://www.w3.org/2000/svg"
+    },
+    "hijos": [
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "title",
+          "atributos": {
+            "id": "titulo"
+          },
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0001"
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "desc",
+          "atributos": {
+            "id": "descripcion"
+          },
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0002"
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "defs",
+          "atributos": {},
+          "hijos": [
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "marker",
+                "atributos": {
+                  "id": "flecha",
+                  "markerHeight": "10",
+                  "markerWidth": "10",
+                  "orient": "auto",
+                  "refX": "9",
+                  "refY": "5"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M0 0 L10 5 L0 10 Z",
+                        "fill": "#08758b"
+                      },
+                      "hijos": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "rect",
+          "atributos": {
+            "fill": "#f3f7f9",
+            "height": "720",
+            "rx": "16",
+            "width": "860"
+          },
+          "hijos": []
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "g",
+          "atributos": {
+            "fill": "#14394d",
+            "font-family": "Arial, sans-serif",
+            "text-anchor": "middle"
+          },
+          "hijos": [
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "24",
+                  "font-weight": "700",
+                  "x": "430",
+                  "y": "43"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0003"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "rect",
+                "atributos": {
+                  "fill": "#fff",
+                  "height": "115",
+                  "rx": "10",
+                  "stroke": "#58859b",
+                  "stroke-width": "2",
+                  "width": "760",
+                  "x": "50",
+                  "y": "75"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "23",
+                  "font-weight": "700",
+                  "x": "430",
+                  "y": "111"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0004"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "20",
+                  "x": "430",
+                  "y": "143"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0005"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "19",
+                  "x": "430",
+                  "y": "171"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0006"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "path",
+                "atributos": {
+                  "d": "M220 190 V240",
+                  "fill": "none",
+                  "marker-end": "url(#flecha)",
+                  "stroke": "#08758b",
+                  "stroke-width": "2"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "path",
+                "atributos": {
+                  "d": "M635 190 V240",
+                  "fill": "none",
+                  "marker-end": "url(#flecha)",
+                  "stroke": "#08758b",
+                  "stroke-width": "2"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "rect",
+                "atributos": {
+                  "fill": "#fff",
+                  "height": "130",
+                  "rx": "10",
+                  "stroke": "#58859b",
+                  "stroke-width": "2",
+                  "width": "340",
+                  "x": "50",
+                  "y": "245"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "22",
+                  "font-weight": "700",
+                  "x": "220",
+                  "y": "281"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0007"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "19",
+                  "x": "220",
+                  "y": "312"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0008"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "19",
+                  "x": "220",
+                  "y": "340"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0009"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "17",
+                  "x": "220",
+                  "y": "362"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0010"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "rect",
+                "atributos": {
+                  "fill": "#fff",
+                  "height": "130",
+                  "rx": "10",
+                  "stroke": "#58859b",
+                  "stroke-width": "2",
+                  "width": "380",
+                  "x": "430",
+                  "y": "245"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "22",
+                  "font-weight": "700",
+                  "x": "620",
+                  "y": "281"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0011"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "19",
+                  "x": "620",
+                  "y": "313"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0012"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "19",
+                  "x": "620",
+                  "y": "344"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0013"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "path",
+                "atributos": {
+                  "d": "M620 375 V430 H430 V467",
+                  "fill": "none",
+                  "marker-end": "url(#flecha)",
+                  "stroke": "#08758b",
+                  "stroke-dasharray": "7 5",
+                  "stroke-width": "2"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "rect",
+                "atributos": {
+                  "fill": "#e6f1f5",
+                  "height": "75",
+                  "rx": "10",
+                  "stroke": "#58859b",
+                  "stroke-width": "2",
+                  "width": "660",
+                  "x": "100",
+                  "y": "475"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "22",
+                  "font-weight": "700",
+                  "x": "430",
+                  "y": "507"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0014"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "19",
+                  "x": "430",
+                  "y": "533"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0015"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "path",
+                "atributos": {
+                  "d": "M430 550 V580",
+                  "fill": "none",
+                  "marker-end": "url(#flecha)",
+                  "stroke": "#08758b",
+                  "stroke-dasharray": "7 5",
+                  "stroke-width": "2"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "rect",
+                "atributos": {
+                  "fill": "#fff",
+                  "height": "75",
+                  "rx": "10",
+                  "stroke": "#58859b",
+                  "stroke-width": "2",
+                  "width": "660",
+                  "x": "100",
+                  "y": "590"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "22",
+                  "font-weight": "700",
+                  "x": "430",
+                  "y": "622"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0016"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "19",
+                  "x": "430",
+                  "y": "648"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0017"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "17",
+                  "x": "430",
+                  "y": "697"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0018"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

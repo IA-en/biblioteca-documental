@@ -1,0 +1,710 @@
+{
+  "esquema": "sv-figura-fuente-1",
+  "original_sha256": "3a2512c3d3726027742095326f7d661f9c2df0bddfc75d199428d74904ecd37f",
+  "relaciones": "no_inferidas",
+  "textos": [
+    {
+      "id": "t0001",
+      "valor": "Hipótesis de una escala aeroportuaria con tareas paralelas"
+    },
+    {
+      "id": "t0002",
+      "valor": "Cinco bloques didácticos: A coordinación inicial, cinco minutos; B preparación de cabina, doce; C preparación de equipaje, siete; D comprobación conjunta, cuatro; E cierre del proceso, tres. B y C se realizan en paralelo después de A; D requiere que ambas terminen. A B D E determina los veinticuatro minutos totales. C tiene cinco minutos de margen, pero sigue siendo obligatoria."
+    },
+    {
+      "id": "t0003",
+      "valor": "Aeropuerto: dependencias, simultaneidad y demora"
+    },
+    {
+      "id": "t0004",
+      "valor": "Hipótesis didáctica. Actividades agregadas y tiempos inventados; no es un procedimiento operativo."
+    },
+    {
+      "id": "t0005",
+      "valor": "A · Coordinación"
+    },
+    {
+      "id": "t0006",
+      "valor": "inicial"
+    },
+    {
+      "id": "t0007",
+      "valor": "5 min"
+    },
+    {
+      "id": "t0008",
+      "valor": "B · Preparación de cabina"
+    },
+    {
+      "id": "t0009",
+      "valor": "12 min"
+    },
+    {
+      "id": "t0010",
+      "valor": "C · Preparación de equipaje"
+    },
+    {
+      "id": "t0011",
+      "valor": "7 min"
+    },
+    {
+      "id": "t0012",
+      "valor": "D · Comprobación"
+    },
+    {
+      "id": "t0013",
+      "valor": "de ambos bloques"
+    },
+    {
+      "id": "t0014",
+      "valor": "4 min"
+    },
+    {
+      "id": "t0015",
+      "valor": "E · Cierre"
+    },
+    {
+      "id": "t0016",
+      "valor": "3 min"
+    },
+    {
+      "id": "t0017",
+      "valor": "Ruta crítica temporal: A → B → D → E = 24 minutos"
+    },
+    {
+      "id": "t0018",
+      "valor": "La secuencia A → C → D → E suma 19 minutos. C tiene 5 minutos de margen, pero no se omite."
+    },
+    {
+      "id": "t0019",
+      "valor": "Azul grueso: ruta que fija la duración. Gris: dependencia necesaria con margen temporal."
+    },
+    {
+      "id": "t0020",
+      "valor": "En el SV, la criticidad se fundamenta en el conocimiento y las consecuencias de su omisión."
+    },
+    {
+      "id": "t0021",
+      "valor": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
+    }
+  ],
+  "estructura_visual": {
+    "nombre": "svg",
+    "atributos": {
+      "aria-labelledby": "titulo descripcion",
+      "role": "img",
+      "viewBox": "0 0 1100 620",
+      "xmlns": "http://www.w3.org/2000/svg"
+    },
+    "hijos": [
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "title",
+          "atributos": {
+            "id": "titulo"
+          },
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0001"
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "desc",
+          "atributos": {
+            "id": "descripcion"
+          },
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0002"
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "defs",
+          "atributos": {},
+          "hijos": [
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "marker",
+                "atributos": {
+                  "id": "azul",
+                  "markerHeight": "10",
+                  "markerWidth": "10",
+                  "orient": "auto",
+                  "refX": "8",
+                  "refY": "3"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M0 0 L0 6 L8 3 Z",
+                        "fill": "#205a80"
+                      },
+                      "hijos": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "marker",
+                "atributos": {
+                  "id": "gris",
+                  "markerHeight": "10",
+                  "markerWidth": "10",
+                  "orient": "auto",
+                  "refX": "8",
+                  "refY": "3"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M0 0 L0 6 L8 3 Z",
+                        "fill": "#586c79"
+                      },
+                      "hijos": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "rect",
+          "atributos": {
+            "fill": "#f4f7fa",
+            "height": "620",
+            "rx": "14",
+            "width": "1100"
+          },
+          "hijos": []
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "g",
+          "atributos": {
+            "fill": "#15364c",
+            "font-family": "Arial, sans-serif"
+          },
+          "hijos": [
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "25",
+                  "font-weight": "bold",
+                  "x": "30",
+                  "y": "42"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0003"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "30",
+                  "y": "76"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0004"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "g",
+                "atributos": {
+                  "fill": "#e4eef5",
+                  "stroke": "#205a80",
+                  "stroke-width": "2"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "rect",
+                      "atributos": {
+                        "height": "94",
+                        "rx": "9",
+                        "width": "205",
+                        "x": "30",
+                        "y": "229"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "rect",
+                      "atributos": {
+                        "height": "94",
+                        "rx": "9",
+                        "width": "250",
+                        "x": "310",
+                        "y": "140"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "rect",
+                      "atributos": {
+                        "height": "94",
+                        "rx": "9",
+                        "width": "200",
+                        "x": "635",
+                        "y": "229"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "rect",
+                      "atributos": {
+                        "height": "94",
+                        "rx": "9",
+                        "width": "165",
+                        "x": "905",
+                        "y": "229"
+                      },
+                      "hijos": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "rect",
+                "atributos": {
+                  "fill": "#fff",
+                  "height": "94",
+                  "rx": "9",
+                  "stroke": "#586c79",
+                  "stroke-width": "2",
+                  "width": "250",
+                  "x": "310",
+                  "y": "320"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "g",
+                "atributos": {
+                  "font-size": "18",
+                  "text-anchor": "middle"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "font-weight": "bold",
+                        "x": "132",
+                        "y": "257"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0005"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "x": "132",
+                        "y": "283"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0006"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "x": "132",
+                        "y": "308"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0007"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "font-weight": "bold",
+                        "x": "435",
+                        "y": "171"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0008"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "x": "435",
+                        "y": "204"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0009"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "font-weight": "bold",
+                        "x": "435",
+                        "y": "351"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0010"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "x": "435",
+                        "y": "384"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0011"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "font-weight": "bold",
+                        "x": "735",
+                        "y": "257"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0012"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "x": "735",
+                        "y": "283"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0013"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "x": "735",
+                        "y": "308"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0014"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "font-weight": "bold",
+                        "x": "987",
+                        "y": "267"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0015"
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "text",
+                      "atributos": {
+                        "x": "987",
+                        "y": "300"
+                      },
+                      "hijos": [
+                        {
+                          "tipo": "texto",
+                          "id": "t0016"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "g",
+                "atributos": {
+                  "fill": "none",
+                  "marker-end": "url(#azul)",
+                  "stroke": "#205a80",
+                  "stroke-width": "4"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M235 252 L270 252 L270 187 H300"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M560 187 H596 L596 252 H625"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M835 276 H894"
+                      },
+                      "hijos": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "g",
+                "atributos": {
+                  "fill": "none",
+                  "marker-end": "url(#gris)",
+                  "stroke": "#586c79",
+                  "stroke-width": "2"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M235 300 H270 V367 H300"
+                      },
+                      "hijos": []
+                    }
+                  },
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M560 367 H596 V300 H625"
+                      },
+                      "hijos": []
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "21",
+                  "font-weight": "bold",
+                  "x": "30",
+                  "y": "460"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0017"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "30",
+                  "y": "497"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0018"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "30",
+                  "y": "536"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0019"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "30",
+                  "y": "582"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0020"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "metadata",
+          "atributos": {},
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0021"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

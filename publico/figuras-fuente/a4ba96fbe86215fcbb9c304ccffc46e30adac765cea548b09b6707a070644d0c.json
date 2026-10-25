@@ -1,0 +1,554 @@
+{
+  "esquema": "sv-figura-fuente-1",
+  "original_sha256": "4a20336b03d16a52cd12d8807132b71e5bf6910d43cdce93dff39d9d52e621a5",
+  "relaciones": "no_inferidas",
+  "textos": [
+    {
+      "id": "t0001",
+      "valor": "Un conocimiento, dos preguntas de valoración diferentes"
+    },
+    {
+      "id": "t0002",
+      "valor": "La unidad de conocimiento K aporta fundamento. Su pertenencia a la ruta R y la valoración singular del caso son objetos distintos. La pertenencia puede estar acreditada y la cuestión del caso permanecer indeterminada. No se copian valores entre ellas."
+    },
+    {
+      "id": "t0003",
+      "valor": "Conocimiento, pertenencia y decisión"
+    },
+    {
+      "id": "t0004",
+      "valor": "Ejemplo conceptual; no representa una ruta profesional constituida."
+    },
+    {
+      "id": "t0005",
+      "valor": "Unidad de conocimiento K"
+    },
+    {
+      "id": "t0006",
+      "valor": "Interpretación de la"
+    },
+    {
+      "id": "t0007",
+      "valor": "procedencia de los datos."
+    },
+    {
+      "id": "t0008",
+      "valor": "Identidad, fuentes y alcance."
+    },
+    {
+      "id": "t0009",
+      "valor": "Sin valor ternario inherente."
+    },
+    {
+      "id": "t0010",
+      "valor": "Relación de pertenencia a R"
+    },
+    {
+      "id": "t0011",
+      "valor": "¿K pertenece a R bajo las condiciones C?"
+    },
+    {
+      "id": "t0012",
+      "valor": "Ejemplo: 0 · Pertenencia acreditada."
+    },
+    {
+      "id": "t0013",
+      "valor": "Propuesta de valoración; exige regla y versión."
+    },
+    {
+      "id": "t0014",
+      "valor": "Cuestión singular del caso"
+    },
+    {
+      "id": "t0015",
+      "valor": "¿Está acreditada la procedencia de este dato?"
+    },
+    {
+      "id": "t0016",
+      "valor": "Ejemplo: U · Evidencia del caso insuficiente."
+    },
+    {
+      "id": "t0017",
+      "valor": "No hereda el resultado de pertenencia."
+    },
+    {
+      "id": "t0018",
+      "valor": "Cada valor conserva su pregunta, contexto, regla, versión y evidencia."
+    },
+    {
+      "id": "t0019",
+      "valor": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)."
+    }
+  ],
+  "estructura_visual": {
+    "nombre": "svg",
+    "atributos": {
+      "aria-labelledby": "titulo descripcion",
+      "role": "img",
+      "viewBox": "0 0 980 510",
+      "xmlns": "http://www.w3.org/2000/svg"
+    },
+    "hijos": [
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "title",
+          "atributos": {
+            "id": "titulo"
+          },
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0001"
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "desc",
+          "atributos": {
+            "id": "descripcion"
+          },
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0002"
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "defs",
+          "atributos": {},
+          "hijos": [
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "marker",
+                "atributos": {
+                  "id": "flecha",
+                  "markerHeight": "10",
+                  "markerWidth": "10",
+                  "orient": "auto",
+                  "refX": "8",
+                  "refY": "3"
+                },
+                "hijos": [
+                  {
+                    "tipo": "elemento",
+                    "elemento": {
+                      "nombre": "path",
+                      "atributos": {
+                        "d": "M0,0 L0,6 L8,3 z",
+                        "fill": "#446078"
+                      },
+                      "hijos": []
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "rect",
+          "atributos": {
+            "fill": "#f4f7fa",
+            "height": "510",
+            "rx": "16",
+            "width": "980"
+          },
+          "hijos": []
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "g",
+          "atributos": {
+            "fill": "#15364c",
+            "font-family": "Arial, sans-serif"
+          },
+          "hijos": [
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "23",
+                  "font-weight": "bold",
+                  "x": "36",
+                  "y": "42"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0003"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "17",
+                  "x": "36",
+                  "y": "71"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0004"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "rect",
+                "atributos": {
+                  "fill": "white",
+                  "height": "165",
+                  "rx": "10",
+                  "stroke": "#446078",
+                  "stroke-width": "2",
+                  "width": "275",
+                  "x": "35",
+                  "y": "165"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "font-weight": "bold",
+                  "x": "55",
+                  "y": "198"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0005"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "55",
+                  "y": "230"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0006"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "55",
+                  "y": "255"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0007"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "17",
+                  "x": "55",
+                  "y": "291"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0008"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "17",
+                  "x": "55",
+                  "y": "315"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0009"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "path",
+                "atributos": {
+                  "d": "M310,215 H354 V173 H406",
+                  "fill": "none",
+                  "marker-end": "url(#flecha)",
+                  "stroke": "#446078",
+                  "stroke-width": "2"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "path",
+                "atributos": {
+                  "d": "M310,280 H354 V355 H406",
+                  "fill": "none",
+                  "marker-end": "url(#flecha)",
+                  "stroke": "#446078",
+                  "stroke-width": "2"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "rect",
+                "atributos": {
+                  "fill": "white",
+                  "height": "148",
+                  "rx": "10",
+                  "stroke": "#446078",
+                  "stroke-width": "2",
+                  "width": "527",
+                  "x": "416",
+                  "y": "105"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "20",
+                  "font-weight": "bold",
+                  "x": "438",
+                  "y": "138"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0010"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "438",
+                  "y": "170"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0011"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "438",
+                  "y": "204"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0012"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "16",
+                  "x": "438",
+                  "y": "232"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0013"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "rect",
+                "atributos": {
+                  "fill": "white",
+                  "height": "148",
+                  "rx": "10",
+                  "stroke": "#446078",
+                  "stroke-width": "2",
+                  "width": "527",
+                  "x": "416",
+                  "y": "281"
+                },
+                "hijos": []
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "20",
+                  "font-weight": "bold",
+                  "x": "438",
+                  "y": "314"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0014"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "438",
+                  "y": "346"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0015"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "x": "438",
+                  "y": "380"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0016"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "16",
+                  "x": "438",
+                  "y": "408"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0017"
+                  }
+                ]
+              }
+            },
+            {
+              "tipo": "elemento",
+              "elemento": {
+                "nombre": "text",
+                "atributos": {
+                  "font-size": "18",
+                  "font-weight": "bold",
+                  "x": "36",
+                  "y": "475"
+                },
+                "hijos": [
+                  {
+                    "tipo": "texto",
+                    "id": "t0018"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "tipo": "elemento",
+        "elemento": {
+          "nombre": "metadata",
+          "atributos": {},
+          "hijos": [
+            {
+              "tipo": "texto",
+              "id": "t0019"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
