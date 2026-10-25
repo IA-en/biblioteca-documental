@@ -72,7 +72,19 @@ La declaración y su comparación no conceden permisos de herramientas, acceso a
 
 La custodia admite actualmente 256 usos y 64 revisiones por uso; la última revisión queda reservada para su retirada. Son límites técnicos del registro, además de los límites generales de EET-IA, no cotas conceptuales del SV. Ante un aviso, el Administrador debe revisar y documentar la capacidad necesaria antes de ampliarla, conservando los registros. La guía del Gestor desarrolla la secuencia de uso y la consulta de sus metadatos.
 
+## Agentes Especializados y frontera
+
+La autorización de un Agente Especializado identifica los dominios completos, subdominios o Universos que comprende, su función y las condiciones de cada uso. Un agente puede abarcar varios dominios; una consulta puede requerir sólo parte del alcance asignado. La suficiencia de ese recorrido se comprueba frente a las dependencias obligatorias, sin convertir la selección parcial en permiso para omitir conocimiento. El [libro de Dominios y universos](../../dominios/universos/conceptos.html#alcance-de-un-agente-especializado) desarrolla esta delimitación.
+
+El agente se construye íntegramente en la DSL del Lenguaje de Computación del SV. El núcleo rige su semántica y su representación intermedia —IR—, incluidos los contratos aplicables a Universos, rutas críticas, células y polígonos. La selección de un modelo no introduce una semántica alternativa ni modifica silenciosamente las invariantes matemáticas del sistema.
+
+**Ninguna IA puede acceder directamente al núcleo, cualquiera que sea el nodo utilizado: 1, 2 o 3.** Toda aportación del modelo se recibe por la tubería de IA del SV y se somete al contrato de frontera. Se trata como datos no fiables, sin autoridad para ejecutar instrucciones, modificar el sistema o crear permisos. Sólo el recorrido competente puede admitir una petición cerrada conforme a su contrato. El alojamiento local, una plataforma intermedia o una conexión de proveedor no dispensan esa separación.
+
+La autorización de producción requiere evidencia material de esa frontera, de las versiones de DSL e IR utilizadas y del recorrido determinista hasta las células y sus polígonos. Cada consulta debe presentar uno o varios polígonos según su naturaleza, con trazabilidad y auditoría de su fundamento. Una definición ausente o un fallo técnico impiden afirmar un resultado: se comunican como tales, sin inventar valores ni una figura decisional. El diagrama arquitectónico o la carga de egui no acreditan por sí solos esa integración.
+
 ## Estado de seudo-producción
+
+La preparación documental del panel no cierra las obligaciones de integración. El [Acta 008](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ed93885589015d567905d1c880d8097869310085/docs/calidad/tuberias-ia/continuacion-15-09-2026/ACTA_008_ADMISION_FIRMADA_Y_COMPOSICION_INTRAPROCESO_2026_10_19.md) acredita admisión firmada y composición intraproceso con límites expresos; mantiene pendientes el reconocimiento institucional efectivo, la custodia, la continuidad R2 y el confinamiento material R3. La [entrega consolidada de exigencias](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/e4346b2971a8775608b761fa0823f76b5eb2b020/docs/evoluciones-desde-el-nucleo-no-cotejadas-generadas-por-pruebas-con-la-ia-sin-aprobacion-aun/entrega-consolidada-2026-10-19/ENTREGA.md) conserva las necesidades de comprobación semántica y material. Su cumplimiento se recibe por la capacidad que se pretenda habilitar; no se presume a partir de la presentación de una página.
 
 La **seudo-producción** designa un estado de ensayo u observabilidad en laboratorio de una configuración de uso del SV. Puede ofrecer una demostración externa de la interacción con Agentes Especializados del SV, pero esa apariencia no acredita las condiciones de producción. Se denomina **estado**, para distinguirlo de los tres modos del modelo: Sin modo como objetivo, No actuación o neutral y Actuación o activo. Estado de funcionamiento, modo del modelo, visibilidad pública o privada y autorización de una operación son dimensiones diferentes.
 
@@ -80,7 +92,18 @@ En una demostración de este estado pueden faltar la biblioteca documental const
 
 La institución debe delimitar el objetivo del ensayo, los participantes, el modelo y su configuración, las fuentes permitidas, las operaciones, la supervisión, los límites de uso, la conservación y las condiciones de interrupción. Las cuentas invitadas requieren permisos propios y no heredan la cuenta ni la autoridad de quien organiza la demostración. Duración, tokens, número de consultas y coste son límites distintos; sus relaciones deben medirse y no se presumen equivalentes. La recepción del ensayo conserva las limitaciones, incidencias y evidencias observadas.
 
-La seudo-producción no constituye una etapa obligatoria para toda instalación ni una autorización abreviada de producción. Una institución puede preparar directamente la entrada en producción o realizar antes este ensayo; en ambos casos, la producción exige sus requisitos, comprobaciones y decisiones competentes. Cambiar la denominación del estado no transforma resultados de laboratorio en evidencia de producción ni dispensa las invariantes del SV.
+La seudo-producción no constituye una etapa obligatoria para toda instalación ni una autorización abreviada de producción. Una institución puede preparar directamente la entrada en producción o realizar antes este ensayo; en ambos casos, la producción exige sus requisitos, comprobaciones y decisiones competentes. Cambiar la denominación del estado no transforma resultados de laboratorio en evidencia de producción.
+
+La excepción de este estado debe declararse con precisión:
+
+| Condición | Alcance de la excepción autorizada |
+| --- | --- |
+| Restricción de Internet y biblioteca cerrada del dominio | El protocolo puede permitir fuentes abiertas y prescindir de una biblioteca constituida; se identifican las fuentes efectivamente utilizadas. |
+| Recorrido determinista acreditado y polígono decisional del SV | La demostración puede ofrecer respuestas no deterministas sin ese recorrido. No se atribuye a sus respuestas ni a sus ilustraciones la condición de resultado decisional acreditado del SV. |
+| Aislamiento de la IA, protección del núcleo y prohibición de modificar el SV | Permanecen obligatorios en los tres nodos. La seudo-producción no abre un acceso directo ni autoriza instrucciones del modelo sobre el sistema. |
+| Transparencia, autorización y trazabilidad | Se mantienen. Las excepciones se explican antes de la consulta y acompañan sus resultados, conservando las fuentes y actuaciones observables. |
+
+La suspensión de una exigencia de acreditación durante la demostración no cambia la matemática ni la semántica del núcleo. Si se invoca una operación constituida del SV, conserva íntegro su contrato; no se presenta una aproximación del modelo como ejecución equivalente.
 
 ### Consulta sin autoridad sobre el sistema
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-dominios-en-investigacion-20261025",
+  "edicion": "biblioteca-sv-pilares-agentes-20261025",
   "libros": [
     {
       "id": "guia",
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "bb48d565a5f1709ef913007ed8acd87f92d50bb22a5bcce225685406aa5f6b60",
+        "sha256": "5eabd9809044b3b68950fd43eb56d05c427c926c61dc475d6eb1fbb27de16b87",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -730,7 +730,7 @@
           "procedencia": "Edición pública actualizada el 25/10/2026"
         },
         {
-          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "alcance": "Alcance de agentes en dominios y Universos; construcción DSL, dependencia y trazabilidad hasta células y polígonos.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -738,11 +738,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-03",
           "original": {
-            "sha256": "aae17ad1087e82602c0b76282f523cae6cd7a58691fa69fe3fab1b8f488e0dda",
+            "sha256": "dbdcfc6dab91195e4f63842bad46abc61dc9112ce5b661bbe77ac8a3d3147089",
             "ruta": "libros/dominios/src/conceptos.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+          "procedencia": "Edición pública actualizada el 25/10/2026"
         },
         {
           "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "6480f7ba7a3ab35d2ad88de99f993fa2e2583cab4d25d2342cde8ef9ac3baaba",
+        "sha256": "4106ff2ed834d602ac039ad6b761a7595b3d0e800529c0b5f0cd33b1a43f0f31",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
           "procedencia": "Edición pública actualizada el 25/10/2026",
-          "alcance": "Gobierno de sesiones y disponibilidad de agentes; preparación sin consultas ni rutas críticas.",
+          "alcance": "Tubería de IA obligatoria, autorización y excepciones delimitadas de seudo-producción; conserva recepciones pendientes.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "b757c36128280a96d0f067fdd10acac72804fc40b609e771177f2b736b6e6169",
+            "sha256": "75fee5ffb43d384e2680b0f68e76e4cd44003922c73e0de6a96336ec1e338796",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",

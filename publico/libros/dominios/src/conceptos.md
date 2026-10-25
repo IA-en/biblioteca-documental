@@ -14,6 +14,18 @@ Cada dominio necesita, por tanto, una definición pertinente para sus propias op
 
 El marco de inmunología distingue el **subdominio**, que agrupa Universos relacionados, del **módulo**, que representa, transforma o presenta información. Ninguno recibe autoridad clínica por su mera pertenencia. Esta distinción permite reconocer la agrupación documental y el componente técnico sin confundirlos con una operación autorizada.
 
+## Alcance de un Agente Especializado
+
+Un Agente Especializado puede tener asignados uno o varios dominios completos, subdominios o conjuntos identificados de Universos. Esa asignación delimita el conocimiento que puede utilizar; no obliga a recorrer íntegramente cada dominio en toda consulta. El recorrido concreto depende del objeto de la consulta y de las relaciones y obligaciones constituidas.
+
+La delimitación parcial no autoriza a omitir conocimiento necesario. Si una ruta crítica exige un Universo situado fuera del alcance autorizado del agente, se declara la insuficiencia y se aplica la interrupción o revisión prevista. La asignación no se amplía por iniciativa del modelo ni se sustituye la dependencia por información semejante. Compartir dominios tampoco transmite permisos, documentos ni conclusiones entre consultas.
+
+El agente se construye íntegramente mediante la DSL del Lenguaje de Computación del SV. Su definición identifica alcance, versiones, fuentes, contratos y condiciones de ejecución; queda sometida a la semántica y a la representación intermedia —IR— regidas por el núcleo. La realización interna del modelo de IA conserva su identidad tecnológica y no adquiere autoridad para modificar esas reglas. La construcción de un agente no permite introducir excepciones tácitas a las invariantes matemáticas o semánticas del SV.
+
+En el funcionamiento determinista exigido para producción, cada consulta debe relacionar su recorrido acreditado con uno o varios polígonos del SV, según las células constituidas que correspondan a su naturaleza. Cada polígono conserva identidad celular, dimensión, parámetros, fuentes y evidencia; la multiplicidad de dominios no fija por sí sola el número de figuras. Si faltan las definiciones o las comprobaciones necesarias, se informa de esa carencia sin producir una figura decisional aparente.
+
+Los primeros Universos documentados de Inmunología y Ciberseguridad constituyen las referencias delimitadas de esta fase. No acreditan que las restantes células, rutas o relaciones de los agentes estén definidas o ejecutadas. Las [condiciones de autorización y seudo-producción](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#agentes-especializados-y-frontera) distinguen estas exigencias de una demostración con fuentes abiertas y respuestas no deterministas.
+
 ## Qué identifica un parámetro
 
 Un parámetro es una unidad de significado delimitada por su definición, dominio, función y alcance. La analogía con un átomo expresa su separación respecto de otras unidades, pero no demuestra atomicidad ni determina automáticamente una posición celular.
