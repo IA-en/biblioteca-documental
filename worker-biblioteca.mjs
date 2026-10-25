@@ -28,6 +28,10 @@ export function presentar(html, url) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    // La edición de consulta del Manual se ofrece en el Gestor autenticado.
+    if (/^\/(?:libros\/)?desarrolladores(?:\/|$)/.test(url.pathname) || url.pathname === '/identidad-desarrolladores.json') {
+      return new Response(null, {status: 410, headers: {'cache-control': 'no-store', 'x-robots-tag': 'noindex'}});
+    }
     const capitulo = url.pathname.match(/^\/evaluacion\/validacion-autorizacion-modelos\/en\/(finalidad|documentos|edicion|correccion|transporte|autoridad|comparacion)(?:\.html)?\/?$/);
     if ((request.method === 'GET' || request.method === 'HEAD') && capitulo) {
       const destino = new URL(url);

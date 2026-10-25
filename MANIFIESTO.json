@@ -728,8 +728,8 @@
     },
     {
       "ruta": "publico/_worker.js",
-      "bytes": 4967,
-      "sha256": "e3582e99612d8f8a9d3b75ea69142d11ce3591535a095d439efe0fcc33e83ae6"
+      "bytes": 5292,
+      "sha256": "156e10f66a3fc32a0b9a23ecaeda7b911330bb1f7603106cb77d139c47e1b8c6"
     },
     {
       "ruta": "publico/.nojekyll",
@@ -3573,8 +3573,8 @@
     },
     {
       "ruta": "worker-biblioteca.mjs",
-      "bytes": 4967,
-      "sha256": "e3582e99612d8f8a9d3b75ea69142d11ce3591535a095d439efe0fcc33e83ae6"
+      "bytes": 5292,
+      "sha256": "156e10f66a3fc32a0b9a23ecaeda7b911330bb1f7603106cb77d139c47e1b8c6"
     }
   ],
   "licencia": "© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).",
