@@ -1,93 +1,108 @@
 {
-  "version": 1,
   "edicion": "enciclopedia-sv-20261025",
   "estado": "preparacion_local",
+  "version": 1,
   "libros": [
     {
+      "titulo": "Enciclopedia temática del Sistema Vectorial SV",
+      "plan": {
+        "sha256": "963b65052e3a4ba4a7b9b6870a5b742ade18f9fdd557fcd452191290b89c22bc",
+        "ruta": "libros/enciclopedia/plan.json"
+      },
       "metadatos": [
         {
-          "sintetico": false,
-          "visibilidad": "publica",
           "correspondencia": "identidad_literal",
-          "documento": "ENC-01",
-          "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
-          "tipo_original": "markdown",
-          "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
-          "licencia": "CC BY-NC-ND 4.0",
-          "identificador_editorial_r0": null,
+          "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/SUMMARY.md",
-            "sha256": "961e4af0f2862c521b35359707621e010fb3dab5e63338cf444fa6cd77cad200"
-          }
+            "sha256": "d8b9377cbd6d4d602aba42491e23f9ec88e9137391e548dcfb9a84cc1ec7e9d8"
+          },
+          "documento": "ENC-01",
+          "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
+          "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null
         },
         {
-          "sintetico": false,
-          "visibilidad": "publica",
           "correspondencia": "identidad_literal",
-          "documento": "ENC-02",
-          "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
-          "tipo_original": "markdown",
-          "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
-          "licencia": "CC BY-NC-ND 4.0",
-          "identificador_editorial_r0": null,
+          "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/presentacion.md",
-            "sha256": "e414392d09aeca70295b07d9480ca3a0bf221c61fa9dad0c6c8cdd0ecc9d2d06"
-          }
+            "sha256": "92e30b2b92e793e17ae78877fc93a6aa1b7ba802daad0a7235d3ef8c8672c379"
+          },
+          "documento": "ENC-02",
+          "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
+          "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null
         },
         {
-          "sintetico": false,
-          "visibilidad": "publica",
           "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "original": {
+            "ruta": "libros/enciclopedia/src/recorridos.md",
+            "sha256": "8ce77cbd302d467fdd549f0c6cb1b2fda5895625904cbf20ddbc171da0244d87"
+          },
           "documento": "ENC-03",
           "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
-          "tipo_original": "markdown",
           "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
-          "identificador_editorial_r0": null,
+          "identificador_editorial_r0": null
+        },
+        {
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/lenguaje.md",
-            "sha256": "303e8297d25a9992c1f25b723fc4a9959a3007406e5def542ae455167748421b"
-          }
-        },
-        {
-          "sintetico": false,
-          "visibilidad": "publica",
-          "correspondencia": "identidad_literal",
+            "sha256": "6296303bca14486ba762bcd7f558d8f92d210a08d12ab6fc9f6aa70310d7d760"
+          },
           "documento": "ENC-04",
           "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
-          "tipo_original": "markdown",
           "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
-          "identificador_editorial_r0": null,
-          "original": {
-            "ruta": "libros/enciclopedia/src/ia.md",
-            "sha256": "4380de34197436daac4d7c22ca6eabca2ccd3476fd1546fbe7dd11338994f914"
-          }
+          "identificador_editorial_r0": null
         },
         {
-          "sintetico": false,
-          "visibilidad": "publica",
           "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "original": {
+            "ruta": "libros/enciclopedia/src/ia.md",
+            "sha256": "8b0d020eecc869bece136943c69381b238d926afd7886e80cd712fa7a38d2d3c"
+          },
           "documento": "ENC-05",
           "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
-          "tipo_original": "markdown",
           "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
-          "identificador_editorial_r0": null,
+          "identificador_editorial_r0": null
+        },
+        {
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/fisica-quimica-matematica.md",
             "sha256": "9fddcd085f2e32579a8e5689b460e73149093f6c3c7222f6186d89872de79685"
-          }
+          },
+          "documento": "ENC-06",
+          "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
+          "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null
         }
       ],
       "id": "enciclopedia",
-      "plan": {
-        "ruta": "libros/enciclopedia/plan.json",
-        "sha256": "2070a72889272460f7ac002a96f0ed1b5b57d43973ec09354894e938fce0a8b4"
-      },
-      "raiz": "libros/enciclopedia/src",
-      "titulo": "Enciclopedia temática del Sistema Vectorial SV"
+      "raiz": "libros/enciclopedia/src"
     }
   ]
 }

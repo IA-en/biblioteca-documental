@@ -30,7 +30,7 @@
         <link rel="stylesheet" id="mdbook-ayu-highlight-css" href="ayu-highlight-3fdfc3ac.css">
 
         <!-- Custom theme stylesheets -->
-        <link rel="stylesheet" href="biblioteca-37bf7056.css">
+        <link rel="stylesheet" href="biblioteca-2d45672b.css">
 
 
         <!-- Provide site root and default themes to javascript -->
@@ -38,10 +38,10 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-9c566e84.js";
+            window.path_to_searchindex_js = "searchindex-3bfcba23.js";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-10ae5177.js"></script>
+        <script src="toc-a153d714.js"></script>
     </head>
     <body>
     <div id="mdbook-help-container">
@@ -192,9 +192,26 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="/index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="/consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="/licencias.html">Licencias</a><p>Edición 25/10/2026 · Original en español</p></nav>
+<section class="enc-consulta" aria-label="Consulta de la enciclopedia">
+  <form action="index.html" method="get" role="search" aria-label="Buscar en toda la enciclopedia">
+    <label for="enc-busqueda">Buscar conceptos y relaciones</label>
+    <div><input id="enc-busqueda" name="search" type="search" placeholder="Término, sigla o expresión" aria-describedby="enc-ayuda-busqueda" required><button type="submit">Buscar</button></div>
+    <p id="enc-ayuda-busqueda">Consulta conjunta de definiciones, ejemplos y recorridos.</p>
+  </form>
+  <nav aria-label="Exploración temática"><a href="recorridos.html">Explorar relaciones</a><a href="lenguaje.html#consulta-temática">Lenguaje</a><a href="ia.html#consulta-temática">Inteligencia Artificial</a></nav>
+</section>
                         <h1 id="enciclopedia-temática-del-sistema-vectorial-sv"><a class="header" href="#enciclopedia-temática-del-sistema-vectorial-sv">Enciclopedia temática del Sistema Vectorial SV</a></h1>
 <p><strong>Primera edición · 25 de octubre de 2026 · Original en español.</strong></p>
 <p>Una referencia común para comprender el vocabulario del Sistema Vectorial SV, relacionar sus conceptos y localizar las fuentes que los delimitan. Las definiciones se acompañan de distinciones, publicaciones y ejemplos; no sustituyen las especificaciones ni amplían las autorizaciones de uso.</p>
+<h2 id="qué-desea-comprender"><a class="header" href="#qué-desea-comprender">¿Qué desea comprender?</a></h2>
+<p>Explore una pregunta y sus relaciones entre volúmenes. Cada recorrido permite desplegar conceptos, contrastar términos próximos y continuar hacia definiciones, ejemplos y fuentes. Puede seguir una propuesta o cambiar de dirección en cualquier momento.</p>
+<ul>
+<li><a href="#del-conocimiento-al-agente"><strong>01 · Conocimiento. ¿Cómo se construye el alcance de un agente?</strong> — Dominio, Universo, biblioteca y DSL.</a></li>
+<li><a href="#escritura-y-significado"><strong>02 · Lenguaje. ¿Escribir, interpretar y ejecutar son lo mismo?</strong> — Gramática, semántica, IR y comprobación.</a></li>
+<li><a href="#evaluar-y-autorizar"><strong>03 · Decisión. ¿Qué permite concluir una evaluación?</strong> — Clasificación, predominancia y autorización.</a></li>
+<li><a href="#proteccion-del-nucleo"><strong>04 · Protección. ¿Por qué la IA no puede alcanzar el núcleo?</strong> — Aislamiento, tubería e invariantes.</a></li>
+<li><a href="#uso-y-evidencia"><strong>05 · Evidencia. ¿Qué distingue el acceso del uso efectivo?</strong> — Sesión, consulta, inferencia y trazabilidad.</a></li>
+</ul>
 <h2 id="tres-volúmenes"><a class="header" href="#tres-volúmenes">Tres volúmenes</a></h2>
 <div class="table-wrapper">
 <table>
@@ -209,7 +226,8 @@
 </table>
 </div>
 <h2 id="cómo-consultar"><a class="header" href="#cómo-consultar">Cómo consultar</a></h2>
-<p>Cada volumen ofrece un índice por materias y entradas alfabéticas desplegables. Puede utilizar la búsqueda del libro o la búsqueda de texto del navegador. Los términos mantienen direcciones propias para citarlos. Las publicaciones se abren en una pestaña nueva; los casos explican relaciones y límites sin atribuir resultados a pruebas que no se hayan realizado.</p>
+<p>La búsqueda visible consulta conjuntamente los volúmenes y los recorridos. Puede buscar una palabra, una sigla o una expresión; los resultados ofrecen fragmentos para decidir qué entrada leer. Los índices por materias permiten otra aproximación, y cada entrada propone dos continuaciones explicadas. Estas remisiones son editoriales: no constituyen recomendaciones automatizadas ni requieren un perfil personal.</p>
+<p>Los <a href="#explorar-relaciones-y-recorridos">recorridos visuales</a> relacionan los conceptos mediante diagramas desplegables y contrastes. Los términos mantienen direcciones propias para citarlos. Las publicaciones se abren en una pestaña nueva; los casos explican relaciones y límites sin atribuir resultados a pruebas que no se hayan realizado.</p>
 <p>Las definiciones específicas del SV se distinguen del uso general de una palabra. Los nombres formales de instrucciones y especificaciones se conservan cuando son necesarios para una consulta exacta. La expresión española explica su significado y sus límites.</p>
 <p>Consulte los <a href="#criterios-de-consulta-y-actualización">criterios de consulta y actualización</a> y el <a href="https://documentos-sv.itvia.online/">catálogo de la biblioteca</a>.</p>
 <h2 id="criterios-de-consulta-y-actualización"><a class="header" href="#criterios-de-consulta-y-actualización">Criterios de consulta y actualización</a></h2>
@@ -230,6 +248,98 @@
 <h3 id="coherencia-terminológica"><a class="header" href="#coherencia-terminológica">Coherencia terminológica</a></h3>
 <p>Se emplea español preciso y se explican las siglas en su primera aparición. Las expresiones metafóricas se sustituyen por la operación o relación que realmente designan. Los términos científicos y los identificadores formales se conservan con su significado documentado; suprimirlos por su forma verbal puede alterar el contenido.</p>
 <p>Los libros mantienen las precisiones necesarias para su propia materia y remiten aquí para las definiciones comunes. Una divergencia se resuelve examinando la fuente competente y su versión, no mediante una sustitución automática de palabras.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="explorar-relaciones-y-recorridos"><a class="header" href="#explorar-relaciones-y-recorridos">Explorar relaciones y recorridos</a></h1>
+<p>No necesita leer un volumen completo ni seguir un orden único. Elija una pregunta, despliegue sus relaciones y continúe por el concepto que necesite. Cada término conserva su definición, sus distinciones y sus fuentes. Las propuestas son remisiones editoriales explicadas; no dependen de un perfil personal ni constituyen recomendaciones de modelos de IA.</p>
+<ul>
+<li><a href="#del-conocimiento-al-agente">Conocimiento y agente</a></li>
+<li><a href="#escritura-y-significado">Escritura y significado</a></li>
+<li><a href="#evaluar-y-autorizar">Evaluación y autorización</a></li>
+<li><a href="#proteccion-del-nucleo">Protección del núcleo</a></li>
+<li><a href="#uso-y-evidencia">Uso y evidencia</a></li>
+</ul>
+<p>Los diagramas representan <strong>relaciones para la lectura</strong>. Sus conexiones no declaran un orden obligatorio de ejecución, una habilitación operativa ni una nueva relación matemática del SV. Puede recorrerlos en ambos sentidos y regresar mediante el navegador.</p>
+<h2 id="del-conocimiento-al-agente"><a class="header" href="#del-conocimiento-al-agente">Del conocimiento al agente</a></h2>
+<p>¿Cómo se relacionan un ámbito de conocimiento, sus Universos y un Agente Especializado? Despliegue cada concepto para reconocer la relación; siga su enlace cuando necesite la definición completa.</p>
+<h3 id="dominio"><a class="header" href="#dominio">Dominio</a></h3>
+<p>Delimita el ámbito de conocimiento, finalidad y operaciones. <a href="#dominio-1">Leer la definición de dominio</a>.</p>
+<p><em>Relación: comprende operaciones delimitadas.</em></p>
+<h3 id="universo"><a class="header" href="#universo">Universo</a></h3>
+<p>Su constitución identifica finalidad, fuentes, relaciones y límites. <a href="#universo-1">Leer la definición de Universo</a>.</p>
+<p><em>Relación: contribuye a precisar el alcance.</em></p>
+<h3 id="agente-especializado"><a class="header" href="#agente-especializado">Agente Especializado</a></h3>
+<p>Puede reunir dominios completos, subdominios o conjuntos de Universos; su construcción se expresa en la DSL. <a href="#agente">Leer la definición de agente</a> y <a href="#dsl">consultar DSL</a>.</p>
+<p><strong>Para distinguir:</strong> el <a href="#modelo">modelo de IA</a> utilizado no es el agente. La <a href="#biblioteca">biblioteca de dominio</a> aporta fuentes bajo condiciones identificadas; no es una autorización de consulta.</p>
+<p><strong>En un caso:</strong> <a href="#dos-funciones-principales-en-una-misma-institución">dos funciones principales en una misma institución</a>. <strong>Fuente del recorrido:</strong> <a href="https://documentos-sv.itvia.online/dominios/universos/conceptos.html">Dominios y universos · Definiciones y relaciones</a>.</p>
+<h2 id="escritura-y-significado"><a class="header" href="#escritura-y-significado">Escritura y significado</a></h2>
+<p>¿Por qué un texto admitido no equivale a una operación ejecutada?</p>
+<h3 id="gramática--forma"><a class="header" href="#gramática--forma">Gramática · forma</a></h3>
+<p>Determina las construcciones que pueden escribirse. <a href="#gramatica">Consultar gramática</a>.</p>
+<p><em>Relación: se distingue de.</em></p>
+<h3 id="semántica--significado"><a class="header" href="#semántica--significado">Semántica · significado</a></h3>
+<p>Precisa el significado de las construcciones y operaciones. <a href="#semantica">Consultar semántica</a>.</p>
+<p><em>Relación: debe respetarse en.</em></p>
+<h3 id="ir--representación"><a class="header" href="#ir--representación">IR · representación</a></h3>
+<p>Conserva objetos, operaciones y relaciones sometidos a reglas de bienformación. <a href="#ir">Consultar representación intermedia</a>.</p>
+<p><strong>Para continuar:</strong> <a href="#archivo-svp">archivo SVP</a>, <a href="#admision">admisión técnica</a> y <a href="#contrato">contrato de una operación</a>. La ejecución requiere además condiciones y evidencia propias.</p>
+<p><strong>En un caso:</strong> <a href="#interpretar-un-archivo-sin-atribuirle-una-ejecución">interpretar un archivo sin atribuirle una ejecución</a>. <strong>Fuente del recorrido:</strong> <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/conformidad-diagnosticos.html">Conformidad y diagnósticos</a>.</p>
+<h2 id="evaluar-y-autorizar"><a class="header" href="#evaluar-y-autorizar">Evaluar y autorizar</a></h2>
+<p>¿Qué relación existe entre evaluar un modelo, compararlo y asignarle una función?</p>
+<h3 id="evaluación"><a class="header" href="#evaluación">Evaluación</a></h3>
+<p>Examina capacidades bajo condiciones identificadas. <a href="#evaluacion">Consultar evaluación</a>.</p>
+<p><em>Relación: fundamenta, con un criterio declarado.</em></p>
+<h3 id="clasificación"><a class="header" href="#clasificación">Clasificación</a></h3>
+<p>Ordena resultados comparables sin ampliar su alcance. <a href="#clasificacion">Consultar clasificación</a>.</p>
+<p><em>Relación: no sustituye.</em></p>
+<h3 id="autorización"><a class="header" href="#autorización">Autorización</a></h3>
+<p>La institución delimita el uso permitido y sus condiciones. <a href="#autorizacion">Consultar autorización</a>.</p>
+<h3 id="comparar-tres-conceptos-próximos-modo-predominancia-y-estado"><a class="header" href="#comparar-tres-conceptos-próximos-modo-predominancia-y-estado">Comparar tres conceptos próximos: modo, predominancia y estado</a></h3>
+<ul>
+<li>
+<p><strong><a href="#modo">Modo predominante</a></strong>: Objetivo principal de un uso identificado del modelo.</p>
+</li>
+<li>
+<p><strong><a href="#predominancia">Predominancia en un dominio</a></strong>: Función principal asignada en un ámbito y uso delimitados; no equivale a un puesto de clasificación.</p>
+</li>
+<li>
+<p><strong><a href="#seudoproduccion">Seudo-producción</a></strong>: Estado de ensayo con excepciones expresas; conserva el aislamiento y la protección del núcleo.</p>
+</li>
+</ul>
+<p><strong>En un caso:</strong> <a href="#comparar-sin-modificar-la-clasificación">comparar sin modificar la clasificación</a>. <strong>Fuente del recorrido:</strong> <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html">Comparación y lectura de resultados</a>.</p>
+<h2 id="proteccion-del-nucleo"><a class="header" href="#proteccion-del-nucleo">Protección del núcleo</a></h2>
+<p>¿Qué impide que una aportación de IA se convierta en una orden dirigida al SV?</p>
+<p><a href="#modelo">Modelo de IA</a> · sus aportaciones son datos no fiables.</p>
+<h3 id="tubería-y-admisión-controladas"><a class="header" href="#tubería-y-admisión-controladas">Tubería y admisión controladas</a></h3>
+<p>Se examinan los contratos y condiciones de los datos recibidos. La recepción no concede facultades de actuación. <a href="#tuberia">Tubería de IA</a> · <a href="#admision">Admisión técnica</a>.</p>
+<p><strong>Sin acceso directo ni autoridad de modificación</strong>
+Esta protección permanece en todos los nodos y también en seudo-producción.</p>
+<p><a href="#nucleo">Núcleo del Lenguaje SV</a> · sus contratos e invariantes no pueden ser alterados por el modelo.</p>
+<p><strong>Para continuar:</strong> <a href="#aislamiento">aislamiento</a>, <a href="#invariante">invariante</a> y <a href="#nodo">nodo</a>. El diagrama explica una obligación arquitectónica; no acredita por sí solo su integración material.</p>
+<p><strong>En un caso:</strong> <a href="#rechazar-una-instrucción-ajena-al-contrato">rechazar una instrucción ajena al contrato</a>. <strong>Fuente del recorrido:</strong> <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#agentes-especializados-y-frontera">Agentes Especializados y frontera</a>.</p>
+<h2 id="uso-y-evidencia"><a class="header" href="#uso-y-evidencia">Uso y evidencia</a></h2>
+<p>¿Qué se ha utilizado realmente y qué permiten afirmar los registros?</p>
+<h3 id="seguir-una-consulta-autorización-sesión-inferencia-y-evidencia"><a class="header" href="#seguir-una-consulta-autorización-sesión-inferencia-y-evidencia">Seguir una consulta: autorización, sesión, inferencia y evidencia</a></h3>
+<ul>
+<li>
+<p><a href="#autorizacion">Autorización</a>: determina condiciones y límites.</p>
+</li>
+<li>
+<p><a href="#sesion">Sesión</a>: identifica el contexto de acceso y actividad.</p>
+</li>
+<li>
+<p><a href="#consulta">Consulta</a> e <a href="#inferencia">inferencia</a>: distinguen la solicitud y la operación del modelo.</p>
+</li>
+<li>
+<p><a href="#evidencia">Evidencia</a> y <a href="#trazabilidad">trazabilidad</a>: fundamentan y permiten reconstruir lo que se declara comprobado.</p>
+</li>
+</ul>
+<p>Acceder a una página no demuestra que se haya enviado una consulta. Un recuento de <a href="#token">tokens</a> tampoco acredita un coste monetario definitivo.</p>
+<p><strong>En dos casos:</strong> <a href="#distinguir-demostración-sesión-y-consulta">distinguir demostración, sesión y consulta</a> e <a href="#interpretar-un-consumo-incompleto">interpretar un consumo incompleto</a>. <strong>Fuentes del recorrido:</strong> <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html">Facultades, autorización y producción</a> y <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/observabilidad.html">Observabilidad y medidas</a>.</p>
+<h2 id="elegir-otra-continuación"><a class="header" href="#elegir-otra-continuación">Elegir otra continuación</a></h2>
+<p>Puede regresar al <a href="#explorar-relaciones-y-recorridos">mapa de preguntas</a>, buscar un término en toda la enciclopedia o consultar los índices temáticos del <a href="#consulta-temática">volumen I</a> y del <a href="#consulta-temática-1">volumen II</a>. Cada entrada propone dos continuaciones y explica su relación. Las publicaciones de ambos volúmenes permiten profundizar en las fuentes.</p>
+<p>El <a href="#diccionario-físico-químico-y-matemático-del-sv">volumen III</a> continúa anunciado. No se le atribuyen relaciones científicas, definiciones ni ejemplos pendientes de elaboración y revisión.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>
@@ -256,63 +366,83 @@
 <h3 id="admision"><a class="header" href="#admision">Admisión técnica</a></h3>
 <p>Cumplimiento de las condiciones exigidas para aceptar una entrada en una operación determinada. En el Lenguaje SV puede comprender la forma del texto, los tipos y las restricciones de su contrato. Su alcance depende de las comprobaciones efectivamente realizadas.</p>
 <p><strong>Distinción:</strong> admitir una representación no demuestra que su operación se haya ejecutado ni que exista autorización institucional para utilizarla. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/conformidad-diagnosticos.html">Conformidad y diagnósticos</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#contrato">Contrato de una operación</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#autorizacion">Autorización de uso</a>. Comparar las condiciones técnicas con la decisión institucional. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="director"><a class="header" href="#director">Árbitro–Director</a></h3>
 <p>Componente al que se atribuye el gobierno de una operación: comprueba condiciones, entradas, permisos y límites, y relaciona su ejecución con la evidencia correspondiente. Sus facultades concretas dependen de los contratos implementados y recibidos.</p>
 <p><strong>Relación:</strong> el Selector informa la elección del destino de cálculo a partir de los recursos observados. La presencia de un dispositivo no autoriza su uso. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/arbitro-director.html">Árbitro–Director</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#selector">Selector de recursos de cálculo</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#gobernada">IA gobernada</a>. Relacionar la elección de recursos con las facultades de gobierno. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="archivo-svp"><a class="header" href="#archivo-svp">Archivo SVP</a></h3>
 <p>Documento textual que expresa declaraciones y operaciones del Lenguaje de Computación SV conforme a un perfil lingüístico y una gramática identificados. El análisis produce una representación estructurada o un diagnóstico.</p>
 <p><strong>Distinción:</strong> un archivo admitido no equivale a una operación ejecutada. La extensión del archivo tampoco acredita por sí sola su validez. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/ejemplos-svp.html">Ejemplos por construcción</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#gramatica">Gramática superficial</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#ir">Representación intermedia · IR</a>. Seguir la relación entre escritura y representación, sin presumir ejecución. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="comprobacion"><a class="header" href="#comprobacion">Comprobación</a></h3>
 <p>Contraste de una condición con criterios y evidencias identificados. Debe declarar objeto, versión, procedimiento, resultado y límites. Una inspección del texto, una prueba ejecutada y una recepción favorable son actos distintos.</p>
 <p><strong>Uso:</strong> «comprobado» siempre requiere precisar qué se comprobó. La ausencia de un fallo observado no acredita propiedades que no fueron examinadas. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/desarrollo-validacion-nucleo.html">Desarrollo y validación del núcleo</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia">Evidencia de evaluación</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#trazabilidad">Trazabilidad</a>. Examinar qué fundamenta una afirmación y cómo se reconstruye. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="contrato"><a class="header" href="#contrato">Contrato de una operación</a></h3>
 <p>Especificación de las entradas, resultados, relaciones, restricciones y condiciones de validez de una operación. Aquí se utiliza en sentido formal y computacional; no designa por sí mismo un acuerdo jurídico.</p>
 <p><strong>En el SV:</strong> una interfaz o un modelo de IA no pueden ampliar las facultades definidas por el contrato. Su aceptación técnica y la autorización institucional se comprueban separadamente. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/arquitectura-ejecucion.html">Arquitectura y entornos de ejecución</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#invariante">Invariante</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#admision">Admisión técnica</a>. Identificar qué debe conservarse y qué condiciones permiten admitir una entrada. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="diagnostico"><a class="header" href="#diagnostico">Diagnóstico técnico</a></h3>
 <p>Información que identifica un rechazo, una limitación o una incidencia del procesamiento. Explica qué condición impide continuar o interpretar válidamente el resultado.</p>
 <p><strong>Distinción:</strong> un fallo de ejecución no se transforma automáticamente en un valor U, un dictamen científico ni un diagnóstico clínico. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/conformidad-diagnosticos.html">Conformidad y diagnósticos</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#dictamen">Dictamen de evaluación</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#comprobacion">Comprobación</a>. Distinguir una incidencia técnica de una conclusión de evaluación. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="dsl"><a class="header" href="#dsl">DSL · Lenguaje específico de dominio</a></h3>
 <p>Sigla inglesa de <em>domain-specific language</em>. Designa un lenguaje especializado en expresar problemas y operaciones de un ámbito delimitado, frente al propósito general de otros lenguajes. La especialización exige reglas explícitas; no basta una colección informal de instrucciones.</p>
 <p><strong>En el SV:</strong> identifica su lenguaje propio de construcción y representación. Su implementación en Rust se distingue de los programas escritos en SVP. Véanse <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/constructor.html">Ámbito y organización</a> y la publicación metodológica <a href="#publicaciones">L-04</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#archivo-svp">Archivo SVP</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#agente">Agente Especializado del SV</a>. Relacionar el lenguaje especializado con los documentos y construcciones que expresa. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="explorador"><a class="header" href="#explorador">Explorador Tensorial del SV</a></h3>
 <p>Componente destinado a identificar recursos y capacidades observables e informar de ellos al Selector. El inventario conserva procedencia, disponibilidad y límites de observación.</p>
 <p><strong>Distinción:</strong> detectar un acelerador no acredita que una operación concreta pueda ejecutarse en él ni que resulte más rápida. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/explorador-tensorial-sv.html">Explorador Tensorial del SV</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#selector">Selector de recursos de cálculo</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#observabilidad">Observabilidad</a>. Diferenciar la detección de capacidades de la selección fundamentada. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="frame"><a class="header" href="#frame">Frame · Representación estructurada de un suceso</a></h3>
 <p>Denominación formal utilizada para una representación estructurada de un suceso y de las relaciones requeridas por su contrato. La explicación española acompaña al término de la especificación; no sustituye sus campos ni su identidad.</p>
 <p><strong>Distinción:</strong> no es una captura de pantalla ni una descripción narrativa libre. Su validez exige las relaciones establecidas en la fuente correspondiente. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/parametros-rutas.html">Parámetros, recorridos y evidencia</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#contrato">Contrato de una operación</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#trazabilidad">Trazabilidad</a>. Comprender las relaciones exigidas al registro y su reconstrucción posterior. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="gramatica"><a class="header" href="#gramatica">Gramática superficial</a></h3>
 <p>Conjunto de reglas que determina cómo se escriben las construcciones del lenguaje. Su versión delimita las formas admitidas y sus restricciones expresas.</p>
 <p><strong>Distinción:</strong> la corrección sintáctica no acredita por sí sola la validez semántica, la autorización ni la ejecución. Las precisiones de una versión posterior prevalecen únicamente en lo que sustituyen. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/referencia-terminologia.html">Terminología y referencias del lenguaje</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#semantica">Semántica del lenguaje</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#ir">Representación intermedia · IR</a>. Distinguir la forma de escritura, su significado y su representación. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="huella"><a class="header" href="#huella">Huella de contenido · SHA-256</a></h3>
 <p>Valor calculado mediante una función criptográfica sobre los bytes de un contenido. Permite cotejar la identidad de las copias con una referencia identificada, bajo las propiedades del algoritmo y las condiciones del cotejo.</p>
 <p><strong>Distinción:</strong> la coincidencia de huellas no acredita autoría, permiso de uso, corrección científica ni autenticidad de una referencia no fiable. Véase <a href="https://documentos-sv.itvia.online/documentacion/reglas-usos-descripciones-documentales/verificacion.html">Verificación documental</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia">Evidencia de evaluación</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#trazabilidad">Trazabilidad</a>. Separar identidad de contenido, validez de la evidencia y reconstrucción documental. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="invariante"><a class="header" href="#invariante">Invariante</a></h3>
 <p>Propiedad que debe conservarse en las transformaciones u operaciones comprendidas en una especificación. Su contenido y alcance deben estar expresados; la palabra no sustituye la formulación ni la comprobación.</p>
 <p><strong>En el SV:</strong> la construcción de un agente no puede introducir excepciones tácitas a las invariantes matemáticas o semánticas. La demostración denominada seudo-producción tampoco permite modificar el núcleo. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#agentes-especializados-y-frontera">Agentes Especializados y frontera</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#semantica">Semántica del lenguaje</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#aislamiento">Aislamiento de la IA</a>. Relacionar las propiedades exigidas con las protecciones permanentes. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="nucleo"><a class="header" href="#nucleo">Núcleo del Lenguaje SV</a></h3>
 <p>Componente que realiza el análisis, las comprobaciones y la representación estructurada del lenguaje, con las funciones implementadas en la revisión correspondiente. Gobierna los contratos semánticos que le competen.</p>
 <p><strong>Límite:</strong> ninguna IA recibe acceso directo ni autoridad para modificarlo. Una descripción arquitectónica no acredita la integración material completa de todas sus protecciones. Véanse <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/arquitectura-ejecucion.html">Arquitectura</a> y <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/desarrollo-validacion-nucleo.html">Desarrollo y validación</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#tuberia">Tubería de IA</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#aislamiento">Aislamiento de la IA</a>. Examinar por qué una aportación de IA no confiere acceso ni autoridad sobre el núcleo. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="observabilidad"><a class="header" href="#observabilidad">Observabilidad</a></h3>
 <p>Capacidad de obtener evidencia sobre actuaciones, resultados, tiempos y recursos mediante puntos de observación identificados. Su cobertura depende de lo que se mida efectivamente.</p>
 <p><strong>Distinción:</strong> observar una petición y su respuesta no permite conocer todo el procesamiento interno de un proveedor. Debe indicarse qué parte permanece fuera de la observación. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/observabilidad.html">Observabilidad y medidas</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#trazabilidad">Trazabilidad</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia">Evidencia de evaluación</a>. Precisar qué se observa, qué puede reconstruirse y qué queda sin comprobar. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="perfil"><a class="header" href="#perfil">Perfil lingüístico SVP-ES o SVP-EN</a></h3>
 <p>Selección explícita de la forma lingüística con la que se expresa un programa SVP. No se deduce del idioma de la interfaz.</p>
 <p><strong>Uso:</strong> una instrucción del perfil inglés conserva su nombre formal cuando se explica su sintaxis; la explicación española precisa su significado. Cambiar la presentación no modifica automáticamente el programa. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/playground-sv.html">Playground del Lenguaje SV</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#archivo-svp">Archivo SVP</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#gramatica">Gramática superficial</a>. Situar el idioma del programa dentro de sus reglas de escritura. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="ir"><a class="header" href="#ir">Representación intermedia · IR</a></h3>
 <p>Sigla inglesa de <em>intermediate representation</em>. Estructura que conserva los objetos, operaciones y relaciones obtenidos al interpretar el texto y aplicar las comprobaciones correspondientes. En el SV se somete a reglas de bienformación y a una versión identificada.</p>
 <p><strong>Distinción:</strong> representar una operación no equivale a ejecutarla. La interfaz no puede completar relaciones faltantes atribuyéndoles una semántica no recibida. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/referencia-terminologia.html">Terminología y referencias del lenguaje</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#semantica">Semántica del lenguaje</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#contrato">Contrato de una operación</a>. Reconocer las relaciones formales que la representación debe respetar. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="selector"><a class="header" href="#selector">Selector de recursos de cálculo</a></h3>
 <p>Componente que elige un destino compatible y autorizado para una carga, utilizando capacidades y medidas disponibles. La denominación completa del SV identifica los dispositivos CPU, GPU, TPU y NPU considerados por su especificación.</p>
 <p><strong>Límite:</strong> no se presume una prioridad universal de un tipo de dispositivo. La elección debe fundamentarse; puede no existir un destino admisible. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/selector-arbitro-director.html">Selector CPU/GPU/TPU/NPU</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#explorador">Explorador Tensorial del SV</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#director">Árbitro–Director</a>. Relacionar la información sobre recursos con la decisión autorizada de utilización. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="semantica"><a class="header" href="#semantica">Semántica del lenguaje</a></h3>
 <p>Significado atribuido a las construcciones y operaciones por sus definiciones y reglas. Se distingue de la sintaxis, que determina su forma de escritura.</p>
 <p><strong>En el SV:</strong> la presentación visual, el proveedor y el nodo de ejecución no instituyen una semántica alternativa. Una explicación en lenguaje natural debe remitir al contrato que precisa el significado. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/construcciones-y-componentes.html">Construcciones e instrucciones propias</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#gramatica">Gramática superficial</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#invariante">Invariante</a>. Comparar forma, significado y propiedades que no pueden alterarse tácitamente. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="trazabilidad"><a class="header" href="#trazabilidad">Trazabilidad</a></h3>
 <p>Posibilidad de reconstruir relaciones pertinentes entre fuentes, versiones, actuaciones y resultados mediante registros identificados. Exige conservar el fundamento y las condiciones de lo que se pretende reconstruir.</p>
 <p><strong>Distinción:</strong> disponer de registros no acredita cobertura completa ni autoriza su difusión. Deben declararse las observaciones ausentes y las condiciones de acceso. Véase <a href="https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/observabilidad.html">Observabilidad y medidas</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#frame">Frame · Representación estructurada de un suceso</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia">Evidencia de evaluación</a>. Relacionar los registros estructurados con el fundamento de las conclusiones. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="tuberia"><a class="header" href="#tuberia">Tubería de IA</a></h3>
 <p>Denominación específica del SV para el recorrido controlado de recepción y admisión de aportaciones de un modelo. Comprende contratos de frontera y comprobaciones; no designa una conexión directa entre la IA y el núcleo.</p>
 <p><strong>Límite permanente:</strong> las aportaciones se reciben como datos no fiables, sin autoridad para ejecutar órdenes o modificar el sistema. El monitor informativo explica este requisito; su presencia no demuestra la implementación integrada del monitor operativo. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#agentes-especializados-y-frontera">Agentes Especializados y frontera</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#aislamiento">Aislamiento de la IA</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#admision">Admisión técnica</a>. Distinguir la separación material de las comprobaciones aplicadas a los datos recibidos. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h2 id="publicaciones"><a class="header" href="#publicaciones">Publicaciones</a></h2>
 <p>Los enlaces de esta sección se abren en una pestaña nueva. Los libros del SV fundamentan su uso específico; la bibliografía externa aporta contexto metodológico y no acredita conformidad del SV. La ausencia de DOI identificado se declara sin inventar un identificador.</p>
 <div class="table-wrapper">
@@ -349,7 +479,7 @@
 <tr><th>Materia</th><th>Términos relacionados</th></tr>
 </thead>
 <tbody>
-<tr><td>Conocimiento y organización</td><td><a href="#agente">Agente Especializado</a>, <a href="#biblioteca">biblioteca de dominio</a>, <a href="#dominio">dominio</a>, <a href="#universo">Universo</a>.</td></tr>
+<tr><td>Conocimiento y organización</td><td><a href="#agente">Agente Especializado</a>, <a href="#biblioteca">biblioteca de dominio</a>, <a href="#dominio-1">dominio</a>, <a href="#universo-1">Universo</a>.</td></tr>
 <tr><td>Modelo y uso</td><td><a href="#modelo">Modelo de IA</a>, <a href="#modo">modo predominante</a>, <a href="#grados">grados de libertad</a>, <a href="#predominancia">predominancia</a>, <a href="#nodo">nodo</a>.</td></tr>
 <tr><td>Examen y decisión</td><td><a href="#evaluacion">Evaluación</a>, <a href="#clasificacion">clasificación</a>, <a href="#dictamen">dictamen</a>, <a href="#autorizacion">autorización</a>, <a href="#recomendacion">recomendación</a>.</td></tr>
 <tr><td>Funcionamiento y protección</td><td><a href="#aislamiento">Aislamiento</a>, <a href="#gobernada">IA gobernada</a>, <a href="#inferencia">inferencia</a>, <a href="#produccion">producción</a>, <a href="#seudoproduccion">seudo-producción</a>.</td></tr>
@@ -362,77 +492,101 @@
 <h3 id="agente"><a class="header" href="#agente">Agente Especializado del SV</a></h3>
 <p>Construcción definida íntegramente mediante la DSL del Lenguaje de Computación del SV, con alcance, función, versiones, fuentes y condiciones de ejecución identificados. Puede comprender dominios completos, subdominios o conjuntos de Universos.</p>
 <p><strong>Distinción:</strong> no es sinónimo del modelo de IA empleado. La selección del modelo no modifica la semántica ni concede facultades sobre el núcleo. Una consulta no debe recorrer todo el dominio si su objeto no lo requiere, pero tampoco puede omitir dependencias obligatorias. Véase <a href="https://documentos-sv.itvia.online/dominios/universos/conceptos.html#alcance-de-un-agente-especializado">Alcance de un Agente Especializado</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#dominio">Dominio</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#dsl">DSL · Lenguaje específico de dominio</a>. Relacionar el alcance del agente con su construcción formal. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="aislamiento"><a class="header" href="#aislamiento">Aislamiento de la IA</a></h3>
 <p>Separación material de las facultades del modelo respecto de los recursos y operaciones que no le están autorizados. En el SV impide que la IA alcance directamente el núcleo, modifique el sistema, conceda permisos o acceda a credenciales.</p>
 <p><strong>Límite:</strong> una instrucción dirigida al modelo no basta para demostrar ese aislamiento. Deben existir controles externos y evidencia de su resistencia a entradas maliciosas y accesos alternativos. La exigencia permanece en seudo-producción y en los tres nodos. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#consulta-sin-autoridad-sobre-el-sistema">Consulta sin autoridad sobre el sistema</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#tuberia">Tubería de IA</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#nucleo">Núcleo del Lenguaje SV</a>. Examinar el recorrido controlado y la protección que debe mantener. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="autorizacion"><a class="header" href="#autorizacion">Autorización de uso</a></h3>
 <p>Decisión de una función competente que permite un uso delimitado bajo condiciones expresas. Identifica, según corresponda, institución, persona, dominio, nodo, modelo, configuración, finalidad, vigencia y límites.</p>
 <p><strong>Distinción:</strong> autenticación, evaluación favorable, recomendación y autorización son actos diferentes. Una cuenta admitida no adquiere automáticamente todos los usos. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html">Facultades, autorización y producción</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evaluacion">Evaluación de un modelo de IA</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#sesion">Sesión de uso</a>. Distinguir la evidencia disponible de las condiciones concedidas para utilizarla. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="biblioteca"><a class="header" href="#biblioteca">Biblioteca documental de dominio</a></h3>
 <p>Conjunto de fuentes identificadas y organizado para los fines y condiciones del dominio. Su uso exige comprobar las versiones, la pertinencia, los derechos y la disponibilidad efectiva del contenido requerido.</p>
 <p><strong>Distinción:</strong> un catálogo, una referencia bibliográfica o un DOI no acreditan por sí solos que el modelo haya recibido el documento completo. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/documentos.html">Documentos y condiciones de entrega</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#dominio">Dominio</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#universo">Universo del SV</a>. Situar las fuentes dentro del ámbito y las operaciones que sustentan. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="clasificacion"><a class="header" href="#clasificacion">Clasificación comparativa de modelos</a></h3>
 <p>Ordenación de resultados conforme a un criterio fijado para una edición y unas condiciones comparables. Conserva categorías, empates, mediciones ausentes y límites de interpretación.</p>
 <p><strong>En el SV:</strong> elegir un modelo como referencia visual no lo convierte en ganador. La predominancia de uso tampoco añade puntos ni modifica el orden recibido. Los criterios particulares de una convocatoria no se presentan como una regla universal. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html">Comparación y lectura de resultados</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evaluacion">Evaluación de un modelo de IA</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#predominancia">Predominancia en un dominio</a>. Separar el puesto obtenido en una evaluación de la función asignada en un dominio. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="conexion"><a class="header" href="#conexion">Conexión con un proveedor o modelo</a></h3>
 <p>Recorrido técnico identificado para acceder a las funciones permitidas de un proveedor o a una instancia de modelo. Debe distinguir el mecanismo de autenticación, el catálogo disponible y las operaciones realmente habilitadas.</p>
 <p><strong>Distinción:</strong> comprobar autenticación o consultar un catálogo no acredita una inferencia ni autoriza enviar contenido. Una suscripción y una API son mecanismos diferentes; ninguna elimina por sí misma la transmisión de la consulta a un modelo remoto. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#preparación-del-acceso-y-límites-individuales">Preparación del acceso y límites individuales</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#modelo">Modelo de inteligencia artificial</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#nodo">Nodo de uso del modelo</a>. Identificar el modelo concreto y el recorrido de acceso utilizado. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="consulta"><a class="header" href="#consulta">Consulta al modelo</a></h3>
 <p>Solicitud delimitada que se presenta a un modelo para obtener una respuesta bajo condiciones identificadas. Su finalidad, fuentes, autorización, consumo y resultado deben conservar la relación que permita examinarlos.</p>
 <p><strong>Distinción:</strong> abrir una página o cargar un visor no equivale a iniciar una consulta. Una respuesta tampoco constituye por sí sola una decisión determinista del SV ni una autorización profesional. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#estado-de-seudo-producción">Estado de seudo-producción</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#sesion">Sesión de uso</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#inferencia">Inferencia del modelo</a>. Distinguir el contexto de uso de la operación realizada por el modelo. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="dictamen"><a class="header" href="#dictamen">Dictamen de evaluación</a></h3>
 <p>Resultado interpretado conforme a la cuestión, al contrato y a la regla de evaluación aplicables. En los exámenes descritos del SV se distingue 0 — Apto, 1 — No apto y U — Indeterminado.</p>
 <p><strong>Límite:</strong> las incidencias técnicas conservan causa propia y no se convierten automáticamente en dictamen. La aptitud acreditada para un examen no demuestra competencia universal ni autoriza producción. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/correccion.html">Corrección y criterio de aptitud</a>.</p>
-<h3 id="dominio"><a class="header" href="#dominio">Dominio</a></h3>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evaluacion">Evaluación de un modelo de IA</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#diagnostico">Diagnóstico técnico</a>. Precisar el alcance de la conclusión y diferenciarla de una incidencia técnica. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
+<h3 id="dominio-1"><a class="header" href="#dominio-1">Dominio</a></h3>
 <p>Ámbito de conocimiento organizado para una finalidad y unas operaciones delimitadas. En el SV su constitución exige identificar los Universos, las fuentes, las relaciones y los límites pertinentes.</p>
 <p><strong>Distinción:</strong> la denominación de una especialidad no acredita que exista un agente activo ni que todo su conocimiento esté formalizado. Un dominio clínico y otro de ciberseguridad conservan sus propias reglas, aunque se utilicen en la misma institución. Véase <a href="https://documentos-sv.itvia.online/dominios/universos/conceptos.html">Definiciones y relaciones</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#universo">Universo del SV</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#agente">Agente Especializado del SV</a>. Examinar las operaciones constituidas y el alcance que puede reunir un agente. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="evaluacion"><a class="header" href="#evaluacion">Evaluación de un modelo de IA</a></h3>
 <p>Examen de capacidades o resultados mediante una edición, un protocolo, fuentes, criterios y condiciones identificados. Permite emitir conclusiones dentro del alcance de la evidencia obtenida.</p>
 <p><strong>Distinción:</strong> una prueba de comprensión documental no acredita por sí sola competencia clínica, control de un servidor o funcionamiento íntegro del SV. Los antecedentes conservan las condiciones con las que se evaluaron. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/finalidad.html">Finalidad y alcance de la evaluación</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia">Evidencia de evaluación</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#autorizacion">Autorización de uso</a>. Seguir el fundamento del examen y distinguirlo de la decisión de uso. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="evidencia"><a class="header" href="#evidencia">Evidencia de evaluación</a></h3>
 <p>Contenido o registro identificable que permite examinar una afirmación dentro de un alcance declarado. Incluye, cuando corresponda, fuentes, entradas, respuestas, criterios de corrección, mediciones y condiciones de obtención.</p>
 <p><strong>Límite:</strong> una afirmación sin comprobación no se convierte en evidencia por registrarla. La integridad de un archivo y la validez científica de su contenido son cuestiones distintas. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html">Comparación y lectura de resultados</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#comprobacion">Comprobación</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#huella">Huella de contenido · SHA-256</a>. Separar comprobación pertinente e identidad de los documentos. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="grados"><a class="header" href="#grados">Grados de libertad del modelo</a></h3>
 <p>Denominación organizativa del SV que relaciona el modo predominante de un uso con la asignación del modelo a dominios y funciones. Permite describir predominancias y relaciones secundarias sin reducir un modelo a una única especialidad.</p>
 <p><strong>Distinción:</strong> aquí no designa grados de libertad estadísticos ni físicos. Un modelo puede ser predominante en varios dominios; varios modelos pueden coexistir como predominantes si sus funciones están delimitadas. La declaración no concede autonomía adicional. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html">Modos y grados de libertad</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#modo">Modo predominante del modelo</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#predominancia">Predominancia en un dominio</a>. Comprender las dos relaciones organizativas que describe esta denominación. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="gobernada"><a class="header" href="#gobernada">IA gobernada</a></h3>
 <p>Expresión que identifica un uso de IA sometido a reglas externas, responsabilidades, permisos, límites y comprobaciones. En el SV, el modelo no determina por sí mismo las condiciones de su actuación ni la validez de sus resultados.</p>
 <p><strong>Distinción:</strong> gobernar el uso de un modelo no vuelve determinista su generación de texto. Las propiedades del recorrido del SV y las de la inferencia deben acreditarse separadamente. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#agentes-especializados-y-frontera">Agentes Especializados y frontera</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#director">Árbitro–Director</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#aislamiento">Aislamiento de la IA</a>. Relacionar responsabilidades externas y separación de facultades. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="inferencia"><a class="header" href="#inferencia">Inferencia del modelo</a></h3>
 <p>Operación mediante la cual un modelo obtiene una salida a partir de una entrada y de su configuración. En este diccionario se distingue de la evaluación científica de esa salida y de la decisión institucional sobre su uso.</p>
 <p><strong>Límite:</strong> una respuesta generada no acredita por sí misma corrección, exhaustividad o determinismo. Debe conservarse la identidad del modelo y la configuración relevante. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/finalidad.html">Finalidad y alcance</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#modelo">Modelo de inteligencia artificial</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia">Evidencia de evaluación</a>. Identificar la operación generativa y la comprobación posterior de su salida. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="modelo"><a class="header" href="#modelo">Modelo de inteligencia artificial</a></h3>
 <p>Sistema computacional identificado por su versión y configuración, utilizado para producir salidas a partir de entradas. Sus capacidades se examinan mediante evidencia pertinente al uso previsto.</p>
 <p><strong>Distinción:</strong> el nombre comercial no sustituye la versión ni la conexión utilizada. Modelo, proveedor, Agente Especializado y autorización institucional son identidades diferentes. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/index.html">Validación, autorización y puesta en Producción</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#agente">Agente Especializado del SV</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#conexion">Conexión con un proveedor o modelo</a>. Distinguir la identidad del modelo, la construcción del agente y su acceso. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="modo"><a class="header" href="#modo">Modo predominante del modelo</a></h3>
 <p>Declaración del objetivo principal de un uso identificado del modelo, sin excluir otras capacidades. El SV distingue <strong>Sin modo como objetivo</strong>, <strong>No actuación o neutral</strong> y <strong>Actuación o activo</strong>.</p>
 <p>El modo neutral orienta al experto mediante consejo, evaluación o revisión, sujeto a su aprobación. El activo contempla actuaciones dentro de capacidades expresamente configuradas y autorizadas. «Sin modo como objetivo» conserva los usos o exámenes que no fijaron ese objetivo.</p>
 <p><strong>Distinción:</strong> no es una propiedad inmutable del modelo ni una licencia para actuar. El examen conserva la declaración con la que se preparó. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html">Facultades, autorización y producción</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#grados">Grados de libertad del modelo</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#seudoproduccion">Seudo-producción</a>. Relacionar el objetivo del uso con su asignación y distinguirlo del estado de funcionamiento. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="nodo"><a class="header" href="#nodo">Nodo de uso del modelo</a></h3>
 <p>Categoría que identifica el recorrido de acceso y ejecución considerado por el SV: <strong>nodo 1</strong>, modelo bajo control propio; <strong>nodo 2</strong>, acceso mediante plataforma intermedia; <strong>nodo 3</strong>, acceso a un proveedor externo. La configuración concreta debe identificar recursos, conexión y responsabilidades.</p>
 <p><strong>Límite:</strong> describir un nodo no autoriza su utilización. Ninguno permite acceso directo de la IA al núcleo. El control propio puede evitar un coste de proveedor, pero no elimina el consumo de capacidad ni la necesidad de cuotas. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html">Presupuesto y capacidad por nodo</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#conexion">Conexión con un proveedor o modelo</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#aislamiento">Aislamiento de la IA</a>. Identificar el recorrido de acceso sin suponer una excepción a la protección del núcleo. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="predominancia"><a class="header" href="#predominancia">Predominancia en un dominio</a></h3>
 <p>Relación de asignación por la que un modelo desempeña una función principal en un dominio y uso identificados. Puede coexistir con relaciones secundarias o con otras predominancias expresamente delimitadas.</p>
 <p><strong>Distinción:</strong> no equivale a superioridad universal ni a un puesto de clasificación. Su fundamento debe relacionar función, capacidades evaluadas, límites y evidencia. La mera proximidad temática no justifica otra asignación. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html#comparación-por-modos-y-predominancias">Comparación por modos y predominancias</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#grados">Grados de libertad del modelo</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#clasificacion">Clasificación comparativa de modelos</a>. Relacionar la función asignada con la evidencia, sin confundirla con el orden de clasificación. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="produccion"><a class="header" href="#produccion">Producción</a></h3>
 <p>Estado de uso que requiere recibir las condiciones técnicas, científicas, organizativas y de autorización aplicables a la instalación y a la operación. No se obtiene cambiando una etiqueta de presentación.</p>
 <p><strong>En el SV:</strong> la protección del núcleo, la biblioteca y las relaciones constituidas, la trazabilidad y el recorrido determinista exigible conservan sus contratos. Una prueba parcial o una figura visible no acreditan el conjunto. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html">Facultades, autorización y producción</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#autorizacion">Autorización de uso</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#seudoproduccion">Seudo-producción</a>. Comparar las condiciones de uso exigidas con las excepciones declaradas del ensayo. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="recomendacion"><a class="header" href="#recomendacion">Recomendación de un modelo</a></h3>
 <p>Conclusión fundada en resultados comparables y en un criterio declarado, limitada a su finalidad y condiciones. Debe explicar las reservas y, cuando corresponda, la imposibilidad de identificar una recomendación inequívoca.</p>
 <p><strong>Distinción:</strong> no sustituye la selección responsable de una institución ni la autorización de una operación. Las mediciones ausentes no se reemplazan por cero. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html">Selección, clasificación e independencia</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#clasificacion">Clasificación comparativa de modelos</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#autorizacion">Autorización de uso</a>. Examinar la conclusión comparativa y la decisión institucional que sigue siendo necesaria. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="seudoproduccion"><a class="header" href="#seudoproduccion">Seudo-producción</a></h3>
 <p>Estado de ensayo u observabilidad en laboratorio de una configuración de uso del SV. Puede presentar externamente la interacción con agentes sin acreditar las condiciones de producción.</p>
 <p>El protocolo puede permitir Internet, prescindir de una biblioteca cerrada constituida y ofrecer respuestas sin un recorrido determinista acreditado. Estas excepciones se declaran antes de la consulta y acompañan los resultados. <strong>El aislamiento de la IA y la protección del núcleo permanecen obligatorios.</strong></p>
 <p><strong>Distinción:</strong> es un estado de funcionamiento, no uno de los tres modos del modelo ni una autorización abreviada. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html">Estado de seudo-producción</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#produccion">Producción</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#aislamiento">Aislamiento de la IA</a>. Distinguir los requisitos no acreditados de las protecciones que permanecen obligatorias. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="sesion"><a class="header" href="#sesion">Sesión de uso</a></h3>
 <p>Contexto identificado de acceso y actividad bajo una autorización. Debe relacionar persona, modalidad, dominio, nodo, modelo, periodo y límites pertinentes.</p>
 <p><strong>Distinción:</strong> la sesión de identificación no prueba una consulta al modelo. Enviar una invitación tampoco demuestra uso efectivo. Los accesos ordinario e invitado mantienen autorizaciones separadas, sin cambio automático al agotar una cuota. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html">Acceso ordinario y acceso invitado</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#autorizacion">Autorización de uso</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#consulta">Consulta al modelo</a>. Relacionar las condiciones concedidas con la actividad efectivamente realizada. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h3 id="token"><a class="header" href="#token">Token · Unidad de procesamiento del modelo</a></h3>
 <p>Unidad empleada por un modelo o servicio para representar o contabilizar parte de su entrada o salida. Su delimitación depende del sistema utilizado; no equivale de forma fija a una palabra ni a un carácter.</p>
 <p><strong>Límite:</strong> los tokens de proveedores diferentes no son unidades lingüísticas idénticas. Tampoco se convierten automáticamente en tiempo, consultas, créditos o moneda. La contabilidad exige fuente, tarifa, categorías y periodo identificados. Véase <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html">Comparación y lectura de resultados</a>.</p>
-<h3 id="universo"><a class="header" href="#universo">Universo del SV</a></h3>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#consulta">Consulta al modelo</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia">Evidencia de evaluación</a>. Situar el recuento dentro de una actividad y una fuente identificadas. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
+<h3 id="universo-1"><a class="header" href="#universo-1">Universo del SV</a></h3>
 <p>Unidad constituida para una operación delimitada dentro de un dominio, con finalidad, fuentes, relaciones, exclusiones y resultado previsto según su marco específico. En el marco de Inmunología es unidad de evaluación y autorización de la operación clínica definida.</p>
 <p><strong>Distinción:</strong> no es una carpeta temática ni se define trasladando automáticamente condiciones de otro dominio. La entrada remite a la definición documental recibida y no introduce una formulación matemática nueva. Véase <a href="https://documentos-sv.itvia.online/dominios/universos/conceptos.html#dominio-y-universo">Dominio y Universo</a>.</p>
+<p><strong>Para continuar la lectura:</strong> <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#dominio">Dominio</a> · <a href="https://documentos-sv.itvia.online/enciclopedia/ia.html#agente">Agente Especializado del SV</a>. Relacionar una operación delimitada con el dominio y el alcance del agente. <a href="https://documentos-sv.itvia.online/enciclopedia/recorridos.html">Explorar otros recorridos</a>.</p>
 <h2 id="publicaciones-1"><a class="header" href="#publicaciones-1">Publicaciones</a></h2>
 <p>Los enlaces se abren en una pestaña nueva. Las referencias externas aportan contexto; no certifican el SV ni sustituyen las reglas de sus exámenes. Los DOI sólo se incorporan cuando están identificados en la publicación correspondiente.</p>
 <div class="table-wrapper">
@@ -450,7 +604,7 @@
 </div>
 <h2 id="casos-de-uso-o-ejemplos-específicos-1"><a class="header" href="#casos-de-uso-o-ejemplos-específicos-1">Casos de uso o ejemplos específicos</a></h2>
 <h3 id="dos-funciones-principales-en-una-misma-institución"><a class="header" href="#dos-funciones-principales-en-una-misma-institución">Dos funciones principales en una misma institución</a></h3>
-<p>En un hospital, una vinculación puede reservar el consejo inmunológico a un modelo y la protección técnica a otro. Ambos pueden desempeñar funciones principales delimitadas. Compartir la institución no convierte la aptitud clínica en aptitud de ciberseguridad, ni permite intercambiar documentos o permisos entre consultas. Intervienen <a href="#dominio">dominio</a>, <a href="#predominancia">predominancia</a> y <a href="#autorizacion">autorización</a>.</p>
+<p>En un hospital, una vinculación puede reservar el consejo inmunológico a un modelo y la protección técnica a otro. Ambos pueden desempeñar funciones principales delimitadas. Compartir la institución no convierte la aptitud clínica en aptitud de ciberseguridad, ni permite intercambiar documentos o permisos entre consultas. Intervienen <a href="#dominio-1">dominio</a>, <a href="#predominancia">predominancia</a> y <a href="#autorizacion">autorización</a>.</p>
 <h3 id="comparar-sin-modificar-la-clasificación"><a class="header" href="#comparar-sin-modificar-la-clasificación">Comparar sin modificar la clasificación</a></h3>
 <p>Una persona fija un modelo como referencia y compara otros con él. La interfaz puede disponerlos en columnas o en filas sucesivas, pero conserva los puestos, categorías, edición y criterio de la evaluación. Si no existe evaluación de un uso determinado, la declaración de predominancia no proporciona el resultado que falta. Intervienen <a href="#clasificacion">clasificación</a>, <a href="#evaluacion">evaluación</a> y <a href="#evidencia">evidencia</a>.</p>
 <h3 id="distinguir-demostración-sesión-y-consulta"><a class="header" href="#distinguir-demostración-sesión-y-consulta">Distinguir demostración, sesión y consulta</a></h3>
@@ -506,7 +660,7 @@
 
         <script src="elasticlunr-ef4e11c1.min.js"></script>
         <script src="mark-09e88c2c.min.js"></script>
-        <script src="searcher-es-62bc31ff4744.js"></script>
+        <script src="searcher-es-f20dc98143f9.js"></script>
 
         <script src="clipboard-1626706a.min.js"></script>
         <script src="highlight-abc7f01d.js"></script>
@@ -514,6 +668,7 @@
 
         <!-- Custom JS scripts -->
         <script src="presentacion-0cfc7f9c.js"></script>
+        <script src="exploracion-d8e73720.js"></script>
 
         <script>
         window.addEventListener('load', function() {

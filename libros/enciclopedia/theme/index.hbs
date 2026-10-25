@@ -224,6 +224,14 @@
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
 <nav class="sv-library-nav" aria-label="Biblioteca"><a href="/index.html">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="/consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="/licencias.html">Licencias</a><p>Edición 25/10/2026 · Original en español</p></nav>
+<section class="enc-consulta" aria-label="Consulta de la enciclopedia">
+  <form action="{{ path_to_root }}index.html" method="get" role="search" aria-label="Buscar en toda la enciclopedia">
+    <label for="enc-busqueda">Buscar conceptos y relaciones</label>
+    <div><input id="enc-busqueda" name="search" type="search" placeholder="Término, sigla o expresión" aria-describedby="enc-ayuda-busqueda" required><button type="submit">Buscar</button></div>
+    <p id="enc-ayuda-busqueda">Consulta conjunta de definiciones, ejemplos y recorridos.</p>
+  </form>
+  <nav aria-label="Exploración temática"><a href="{{ path_to_root }}recorridos.html">Explorar relaciones</a><a href="{{ path_to_root }}lenguaje.html#consulta-temática">Lenguaje</a><a href="{{ path_to_root }}ia.html#consulta-temática">Inteligencia Artificial</a></nav>
+</section>
                         {{{ content }}}
                         <div class="sv-brand-footer" aria-label="Identidad institucional y licencia">
                             <img src="/identidad/sv-20260831.png" width="256" height="256" alt="Sistema Vectorial SV" decoding="async">

@@ -1,18 +1,18 @@
 {
-  "version": 1,
   "colecciones": [
     {
+      "titulo": "Biblioteca documental del SV",
       "correspondencia": "correspondencia.json",
       "manifiesto": "biblioteca.json",
-      "politica": "politica-verificacion.json",
-      "titulo": "Biblioteca documental del SV"
+      "politica": "politica-verificacion.json"
     },
     {
+      "titulo": "Enciclopedia temática del Sistema Vectorial SV",
       "correspondencia": "correspondencia-enciclopedia.json",
       "manifiesto": "enciclopedia.json",
-      "politica": "politica-enciclopedia.json",
-      "titulo": "Enciclopedia temática del Sistema Vectorial SV"
+      "politica": "politica-enciclopedia.json"
     }
   ],
+  "version": 1,
   "alcance": "Ediciones de consulta independientes, relacionadas por el catálogo público. No amplían las cotas del lector ni autorizan entrega a modelos."
 }

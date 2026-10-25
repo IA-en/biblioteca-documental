@@ -4,6 +4,16 @@
 
 Una referencia común para comprender el vocabulario del Sistema Vectorial SV, relacionar sus conceptos y localizar las fuentes que los delimitan. Las definiciones se acompañan de distinciones, publicaciones y ejemplos; no sustituyen las especificaciones ni amplían las autorizaciones de uso.
 
+## ¿Qué desea comprender?
+
+Explore una pregunta y sus relaciones entre volúmenes. Cada recorrido permite desplegar conceptos, contrastar términos próximos y continuar hacia definiciones, ejemplos y fuentes. Puede seguir una propuesta o cambiar de dirección en cualquier momento.
+
+- [**01 · Conocimiento. ¿Cómo se construye el alcance de un agente?** — Dominio, Universo, biblioteca y DSL.](recorridos.md#del-conocimiento-al-agente)
+- [**02 · Lenguaje. ¿Escribir, interpretar y ejecutar son lo mismo?** — Gramática, semántica, IR y comprobación.](recorridos.md#escritura-y-significado)
+- [**03 · Decisión. ¿Qué permite concluir una evaluación?** — Clasificación, predominancia y autorización.](recorridos.md#evaluar-y-autorizar)
+- [**04 · Protección. ¿Por qué la IA no puede alcanzar el núcleo?** — Aislamiento, tubería e invariantes.](recorridos.md#proteccion-del-nucleo)
+- [**05 · Evidencia. ¿Qué distingue el acceso del uso efectivo?** — Sesión, consulta, inferencia y trazabilidad.](recorridos.md#uso-y-evidencia)
+
 ## Tres volúmenes
 
 | Volumen | Consulta | Estado |
@@ -14,7 +24,9 @@ Una referencia común para comprender el vocabulario del Sistema Vectorial SV, r
 
 ## Cómo consultar
 
-Cada volumen ofrece un índice por materias y entradas alfabéticas desplegables. Puede utilizar la búsqueda del libro o la búsqueda de texto del navegador. Los términos mantienen direcciones propias para citarlos. Las publicaciones se abren en una pestaña nueva; los casos explican relaciones y límites sin atribuir resultados a pruebas que no se hayan realizado.
+La búsqueda visible consulta conjuntamente los volúmenes y los recorridos. Puede buscar una palabra, una sigla o una expresión; los resultados ofrecen fragmentos para decidir qué entrada leer. Los índices por materias permiten otra aproximación, y cada entrada propone dos continuaciones explicadas. Estas remisiones son editoriales: no constituyen recomendaciones automatizadas ni requieren un perfil personal.
+
+Los [recorridos visuales](recorridos.md) relacionan los conceptos mediante diagramas desplegables y contrastes. Los términos mantienen direcciones propias para citarlos. Las publicaciones se abren en una pestaña nueva; los casos explican relaciones y límites sin atribuir resultados a pruebas que no se hayan realizado.
 
 Las definiciones específicas del SV se distinguen del uso general de una palabra. Los nombres formales de instrucciones y especificaciones se conservan cuando son necesarios para una consulta exacta. La expresión española explica su significado y sus límites.
 
