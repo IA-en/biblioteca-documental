@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
-      "ruta": "biblioteca.json",
-      "bytes": 46158,
-      "sha256": "92c68b8a48868139ba04fd66c3a03f6b032dd2bd1d9fcd0ac1dd7eea455f4f65"
+      "sha256": "2fafc68987c33e63ba820c6c6a08615091b8aa5ac98c36368aab734d1da10dc4",
+      "bytes": 46120,
+      "ruta": "biblioteca.json"
     },
     {
       "sha256": "72506635c1862c3ea6b9ac08146789bed1a2416d3880204f78f4e0d4fe3865de",
@@ -37,9 +37,9 @@
       "ruta": "correspondencia-enciclopedia.json"
     },
     {
-      "ruta": "correspondencia.json",
-      "bytes": 154207,
-      "sha256": "7104d7a71b501a29f08993b05a9aaacf7894d4d8eef4acf1a752a482d7273a03"
+      "sha256": "044fc1f1d0eb3a94f6c521984c551e46c9c72cd66b0fe9ca357f593c31e8045f",
+      "bytes": 155532,
+      "ruta": "correspondencia.json"
     },
     {
       "sha256": "87ef90fafe783c0c9374223fdf1be57528b7435da895b256b3ca35922e15a307",
@@ -62,9 +62,9 @@
       "bytes": 561
     },
     {
-      "ruta": "libros/dominios/plan.json",
+      "sha256": "44c0dea248582af89111f6531045daca01113c16dbfa21a777d7b9e17f0e7546",
       "bytes": 2608,
-      "sha256": "06bf9cdfe2f4011aa3c01a90bf393c27ffc832acdc5e1976d5b9d9b009135fcc"
+      "ruta": "libros/dominios/plan.json"
     },
     {
       "ruta": "libros/dominios/presentacion.js",
@@ -112,9 +112,9 @@
       "bytes": 3114
     },
     {
-      "ruta": "libros/dominios/src/inmunologia.md",
-      "sha256": "4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568",
-      "bytes": 6360
+      "sha256": "46fa2cbf28375742023b7c55be417a8491097c24d2ae87c8f4b1e0c3159f1c85",
+      "bytes": 10174,
+      "ruta": "libros/dominios/src/inmunologia.md"
     },
     {
       "ruta": "libros/dominios/src/metodologia.md",
@@ -707,9 +707,9 @@
       "ruta": "politica-enciclopedia.json"
     },
     {
-      "ruta": "politica-verificacion.json",
+      "sha256": "c22711d14f8abf29ca0abea83fb5af1271dadbbb86f25cde4e9ad78cce521c1a",
       "bytes": 377,
-      "sha256": "a7b0e3a9f783c31a2c29a9a86d2e114586b74cea3748b668b4edc0bdca693195"
+      "ruta": "politica-verificacion.json"
     },
     {
       "ruta": "presentacion.js",
@@ -767,9 +767,9 @@
       "bytes": 962
     },
     {
-      "ruta": "publico/biblioteca.json",
-      "bytes": 46158,
-      "sha256": "92c68b8a48868139ba04fd66c3a03f6b032dd2bd1d9fcd0ac1dd7eea455f4f65"
+      "sha256": "2fafc68987c33e63ba820c6c6a08615091b8aa5ac98c36368aab734d1da10dc4",
+      "bytes": 46120,
+      "ruta": "publico/biblioteca.json"
     },
     {
       "ruta": "publico/book-609e4cb8.js",
@@ -797,9 +797,9 @@
       "ruta": "publico/correspondencia-enciclopedia.json"
     },
     {
-      "ruta": "publico/correspondencia.json",
-      "bytes": 154207,
-      "sha256": "7104d7a71b501a29f08993b05a9aaacf7894d4d8eef4acf1a752a482d7273a03"
+      "sha256": "044fc1f1d0eb3a94f6c521984c551e46c9c72cd66b0fe9ca357f593c31e8045f",
+      "bytes": 155532,
+      "ruta": "publico/correspondencia.json"
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1877,8 +1877,8 @@
       "ruta": "publico/dominios/universos/index.html"
     },
     {
-      "bytes": 29117,
-      "sha256": "bb48797d55be8e73608d39d1c9bd10892988c6c8084845fbaa44df797afd965e",
+      "sha256": "0ad487a04f60582b8e8cddba8905a2cedb2c17eed3575ce368c7160831570ef3",
+      "bytes": 33537,
       "ruta": "publico/dominios/universos/inmunologia.html"
     },
     {
@@ -1912,9 +1912,9 @@
       "ruta": "publico/dominios/universos/presentacion.html"
     },
     {
-      "ruta": "publico/dominios/universos/print.html",
-      "bytes": 125079,
-      "sha256": "dfcb48541bc83e3553531f089060db2f2606a980a358468fa58d6127923cf589"
+      "sha256": "c92b95b3c1ffc6d0b5c2972f6de4bdee0fd96c252fcd6f44ccfd5f701251cd1e",
+      "bytes": 129530,
+      "ruta": "publico/dominios/universos/print.html"
     },
     {
       "ruta": "publico/dominios/universos/toc-57e74f04.js",
@@ -2637,9 +2637,9 @@
       "bytes": 974
     },
     {
-      "ruta": "publico/libros/dominios/plan.json",
+      "sha256": "44c0dea248582af89111f6531045daca01113c16dbfa21a777d7b9e17f0e7546",
       "bytes": 2608,
-      "sha256": "06bf9cdfe2f4011aa3c01a90bf393c27ffc832acdc5e1976d5b9d9b009135fcc"
+      "ruta": "publico/libros/dominios/plan.json"
     },
     {
       "ruta": "publico/libros/dominios/src/ciberseguridad.md",
@@ -2682,9 +2682,9 @@
       "bytes": 3114
     },
     {
-      "ruta": "publico/libros/dominios/src/inmunologia.md",
-      "sha256": "4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568",
-      "bytes": 6360
+      "sha256": "46fa2cbf28375742023b7c55be417a8491097c24d2ae87c8f4b1e0c3159f1c85",
+      "bytes": 10174,
+      "ruta": "publico/libros/dominios/src/inmunologia.md"
     },
     {
       "ruta": "publico/libros/dominios/src/metodologia.md",
@@ -3427,9 +3427,9 @@
       "ruta": "publico/politica-enciclopedia.json"
     },
     {
-      "ruta": "publico/politica-verificacion.json",
+      "sha256": "c22711d14f8abf29ca0abea83fb5af1271dadbbb86f25cde4e9ad78cce521c1a",
       "bytes": 377,
-      "sha256": "a7b0e3a9f783c31a2c29a9a86d2e114586b74cea3748b668b4edc0bdca693195"
+      "ruta": "publico/politica-verificacion.json"
     },
     {
       "ruta": "publico/presentacion-0cfc7f9c.js",

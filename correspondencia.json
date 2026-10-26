@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "92c68b8a48868139ba04fd66c3a03f6b032dd2bd1d9fcd0ac1dd7eea455f4f65",
+  "biblioteca_sha256": "2fafc68987c33e63ba820c6c6a08615091b8aa5ac98c36368aab734d1da10dc4",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2990,8 +2990,8 @@
       ]
     },
     {
-      "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
-      "cobertura_bytes": 6360,
+      "alcance": "Presentación clínica, investigación separada, permisos y conservación; seudo-producción sin datos de pacientes.",
+      "cobertura_bytes": 10174,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-05",
       "identificador_editorial_r0": null,
@@ -2999,9 +2999,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/inmunologia.md",
-        "sha256": "4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568"
+        "sha256": "46fa2cbf28375742023b7c55be417a8491097c24d2ae87c8f4b1e0c3159f1c85"
       },
-      "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes.",
+      "procedencia": "Edición del entorno de consulta, 26/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 618,
@@ -3058,13 +3058,49 @@
           "ultima_linea": 36
         },
         {
-          "fin_byte_exclusivo": 6360,
+          "fin_byte_exclusivo": 6052,
           "inicio_byte": 4829,
           "primera_linea": 37,
-          "seccion": "MD-L000037-L000045",
+          "seccion": "MD-L000037-L000044",
+          "sha256": "f2dedc2edca72615f8fd38df45633180db0de95affa26a02f3f805c5a4992eb4",
+          "titulo": "Consulta profesional y células decisionales",
+          "ultima_linea": 44
+        },
+        {
+          "fin_byte_exclusivo": 7021,
+          "inicio_byte": 6052,
+          "primera_linea": 45,
+          "seccion": "MD-L000045-L000050",
+          "sha256": "f0a722cb16d7138f5f22eeb8bdc83416b0b560a46cc9ac2043345185d77d27e6",
+          "titulo": "Investigación y admisión documental",
+          "ultima_linea": 50
+        },
+        {
+          "fin_byte_exclusivo": 7759,
+          "inicio_byte": 7021,
+          "primera_linea": 51,
+          "seccion": "MD-L000051-L000056",
+          "sha256": "53b7a85cb6e4356678dc9671d8729fbf6dae5e9df920148b5d448ba9575f7cdb",
+          "titulo": "Pertinencia y claridad de la consulta",
+          "ultima_linea": 56
+        },
+        {
+          "fin_byte_exclusivo": 8643,
+          "inicio_byte": 7759,
+          "primera_linea": 57,
+          "seccion": "MD-L000057-L000062",
+          "sha256": "ffa2d5e975b1737a4ed1e0edf066369e7664869f32b61a00023f7407b3f866bb",
+          "titulo": "Lectura y conservación",
+          "ultima_linea": 62
+        },
+        {
+          "fin_byte_exclusivo": 10174,
+          "inicio_byte": 8643,
+          "primera_linea": 63,
+          "seccion": "MD-L000063-L000071",
           "sha256": "c072e18f29f62953dbf60a29fbb0f4a86b94bb2e9b9205030c8c5948ebe276b9",
           "titulo": "Consulta de los parámetros",
-          "ultima_linea": 45
+          "ultima_linea": 71
         }
       ]
     },
@@ -3904,7 +3940,7 @@
   ],
   "edicion": "biblioteca-sv-enciclopedia-20261025",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "a7b0e3a9f783c31a2c29a9a86d2e114586b74cea3748b668b4edc0bdca693195",
+  "politica_sha256": "c22711d14f8abf29ca0abea83fb5af1271dadbbb86f25cde4e9ad78cce521c1a",
   "recepcion_visual": false,
   "version": 1
 }

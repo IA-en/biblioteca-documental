@@ -39,8 +39,8 @@
     },
     {
       "titulo": "Inmunología",
-      "url": "urn:sv:documento:sha256:4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568",
-      "sha256": "4cb7ebd58a7735171199e5f09b28418c1d45e588e05acc0fbae1cd69df32b568",
+      "url": "urn:sv:documento:sha256:46fa2cbf28375742023b7c55be417a8491097c24d2ae87c8f4b1e0c3159f1c85",
+      "sha256": "46fa2cbf28375742023b7c55be417a8491097c24d2ae87c8f4b1e0c3159f1c85",
       "ruta": "inmunologia.md",
       "id": "DOMINIOS-05"
     },
@@ -59,5 +59,5 @@
       "id": "DOMINIOS-07"
     }
   ],
-  "revision": "e3220c6401ff9105253e596ce625baba7e8b257e2c37013f7fb1ff9f1480e519"
+  "revision": "42e9922537cf6b4aacd5ed484598a43ec146b4d428880a2a7f32b29eed0e84ad"
 }

@@ -34,6 +34,32 @@ Los 27 parámetros no constituyen el cribado infeccioso completo. Permanecen fue
 
 El [marco técnico del Universo](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/marco-tecnico-de-universos-subdominios-y-modulos/README.md) declara **prohibido el uso con datos reales mientras estén pendientes las validaciones y configuraciones exigidas**. La documentación conservada no acredita beneficio clínico, capacidad pronóstica ni autorización asistencial.
 
+## Consulta profesional y células decisionales
+
+**Edición del entorno: 1 · 26 de octubre de 2026 · seudo-producción.** Esta descripción del entorno no modifica la constitución ni las exclusiones de OP-IMM-001. Las comprobaciones disponibles son sintéticas o bibliográficas; no admiten datos de pacientes ni decisiones asistenciales.
+
+El profesional consulta sobre Inmunología y recibe una respuesta con fuentes, límites y, cuando proceda, **células decisionales**. Esta denominación identifica la representación del SV vinculada a la consulta; no designa neuronas biológicas ni unidades internas del modelo. Su lectura clínica no exige conocer cálculos, vectores o instrumentos de observación técnica. La evidencia matemática permanece vinculada y accesible a la revisión competente.
+
+Si las reglas del dominio determinan insuficiencia de información, debe indicarse: «Con la información disponible no puedo resolver esta consulta». El profesional puede completarla por otros medios o autorizar expresamente una investigación para esa consulta. Una avería, un plazo agotado o una respuesta no recibida se comunican como incidencias de funcionamiento; no se convierten en incertidumbre clínica.
+
+### Investigación y admisión documental
+
+El **Libro de Consultas de investigación** reúne consultas identificadas, autorización, resultado, fuentes y estado de revisión; conserva también los intentos incompletos. El titular consulta sus registros. La revisión compartida requiere una función expresamente concedida para ese dominio. La descarga y la impresión permiten presentar una consulta a una sesión clínica, sin conferir a sus hallazgos el valor de conocimiento admitido.
+
+Los resultados permanecen separados de la biblioteca. La posible incorporación requiere los [procedimientos de constitución y revisión del dominio](metodologia.md), los filtros científicos y la cuarentena aplicables, la admisión documental competente y la vinculación a un Universo. No se crea una vía de admisión abreviada por proceder de una consulta de IA. Los filtros científicos completos y la incorporación desde este libro continúan pendientes de recepción.
+
+### Pertinencia y claridad de la consulta
+
+La restricción al dominio es obligatoria en cualquier nodo. La investigación tampoco permite consultas personales ajenas. Los nodos 1 y 2 permanecen sin habilitar. La pertinencia debe admitir conocimientos relacionados por su necesidad inmunológica, sin depender de una palabra aislada.
+
+La futura entrada clínica libre deberá tolerar faltas de escritura y abreviaturas, utilizar el contexto disponible y solicitar una aclaración breve sólo cuando una ambigüedad relevante impida responder con fundamento. No se presumirán datos clínicos ausentes. Esta capacidad conversacional general todavía no está recibida: en la edición indicada sólo se admiten las operaciones delimitadas.
+
+### Lectura y conservación
+
+El profesional dispone de ajustes locales de fondo, tamaño de texto y contraste. No se integra un servicio externo de accesibilidad en este entorno. Estas facilidades no acreditan por sí mismas conformidad completa con WCAG.
+
+La conservación distinguirá documentación clínica, investigación bibliográfica y evidencia técnica. La [Ley 41/2002, artículo 17](https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188#a17), establece para la documentación clínica un mínimo general de cinco años desde el alta de cada proceso, además de otras finalidades de conservación. No es una orden de borrado al cumplir ese plazo ni un periodo universal para todos los registros. La institución deberá determinar las obligaciones adicionales aplicables por territorio, finalidad y clase documental. La seudo-producción no sustituye esta determinación.
+
 ## Consulta de los parámetros
 
 El [expediente de referencia](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/universos-clinicos/01-evaluacion-predecisional-riesgo-infeccioso-antes-inmunosupresion-adultos/Expediente_predecisional_de_informacion_clinica_pertinente_antes_de_iniciar_tratamiento_inmunosupresor_en_adultos_v1.1_2026-09-03.md) contiene las 27 definiciones, sus identidades, fuentes y límites. Aquí interesa el criterio metodológico: cada parámetro responde a una necesidad de la operación, conserva su significado y pertenece a una agrupación determinada por su función.
