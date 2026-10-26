@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-agradecimientos-mantenimiento-20261026",
+  "edicion": "biblioteca-sv-mantenimiento-automatico-20261026",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "cd2220b3ad027bd43980ccea0c8d965ade40195feb73222e3332a0eeaae567f6"
+        "sha256": "aaa000715d2c3063899ef448a280391cee371005ff343eedb7490e0858f3f88d"
       },
       "metadatos": [
         {
@@ -513,7 +513,7 @@
           "procedencia": "Edición pública de 26/10/2026",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "04888c0ea0165f918714def19279091fab746e85b30f2d2d9653ee2fa2f39dc2",
+            "sha256": "097f5be72ef06554f1d890efec040f9f74eb044e16d4572a18ffdf87bca1147e",
             "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md"
           },
           "sintetico": false,
@@ -549,7 +549,7 @@
           "documento": "MANUAL_AGRADECIMIENTOS",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "d1d339109c6c4bd07a834d4cb3fa2d503ea27ce4d120c384857ba21da3991a25",
+            "sha256": "ef0111e41ae9d25c6b35ce15e5f676deeb41e961df6539337f9f0b64cb80567c",
             "ruta": "libros/manual/src/agradecimientos.md"
           },
           "visibilidad": "publica"

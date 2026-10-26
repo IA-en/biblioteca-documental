@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "50cc8d003ad02d99398e14111785781ace33a4447ce1e6fde670ed70ba9fe533",
+  "biblioteca_sha256": "421a14a59059aff2a852c5f7877a949ea4275db16ee8e1914991acd8b94a754d",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1988,7 +1988,7 @@
     },
     {
       "alcance": "Reconocimiento de componentes utilizados y mantenimiento de dependencias y versiones; sin modificación de la semántica del lenguaje ni habilitación de producción.",
-      "cobertura_bytes": 15248,
+      "cobertura_bytes": 13886,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_HERRAMIENTAS",
       "identificador_editorial_r0": null,
@@ -1996,7 +1996,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md",
-        "sha256": "04888c0ea0165f918714def19279091fab746e85b30f2d2d9653ee2fa2f39dc2"
+        "sha256": "097f5be72ef06554f1d890efec040f9f74eb044e16d4572a18ffdf87bca1147e"
       },
       "procedencia": "Edición pública de 26/10/2026",
       "secciones": [
@@ -2082,22 +2082,13 @@
           "ultima_linea": 102
         },
         {
-          "fin_byte_exclusivo": 13095,
+          "fin_byte_exclusivo": 13886,
           "inicio_byte": 11285,
           "primera_linea": 103,
-          "seccion": "MD-L000103-L000112",
-          "sha256": "e47ff88b621ad84154399881253a36410407965a598cbc02ad407a13a8e31784",
+          "seccion": "MD-L000103-L000115",
+          "sha256": "25823272f7b9a003bb6c23b77c63d50a797a4e801050e239832f2df9a4704843",
           "titulo": "13.9. Mantenimiento de dependencias y publicación de versiones {#mantenimiento-de-dependencias-y-publicación-de-versiones}",
-          "ultima_linea": 112
-        },
-        {
-          "fin_byte_exclusivo": 15248,
-          "inicio_byte": 13095,
-          "primera_linea": 113,
-          "seccion": "MD-L000113-L000123",
-          "sha256": "6ba09efc80ab752f46c547b28d6d767f5e51eaa14619ace5fd7672efe3d7bbd4",
-          "titulo": "13.9. Mantenimiento de dependencias y publicación de versiones {#mantenimiento-de-dependencias-y-publicación-de-versiones}",
-          "ultima_linea": 123
+          "ultima_linea": 115
         }
       ]
     },
@@ -2173,7 +2164,7 @@
     },
     {
       "alcance": "Reconocimiento de componentes utilizados y mantenimiento de dependencias y versiones; sin modificación de la semántica del lenguaje ni habilitación de producción.",
-      "cobertura_bytes": 11880,
+      "cobertura_bytes": 12664,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_AGRADECIMIENTOS",
       "identificador_editorial_r0": null,
@@ -2181,36 +2172,36 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/agradecimientos.md",
-        "sha256": "d1d339109c6c4bd07a834d4cb3fa2d503ea27ce4d120c384857ba21da3991a25"
+        "sha256": "ef0111e41ae9d25c6b35ce15e5f676deeb41e961df6539337f9f0b64cb80567c"
       },
       "procedencia": "Edición pública de 26/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 10704,
+          "fin_byte_exclusivo": 11488,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000066",
-          "sha256": "b4ee15bf132b01b38f447d9f0a1decc6c6b856a18b4aa8257afbc8a5f43fbad1",
+          "seccion": "MD-L000001-L000071",
+          "sha256": "0ca98648bf756705996a0d450774655eb3e95a9fc58623a454971a3e6944a8d0",
           "titulo": "20. Agradecimientos {#agradecimientos}",
-          "ultima_linea": 66
+          "ultima_linea": 71
         },
         {
-          "fin_byte_exclusivo": 11103,
-          "inicio_byte": 10704,
-          "primera_linea": 67,
-          "seccion": "MD-L000067-L000070",
+          "fin_byte_exclusivo": 11887,
+          "inicio_byte": 11488,
+          "primera_linea": 72,
+          "seccion": "MD-L000072-L000075",
           "sha256": "a4421e8ffc689e04376ca61facb2019e6159b7331eb37035d7d74d40ead38a53",
           "titulo": "Servicios en evaluación",
-          "ultima_linea": 70
+          "ultima_linea": 75
         },
         {
-          "fin_byte_exclusivo": 11880,
-          "inicio_byte": 11103,
-          "primera_linea": 71,
-          "seccion": "MD-L000071-L000079",
+          "fin_byte_exclusivo": 12664,
+          "inicio_byte": 11887,
+          "primera_linea": 76,
+          "seccion": "MD-L000076-L000084",
           "sha256": "cb9cf3a6a96f62f562bdfab901668eec22d983e9ac08d3052b1b3bdc247988c1",
           "titulo": "Identificación y alcance del reconocimiento",
-          "ultima_linea": 79
+          "ultima_linea": 84
         }
       ]
     },
@@ -4001,9 +3992,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-agradecimientos-mantenimiento-20261026",
+  "edicion": "biblioteca-sv-mantenimiento-automatico-20261026",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "34e4563069176370076b19e6006f73095fea46877989eff710fb7585da8b0432",
+  "politica_sha256": "eb8cb35b2e7067a38ef0cb2aabf5ecec9a5b4c1b0fd3382d775ebc4e4e2f36c6",
   "recepcion_visual": false,
   "version": 1
 }
