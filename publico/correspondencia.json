@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "cb9f67f642d316517060e3b01967e74148e07735556d2e8d3dd97a1919ab3220",
+  "biblioteca_sha256": "50cc8d003ad02d99398e14111785781ace33a4447ce1e6fde670ed70ba9fe533",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1987,8 +1987,8 @@
       ]
     },
     {
-      "alcance": "Herramientas de construcción y comprobación del lenguaje; finalidad, uso y límites de sus resultados.",
-      "cobertura_bytes": 11630,
+      "alcance": "Reconocimiento de componentes utilizados y mantenimiento de dependencias y versiones; sin modificación de la semántica del lenguaje ni habilitación de producción.",
+      "cobertura_bytes": 15248,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_HERRAMIENTAS",
       "identificador_editorial_r0": null,
@@ -1996,9 +1996,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md",
-        "sha256": "65195b61f99530cc0263ea1caf05dfcb42ac0afc2ae7d8b96ccd19ef1f3dbe8f"
+        "sha256": "04888c0ea0165f918714def19279091fab746e85b30f2d2d9653ee2fa2f39dc2"
       },
-      "procedencia": "Edición pública propia de 18/10/2026",
+      "procedencia": "Edición pública de 26/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 939,
@@ -2073,13 +2073,31 @@
           "ultima_linea": 96
         },
         {
-          "fin_byte_exclusivo": 11630,
+          "fin_byte_exclusivo": 11285,
           "inicio_byte": 10664,
           "primera_linea": 97,
-          "seccion": "MD-L000097-L000105",
-          "sha256": "c4ef81ae096d22b2d35085ecd1ae7f0ee1bdb291eb6f88794ea1f323c275f549",
+          "seccion": "MD-L000097-L000102",
+          "sha256": "b16da5d291f41f5a1aad008eaddf2d84a3dddad0617508061a264121848b43fa",
           "titulo": "13.8. Documentación con mdBook {#documentación-con-mdbook}",
-          "ultima_linea": 105
+          "ultima_linea": 102
+        },
+        {
+          "fin_byte_exclusivo": 13095,
+          "inicio_byte": 11285,
+          "primera_linea": 103,
+          "seccion": "MD-L000103-L000112",
+          "sha256": "e47ff88b621ad84154399881253a36410407965a598cbc02ad407a13a8e31784",
+          "titulo": "13.9. Mantenimiento de dependencias y publicación de versiones {#mantenimiento-de-dependencias-y-publicación-de-versiones}",
+          "ultima_linea": 112
+        },
+        {
+          "fin_byte_exclusivo": 15248,
+          "inicio_byte": 13095,
+          "primera_linea": 113,
+          "seccion": "MD-L000113-L000123",
+          "sha256": "6ba09efc80ab752f46c547b28d6d767f5e51eaa14619ace5fd7672efe3d7bbd4",
+          "titulo": "13.9. Mantenimiento de dependencias y publicación de versiones {#mantenimiento-de-dependencias-y-publicación-de-versiones}",
+          "ultima_linea": 123
         }
       ]
     },
@@ -2154,8 +2172,8 @@
       ]
     },
     {
-      "alcance": "Reconocimiento alfabético de comunidades, proyectos y tecnologías utilizados en el lenguaje y sus herramientas asociadas.",
-      "cobertura_bytes": 10021,
+      "alcance": "Reconocimiento de componentes utilizados y mantenimiento de dependencias y versiones; sin modificación de la semántica del lenguaje ni habilitación de producción.",
+      "cobertura_bytes": 11880,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_AGRADECIMIENTOS",
       "identificador_editorial_r0": null,
@@ -2163,18 +2181,36 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/agradecimientos.md",
-        "sha256": "180088c2e1da4128640cfa755cb1b7b7dfbbfab09300f9f49ae58b0057618c52"
+        "sha256": "d1d339109c6c4bd07a834d4cb3fa2d503ea27ce4d120c384857ba21da3991a25"
       },
-      "procedencia": "Edición pública propia de 19/10/2026",
+      "procedencia": "Edición pública de 26/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 10021,
+          "fin_byte_exclusivo": 10704,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000067",
-          "sha256": "180088c2e1da4128640cfa755cb1b7b7dfbbfab09300f9f49ae58b0057618c52",
+          "seccion": "MD-L000001-L000066",
+          "sha256": "b4ee15bf132b01b38f447d9f0a1decc6c6b856a18b4aa8257afbc8a5f43fbad1",
           "titulo": "20. Agradecimientos {#agradecimientos}",
-          "ultima_linea": 67
+          "ultima_linea": 66
+        },
+        {
+          "fin_byte_exclusivo": 11103,
+          "inicio_byte": 10704,
+          "primera_linea": 67,
+          "seccion": "MD-L000067-L000070",
+          "sha256": "a4421e8ffc689e04376ca61facb2019e6159b7331eb37035d7d74d40ead38a53",
+          "titulo": "Servicios en evaluación",
+          "ultima_linea": 70
+        },
+        {
+          "fin_byte_exclusivo": 11880,
+          "inicio_byte": 11103,
+          "primera_linea": 71,
+          "seccion": "MD-L000071-L000079",
+          "sha256": "cb9cf3a6a96f62f562bdfab901668eec22d983e9ac08d3052b1b3bdc247988c1",
+          "titulo": "Identificación y alcance del reconocimiento",
+          "ultima_linea": 79
         }
       ]
     },
@@ -3965,9 +4001,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-enciclopedia-20261025",
+  "edicion": "biblioteca-sv-agradecimientos-mantenimiento-20261026",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "2afc35d51567119015d6b24f2f9beaaab2e5cc8a425bce68e03b970b4f425401",
+  "politica_sha256": "34e4563069176370076b19e6006f73095fea46877989eff710fb7585da8b0432",
   "recepcion_visual": false,
   "version": 1
 }

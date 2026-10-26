@@ -100,6 +100,24 @@ Este libro se construye con [mdBook](https://rust-lang.github.io/mdBook/). Los c
 
 La revisión documental comprueba la jerarquía, los enlaces, los ejemplos, la legibilidad y la correspondencia con la versión explicada. La documentación oficial de cada herramienta complementa este capítulo; las reglas y límites propios del lenguaje se mantienen en sus fuentes normativas.
 
----
+## **13.9.** Mantenimiento de dependencias y publicación de versiones {#mantenimiento-de-dependencias-y-publicación-de-versiones}
 
-© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+El SV conserva versiones identificadas de sus componentes y revisa las novedades de seguridad y mantenimiento. La [política de mantenimiento de dependencias y publicación de versiones](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/POLITICA-DEPENDENCIAS-Y-VERSIONES.md), versión 1.0 de 26/10/2026, desarrolla esta obligación de la norma de calidad.
+
+El procedimiento establece revisión semanal de avisos aplicables, revisión mensual de mantenimiento y examen sin demora de avisos relevantes recibidos. Cada actualización relaciona la versión utilizada, la corrección propuesta, sus dependencias, las pruebas pertinentes, las licencias y el procedimiento de recuperación. Una versión más reciente no se incorpora sólo por su fecha ni por haber compilado correctamente.
+
+RustSec y las herramientas de contraste de dependencias ayudan a identificar avisos conocidos. Su instalación, actualización y ejecución deben acreditarse; una herramienta ausente o una base de avisos desactualizada deja un límite explícito. La política publicada no declara que todos los componentes históricos hayan sido auditados ni que exista ya una vigilancia automatizada.
+
+La publicación distingue fuentes, productos construidos, componentes instalados y funciones efectivamente utilizadas. Incluye versiones fijadas, notas de compatibilidad, comprobaciones y huellas. Los cambios de datos requieren recuperación comprobada; las modificaciones de gramática, representación intermedia o invariantes conservan su autoridad propia. Ninguna actualización de una biblioteca habilita por sí sola un dominio clínico o un nuevo uso de IA.
+
+## **13.9.** Mantenimiento de dependencias y publicación de versiones {#mantenimiento-de-dependencias-y-publicación-de-versiones}
+
+El SV conserva versiones identificadas de sus componentes y revisa las novedades de seguridad y mantenimiento. La [política de mantenimiento de dependencias y publicación de versiones](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/POLITICA-DEPENDENCIAS-Y-VERSIONES.md), versión 1.0 de 26/10/2026, desarrolla esta obligación de la norma de calidad.
+
+El procedimiento establece revisión semanal de avisos aplicables, revisión mensual de mantenimiento y examen sin demora de avisos relevantes recibidos. Cada actualización relaciona la versión utilizada, la corrección propuesta, sus dependencias, las pruebas pertinentes, las licencias y el procedimiento de recuperación. Una versión más reciente no se incorpora sólo por su fecha ni por haber compilado correctamente.
+
+RustSec y las herramientas de contraste de dependencias ayudan a identificar avisos conocidos. Su instalación, actualización y ejecución deben acreditarse; una herramienta ausente o una base de avisos desactualizada deja un límite explícito. La política publicada no declara que todos los componentes históricos hayan sido auditados ni que exista ya una vigilancia automatizada.
+
+La publicación distingue fuentes, productos construidos, componentes instalados y funciones efectivamente utilizadas. Incluye versiones fijadas, notas de compatibilidad, comprobaciones y huellas. Los cambios de datos requieren recuperación comprobada; las modificaciones de gramática, representación intermedia o invariantes conservan su autoridad propia. Ninguna actualización de una biblioteca habilita por sí sola un dominio clínico o un nuevo uso de IA.
+
+---© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

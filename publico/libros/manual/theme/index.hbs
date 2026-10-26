@@ -15,7 +15,25 @@
         <!-- Custom HTML head -->
         {{> head}}
 
+        {{#if is_print}}
+        {{#if is_print}}
         <meta name="description" content="{{ description }}">
+        {{else}}
+        {{#unless (eq path "agradecimientos.md")}}
+        <meta name="description" content="{{ description }}">
+        {{/unless}}
+        {{/if}}
+        {{else}}
+        {{#unless (eq path "agradecimientos.md")}}
+        {{#if is_print}}
+        <meta name="description" content="{{ description }}">
+        {{else}}
+        {{#unless (eq path "agradecimientos.md")}}
+        <meta name="description" content="{{ description }}">
+        {{/unless}}
+        {{/if}}
+        {{/unless}}
+        {{/if}}
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="theme-color" content="#ffffff">
 
@@ -58,7 +76,9 @@
         </script>
         <!-- Start loading toc.js asap -->
         <script src="{{ resource "toc.js" }}"></script>
-    </head>
+    <link rel="stylesheet" href="/lectura-contexto-2313f39030c5.css">
+<script defer src="/lectura-contexto-c6bd9514618d.js"></script>
+</head>
     <body>
     <div id="mdbook-help-container">
         <div id="mdbook-help-popup">

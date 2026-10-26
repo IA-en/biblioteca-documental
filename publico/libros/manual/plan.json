@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "1a915875cfddab286b75c8e9efe299718399829227756358d172bb7b967ca5a4",
+  "revision": "344b9b69672f52056b744976b370f1bbfd25bb3cc4281f7a83365106268184b7",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -96,9 +96,9 @@
     },
     {
       "ruta": "herramientas-desarrollo-comprobacion.md",
-      "url": "urn:sv:documento:sha256:65195b61f99530cc0263ea1caf05dfcb42ac0afc2ae7d8b96ccd19ef1f3dbe8f",
+      "url": "urn:sv:documento:sha256:04888c0ea0165f918714def19279091fab746e85b30f2d2d9653ee2fa2f39dc2",
       "id": "MANUAL_HERRAMIENTAS",
-      "sha256": "65195b61f99530cc0263ea1caf05dfcb42ac0afc2ae7d8b96ccd19ef1f3dbe8f",
+      "sha256": "04888c0ea0165f918714def19279091fab746e85b30f2d2d9653ee2fa2f39dc2",
       "titulo": "13. Herramientas de desarrollo y comprobación"
     },
     {
@@ -147,8 +147,8 @@
       "ruta": "agradecimientos.md",
       "titulo": "20. Agradecimientos",
       "id": "MANUAL_AGRADECIMIENTOS",
-      "url": "urn:sv:documento:sha256:180088c2e1da4128640cfa755cb1b7b7dfbbfab09300f9f49ae58b0057618c52",
-      "sha256": "180088c2e1da4128640cfa755cb1b7b7dfbbfab09300f9f49ae58b0057618c52"
+      "url": "urn:sv:documento:sha256:d1d339109c6c4bd07a834d4cb3fa2d503ea27ce4d120c384857ba21da3991a25",
+      "sha256": "d1d339109c6c4bd07a834d4cb3fa2d503ea27ce4d120c384857ba21da3991a25"
     }
   ]
 }
