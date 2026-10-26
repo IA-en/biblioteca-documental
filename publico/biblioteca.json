@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "44c0dea248582af89111f6531045daca01113c16dbfa21a777d7b9e17f0e7546",
+        "sha256": "4eb7ba117d039320172faa777d7056b99532dc4375799b76ced1cca341510d4b",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -760,7 +760,7 @@
           "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
         },
         {
-          "alcance": "Presentación clínica, investigación separada, permisos y conservación; seudo-producción sin datos de pacientes.",
+          "alcance": "Plantilla de trabajo clínico, consulta e investigación; seudo-producción sin datos de pacientes y sin ampliación de OP-IMM-001.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -768,7 +768,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-05",
           "original": {
-            "sha256": "46fa2cbf28375742023b7c55be417a8491097c24d2ae87c8f4b1e0c3159f1c85",
+            "sha256": "6f32fd29f5d685ae71e2871783bf63c60f3f42da4142e752433075c484ef3307",
             "ruta": "libros/dominios/src/inmunologia.md"
           },
           "correspondencia": "identidad_literal",

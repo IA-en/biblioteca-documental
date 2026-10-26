@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "2fafc68987c33e63ba820c6c6a08615091b8aa5ac98c36368aab734d1da10dc4",
+  "biblioteca_sha256": "87f42560944fa68e3903ade617ebfcd2fcc66c658f5f60a9e0cb02172023c72e",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2990,8 +2990,8 @@
       ]
     },
     {
-      "alcance": "Presentación clínica, investigación separada, permisos y conservación; seudo-producción sin datos de pacientes.",
-      "cobertura_bytes": 10174,
+      "alcance": "Plantilla de trabajo clínico, consulta e investigación; seudo-producción sin datos de pacientes y sin ampliación de OP-IMM-001.",
+      "cobertura_bytes": 12278,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-05",
       "identificador_editorial_r0": null,
@@ -2999,7 +2999,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/inmunologia.md",
-        "sha256": "46fa2cbf28375742023b7c55be417a8491097c24d2ae87c8f4b1e0c3159f1c85"
+        "sha256": "6f32fd29f5d685ae71e2871783bf63c60f3f42da4142e752433075c484ef3307"
       },
       "procedencia": "Edición del entorno de consulta, 26/10/2026",
       "secciones": [
@@ -3094,13 +3094,22 @@
           "ultima_linea": 62
         },
         {
-          "fin_byte_exclusivo": 10174,
+          "fin_byte_exclusivo": 10747,
           "inicio_byte": 8643,
           "primera_linea": 63,
-          "seccion": "MD-L000063-L000071",
+          "seccion": "MD-L000063-L000074",
+          "sha256": "a4b104801169fbca60e7c7181a6a67ab4631a32f44c55d7a2067ee647249c03f",
+          "titulo": "Plantilla de trabajo clínico",
+          "ultima_linea": 74
+        },
+        {
+          "fin_byte_exclusivo": 12278,
+          "inicio_byte": 10747,
+          "primera_linea": 75,
+          "seccion": "MD-L000075-L000083",
           "sha256": "c072e18f29f62953dbf60a29fbb0f4a86b94bb2e9b9205030c8c5948ebe276b9",
           "titulo": "Consulta de los parámetros",
-          "ultima_linea": 71
+          "ultima_linea": 83
         }
       ]
     },
@@ -3940,7 +3949,7 @@
   ],
   "edicion": "biblioteca-sv-enciclopedia-20261025",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "c22711d14f8abf29ca0abea83fb5af1271dadbbb86f25cde4e9ad78cce521c1a",
+  "politica_sha256": "037ce5e08481c98b20e6e699839c1f429a299c290d036817a477011b7dd348dd",
   "recepcion_visual": false,
   "version": 1
 }

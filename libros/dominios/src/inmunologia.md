@@ -60,6 +60,18 @@ El profesional dispone de ajustes locales de fondo, tamaño de texto y contraste
 
 La conservación distinguirá documentación clínica, investigación bibliográfica y evidencia técnica. La [Ley 41/2002, artículo 17](https://www.boe.es/buscar/act.php?id=BOE-A-2002-22188#a17), establece para la documentación clínica un mínimo general de cinco años desde el alta de cada proceso, además de otras finalidades de conservación. No es una orden de borrado al cumplir ese plazo ni un periodo universal para todos los registros. La institución deberá determinar las obligaciones adicionales aplicables por territorio, finalidad y clase documental. La seudo-producción no sustituye esta determinación.
 
+## Plantilla de trabajo clínico
+
+**Plantilla, edición 1 · 26 de octubre de 2026 · seudo-producción.** El entorno presenta un menú de trabajo clínico y accesos laterales seleccionables y plegables. Organiza ocho vistas: espacio de trabajo, biblioteca del dominio, necesidades y notas, expedientes, agenda y sesiones, atención al paciente, cohortes y pruebas médicas. La consulta de IA conserva su propia ventana y se abre cuando el profesional la requiere.
+
+Estas vistas expresan una organización en preparación. No admiten datos de pacientes ni crean notas, expedientes, cohortes o sesiones; tampoco prescriben, solicitan pruebas o emiten decisiones clínicas. La biblioteca clínica sigue pendiente de habilitación. La consulta delimitada y el Libro de Consultas de investigación conservan el alcance descrito en este capítulo.
+
+Las necesidades y notas se conciben como un recurso voluntario con estados «Por hacer», «En curso» y «Finalizada», documentos de apoyo opcionales y futura identificación de responsabilidad, permisos, cambios y cierre. No se registra automáticamente el diálogo profesional. La agenda deberá adaptarse al Servicio, incluidos periodos variables y guardias. La delegación de apertura y cierre requerirá permisos diferenciados; cerrar una sesión de trabajo no implica el alta del paciente.
+
+El expediente individual, el episodio asistencial y la cohorte requieren distinción documental. Una clasificación diagnóstica podrá vincularse a su edición y procedencia, sin sustituir los criterios de una cohorte ni la responsabilidad profesional. La atención al paciente se presenta mediante preparación, entrevista, valoración, plan de atención y continuidad, sin imponer todavía una secuencia asistencial obligatoria.
+
+La plantilla general de Inmunología **no amplía OP-IMM-001**, sus parámetros ni sus exclusiones. Cada futura capacidad necesita su definición documental, autorización, protección de datos y comprobación específica antes de admitir uso asistencial. La presencia de una opción en pantalla no acredita esa habilitación.
+
 ## Consulta de los parámetros
 
 El [expediente de referencia](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/universos-clinicos/01-evaluacion-predecisional-riesgo-infeccioso-antes-inmunosupresion-adultos/Expediente_predecisional_de_informacion_clinica_pertinente_antes_de_iniciar_tratamiento_inmunosupresor_en_adultos_v1.1_2026-09-03.md) contiene las 27 definiciones, sus identidades, fuentes y límites. Aquí interesa el criterio metodológico: cada parámetro responde a una necesidad de la operación, conserva su significado y pertenece a una agrupación determinada por su función.
