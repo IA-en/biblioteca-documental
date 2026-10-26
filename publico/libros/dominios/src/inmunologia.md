@@ -86,6 +86,14 @@ El [expediente de referencia](https://github.com/juantoniolloretegea/SVperitus-d
 
 Las [relaciones entre agrupaciones](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/cambio-rumbo/03-base-documental-candidata/11-matrices-en-evaluacion/G6-MAT_propiedad_matricial_A0_OP-IMM-001_v0.1_2026-09-03.md) permiten consultar un mismo estado desde diferentes usos sin duplicarlo ni recalcularlo. Compartir una referencia no transmite autoridad ni demuestra aplicabilidad a otro Universo; esta última requiere su propia justificación.
 
+### Marco de uso y lectura de resultados
+
+**Edición 3 · 26 de octubre de 2026 · seudo-producción.** El entorno de Inmunología se rige por el [Estatuto](https://doi.org/10.21428/39829d0b.d4ede27f), la [ITI V.1](https://doi.org/10.21428/39829d0b.759972a0), los [Fundamentos](https://doi.org/10.21428/39829d0b.183e10f3) y la [Carta Magna V.1](https://doi.org/10.21428/39829d0b.60a70b65). La instalación y la comprobación técnica no equivalen a autorización asistencial.
+
+Las discrepancias que requieren revisión y la información insuficiente se presentan antes del resultado general. Al iniciar otra consulta, su resultado no puede confundirse con una figura o unas fuentes anteriores. El historial conserva las consultas y permite recuperarlas expresamente.
+
+La biblioteca de seis células numéricas es un ejemplo de comprobación. No representa un paciente ni constituye IMMUNO-1 u OP-IMM-001; tampoco demuestra suficiencia clínica. Las fuentes encontradas en una investigación permanecen separadas de la biblioteca: su eventual incorporación exige evaluación científica, autorización y el procedimiento documental del Universo correspondiente. La mera conservación de una consulta no cumple por sí sola esos requisitos.
+
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

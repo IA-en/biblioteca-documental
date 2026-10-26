@@ -18,8 +18,8 @@
     },
     {
       "ruta": "biblioteca.json",
-      "sha256": "ddf57f9ef5e528b4b7d1c533d034664f048abff05ba90994cdb2810110fb66b7",
-      "bytes": 46135
+      "bytes": 46120,
+      "sha256": "cb9f67f642d316517060e3b01967e74148e07735556d2e8d3dd97a1919ab3220"
     },
     {
       "sha256": "72506635c1862c3ea6b9ac08146789bed1a2416d3880204f78f4e0d4fe3865de",
@@ -38,8 +38,8 @@
     },
     {
       "ruta": "correspondencia.json",
-      "sha256": "3d78bda3efbb2e40750493ee811a1a6191e670d76026a9d0c34e1337570fe173",
-      "bytes": 156229
+      "bytes": 156557,
+      "sha256": "f86c13b9ac53e41f99c57be748fffc2e8c5d58ff3a6a089bbc4218cdf3cacf0a"
     },
     {
       "sha256": "87ef90fafe783c0c9374223fdf1be57528b7435da895b256b3ca35922e15a307",
@@ -63,8 +63,8 @@
     },
     {
       "ruta": "libros/dominios/plan.json",
-      "sha256": "e8cadfeb499dc231ce6cad90ffd1a02d404270ff2603f6237d67523fc0b86071",
-      "bytes": 2608
+      "bytes": 2608,
+      "sha256": "4c9ead07237d2d6f756385489ff1bf4bc43c11ec02f11a0fa2283a576da9ae15"
     },
     {
       "ruta": "libros/dominios/presentacion.js",
@@ -113,8 +113,8 @@
     },
     {
       "ruta": "libros/dominios/src/inmunologia.md",
-      "sha256": "cce86d62b97994d25388c16cca2294ad1f1c9ca08bcf8384249e3d8e5b6a00ad",
-      "bytes": 13485
+      "bytes": 14726,
+      "sha256": "512f6ee488425de9fd6acfda6331bae5abb919157e1fb1a89ef1a09bf293f95f"
     },
     {
       "ruta": "libros/dominios/src/metodologia.md",
@@ -708,8 +708,8 @@
     },
     {
       "ruta": "politica-verificacion.json",
-      "sha256": "383d7264ac9d888e16d060c849300ebc68b47173570790ed7fd4829a1c538551",
-      "bytes": 377
+      "bytes": 377,
+      "sha256": "2afc35d51567119015d6b24f2f9beaaab2e5cc8a425bce68e03b970b4f425401"
     },
     {
       "ruta": "presentacion.js",
@@ -768,8 +768,8 @@
     },
     {
       "ruta": "publico/biblioteca.json",
-      "sha256": "ddf57f9ef5e528b4b7d1c533d034664f048abff05ba90994cdb2810110fb66b7",
-      "bytes": 46135
+      "bytes": 46120,
+      "sha256": "cb9f67f642d316517060e3b01967e74148e07735556d2e8d3dd97a1919ab3220"
     },
     {
       "ruta": "publico/book-609e4cb8.js",
@@ -798,8 +798,8 @@
     },
     {
       "ruta": "publico/correspondencia.json",
-      "sha256": "3d78bda3efbb2e40750493ee811a1a6191e670d76026a9d0c34e1337570fe173",
-      "bytes": 156229
+      "bytes": 156557,
+      "sha256": "f86c13b9ac53e41f99c57be748fffc2e8c5d58ff3a6a089bbc4218cdf3cacf0a"
     },
     {
       "ruta": "publico/css/chrome-d279d366.css",
@@ -1878,8 +1878,8 @@
     },
     {
       "ruta": "publico/dominios/universos/inmunologia.html",
-      "sha256": "33627f8563cb1357b54dbbb3a97e14ab7af290f3a0b934174d3d5ca40504668e",
-      "bytes": 37152
+      "bytes": 38749,
+      "sha256": "b6dfcdd7ac2d08e3e379e5cef53e49f42104627ab042a5dad30903e8c1d3d27c"
     },
     {
       "bytes": 33951,
@@ -1913,8 +1913,8 @@
     },
     {
       "ruta": "publico/dominios/universos/print.html",
-      "sha256": "9b74bebabce7ca4bf2e9230169885c589fbf1d2173149003d7717d95220e6819",
-      "bytes": 133145
+      "bytes": 134742,
+      "sha256": "5ba8c86a9c523eb6954d07e4ef020ca72fe11e6a0a8c2dd541cc370542f24c91"
     },
     {
       "ruta": "publico/dominios/universos/toc-57e74f04.js",
@@ -2638,8 +2638,8 @@
     },
     {
       "ruta": "publico/libros/dominios/plan.json",
-      "sha256": "e8cadfeb499dc231ce6cad90ffd1a02d404270ff2603f6237d67523fc0b86071",
-      "bytes": 2608
+      "bytes": 2608,
+      "sha256": "4c9ead07237d2d6f756385489ff1bf4bc43c11ec02f11a0fa2283a576da9ae15"
     },
     {
       "ruta": "publico/libros/dominios/src/ciberseguridad.md",
@@ -2683,8 +2683,8 @@
     },
     {
       "ruta": "publico/libros/dominios/src/inmunologia.md",
-      "sha256": "cce86d62b97994d25388c16cca2294ad1f1c9ca08bcf8384249e3d8e5b6a00ad",
-      "bytes": 13485
+      "bytes": 14726,
+      "sha256": "512f6ee488425de9fd6acfda6331bae5abb919157e1fb1a89ef1a09bf293f95f"
     },
     {
       "ruta": "publico/libros/dominios/src/metodologia.md",
@@ -3428,8 +3428,8 @@
     },
     {
       "ruta": "publico/politica-verificacion.json",
-      "sha256": "383d7264ac9d888e16d060c849300ebc68b47173570790ed7fd4829a1c538551",
-      "bytes": 377
+      "bytes": 377,
+      "sha256": "2afc35d51567119015d6b24f2f9beaaab2e5cc8a425bce68e03b970b4f425401"
     },
     {
       "ruta": "publico/presentacion-0cfc7f9c.js",

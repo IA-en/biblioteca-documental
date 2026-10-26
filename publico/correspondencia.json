@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "ddf57f9ef5e528b4b7d1c533d034664f048abff05ba90994cdb2810110fb66b7",
+  "biblioteca_sha256": "cb9f67f642d316517060e3b01967e74148e07735556d2e8d3dd97a1919ab3220",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2990,8 +2990,8 @@
       ]
     },
     {
-      "alcance": "Plantilla de trabajo clínico, consulta e investigación; seudo-producción sin datos de pacientes y sin ampliación de OP-IMM-001.",
-      "cobertura_bytes": 13485,
+      "alcance": "Presentación clínica, investigación separada, permisos y conservación; seudo-producción sin datos de pacientes.",
+      "cobertura_bytes": 14726,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-05",
       "identificador_editorial_r0": null,
@@ -2999,7 +2999,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/inmunologia.md",
-        "sha256": "cce86d62b97994d25388c16cca2294ad1f1c9ca08bcf8384249e3d8e5b6a00ad"
+        "sha256": "512f6ee488425de9fd6acfda6331bae5abb919157e1fb1a89ef1a09bf293f95f"
       },
       "procedencia": "Edición del entorno de consulta, 26/10/2026",
       "secciones": [
@@ -3112,13 +3112,22 @@
           "ultima_linea": 82
         },
         {
-          "fin_byte_exclusivo": 13485,
+          "fin_byte_exclusivo": 13140,
           "inicio_byte": 11954,
           "primera_linea": 83,
-          "seccion": "MD-L000083-L000091",
-          "sha256": "c072e18f29f62953dbf60a29fbb0f4a86b94bb2e9b9205030c8c5948ebe276b9",
+          "seccion": "MD-L000083-L000088",
+          "sha256": "aa872f0df5da77e749b23845cad22d0bd0761de6122fa1512d7ece5a0466e418",
           "titulo": "Consulta de los parámetros",
-          "ultima_linea": 91
+          "ultima_linea": 88
+        },
+        {
+          "fin_byte_exclusivo": 14726,
+          "inicio_byte": 13140,
+          "primera_linea": 89,
+          "seccion": "MD-L000089-L000099",
+          "sha256": "a626874a78a91d2fd06fe901be6a9b74fe932508b2ac1dbac5ec3a6eb05b029f",
+          "titulo": "Marco de uso y lectura de resultados",
+          "ultima_linea": 99
         }
       ]
     },
@@ -3958,7 +3967,7 @@
   ],
   "edicion": "biblioteca-sv-enciclopedia-20261025",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "383d7264ac9d888e16d060c849300ebc68b47173570790ed7fd4829a1c538551",
+  "politica_sha256": "2afc35d51567119015d6b24f2f9beaaab2e5cc8a425bce68e03b970b4f425401",
   "recepcion_visual": false,
   "version": 1
 }
