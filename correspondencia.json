@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "87f42560944fa68e3903ade617ebfcd2fcc66c658f5f60a9e0cb02172023c72e",
+  "biblioteca_sha256": "ddf57f9ef5e528b4b7d1c533d034664f048abff05ba90994cdb2810110fb66b7",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2991,7 +2991,7 @@
     },
     {
       "alcance": "Plantilla de trabajo clínico, consulta e investigación; seudo-producción sin datos de pacientes y sin ampliación de OP-IMM-001.",
-      "cobertura_bytes": 12278,
+      "cobertura_bytes": 13485,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-05",
       "identificador_editorial_r0": null,
@@ -2999,7 +2999,7 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/inmunologia.md",
-        "sha256": "6f32fd29f5d685ae71e2871783bf63c60f3f42da4142e752433075c484ef3307"
+        "sha256": "cce86d62b97994d25388c16cca2294ad1f1c9ca08bcf8384249e3d8e5b6a00ad"
       },
       "procedencia": "Edición del entorno de consulta, 26/10/2026",
       "secciones": [
@@ -3103,13 +3103,22 @@
           "ultima_linea": 74
         },
         {
-          "fin_byte_exclusivo": 12278,
+          "fin_byte_exclusivo": 11954,
           "inicio_byte": 10747,
           "primera_linea": 75,
-          "seccion": "MD-L000075-L000083",
+          "seccion": "MD-L000075-L000082",
+          "sha256": "53a49632c1d112a9ba3a3c7ff8b56fc56a3ae7e19d4f0a87ad2ea4494c2c3c33",
+          "titulo": "Idioma, ayuda y lectura de las células",
+          "ultima_linea": 82
+        },
+        {
+          "fin_byte_exclusivo": 13485,
+          "inicio_byte": 11954,
+          "primera_linea": 83,
+          "seccion": "MD-L000083-L000091",
           "sha256": "c072e18f29f62953dbf60a29fbb0f4a86b94bb2e9b9205030c8c5948ebe276b9",
           "titulo": "Consulta de los parámetros",
-          "ultima_linea": 83
+          "ultima_linea": 91
         }
       ]
     },
@@ -3949,7 +3958,7 @@
   ],
   "edicion": "biblioteca-sv-enciclopedia-20261025",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "037ce5e08481c98b20e6e699839c1f429a299c290d036817a477011b7dd348dd",
+  "politica_sha256": "383d7264ac9d888e16d060c849300ebc68b47173570790ed7fd4829a1c538551",
   "recepcion_visual": false,
   "version": 1
 }

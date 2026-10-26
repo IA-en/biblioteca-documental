@@ -72,6 +72,14 @@ El expediente individual, el episodio asistencial y la cohorte requieren distinc
 
 La plantilla general de Inmunología **no amplía OP-IMM-001**, sus parámetros ni sus exclusiones. Cada futura capacidad necesita su definición documental, autorización, protección de datos y comprobación específica antes de admitir uso asistencial. La presencia de una opción en pantalla no acredita esa habilitación.
 
+### Idioma, ayuda y lectura de las células
+
+**Presentación, edición 2 · 26 de octubre de 2026 · seudo-producción.** El entorno y su ayuda están disponibles en español e inglés, conforme al idioma elegido en el Gestor. Los documentos y las respuestas conservadas mantienen su idioma original. La ayuda ocupa un lugar visible en el menú superior; sus descripciones breves orientan al profesional desde la cabecera sin cubrir la consulta.
+
+El profesional puede elegir una escala común para las células decisionales: 50, 65, 75, 100, 125 o 150 %. Se conserva en ese navegador y se aplica por igual a todas las células del entorno. La escala natural, 100 %, es la opción inicial y puede recuperarse en cualquier momento. Cambiar el tamaño facilita la lectura sin modificar las proporciones, los resultados o su vinculación a la consulta. No se ajusta cada célula por separado. En ventanas pequeñas puede reducir la escala, ampliar la ventana o desplazarse dentro de ella.
+
+La elección visual no constituye una valoración clínica ni modifica las reglas de admisión, la indeterminación o la autoridad profesional. Se mantienen los límites de seudo-producción descritos en este capítulo.
+
 ## Consulta de los parámetros
 
 El [expediente de referencia](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/universos-clinicos/01-evaluacion-predecisional-riesgo-infeccioso-antes-inmunosupresion-adultos/Expediente_predecisional_de_informacion_clinica_pertinente_antes_de_iniciar_tratamiento_inmunosupresor_en_adultos_v1.1_2026-09-03.md) contiene las 27 definiciones, sus identidades, fuentes y límites. Aquí interesa el criterio metodológico: cada parámetro responde a una necesidad de la operación, conserva su significado y pertenece a una agrupación determinada por su función.

@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "4eb7ba117d039320172faa777d7056b99532dc4375799b76ced1cca341510d4b",
+        "sha256": "e8cadfeb499dc231ce6cad90ffd1a02d404270ff2603f6237d67523fc0b86071",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -768,7 +768,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-05",
           "original": {
-            "sha256": "6f32fd29f5d685ae71e2871783bf63c60f3f42da4142e752433075c484ef3307",
+            "sha256": "cce86d62b97994d25388c16cca2294ad1f1c9ca08bcf8384249e3d8e5b6a00ad",
             "ruta": "libros/dominios/src/inmunologia.md"
           },
           "correspondencia": "identidad_literal",
