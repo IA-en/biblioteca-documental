@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "0758896b7482090959429351c639a5d0c170e7bbc53d2eaa40c6a83050155e1b",
+  "revision": "f2a36e45398995427c1208e565f0134e2e9e479053f711c1ca46dacbb77ef333",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -147,8 +147,8 @@
       "ruta": "agradecimientos.md",
       "titulo": "20. Agradecimientos",
       "id": "MANUAL_AGRADECIMIENTOS",
-      "url": "urn:sv:documento:sha256:ef0111e41ae9d25c6b35ce15e5f676deeb41e961df6539337f9f0b64cb80567c",
-      "sha256": "ef0111e41ae9d25c6b35ce15e5f676deeb41e961df6539337f9f0b64cb80567c"
+      "url": "urn:sv:documento:sha256:0b6f8b6b17ae27e0ea29cd7f4e3bbf39c195c0ebaf52f5c25323a68560b30941",
+      "sha256": "0b6f8b6b17ae27e0ea29cd7f4e3bbf39c195c0ebaf52f5c25323a68560b30941"
     }
   ]
 }

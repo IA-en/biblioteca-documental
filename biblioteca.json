@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-mantenimiento-automatico-20261026",
+  "edicion": "biblioteca-sv-drive-operativo-20261027",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "aaa000715d2c3063899ef448a280391cee371005ff343eedb7490e0858f3f88d"
+        "sha256": "5e0c9049ed28401a21bd0f182485372ac2acf4269ed57ef304efd9d7d50dfd72"
       },
       "metadatos": [
         {
@@ -545,11 +545,11 @@
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null,
           "sintetico": false,
-          "procedencia": "Edición pública de 26/10/2026",
+          "procedencia": "Edición pública de 27/10/2026",
           "documento": "MANUAL_AGRADECIMIENTOS",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "ef0111e41ae9d25c6b35ce15e5f676deeb41e961df6539337f9f0b64cb80567c",
+            "sha256": "0b6f8b6b17ae27e0ea29cd7f4e3bbf39c195c0ebaf52f5c25323a68560b30941",
             "ruta": "libros/manual/src/agradecimientos.md"
           },
           "visibilidad": "publica"

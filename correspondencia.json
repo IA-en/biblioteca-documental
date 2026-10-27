@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "421a14a59059aff2a852c5f7877a949ea4275db16ee8e1914991acd8b94a754d",
+  "biblioteca_sha256": "0db3f36a942b5525fa0cdf6d2f5c5e8c6997bc6cc9675316fc3346f29c6362f0",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2164,7 +2164,7 @@
     },
     {
       "alcance": "Reconocimiento de componentes utilizados y mantenimiento de dependencias y versiones; sin modificación de la semántica del lenguaje ni habilitación de producción.",
-      "cobertura_bytes": 12664,
+      "cobertura_bytes": 12763,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_AGRADECIMIENTOS",
       "identificador_editorial_r0": null,
@@ -2172,36 +2172,27 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/agradecimientos.md",
-        "sha256": "ef0111e41ae9d25c6b35ce15e5f676deeb41e961df6539337f9f0b64cb80567c"
+        "sha256": "0b6f8b6b17ae27e0ea29cd7f4e3bbf39c195c0ebaf52f5c25323a68560b30941"
       },
-      "procedencia": "Edición pública de 26/10/2026",
+      "procedencia": "Edición pública de 27/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 11488,
+          "fin_byte_exclusivo": 11986,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000071",
-          "sha256": "0ca98648bf756705996a0d450774655eb3e95a9fc58623a454971a3e6944a8d0",
+          "seccion": "MD-L000001-L000072",
+          "sha256": "cf646869faaad60ab01a35ed47548437d490e2b94228c324d094b97628dc9b5a",
           "titulo": "20. Agradecimientos {#agradecimientos}",
-          "ultima_linea": 71
+          "ultima_linea": 72
         },
         {
-          "fin_byte_exclusivo": 11887,
-          "inicio_byte": 11488,
-          "primera_linea": 72,
-          "seccion": "MD-L000072-L000075",
-          "sha256": "a4421e8ffc689e04376ca61facb2019e6159b7331eb37035d7d74d40ead38a53",
-          "titulo": "Servicios en evaluación",
-          "ultima_linea": 75
-        },
-        {
-          "fin_byte_exclusivo": 12664,
-          "inicio_byte": 11887,
-          "primera_linea": 76,
-          "seccion": "MD-L000076-L000084",
-          "sha256": "cb9cf3a6a96f62f562bdfab901668eec22d983e9ac08d3052b1b3bdc247988c1",
+          "fin_byte_exclusivo": 12763,
+          "inicio_byte": 11986,
+          "primera_linea": 73,
+          "seccion": "MD-L000073-L000081",
+          "sha256": "497c54162d0c2915c9c96f1f2d181e17eeb3ba9d46c258bb8f98d426667ab3f0",
           "titulo": "Identificación y alcance del reconocimiento",
-          "ultima_linea": 84
+          "ultima_linea": 81
         }
       ]
     },
@@ -3992,9 +3983,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-mantenimiento-automatico-20261026",
+  "edicion": "biblioteca-sv-drive-operativo-20261027",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "eb8cb35b2e7067a38ef0cb2aabf5ecec9a5b4c1b0fd3382d775ebc4e4e2f36c6",
+  "politica_sha256": "effff5871dce41dd55e3574652178dc753383511dbc6d53972f1c78663372d7d",
   "recepcion_visual": false,
   "version": 1
 }
