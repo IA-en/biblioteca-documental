@@ -61,7 +61,7 @@ Las pruebas de disponibilidad se efectúan en un recinto de ensayo autorizado. N
 ## **17.4.** De la necesidad a la capacidad recibida {#de-la-necesidad-a-la-capacidad-recibida}
 
 1. **Definir la obligación.** Precisar qué información o propiedad debe conservarse y qué operación la necesita.
-2. **Asignar y recibir el trabajo.** Identificar la función responsable, las aportaciones y la función que comprobará el resultado. Una asignación funcional no acredita por sí sola que un ejecutor haya aceptado el encargo.
+2. **Asignar y recibir el trabajo.** Identificar la función responsable, las aportaciones y la función que comprobará el resultado. Una asignación funcional no acredita por sí sola que un ejecutor haya aceptado el trabajo asignado.
 3. **Realizar y contrastar.** Comprobar cada componente y después el recorrido integrado requerido. Una limitación de la representación intermedia sólo se modifica tras demostrar la pérdida o insuficiencia concreta.
 4. **Registrar la recepción.** Declarar aceptación, aceptación parcial o rechazo, con evidencia y límites. La decisión de uso corresponde a la autoridad competente y conserva sus condiciones propias.
 

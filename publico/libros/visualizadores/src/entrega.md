@@ -2,7 +2,7 @@
 
 ## Regla vigente
 
-**El Gestor no entrega contenido a proveedores de IA. Sólo permite las operaciones de conexión admitidas.** La prohibición incluye documentos, fragmentos, preguntas, respuestas, exámenes, traducciones y mediciones mediante contadores remotos. Una conexión comprobada, un saldo disponible o un permiso documental anterior no levantan ese bloqueo.
+**La regla general bloquea la entrega de contenido a proveedores de IA; las excepciones necesitan autorización y comprobaciones propias.** La [norma Código limpio y auditable](https://administracion.itvia.online/normas/codigo-limpio) delimita los exámenes, recuentos documentales y consultas sintéticas expresamente admitidos. Cada excepción conserva su destinatario, expediente, finalidad y condiciones; ninguna habilita producción ni el envío de expedientes o datos de pacientes. Una conexión comprobada, un saldo disponible o un permiso documental anterior no levantan el bloqueo general.
 
 La declaración [Aislamiento y entrega de datos](https://administracion.itvia.online/aislamiento-ia) reúne el alcance y las referencias de respaldo. [IA, frontera y núcleo](https://administracion.itvia.online/ia-frontera-nucleo) explica la separación entre transporte, admisión y autoridad. Ambas deben leerse conjuntamente.
 
@@ -22,9 +22,9 @@ La decisión se conserva con cuenta responsable, fecha y motivo. Impide nuevas t
 
 Un expediente distingue contenido preparado, intento de transporte, respuesta y revisión. **Preparado** no acredita envío; **resultado incierto** conserva la falta de confirmación; **respuesta recibida** no demuestra corrección científica. Las referencias se cotejan con los bytes y las autorizaciones de aquel expediente. Un consumo desconocido no se sustituye por cero.
 
-Los antecedentes no alteran la prohibición actual. Tampoco una licencia documental, una aceptación de responsabilidad o la retirada de un permiso prueban que un destinatario haya eliminado material recibido anteriormente. El acceso al historial exige autorización vigente.
+Los antecedentes no amplían las excepciones vigentes ni alteran el bloqueo general. Tampoco una licencia documental, una aceptación de responsabilidad o la retirada de un permiso prueban que un destinatario haya eliminado material recibido anteriormente. El acceso al historial exige autorización vigente.
 
-## Condiciones de una eventual habilitación
+## Condiciones de una nueva habilitación
 
 Una modificación futura exigiría decisión expresa, revisión de aislamiento y privacidad, contrato de frontera y pruebas de recepción del circuito. No se obtiene cambiando una preferencia de lectura. Las condiciones documentales y científicas se comprobarían además por destinatario, dominio, edición y finalidad. En los exámenes que exijan documentos íntegros, una selección de pasajes no puede sustituirlos.
 

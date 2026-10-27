@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "f2a36e45398995427c1208e565f0134e2e9e479053f711c1ca46dacbb77ef333",
+  "revision": "1941bdbe9968d719a096226cb5b623f914393e274fec7f430cf1c4d391db775c",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -126,8 +126,8 @@
       "ruta": "desarrollo-validacion-nucleo.md",
       "titulo": "17. Desarrollo y validación del núcleo",
       "id": "MANUAL_DESARROLLO_VALIDACION",
-      "url": "urn:sv:documento:sha256:ee68c99c0e7a3849cf2cc24979acb31470bae28f9df5effb81c88da5b79bef54",
-      "sha256": "ee68c99c0e7a3849cf2cc24979acb31470bae28f9df5effb81c88da5b79bef54"
+      "url": "urn:sv:documento:sha256:e8c026acae6407d3b0d428e148646431f35be3ea516c27be86d6aee52c35f909",
+      "sha256": "e8c026acae6407d3b0d428e148646431f35be3ea516c27be86d6aee52c35f909"
     },
     {
       "ruta": "integracion-gestor-sv.md",

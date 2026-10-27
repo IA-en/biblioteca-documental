@@ -4,16 +4,16 @@
     {
       "id": "GUIA-02",
       "titulo": "Biblioteca documental del SV",
-      "sha256": "5eb3bfb72249eb7431bd521231280e8783216835dca3cf76b7adbc16085fccbe",
+      "sha256": "d15a0419fc2000df93811a4ec1fdf4acbd6529071196445bba033dfc516f8bfe",
       "ruta": "indice.md",
-      "url": "urn:sv:documento:sha256:5eb3bfb72249eb7431bd521231280e8783216835dca3cf76b7adbc16085fccbe"
+      "url": "urn:sv:documento:sha256:d15a0419fc2000df93811a4ec1fdf4acbd6529071196445bba033dfc516f8bfe"
     },
     {
       "id": "GUIA-03",
       "titulo": "Organización y alcance",
-      "sha256": "fbf462b7fa20680210d975215b564d07b2a942f5ac26337b69ce6d518aca4956",
+      "sha256": "ba6d233734a92dfbee7b2ee046a3c00b1b91f530bb6ab037abef64b0a50c2a45",
       "ruta": "organizacion.md",
-      "url": "urn:sv:documento:sha256:fbf462b7fa20680210d975215b564d07b2a942f5ac26337b69ce6d518aca4956"
+      "url": "urn:sv:documento:sha256:ba6d233734a92dfbee7b2ee046a3c00b1b91f530bb6ab037abef64b0a50c2a45"
     },
     {
       "id": "GUIA-04",
@@ -37,6 +37,6 @@
     "ruta": "SUMMARY.md",
     "url": "urn:sv:documento:sha256:a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f"
   },
-  "revision": "fabe44f576222e088b262b20676b1abccfbf5bf21a6551a4df8bfc706f7c12f9",
+  "revision": "6d1dbbfcbcf5c8088528b422db1104ae79d12d5709fb8df362e36745381791e5",
   "libro": "SV_GUIA"
 }

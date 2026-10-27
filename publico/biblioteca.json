@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-drive-operativo-20261027",
+  "edicion": "biblioteca-sv-concordancia-20261027",
   "libros": [
     {
       "id": "guia",
       "plan": {
-        "sha256": "0fd88bf92c22845dbf93748b4c5325de7eb7426e7a4dc61f3d2710a1990e0402",
+        "sha256": "ce94d00358bdc64751b19bacfc354f559c0245525fdcd6c60ff9beeaacfcca36",
         "ruta": "libros/guia/plan.json"
       },
       "titulo": "Biblioteca documental del SV",
@@ -29,13 +29,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "5eb3bfb72249eb7431bd521231280e8783216835dca3cf76b7adbc16085fccbe",
+            "sha256": "d15a0419fc2000df93811a4ec1fdf4acbd6529071196445bba033dfc516f8bfe",
             "ruta": "libros/guia/src/indice.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "GUIA-02",
-          "procedencia": "Revisión editorial del 25/10/2026",
-          "alcance": "La nota de consulta permanece en la portada sin constituir una entrada del índice.",
+          "procedencia": "Edición pública de 27/10/2026",
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -44,13 +44,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "fbf462b7fa20680210d975215b564d07b2a942f5ac26337b69ce6d518aca4956",
+            "sha256": "ba6d233734a92dfbee7b2ee046a3c00b1b91f530bb6ab037abef64b0a50c2a45",
             "ruta": "libros/guia/src/organizacion.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "GUIA-03",
-          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
-          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
+          "procedencia": "Edición pública de 27/10/2026",
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -91,7 +91,7 @@
     {
       "id": "visualizadores",
       "plan": {
-        "sha256": "1c3aefaa125cca398f3a688efbd5c3b3be636ee8a9f5637b83c1d05450f7b65d",
+        "sha256": "7234623d6fcc300ffe13ba7003e134f7757fd34dc9ff8cd85d31e7ffb1a14cd7",
         "ruta": "libros/visualizadores/plan.json"
       },
       "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
@@ -145,13 +145,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "5ffa0258c8745cce0e95996c44eafea4ec1e83c597b6fc5d9636573ff3eceb78",
+            "sha256": "b9fcd409955b2aa714fa84ea865050c489d97b1d2197df846ebf0449a3f188f3",
             "ruta": "libros/visualizadores/src/entrega.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "VISUALIZADORES-04",
-          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
-          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+          "procedencia": "Edición pública de 27/10/2026",
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -175,13 +175,13 @@
         {
           "identificador_editorial_r0": null,
           "original": {
-            "sha256": "9ac02958b8d8347f8dc98c6a2168322c37a77fb6623c46ed5bfcf826106a407c",
+            "sha256": "0a12c7b6614cb3263ebe3f80d11e5174aefd9c62ce1bd553b17af91fc0b54ec2",
             "ruta": "libros/visualizadores/src/verificacion.md"
           },
           "correspondencia": "identidad_literal",
           "documento": "VISUALIZADORES-06",
-          "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
-          "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+          "procedencia": "Edición pública de 27/10/2026",
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "5e0c9049ed28401a21bd0f182485372ac2acf4269ed57ef304efd9d7d50dfd72"
+        "sha256": "b7846d9e1d6ae000093508cecf70e39d8c80087134a1d6a491c7dff224b61118"
       },
       "metadatos": [
         {
@@ -525,16 +525,16 @@
           "documento": "MANUAL_HERRAMIENTAS"
         },
         {
-          "alcance": "Capacidades en desarrollo, exigencias y condiciones de comprobación del núcleo; estado referido a fuentes y recepciones identificadas.",
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
           "licencia": "CC BY-NC-ND 4.0",
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null,
           "sintetico": false,
-          "procedencia": "Edición pública propia de 19/10/2026",
+          "procedencia": "Edición pública de 27/10/2026",
           "documento": "MANUAL_DESARROLLO_VALIDACION",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "ee68c99c0e7a3849cf2cc24979acb31470bae28f9df5effb81c88da5b79bef54",
+            "sha256": "e8c026acae6407d3b0d428e148646431f35be3ea516c27be86d6aee52c35f909",
             "ruta": "libros/manual/src/desarrollo-validacion-nucleo.md"
           },
           "visibilidad": "publica"
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "4c9ead07237d2d6f756385489ff1bf4bc43c11ec02f11a0fa2283a576da9ae15",
+        "sha256": "8b1e2c63dbd80ee8b1824b32b7c53eecb7a660a655e66a7dd758ffd82a4e4e31",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -809,13 +809,13 @@
           "visibilidad": "publica",
           "documento": "DOMINIOS-08",
           "identificador_editorial_r0": null,
-          "alcance": "Constitución celular, consejo al experto y estudio del potencial; requisitos y límites de la seudo-producción, sin habilitación operativa.",
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
           "correspondencia": "identidad_literal",
-          "procedencia": "Revisión editorial del 25/10/2026",
+          "procedencia": "Edición pública de 27/10/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/dominios/src/parametros-rutas.md",
-            "sha256": "4dacb01687fa94d652a5ef86a78633dd86fc6b8f276776d06d67167cd5da8a2e"
+            "sha256": "aaf22c4fd91ceaaa74669682c08e81029bc3ea7f3bdc097208101a66a41091b4"
           },
           "sintetico": false
         }
@@ -824,7 +824,7 @@
     },
     {
       "plan": {
-        "sha256": "5ee3605a7d6d03c47ed0d1b4a6bb6b3d6dc294d9547c0dbaef5907222865470f",
+        "sha256": "200aeacfb22bd4fbbdca0d1fd324e818b88c8da502d52c5d211a057c08a03c06",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
@@ -875,14 +875,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Edición pública de 22/10/2026",
-          "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
+          "procedencia": "Edición pública de 27/10/2026",
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "564ed018ca4eb53134a2a7f1695818acbaf58cd5d2ad04c7491c301e4e3db114",
+            "sha256": "4e4165c127c1797ed882315532df2b4add823c54cec15275a94afa0debd49a02",
             "ruta": "libros/evaluacion-modelos/src/documentos.md"
           },
           "documento": "EET-04",

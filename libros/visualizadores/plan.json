@@ -25,9 +25,9 @@
     {
       "id": "VISUALIZADORES-04",
       "titulo": "Permisos documentales y bloqueo de entregas",
-      "sha256": "5ffa0258c8745cce0e95996c44eafea4ec1e83c597b6fc5d9636573ff3eceb78",
+      "sha256": "b9fcd409955b2aa714fa84ea865050c489d97b1d2197df846ebf0449a3f188f3",
       "ruta": "entrega.md",
-      "url": "urn:sv:documento:sha256:5ffa0258c8745cce0e95996c44eafea4ec1e83c597b6fc5d9636573ff3eceb78"
+      "url": "urn:sv:documento:sha256:b9fcd409955b2aa714fa84ea865050c489d97b1d2197df846ebf0449a3f188f3"
     },
     {
       "id": "VISUALIZADORES-05",
@@ -39,9 +39,9 @@
     {
       "id": "VISUALIZADORES-06",
       "titulo": "Comprobaciones, estado y fuentes",
-      "sha256": "9ac02958b8d8347f8dc98c6a2168322c37a77fb6623c46ed5bfcf826106a407c",
+      "sha256": "0a12c7b6614cb3263ebe3f80d11e5174aefd9c62ce1bd553b17af91fc0b54ec2",
       "ruta": "verificacion.md",
-      "url": "urn:sv:documento:sha256:9ac02958b8d8347f8dc98c6a2168322c37a77fb6623c46ed5bfcf826106a407c"
+      "url": "urn:sv:documento:sha256:0a12c7b6614cb3263ebe3f80d11e5174aefd9c62ce1bd553b17af91fc0b54ec2"
     }
   ],
   "summary": {
@@ -51,6 +51,6 @@
     "ruta": "SUMMARY.md",
     "url": "urn:sv:documento:sha256:2b09bcb94740214f313a0a7034c62178549d023486eae8bcd9b9dd399b27223d"
   },
-  "revision": "83b3ba9b2c0f6aed9799403876fd4ee35b8ddd76fbb2b727c1218b56e3bffd49",
+  "revision": "47059efe9ba5cb08e1777732b7700dd2cff953ab211fbaacb6cbbac608aee00f",
   "libro": "SV_VISUALIZADORES"
 }

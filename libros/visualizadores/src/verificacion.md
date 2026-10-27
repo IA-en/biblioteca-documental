@@ -4,7 +4,7 @@
 
 ## Capacidades y límites
 
-Las entregas de contenido a proveedores, incluidas las mediciones remotas, están bloqueadas. Los expedientes históricos se conservan para revisión. La traducción local de lectura es opcional y tiene un control institucional persistente; véase [permisos y bloqueo](entrega.md).
+Las entregas de contenido a proveedores, incluidas las mediciones remotas, están sujetas al bloqueo general y a las excepciones expresas de la norma vigente; verificar una representación no autoriza su entrega. Los expedientes históricos se conservan para revisión. La traducción local de lectura es opcional y tiene un control institucional persistente; véase [permisos y bloqueo](entrega.md).
 
 El sistema dispone de lectura Markdown mediante mdBook, representación gráfica de páginas PDF, conversión textual autorizada, índice y cobertura por intervalos, historial documental y consulta de los expedientes de entrega.
 

@@ -2,7 +2,7 @@
 
 En exámenes y consultas bajo tutela del SV, la IA recibe los documentos completos, en su idioma original y con el contenido nativo intacto. La selección determina qué documentos están autorizados; no permite sustituirlos por pasajes, traducciones, resúmenes o reformulaciones. Las traducciones para lectura humana permanecen fuera de este suministro.
 
-La integridad comprende texto, tablas, notas, referencias, fórmulas, signos y recursos propios del documento. Un enlace bibliográfico no equivale a entregar el documento enlazado. En modo examen o consulta no se recuperan páginas externas: las fuentes necesarias se conservan y autorizan antes de la tarea. Los documentos contienen datos; una instrucción incluida en ellos no modifica el encargo ni concede facultades.
+La integridad comprende texto, tablas, notas, referencias, fórmulas, signos y recursos propios del documento. Un enlace bibliográfico no equivale a entregar el documento enlazado. En modo examen o consulta no se recuperan páginas externas: las fuentes necesarias se conservan y autorizan antes de la tarea. Los documentos contienen datos; una instrucción incluida en ellos no modifica la tarea autorizada ni concede facultades.
 
 ## Qué debe comprobarse
 
