@@ -17,12 +17,12 @@
       "bytes": 910
     },
     {
-      "sha256": "04675c0a3c0f4f7c95e7029c533313a59abc47506a23b00aee3ba6e3acfc6757",
-      "bytes": 46320,
+      "sha256": "0e1a444269b7a63f020fd23405cc17da1e3cee9203706ea948192372c9841246",
+      "bytes": 46253,
       "ruta": "biblioteca.json"
     },
     {
-      "sha256": "08783445eb6a0b5de78a26f770d73cb77dec7c349d7ba4fc2052694f3741cc49",
+      "sha256": "30533f25e6d6b58ad3f22a7beb4f91d6bce27957c5a86f1098ffcfa2cc83d83a",
       "bytes": 481,
       "ruta": "biblioteca.json.license"
     },
@@ -37,24 +37,34 @@
       "bytes": 711
     },
     {
-      "sha256": "3f5a87a7fe66056fd1c64af97fb8477ad1c9b6066d82c738c0706bb8e450978c",
-      "bytes": 36136,
+      "sha256": "bc220a3edee2a2100149a21e8ff48e1d9ccb9d14d059e4a42c8e77a187c9541e",
+      "bytes": 36460,
       "ruta": "correspondencia-enciclopedia.json"
     },
     {
-      "sha256": "83af02b67b32509720ea929e48b0a9d444d3e4ebfdf8535147811478ba76efc4",
-      "bytes": 157876,
+      "sha256": "3aa9e202485b49795ed2e3efe0bba26de75f7e4770f0a28d72d1be35e15da151",
+      "bytes": 499,
+      "ruta": "correspondencia-enciclopedia.json.license"
+    },
+    {
+      "sha256": "ed37bcdbd608e148844073c929f07c05ef5204f4c99fc9cf1e76c0dfdd5f861d",
+      "bytes": 158558,
       "ruta": "correspondencia.json"
     },
     {
-      "sha256": "f5d334319fa42e03624e106e9f82f60e519ca4d52949e2a4200f2d0a08d28fd1",
+      "sha256": "ebf4630d6c6e0fe4a01fde0079223b5a7cc6947fb9c97d826e76d91353ec0ff3",
       "bytes": 486,
       "ruta": "correspondencia.json.license"
     },
     {
-      "sha256": "87ef90fafe783c0c9374223fdf1be57528b7435da895b256b3ca35922e15a307",
-      "bytes": 5034,
+      "sha256": "bf2b48f9864f4595276e4aff270a4caffefd83fe25357d984e44f9e8eee54225",
+      "bytes": 4997,
       "ruta": "enciclopedia.json"
+    },
+    {
+      "sha256": "459b480f5131461e1eaed9221680afd7acb4cf828473e405f04ae958a44fd9ba",
+      "bytes": 483,
+      "ruta": "enciclopedia.json.license"
     },
     {
       "ruta": "libros/criterio-terminologia.md",
@@ -72,12 +82,12 @@
       "ruta": "libros/dominios/book.toml"
     },
     {
-      "sha256": "e889a96c8f8222f7a36a83d7696efdfd955d25aff4d693b18876b54d54522834",
+      "sha256": "4226a023950642b5c5d433cc8ec56604b52a8dacb5c3a5f478311b13b3adb592",
       "bytes": 2608,
       "ruta": "libros/dominios/plan.json"
     },
     {
-      "sha256": "9bb9609c1c8f968028c9cda83012ec6b97a3d56733ee4b3d6c15232a4d5e47c8",
+      "sha256": "b1276fe18ad52f935e27f4ccb225ac2474fbc886b5d6620422345991cae22b7d",
       "bytes": 475,
       "ruta": "libros/dominios/plan.json.license"
     },
@@ -87,8 +97,8 @@
       "ruta": "libros/dominios/presentacion.js"
     },
     {
-      "sha256": "898ba0e66a6847d8872b4b7ec9bb513c94d88c8a80fb997cb180d50a5d462c5d",
-      "bytes": 4954,
+      "sha256": "16887241dc4b008b559f23b7d86ce931eb6b714461ae6a1709ea14a1bb2d813e",
+      "bytes": 6496,
       "ruta": "libros/dominios/src/ciberseguridad.md"
     },
     {
@@ -167,8 +177,8 @@
       "ruta": "libros/enciclopedia/biblioteca.css"
     },
     {
-      "sha256": "fdeb01ec483167127c9067d9127f4068188ccf2026e1b3494ee84e6ef3ba5abc",
-      "bytes": 702,
+      "sha256": "9e9e3751c1778fa80b10d2d9ec031728b6abc3cb0f3c2c0517d53611bc665cdb",
+      "bytes": 1154,
       "ruta": "libros/enciclopedia/book.toml"
     },
     {
@@ -177,28 +187,33 @@
       "ruta": "libros/enciclopedia/exploracion.js"
     },
     {
-      "sha256": "963b65052e3a4ba4a7b9b6870a5b742ade18f9fdd557fcd452191290b89c22bc",
+      "sha256": "5c1992109d566894368763dbb2af18b85bc21d1b24e2c037a68ec2e86637b72a",
       "bytes": 2067,
       "ruta": "libros/enciclopedia/plan.json"
     },
     {
-      "ruta": "libros/enciclopedia/presentacion.js",
+      "sha256": "601400d5a470e927d2c7d161d5f3254fc34ffaf93cf14360aa0f1da51fc910fe",
+      "bytes": 475,
+      "ruta": "libros/enciclopedia/plan.json.license"
+    },
+    {
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b",
       "bytes": 13567,
-      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
+      "ruta": "libros/enciclopedia/presentacion.js"
     },
     {
-      "ruta": "libros/enciclopedia/src/fisica-quimica-matematica.md",
       "sha256": "9fddcd085f2e32579a8e5689b460e73149093f6c3c7222f6186d89872de79685",
-      "bytes": 1350
+      "bytes": 1350,
+      "ruta": "libros/enciclopedia/src/fisica-quimica-matematica.md"
     },
     {
-      "sha256": "8b0d020eecc869bece136943c69381b238d926afd7886e80cd712fa7a38d2d3c",
-      "bytes": 30554,
+      "sha256": "531c0ab77d6ce0c1e7bcf5e9e0ee323e431d66014be68168d2665cd2a14caef4",
+      "bytes": 30904,
       "ruta": "libros/enciclopedia/src/ia.md"
     },
     {
-      "sha256": "6296303bca14486ba762bcd7f558d8f92d210a08d12ab6fc9f6aa70310d7d760",
-      "bytes": 24610,
+      "sha256": "2ba7e812c07d92bf475cda7b5f880c6b75d388886961208c16a5004c2da04e00",
+      "bytes": 25828,
       "ruta": "libros/enciclopedia/src/lenguaje.md"
     },
     {
@@ -217,14 +232,19 @@
       "ruta": "libros/enciclopedia/src/SUMMARY.md"
     },
     {
-      "bytes": 19360,
       "sha256": "770ea6fb5e4bf7ccd567fa8f83d2e6435e49c9dbfc70f756d18722d72375962b",
+      "bytes": 19360,
       "ruta": "libros/enciclopedia/theme/index.hbs"
     },
     {
-      "ruta": "libros/enciclopedia/theme/searcher.js",
+      "sha256": "10c2dfad13a0422be2720b382c3710b8632959d4f2b2ac5953bcf30574e79b15",
+      "bytes": 997,
+      "ruta": "libros/enciclopedia/theme/index.hbs.license"
+    },
+    {
+      "sha256": "bccf35a85cdeec40e7084f7fe39a3a5c92c28c93081f03bad075d212513e3164",
       "bytes": 20330,
-      "sha256": "bccf35a85cdeec40e7084f7fe39a3a5c92c28c93081f03bad075d212513e3164"
+      "ruta": "libros/enciclopedia/theme/searcher.js"
     },
     {
       "sha256": "60f47e183af8de4cf1758c1dcdaf835aa56206774e8f5016df3546838aa59483",
@@ -407,12 +427,12 @@
       "ruta": "libros/manual/numeracion.js"
     },
     {
-      "sha256": "67ac032ed5c9684aeb5bc3067d9e2475118a65c9a8b349114787119063da7a59",
+      "sha256": "43c24e6e4db0165430c16fa8930e94030b14b4ba7c0595a977ebe4e595f45d60",
       "bytes": 7376,
       "ruta": "libros/manual/plan.json"
     },
     {
-      "sha256": "bf7d9871aca23f9ee75fea7e34eca54258ad940f4622b3ba74554946d89efbe2",
+      "sha256": "5e8a8f3f3fc3592a6b8c62e413573dc92d7bb2de2add7922b39517fb3db54b19",
       "bytes": 475,
       "ruta": "libros/manual/plan.json.license"
     },
@@ -432,8 +452,8 @@
       "ruta": "libros/manual/src/arbitro-director.md"
     },
     {
-      "sha256": "3c9a444c852c847629ae4715a2ce062440c48c41dc30504a47edb0f7ef5f5816",
-      "bytes": 7948,
+      "sha256": "49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759",
+      "bytes": 10340,
       "ruta": "libros/manual/src/arquitectura-ejecucion.md"
     },
     {
@@ -757,17 +777,22 @@
       "bytes": 15921
     },
     {
-      "sha256": "eece69441cba9d5e5fb5577d26d933c660b730e1ae531ef2f1ec4abfef2cbe6b",
+      "sha256": "0c058eb410a7613a8dcbdac357609545789139a8dc7f0d0024947609501c4199",
       "bytes": 285,
       "ruta": "politica-enciclopedia.json"
     },
     {
-      "sha256": "4c5ecd430abdff008d70a22ebba7d0ab8b9a0ec452d55d469a76a86506a1219f",
+      "sha256": "29e4ff265e1997933419ff508211770b366987c57c6c573be35a2f131b805139",
+      "bytes": 492,
+      "ruta": "politica-enciclopedia.json.license"
+    },
+    {
+      "sha256": "7ad38d9217f4289e900ac37f176c9b81e8450bf3513da8c10f4894a82efd0eb1",
       "bytes": 377,
       "ruta": "politica-verificacion.json"
     },
     {
-      "sha256": "870ba7cfc5a9ab99a703411ea8c32fd166468044db0afe6a88edc895c498b1ab",
+      "sha256": "4f97916751eab492053c2f2f5259054e22c98ff04254be1a558a1b7b3a941dd4",
       "bytes": 492,
       "ruta": "politica-verificacion.json.license"
     },
@@ -827,12 +852,12 @@
       "bytes": 962
     },
     {
-      "sha256": "04675c0a3c0f4f7c95e7029c533313a59abc47506a23b00aee3ba6e3acfc6757",
-      "bytes": 46320,
+      "sha256": "0e1a444269b7a63f020fd23405cc17da1e3cee9203706ea948192372c9841246",
+      "bytes": 46253,
       "ruta": "publico/biblioteca.json"
     },
     {
-      "sha256": "08783445eb6a0b5de78a26f770d73cb77dec7c349d7ba4fc2052694f3741cc49",
+      "sha256": "30533f25e6d6b58ad3f22a7beb4f91d6bce27957c5a86f1098ffcfa2cc83d83a",
       "bytes": 481,
       "ruta": "publico/biblioteca.json.license"
     },
@@ -857,17 +882,22 @@
       "sha256": "22cf45073f06127cd03861c5402a58fd18e8040a53ad6ddcc5039fd44253a88a"
     },
     {
-      "sha256": "3f5a87a7fe66056fd1c64af97fb8477ad1c9b6066d82c738c0706bb8e450978c",
-      "bytes": 36136,
+      "sha256": "bc220a3edee2a2100149a21e8ff48e1d9ccb9d14d059e4a42c8e77a187c9541e",
+      "bytes": 36460,
       "ruta": "publico/correspondencia-enciclopedia.json"
     },
     {
-      "sha256": "83af02b67b32509720ea929e48b0a9d444d3e4ebfdf8535147811478ba76efc4",
-      "bytes": 157876,
+      "sha256": "3aa9e202485b49795ed2e3efe0bba26de75f7e4770f0a28d72d1be35e15da151",
+      "bytes": 499,
+      "ruta": "publico/correspondencia-enciclopedia.json.license"
+    },
+    {
+      "sha256": "ed37bcdbd608e148844073c929f07c05ef5204f4c99fc9cf1e76c0dfdd5f861d",
+      "bytes": 158558,
       "ruta": "publico/correspondencia.json"
     },
     {
-      "sha256": "f5d334319fa42e03624e106e9f82f60e519ca4d52949e2a4200f2d0a08d28fd1",
+      "sha256": "ebf4630d6c6e0fe4a01fde0079223b5a7cc6947fb9c97d826e76d91353ec0ff3",
       "bytes": 486,
       "ruta": "publico/correspondencia.json.license"
     },
@@ -1357,8 +1387,8 @@
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/arbitro-director.html"
     },
     {
-      "sha256": "7eb342286ea678be9cec74f7609ebf8beb360f2db8f424a4919078c547ef1337",
-      "bytes": 30674,
+      "sha256": "48f27b481b940b859e7616d260e7be84c1330e3a6964fb04ed13986eb5a373b5",
+      "bytes": 33216,
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/arquitectura-ejecucion.html"
     },
     {
@@ -1647,8 +1677,8 @@
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion.html"
     },
     {
-      "sha256": "13b4efafeca49c68c83acb2875a5264e7abc8f5b9affcc02e35d84e0195f6f09",
-      "bytes": 182066,
+      "sha256": "dd8f703f9ec5c281ff707317802b6868af8b6ab0bad4d00ca01c11a00fb4a648",
+      "bytes": 184608,
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/print.html"
     },
     {
@@ -1787,8 +1817,8 @@
       "ruta": "publico/dominios/universos/book-609e4cb8.js"
     },
     {
-      "sha256": "d96e5089f2a56764b4b0f5d5970b4d7295084e72e40f867b7e42543323a4af91",
-      "bytes": 27187,
+      "sha256": "2aaff744dd54bb22fc3d058fa11bd29a4e07dad1452b5ca13840ccb87f1658a0",
+      "bytes": 28843,
       "ruta": "publico/dominios/universos/ciberseguridad.html"
     },
     {
@@ -1982,8 +2012,8 @@
       "ruta": "publico/dominios/universos/presentacion.html"
     },
     {
-      "sha256": "62a455a991c9cb82f4c658dc4f35aebacc413d0afd96a1141df12c77135b1fea",
-      "bytes": 122975,
+      "sha256": "a8823982757af3bb7da307ae7c005e681d9c0982c7cae7be4bc32179eeadafaf",
+      "bytes": 124631,
       "ruta": "publico/dominios/universos/print.html"
     },
     {
@@ -2007,24 +2037,29 @@
       "ruta": "publico/dominios/universos/tomorrow-night-4c0ae647.css"
     },
     {
-      "sha256": "87ef90fafe783c0c9374223fdf1be57528b7435da895b256b3ca35922e15a307",
-      "bytes": 5034,
+      "sha256": "bf2b48f9864f4595276e4aff270a4caffefd83fe25357d984e44f9e8eee54225",
+      "bytes": 4997,
       "ruta": "publico/enciclopedia.json"
     },
     {
-      "ruta": "publico/enciclopedia/.nojekyll",
-      "sha256": "235d4f83c4c71612f43995dbda167720cd0c5384bf9ea64f9328b187c409b51d",
-      "bytes": 72
+      "sha256": "459b480f5131461e1eaed9221680afd7acb4cf828473e405f04ae958a44fd9ba",
+      "bytes": 483,
+      "ruta": "publico/enciclopedia.json.license"
     },
     {
-      "bytes": 22671,
-      "sha256": "cddc429264d43a2655ac9b1438596eff2c79d8915ca3c36faf8dbefd9fba609d",
+      "sha256": "235d4f83c4c71612f43995dbda167720cd0c5384bf9ea64f9328b187c409b51d",
+      "bytes": 72,
+      "ruta": "publico/enciclopedia/.nojekyll"
+    },
+    {
+      "sha256": "9d24bcb097e646a6de0dd2d2ff1dfc1486caecd9d84a4d24b33f8032bc48e61c",
+      "bytes": 22580,
       "ruta": "publico/enciclopedia/404.html"
     },
     {
-      "ruta": "publico/enciclopedia/ayu-highlight-3fdfc3ac.css",
       "sha256": "3fdfc3ac5e435e0cef96dafee74da487e4846ffce4dff5973bb45d68b678dd7f",
-      "bytes": 907
+      "bytes": 907,
+      "ruta": "publico/enciclopedia/ayu-highlight-3fdfc3ac.css"
     },
     {
       "sha256": "2d45672bbe838604c6bbc5f2edc25eead2e6ff1c40a2b4977d37168119d4b2ad",
@@ -2037,39 +2072,39 @@
       "bytes": 4982
     },
     {
-      "ruta": "publico/enciclopedia/book-609e4cb8.js",
       "sha256": "609e4cb80f92aa954a3f48869c751f6f8848433604f1297bb70fde0e3e58a569",
-      "bytes": 30932
+      "bytes": 30932,
+      "ruta": "publico/enciclopedia/book-609e4cb8.js"
     },
     {
-      "ruta": "publico/enciclopedia/clipboard-1626706a.min.js",
       "sha256": "1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44",
-      "bytes": 10754
+      "bytes": 10754,
+      "ruta": "publico/enciclopedia/clipboard-1626706a.min.js"
     },
     {
-      "ruta": "publico/enciclopedia/css/chrome-d279d366.css",
       "sha256": "d279d366359c0d588c9c10cb46afe2b543fc731dea722803639b4e45016d5fe2",
-      "bytes": 18032
+      "bytes": 18032,
+      "ruta": "publico/enciclopedia/css/chrome-d279d366.css"
     },
     {
-      "ruta": "publico/enciclopedia/css/general-e96d0476.css",
       "sha256": "e96d0476741bfcbe8cc0ac02db00187c45a63946834361d0eab846016787c646",
-      "bytes": 11478
+      "bytes": 11478,
+      "ruta": "publico/enciclopedia/css/general-e96d0476.css"
     },
     {
-      "ruta": "publico/enciclopedia/css/print-9e4910d8.css",
       "sha256": "9e4910d8eb508863172430c60d49fd3b442e9e7f5963a18cd1d655c386ffeae9",
-      "bytes": 689
+      "bytes": 689,
+      "ruta": "publico/enciclopedia/css/print-9e4910d8.css"
     },
     {
-      "ruta": "publico/enciclopedia/css/variables-8adf115d.css",
       "sha256": "8adf115df892369c90b830767c4651a9e058b79273e219935f7c8a96c6eab9c0",
-      "bytes": 10422
+      "bytes": 10422,
+      "ruta": "publico/enciclopedia/css/variables-8adf115d.css"
     },
     {
-      "ruta": "publico/enciclopedia/elasticlunr-ef4e11c1.min.js",
       "sha256": "ef4e11c157b1e2e89782d30bd726f2d5ff7834ea5e26ad02474325f8b1f126c9",
-      "bytes": 18051
+      "bytes": 18051,
+      "ruta": "publico/enciclopedia/elasticlunr-ef4e11c1.min.js"
     },
     {
       "sha256": "d8e73720f5af93797d820ea3560bbdd1be242640d31b77831aed385de192eafd",
@@ -2077,142 +2112,142 @@
       "ruta": "publico/enciclopedia/exploracion-d8e73720.js"
     },
     {
-      "ruta": "publico/enciclopedia/favicon-8114d1fc.png",
       "sha256": "8114d1fc74f4b5621ad9afde7746ed9cf7e420be317a6e29023d2298d58aa15b",
-      "bytes": 5679
+      "bytes": 5679,
+      "ruta": "publico/enciclopedia/favicon-8114d1fc.png"
     },
     {
-      "ruta": "publico/enciclopedia/favicon-de23e50b.svg",
       "sha256": "de23e50b1c4dd6e052b3e21d444fcd4b13568b3840ac3c99d9be4e9263c0ef59",
-      "bytes": 1835
+      "bytes": 1835,
+      "ruta": "publico/enciclopedia/favicon-de23e50b.svg"
     },
     {
-      "bytes": 25737,
-      "sha256": "1e681ca18d1d59f4a5fc46f41d2ad4e4f70e4aaa281f4c20fed696c6e5636ee6",
+      "sha256": "b6b231815af9f4811cbe928445473921aea310541b789cc4a2c1400d2f8bcc1f",
+      "bytes": 25542,
       "ruta": "publico/enciclopedia/fisica-quimica-matematica.html"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/fonts-9644e21d.css",
       "sha256": "94b5131beb9b75a55f9649fcf12de167350feae0fab2bab26c2703cd75c0c781",
-      "bytes": 3818
+      "bytes": 3818,
+      "ruta": "publico/enciclopedia/fonts/fonts-9644e21d.css"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/OPEN-SANS-LICENSE.txt",
       "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-      "bytes": 11358
+      "bytes": 11358,
+      "ruta": "publico/enciclopedia/fonts/OPEN-SANS-LICENSE.txt"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2",
       "sha256": "7736aa3596c468515c3209f2f9d68cfae96d94c05689bcc11a5dce426a6ee2e8",
-      "bytes": 44352
+      "bytes": 44352,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-300-7736aa35.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2",
       "sha256": "2c7b95c08df0d228caec6d4bfed06da0f7ab6b76ea5cc3f75b5c6ae416bc571b",
-      "bytes": 40656
+      "bytes": 40656,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-300italic-2c7b95c0.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-600-486c6759.woff2",
       "sha256": "486c67592731a0b36a89dba1fd0b97aeb73f236bbf60dbf28d7c6b5723c07989",
-      "bytes": 44936
+      "bytes": 44936,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-600-486c6759.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2",
       "sha256": "1a3e865977024f444834a75a1b33b89b93134c93007ae3d6e14f24e6c88d8dfb",
-      "bytes": 42120
+      "bytes": 42120,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-600italic-1a3e8659.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2",
       "sha256": "c22fe8c70c36f1d862903b772eaed864d3a8fa849473c9caff224fdb852428e4",
-      "bytes": 44988
+      "bytes": 44988,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-700-c22fe8c7.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2",
       "sha256": "238ae9593944112bee8dd65f8ebc5f3d3862160a8a245fbe1ee3150bc9a2fd81",
-      "bytes": 40800
+      "bytes": 40800,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-700italic-238ae959.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2",
       "sha256": "3d2c812adf74deb36fead3ff8469800d3c0b23eb2c858ae49310291f89490146",
-      "bytes": 44536
+      "bytes": 44536,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-800-3d2c812a.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2",
       "sha256": "ba1521ec219db9bc5bfec0e3e7a897369d98b30d4e853ee4aa525322784428b8",
-      "bytes": 40812
+      "bytes": 40812,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-800italic-ba1521ec.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2",
       "sha256": "6c9463f7096c0b9d610e095ed248ac1e8a8da7e92d17e9be544f3baced7b62b2",
-      "bytes": 41076
+      "bytes": 41076,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-italic-6c9463f7.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2",
       "sha256": "2e3b1d34ac67763ab50652da19305d4b3694c6b6e6bf35f4b98411ce4af646d2",
-      "bytes": 43236
+      "bytes": 43236,
+      "ruta": "publico/enciclopedia/fonts/open-sans-v17-all-charsets-regular-2e3b1d34.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/SOURCE-CODE-PRO-LICENSE.txt",
       "sha256": "d1e6d465a83ba1a3be52db6484868cf5812ae9bbf91abdad3900ba0165afcf93",
-      "bytes": 4528
+      "bytes": 4528,
+      "ruta": "publico/enciclopedia/fonts/SOURCE-CODE-PRO-LICENSE.txt"
     },
     {
-      "ruta": "publico/enciclopedia/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2",
       "sha256": "2bdd9410b0141db3cbbf4cfc3818cc6fad279e8e63940940e06cd6af76ccbfcf",
-      "bytes": 59140
+      "bytes": 59140,
+      "ruta": "publico/enciclopedia/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2"
     },
     {
-      "ruta": "publico/enciclopedia/highlight-493f70e1.css",
       "sha256": "493f70e1527d895653b5ac7157abba8e2c656e43698da93b6c1997e2855a5059",
-      "bytes": 1209
+      "bytes": 1209,
+      "ruta": "publico/enciclopedia/highlight-493f70e1.css"
     },
     {
-      "ruta": "publico/enciclopedia/highlight-abc7f01d.js",
       "sha256": "abc7f01d0ce8c64e4ba9e131d651e48ae1a567b2a1254fea8aab03502288de58",
-      "bytes": 137537
+      "bytes": 137537,
+      "ruta": "publico/enciclopedia/highlight-abc7f01d.js"
     },
     {
-      "bytes": 62205,
-      "sha256": "32f83a5ae35f2476eb3306cad2d0c68cf57813e16fa2026a8c880d3d3ea3f95c",
+      "sha256": "81579b9ce661a45f71664c71f802e057dd9be84374804f0fff7914866db178e9",
+      "bytes": 61319,
       "ruta": "publico/enciclopedia/ia.html"
     },
     {
-      "bytes": 31760,
-      "sha256": "0d962db92d0ed863bfc9808724db60d36728d5f2b3379dfb3dbeda5c9a7d886c",
+      "sha256": "5bc56726f8a0cf01b2750aac98d6555de5427b3bf7bdfbfcd024edd2fda96bae",
+      "bytes": 31485,
       "ruta": "publico/enciclopedia/index.html"
     },
     {
-      "bytes": 55233,
-      "sha256": "13acf550f95a058f4fbf3b8e9fdb8fab19413c2add62c0723de4af230676f0ca",
+      "sha256": "c74f37847611a1d8d98512fd6458fc44428984c11dddd293046e584fcdc9a54d",
+      "bytes": 55475,
       "ruta": "publico/enciclopedia/lenguaje.html"
     },
     {
-      "ruta": "publico/enciclopedia/mark-09e88c2c.min.js",
       "sha256": "09e88c2cfaf23ea8a37b5681433eafea97033af632ecc948c8c1ee9944647743",
-      "bytes": 17320
+      "bytes": 17320,
+      "ruta": "publico/enciclopedia/mark-09e88c2c.min.js"
     },
     {
-      "ruta": "publico/enciclopedia/presentacion-0cfc7f9c.js",
+      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b",
       "bytes": 13567,
-      "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
+      "ruta": "publico/enciclopedia/presentacion-0cfc7f9c.js"
     },
     {
-      "bytes": 31772,
-      "sha256": "ecee5952ba39cca0e85d50e41adebbc6ff7bb06c73baee0d08dd5ea106c568bc",
+      "sha256": "5bc56726f8a0cf01b2750aac98d6555de5427b3bf7bdfbfcd024edd2fda96bae",
+      "bytes": 31485,
       "ruta": "publico/enciclopedia/presentacion.html"
     },
     {
-      "bytes": 107844,
-      "sha256": "b0d4fff4dda330e48328087d2b3f68a8175a855092b39b2b4a3ffb63cb143bd5",
+      "sha256": "ed797ee54666d109ead48e923187d72980123bc845c39472095da1294bbb93e7",
+      "bytes": 109131,
       "ruta": "publico/enciclopedia/print.html"
     },
     {
-      "bytes": 37209,
-      "sha256": "d558eeac292dd45dc6fe8af2569572a5ce0c445d6f1e23757ed51681add3cf51",
+      "sha256": "d62777c48ca557f38d6094ef061ce3d0371ce1746f14754cc3a2bd0ad64d1b9a",
+      "bytes": 36295,
       "ruta": "publico/enciclopedia/recorridos.html"
     },
     {
-      "sha256": "ac3191449038b967adcecd9141ecb5297879754bd2f2bb21fbe9f6cc466a7c9e",
+      "sha256": "c3af3f98421a6d6d579f8e3ef8f0e0323394454331625ce51297b9a5b0bb1615",
       "bytes": 20294,
       "ruta": "publico/enciclopedia/searcher-09f2665d.js"
     },
@@ -2230,6 +2265,11 @@
       "sha256": "f20dc98143f94c563bdbc0f747b49a47b140e08854dd648792058249c2b06ea2",
       "bytes": 20330,
       "ruta": "publico/enciclopedia/searcher-es-f20dc98143f9.js"
+    },
+    {
+      "sha256": "0545cc34d6608ad11db3d91c49586359da00a86b01fc797a04286e64f710a981",
+      "bytes": 487465,
+      "ruta": "publico/enciclopedia/searchindex-0545cc34.js"
     },
     {
       "sha256": "3bfcba234c7ef4e6a041813e0b8d7d032adc0d8d43bc8409b01d8f6b375cb407",
@@ -2252,14 +2292,14 @@
       "ruta": "publico/enciclopedia/toc-a153d714.js"
     },
     {
-      "bytes": 2617,
-      "sha256": "f0694236f6d46134107cf70fd7b4297b8f5733bfcb49813b4b8bba611508126e",
+      "sha256": "f03ae58275a623d51baf3a462774c2da14b87294ea8f7fb68ede654e8e442330",
+      "bytes": 2405,
       "ruta": "publico/enciclopedia/toc.html"
     },
     {
-      "ruta": "publico/enciclopedia/tomorrow-night-4c0ae647.css",
       "sha256": "4c0ae647a06ef1699806fb9b4b6d0ef72de026708c6e8581362641c9298cb5f7",
-      "bytes": 1694
+      "bytes": 1694,
+      "ruta": "publico/enciclopedia/tomorrow-night-4c0ae647.css"
     },
     {
       "sha256": "235d4f83c4c71612f43995dbda167720cd0c5384bf9ea64f9328b187c409b51d",
@@ -2707,18 +2747,18 @@
       "bytes": 974
     },
     {
-      "sha256": "e889a96c8f8222f7a36a83d7696efdfd955d25aff4d693b18876b54d54522834",
+      "sha256": "4226a023950642b5c5d433cc8ec56604b52a8dacb5c3a5f478311b13b3adb592",
       "bytes": 2608,
       "ruta": "publico/libros/dominios/plan.json"
     },
     {
-      "sha256": "9bb9609c1c8f968028c9cda83012ec6b97a3d56733ee4b3d6c15232a4d5e47c8",
+      "sha256": "b1276fe18ad52f935e27f4ccb225ac2474fbc886b5d6620422345991cae22b7d",
       "bytes": 475,
       "ruta": "publico/libros/dominios/plan.json.license"
     },
     {
-      "sha256": "898ba0e66a6847d8872b4b7ec9bb513c94d88c8a80fb997cb180d50a5d462c5d",
-      "bytes": 4954,
+      "sha256": "16887241dc4b008b559f23b7d86ce931eb6b714461ae6a1709ea14a1bb2d813e",
+      "bytes": 6496,
       "ruta": "publico/libros/dominios/src/ciberseguridad.md"
     },
     {
@@ -2782,23 +2822,28 @@
       "ruta": "publico/libros/dominios/src/SUMMARY.md"
     },
     {
-      "sha256": "963b65052e3a4ba4a7b9b6870a5b742ade18f9fdd557fcd452191290b89c22bc",
+      "sha256": "5c1992109d566894368763dbb2af18b85bc21d1b24e2c037a68ec2e86637b72a",
       "bytes": 2067,
       "ruta": "publico/libros/enciclopedia/plan.json"
     },
     {
-      "ruta": "publico/libros/enciclopedia/src/fisica-quimica-matematica.md",
-      "sha256": "9fddcd085f2e32579a8e5689b460e73149093f6c3c7222f6186d89872de79685",
-      "bytes": 1350
+      "sha256": "601400d5a470e927d2c7d161d5f3254fc34ffaf93cf14360aa0f1da51fc910fe",
+      "bytes": 475,
+      "ruta": "publico/libros/enciclopedia/plan.json.license"
     },
     {
-      "sha256": "8b0d020eecc869bece136943c69381b238d926afd7886e80cd712fa7a38d2d3c",
-      "bytes": 30554,
+      "sha256": "9fddcd085f2e32579a8e5689b460e73149093f6c3c7222f6186d89872de79685",
+      "bytes": 1350,
+      "ruta": "publico/libros/enciclopedia/src/fisica-quimica-matematica.md"
+    },
+    {
+      "sha256": "531c0ab77d6ce0c1e7bcf5e9e0ee323e431d66014be68168d2665cd2a14caef4",
+      "bytes": 30904,
       "ruta": "publico/libros/enciclopedia/src/ia.md"
     },
     {
-      "sha256": "6296303bca14486ba762bcd7f558d8f92d210a08d12ab6fc9f6aa70310d7d760",
-      "bytes": 24610,
+      "sha256": "2ba7e812c07d92bf475cda7b5f880c6b75d388886961208c16a5004c2da04e00",
+      "bytes": 25828,
       "ruta": "publico/libros/enciclopedia/src/lenguaje.md"
     },
     {
@@ -2992,12 +3037,12 @@
       "bytes": 1378
     },
     {
-      "sha256": "67ac032ed5c9684aeb5bc3067d9e2475118a65c9a8b349114787119063da7a59",
+      "sha256": "43c24e6e4db0165430c16fa8930e94030b14b4ba7c0595a977ebe4e595f45d60",
       "bytes": 7376,
       "ruta": "publico/libros/manual/plan.json"
     },
     {
-      "sha256": "bf7d9871aca23f9ee75fea7e34eca54258ad940f4622b3ba74554946d89efbe2",
+      "sha256": "5e8a8f3f3fc3592a6b8c62e413573dc92d7bb2de2add7922b39517fb3db54b19",
       "bytes": 475,
       "ruta": "publico/libros/manual/plan.json.license"
     },
@@ -3017,8 +3062,8 @@
       "ruta": "publico/libros/manual/src/arbitro-director.md"
     },
     {
-      "sha256": "3c9a444c852c847629ae4715a2ce062440c48c41dc30504a47edb0f7ef5f5816",
-      "bytes": 7948,
+      "sha256": "49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759",
+      "bytes": 10340,
       "ruta": "publico/libros/manual/src/arquitectura-ejecucion.md"
     },
     {
@@ -3532,17 +3577,22 @@
       "sha256": "d84cd0e84c858fbf7c99866aa60e2bfca563aba823570d13d96cd537a53f644d"
     },
     {
-      "sha256": "eece69441cba9d5e5fb5577d26d933c660b730e1ae531ef2f1ec4abfef2cbe6b",
+      "sha256": "0c058eb410a7613a8dcbdac357609545789139a8dc7f0d0024947609501c4199",
       "bytes": 285,
       "ruta": "publico/politica-enciclopedia.json"
     },
     {
-      "sha256": "4c5ecd430abdff008d70a22ebba7d0ab8b9a0ec452d55d469a76a86506a1219f",
+      "sha256": "29e4ff265e1997933419ff508211770b366987c57c6c573be35a2f131b805139",
+      "bytes": 492,
+      "ruta": "publico/politica-enciclopedia.json.license"
+    },
+    {
+      "sha256": "7ad38d9217f4289e900ac37f176c9b81e8450bf3513da8c10f4894a82efd0eb1",
       "bytes": 377,
       "ruta": "publico/politica-verificacion.json"
     },
     {
-      "sha256": "870ba7cfc5a9ab99a703411ea8c32fd166468044db0afe6a88edc895c498b1ab",
+      "sha256": "4f97916751eab492053c2f2f5259054e22c98ff04254be1a558a1b7b3a941dd4",
       "bytes": 492,
       "ruta": "publico/politica-verificacion.json.license"
     },

@@ -16,15 +16,15 @@
     },
     {
       "titulo": "Diccionario del Lenguaje de Computación",
-      "sha256": "6296303bca14486ba762bcd7f558d8f92d210a08d12ab6fc9f6aa70310d7d760",
-      "url": "urn:sv:documento:sha256:6296303bca14486ba762bcd7f558d8f92d210a08d12ab6fc9f6aa70310d7d760",
+      "sha256": "2ba7e812c07d92bf475cda7b5f880c6b75d388886961208c16a5004c2da04e00",
+      "url": "urn:sv:documento:sha256:2ba7e812c07d92bf475cda7b5f880c6b75d388886961208c16a5004c2da04e00",
       "id": "ENC-04",
       "ruta": "lenguaje.md"
     },
     {
       "titulo": "Diccionario de la Inteligencia Artificial (IA)",
-      "sha256": "8b0d020eecc869bece136943c69381b238d926afd7886e80cd712fa7a38d2d3c",
-      "url": "urn:sv:documento:sha256:8b0d020eecc869bece136943c69381b238d926afd7886e80cd712fa7a38d2d3c",
+      "sha256": "531c0ab77d6ce0c1e7bcf5e9e0ee323e431d66014be68168d2665cd2a14caef4",
+      "url": "urn:sv:documento:sha256:531c0ab77d6ce0c1e7bcf5e9e0ee323e431d66014be68168d2665cd2a14caef4",
       "id": "ENC-05",
       "ruta": "ia.md"
     },
@@ -44,6 +44,6 @@
     "id": "ENC-01",
     "ruta": "SUMMARY.md"
   },
-  "revision": "98f791012fc9044bdde25d2480ee09dda4aeaec3d9708cfac4c6e2b70b891189",
+  "revision": "7c0280a95facdf33eee3470b652a568a73d51a737edf1d24317418cd2a26f3ba",
   "libro": "SV_ENCICLOPEDIA"
 }

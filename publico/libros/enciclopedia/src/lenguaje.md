@@ -11,7 +11,7 @@ Las equivalencias inglesas facilitan la consulta de bibliografía y especificaci
 | Materia | Términos relacionados |
 | --- | --- |
 | Escritura e interpretación | [Archivo SVP](#archivo-svp), [DSL](#dsl), [gramática](#gramatica), [perfil lingüístico](#perfil), [representación intermedia](#ir), [semántica](#semantica). |
-| Validez y ejecución | [Admisión técnica](#admision), [contrato](#contrato), [diagnóstico](#diagnostico), [invariante](#invariante), [núcleo](#nucleo). |
+| Validez y ejecución | [Admisión técnica](#admision), [contrato](#contrato), [diagnóstico](#diagnostico), [invariante](#invariante), [núcleo](#nucleo), [instrucciones preliminares pre-núcleo](#pre-nucleo). |
 | Gobierno y recursos | [Árbitro–Director](#director), [Explorador Tensorial](#explorador), [Selector](#selector), [tubería de IA](#tuberia). |
 | Evidencia y presentación | [Comprobación](#comprobacion), [frame](#frame), [huella](#huella), [observabilidad](#observabilidad), [trazabilidad](#trazabilidad). |
 
@@ -106,6 +106,15 @@ Valor calculado mediante una función criptográfica sobre los bytes de un conte
 **Distinción:** la coincidencia de huellas no acredita autoría, permiso de uso, corrección científica ni autenticidad de una referencia no fiable. Véase [Verificación documental](https://documentos-sv.itvia.online/documentacion/reglas-usos-descripciones-documentales/verificacion.html).
 
 **Para continuar la lectura:** [Evidencia de evaluación](https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia) · [Trazabilidad](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#trazabilidad). Separar identidad de contenido, validez de la evidencia y reconstrucción documental. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+
+### Instrucciones preliminares pre-núcleo {#pre-nucleo}
+
+Operaciones deterministas de preparación y comprobación del entorno anteriores a la admisión de la ejecución del núcleo del SV. Equivalencia descriptiva inglesa: *pre-core preliminary instructions*. «Pre-núcleo» no implica por sí solo «anterior al sistema operativo»; cada realización debe declarar cuándo interviene.
+
+**Estado:** estudio arquitectónico, versión 0.1 de 28/10/2026; implementación y pruebas pendientes. Contempla red, USB, discos y otros medios compatibles, sin convertir el medio de entrega en raíz de confianza. No constituye una ampliación de la DSL, de la representación intermedia ni de las facultades de un agente.
+
+**Para continuar la lectura:** [Arquitectura y condiciones de implementación](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/arquitectura-ejecucion.html#instrucciones-pre-nucleo) · [Relación con Ciberseguridad Inteligente](https://documentos-sv.itvia.online/dominios/universos/ciberseguridad.html#instrucciones-pre-nucleo). La especificación común conserva las condiciones de confianza, continuidad y recepción.
 
 ### Invariante {#invariante}
 

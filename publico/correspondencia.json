@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "04675c0a3c0f4f7c95e7029c533313a59abc47506a23b00aee3ba6e3acfc6757",
+  "biblioteca_sha256": "0e1a444269b7a63f020fd23405cc17da1e3cee9203706ea948192372c9841246",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2432,8 +2432,8 @@
       ]
     },
     {
-      "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
-      "cobertura_bytes": 7948,
+      "alcance": "Estudio de instrucciones preliminares pre-núcleo. Conserva contratos y jerarquía; no acredita implementación ni habilita dominios, agentes o pruebas.",
+      "cobertura_bytes": 10340,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_ARQUITECTURA_EJECUCION",
       "identificador_editorial_r0": null,
@@ -2441,9 +2441,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/arquitectura-ejecucion.md",
-        "sha256": "3c9a444c852c847629ae4715a2ce062440c48c41dc30504a47edb0f7ef5f5816"
+        "sha256": "49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759"
       },
-      "procedencia": "Edición pública de 28/10/2026",
+      "procedencia": "Edición explicativa de 28/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 456,
@@ -2491,13 +2491,22 @@
           "ultima_linea": 49
         },
         {
-          "fin_byte_exclusivo": 7948,
+          "fin_byte_exclusivo": 7602,
           "inicio_byte": 6297,
           "primera_linea": 50,
-          "seccion": "MD-L000050-L000061",
-          "sha256": "3215bdd6e1b283bfcda30945132170168650e6ab37f239167bc607bff565a18a",
+          "seccion": "MD-L000050-L000057",
+          "sha256": "fa56e1de1ff2d26e43521998fa46ee50abcd2ef08079b1145325f756d8374935",
           "titulo": "7.5. Fronteras y observación {#fronteras-y-observación}",
-          "ultima_linea": 61
+          "ultima_linea": 57
+        },
+        {
+          "fin_byte_exclusivo": 10340,
+          "inicio_byte": 7602,
+          "primera_linea": 58,
+          "seccion": "MD-L000058-L000074",
+          "sha256": "2a1690eada039844d16b32f6193adb3ca76fab74cf7eddc57d6e75c2bf9294a2",
+          "titulo": "7.6. Instrucciones preliminares pre-núcleo {#instrucciones-pre-nucleo}",
+          "ultima_linea": 74
         }
       ]
     },
@@ -3150,8 +3159,8 @@
       ]
     },
     {
-      "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
-      "cobertura_bytes": 4954,
+      "alcance": "Estudio de instrucciones preliminares pre-núcleo. Conserva contratos y jerarquía; no acredita implementación ni habilita dominios, agentes o pruebas.",
+      "cobertura_bytes": 6496,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-06",
       "identificador_editorial_r0": null,
@@ -3159,9 +3168,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/ciberseguridad.md",
-        "sha256": "898ba0e66a6847d8872b4b7ec9bb513c94d88c8a80fb997cb180d50a5d462c5d"
+        "sha256": "16887241dc4b008b559f23b7d86ce931eb6b714461ae6a1709ea14a1bb2d813e"
       },
-      "procedencia": "Edición pública de 28/10/2026",
+      "procedencia": "Edición explicativa de 28/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 449,
@@ -3182,49 +3191,58 @@
           "ultima_linea": 12
         },
         {
-          "fin_byte_exclusivo": 1786,
+          "fin_byte_exclusivo": 1787,
           "inicio_byte": 1076,
           "primera_linea": 13,
-          "seccion": "MD-L000013-L000016",
-          "sha256": "9b621aa3cfaf8c7229f78f55461a1d70906d5b9e8af3845f55169d41c48513e2",
+          "seccion": "MD-L000013-L000017",
+          "sha256": "4bb06234970f482c82897557d229a4b0f826375d0890aec8e0ecbb0941c824f3",
           "titulo": "Objetivo del Agente Especializado",
-          "ultima_linea": 16
+          "ultima_linea": 17
         },
         {
-          "fin_byte_exclusivo": 2345,
-          "inicio_byte": 1786,
-          "primera_linea": 17,
-          "seccion": "MD-L000017-L000022",
+          "fin_byte_exclusivo": 3328,
+          "inicio_byte": 1787,
+          "primera_linea": 18,
+          "seccion": "MD-L000018-L000025",
+          "sha256": "26805ab3bd25e33f04734a8862b2b24c08386346b704777f43bcc96c6c3492bc",
+          "titulo": "Instrucciones preliminares pre-núcleo {#instrucciones-pre-nucleo}",
+          "ultima_linea": 25
+        },
+        {
+          "fin_byte_exclusivo": 3887,
+          "inicio_byte": 3328,
+          "primera_linea": 26,
+          "seccion": "MD-L000026-L000031",
           "sha256": "b75014be593dcc0cd7054b673c2652d2605677fea1e02d4b81f3646d115fb377",
           "titulo": "Inventario de referencia",
-          "ultima_linea": 22
+          "ultima_linea": 31
         },
         {
-          "fin_byte_exclusivo": 2935,
-          "inicio_byte": 2345,
-          "primera_linea": 23,
-          "seccion": "MD-L000023-L000028",
+          "fin_byte_exclusivo": 4477,
+          "inicio_byte": 3887,
+          "primera_linea": 32,
+          "seccion": "MD-L000032-L000037",
           "sha256": "009afd559dcf25b24c3ddbd02fa5fba9e524c5f7fc32a16cd8417292dbcee5dd",
           "titulo": "Contexto necesario",
-          "ultima_linea": 28
+          "ultima_linea": 37
         },
         {
-          "fin_byte_exclusivo": 3660,
-          "inicio_byte": 2935,
-          "primera_linea": 29,
-          "seccion": "MD-L000029-L000034",
+          "fin_byte_exclusivo": 5202,
+          "inicio_byte": 4477,
+          "primera_linea": 38,
+          "seccion": "MD-L000038-L000043",
           "sha256": "0b67300ad96ce54934ef80fd5d9ca3e006f34908685777fed16a35ca2c094ed1",
           "titulo": "Límites",
-          "ultima_linea": 34
+          "ultima_linea": 43
         },
         {
-          "fin_byte_exclusivo": 4954,
-          "inicio_byte": 3660,
-          "primera_linea": 35,
-          "seccion": "MD-L000035-L000042",
+          "fin_byte_exclusivo": 6496,
+          "inicio_byte": 5202,
+          "primera_linea": 44,
+          "seccion": "MD-L000044-L000051",
           "sha256": "6275a1904b9e8594b0391342c32798fcff520791c9b0a86fafd6c8ae069fbb0c",
           "titulo": "Fuentes de interpretación",
-          "ultima_linea": 42
+          "ultima_linea": 51
         }
       ]
     },
@@ -3992,9 +4010,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-proteccion-arranque-20261028",
+  "edicion": "biblioteca-sv-pre-nucleo-20261028",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "4c5ecd430abdff008d70a22ebba7d0ab8b9a0ec452d55d469a76a86506a1219f",
+  "politica_sha256": "7ad38d9217f4289e900ac37f176c9b81e8450bf3513da8c10f4894a82efd0eb1",
   "recepcion_visual": false,
   "version": 1
 }

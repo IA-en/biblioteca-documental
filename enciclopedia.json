@@ -1,12 +1,12 @@
 {
-  "edicion": "enciclopedia-sv-20261025",
+  "edicion": "enciclopedia-sv-pre-nucleo-20261028",
   "estado": "preparacion_local",
   "version": 1,
   "libros": [
     {
       "titulo": "Enciclopedia temática del Sistema Vectorial SV",
       "plan": {
-        "sha256": "963b65052e3a4ba4a7b9b6870a5b742ade18f9fdd557fcd452191290b89c22bc",
+        "sha256": "5c1992109d566894368763dbb2af18b85bc21d1b24e2c037a68ec2e86637b72a",
         "ruta": "libros/enciclopedia/plan.json"
       },
       "metadatos": [
@@ -60,11 +60,11 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/lenguaje.md",
-            "sha256": "6296303bca14486ba762bcd7f558d8f92d210a08d12ab6fc9f6aa70310d7d760"
+            "sha256": "2ba7e812c07d92bf475cda7b5f880c6b75d388886961208c16a5004c2da04e00"
           },
           "documento": "ENC-04",
-          "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
-          "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "procedencia": "Edición explicativa de 28/10/2026",
+          "alcance": "Estudio de instrucciones preliminares pre-núcleo. Conserva contratos y jerarquía; no acredita implementación ni habilita dominios, agentes o pruebas.",
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
@@ -75,11 +75,11 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/ia.md",
-            "sha256": "8b0d020eecc869bece136943c69381b238d926afd7886e80cd712fa7a38d2d3c"
+            "sha256": "531c0ab77d6ce0c1e7bcf5e9e0ee323e431d66014be68168d2665cd2a14caef4"
           },
           "documento": "ENC-05",
-          "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
-          "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "procedencia": "Edición explicativa de 28/10/2026",
+          "alcance": "Estudio de instrucciones preliminares pre-núcleo. Conserva contratos y jerarquía; no acredita implementación ni habilita dominios, agentes o pruebas.",
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",

@@ -26,6 +26,9 @@ Construcción definida íntegramente mediante la DSL del Lenguaje de Computació
 
 **Distinción:** no es sinónimo del modelo de IA empleado. La selección del modelo no modifica la semántica ni concede facultades sobre el núcleo. Una consulta no debe recorrer todo el dominio si su objeto no lo requiere, pero tampoco puede omitir dependencias obligatorias. Véase [Alcance de un Agente Especializado](https://documentos-sv.itvia.online/dominios/universos/conceptos.html#alcance-de-un-agente-especializado).
 
+
+La preparación material anterior al núcleo se estudia en las [instrucciones preliminares pre-núcleo](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#pre-nucleo). Es una condición del entorno por desarrollar y comprobar, no una nueva facultad del modelo ni una excepción a la definición del Agente Especializado mediante la DSL.
+
 **Para continuar la lectura:** [Dominio](https://documentos-sv.itvia.online/enciclopedia/ia.html#dominio) · [DSL · Lenguaje específico de dominio](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#dsl). Relacionar el alcance del agente con su construcción formal. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
 
 ### Aislamiento de la IA {#aislamiento}

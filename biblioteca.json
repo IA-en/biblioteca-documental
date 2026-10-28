@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-proteccion-arranque-20261028",
+  "edicion": "biblioteca-sv-pre-nucleo-20261028",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "67ac032ed5c9684aeb5bc3067d9e2475118a65c9a8b349114787119063da7a59"
+        "sha256": "43c24e6e4db0165430c16fa8930e94030b14b4ba7c0595a977ebe4e595f45d60"
       },
       "metadatos": [
         {
@@ -615,17 +615,17 @@
           "documento": "MANUAL_CONSTRUCCIONES_Y_COMPONENTES"
         },
         {
-          "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
+          "alcance": "Estudio de instrucciones preliminares pre-núcleo. Conserva contratos y jerarquía; no acredita implementación ni habilita dominios, agentes o pruebas.",
           "correspondencia": "identidad_literal",
           "sintetico": false,
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "documento": "MANUAL_ARQUITECTURA_EJECUCION",
           "identificador_editorial_r0": null,
-          "procedencia": "Edición pública de 28/10/2026",
+          "procedencia": "Edición explicativa de 28/10/2026",
           "original": {
             "ruta": "libros/manual/src/arquitectura-ejecucion.md",
-            "sha256": "3c9a444c852c847629ae4715a2ce062440c48c41dc30504a47edb0f7ef5f5816"
+            "sha256": "49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "e889a96c8f8222f7a36a83d7696efdfd955d25aff4d693b18876b54d54522834",
+        "sha256": "4226a023950642b5c5d433cc8ec56604b52a8dacb5c3a5f478311b13b3adb592",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -775,7 +775,7 @@
           "procedencia": "Edición del entorno de consulta, 26/10/2026"
         },
         {
-          "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
+          "alcance": "Estudio de instrucciones preliminares pre-núcleo. Conserva contratos y jerarquía; no acredita implementación ni habilita dominios, agentes o pruebas.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -783,11 +783,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-06",
           "original": {
-            "sha256": "898ba0e66a6847d8872b4b7ec9bb513c94d88c8a80fb997cb180d50a5d462c5d",
+            "sha256": "16887241dc4b008b559f23b7d86ce931eb6b714461ae6a1709ea14a1bb2d813e",
             "ruta": "libros/dominios/src/ciberseguridad.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública de 28/10/2026"
+          "procedencia": "Edición explicativa de 28/10/2026"
         },
         {
           "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",

@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "5b2be31205dbbccbdf1f53f739fbdb5f7c6b00e424402a9425c7d43ff1a98b3b",
+  "revision": "8fb8f5d77895c5cb12c632e82307a47e150b2548e76df24f5cb58a59c46e61fa",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -53,11 +53,11 @@
       "ruta": "programacion-dsl.md"
     },
     {
-      "url": "urn:sv:documento:sha256:3c9a444c852c847629ae4715a2ce062440c48c41dc30504a47edb0f7ef5f5816",
+      "url": "urn:sv:documento:sha256:49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759",
       "ruta": "arquitectura-ejecucion.md",
       "id": "MANUAL_ARQUITECTURA_EJECUCION",
       "titulo": "7. Arquitectura y entornos de ejecución",
-      "sha256": "3c9a444c852c847629ae4715a2ce062440c48c41dc30504a47edb0f7ef5f5816"
+      "sha256": "49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759"
     },
     {
       "id": "MANUAL_ARBITRO_DIRECTOR",

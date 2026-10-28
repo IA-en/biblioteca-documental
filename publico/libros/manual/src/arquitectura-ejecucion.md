@@ -55,6 +55,19 @@ La [observabilidad](observabilidad.md) relaciona actuaciones y medidas en los pu
 
 El [objetivo de protección desde el arranque del Agente Especializado en Ciberseguridad Inteligente](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/072b101459a94b1df139ce451dd116615847f679/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md) distingue la integridad semántica del núcleo de su protección material. Su integración deberá justificar los contratos admitidos y las obligaciones pendientes; no introduce por esta referencia nuevas construcciones de la DSL o de la representación intermedia, ni controladores o IA dentro del núcleo.
 
+## **7.6.** Instrucciones preliminares pre-núcleo {#instrucciones-pre-nucleo}
+
+**Estudio arquitectónico · versión 0.1 · 28/10/2026.** Las instrucciones preliminares pre-núcleo preparan y comprueban el entorno antes de admitir la ejecución del núcleo del SV. Cuando deban actuar antes del sistema operativo, esa condición se especificará además. La propuesta permanece subordinada a los contratos del núcleo y a la constitución y autorización de los dominios y agentes; no añade instrucciones a la DSL ni modifica la representación intermedia.
+
+La [especificación técnica común](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/afc618dcd14558b6a37187dc9d0a4b639e87b7b6/docs/arquitectura/INSTRUCCIONES-PRELIMINARES-PRE-NUCLEO.md) estudia entrega por red a equipos autorizados, USB, memorias extraíbles, discos y otros medios compatibles. La identidad del destino, la versión, la firma y la autorización se comprueban separadamente. Una dirección IP o un medio de arranque no constituyen por sí solos una raíz de confianza. Se prevén recuperación y funcionamiento sin conexión bajo condiciones de vigencia expresas.
+
+WebAssembly aporta un modelo útil de módulos e interfaces delimitadas; exige un entorno de ejecución y capacidades compatibles. No convierte cualquier binario en código ejecutable ni protege por sí solo el firmware o el sistema anfitrión. Un programa UEFI en Rust constituye una posible vía inicial; la protección posterior requiere un relevo comprobado al sistema que imponga las restricciones sobre memoria, periféricos y red.
+
+El estudio compara reutilización de firmware y controladores, arranque verificado y medido, soporte de protección de memoria y eventual hardware dedicado. Propone una primera comprobación en máquina virtual o emulador con imagen propia, sin acceso a discos físicos. Esa comprobación no acredita las garantías del equipo real. La implementación y las pruebas permanecen pendientes; la apertura documental no habilita agentes, modelos ni operaciones del examen.
+
+La [entrada de la Enciclopedia](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#pre-nucleo) facilita la consulta del término. Su relación con el Agente Especializado corresponde al [libro de dominios](https://documentos-sv.itvia.online/dominios/universos/ciberseguridad.html#instrucciones-pre-nucleo).
+
+
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
