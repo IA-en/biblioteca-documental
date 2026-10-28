@@ -10,6 +10,10 @@ Este Universo documenta el conocimiento necesario para aconsejar al experto sobr
 
 Una comunicación de instalación satisfactoria no equivale a demostrar que el componente correcto está activo, que las comprobaciones son suficientes o que la actuación estaba autorizada. Cada una de esas cuestiones conserva su propia definición y evidencia.
 
+## Objetivo del Agente Especializado
+
+La [protección desde el arranque y preservación del núcleo](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/072b101459a94b1df139ce451dd116615847f679/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md) define el objetivo arquitectónico del Agente Especializado en Ciberseguridad Inteligente. Distingue firmware, procesador, memoria, periféricos y capa 2 de red, y mantiene toda IA, también la defensora, fuera de la autoridad del núcleo. Su recepción material está pendiente; no amplía OP-CYB-001 ni acredita una protección instalada. La definición se conserva en la sede del agente para evitar versiones paralelas en los libros.
+
 ## Inventario de referencia
 
 El inventario conserva **32 definiciones paramétricas**. P01–P24 proceden del catálogo de la edición 0.2; la revisión 0.3 mantiene esas definiciones e incorpora P25–P32. La revisión 0.4 precisa su contexto de partida y continuidad sin añadir parámetros.
@@ -35,3 +39,4 @@ Consulte el [catálogo de P01–P24](https://github.com/juantoniolloretegea/SVpe
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+

@@ -1,7 +1,7 @@
 {
   "version": 2,
   "libro": "SV_EVALUACION_MODELOS",
-  "revision": "e203cbc1c2a9297b440c2f1755959d86ca710958de16b910761e2e0050d8ef53",
+  "revision": "9bd51afde7258e4b53c26a06e5bd93dc74bf935837096dcaee95cd3ca59ef7be",
   "summary": {
     "titulo": "Índice",
     "url": "urn:sv:documento:sha256:73f892bb73a1bc7269d8f6d68add20a66ef0615a84609b99e515c46ba1e16330",
@@ -47,10 +47,10 @@
     },
     {
       "titulo": "Facultades, autorización y producción",
-      "url": "urn:sv:documento:sha256:bed3d225738f2f4454cc42002b7a0737653dd390ef9763ee41f2ee895458d18b",
+      "url": "urn:sv:documento:sha256:7ee26024b3172a36a0daf3da8bc81857d49e57d0a52f1f90ac8ea6d0831a07fc",
       "ruta": "autoridad.md",
       "id": "EET-01",
-      "sha256": "bed3d225738f2f4454cc42002b7a0737653dd390ef9763ee41f2ee895458d18b"
+      "sha256": "7ee26024b3172a36a0daf3da8bc81857d49e57d0a52f1f90ac8ea6d0831a07fc"
     },
     {
       "titulo": "Comparación y lectura de resultados",

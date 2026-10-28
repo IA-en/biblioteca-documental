@@ -53,6 +53,9 @@ La interfaz visual transporta datos y presenta resultados. No modifica las regla
 
 La [observabilidad](observabilidad.md) relaciona actuaciones y medidas en los puntos instrumentados. Cuando el cálculo pertenece a un servicio externo, la observación queda limitada al recorrido controlado por el SV y a los datos que proporciona ese servicio. El Director no selecciona el hardware interno de un proveedor externo.
 
+El [objetivo de protección desde el arranque del Agente Especializado en Ciberseguridad Inteligente](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/072b101459a94b1df139ce451dd116615847f679/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md) distingue la integridad semántica del núcleo de su protección material. Su integración deberá justificar los contratos admitidos y las obligaciones pendientes; no introduce por esta referencia nuevas construcciones de la DSL o de la representación intermedia, ni controladores o IA dentro del núcleo.
+
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+

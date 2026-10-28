@@ -28,6 +28,8 @@ En el funcionamiento determinista exigido para producción, cada consulta debe r
 
 Los primeros Universos documentados de Inmunología y Ciberseguridad constituyen las referencias delimitadas de esta fase. No acreditan que las restantes células, rutas o relaciones de los agentes estén definidas o ejecutadas. Las [condiciones de autorización y seudo-producción](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#agentes-especializados-y-frontera) distinguen estas exigencias de una demostración con fuentes abiertas y respuestas no deterministas.
 
+La prohibición de acceso directo y autoridad sobre el núcleo alcanza a todos los agentes y a cualquier IA que actúe como Perfil defensor (PD). Su aplicación a la protección de la plataforma se desarrolla en la [especificación del Agente Especializado en Ciberseguridad Inteligente](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/072b101459a94b1df139ce451dd116615847f679/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md); los demás agentes conservan sus propias funciones y límites.
+
 ## Qué identifica un parámetro
 
 Un parámetro es una unidad de significado delimitada por su definición, dominio, función y alcance. La analogía con un átomo expresa su separación respecto de otras unidades, pero no demuestra atomicidad ni determina automáticamente una posición celular.
@@ -65,3 +67,4 @@ Esta tabla explica distinciones de lectura; no sustituye los estados formales pr
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+

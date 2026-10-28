@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-concordancia-20261027",
+  "edicion": "biblioteca-sv-proteccion-arranque-20261028",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "b7846d9e1d6ae000093508cecf70e39d8c80087134a1d6a491c7dff224b61118"
+        "sha256": "67ac032ed5c9684aeb5bc3067d9e2475118a65c9a8b349114787119063da7a59"
       },
       "metadatos": [
         {
@@ -615,32 +615,32 @@
           "documento": "MANUAL_CONSTRUCCIONES_Y_COMPONENTES"
         },
         {
-          "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
+          "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
           "correspondencia": "identidad_literal",
           "sintetico": false,
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "documento": "MANUAL_ARQUITECTURA_EJECUCION",
           "identificador_editorial_r0": null,
-          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "procedencia": "Edición pública de 28/10/2026",
           "original": {
             "ruta": "libros/manual/src/arquitectura-ejecucion.md",
-            "sha256": "5cd50749616a528c40c8982bc5c452106db347a602c9ffe6bf6f68675e83cf07"
+            "sha256": "3c9a444c852c847629ae4715a2ce062440c48c41dc30504a47edb0f7ef5f5816"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
+          "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
           "correspondencia": "identidad_literal",
           "sintetico": false,
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "documento": "MANUAL_OBSERVABILIDAD",
           "identificador_editorial_r0": null,
-          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "procedencia": "Edición pública de 28/10/2026",
           "original": {
             "ruta": "libros/manual/src/observabilidad.md",
-            "sha256": "7b67f726f9aef42623af0a8eb9225b315b0154e45b7cf369c69873b59e0fe8d2"
+            "sha256": "473c4f0983fc08afa78ed80d51fddfe950300cff64ddd8381dad8f6176bc16f4"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "8b1e2c63dbd80ee8b1824b32b7c53eecb7a660a655e66a7dd758ffd82a4e4e31",
+        "sha256": "e889a96c8f8222f7a36a83d7696efdfd955d25aff4d693b18876b54d54522834",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -730,7 +730,7 @@
           "procedencia": "Edición pública actualizada el 25/10/2026"
         },
         {
-          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+          "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -738,11 +738,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-03",
           "original": {
-            "sha256": "a4acfce2411223808688113ef0bdc3253a80077f6cdb00c1bd5142e8cb63ff17",
+            "sha256": "c54719597c05cadbb469a1ceccd37fea373c55cf378098b6c768a6a4cf1764d2",
             "ruta": "libros/dominios/src/conceptos.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados"
+          "procedencia": "Edición pública de 28/10/2026"
         },
         {
           "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
@@ -775,7 +775,7 @@
           "procedencia": "Edición del entorno de consulta, 26/10/2026"
         },
         {
-          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -783,11 +783,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-06",
           "original": {
-            "sha256": "902c0bae3cc72209ff20aee4566a66bd32039f775b09297e6dd82ead42972aa0",
+            "sha256": "898ba0e66a6847d8872b4b7ec9bb513c94d88c8a80fb997cb180d50a5d462c5d",
             "ruta": "libros/dominios/src/ciberseguridad.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+          "procedencia": "Edición pública de 28/10/2026"
         },
         {
           "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
@@ -824,20 +824,20 @@
     },
     {
       "plan": {
-        "sha256": "200aeacfb22bd4fbbdca0d1fd324e818b88c8da502d52c5d211a057c08a03c06",
+        "sha256": "80bfec2fa3ece3845823e6b40dec7177122f5e6d7ddb1dcf436eee57d29cabce",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
       "metadatos": [
         {
-          "procedencia": "Revisión editorial del 25/10/2026",
-          "alcance": "Constitución celular, consejo al experto y estudio del potencial; requisitos y límites de la seudo-producción, sin habilitación operativa.",
+          "procedencia": "Edición pública de 28/10/2026",
+          "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "bed3d225738f2f4454cc42002b7a0737653dd390ef9763ee41f2ee895458d18b",
+            "sha256": "7ee26024b3172a36a0daf3da8bc81857d49e57d0a52f1f90ac8ea6d0831a07fc",
             "ruta": "libros/evaluacion-modelos/src/autoridad.md"
           },
           "documento": "EET-01",

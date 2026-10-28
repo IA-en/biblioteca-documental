@@ -190,6 +190,8 @@ La distribución del programa común y versionado puede utilizar un CDN, otro se
 
 **Situación de esta edición:** se documentan el estado y sus condiciones de preparación. No se habilitan cuentas invitadas, consultas de agentes, acceso de modelos a Internet, rutas críticas ni producción. Cualquier ensayo posterior exige su protocolo y autorización específicos; esta descripción no levanta los bloqueos de salida vigentes.
 
+El [objetivo de protección desde el arranque y preservación del núcleo](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/072b101459a94b1df139ce451dd116615847f679/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md) se aplica también al Perfil defensor (PD): la función defensiva no concede acceso directo al núcleo ni autoridad para modificar sus invariantes. La especificación arquitectónica y la recepción material de esa protección son actos distintos; esta remisión no habilita firmware, periféricos ni producción.
+
 ## Recepción de una instalación institucional
 
 La puesta en producción comprende un servicio institucional de servidor y su interfaz de administración. La arquitectura del SV exige que sus decisiones y controles se implementen en Rust. Un alojamiento provisional no define la capacidad ni las condiciones de una instalación de producción. La evaluación de un modelo y la recepción del servidor son comprobaciones diferentes: ninguna sustituye a la otra.
@@ -211,4 +213,5 @@ La representación institucional, el acuerdo, los recursos sin coste para el SV 
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
 

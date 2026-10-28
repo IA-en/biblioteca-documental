@@ -30,6 +30,9 @@ Los tiempos deben indicar su origen y el tramo medido: preparación, transferenc
 
 Las trazas y los registros no cambian el significado de los resultados del SV. Una incidencia técnica no se convierte en un valor de la terna. La corrección semántica se contrasta mediante la especificación y las pruebas de [conformidad](conformidad-diagnosticos.md); la reproducibilidad de las comprobaciones se trata en [herramientas de desarrollo](herramientas-desarrollo-comprobacion.md).
 
+Para las fronteras de arranque, dispositivos y red se aplica el [objetivo de protección del Agente Especializado en Ciberseguridad Inteligente](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/072b101459a94b1df139ce451dd116615847f679/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md). La observación deberá declarar cobertura, procedencia, vigencia y pérdidas; disponer de telemetría no acredita capacidad de intervención ni protección efectiva en esas fronteras. Esta remisión conserva una única definición arquitectónica.
+
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+

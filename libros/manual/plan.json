@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "1941bdbe9968d719a096226cb5b623f914393e274fec7f430cf1c4d391db775c",
+  "revision": "5b2be31205dbbccbdf1f53f739fbdb5f7c6b00e424402a9425c7d43ff1a98b3b",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -53,11 +53,11 @@
       "ruta": "programacion-dsl.md"
     },
     {
-      "url": "urn:sv:documento:sha256:5cd50749616a528c40c8982bc5c452106db347a602c9ffe6bf6f68675e83cf07",
+      "url": "urn:sv:documento:sha256:3c9a444c852c847629ae4715a2ce062440c48c41dc30504a47edb0f7ef5f5816",
       "ruta": "arquitectura-ejecucion.md",
       "id": "MANUAL_ARQUITECTURA_EJECUCION",
       "titulo": "7. Arquitectura y entornos de ejecución",
-      "sha256": "5cd50749616a528c40c8982bc5c452106db347a602c9ffe6bf6f68675e83cf07"
+      "sha256": "3c9a444c852c847629ae4715a2ce062440c48c41dc30504a47edb0f7ef5f5816"
     },
     {
       "id": "MANUAL_ARBITRO_DIRECTOR",
@@ -88,11 +88,11 @@
       "sha256": "0ec830fee2101a910d6b9db8133b3e534fe46a232a625503ebca591461826e34"
     },
     {
-      "url": "urn:sv:documento:sha256:7b67f726f9aef42623af0a8eb9225b315b0154e45b7cf369c69873b59e0fe8d2",
+      "url": "urn:sv:documento:sha256:473c4f0983fc08afa78ed80d51fddfe950300cff64ddd8381dad8f6176bc16f4",
       "ruta": "observabilidad.md",
       "id": "MANUAL_OBSERVABILIDAD",
       "titulo": "12. Observabilidad y medidas",
-      "sha256": "7b67f726f9aef42623af0a8eb9225b315b0154e45b7cf369c69873b59e0fe8d2"
+      "sha256": "473c4f0983fc08afa78ed80d51fddfe950300cff64ddd8381dad8f6176bc16f4"
     },
     {
       "ruta": "herramientas-desarrollo-comprobacion.md",
