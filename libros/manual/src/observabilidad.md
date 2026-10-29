@@ -34,5 +34,10 @@ Para las fronteras de arranque, dispositivos y red se aplica el [objetivo de pro
 
 ---
 
-© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+## Recomendaciones de defensa no ensayadas {#recomendaciones-defensa-no-ensayadas}
 
+La convocatoria práctica de Ciberseguridad Inteligente distingue las mediciones del examen de las propuestas para una investigación posterior. La [nota de continuidad y defensa del Perfil defensor (PD)](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-practica-20261027/RECOMENDACION-CONTINUIDAD-PD.md) reúne siete propuestas: intervención autorizada de bajo nivel, movilidad geográfica, replicación simultánea, ejecución distribuida, actividad observable no periódica y dos modalidades de señuelo. Conserva sus fuentes, la referencia histórica a El arte de la guerra y el equivalente inglés.
+
+Estas propuestas no disponen en esta convocatoria de los recursos necesarios para ser ensayadas. No acreditan eficacia, no añaden parámetros, no reciben valores 0, 1 o U y no alteran la clasificación ni las condiciones de cierre. La programación de bajo nivel no concede autoridad sobre un proveedor; cualquier realización futura requeriría facultades, límites y protocolo previos. La [vista de métricas de la convocatoria](https://sv.itvia.online/benchmark?convocatoria=eet-cyb16-practica-20261027&vista=metricas&idioma=es&nodo=03&dominio=ciberseguridad#recomendaciones-defensa) conserva el lugar de consulta previsto. La nota constituye la fuente única del desarrollo de estas hipótesis.
+
+© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

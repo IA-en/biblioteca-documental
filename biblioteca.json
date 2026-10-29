@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-dominios-alcance-20261029",
+  "edicion": "biblioteca-sv-recomendaciones-defensa-20261029",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "43c24e6e4db0165430c16fa8930e94030b14b4ba7c0595a977ebe4e595f45d60"
+        "sha256": "61a7a92d927dcb9f20ca0b5869f1bca82a32dfb4b20bd8706fc7ff860f6e55c0"
       },
       "metadatos": [
         {
@@ -630,17 +630,17 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
+          "alcance": "Remisión a siete recomendaciones de defensa no ensayadas, separadas de la calificación y sin nuevas facultades.",
           "correspondencia": "identidad_literal",
           "sintetico": false,
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "documento": "MANUAL_OBSERVABILIDAD",
           "identificador_editorial_r0": null,
-          "procedencia": "Edición pública de 28/10/2026",
+          "procedencia": "Revisión explicativa de 29/10/2026",
           "original": {
             "ruta": "libros/manual/src/observabilidad.md",
-            "sha256": "473c4f0983fc08afa78ed80d51fddfe950300cff64ddd8381dad8f6176bc16f4"
+            "sha256": "b6304305dec1ef099eacb4d0212afa0f9649955a9df957a27b6c784e2e86952f"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -824,7 +824,7 @@
     },
     {
       "plan": {
-        "sha256": "80bfec2fa3ece3845823e6b40dec7177122f5e6d7ddb1dcf436eee57d29cabce",
+        "sha256": "1e0b99c840c1ac121465b4442505aa8f9947b0ccb81400debcc4076207da69dc",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
@@ -845,14 +845,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
-          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+          "procedencia": "Revisión explicativa de 29/10/2026",
+          "alcance": "Remisión a siete recomendaciones de defensa no ensayadas, separadas de la calificación y sin nuevas facultades.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "f49f405aa7423fd483c54045742dcbffd29484632376393ee7da7d7ac9eea07f",
+            "sha256": "570cb01049a46e19b30a61c0b34261a125cd75805b0b7e0e1e6c086a5ec525a5",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",

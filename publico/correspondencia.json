@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "9d2d17edf54c953f99d9a3dc5b0d6b538e981198798880d6b1589185a1f41488",
+  "biblioteca_sha256": "20d0a8872650372a8baf7bf34a9c8f29d20e7788c00ca733c6444fd192755745",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2511,8 +2511,8 @@
       ]
     },
     {
-      "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
-      "cobertura_bytes": 4853,
+      "alcance": "Remisión a siete recomendaciones de defensa no ensayadas, separadas de la calificación y sin nuevas facultades.",
+      "cobertura_bytes": 6373,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_OBSERVABILIDAD",
       "identificador_editorial_r0": null,
@@ -2520,9 +2520,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/observabilidad.md",
-        "sha256": "473c4f0983fc08afa78ed80d51fddfe950300cff64ddd8381dad8f6176bc16f4"
+        "sha256": "b6304305dec1ef099eacb4d0212afa0f9649955a9df957a27b6c784e2e86952f"
       },
-      "procedencia": "Edición pública de 28/10/2026",
+      "procedencia": "Revisión explicativa de 29/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 298,
@@ -2561,13 +2561,22 @@
           "ultima_linea": 26
         },
         {
-          "fin_byte_exclusivo": 4853,
+          "fin_byte_exclusivo": 4512,
           "inicio_byte": 3132,
           "primera_linea": 27,
-          "seccion": "MD-L000027-L000038",
-          "sha256": "1da2331ff674867ceddece09db720a773902e5ba563b541d08f322fb9b5c2baf",
+          "seccion": "MD-L000027-L000036",
+          "sha256": "a569c455643eb192b48fa2e58ed7293a5e5f03f087eabd54eafb40d311a5b17c",
           "titulo": "12.4. Lectura de los resultados {#lectura-de-los-resultados}",
-          "ultima_linea": 38
+          "ultima_linea": 36
+        },
+        {
+          "fin_byte_exclusivo": 6373,
+          "inicio_byte": 4512,
+          "primera_linea": 37,
+          "seccion": "MD-L000037-L000043",
+          "sha256": "3b293a33fe5c071e6e4719deb289645baecbca74c4961e65ee5d05303ff1b4ab",
+          "titulo": "Recomendaciones de defensa no ensayadas {#recomendaciones-defensa-no-ensayadas}",
+          "ultima_linea": 43
         }
       ]
     },
@@ -3727,8 +3736,8 @@
       ]
     },
     {
-      "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
-      "cobertura_bytes": 13755,
+      "alcance": "Remisión a siete recomendaciones de defensa no ensayadas, separadas de la calificación y sin nuevas facultades.",
+      "cobertura_bytes": 15276,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3736,9 +3745,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "f49f405aa7423fd483c54045742dcbffd29484632376393ee7da7d7ac9eea07f"
+        "sha256": "570cb01049a46e19b30a61c0b34261a125cd75805b0b7e0e1e6c086a5ec525a5"
       },
-      "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
+      "procedencia": "Revisión explicativa de 29/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 2005,
@@ -3786,13 +3795,22 @@
           "ultima_linea": 64
         },
         {
-          "fin_byte_exclusivo": 13755,
+          "fin_byte_exclusivo": 13415,
           "inicio_byte": 12522,
           "primera_linea": 65,
-          "seccion": "MD-L000065-L000069",
-          "sha256": "e5653d784e1587245a9d3dd99246c8588559fe6dada1d05c00e646c8fc07d674",
+          "seccion": "MD-L000065-L000068",
+          "sha256": "674e8675e1a9c7b4e8eb1089823669be772d47bcd7863934f28169729aa79c6a",
           "titulo": "Programa gráfico y datos de la consulta",
-          "ultima_linea": 69
+          "ultima_linea": 68
+        },
+        {
+          "fin_byte_exclusivo": 15276,
+          "inicio_byte": 13415,
+          "primera_linea": 69,
+          "seccion": "MD-L000069-L000075",
+          "sha256": "3b293a33fe5c071e6e4719deb289645baecbca74c4961e65ee5d05303ff1b4ab",
+          "titulo": "Recomendaciones de defensa no ensayadas {#recomendaciones-defensa-no-ensayadas}",
+          "ultima_linea": 75
         }
       ]
     },
@@ -4055,9 +4073,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-dominios-alcance-20261029",
+  "edicion": "biblioteca-sv-recomendaciones-defensa-20261029",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "f227bb4955f178609b9e1c966da0b0de6841b3f84f622a251ed8116a8149b013",
+  "politica_sha256": "c0f27e42449339f5a52e5ea59a3daa7552225f0fa690702f642cda92e9d276f2",
   "recepcion_visual": false,
   "version": 1
 }
