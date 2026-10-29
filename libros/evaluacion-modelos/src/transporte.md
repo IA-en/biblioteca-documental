@@ -1,5 +1,7 @@
 # Transporte, conservación y mediciones
 
+Las reglas numéricas de 32 minutos, 2 minutos de referencia por pregunta y 5 minutos por incidencia que se describen aquí corresponden al examen documental EET-CYB16. La convocatoria práctica SV(25,5) conserva su [plan temporal y sus mediciones](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-practica-20261027/TELEMETRIA-Y-MEDICIONES.md), incluidos los dos participantes concurrentes. Reutilizar el transporte no traslada automáticamente aquellos plazos ni acredita continuidad de inferencia por una consulta de catálogo.
+
 > **Estado de esta versión:** autenticación y catálogo no envían contenido documental. El contador oficial dispone de un recorrido independiente, sujeto a autorización expresa para los originales y destinatario concretos. Contar no genera respuestas ni autoriza el examen. La generación sigue bloqueada hasta recibir las condiciones y la autorización específica de ejecución; producción permanece deshabilitada.
 
 
@@ -42,4 +44,5 @@ Las evidencias publicadas deben mantener unidad, procedencia, ámbito y disponib
 El Gestor distingue dos obligaciones complementarias: [Aislamiento y entrega de datos](https://administracion.itvia.online/aislamiento-ia) distingue la conexión sin contenido, el recuento documental autorizado y el examen con habilitación expresa; [IA, frontera y núcleo](https://administracion.itvia.online/ia-frontera-nucleo) explica el transporte por la tubería del SV y la instrucción de frontera, sin acceso directo de la IA al núcleo. Ambas secciones reúnen las fuentes y los límites de la versión. La norma [Código limpio y auditable](https://administracion.itvia.online/normas/codigo-limpio) es de aplicación obligatoria al desarrollo. Estas referencias no conceden autorización de ejecución.
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
 

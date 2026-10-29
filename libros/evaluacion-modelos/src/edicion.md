@@ -1,5 +1,9 @@
 # Edición del examen y plantilla previa
 
+## Alcance de las ediciones
+
+Este capítulo expone reglas comunes y describe expresamente las ediciones documentales EET-CYB16 de dieciséis posiciones. Sus formatos de respuesta, tiempos y condiciones de entrega pertenecen a esas ediciones. La [convocatoria práctica abierta de Ciberseguridad Inteligente](https://sv.itvia.online/benchmark?convocatoria=eet-cyb16-practica-20261027&vista=documentacion) utiliza SV(25,5), veinticinco parámetros críticos y actuaciones concurrentes con contratos propios. Sus plazos y condiciones operativas requieren recepción; no hereda los valores iniciales del examen documental.
+
 Cada edición fija sus documentos, instrucciones, enunciados, respuestas de referencia, criticidades, formato de salida, regla agregada y límites. Se identifica antes de examinar candidatos. Un cambio sustantivo requiere otra edición; no sustituye silenciosamente la plantilla con la que se produjo un resultado.
 
 La edición multiformato `eet-cyb16-multiformato-20261021-v2` tiene dieciséis enunciados, ocho afirmativos y ocho negativos, asociados a una representación de examen (16,4). Esta representación corresponde al examen y no asigna una célula al Universo científico del que proceden los documentos.
@@ -27,7 +31,7 @@ La plantilla y la respuesta deben cubrir exactamente las posiciones declaradas, 
 
 Cambiar la célula, sus posiciones o su correspondencia exige una nueva edición. Las anteriores mantienen sus reglas y resultados. El [examen documental de veinticinco posiciones del 07/10/2026](https://github.com/juantoniolloretegea/SV-motor/blob/dd2da96f7c15777f297fea5f5c0147853b8059a6/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/acoplamientos-con-el-sv/03-api-directa/openai/gpt-6-astra/examen25-20261007/resultado/INFORME.md) conserva la célula (25,5), T(25)=19 y su propio contrato; no se transforma en EET-CYB16 ni se incorpora a su clasificación común.
 
-## Recursos y límites del examen
+## Recursos y límites del examen documental EET-CYB16
 
 El [modo y objetivo de uso](autoridad.md#modos-de-uso-del-modelo) deberán quedar identificados cuando formen parte de la preparación de una nueva prueba. El examen conserva esa declaración y su revisión en sus condiciones y en el intento, sin adoptar cambios posteriores de la asignación del modelo. Las ediciones anteriores no establecieron este objetivo: les corresponde **Sin modo como objetivo**, sin alterar sus contratos, originales o resultados. El registro del Gestor permite vincular una declaración antes del intento; exige concordancia de dominio y configuración y una nueva recepción de condiciones y habilitación cuando cambia la vinculación. Un intento o dictamen existente impide vincular retroactivamente otro uso.
 
@@ -35,7 +39,7 @@ El proveedor puede utilizar recursos internos compatibles con el examen cerrado 
 
 Cada U expresa que la información disponible no permite determinar la respuesta tras el análisis. Debe acompañarse de la carencia documental o limitación encontrada. La explicación se conserva sin puntuación; lo declarado por el modelo no se presenta como una medición de su funcionamiento interno.
 
-## Respuesta y calificación
+## Respuesta y calificación del examen documental EET-CYB16
 
 **Reserva de las próximas convocatorias.** Las soluciones se publican después de que todos los candidatos hayan finalizado. Hasta ese momento se reservan también las correcciones por pregunta y las evidencias que permitan deducirlas. La plantilla se revisa y fija antes del examen; no se modifica a partir de las respuestas recibidas. Una retirada o imposibilidad de continuar exige resolución registrada antes del cierre de la convocatoria.
 
@@ -60,3 +64,4 @@ Los valores iniciales configurables son 32 minutos de tiempo efectivo total y 2 
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+

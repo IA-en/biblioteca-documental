@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "15e13170e265cc7667e74613fd109bc1e22c6c2e4c53bd77231a4204208033e7",
+  "revision": "015a8a08e5c3d8c61aaecffcd9467b6c039608910fbd5480da6fc5325f100766",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -132,9 +132,9 @@
     {
       "ruta": "integracion-gestor-sv.md",
       "id": "MANUAL_INTEGRACION_GESTOR_SV",
-      "url": "urn:sv:documento:sha256:aa9c0ad2a25402cf4df1ea434ec684f610c077407cf526141e3aa7d99ec8ca1a",
+      "url": "urn:sv:documento:sha256:68426e0158ce1461dab8e7323feec0e022065f63ab55d18e9b6895ef191f7bac",
       "titulo": "18. Integración con el Gestor del Sistema Vectorial SV",
-      "sha256": "aa9c0ad2a25402cf4df1ea434ec684f610c077407cf526141e3aa7d99ec8ca1a"
+      "sha256": "68426e0158ce1461dab8e7323feec0e022065f63ab55d18e9b6895ef191f7bac"
     },
     {
       "url": "urn:sv:documento:sha256:4ce2400241265fda0cc97a6e05b652ffb2f3a4a67f6e80f90a8cb75989823ffb",
@@ -147,8 +147,8 @@
       "ruta": "agradecimientos.md",
       "titulo": "20. Agradecimientos",
       "id": "MANUAL_AGRADECIMIENTOS",
-      "url": "urn:sv:documento:sha256:84f014820d7373596a8a8eb70e6dba3fb46ec822cd8d18385c24e6f5e49783ac",
-      "sha256": "84f014820d7373596a8a8eb70e6dba3fb46ec822cd8d18385c24e6f5e49783ac"
+      "url": "urn:sv:documento:sha256:7db849e8667fcce983e2beb68c6f39fd19e315bccb592561a2f4b32a20152904",
+      "sha256": "7db849e8667fcce983e2beb68c6f39fd19e315bccb592561a2f4b32a20152904"
     }
   ]
 }

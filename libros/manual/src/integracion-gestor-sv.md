@@ -39,13 +39,13 @@ La preparación institucional sigue el orden **dominio → nodo → modelo**. El
 
 El nodo describe la relación de ejecución y control. Los entornos nativo y WebAssembly, así como los dispositivos CPU, GPU, TPU o NPU, tienen funciones diferentes y se explican en [Arquitectura y recursos](arquitectura-ejecucion.md#gobierno-de-la-ejecución-y-recursos).
 
-Cada dominio conserva una única asignación de modelo y nodo para su inferencia experta. La instalación puede registrar varias conexiones y preparar varios candidatos; esa pluralidad no constituye una selección simultánea de modelos para el consejo de un mismo dominio. Dos dominios pueden repetir modelo y nodo, manteniendo sus documentos, permisos y decisiones propios. La asignación no otorga propiedad jurídica sobre el modelo ni exclusividad sobre los recursos.
+Las asignaciones se identifican por institución, dominio, función, nodo, modelo y configuración. Un dominio puede conservar varios usos delimitados; su coexistencia no concede por sí sola actuación simultánea ni composición automática de consejos. Cada uso conserva sus facultades, evidencia, revisión y vigencia, conforme al [libro de validación y autorización](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html). Dos dominios pueden repetir modelo y nodo, manteniendo documentos, permisos y decisiones propios. La asignación no otorga propiedad jurídica sobre el modelo ni exclusividad sobre los recursos.
 
 Las autorizaciones no se transfieren por compartir una conexión. Cada dominio permanece sujeto a sus condiciones, a las restricciones generales de la instalación y a los límites de los recursos comunes. Compatibilidad técnica, aptitud evaluada y autorización de uso son comprobaciones distintas. Una evaluación favorable conserva su ámbito y no se extiende automáticamente a otro dominio.
 
 La ficha institucional registra la decisión, su aplicación, la cuenta responsable, la fecha, el alcance y el motivo. Los cambios conservan su revisión; el historial de una actuación debe permitir conocer la asignación que le correspondía. La preparación, la comprobación y la habilitación de uso son etapas diferenciadas.
 
-**Alcance de esta edición del Gestor.** Los nodos 1 y 2 no están habilitados. El nodo 3 permite preparar y comprobar conexiones; el control vigente limita la comunicación con proveedores a autenticación y consulta del catálogo sin contenido documental. Bloquea documentos, preguntas y respuestas, incluidas las entregas a contadores remotos. La inferencia experta en producción permanece deshabilitada. Una decisión institucional sobre un candidato no elimina estos límites.
+**Alcance de esta edición del Gestor.** Los nodos 1 y 2 no están habilitados. La restricción general del nodo 3 permite autenticación y consulta del catálogo sin contenido documental. Las excepciones recibidas para ediciones y candidatos concretos de EET-CYB16 se rigen por la norma [Código limpio y auditable](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/calidad/tuberias-ia/continuacion-15-09-2026/CODIGO-LIMPIO-Y-AUDITABLE.md); requieren sus condiciones y autorizaciones específicas. No se extienden a otra convocatoria por reutilizar un formulario, una conexión o un contador. La convocatoria práctica SV(25,5) mantiene restringida la entrega de contenido a proveedores. La inferencia experta en producción permanece deshabilitada. Una decisión institucional sobre un candidato no elimina estos límites.
 
 ## **18.4.** Documentos y evidencias {#documentos-y-evidencias}
 
@@ -68,3 +68,4 @@ Lectura, transformación, descarga y suministro a una IA conservan sus autorizac
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+

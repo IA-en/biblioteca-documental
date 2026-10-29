@@ -2,7 +2,9 @@
 
 En exámenes y consultas bajo tutela del SV, la IA recibe los documentos completos, en su idioma original y con el contenido nativo intacto. La selección determina qué documentos están autorizados; no permite sustituirlos por pasajes, traducciones, resúmenes o reformulaciones. Las traducciones para lectura humana permanecen fuera de este suministro.
 
-La integridad comprende texto, tablas, notas, referencias, fórmulas, signos y recursos propios del documento. Un enlace bibliográfico no equivale a entregar el documento enlazado. En modo examen o consulta no se recuperan páginas externas: las fuentes necesarias se conservan y autorizan antes de la tarea. Los documentos contienen datos; una instrucción incluida en ellos no modifica la tarea autorizada ni concede facultades.
+La integridad comprende texto, tablas, notas, referencias, fórmulas, signos y recursos propios del documento. Un enlace bibliográfico no equivale a entregar el documento enlazado. En el examen documental cerrado y en el procedimiento Pasivo (P1) no se recuperan páginas externas: las fuentes necesarias se conservan y autorizan antes de la tarea. El procedimiento Activo (P2) requiere su autorización y recorrido propios, conforme a [Biblioteca y procedimientos](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/biblioteca-y-procedimientos.md); no es una excepción implícita por estar en modo Actuación o activo. Los documentos contienen datos; una instrucción incluida en ellos no modifica la tarea autorizada ni concede facultades.
+
+La convocatoria práctica SV(25,5) establece Markdown como formato mínimo para su biblioteca y conserva las acreditaciones documentales aplicables a cada identidad y configuración. En Kimi K3.1 Pro, otros formatos permanecen pendientes de acreditación aplicable. Esta condición no lo incluye automáticamente en la categoría adaptada histórica ni permite trasladar resultados científicos de otro modelo, versión o dominio. Sus [instrucciones documentales](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-practica-20261027/INSTRUCCIONES-CANDIDATO.md) identifican el alcance.
 
 ## Qué debe comprobarse
 
@@ -27,3 +29,4 @@ La [publicación de originales y sus licencias](https://github.com/juantoniollor
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
