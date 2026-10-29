@@ -34,6 +34,16 @@ Los primeros Universos documentados de Inmunología y Ciberseguridad constituyen
 
 La prohibición de acceso directo y autoridad sobre el núcleo alcanza a todos los agentes y a cualquier IA que actúe como Perfil defensor (PD). Su aplicación a la protección de la plataforma se desarrolla en la [especificación del Agente Especializado en Ciberseguridad Inteligente](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/072b101459a94b1df139ce451dd116615847f679/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md); los demás agentes conservan sus propias funciones y límites.
 
+## Arquitectura común de los agentes {#arquitectura-agentes}
+
+Los pilares del SV fijan el fundamento. Las publicaciones exponen conceptos, razones y arquitectura; el Gestor y su realización computacional los materializan y aportan las pruebas de lo construido. Cada plano conserva su función: una idea documentada no acredita una función implementada, y una decisión técnica no modifica los pilares. Las diferencias deben identificarse como realización pendiente, concreción técnica compatible o contradicción que exige corrección.
+
+Los [Fundamentos, exigencias y arquitectura general](https://www.itvia.online/pub/fundamentos-exigencias-y-arquitectura-general-de-los-agentes-especializados-en-el-sistema-vectorial-sv-formulacion-transversal-desde-el-caso-director-del-agente-especializado-en-inmunologia/release/1), junto con el Estatuto, la Instrucción Técnica de Implementación (ITI) y la Carta Magna, fijan funciones complementarias. Los Fundamentos ordenan la arquitectura transversal; no constituyen por sí solos cada Universo ni sustituyen su autorización.
+
+La arquitectura distingue tres planos: el interno, que calcula y presenta la estructura del caso conforme a sus reglas; el externo, que relaciona al experto, las fuentes y la asistencia de inteligencia artificial (IA); y el acoplamiento custodial, que gobierna la posible incorporación de material externo. Leer una fuente no le concede autoridad para cambiar el núcleo ni los parámetros del caso.
+
+El experto debe poder ver la estructura, conocer las indeterminaciones y su fundamento, y conservar una corrección competente como nuevo suceso. La [relación del agente con el Gestor](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ALCANCE-Y-ACCESO.md#relación-con-el-gestor) desarrolla qué debe hacerse visible. Los controles documentados y los controles efectivamente recibidos se distinguen expresamente. El [régimen de incorporación extrínseca](metodologia.md#incorporacion-extrinseca) mantiene sus propias compuertas y no se confunde con la evaluación de un modelo.
+
 ## Cuenta, dominio y uso de modelos
 
 El ámbito de conocimiento del agente, las facultades de la persona y la autorización de uso de un modelo son relaciones diferentes. La cuenta identifica a la persona; sus funciones y permisos delimitan recursos, operaciones, dominio y vigencia. La autorización del modelo identifica además configuración, contenido permitido y condiciones de comunicación. Ninguna de estas relaciones se deduce de un icono o de la entrada a una página.

@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
+      "sha256": "c4fc9d2cbb6b9477f75b7e89a2c01e38a949942a88733e0b65431470b2d7992b",
       "ruta": "biblioteca.json",
-      "bytes": 46125,
-      "sha256": "20d0a8872650372a8baf7bf34a9c8f29d20e7788c00ca733c6444fd192755745"
+      "bytes": 45953
     },
     {
       "sha256": "30533f25e6d6b58ad3f22a7beb4f91d6bce27957c5a86f1098ffcfa2cc83d83a",
@@ -47,9 +47,9 @@
       "ruta": "correspondencia-enciclopedia.json.license"
     },
     {
+      "sha256": "b202835cde1236a7945afee0f27261ad09a739f24cb616061f1593b00c899f4e",
       "ruta": "correspondencia.json",
-      "bytes": 160942,
-      "sha256": "9d018f5f9aa6ae0f8aadbef2c87a067bde876625baeec5016343d9180b2b2424"
+      "bytes": 161878
     },
     {
       "sha256": "ebf4630d6c6e0fe4a01fde0079223b5a7cc6947fb9c97d826e76d91353ec0ff3",
@@ -82,9 +82,9 @@
       "ruta": "libros/dominios/book.toml"
     },
     {
-      "bytes": 2608,
+      "sha256": "eed31571f588d395bcac8333b50dc5752b6b687db3e2fe9cff9e7ce180780006",
       "ruta": "libros/dominios/plan.json",
-      "sha256": "1ba939ee1e33338dfc5593a1a381e8419ded5532820608537c2db3831ae80bfa"
+      "bytes": 2608
     },
     {
       "sha256": "b1276fe18ad52f935e27f4ccb225ac2474fbc886b5d6620422345991cae22b7d",
@@ -102,14 +102,14 @@
       "sha256": "bc329ebd6e341565abca517a9f9b97dd563bc197f841d338e2ae6578fc1bf8f0"
     },
     {
-      "bytes": 10861,
+      "sha256": "aecf5015329835775439b70e085486d2dc9dd0e54d0b4d33adec2a2761cac50d",
       "ruta": "libros/dominios/src/conceptos.md",
-      "sha256": "b6fe7807368cc89979e0eb1af831b2ac3f7b93907ea92f1375952db961e3ef85"
+      "bytes": 12951
     },
     {
-      "bytes": 11484,
+      "sha256": "ce65d5bce7bac87d0ce2b17ea226b803aed58c9f2a1667c441c71a1796d6a4e8",
       "ruta": "libros/dominios/src/fuentes.md",
-      "sha256": "205b7597e1316639450a60769854bd9be9bad160726db1f6eb6098efccba5901"
+      "bytes": 12556
     },
     {
       "sha256": "3a2512c3d3726027742095326f7d661f9c2df0bddfc75d199428d74904ecd37f",
@@ -137,14 +137,14 @@
       "ruta": "libros/dominios/src/imagenes/universo-celulas-tensores.svg"
     },
     {
-      "bytes": 15723,
+      "sha256": "2121d54184e7050de92064dcb4f6a5a4925fec6ebae252e91b41427bd862c00b",
       "ruta": "libros/dominios/src/inmunologia.md",
-      "sha256": "c606ace17ac2b273bb08934dd1da33007141a5c0deb5587c004225d43b545de5"
+      "bytes": 16299
     },
     {
-      "bytes": 12914,
+      "sha256": "cadda1f927d4edc1ce0d5a6d3a338bcfb8a5f4660eef20ba26b8c645d0127352",
       "ruta": "libros/dominios/src/metodologia.md",
-      "sha256": "1b2f5a9ab57444f5f61b2f592caebd443998f667858694df2529bc604874d448"
+      "bytes": 14739
     },
     {
       "sha256": "aaf22c4fd91ceaaa74669682c08e81029bc3ea7f3bdc097208101a66a41091b4",
@@ -787,9 +787,9 @@
       "ruta": "politica-enciclopedia.json.license"
     },
     {
+      "sha256": "9811e31fa8b775928317c63ce3da9841f6a2e0ff604ae7182547b7f04e841977",
       "ruta": "politica-verificacion.json",
-      "bytes": 377,
-      "sha256": "c0f27e42449339f5a52e5ea59a3daa7552225f0fa690702f642cda92e9d276f2"
+      "bytes": 377
     },
     {
       "sha256": "4f97916751eab492053c2f2f5259054e22c98ff04254be1a558a1b7b3a941dd4",
@@ -852,9 +852,9 @@
       "bytes": 962
     },
     {
+      "sha256": "c4fc9d2cbb6b9477f75b7e89a2c01e38a949942a88733e0b65431470b2d7992b",
       "ruta": "publico/biblioteca.json",
-      "bytes": 46125,
-      "sha256": "20d0a8872650372a8baf7bf34a9c8f29d20e7788c00ca733c6444fd192755745"
+      "bytes": 45953
     },
     {
       "sha256": "30533f25e6d6b58ad3f22a7beb4f91d6bce27957c5a86f1098ffcfa2cc83d83a",
@@ -892,9 +892,9 @@
       "ruta": "publico/correspondencia-enciclopedia.json.license"
     },
     {
+      "sha256": "b202835cde1236a7945afee0f27261ad09a739f24cb616061f1593b00c899f4e",
       "ruta": "publico/correspondencia.json",
-      "bytes": 160942,
-      "sha256": "9d018f5f9aa6ae0f8aadbef2c87a067bde876625baeec5016343d9180b2b2424"
+      "bytes": 161878
     },
     {
       "sha256": "ebf4630d6c6e0fe4a01fde0079223b5a7cc6947fb9c97d826e76d91353ec0ff3",
@@ -1827,9 +1827,9 @@
       "ruta": "publico/dominios/universos/clipboard-1626706a.min.js"
     },
     {
-      "bytes": 33709,
+      "sha256": "8f71e9a6709e16c84cd55ccd9b0f7e5ad869b1f5bb038ad87afa71a5c5f96812",
       "ruta": "publico/dominios/universos/conceptos.html",
-      "sha256": "65ffd6c0371424e52f15749a32f2a4e5fde339319d250a7df7ab2ca0f4279aa3"
+      "bytes": 35916
     },
     {
       "sha256": "d279d366359c0d588c9c10cb46afe2b543fc731dea722803639b4e45016d5fe2",
@@ -1932,9 +1932,9 @@
       "ruta": "publico/dominios/universos/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2"
     },
     {
-      "bytes": 33166,
+      "sha256": "fad8c5ee4e87ffc628126a5ad950a3e909f8b151716e2dce099432f436904ec6",
       "ruta": "publico/dominios/universos/fuentes.html",
-      "sha256": "350ce1342a2aae11707202c52d4fed293b9e63977c3f18b18fd3715abe099b87"
+      "bytes": 34435
     },
     {
       "sha256": "493f70e1527d895653b5ac7157abba8e2c656e43698da93b6c1997e2855a5059",
@@ -1977,14 +1977,14 @@
       "ruta": "publico/dominios/universos/index.html"
     },
     {
-      "bytes": 39253,
+      "sha256": "52b197364fe4a82a488f694be166e0b40bfafc3d2d75c78685b30376316ac541",
       "ruta": "publico/dominios/universos/inmunologia.html",
-      "sha256": "5afd5bc280555ac3e0aa31ad1a5c1c277f55d18aa3dc1de5b373b33a0682e2a8"
+      "bytes": 39858
     },
     {
-      "bytes": 35940,
+      "sha256": "84368b3227a582aa6a7921876b6db91f023b726d94c609d11f7d8bbe8b11b6f4",
       "ruta": "publico/dominios/universos/metodologia.html",
-      "sha256": "a1aab90b5f228d409e1bf2b7e37242e76581283edfab6fdfee5af5009ff25e53"
+      "bytes": 37862
     },
     {
       "sha256": "8e1408e7707261814cfba88d3e1493ec914fdb950a042444575d347e05282168",
@@ -2012,9 +2012,9 @@
       "ruta": "publico/dominios/universos/presentacion.html"
     },
     {
-      "bytes": 134526,
+      "sha256": "b5a78664f12197781ca152910c23522566b82c511b619fef5bae302ac9539790",
       "ruta": "publico/dominios/universos/print.html",
-      "sha256": "24befe9c9d1e30e06203f046cbe3c59e1b19eb550be4732b67adee7de1a29df8"
+      "bytes": 140483
     },
     {
       "ruta": "publico/dominios/universos/toc-57e74f04.js",
@@ -2747,9 +2747,9 @@
       "bytes": 974
     },
     {
-      "bytes": 2608,
+      "sha256": "eed31571f588d395bcac8333b50dc5752b6b687db3e2fe9cff9e7ce180780006",
       "ruta": "publico/libros/dominios/plan.json",
-      "sha256": "1ba939ee1e33338dfc5593a1a381e8419ded5532820608537c2db3831ae80bfa"
+      "bytes": 2608
     },
     {
       "sha256": "b1276fe18ad52f935e27f4ccb225ac2474fbc886b5d6620422345991cae22b7d",
@@ -2762,14 +2762,14 @@
       "sha256": "bc329ebd6e341565abca517a9f9b97dd563bc197f841d338e2ae6578fc1bf8f0"
     },
     {
-      "bytes": 10861,
+      "sha256": "aecf5015329835775439b70e085486d2dc9dd0e54d0b4d33adec2a2761cac50d",
       "ruta": "publico/libros/dominios/src/conceptos.md",
-      "sha256": "b6fe7807368cc89979e0eb1af831b2ac3f7b93907ea92f1375952db961e3ef85"
+      "bytes": 12951
     },
     {
-      "bytes": 11484,
+      "sha256": "ce65d5bce7bac87d0ce2b17ea226b803aed58c9f2a1667c441c71a1796d6a4e8",
       "ruta": "publico/libros/dominios/src/fuentes.md",
-      "sha256": "205b7597e1316639450a60769854bd9be9bad160726db1f6eb6098efccba5901"
+      "bytes": 12556
     },
     {
       "ruta": "publico/libros/dominios/src/imagenes/aeropuerto-dependencias.svg",
@@ -2797,14 +2797,14 @@
       "bytes": 3114
     },
     {
-      "bytes": 15723,
+      "sha256": "2121d54184e7050de92064dcb4f6a5a4925fec6ebae252e91b41427bd862c00b",
       "ruta": "publico/libros/dominios/src/inmunologia.md",
-      "sha256": "c606ace17ac2b273bb08934dd1da33007141a5c0deb5587c004225d43b545de5"
+      "bytes": 16299
     },
     {
-      "bytes": 12914,
+      "sha256": "cadda1f927d4edc1ce0d5a6d3a338bcfb8a5f4660eef20ba26b8c645d0127352",
       "ruta": "publico/libros/dominios/src/metodologia.md",
-      "sha256": "1b2f5a9ab57444f5f61b2f592caebd443998f667858694df2529bc604874d448"
+      "bytes": 14739
     },
     {
       "sha256": "aaf22c4fd91ceaaa74669682c08e81029bc3ea7f3bdc097208101a66a41091b4",
@@ -3587,9 +3587,9 @@
       "ruta": "publico/politica-enciclopedia.json.license"
     },
     {
+      "sha256": "9811e31fa8b775928317c63ce3da9841f6a2e0ff604ae7182547b7f04e841977",
       "ruta": "publico/politica-verificacion.json",
-      "bytes": 377,
-      "sha256": "c0f27e42449339f5a52e5ea59a3daa7552225f0fa690702f642cda92e9d276f2"
+      "bytes": 377
     },
     {
       "sha256": "4f97916751eab492053c2f2f5259054e22c98ff04254be1a558a1b7b3a941dd4",

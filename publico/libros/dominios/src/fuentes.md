@@ -43,6 +43,12 @@ Estas referencias explican funciones complementarias. La publicación documental
 
 Los fundamentos citados gobiernan el significado del SV. La bibliografía general explica las herramientas matemáticas. La realización tensorial de Universos y la valoración de pertenencia a rutas se presentan como conceptos de diseño, no como conclusiones atribuidas a esas obras ni como capacidades cuya ejecución esté comprobada.
 
+## Arquitectura de los agentes y lectura de antecedentes
+
+Los [Fundamentos, exigencias y arquitectura general de los agentes especializados](https://www.itvia.online/pub/fundamentos-exigencias-y-arquitectura-general-de-los-agentes-especializados-en-el-sistema-vectorial-sv-formulacion-transversal-desde-el-caso-director-del-agente-especializado-en-inmunologia/release/1), edición 1, son la referencia transversal para los tres planos, los derechos del experto, el par de prefiltro y custodia, el regulador y la verificabilidad material. Los [conceptos](conceptos.md#arquitectura-agentes) y la [metodología](metodologia.md#incorporacion-extrinseca) explican su relación con el dominio sin sustituir la fuente.
+
+Las referencias de esa publicación a IMMUNO-1 e IMMUNO-2 pertenecen a antecedentes históricos. Se conservan para examinar su estructura; no acreditan capacidades vigentes ni completan las definiciones pendientes. La demostración descrita en una publicación tampoco sustituye la recepción operativa de la instalación y revisión que se vaya a utilizar.
+
 ## Selección y vigencia
 
 Una fuente se incorpora por su pertinencia para una operación y por la evidencia que aporta. Deben conocerse su procedencia, alcance, versión y condiciones de uso. Una lista bibliográfica o la disponibilidad de un repositorio no demuestran que sus documentos o datos respondan a la pregunta planteada.

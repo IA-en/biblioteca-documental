@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-recomendaciones-defensa-20261029",
+  "edicion": "biblioteca-sv-fundamentos-agentes-20261029",
   "libros": [
     {
       "id": "guia",
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "1ba939ee1e33338dfc5593a1a381e8419ded5532820608537c2db3831ae80bfa",
+        "sha256": "eed31571f588d395bcac8333b50dc5752b6b687db3e2fe9cff9e7ce180780006",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -730,7 +730,7 @@
           "procedencia": "Edición pública actualizada el 25/10/2026"
         },
         {
-          "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
+          "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -738,14 +738,14 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-03",
           "original": {
-            "sha256": "b6fe7807368cc89979e0eb1af831b2ac3f7b93907ea92f1375952db961e3ef85",
+            "sha256": "aecf5015329835775439b70e085486d2dc9dd0e54d0b4d33adec2a2761cac50d",
             "ruta": "libros/dominios/src/conceptos.md"
           },
           "correspondencia": "identidad_literal",
           "procedencia": "Revisión explicativa de 29/10/2026"
         },
         {
-          "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
+          "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -753,14 +753,14 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-04",
           "original": {
-            "sha256": "1b2f5a9ab57444f5f61b2f592caebd443998f667858694df2529bc604874d448",
+            "sha256": "cadda1f927d4edc1ce0d5a6d3a338bcfb8a5f4660eef20ba26b8c645d0127352",
             "ruta": "libros/dominios/src/metodologia.md"
           },
           "correspondencia": "identidad_literal",
           "procedencia": "Revisión explicativa de 29/10/2026"
         },
         {
-          "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
+          "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -768,7 +768,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-05",
           "original": {
-            "sha256": "c606ace17ac2b273bb08934dd1da33007141a5c0deb5587c004225d43b545de5",
+            "sha256": "2121d54184e7050de92064dcb4f6a5a4925fec6ebae252e91b41427bd862c00b",
             "ruta": "libros/dominios/src/inmunologia.md"
           },
           "correspondencia": "identidad_literal",
@@ -790,7 +790,7 @@
           "procedencia": "Revisión explicativa de 29/10/2026"
         },
         {
-          "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
+          "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -798,7 +798,7 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-07",
           "original": {
-            "sha256": "205b7597e1316639450a60769854bd9be9bad160726db1f6eb6098efccba5901",
+            "sha256": "ce65d5bce7bac87d0ce2b17ea226b803aed58c9f2a1667c441c71a1796d6a4e8",
             "ruta": "libros/dominios/src/fuentes.md"
           },
           "correspondencia": "identidad_literal",

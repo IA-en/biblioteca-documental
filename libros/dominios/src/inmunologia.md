@@ -1,5 +1,8 @@
 # Inmunología: OP-IMM-001
 
+**Delimitación de antecedentes.** IMMUNO-1 e IMMUNO-2 son borradores históricos que conservan interés estructural, pero requieren actualización. No describen las capacidades actuales del agente ni autorizan uso clínico. Sus menciones en publicaciones anteriores se conservan en su contexto; no se identifican con OP-IMM-001 ni se trasladan automáticamente sus parámetros al dominio vigente. La [sede documental del agente](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/inmunologia/README.md) distingue esas referencias de las operaciones recibidas.
+
+
 **Universo:** OP-IMM-001 / Q0 v0.  
 **Denominación:** Información predecisional pertinente antes de iniciar tratamiento inmunosupresor en adultos.  
 **Documento de referencia:** [Expediente, edición 1.1, de 3 de septiembre de 2026](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/universos-clinicos/01-evaluacion-predecisional-riesgo-infeccioso-antes-inmunosupresion-adultos/Expediente_predecisional_de_informacion_clinica_pertinente_antes_de_iniciar_tratamiento_inmunosupresor_en_adultos_v1.1_2026-09-03.md).
@@ -98,7 +101,7 @@ Las [relaciones entre agrupaciones](https://github.com/juantoniolloretegea/SVper
 
 Las discrepancias que requieren revisión y la información insuficiente se presentan antes del resultado general. Al iniciar otra consulta, su resultado no puede confundirse con una figura o unas fuentes anteriores. El historial conserva las consultas y permite recuperarlas expresamente.
 
-La biblioteca de seis células numéricas es un ejemplo de comprobación. No representa un paciente ni constituye IMMUNO-1 u OP-IMM-001; tampoco demuestra suficiencia clínica. Las fuentes encontradas en una investigación permanecen separadas de la biblioteca: su eventual incorporación exige evaluación científica, autorización y el procedimiento documental del Universo correspondiente. La mera conservación de una consulta no cumple por sí sola esos requisitos.
+La biblioteca de seis células numéricas es un ejemplo de comprobación. No representa un paciente ni constituye OP-IMM-001; tampoco demuestra suficiencia clínica. Las fuentes encontradas en una investigación permanecen separadas de la biblioteca: su eventual incorporación exige evaluación científica, autorización y el procedimiento documental del Universo correspondiente. La mera conservación de una consulta no cumple por sí sola esos requisitos.
 
 ---
 
