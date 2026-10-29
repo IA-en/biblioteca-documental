@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-pre-nucleo-20261028",
+  "edicion": "biblioteca-sv-dominios-alcance-20261029",
   "libros": [
     {
       "id": "guia",
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "4226a023950642b5c5d433cc8ec56604b52a8dacb5c3a5f478311b13b3adb592",
+        "sha256": "1ba939ee1e33338dfc5593a1a381e8419ded5532820608537c2db3831ae80bfa",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -730,7 +730,7 @@
           "procedencia": "Edición pública actualizada el 25/10/2026"
         },
         {
-          "alcance": "Referencia al objetivo arquitectónico de protección desde el arranque. Conserva las invariantes y distingue diseño, realización y recepción; no habilita actuación ni producción.",
+          "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -738,14 +738,14 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-03",
           "original": {
-            "sha256": "c54719597c05cadbb469a1ceccd37fea373c55cf378098b6c768a6a4cf1764d2",
+            "sha256": "b6fe7807368cc89979e0eb1af831b2ac3f7b93907ea92f1375952db961e3ef85",
             "ruta": "libros/dominios/src/conceptos.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública de 28/10/2026"
+          "procedencia": "Revisión explicativa de 29/10/2026"
         },
         {
-          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -753,14 +753,14 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-04",
           "original": {
-            "sha256": "2b8e04bd9f8cca27dfe46cb555671611a0c3fdd2dc1d5965a06d368f15631ee6",
+            "sha256": "1b2f5a9ab57444f5f61b2f592caebd443998f667858694df2529bc604874d448",
             "ruta": "libros/dominios/src/metodologia.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+          "procedencia": "Revisión explicativa de 29/10/2026"
         },
         {
-          "alcance": "Presentación clínica, investigación separada, permisos y conservación; seudo-producción sin datos de pacientes.",
+          "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -768,14 +768,14 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-05",
           "original": {
-            "sha256": "512f6ee488425de9fd6acfda6331bae5abb919157e1fb1a89ef1a09bf293f95f",
+            "sha256": "c606ace17ac2b273bb08934dd1da33007141a5c0deb5587c004225d43b545de5",
             "ruta": "libros/dominios/src/inmunologia.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición del entorno de consulta, 26/10/2026"
+          "procedencia": "Revisión explicativa de 29/10/2026"
         },
         {
-          "alcance": "Estudio de instrucciones preliminares pre-núcleo. Conserva contratos y jerarquía; no acredita implementación ni habilita dominios, agentes o pruebas.",
+          "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -783,14 +783,14 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-06",
           "original": {
-            "sha256": "16887241dc4b008b559f23b7d86ce931eb6b714461ae6a1709ea14a1bb2d813e",
+            "sha256": "bc329ebd6e341565abca517a9f9b97dd563bc197f841d338e2ae6578fc1bf8f0",
             "ruta": "libros/dominios/src/ciberseguridad.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición explicativa de 28/10/2026"
+          "procedencia": "Revisión explicativa de 29/10/2026"
         },
         {
-          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
@@ -798,11 +798,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-07",
           "original": {
-            "sha256": "2434ed493e448e1e89a8c3a7ffef97f030f901ccdc57cebf669019ff600176fb",
+            "sha256": "205b7597e1316639450a60769854bd9be9bad160726db1f6eb6098efccba5901",
             "ruta": "libros/dominios/src/fuentes.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+          "procedencia": "Revisión explicativa de 29/10/2026"
         },
         {
           "tipo_original": "markdown",

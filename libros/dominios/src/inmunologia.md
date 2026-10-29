@@ -4,6 +4,12 @@
 **Denominación:** Información predecisional pertinente antes de iniciar tratamiento inmunosupresor en adultos.  
 **Documento de referencia:** [Expediente, edición 1.1, de 3 de septiembre de 2026](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/9939d600b3c3ffc3f4237f229ca0670de8f3693d/dominios/inmunologia/universos-clinicos/01-evaluacion-predecisional-riesgo-infeccioso-antes-inmunosupresion-adultos/Expediente_predecisional_de_informacion_clinica_pertinente_antes_de_iniciar_tratamiento_inmunosupresor_en_adultos_v1.1_2026-09-03.md).
 
+## Relación con el Agente Especializado
+
+El [Agente Especializado en Inmunología](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/ccf7597e7f9de65fef52ed616d1dab8d2a3c668d/agentes/inmunologia/README.md) tiene como alcance de referencia el dominio completo, salvo delimitación expresa en su definición. OP-IMM-001 es una operación delimitada de ese conocimiento, no la totalidad del agente. Los antecedentes de sus fases conservan sus identidades y no se identifican automáticamente con este Universo.
+
+El [espacio de trabajo de Inmunología](https://sv.itvia.online/inicio/agentes/inmunologia) organiza las opciones de la plantilla. Su disponibilidad visual, las [autorizaciones de uso](https://sv.itvia.online/inicio/acceso-agentes/inmunologia) y la constitución clínica se comprueban por separado, conforme a las [definiciones comunes](conceptos.md#cuenta-dominio-y-uso-de-modelos). Las exclusiones y condiciones del Universo descritas a continuación permanecen vigentes.
+
 ## Finalidad y producto
 
 La fuente define un subconjunto de información para su utilización posterior en la valoración del riesgo infeccioso antes de iniciar inmunosupresión. El producto es un perfil predecisional estructurado: organiza antecedentes y condiciones documentadas y permite reconocer carencias de información.

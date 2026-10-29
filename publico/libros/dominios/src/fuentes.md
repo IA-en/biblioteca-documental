@@ -21,6 +21,19 @@ Los enlaces están fijados a revisiones concretas del repositorio de referencia.
 
 El libro organiza y explica los fundamentos. Las definiciones completas de los parámetros permanecen en las fuentes enlazadas. Ni la selección editorial ni la correspondencia de archivos sustituyen la evaluación científica o profesional de las fuentes.
 
+## Alcance de los agentes y procedimientos de consulta
+
+La precisión editorial de 29 de octubre de 2026 distingue el dominio completo de referencia, las delimitaciones expresas, las operaciones constituidas y las autorizaciones. Mantiene intactos los contratos y los inventarios históricos citados en la tabla anterior.
+
+| Materia | Referencia y función |
+| --- | --- |
+| Constitución por agente y fase | [Estatuto del universo de sucesos, edición 2](https://www.itvia.online/pub/estatuto-del-universo-de-sucesos-admisibilidad-suficiente-y-composicion-tipada-de-agentes-especializados-en-el-sistema-vectorial-sv/release/2) e [Instrucción Técnica de Implementación (ITI), edición 2](https://www.itvia.online/pub/instruccion-tecnica-de-implementacion-especifica-de-agente-especializado-en-el-sistema-vectorial-sv-iti-v1/release/2). Concretan horizonte, admisión y condiciones operativas; no se sustituyen por una autorización de cuenta. |
+| Alcance, identidad y permisos | [Alcance de los agentes y autorizaciones](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/ccf7597e7f9de65fef52ed616d1dab8d2a3c668d/agentes/ALCANCE-Y-ACCESO.md), revisión 1.0; [Inmunología](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/ccf7597e7f9de65fef52ed616d1dab8d2a3c668d/agentes/inmunologia/README.md) y [Ciberseguridad Inteligente](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/ccf7597e7f9de65fef52ed616d1dab8d2a3c668d/agentes/ciberseguridad-inteligente/README.md). |
+| Biblioteca y procedimientos | [Libro de Ensayo y observabilidad: Biblioteca y Procedimientos](https://github.com/juantoniolloretegea/SV-motor/blob/ea46c1172babab09833646e54acac85f71039e7e/laboratorio/ensayo-ia-y-observabilidad/biblioteca-y-procedimientos.md). Distingue material admitido, transporte autorizado, investigación y protocolos. |
+| Configuración y límites instrumentales | [Anexo técnico de Q19](https://github.com/juantoniolloretegea/SV-motor/blob/ea46c1172babab09833646e54acac85f71039e7e/laboratorio/ensayo-ia-y-observabilidad/anexo-tecnico-q19.md). Delimita la evidencia por plataforma y no acredita extrapolaciones a otros soportes. |
+
+Estas referencias explican funciones complementarias. La publicación documental no constituye una recepción de operaciones clínicas, protección material instalada ni autorización de entrega a proveedores.
+
 ## Fundamentos del SV y bibliografía de representación
 
 - [Fundamentos algebraico-semánticos del SV](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/b8fd32978292d25adf9b87cf71e409005dce642c/documentos/fundamentos/README.md): objeto ternario, estados posibles, representación y composición.

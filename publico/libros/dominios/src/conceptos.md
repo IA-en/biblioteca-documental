@@ -18,17 +18,27 @@ El marco de inmunología distingue el **subdominio**, que agrupa Universos relac
 
 ## Alcance de un Agente Especializado
 
-Un Agente Especializado puede tener asignados uno o varios dominios completos, subdominios o conjuntos identificados de Universos. Esa asignación delimita el conocimiento que puede utilizar; no obliga a recorrer íntegramente cada dominio en toda consulta. El recorrido concreto depende del objeto de la consulta y de las relaciones y obligaciones constituidas.
+El alcance de referencia de un Agente Especializado es el dominio completo que se le asigne, salvo que su definición establezca expresamente un subdominio, un conjunto identificado de Universos u otra división constituida. Puede tener más de un dominio asignado. La ausencia de una definición recibida no concede alcance completo por defecto: deben identificarse el ámbito y sus límites.
+
+La asignación delimita el conocimiento pertinente; no obliga a recorrer íntegramente cada dominio en toda consulta. El recorrido concreto depende del objeto de la consulta y de las relaciones y obligaciones constituidas. El [alcance documental del agente](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/ccf7597e7f9de65fef52ed616d1dab8d2a3c668d/agentes/ALCANCE-Y-ACCESO.md) distingue esta referencia de las operaciones efectivamente constituidas y de sus autorizaciones.
+
+El [Estatuto del universo de sucesos](https://www.itvia.online/pub/estatuto-del-universo-de-sucesos-admisibilidad-suficiente-y-composicion-tipada-de-agentes-especializados-en-el-sistema-vectorial-sv/release/2) y la [Instrucción Técnica de Implementación (ITI)](https://www.itvia.online/pub/instruccion-tecnica-de-implementacion-especifica-de-agente-especializado-en-el-sistema-vectorial-sv-iti-v1/release/2) exigen concretar fase, versión, dominio y horizonte de actuación. La referencia al dominio completo no sustituye esos requisitos ni declara recibidas todas sus operaciones.
 
 La delimitación parcial no autoriza a omitir conocimiento necesario. Si una ruta crítica exige un Universo situado fuera del alcance autorizado del agente, se declara la insuficiencia y se aplica la interrupción o revisión prevista. La asignación no se amplía por iniciativa del modelo ni se sustituye la dependencia por información semejante. Compartir dominios tampoco transmite permisos, documentos ni conclusiones entre consultas.
 
-El agente se construye íntegramente mediante la DSL del Lenguaje de Computación del SV. Su definición identifica alcance, versiones, fuentes, contratos y condiciones de ejecución; queda sometida a la semántica y a la representación intermedia —IR— regidas por el núcleo. La realización interna del modelo de IA conserva su identidad tecnológica y no adquiere autoridad para modificar esas reglas. La construcción de un agente no permite introducir excepciones tácitas a las invariantes matemáticas o semánticas del SV.
+El agente se construye íntegramente mediante el lenguaje específico de dominio (DSL) del Lenguaje de Computación del SV. Su definición identifica alcance, versiones, fuentes, contratos y condiciones de ejecución; queda sometida a la semántica y a la representación intermedia (IR) regidas por el núcleo. La realización interna del modelo de inteligencia artificial (IA) conserva su identidad tecnológica y no adquiere autoridad para modificar esas reglas. La construcción de un agente no permite introducir excepciones tácitas a las invariantes matemáticas o semánticas del SV.
 
 En el funcionamiento determinista exigido para producción, cada consulta debe relacionar su recorrido acreditado con uno o varios polígonos del SV, según las células constituidas que correspondan a su naturaleza. Cada polígono conserva identidad celular, dimensión, parámetros, fuentes y evidencia; la multiplicidad de dominios no fija por sí sola el número de figuras. Si faltan las definiciones o las comprobaciones necesarias, se informa de esa carencia sin producir una figura decisional aparente.
 
 Los primeros Universos documentados de Inmunología y Ciberseguridad constituyen las referencias delimitadas de esta fase. No acreditan que las restantes células, rutas o relaciones de los agentes estén definidas o ejecutadas. Las [condiciones de autorización y seudo-producción](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#agentes-especializados-y-frontera) distinguen estas exigencias de una demostración con fuentes abiertas y respuestas no deterministas.
 
 La prohibición de acceso directo y autoridad sobre el núcleo alcanza a todos los agentes y a cualquier IA que actúe como Perfil defensor (PD). Su aplicación a la protección de la plataforma se desarrolla en la [especificación del Agente Especializado en Ciberseguridad Inteligente](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/072b101459a94b1df139ce451dd116615847f679/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md); los demás agentes conservan sus propias funciones y límites.
+
+## Cuenta, dominio y uso de modelos
+
+El ámbito de conocimiento del agente, las facultades de la persona y la autorización de uso de un modelo son relaciones diferentes. La cuenta identifica a la persona; sus funciones y permisos delimitan recursos, operaciones, dominio y vigencia. La autorización del modelo identifica además configuración, contenido permitido y condiciones de comunicación. Ninguna de estas relaciones se deduce de un icono o de la entrada a una página.
+
+El Gestor debe conservar una identidad común y comprobar cada operación mediante sus registros vigentes. La administración del sistema no sustituye la validación profesional ni la recepción de un Universo. La [relación entre acceso y autorizaciones](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/ccf7597e7f9de65fef52ed616d1dab8d2a3c668d/agentes/ALCANCE-Y-ACCESO.md#relación-con-el-gestor) desarrolla estas condiciones y sus comprobaciones sin crear otra cuenta o un registro paralelo.
 
 ## Qué identifica un parámetro
 
@@ -67,4 +77,3 @@ Esta tabla explica distinciones de lectura; no sustituye los estados formales pr
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
-

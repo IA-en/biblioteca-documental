@@ -14,11 +14,21 @@ El contraste internacional permite detectar omisiones, diferencias y conocimient
 
 Cada Universo necesita fuentes que sustenten el conocimiento exigido por su operación. Según el ámbito, pueden ser libros universitarios, documentación hospitalaria, normas, guías o publicaciones científicas acreditadas. Su selección debe responder al contenido necesario y a las condiciones de uso, no sólo a su disponibilidad.
 
-El gestor documental conserva esos recursos, sus versiones, permisos y decisiones de autorización. Su entrega a la IA debe corresponder al Universo y a la finalidad autorizados, con identificación de los documentos efectivamente suministrados. Un documento depositado todavía puede estar pendiente de revisión o quedar excluido de nuevas entregas; su presencia en el catálogo no equivale a autorización de uso.
+El gestor documental conserva esos recursos, sus versiones, permisos y decisiones de autorización. Su entrega a la inteligencia artificial (IA) debe corresponder al Universo y a la finalidad autorizados, con identificación de los documentos efectivamente suministrados. Un documento depositado todavía puede estar pendiente de revisión o quedar excluido de nuevas entregas; su presencia en el catálogo no equivale a autorización de uso.
 
 Así se relacionan la definición del conocimiento necesario, las fuentes admitidas y la evidencia de lo entregado. Las reglas de gestión, lectura y suministro se desarrollan en el [libro documental](../../documentacion/reglas-usos-descripciones-documentales/index.html).
 
 Durante una operación autorizada, la IA debe trabajar con el material documental habilitado para ella, sin sustituirlo por una búsqueda abierta en Internet ni completar sus carencias mediante afirmaciones sin respaldo. Si las fuentes no permiten responder, debe indicar la insuficiencia y conservar la incertidumbre. La calidad de esa base facilita una respuesta fundamentada; comprobar el uso correcto de las fuentes sigue siendo necesario.
+
+## Biblioteca admitida y procedimientos de consulta
+
+La biblioteca del dominio y la biblioteca efectivamente entregada a una operación o a un examen deben poder distinguirse. Esta última identifica documentos, versiones, selecciones, integridad, permisos y cobertura. El conocimiento previo del modelo no acredita que haya recibido o utilizado esas fuentes.
+
+El [capítulo de Biblioteca y Procedimientos](https://github.com/juantoniolloretegea/SV-motor/blob/ea46c1172babab09833646e54acac85f71039e7e/laboratorio/ensayo-ia-y-observabilidad/biblioteca-y-procedimientos.md) conserva la definición común: dinámica forense como análisis fundamentado en biblioteca admitida y evidencias verificables; procedimiento Pasivo (P1) sin navegación ni herramientas de Internet; y procedimiento Activo (P2) bajo autorización específica de investigación. El transporte mediante interfaz de programación de aplicaciones (API) requiere autorización propia y no se confunde con navegación. «Forense» no atribuye por sí solo validez pericial o judicial ni constituye un cuarto modo del modelo.
+
+Los protocolos normal y de Emergencia o Acelerado mantienen obligatorias la autorización, el aislamiento, la integridad y la protección del núcleo. La flexibilización sólo afecta a plazos y límites configurables previamente admitidos, con justificación, facultad suficiente y trazabilidad. Las fuentes investigadas no pasan automáticamente a conocimiento admitido. El capítulo enlazado mantiene los requisitos de formatos y ejemplos; no se reproducen aquí como un procedimiento alternativo.
+
+La comprobación del soporte material corresponde al [anexo técnico del ensayo Q19](https://github.com/juantoniolloretegea/SV-motor/blob/ea46c1172babab09833646e54acac85f71039e7e/laboratorio/ensayo-ia-y-observabilidad/anexo-tecnico-q19.md). Describe configuración y límites de las mediciones. Un resultado de un procesador y configuración determinados no se extiende automáticamente a otras familias, arquitecturas ni unidades de procesamiento gráfico, tensorial o neuronal. La evaluación del modelo, la del soporte y la autorización de una operación de dominio conservan evidencias propias.
 
 ## Definir operaciones con límites verificables
 

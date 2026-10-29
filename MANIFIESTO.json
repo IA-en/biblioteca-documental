@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
-      "sha256": "0e1a444269b7a63f020fd23405cc17da1e3cee9203706ea948192372c9841246",
-      "bytes": 46253,
-      "ruta": "biblioteca.json"
+      "bytes": 46227,
+      "ruta": "biblioteca.json",
+      "sha256": "9d2d17edf54c953f99d9a3dc5b0d6b538e981198798880d6b1589185a1f41488"
     },
     {
       "sha256": "30533f25e6d6b58ad3f22a7beb4f91d6bce27957c5a86f1098ffcfa2cc83d83a",
@@ -47,9 +47,9 @@
       "ruta": "correspondencia-enciclopedia.json.license"
     },
     {
-      "sha256": "ed37bcdbd608e148844073c929f07c05ef5204f4c99fc9cf1e76c0dfdd5f861d",
-      "bytes": 158558,
-      "ruta": "correspondencia.json"
+      "bytes": 160274,
+      "ruta": "correspondencia.json",
+      "sha256": "f4168e72cda9afe0aecec6d9ca7ecd764d3aa4d670d6a13ab916006f2d8c2ade"
     },
     {
       "sha256": "ebf4630d6c6e0fe4a01fde0079223b5a7cc6947fb9c97d826e76d91353ec0ff3",
@@ -82,9 +82,9 @@
       "ruta": "libros/dominios/book.toml"
     },
     {
-      "sha256": "4226a023950642b5c5d433cc8ec56604b52a8dacb5c3a5f478311b13b3adb592",
       "bytes": 2608,
-      "ruta": "libros/dominios/plan.json"
+      "ruta": "libros/dominios/plan.json",
+      "sha256": "1ba939ee1e33338dfc5593a1a381e8419ded5532820608537c2db3831ae80bfa"
     },
     {
       "sha256": "b1276fe18ad52f935e27f4ccb225ac2474fbc886b5d6620422345991cae22b7d",
@@ -97,19 +97,19 @@
       "ruta": "libros/dominios/presentacion.js"
     },
     {
-      "sha256": "16887241dc4b008b559f23b7d86ce931eb6b714461ae6a1709ea14a1bb2d813e",
-      "bytes": 6496,
-      "ruta": "libros/dominios/src/ciberseguridad.md"
+      "bytes": 7570,
+      "ruta": "libros/dominios/src/ciberseguridad.md",
+      "sha256": "bc329ebd6e341565abca517a9f9b97dd563bc197f841d338e2ae6578fc1bf8f0"
     },
     {
-      "sha256": "c54719597c05cadbb469a1ceccd37fea373c55cf378098b6c768a6a4cf1764d2",
-      "bytes": 8710,
-      "ruta": "libros/dominios/src/conceptos.md"
+      "bytes": 10861,
+      "ruta": "libros/dominios/src/conceptos.md",
+      "sha256": "b6fe7807368cc89979e0eb1af831b2ac3f7b93907ea92f1375952db961e3ef85"
     },
     {
-      "sha256": "2434ed493e448e1e89a8c3a7ffef97f030f901ccdc57cebf669019ff600176fb",
-      "bytes": 9111,
-      "ruta": "libros/dominios/src/fuentes.md"
+      "bytes": 11484,
+      "ruta": "libros/dominios/src/fuentes.md",
+      "sha256": "205b7597e1316639450a60769854bd9be9bad160726db1f6eb6098efccba5901"
     },
     {
       "sha256": "3a2512c3d3726027742095326f7d661f9c2df0bddfc75d199428d74904ecd37f",
@@ -137,14 +137,14 @@
       "ruta": "libros/dominios/src/imagenes/universo-celulas-tensores.svg"
     },
     {
-      "sha256": "512f6ee488425de9fd6acfda6331bae5abb919157e1fb1a89ef1a09bf293f95f",
-      "bytes": 14726,
-      "ruta": "libros/dominios/src/inmunologia.md"
+      "bytes": 15723,
+      "ruta": "libros/dominios/src/inmunologia.md",
+      "sha256": "c606ace17ac2b273bb08934dd1da33007141a5c0deb5587c004225d43b545de5"
     },
     {
-      "sha256": "2b8e04bd9f8cca27dfe46cb555671611a0c3fdd2dc1d5965a06d368f15631ee6",
-      "bytes": 10694,
-      "ruta": "libros/dominios/src/metodologia.md"
+      "bytes": 12914,
+      "ruta": "libros/dominios/src/metodologia.md",
+      "sha256": "1b2f5a9ab57444f5f61b2f592caebd443998f667858694df2529bc604874d448"
     },
     {
       "sha256": "aaf22c4fd91ceaaa74669682c08e81029bc3ea7f3bdc097208101a66a41091b4",
@@ -787,9 +787,9 @@
       "ruta": "politica-enciclopedia.json.license"
     },
     {
-      "sha256": "7ad38d9217f4289e900ac37f176c9b81e8450bf3513da8c10f4894a82efd0eb1",
       "bytes": 377,
-      "ruta": "politica-verificacion.json"
+      "ruta": "politica-verificacion.json",
+      "sha256": "f227bb4955f178609b9e1c966da0b0de6841b3f84f622a251ed8116a8149b013"
     },
     {
       "sha256": "4f97916751eab492053c2f2f5259054e22c98ff04254be1a558a1b7b3a941dd4",
@@ -852,9 +852,9 @@
       "bytes": 962
     },
     {
-      "sha256": "0e1a444269b7a63f020fd23405cc17da1e3cee9203706ea948192372c9841246",
-      "bytes": 46253,
-      "ruta": "publico/biblioteca.json"
+      "bytes": 46227,
+      "ruta": "publico/biblioteca.json",
+      "sha256": "9d2d17edf54c953f99d9a3dc5b0d6b538e981198798880d6b1589185a1f41488"
     },
     {
       "sha256": "30533f25e6d6b58ad3f22a7beb4f91d6bce27957c5a86f1098ffcfa2cc83d83a",
@@ -892,9 +892,9 @@
       "ruta": "publico/correspondencia-enciclopedia.json.license"
     },
     {
-      "sha256": "ed37bcdbd608e148844073c929f07c05ef5204f4c99fc9cf1e76c0dfdd5f861d",
-      "bytes": 158558,
-      "ruta": "publico/correspondencia.json"
+      "bytes": 160274,
+      "ruta": "publico/correspondencia.json",
+      "sha256": "f4168e72cda9afe0aecec6d9ca7ecd764d3aa4d670d6a13ab916006f2d8c2ade"
     },
     {
       "sha256": "ebf4630d6c6e0fe4a01fde0079223b5a7cc6947fb9c97d826e76d91353ec0ff3",
@@ -1817,9 +1817,9 @@
       "ruta": "publico/dominios/universos/book-609e4cb8.js"
     },
     {
-      "sha256": "2aaff744dd54bb22fc3d058fa11bd29a4e07dad1452b5ca13840ccb87f1658a0",
-      "bytes": 28843,
-      "ruta": "publico/dominios/universos/ciberseguridad.html"
+      "bytes": 30090,
+      "ruta": "publico/dominios/universos/ciberseguridad.html",
+      "sha256": "fcc8fe59693a1b8b5ef0097fa4be0286bfea9c31ff5ceac2e602963ffda4dba1"
     },
     {
       "sha256": "1626706afc88d95ebe1173b553ec732c6dc82a576989315fdf5e7779af738a44",
@@ -1827,9 +1827,9 @@
       "ruta": "publico/dominios/universos/clipboard-1626706a.min.js"
     },
     {
-      "sha256": "a3ea28d4a3792bd00bf4ca8d44f50d3f9240a541d0b1259935c40bfe87d2ed71",
-      "bytes": 31385,
-      "ruta": "publico/dominios/universos/conceptos.html"
+      "bytes": 33709,
+      "ruta": "publico/dominios/universos/conceptos.html",
+      "sha256": "65ffd6c0371424e52f15749a32f2a4e5fde339319d250a7df7ab2ca0f4279aa3"
     },
     {
       "sha256": "d279d366359c0d588c9c10cb46afe2b543fc731dea722803639b4e45016d5fe2",
@@ -1932,9 +1932,9 @@
       "ruta": "publico/dominios/universos/fonts/source-code-pro-v11-all-charsets-500-2bdd9410.woff2"
     },
     {
-      "sha256": "3cc844e3361894bcde839334fd070b10bae47eedf74ae9c2204cb0696ba8748e",
-      "bytes": 30389,
-      "ruta": "publico/dominios/universos/fuentes.html"
+      "bytes": 33166,
+      "ruta": "publico/dominios/universos/fuentes.html",
+      "sha256": "350ce1342a2aae11707202c52d4fed293b9e63977c3f18b18fd3715abe099b87"
     },
     {
       "sha256": "493f70e1527d895653b5ac7157abba8e2c656e43698da93b6c1997e2855a5059",
@@ -1977,14 +1977,14 @@
       "ruta": "publico/dominios/universos/index.html"
     },
     {
-      "sha256": "597c0b90d8f48b795d61c15aeff35a272405214bf954716121945ba54b4c4954",
-      "bytes": 38082,
-      "ruta": "publico/dominios/universos/inmunologia.html"
+      "bytes": 39253,
+      "ruta": "publico/dominios/universos/inmunologia.html",
+      "sha256": "5afd5bc280555ac3e0aa31ad1a5c1c277f55d18aa3dc1de5b373b33a0682e2a8"
     },
     {
-      "sha256": "b58cc58fdf40e1cc41b714a21bc408769887619353b07898cf15d51c938ffbe2",
-      "bytes": 33536,
-      "ruta": "publico/dominios/universos/metodologia.html"
+      "bytes": 35940,
+      "ruta": "publico/dominios/universos/metodologia.html",
+      "sha256": "a1aab90b5f228d409e1bf2b7e37242e76581283edfab6fdfee5af5009ff25e53"
     },
     {
       "sha256": "8e1408e7707261814cfba88d3e1493ec914fdb950a042444575d347e05282168",
@@ -2012,9 +2012,9 @@
       "ruta": "publico/dominios/universos/presentacion.html"
     },
     {
-      "sha256": "a8823982757af3bb7da307ae7c005e681d9c0982c7cae7be4bc32179eeadafaf",
-      "bytes": 124631,
-      "ruta": "publico/dominios/universos/print.html"
+      "bytes": 134526,
+      "ruta": "publico/dominios/universos/print.html",
+      "sha256": "24befe9c9d1e30e06203f046cbe3c59e1b19eb550be4732b67adee7de1a29df8"
     },
     {
       "ruta": "publico/dominios/universos/toc-57e74f04.js",
@@ -2747,9 +2747,9 @@
       "bytes": 974
     },
     {
-      "sha256": "4226a023950642b5c5d433cc8ec56604b52a8dacb5c3a5f478311b13b3adb592",
       "bytes": 2608,
-      "ruta": "publico/libros/dominios/plan.json"
+      "ruta": "publico/libros/dominios/plan.json",
+      "sha256": "1ba939ee1e33338dfc5593a1a381e8419ded5532820608537c2db3831ae80bfa"
     },
     {
       "sha256": "b1276fe18ad52f935e27f4ccb225ac2474fbc886b5d6620422345991cae22b7d",
@@ -2757,19 +2757,19 @@
       "ruta": "publico/libros/dominios/plan.json.license"
     },
     {
-      "sha256": "16887241dc4b008b559f23b7d86ce931eb6b714461ae6a1709ea14a1bb2d813e",
-      "bytes": 6496,
-      "ruta": "publico/libros/dominios/src/ciberseguridad.md"
+      "bytes": 7570,
+      "ruta": "publico/libros/dominios/src/ciberseguridad.md",
+      "sha256": "bc329ebd6e341565abca517a9f9b97dd563bc197f841d338e2ae6578fc1bf8f0"
     },
     {
-      "sha256": "c54719597c05cadbb469a1ceccd37fea373c55cf378098b6c768a6a4cf1764d2",
-      "bytes": 8710,
-      "ruta": "publico/libros/dominios/src/conceptos.md"
+      "bytes": 10861,
+      "ruta": "publico/libros/dominios/src/conceptos.md",
+      "sha256": "b6fe7807368cc89979e0eb1af831b2ac3f7b93907ea92f1375952db961e3ef85"
     },
     {
-      "sha256": "2434ed493e448e1e89a8c3a7ffef97f030f901ccdc57cebf669019ff600176fb",
-      "bytes": 9111,
-      "ruta": "publico/libros/dominios/src/fuentes.md"
+      "bytes": 11484,
+      "ruta": "publico/libros/dominios/src/fuentes.md",
+      "sha256": "205b7597e1316639450a60769854bd9be9bad160726db1f6eb6098efccba5901"
     },
     {
       "ruta": "publico/libros/dominios/src/imagenes/aeropuerto-dependencias.svg",
@@ -2797,14 +2797,14 @@
       "bytes": 3114
     },
     {
-      "sha256": "512f6ee488425de9fd6acfda6331bae5abb919157e1fb1a89ef1a09bf293f95f",
-      "bytes": 14726,
-      "ruta": "publico/libros/dominios/src/inmunologia.md"
+      "bytes": 15723,
+      "ruta": "publico/libros/dominios/src/inmunologia.md",
+      "sha256": "c606ace17ac2b273bb08934dd1da33007141a5c0deb5587c004225d43b545de5"
     },
     {
-      "sha256": "2b8e04bd9f8cca27dfe46cb555671611a0c3fdd2dc1d5965a06d368f15631ee6",
-      "bytes": 10694,
-      "ruta": "publico/libros/dominios/src/metodologia.md"
+      "bytes": 12914,
+      "ruta": "publico/libros/dominios/src/metodologia.md",
+      "sha256": "1b2f5a9ab57444f5f61b2f592caebd443998f667858694df2529bc604874d448"
     },
     {
       "sha256": "aaf22c4fd91ceaaa74669682c08e81029bc3ea7f3bdc097208101a66a41091b4",
@@ -3587,9 +3587,9 @@
       "ruta": "publico/politica-enciclopedia.json.license"
     },
     {
-      "sha256": "7ad38d9217f4289e900ac37f176c9b81e8450bf3513da8c10f4894a82efd0eb1",
       "bytes": 377,
-      "ruta": "publico/politica-verificacion.json"
+      "ruta": "publico/politica-verificacion.json",
+      "sha256": "f227bb4955f178609b9e1c966da0b0de6841b3f84f622a251ed8116a8149b013"
     },
     {
       "sha256": "4f97916751eab492053c2f2f5259054e22c98ff04254be1a558a1b7b3a941dd4",
