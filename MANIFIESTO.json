@@ -17,9 +17,9 @@
       "bytes": 910
     },
     {
-      "sha256": "c4fc9d2cbb6b9477f75b7e89a2c01e38a949942a88733e0b65431470b2d7992b",
-      "ruta": "biblioteca.json",
-      "bytes": 45953
+      "sha256": "a03554bd1b227b897ffcb76d5a29cc6a739dc54f937507229f5c1538825d4404",
+      "bytes": 45949,
+      "ruta": "biblioteca.json"
     },
     {
       "sha256": "30533f25e6d6b58ad3f22a7beb4f91d6bce27957c5a86f1098ffcfa2cc83d83a",
@@ -47,9 +47,9 @@
       "ruta": "correspondencia-enciclopedia.json.license"
     },
     {
-      "sha256": "b202835cde1236a7945afee0f27261ad09a739f24cb616061f1593b00c899f4e",
-      "ruta": "correspondencia.json",
-      "bytes": 161878
+      "sha256": "2cda8bf88680ad9ddb5fa1b0fa82979af921f97198301f2fef4ad6c457bd3583",
+      "bytes": 161874,
+      "ruta": "correspondencia.json"
     },
     {
       "sha256": "ebf4630d6c6e0fe4a01fde0079223b5a7cc6947fb9c97d826e76d91353ec0ff3",
@@ -427,9 +427,9 @@
       "ruta": "libros/manual/numeracion.js"
     },
     {
-      "ruta": "libros/manual/plan.json",
+      "sha256": "abd3ad30887ae4fd9f3b315ea4b1e6c3e90466f15d61714c2b2fbde7c43a0767",
       "bytes": 7376,
-      "sha256": "61a7a92d927dcb9f20ca0b5869f1bca82a32dfb4b20bd8706fc7ff860f6e55c0"
+      "ruta": "libros/manual/plan.json"
     },
     {
       "sha256": "5e8a8f3f3fc3592a6b8c62e413573dc92d7bb2de2add7922b39517fb3db54b19",
@@ -442,8 +442,8 @@
       "ruta": "libros/manual/presentacion.js"
     },
     {
-      "sha256": "0b6f8b6b17ae27e0ea29cd7f4e3bbf39c195c0ebaf52f5c25323a68560b30941",
-      "bytes": 12763,
+      "sha256": "84f014820d7373596a8a8eb70e6dba3fb46ec822cd8d18385c24e6f5e49783ac",
+      "bytes": 13459,
       "ruta": "libros/manual/src/agradecimientos.md"
     },
     {
@@ -577,8 +577,8 @@
       "ruta": "libros/manual/src/tramo-10.md"
     },
     {
-      "sha256": "9d32c1a39ac0f47692eae1296a9432236db5dbc1c314fd12f242c47d7c712137",
-      "bytes": 24435,
+      "sha256": "dbf5218d6c9ebe7bebd0d9979ec9b2568080bde1822365615052eb926310896a",
+      "bytes": 24859,
       "ruta": "libros/manual/theme/head.hbs"
     },
     {
@@ -787,9 +787,9 @@
       "ruta": "politica-enciclopedia.json.license"
     },
     {
-      "sha256": "9811e31fa8b775928317c63ce3da9841f6a2e0ff604ae7182547b7f04e841977",
-      "ruta": "politica-verificacion.json",
-      "bytes": 377
+      "sha256": "3e31add1ef0a9ce9a2c01847ca5d4400558b55695931d98e530e53959e24526d",
+      "bytes": 377,
+      "ruta": "politica-verificacion.json"
     },
     {
       "sha256": "4f97916751eab492053c2f2f5259054e22c98ff04254be1a558a1b7b3a941dd4",
@@ -852,9 +852,9 @@
       "bytes": 962
     },
     {
-      "sha256": "c4fc9d2cbb6b9477f75b7e89a2c01e38a949942a88733e0b65431470b2d7992b",
-      "ruta": "publico/biblioteca.json",
-      "bytes": 45953
+      "sha256": "a03554bd1b227b897ffcb76d5a29cc6a739dc54f937507229f5c1538825d4404",
+      "bytes": 45949,
+      "ruta": "publico/biblioteca.json"
     },
     {
       "sha256": "30533f25e6d6b58ad3f22a7beb4f91d6bce27957c5a86f1098ffcfa2cc83d83a",
@@ -892,9 +892,9 @@
       "ruta": "publico/correspondencia-enciclopedia.json.license"
     },
     {
-      "sha256": "b202835cde1236a7945afee0f27261ad09a739f24cb616061f1593b00c899f4e",
-      "ruta": "publico/correspondencia.json",
-      "bytes": 161878
+      "sha256": "2cda8bf88680ad9ddb5fa1b0fa82979af921f97198301f2fef4ad6c457bd3583",
+      "bytes": 161874,
+      "ruta": "publico/correspondencia.json"
     },
     {
       "sha256": "ebf4630d6c6e0fe4a01fde0079223b5a7cc6947fb9c97d826e76d91353ec0ff3",
@@ -1377,8 +1377,8 @@
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/404.html"
     },
     {
-      "sha256": "8033621319ffde9f3dfa145643a9ac838c2254ed1f2e85bf11dcbf6078480bf5",
-      "bytes": 64376,
+      "sha256": "6dde67e929fafb41fd892959f2d0e118dbf628792914a0ec06b864a9363b5432",
+      "bytes": 65624,
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/agradecimientos.html"
     },
     {
@@ -1677,9 +1677,9 @@
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/presentacion.html"
     },
     {
-      "ruta": "publico/dominios/lenguaje-de-computacion/manual/print.html",
-      "bytes": 186253,
-      "sha256": "188800a36123ffff4e2031d343bba6b0b205c8a6acd616901ef59c5502e3958f"
+      "sha256": "a82336a77f413847d800353268fcc20819e5f13ff141dabecab1dea019c0169b",
+      "bytes": 186997,
+      "ruta": "publico/dominios/lenguaje-de-computacion/manual/print.html"
     },
     {
       "sha256": "9ae930d5134ae3a3260b18dee12bdad81b8b433e0624d6e94544b0cd9af9f537",
@@ -3037,9 +3037,9 @@
       "bytes": 1378
     },
     {
-      "ruta": "publico/libros/manual/plan.json",
+      "sha256": "abd3ad30887ae4fd9f3b315ea4b1e6c3e90466f15d61714c2b2fbde7c43a0767",
       "bytes": 7376,
-      "sha256": "61a7a92d927dcb9f20ca0b5869f1bca82a32dfb4b20bd8706fc7ff860f6e55c0"
+      "ruta": "publico/libros/manual/plan.json"
     },
     {
       "sha256": "5e8a8f3f3fc3592a6b8c62e413573dc92d7bb2de2add7922b39517fb3db54b19",
@@ -3052,8 +3052,8 @@
       "sha256": "0cfc7f9ce64b4267015dd5b345b49dad52299a974c06a71a1323bcdfd5f2944b"
     },
     {
-      "sha256": "0b6f8b6b17ae27e0ea29cd7f4e3bbf39c195c0ebaf52f5c25323a68560b30941",
-      "bytes": 12763,
+      "sha256": "84f014820d7373596a8a8eb70e6dba3fb46ec822cd8d18385c24e6f5e49783ac",
+      "bytes": 13459,
       "ruta": "publico/libros/manual/src/agradecimientos.md"
     },
     {
@@ -3587,9 +3587,9 @@
       "ruta": "publico/politica-enciclopedia.json.license"
     },
     {
-      "sha256": "9811e31fa8b775928317c63ce3da9841f6a2e0ff604ae7182547b7f04e841977",
-      "ruta": "publico/politica-verificacion.json",
-      "bytes": 377
+      "sha256": "3e31add1ef0a9ce9a2c01847ca5d4400558b55695931d98e530e53959e24526d",
+      "bytes": 377,
+      "ruta": "publico/politica-verificacion.json"
     },
     {
       "sha256": "4f97916751eab492053c2f2f5259054e22c98ff04254be1a558a1b7b3a941dd4",

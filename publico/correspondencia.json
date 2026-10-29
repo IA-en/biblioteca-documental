@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "c4fc9d2cbb6b9477f75b7e89a2c01e38a949942a88733e0b65431470b2d7992b",
+  "biblioteca_sha256": "a03554bd1b227b897ffcb76d5a29cc6a739dc54f937507229f5c1538825d4404",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2164,7 +2164,7 @@
     },
     {
       "alcance": "Reconocimiento de componentes utilizados y mantenimiento de dependencias y versiones; sin modificación de la semántica del lenguaje ni habilitación de producción.",
-      "cobertura_bytes": 12763,
+      "cobertura_bytes": 13459,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_AGRADECIMIENTOS",
       "identificador_editorial_r0": null,
@@ -2172,27 +2172,27 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/agradecimientos.md",
-        "sha256": "0b6f8b6b17ae27e0ea29cd7f4e3bbf39c195c0ebaf52f5c25323a68560b30941"
+        "sha256": "84f014820d7373596a8a8eb70e6dba3fb46ec822cd8d18385c24e6f5e49783ac"
       },
       "procedencia": "Edición pública de 27/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 11986,
+          "fin_byte_exclusivo": 12216,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000072",
-          "sha256": "cf646869faaad60ab01a35ed47548437d490e2b94228c324d094b97628dc9b5a",
+          "seccion": "MD-L000001-L000073",
+          "sha256": "3658e71ddc4b78bb69b7bd88af7f82b5c2b8f9129cd5cf1be710a2bfd1253a76",
           "titulo": "20. Agradecimientos {#agradecimientos}",
-          "ultima_linea": 72
+          "ultima_linea": 73
         },
         {
-          "fin_byte_exclusivo": 12763,
-          "inicio_byte": 11986,
-          "primera_linea": 73,
-          "seccion": "MD-L000073-L000081",
-          "sha256": "497c54162d0c2915c9c96f1f2d181e17eeb3ba9d46c258bb8f98d426667ab3f0",
+          "fin_byte_exclusivo": 13459,
+          "inicio_byte": 12216,
+          "primera_linea": 74,
+          "seccion": "MD-L000074-L000084",
+          "sha256": "b047dcc2a3380fa351b57cb6344f447435e3cd5ec56bdbac229f3e76e238a588",
           "titulo": "Identificación y alcance del reconocimiento",
-          "ultima_linea": 81
+          "ultima_linea": 84
         }
       ]
     },
@@ -4100,9 +4100,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-fundamentos-agentes-20261029",
+  "edicion": "biblioteca-sv-agradecimientos-20261029",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "9811e31fa8b775928317c63ce3da9841f6a2e0ff604ae7182547b7f04e841977",
+  "politica_sha256": "3e31add1ef0a9ce9a2c01847ca5d4400558b55695931d98e530e53959e24526d",
   "recepcion_visual": false,
   "version": 1
 }
