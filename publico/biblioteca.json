@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-revision-integral-20261029",
+  "edicion": "biblioteca-sv-hcc1-20261030",
   "libros": [
     {
       "id": "guia",
@@ -824,7 +824,7 @@
     },
     {
       "plan": {
-        "sha256": "fda2b2a302273129bdadb15e8da1e8b2228263e0f197a803f2aa37ca7265b4b4",
+        "sha256": "9afc3c2acdd7c16b628e9f421260304ab35987de9088942e407c6bf15173261a",
         "ruta": "libros/evaluacion-modelos/plan.json"
       },
       "titulo": "Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial",
@@ -845,14 +845,14 @@
           "licencia": "CC BY-NC-ND 4.0"
         },
         {
-          "procedencia": "Revisión explicativa de 29/10/2026",
-          "alcance": "Remisión a siete recomendaciones de defensa no ensayadas, separadas de la calificación y sin nuevas facultades.",
+          "procedencia": "Revisión explicativa de 30/10/2026",
+          "alcance": "Evaluación individual, torneo y selección del defensor en HCC1. Mantiene contratos y resultados anteriores; no acredita ejecución ni producción.",
           "correspondencia": "identidad_literal",
           "visibilidad": "publica",
           "sintetico": false,
           "tipo_original": "markdown",
           "original": {
-            "sha256": "570cb01049a46e19b30a61c0b34261a125cd75805b0b7e0e1e6c086a5ec525a5",
+            "sha256": "33ad13cfa671ce20d6a9ba7ed2b65a9109b948e575c909e5c1036dfdea7509b3",
             "ruta": "libros/evaluacion-modelos/src/comparacion.md"
           },
           "documento": "EET-02",

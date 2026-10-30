@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "8cda4e8cd25007eb8ca2eb0799b237026570194d506a358ab98473094677293b",
+  "biblioteca_sha256": "2a0ece0b87340289722432db93a134d7ba28915b3f5769d308e2040f7f4f38ee",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3763,8 +3763,8 @@
       ]
     },
     {
-      "alcance": "Remisión a siete recomendaciones de defensa no ensayadas, separadas de la calificación y sin nuevas facultades.",
-      "cobertura_bytes": 15276,
+      "alcance": "Evaluación individual, torneo y selección del defensor en HCC1. Mantiene contratos y resultados anteriores; no acredita ejecución ni producción.",
+      "cobertura_bytes": 17197,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3772,9 +3772,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "570cb01049a46e19b30a61c0b34261a125cd75805b0b7e0e1e6c086a5ec525a5"
+        "sha256": "33ad13cfa671ce20d6a9ba7ed2b65a9109b948e575c909e5c1036dfdea7509b3"
       },
-      "procedencia": "Revisión explicativa de 29/10/2026",
+      "procedencia": "Revisión explicativa de 30/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 2005,
@@ -3831,13 +3831,22 @@
           "ultima_linea": 68
         },
         {
-          "fin_byte_exclusivo": 15276,
+          "fin_byte_exclusivo": 15368,
           "inicio_byte": 13415,
           "primera_linea": 69,
-          "seccion": "MD-L000069-L000075",
-          "sha256": "3b293a33fe5c071e6e4719deb289645baecbca74c4961e65ee5d05303ff1b4ab",
+          "seccion": "MD-L000069-L000080",
+          "sha256": "674fcb6b91bcdccdf41f03df2cf8d7bfba1820f356e3c8dd4fe638697a14be89",
+          "titulo": "Evaluación individual, torneo y selección del defensor",
+          "ultima_linea": 80
+        },
+        {
+          "fin_byte_exclusivo": 17197,
+          "inicio_byte": 15368,
+          "primera_linea": 81,
+          "seccion": "MD-L000081-L000088",
+          "sha256": "ba7c5de0e0914b440dc636b779c79015e33bb50ddf398a2234219f6e31e36d3a",
           "titulo": "Recomendaciones de defensa no ensayadas {#recomendaciones-defensa-no-ensayadas}",
-          "ultima_linea": 75
+          "ultima_linea": 88
         }
       ]
     },
@@ -4109,9 +4118,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-revision-integral-20261029",
+  "edicion": "biblioteca-sv-hcc1-20261030",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "7234a415c230f1f1de7be0703099d0728f3bf80581b3f6a71a4d9f79fc7f1ffa",
+  "politica_sha256": "b67528d12576404c21fb37dfc6f39f9362246f23a8f8a27f7ecb658d8ac92590",
   "recepcion_visual": false,
   "version": 1
 }
