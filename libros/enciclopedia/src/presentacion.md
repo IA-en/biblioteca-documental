@@ -18,8 +18,8 @@ Explore una pregunta y sus relaciones entre volúmenes. Cada recorrido permite d
 
 | Volumen | Consulta | Estado |
 | --- | --- | --- |
-| I | [Diccionario del Lenguaje de Computación](lenguaje.md) | 20 entradas iniciales: escritura, representación, ejecución y evidencia. |
-| II | [Diccionario de la Inteligencia Artificial (IA)](ia.md) | 24 entradas iniciales: agentes, modelos, evaluación y condiciones de uso. |
+| I | [Diccionario del Lenguaje de Computación](lenguaje.md) | Escritura, representación, ejecución y evidencia; términos y relaciones en el índice del volumen. |
+| II | [Diccionario de la Inteligencia Artificial (IA)](ia.md) | Agentes, modelos, evaluación, torneo y condiciones de uso; términos y relaciones en el índice del volumen. |
 | III | [Diccionario físico, químico y matemático del SV](fisica-quimica-matematica.md) | Anunciado; sin entradas, publicaciones ni ejemplos desarrollados todavía. |
 
 ## Cómo consultar

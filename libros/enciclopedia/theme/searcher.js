@@ -132,7 +132,7 @@ window.search = window.search || {};
         if (count === 1) {
             return count + ' resultado para \'' + searchterm + '\':';
         } else if (count === 0) {
-            return 'Sin resultados para \'' + searchterm + '\'.';
+            return 'No se han encontrado coincidencias para \'' + searchterm + '\'. Pruebe un término más breve, un sinónimo o los recorridos temáticos que aparecen debajo.';
         } else {
             return count + ' resultados para \'' + searchterm + '\':';
         }
@@ -155,7 +155,7 @@ window.search = window.search || {};
 
         return '<a href="' + path_to_root + url[0] + '?' + URL_MARK_PARAM + '=' + encoded_search
             + '#' + url[1] + '" aria-details="mdbook-teaser_' + teaser_count + '">'
-            + result.doc.breadcrumbs + '</a>'
+            + escapeHTML(result.doc.breadcrumbs) + '</a>'
             + '<span class="teaser" id="mdbook-teaser_' + teaser_count
             + '" aria-label="Fragmento del resultado">' + teaser + '</span>';
     }
@@ -431,6 +431,9 @@ window.search = window.search || {};
         script.id = id;
         script.onload = () => init(window.search);
         script.onerror = error => {
+            searchbar_outer.classList.remove('searching');
+            searchresults_header.textContent = 'No se ha podido cargar el índice. Vuelva a intentar la búsqueda o consulte los recorridos temáticos.';
+            showResults(true);
             console.error(`Failed to load \`${url}\`: ${error}`);
         };
         document.head.append(script);
@@ -500,7 +503,7 @@ window.search = window.search || {};
         const first_search = !Object.prototype.hasOwnProperty.call(url.params, URL_SEARCH_PARAM);
 
         if (searchterm !== '' || action === 'push_if_new_search_else_replace') {
-            url.params[URL_SEARCH_PARAM] = searchterm;
+            url.params[URL_SEARCH_PARAM] = encodeURIComponent(searchterm);
             delete url.params[URL_MARK_PARAM];
             url.hash = '';
         } else {
@@ -533,11 +536,23 @@ window.search = window.search || {};
         current_searchterm = searchterm;
 
         // Do the actual search
-        const results = searchindex.search(searchterm, search_options);
+        let results = searchindex.search(searchterm, search_options);
+        let aproximados = false;
+        if (results.length === 0) {
+            const normalizar = texto => texto.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+            const palabras = normalizar(searchterm).split(/[^a-z0-9]+/).filter(p => p.length >= 3);
+            if (palabras.length > 0) {
+                results = Object.entries(searchindex.documentStore.docs)
+                    .filter(([, doc]) => palabras.every(p => normalizar(doc.title + ' ' + doc.body).includes(p)))
+                    .map(([ref, doc]) => ({ref, doc}))
+                    .sort((a, b) => Number(palabras.every(p => normalizar(b.doc.title).includes(p))) - Number(palabras.every(p => normalizar(a.doc.title).includes(p))));
+                aproximados = results.length > 0;
+            }
+        }
         const resultcount = Math.min(results.length, results_options.limit_results);
 
         // Display search metrics
-        searchresults_header.innerText = formatSearchMetric(resultcount, searchterm);
+        searchresults_header.innerText = (aproximados ? 'Coincidencias aproximadas. ' : '') + formatSearchMetric(resultcount, searchterm);
 
         // Clear and insert results
         const searchterms = searchterm.split(' ');
@@ -546,6 +561,15 @@ window.search = window.search || {};
             const resultElem = document.createElement('li');
             resultElem.innerHTML = formatSearchResult(results[i], searchterms);
             searchresults.appendChild(resultElem);
+        }
+
+        if (resultcount === 0) {
+            const orientacion = document.createElement('li');
+            const enlace = document.createElement('a');
+            enlace.href = path_to_root + 'recorridos.html';
+            enlace.textContent = 'Explorar conceptos y relaciones de la Enciclopedia';
+            orientacion.appendChild(enlace);
+            searchresults.appendChild(orientacion);
         }
 
         // Display results

@@ -78,6 +78,14 @@ Ordena resultados comparables sin ampliar su alcance. [Consultar clasificación]
 
 La institución delimita el uso permitido y sus condiciones. [Consultar autorización](ia.html#autorizacion).
 
+### Distinguir evaluación individual, torneo y selección del defensor
+
+La [evaluación individual](ia.md#evaluacion-individual) conserva la aptitud del candidato. El [torneo de ciberseguridad](ia.md#torneo) conserva el desenlace entre participantes y una clasificación propia. La [selección del defensor](ia.md#seleccion-defensor) determina, cuando se resuelve, la referencia de una convocatoria posterior. Ninguno de estos resultados sustituye la autorización institucional de uso.
+
+En el Hackathon Combinado de Ciberseguridad · 1.ª edición. España (HCC1, España), la participación provisional no concede un título; la aptitud individual completa sigue siendo necesaria. Las reglas particulares se consultan en la convocatoria y no se trasladan retrospectivamente a otros exámenes.
+
+La [dinámica forense](ia.md#dinamica-forense), los [procedimientos de información](ia.md#procedimientos) y el [protocolo acelerado](ia.md#protocolo-acelerado) explican cómo se dispone del conocimiento. Son relaciones diferentes del modo del modelo y de la función ofensiva o defensiva.
+
 ### Comparar tres conceptos próximos: modo, predominancia y estado
 
 - **[Modo predominante](ia.html#modo)**: Objetivo principal de un uso identificado del modelo.

@@ -2,29 +2,29 @@
   "capitulos": [
     {
       "titulo": "Enciclopedia temática del Sistema Vectorial SV",
-      "sha256": "92e30b2b92e793e17ae78877fc93a6aa1b7ba802daad0a7235d3ef8c8672c379",
-      "url": "urn:sv:documento:sha256:92e30b2b92e793e17ae78877fc93a6aa1b7ba802daad0a7235d3ef8c8672c379",
+      "sha256": "b481fd550084c7dc015fae18b43e193c6f120b3e9ec367b6d9f414921fa41abd",
+      "url": "urn:sv:documento:sha256:b481fd550084c7dc015fae18b43e193c6f120b3e9ec367b6d9f414921fa41abd",
       "id": "ENC-02",
       "ruta": "presentacion.md"
     },
     {
       "titulo": "Explorar relaciones y recorridos",
-      "sha256": "8ce77cbd302d467fdd549f0c6cb1b2fda5895625904cbf20ddbc171da0244d87",
-      "url": "urn:sv:documento:sha256:8ce77cbd302d467fdd549f0c6cb1b2fda5895625904cbf20ddbc171da0244d87",
+      "sha256": "5c80a28b18281d974286a74982916ab6bd6e799def753bc30f2678aea98377d2",
+      "url": "urn:sv:documento:sha256:5c80a28b18281d974286a74982916ab6bd6e799def753bc30f2678aea98377d2",
       "id": "ENC-03",
       "ruta": "recorridos.md"
     },
     {
       "titulo": "Diccionario del Lenguaje de Computación",
-      "sha256": "2ba7e812c07d92bf475cda7b5f880c6b75d388886961208c16a5004c2da04e00",
-      "url": "urn:sv:documento:sha256:2ba7e812c07d92bf475cda7b5f880c6b75d388886961208c16a5004c2da04e00",
+      "sha256": "38783f0eea8c5c18fc674fa3a6c781c2849ffc6ec262029c2a7deb250ab6d4ce",
+      "url": "urn:sv:documento:sha256:38783f0eea8c5c18fc674fa3a6c781c2849ffc6ec262029c2a7deb250ab6d4ce",
       "id": "ENC-04",
       "ruta": "lenguaje.md"
     },
     {
       "titulo": "Diccionario de la Inteligencia Artificial (IA)",
-      "sha256": "531c0ab77d6ce0c1e7bcf5e9e0ee323e431d66014be68168d2665cd2a14caef4",
-      "url": "urn:sv:documento:sha256:531c0ab77d6ce0c1e7bcf5e9e0ee323e431d66014be68168d2665cd2a14caef4",
+      "sha256": "9edd7d002018e1bad0dca18170125f1755720eba79603237711b9b99fcac8862",
+      "url": "urn:sv:documento:sha256:9edd7d002018e1bad0dca18170125f1755720eba79603237711b9b99fcac8862",
       "id": "ENC-05",
       "ruta": "ia.md"
     },
@@ -44,6 +44,6 @@
     "id": "ENC-01",
     "ruta": "SUMMARY.md"
   },
-  "revision": "7c0280a95facdf33eee3470b652a568a73d51a737edf1d24317418cd2a26f3ba",
+  "revision": "bd7f090b9f7c45e37fea28d911013650b930d4b74a4bd7fc25fbb246986778dd",
   "libro": "SV_ENCICLOPEDIA"
 }

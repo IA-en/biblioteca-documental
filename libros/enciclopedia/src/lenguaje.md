@@ -13,7 +13,7 @@ Las equivalencias inglesas facilitan la consulta de bibliografía y especificaci
 | Escritura e interpretación | [Archivo SVP](#archivo-svp), [DSL](#dsl), [gramática](#gramatica), [perfil lingüístico](#perfil), [representación intermedia](#ir), [semántica](#semantica). |
 | Validez y ejecución | [Admisión técnica](#admision), [contrato](#contrato), [diagnóstico](#diagnostico), [invariante](#invariante), [núcleo](#nucleo), [instrucciones preliminares pre-núcleo](#pre-nucleo). |
 | Gobierno y recursos | [Árbitro–Director](#director), [Explorador Tensorial](#explorador), [Selector](#selector), [tubería de IA](#tuberia). |
-| Evidencia y presentación | [Comprobación](#comprobacion), [frame](#frame), [huella](#huella), [observabilidad](#observabilidad), [trazabilidad](#trazabilidad). |
+| Evidencia y presentación | [Comprobación](#comprobacion), [frame](#frame), [huella](#huella), [observabilidad](#observabilidad), [polígono del SV](#poligono), [trazabilidad](#trazabilidad). |
 
 ## Términos
 
@@ -147,6 +147,14 @@ Selección explícita de la forma lingüística con la que se expresa un program
 **Uso:** una instrucción del perfil inglés conserva su nombre formal cuando se explica su sintaxis; la explicación española precisa su significado. Cambiar la presentación no modifica automáticamente el programa. Véase [Playground del Lenguaje SV](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/playground-sv.html).
 
 **Para continuar la lectura:** [Archivo SVP](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#archivo-svp) · [Gramática superficial](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#gramatica). Situar el idioma del programa dentro de sus reglas de escritura. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+### Polígono del SV {#poligono}
+
+Representación del estado de una célula constituida, conforme al contrato visual del SV. Mantiene la identidad, el orden y el número de posiciones, así como su correspondencia con los valores de la terna (0, 1, U) y la revisión de la instancia representada.
+
+**Distinción:** el área, el perímetro o un promedio de la figura no sustituyen las reglas de evaluación ni la decisión del núcleo. Los radios codifican estados; no constituyen una escala de gravedad. Véase [Correspondencia visual](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/parametros-rutas.html#correspondencia-visual).
+
+**Para continuar la lectura:** [Frame decisional](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#frame) · [Dictamen de evaluación](https://documentos-sv.itvia.online/enciclopedia/ia.html#dictamen). Distinguir el estado representado de su interpretación y de la evidencia que lo sostiene. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
 
 ### Representación intermedia · IR {#ir}
 

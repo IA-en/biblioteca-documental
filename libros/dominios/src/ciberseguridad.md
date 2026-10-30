@@ -29,6 +29,12 @@ El [estudio técnico de instrucciones preliminares pre-núcleo](https://github.c
 
 La comprobación inicial propuesta en una máquina virtual o emulador no demuestra protección del firmware físico ni de los periféricos reales. El estudio no modifica OP-CYB-001, no incorpora parámetros a convocatorias vigentes y no acredita una realización instalada. La continuación depende de los contratos y dominios competentes y de la recepción de cada capacidad.
 
+## Relación con las evaluaciones de modelos
+
+El [Hackathon Combinado de Ciberseguridad · 1.ª edición. España (HCC1, España)](https://sv.itvia.online/benchmark?convocatoria=eet-cyb16-practica-20261027&vista=documentacion) evalúa candidatos en modo Actuación o activo y con Ciberseguridad como dominio predominante. La evaluación individual, el torneo y la selección del defensor conservan objetos diferentes, explicados en el [libro de Validación y autorización](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html#evaluación-individual-torneo-y-selección-del-defensor). Sus veinticinco parámetros son posiciones del examen; no sustituyen el inventario de conocimiento de OP-CYB-001 ni constituyen por sí mismos el dominio completo.
+
+La [biblioteca y los procedimientos del ensayo](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/biblioteca-y-procedimientos.md) identifican las fuentes admitidas y la investigación autorizada. El Perfil atacante (PA) y el Perfil defensor (PD) son funciones de los modelos dentro del ensayo, no perfiles administrativos ni permisos sobre recursos ajenos. El resultado no habilita automáticamente al Agente Especializado ni acredita protección del firmware o de toda la instalación.
+
 ## Inventario de referencia
 
 El inventario conserva **32 definiciones paramétricas**. P01–P24 proceden del catálogo de la edición 0.2; la revisión 0.3 mantiene esas definiciones e incorpora P25–P32. La revisión 0.4 precisa su contexto de partida y continuidad sin añadir parámetros.

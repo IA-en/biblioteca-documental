@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "015a8a08e5c3d8c61aaecffcd9467b6c039608910fbd5480da6fc5325f100766",
+  "revision": "e1b14561fcb3f8eb6d2b3665870027bb748a5472e7d9d5e0b8d3bb0986c37da4",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -88,11 +88,11 @@
       "sha256": "0ec830fee2101a910d6b9db8133b3e534fe46a232a625503ebca591461826e34"
     },
     {
-      "url": "urn:sv:documento:sha256:b6304305dec1ef099eacb4d0212afa0f9649955a9df957a27b6c784e2e86952f",
+      "url": "urn:sv:documento:sha256:237691579d67514e5bda9349c1518eb1bb4e49983636482d375d9f45f330cd43",
       "ruta": "observabilidad.md",
       "id": "MANUAL_OBSERVABILIDAD",
       "titulo": "12. Observabilidad y medidas",
-      "sha256": "b6304305dec1ef099eacb4d0212afa0f9649955a9df957a27b6c784e2e86952f"
+      "sha256": "237691579d67514e5bda9349c1518eb1bb4e49983636482d375d9f45f330cd43"
     },
     {
       "ruta": "herramientas-desarrollo-comprobacion.md",

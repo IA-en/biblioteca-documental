@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "2a0ece0b87340289722432db93a134d7ba28915b3f5769d308e2040f7f4f38ee",
+  "biblioteca_sha256": "c79fdaf6d60bea6ab3078eddcbf4fd9bfdf1511386b4c8aba8adc24ea0caec5b",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -2511,8 +2511,8 @@
       ]
     },
     {
-      "alcance": "Remisión a siete recomendaciones de defensa no ensayadas, separadas de la calificación y sin nuevas facultades.",
-      "cobertura_bytes": 6373,
+      "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+      "cobertura_bytes": 6241,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_OBSERVABILIDAD",
       "identificador_editorial_r0": null,
@@ -2520,9 +2520,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/observabilidad.md",
-        "sha256": "b6304305dec1ef099eacb4d0212afa0f9649955a9df957a27b6c784e2e86952f"
+        "sha256": "237691579d67514e5bda9349c1518eb1bb4e49983636482d375d9f45f330cd43"
       },
-      "procedencia": "Revisión explicativa de 29/10/2026",
+      "procedencia": "Revisión de concordancia documental de 30/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 298,
@@ -2570,11 +2570,11 @@
           "ultima_linea": 36
         },
         {
-          "fin_byte_exclusivo": 6373,
+          "fin_byte_exclusivo": 6241,
           "inicio_byte": 4512,
           "primera_linea": 37,
           "seccion": "MD-L000037-L000043",
-          "sha256": "3b293a33fe5c071e6e4719deb289645baecbca74c4961e65ee5d05303ff1b4ab",
+          "sha256": "1312de6ab216416afbff277bb1f10ca7cc308a70d2a80d06a4fa31ea206bf820",
           "titulo": "Recomendaciones de defensa no ensayadas {#recomendaciones-defensa-no-ensayadas}",
           "ultima_linea": 43
         }
@@ -3213,8 +3213,8 @@
       ]
     },
     {
-      "alcance": "Alcance del agente, constitución del dominio, permisos y procedimientos. Conserva inventarios y contratos; no acredita nuevas capacidades operativas.",
-      "cobertura_bytes": 7570,
+      "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+      "cobertura_bytes": 8897,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-06",
       "identificador_editorial_r0": null,
@@ -3222,9 +3222,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/ciberseguridad.md",
-        "sha256": "bc329ebd6e341565abca517a9f9b97dd563bc197f841d338e2ae6578fc1bf8f0"
+        "sha256": "c8fc9f23c9ae7099fa099e04b675b6e1309f8204ee32194c8a81edb294a3f8ac"
       },
-      "procedencia": "Revisión explicativa de 29/10/2026",
+      "procedencia": "Revisión de concordancia documental de 30/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 449,
@@ -3272,40 +3272,49 @@
           "ultima_linea": 31
         },
         {
-          "fin_byte_exclusivo": 4962,
+          "fin_byte_exclusivo": 5730,
           "inicio_byte": 4403,
           "primera_linea": 32,
           "seccion": "MD-L000032-L000037",
-          "sha256": "b75014be593dcc0cd7054b673c2652d2605677fea1e02d4b81f3646d115fb377",
-          "titulo": "Inventario de referencia",
+          "sha256": "5532c5a62b380c116aad8b4e96561a4a70276e8ff868b2ae46a6102d77b26e9b",
+          "titulo": "Relación con las evaluaciones de modelos",
           "ultima_linea": 37
         },
         {
-          "fin_byte_exclusivo": 5552,
-          "inicio_byte": 4962,
+          "fin_byte_exclusivo": 6289,
+          "inicio_byte": 5730,
           "primera_linea": 38,
           "seccion": "MD-L000038-L000043",
-          "sha256": "009afd559dcf25b24c3ddbd02fa5fba9e524c5f7fc32a16cd8417292dbcee5dd",
-          "titulo": "Contexto necesario",
+          "sha256": "b75014be593dcc0cd7054b673c2652d2605677fea1e02d4b81f3646d115fb377",
+          "titulo": "Inventario de referencia",
           "ultima_linea": 43
         },
         {
-          "fin_byte_exclusivo": 6277,
-          "inicio_byte": 5552,
+          "fin_byte_exclusivo": 6879,
+          "inicio_byte": 6289,
           "primera_linea": 44,
           "seccion": "MD-L000044-L000049",
-          "sha256": "0b67300ad96ce54934ef80fd5d9ca3e006f34908685777fed16a35ca2c094ed1",
-          "titulo": "Límites",
+          "sha256": "009afd559dcf25b24c3ddbd02fa5fba9e524c5f7fc32a16cd8417292dbcee5dd",
+          "titulo": "Contexto necesario",
           "ultima_linea": 49
         },
         {
-          "fin_byte_exclusivo": 7570,
-          "inicio_byte": 6277,
+          "fin_byte_exclusivo": 7604,
+          "inicio_byte": 6879,
           "primera_linea": 50,
-          "seccion": "MD-L000050-L000056",
+          "seccion": "MD-L000050-L000055",
+          "sha256": "0b67300ad96ce54934ef80fd5d9ca3e006f34908685777fed16a35ca2c094ed1",
+          "titulo": "Límites",
+          "ultima_linea": 55
+        },
+        {
+          "fin_byte_exclusivo": 8897,
+          "inicio_byte": 7604,
+          "primera_linea": 56,
+          "seccion": "MD-L000056-L000062",
           "sha256": "9604522fc8af77b07e0b7be3bbe4871339edac111fdcc07594c5862a5c0cac30",
           "titulo": "Fuentes de interpretación",
-          "ultima_linea": 56
+          "ultima_linea": 62
         }
       ]
     },
@@ -3763,8 +3772,8 @@
       ]
     },
     {
-      "alcance": "Evaluación individual, torneo y selección del defensor en HCC1. Mantiene contratos y resultados anteriores; no acredita ejecución ni producción.",
-      "cobertura_bytes": 17197,
+      "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+      "cobertura_bytes": 16545,
       "correspondencia": "identidad_literal",
       "documento": "EET-02",
       "identificador_editorial_r0": null,
@@ -3772,9 +3781,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/comparacion.md",
-        "sha256": "33ad13cfa671ce20d6a9ba7ed2b65a9109b948e575c909e5c1036dfdea7509b3"
+        "sha256": "046cb38b10fb0616bb853c8b334c9df4b4a23cf4218d7826587dd090cff61cc4"
       },
-      "procedencia": "Revisión explicativa de 30/10/2026",
+      "procedencia": "Revisión de concordancia documental de 30/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 2005,
@@ -3795,17 +3804,17 @@
           "ultima_linea": 18
         },
         {
-          "fin_byte_exclusivo": 8520,
+          "fin_byte_exclusivo": 8555,
           "inicio_byte": 3037,
           "primera_linea": 19,
           "seccion": "MD-L000019-L000041",
-          "sha256": "8d45867fa4b080f27f98a4043fac1093b78da57957f2e88981a8dd16612a756f",
+          "sha256": "3de6b07266e4d322943388e0ae33279e0dc5a4f204cd313fb51614a64d23ffb2",
           "titulo": "Selección, clasificación e independencia",
           "ultima_linea": 41
         },
         {
-          "fin_byte_exclusivo": 11245,
-          "inicio_byte": 8520,
+          "fin_byte_exclusivo": 11280,
+          "inicio_byte": 8555,
           "primera_linea": 42,
           "seccion": "MD-L000042-L000052",
           "sha256": "46925c107a75c5c6b19b3d343b6665c389241764c20179a73e0184ac7cdbca36",
@@ -3813,8 +3822,8 @@
           "ultima_linea": 52
         },
         {
-          "fin_byte_exclusivo": 12522,
-          "inicio_byte": 11245,
+          "fin_byte_exclusivo": 12557,
+          "inicio_byte": 11280,
           "primera_linea": 53,
           "seccion": "MD-L000053-L000064",
           "sha256": "5338fdf263fa00396df1a90cb3a60ea657538370ac5655d02b923183672cfa77",
@@ -3822,8 +3831,8 @@
           "ultima_linea": 64
         },
         {
-          "fin_byte_exclusivo": 13415,
-          "inicio_byte": 12522,
+          "fin_byte_exclusivo": 13450,
+          "inicio_byte": 12557,
           "primera_linea": 65,
           "seccion": "MD-L000065-L000068",
           "sha256": "674e8675e1a9c7b4e8eb1089823669be772d47bcd7863934f28169729aa79c6a",
@@ -3831,8 +3840,8 @@
           "ultima_linea": 68
         },
         {
-          "fin_byte_exclusivo": 15368,
-          "inicio_byte": 13415,
+          "fin_byte_exclusivo": 15403,
+          "inicio_byte": 13450,
           "primera_linea": 69,
           "seccion": "MD-L000069-L000080",
           "sha256": "674fcb6b91bcdccdf41f03df2cf8d7bfba1820f356e3c8dd4fe638697a14be89",
@@ -3840,19 +3849,19 @@
           "ultima_linea": 80
         },
         {
-          "fin_byte_exclusivo": 17197,
-          "inicio_byte": 15368,
+          "fin_byte_exclusivo": 16545,
+          "inicio_byte": 15403,
           "primera_linea": 81,
-          "seccion": "MD-L000081-L000088",
-          "sha256": "ba7c5de0e0914b440dc636b779c79015e33bb50ddf398a2234219f6e31e36d3a",
+          "seccion": "MD-L000081-L000085",
+          "sha256": "ef359b1066d5736bb843ce682a893c034585a97999027b5931cac061f10662a6",
           "titulo": "Recomendaciones de defensa no ensayadas {#recomendaciones-defensa-no-ensayadas}",
-          "ultima_linea": 88
+          "ultima_linea": 85
         }
       ]
     },
     {
-      "alcance": "Método de evaluación; células por prueba, cota autorizada y separación estricta de respuestas y explicaciones. Revisión común con antecedentes conservados; no habilita producción.",
-      "cobertura_bytes": 7326,
+      "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+      "cobertura_bytes": 8857,
       "correspondencia": "identidad_literal",
       "documento": "EET-03",
       "identificador_editorial_r0": null,
@@ -3860,9 +3869,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/evaluacion-modelos/src/correccion.md",
-        "sha256": "aef0b983f98350f471cfc80928f41dcf584eddbb3be32d9b015313229b7fc522"
+        "sha256": "61d47f33e134c1546641f5d067f1a7335a0b410126a18336bb86be9c34319d2f"
       },
-      "procedencia": "Edición pública de 22/10/2026",
+      "procedencia": "Revisión de concordancia documental de 30/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 359,
@@ -3892,22 +3901,31 @@
           "ultima_linea": 38
         },
         {
-          "fin_byte_exclusivo": 5334,
+          "fin_byte_exclusivo": 5024,
           "inicio_byte": 3635,
           "primera_linea": 39,
-          "seccion": "MD-L000039-L000046",
-          "sha256": "5d1d934fec989f6bfeb6b5591a4e9cd14bc92bc4b3cf224cfa07d8697e8eba1b",
-          "titulo": "Fallos formales y fallos del instrumento",
-          "ultima_linea": 46
+          "seccion": "MD-L000039-L000044",
+          "sha256": "ef88a154f878454eff5e4ff24bdd93caa547894944acb0c2d935b15480ad684c",
+          "titulo": "Aplicación a la evaluación individual de HCC1",
+          "ultima_linea": 44
         },
         {
-          "fin_byte_exclusivo": 7326,
-          "inicio_byte": 5334,
-          "primera_linea": 47,
-          "seccion": "MD-L000047-L000057",
-          "sha256": "985fb121b714a0ec2d933a5610a1bb6829ba86891127ee1f436fa3c38b65d341",
+          "fin_byte_exclusivo": 6723,
+          "inicio_byte": 5024,
+          "primera_linea": 45,
+          "seccion": "MD-L000045-L000052",
+          "sha256": "5d1d934fec989f6bfeb6b5591a4e9cd14bc92bc4b3cf224cfa07d8697e8eba1b",
+          "titulo": "Fallos formales y fallos del instrumento",
+          "ultima_linea": 52
+        },
+        {
+          "fin_byte_exclusivo": 8857,
+          "inicio_byte": 6723,
+          "primera_linea": 53,
+          "seccion": "MD-L000053-L000063",
+          "sha256": "a73aba7fd0145251c263b4da312a94e9d5cebee2b2a6ed61a37f89fb7cafe1d0",
           "titulo": "Polígono SV",
-          "ultima_linea": 57
+          "ultima_linea": 63
         }
       ]
     },
@@ -4118,9 +4136,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-hcc1-20261030",
+  "edicion": "biblioteca-sv-concordancia-hcc1-20261030",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "b67528d12576404c21fb37dfc6f39f9362246f23a8f8a27f7ecb658d8ac92590",
+  "politica_sha256": "186e499d954da7949bd8022c558ef5c1f2317bbaf17c7fa400813d4280fe32ae",
   "recepcion_visual": false,
   "version": 1
 }

@@ -15,6 +15,8 @@ Las definiciones propias del SV se identifican como tales. Las siglas y equivale
 | Examen y decisión | [Evaluación](#evaluacion), [clasificación](#clasificacion), [dictamen](#dictamen), [autorización](#autorizacion), [recomendación](#recomendacion). |
 | Funcionamiento y protección | [Aislamiento](#aislamiento), [IA gobernada](#gobernada), [inferencia](#inferencia), [producción](#produccion), [seudo-producción](#seudoproduccion). |
 | Uso y evidencia | [Conexión](#conexion), [consulta](#consulta), [evidencia](#evidencia), [sesión](#sesion), [token](#token). |
+| Biblioteca y procedimientos | [Dinámica forense](#dinamica-forense), [procedimiento Pasivo y procedimiento Activo](#procedimientos), [protocolo acelerado](#protocolo-acelerado). |
+| Evaluación y enfrentamiento | [Evaluación individual](#evaluacion-individual), [perfiles del enfrentamiento](#perfiles-enfrentamiento), [torneo](#torneo), [selección del defensor](#seleccion-defensor). |
 
 ## Términos
 
@@ -87,6 +89,14 @@ Resultado interpretado conforme a la cuestión, al contrato y a la regla de eval
 
 **Para continuar la lectura:** [Evaluación de un modelo de IA](https://documentos-sv.itvia.online/enciclopedia/ia.html#evaluacion) · [Diagnóstico técnico](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#diagnostico). Precisar el alcance de la conclusión y diferenciarla de una incidencia técnica. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
 
+### Dinámica forense del ensayo {#dinamica-forense}
+
+Análisis fundamentado en la biblioteca admitida y en las evidencias del caso, con procedencia verificable y sin navegación autónoma. Es una dinámica de trabajo del ensayo; no un cuarto modo del modelo ni una declaración de validez pericial o judicial.
+
+**Distinción:** la restricción de navegación no elimina el conocimiento adquirido durante el entrenamiento. La fundamentación debe comprobarse con los documentos efectivamente disponibles. Véase [Biblioteca y dinámica forense](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/biblioteca-y-procedimientos.md#biblioteca-y-dinámica-forense).
+
+**Para continuar la lectura:** [Biblioteca de dominio](#biblioteca) · [Procedimientos de obtención de información](#procedimientos).
+
 ### Dominio {#dominio}
 
 Ámbito de conocimiento organizado para una finalidad y unas operaciones delimitadas. En el SV su constitución exige identificar los Universos, las fuentes, las relaciones y los límites pertinentes.
@@ -102,6 +112,14 @@ Examen de capacidades o resultados mediante una edición, un protocolo, fuentes,
 **Distinción:** una prueba de comprensión documental no acredita por sí sola competencia clínica, control de un servidor o funcionamiento íntegro del SV. Los antecedentes conservan las condiciones con las que se evaluaron. Véase [Finalidad y alcance de la evaluación](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/finalidad.html).
 
 **Para continuar la lectura:** [Evidencia de evaluación](https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia) · [Autorización de uso](https://documentos-sv.itvia.online/enciclopedia/ia.html#autorizacion). Seguir el fundamento del examen y distinguirlo de la decisión de uso. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+### Evaluación individual {#evaluacion-individual}
+
+Examen de un candidato conforme a la célula, los parámetros, las criticidades y las condiciones de una edición identificada. Conserva el dictamen y las evidencias del propio candidato.
+
+**Distinción:** vencer en un torneo no completa las posiciones pendientes ni transfiere la actuación del oponente al vector individual. Las [reglas de corrección](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/correccion.html#aplicación-a-la-evaluación-individual-de-hcc1) y las [reglas de comparación](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html#evaluación-individual-torneo-y-selección-del-defensor) explican su relación.
+
+**Para continuar la lectura:** [Dictamen](#dictamen) · [Torneo de ciberseguridad](#torneo).
 
 ### Evidencia de evaluación {#evidencia}
 
@@ -161,6 +179,14 @@ Categoría que identifica el recorrido de acceso y ejecución considerado por el
 
 **Para continuar la lectura:** [Conexión con un proveedor o modelo](https://documentos-sv.itvia.online/enciclopedia/ia.html#conexion) · [Aislamiento de la IA](https://documentos-sv.itvia.online/enciclopedia/ia.html#aislamiento). Identificar el recorrido de acceso sin suponer una excepción a la protección del núcleo. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
 
+### Perfil atacante (PA) y Perfil defensor (PD) {#perfiles-enfrentamiento}
+
+Funciones de los participantes de un enfrentamiento autorizado. El Perfil atacante (PA) procura alcanzar el objetivo ofensivo; el Perfil defensor (PD), impedirlo y satisfacer el objetivo defensivo. Ambos conservan libertad táctica dentro del entorno, los recursos, los permisos, el presupuesto y el plazo del ensayo.
+
+**Distinción:** estos perfiles no son funciones administrativas de personas, no autorizan intervenir en infraestructura ajena y no atribuyen autoridad sobre el núcleo. Tampoco limitan la capacidad defensiva a una respuesta prefijada. Las [reglas y registros del enfrentamiento](https://sv.itvia.online/benchmark?convocatoria=eet-cyb16-practica-20261027&recurso=practica-reglas-enfrentamientos) fijan su alcance particular.
+
+**Para continuar la lectura:** [Torneo](#torneo) · [Autorización](#autorizacion).
+
 ### Predominancia en un dominio {#predominancia}
 
 Relación de asignación por la que un modelo desempeña una función principal en un dominio y uso identificados. Puede coexistir con relaciones secundarias o con otras predominancias expresamente delimitadas.
@@ -168,6 +194,14 @@ Relación de asignación por la que un modelo desempeña una función principal 
 **Distinción:** no equivale a superioridad universal ni a un puesto de clasificación. Su fundamento debe relacionar función, capacidades evaluadas, límites y evidencia. La mera proximidad temática no justifica otra asignación. Véase [Comparación por modos y predominancias](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html#comparación-por-modos-y-predominancias).
 
 **Para continuar la lectura:** [Grados de libertad del modelo](https://documentos-sv.itvia.online/enciclopedia/ia.html#grados) · [Clasificación comparativa de modelos](https://documentos-sv.itvia.online/enciclopedia/ia.html#clasificacion). Relacionar la función asignada con la evidencia, sin confundirla con el orden de clasificación. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+### Procedimientos de obtención de información {#procedimientos}
+
+El procedimiento Pasivo (P1) utiliza biblioteca y evidencias previamente admitidas, sin navegación ni herramientas de Internet. El transporte mediante una interfaz de programación de aplicaciones (API) sólo se permite si está autorizado. El procedimiento Activo (P2) realiza una investigación específica bajo la autorización del experto competente y mediante el recorrido controlado.
+
+**Distinción:** no son los modos del modelo. Una actuación en modo Actuación o activo puede utilizar una biblioteca pasiva; el modo no concede navegación. Volver de una investigación tampoco incorpora automáticamente sus hallazgos al conocimiento admitido. La definición común se conserva en [Biblioteca y procedimientos](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/biblioteca-y-procedimientos.md#procedimientos-de-obtención-de-información).
+
+**Para continuar la lectura:** [Dinámica forense](#dinamica-forense) · [Protocolo acelerado](#protocolo-acelerado).
 
 ### Producción {#produccion}
 
@@ -177,6 +211,14 @@ Estado de uso que requiere recibir las condiciones técnicas, científicas, orga
 
 **Para continuar la lectura:** [Autorización de uso](https://documentos-sv.itvia.online/enciclopedia/ia.html#autorizacion) · [Seudo-producción](https://documentos-sv.itvia.online/enciclopedia/ia.html#seudoproduccion). Comparar las condiciones de uso exigidas con las excepciones declaradas del ensayo. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
 
+### Protocolo de Emergencia o Acelerado {#protocolo-acelerado}
+
+Variante autorizada de la investigación que permite al experto competente modificar plazos y límites configurables previamente aprobados, con justificación, vigencia y registro de los valores anteriores y nuevos.
+
+**Distinción:** no suspende aislamiento, autorización, integridad ni protección del núcleo. Reducir una ventana de cuarentena no sustituye las comprobaciones necesarias. La [definición común y sus fuentes](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/biblioteca-y-procedimientos.md#protocolos-ordinario-y-acelerado) conservan los requisitos; un ejemplo con tiempo lógico no acredita una espera física real.
+
+**Para continuar la lectura:** [Procedimientos de información](#procedimientos) · [Evidencia de evaluación](#evidencia).
+
 ### Recomendación de un modelo {#recomendacion}
 
 Conclusión fundada en resultados comparables y en un criterio declarado, limitada a su finalidad y condiciones. Debe explicar las reservas y, cuando corresponda, la imposibilidad de identificar una recomendación inequívoca.
@@ -184,6 +226,14 @@ Conclusión fundada en resultados comparables y en un criterio declarado, limita
 **Distinción:** no sustituye la selección responsable de una institución ni la autorización de una operación. Las mediciones ausentes no se reemplazan por cero. Véase [Selección, clasificación e independencia](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html).
 
 **Para continuar la lectura:** [Clasificación comparativa de modelos](https://documentos-sv.itvia.online/enciclopedia/ia.html#clasificacion) · [Autorización de uso](https://documentos-sv.itvia.online/enciclopedia/ia.html#autorizacion). Examinar la conclusión comparativa y la decisión institucional que sigue siendo necesaria. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+### Selección del defensor {#seleccion-defensor}
+
+Procedimiento específico para determinar el modelo que actuará como referencia defensora en una convocatoria posterior, con identidades, condiciones comparables y acta de sucesión.
+
+**Distinción:** no equivale a ganar el torneo ni a una autorización institucional de producción. En la selección prevista en HCC1 se invierten los perfiles: el defensor vigente actúa como atacante frente a cada aspirante, que actúa como defensor. La falta de resolución mantiene provisionalmente al defensor vigente; no se inventa un vencedor ni se enfrenta un modelo consigo mismo. Las [reglas comunes](https://sv.itvia.online/benchmark?convocatoria=eet-cyb16-practica-20261027&recurso=practica-reglas-enfrentamientos) identifican los criterios recibidos y los pendientes.
+
+**Para continuar la lectura:** [Torneo](#torneo) · [Evaluación individual](#evaluacion-individual).
 
 ### Seudo-producción {#seudoproduccion}
 
@@ -210,6 +260,14 @@ Unidad empleada por un modelo o servicio para representar o contabilizar parte d
 **Límite:** los tokens de proveedores diferentes no son unidades lingüísticas idénticas. Tampoco se convierten automáticamente en tiempo, consultas, créditos o moneda. La contabilidad exige fuente, tarifa, categorías y periodo identificados. Véase [Comparación y lectura de resultados](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html).
 
 **Para continuar la lectura:** [Consulta al modelo](https://documentos-sv.itvia.online/enciclopedia/ia.html#consulta) · [Evidencia de evaluación](https://documentos-sv.itvia.online/enciclopedia/ia.html#evidencia). Situar el recuento dentro de una actividad y una fuente identificadas. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+### Torneo de ciberseguridad {#torneo}
+
+Conjunto de enfrentamientos identificados, con objetivos, condiciones comparables, registros por participante y una clasificación propia del desenlace. Se distingue de la evaluación individual de aptitud y de la selección del siguiente defensor.
+
+**En HCC1:** la participación puede ser provisional, pero un título requiere aptitud individual completa. Alcanzar el plazo sin vencedor produce U cuando el encuentro ha sido válido conforme a su contrato; una incidencia del transporte o del observador se conserva aparte. Un encuentro pendiente no recibe U. Véase [Evaluación individual, torneo y selección del defensor](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html#evaluación-individual-torneo-y-selección-del-defensor).
+
+**Para continuar la lectura:** [Perfil atacante y Perfil defensor](#perfiles-enfrentamiento) · [Selección del defensor](#seleccion-defensor).
 
 ### Universo del SV {#universo}
 
