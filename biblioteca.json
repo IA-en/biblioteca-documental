@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-concordancia-hcc1-20261030",
+  "edicion": "biblioteca-sv-orientacion-terna-20261031",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "84da129fa99ebc809f09bf197c901e1991d596f8a218536b7f0a267245f21d60"
+        "sha256": "48ce48a53f6d81344011d6a7268c5066515494a6b1866c71ba82340d3174e0f5"
       },
       "metadatos": [
         {
@@ -394,13 +394,13 @@
           "tipo_original": "markdown",
           "original": {
             "ruta": "libros/manual/src/presentacion.md",
-            "sha256": "924cc121095eff9db97984eb97898e99129e09a0e2cb5d2bf1d9e2698d2de876"
+            "sha256": "a26df8da16e7c3dedc9f5c63bf3d41e65294f14e149884de85ca227123165a80"
           },
-          "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
+          "procedencia": "Orientación conceptual revisada el 31/10/2026",
           "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
           "sintetico": false,
           "visibilidad": "publica",
-          "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
+          "alcance": "Distinción entre determinismo, predicción, corrección e indeterminación; autoridad de la terna y remisión a las fuentes rectoras. No añade reglas al núcleo ni acredita capacidades.",
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null
         },

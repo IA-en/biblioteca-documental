@@ -2,8 +2,8 @@
   "capitulos": [
     {
       "titulo": "Enciclopedia temática del Sistema Vectorial SV",
-      "sha256": "b481fd550084c7dc015fae18b43e193c6f120b3e9ec367b6d9f414921fa41abd",
-      "url": "urn:sv:documento:sha256:b481fd550084c7dc015fae18b43e193c6f120b3e9ec367b6d9f414921fa41abd",
+      "sha256": "4d1c4c729751ca408ac80dc2fc59b93f647cccbf666f33b9e3aafc29955239bc",
+      "url": "urn:sv:documento:sha256:4d1c4c729751ca408ac80dc2fc59b93f647cccbf666f33b9e3aafc29955239bc",
       "id": "ENC-02",
       "ruta": "presentacion.md"
     },
@@ -16,8 +16,8 @@
     },
     {
       "titulo": "Diccionario del Lenguaje de Computación",
-      "sha256": "38783f0eea8c5c18fc674fa3a6c781c2849ffc6ec262029c2a7deb250ab6d4ce",
-      "url": "urn:sv:documento:sha256:38783f0eea8c5c18fc674fa3a6c781c2849ffc6ec262029c2a7deb250ab6d4ce",
+      "sha256": "c705a0ffe1c13d0a51e106d7725f56775c5968b2078188114b30e8825b064590",
+      "url": "urn:sv:documento:sha256:c705a0ffe1c13d0a51e106d7725f56775c5968b2078188114b30e8825b064590",
       "id": "ENC-04",
       "ruta": "lenguaje.md"
     },
@@ -44,6 +44,6 @@
     "id": "ENC-01",
     "ruta": "SUMMARY.md"
   },
-  "revision": "bd7f090b9f7c45e37fea28d911013650b930d4b74a4bd7fc25fbb246986778dd",
+  "revision": "8af403b6fc7c34fe92828d9d68aa6991023d326e85829ed73e10d5af41148813",
   "libro": "SV_ENCICLOPEDIA"
 }

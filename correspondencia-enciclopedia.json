@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "f1f934eb858ef9f6c9ebf103caebdc5699dbc15d7ff25e4bb9ea278d2fbc1612",
+  "biblioteca_sha256": "9abad45b3f54cecc05062c88a9831d37b77ca81d68ce1be24a9dba52a237743a",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -31,8 +31,8 @@
       ]
     },
     {
-      "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
-      "cobertura_bytes": 6275,
+      "alcance": "Distinción entre determinismo, predicción, corrección e indeterminación; autoridad de la terna y remisión a las fuentes rectoras. No añade reglas al núcleo ni acredita capacidades.",
+      "cobertura_bytes": 15933,
       "correspondencia": "identidad_literal",
       "documento": "ENC-02",
       "identificador_editorial_r0": null,
@@ -40,9 +40,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/enciclopedia/src/presentacion.md",
-        "sha256": "b481fd550084c7dc015fae18b43e193c6f120b3e9ec367b6d9f414921fa41abd"
+        "sha256": "4d1c4c729751ca408ac80dc2fc59b93f647cccbf666f33b9e3aafc29955239bc"
       },
-      "procedencia": "Revisión de concordancia documental de 30/10/2026",
+      "procedencia": "Orientación conceptual revisada el 31/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 419,
@@ -54,76 +54,139 @@
           "ultima_linea": 6
         },
         {
-          "fin_byte_exclusivo": 1478,
+          "fin_byte_exclusivo": 1404,
           "inicio_byte": 419,
           "primera_linea": 7,
-          "seccion": "MD-L000007-L000016",
-          "sha256": "7e5fd281ab6c8151d9e18b9ec8d2e91b1defa3fd57831ca660e60ddd4eea2456",
-          "titulo": "¿Qué desea comprender?",
-          "ultima_linea": 16
+          "seccion": "MD-L000007-L000012",
+          "sha256": "efd72f80c19b432e2dadb76ab405fd336a3935c3b1bc871654e120f1c3350753",
+          "titulo": "¿Por qué la terna [0, 1, U] del SV? {#por-que-la-terna}",
+          "ultima_linea": 12
         },
         {
-          "fin_byte_exclusivo": 2066,
-          "inicio_byte": 1478,
-          "primera_linea": 17,
-          "seccion": "MD-L000017-L000024",
-          "sha256": "4e1eacea6c8effb0ab927bf46c8b2185975fef0dd103d9b5cde644803a6d12e5",
-          "titulo": "Tres volúmenes",
-          "ultima_linea": 24
+          "fin_byte_exclusivo": 2720,
+          "inicio_byte": 1404,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000020",
+          "sha256": "75a893bcd1e211ce43cf8670c988fb839a8c6120b22a3b3a2d48d7631868b62c",
+          "titulo": "Determinismo, predicción y caos",
+          "ultima_linea": 20
         },
         {
-          "fin_byte_exclusivo": 3262,
-          "inicio_byte": 2066,
-          "primera_linea": 25,
-          "seccion": "MD-L000025-L000034",
-          "sha256": "413ab7667f92931084eea1198d8fa3f821b12a0a36ffbd082a471bbb0939eca6",
-          "titulo": "Cómo consultar",
-          "ultima_linea": 34
+          "fin_byte_exclusivo": 4514,
+          "inicio_byte": 2720,
+          "primera_linea": 21,
+          "seccion": "MD-L000021-L000032",
+          "sha256": "942f4a3578c0e8ada19cf6851f89d8831d11fe9c38e5975114ac0b5048c2686e",
+          "titulo": "Qué se conserva y qué debe distinguirse",
+          "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 3521,
-          "inicio_byte": 3262,
-          "primera_linea": 35,
-          "seccion": "MD-L000035-L000038",
-          "sha256": "3cc44c6db6f98b458cacf642d8d523919f6e3f62bb71ae5b8461ed95af4619b9",
-          "titulo": "Criterios de consulta y actualización",
-          "ultima_linea": 38
-        },
-        {
-          "fin_byte_exclusivo": 4157,
-          "inicio_byte": 3521,
-          "primera_linea": 39,
-          "seccion": "MD-L000039-L000044",
-          "sha256": "dafd8dc4eb4d984e5d56abf9168bed2f1ef43f924c5c58a624cde66bd5cc54a4",
-          "titulo": "Identidad y fuentes",
+          "fin_byte_exclusivo": 5874,
+          "inicio_byte": 4514,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000044",
+          "sha256": "675ee0d6b35f4ce60b3895021b80704a2f2d63d2043e85b0d21ac8a53fa4eb49",
+          "titulo": "Tres estados explícitos, sin decisión forzada",
           "ultima_linea": 44
         },
         {
-          "fin_byte_exclusivo": 4960,
-          "inicio_byte": 4157,
+          "fin_byte_exclusivo": 8016,
+          "inicio_byte": 5874,
           "primera_linea": 45,
-          "seccion": "MD-L000045-L000054",
-          "sha256": "11fed7a539a231bed30d90622b1e2397e39fd008a77496c4543cf39e952bc172",
-          "titulo": "Organización documental",
-          "ultima_linea": 54
-        },
-        {
-          "fin_byte_exclusivo": 5312,
-          "inicio_byte": 4960,
-          "primera_linea": 55,
-          "seccion": "MD-L000055-L000058",
-          "sha256": "1ed12660e2de774db00982ed746bc48acf85f1e87f92205d0346628846d31d42",
-          "titulo": "Publicaciones y ejemplos",
+          "seccion": "MD-L000045-L000058",
+          "sha256": "fbda130da955b4cccf22da3da7111d94a19ccf95c50d1bcec51896d74c5e04c1",
+          "titulo": "Por qué una célula y qué significa (25, 5)",
           "ultima_linea": 58
         },
         {
-          "fin_byte_exclusivo": 6275,
-          "inicio_byte": 5312,
+          "fin_byte_exclusivo": 8772,
+          "inicio_byte": 8016,
           "primera_linea": 59,
-          "seccion": "MD-L000059-L000067",
+          "seccion": "MD-L000059-L000064",
+          "sha256": "a35936dcaa4f583827efb4295e5cb2518bee15c46e4eb12a0e604e83ec598e67",
+          "titulo": "La autoridad no pertenece al modelo de inteligencia artificial",
+          "ultima_linea": 64
+        },
+        {
+          "fin_byte_exclusivo": 10077,
+          "inicio_byte": 8772,
+          "primera_linea": 65,
+          "seccion": "MD-L000065-L000074",
+          "sha256": "61b9084bbbfc2b2306027af81c5c50a40ce31e091ddb4863559d07018e74c910",
+          "titulo": "Invariancia, corrección y evidencia",
+          "ultima_linea": 74
+        },
+        {
+          "fin_byte_exclusivo": 11136,
+          "inicio_byte": 10077,
+          "primera_linea": 75,
+          "seccion": "MD-L000075-L000084",
+          "sha256": "7e5fd281ab6c8151d9e18b9ec8d2e91b1defa3fd57831ca660e60ddd4eea2456",
+          "titulo": "¿Qué desea comprender?",
+          "ultima_linea": 84
+        },
+        {
+          "fin_byte_exclusivo": 11724,
+          "inicio_byte": 11136,
+          "primera_linea": 85,
+          "seccion": "MD-L000085-L000092",
+          "sha256": "4e1eacea6c8effb0ab927bf46c8b2185975fef0dd103d9b5cde644803a6d12e5",
+          "titulo": "Tres volúmenes",
+          "ultima_linea": 92
+        },
+        {
+          "fin_byte_exclusivo": 12920,
+          "inicio_byte": 11724,
+          "primera_linea": 93,
+          "seccion": "MD-L000093-L000102",
+          "sha256": "413ab7667f92931084eea1198d8fa3f821b12a0a36ffbd082a471bbb0939eca6",
+          "titulo": "Cómo consultar",
+          "ultima_linea": 102
+        },
+        {
+          "fin_byte_exclusivo": 13179,
+          "inicio_byte": 12920,
+          "primera_linea": 103,
+          "seccion": "MD-L000103-L000106",
+          "sha256": "3cc44c6db6f98b458cacf642d8d523919f6e3f62bb71ae5b8461ed95af4619b9",
+          "titulo": "Criterios de consulta y actualización",
+          "ultima_linea": 106
+        },
+        {
+          "fin_byte_exclusivo": 13815,
+          "inicio_byte": 13179,
+          "primera_linea": 107,
+          "seccion": "MD-L000107-L000112",
+          "sha256": "dafd8dc4eb4d984e5d56abf9168bed2f1ef43f924c5c58a624cde66bd5cc54a4",
+          "titulo": "Identidad y fuentes",
+          "ultima_linea": 112
+        },
+        {
+          "fin_byte_exclusivo": 14618,
+          "inicio_byte": 13815,
+          "primera_linea": 113,
+          "seccion": "MD-L000113-L000122",
+          "sha256": "11fed7a539a231bed30d90622b1e2397e39fd008a77496c4543cf39e952bc172",
+          "titulo": "Organización documental",
+          "ultima_linea": 122
+        },
+        {
+          "fin_byte_exclusivo": 14970,
+          "inicio_byte": 14618,
+          "primera_linea": 123,
+          "seccion": "MD-L000123-L000126",
+          "sha256": "1ed12660e2de774db00982ed746bc48acf85f1e87f92205d0346628846d31d42",
+          "titulo": "Publicaciones y ejemplos",
+          "ultima_linea": 126
+        },
+        {
+          "fin_byte_exclusivo": 15933,
+          "inicio_byte": 14970,
+          "primera_linea": 127,
+          "seccion": "MD-L000127-L000135",
           "sha256": "2e05a907f62e9a98f380540909bd2651d535b7ed0eac92ef47585116ed3364a3",
           "titulo": "Coherencia terminológica",
-          "ultima_linea": 67
+          "ultima_linea": 135
         }
       ]
     },
@@ -324,8 +387,8 @@
       ]
     },
     {
-      "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
-      "cobertura_bytes": 26919,
+      "alcance": "Distinción entre determinismo, predicción, corrección e indeterminación; autoridad de la terna y remisión a las fuentes rectoras. No añade reglas al núcleo ni acredita capacidades.",
+      "cobertura_bytes": 27655,
       "correspondencia": "identidad_literal",
       "documento": "ENC-04",
       "identificador_editorial_r0": null,
@@ -333,9 +396,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/enciclopedia/src/lenguaje.md",
-        "sha256": "38783f0eea8c5c18fc674fa3a6c781c2849ffc6ec262029c2a7deb250ab6d4ce"
+        "sha256": "c705a0ffe1c13d0a51e106d7725f56775c5968b2078188114b30e8825b064590"
       },
-      "procedencia": "Revisión de concordancia documental de 30/10/2026",
+      "procedencia": "Orientación conceptual revisada el 31/10/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 843,
@@ -410,202 +473,211 @@
           "ultima_linea": 61
         },
         {
-          "fin_byte_exclusivo": 7562,
+          "fin_byte_exclusivo": 7410,
           "inicio_byte": 6674,
           "primera_linea": 62,
-          "seccion": "MD-L000062-L000069",
+          "seccion": "MD-L000062-L000067",
+          "sha256": "ec689ea2ce8cc8d054043fd7197526b1d7b6722e7b297e2d3b0897745d17b7b7",
+          "titulo": "Determinismo normativo del SV {#determinismo}",
+          "ultima_linea": 67
+        },
+        {
+          "fin_byte_exclusivo": 8298,
+          "inicio_byte": 7410,
+          "primera_linea": 68,
+          "seccion": "MD-L000068-L000075",
           "sha256": "b5c5d906343d134397e1d12aa393fe83ea7036514f7916680d9bb22811ae63cb",
           "titulo": "Diagnóstico técnico {#diagnostico}",
-          "ultima_linea": 69
+          "ultima_linea": 75
         },
         {
-          "fin_byte_exclusivo": 8638,
-          "inicio_byte": 7562,
-          "primera_linea": 70,
-          "seccion": "MD-L000070-L000077",
+          "fin_byte_exclusivo": 9374,
+          "inicio_byte": 8298,
+          "primera_linea": 76,
+          "seccion": "MD-L000076-L000083",
           "sha256": "33d437a0be521db8585d7c844aa110974df420bd249ac0982c440d403d81652d",
           "titulo": "DSL · Lenguaje específico de dominio {#dsl}",
-          "ultima_linea": 77
+          "ultima_linea": 83
         },
         {
-          "fin_byte_exclusivo": 9549,
-          "inicio_byte": 8638,
-          "primera_linea": 78,
-          "seccion": "MD-L000078-L000085",
+          "fin_byte_exclusivo": 10285,
+          "inicio_byte": 9374,
+          "primera_linea": 84,
+          "seccion": "MD-L000084-L000091",
           "sha256": "1a62d1714929cbbb1d451f4af4e11df5ea20846f5857b43eefef70b5c2369680",
           "titulo": "Explorador Tensorial del SV {#explorador}",
-          "ultima_linea": 85
+          "ultima_linea": 91
         },
         {
-          "fin_byte_exclusivo": 10562,
-          "inicio_byte": 9549,
-          "primera_linea": 86,
-          "seccion": "MD-L000086-L000093",
+          "fin_byte_exclusivo": 11298,
+          "inicio_byte": 10285,
+          "primera_linea": 92,
+          "seccion": "MD-L000092-L000099",
           "sha256": "d20eaf1b145daec9c767a3ff883b20251b7da6bab957c071ed805e1fb68b588d",
           "titulo": "Frame · Representación estructurada de un suceso {#frame}",
-          "ultima_linea": 93
+          "ultima_linea": 99
         },
         {
-          "fin_byte_exclusivo": 11532,
-          "inicio_byte": 10562,
-          "primera_linea": 94,
-          "seccion": "MD-L000094-L000101",
+          "fin_byte_exclusivo": 12268,
+          "inicio_byte": 11298,
+          "primera_linea": 100,
+          "seccion": "MD-L000100-L000107",
           "sha256": "7a7ed9352b228432baebfa6d9473678ef68f10489f4aacec58cfc62a8545b532",
           "titulo": "Gramática superficial {#gramatica}",
-          "ultima_linea": 101
+          "ultima_linea": 107
         },
         {
-          "fin_byte_exclusivo": 12502,
-          "inicio_byte": 11532,
-          "primera_linea": 102,
-          "seccion": "MD-L000102-L000110",
+          "fin_byte_exclusivo": 13238,
+          "inicio_byte": 12268,
+          "primera_linea": 108,
+          "seccion": "MD-L000108-L000116",
           "sha256": "fd59d02b0ef13b57b4e9f031a2dfe66bcdde05b1e60b48e6361e7b1fc2e442be",
           "titulo": "Huella de contenido · SHA-256 {#huella}",
-          "ultima_linea": 110
+          "ultima_linea": 116
         },
         {
-          "fin_byte_exclusivo": 13664,
-          "inicio_byte": 12502,
-          "primera_linea": 111,
-          "seccion": "MD-L000111-L000118",
+          "fin_byte_exclusivo": 14400,
+          "inicio_byte": 13238,
+          "primera_linea": 117,
+          "seccion": "MD-L000117-L000124",
           "sha256": "df9178ce3509e53a9344e931c4759b148f44debd41bd167a2501e750f19437f8",
           "titulo": "Instrucciones preliminares pre-núcleo {#pre-nucleo}",
-          "ultima_linea": 118
+          "ultima_linea": 124
         },
         {
-          "fin_byte_exclusivo": 14688,
-          "inicio_byte": 13664,
-          "primera_linea": 119,
-          "seccion": "MD-L000119-L000126",
+          "fin_byte_exclusivo": 15424,
+          "inicio_byte": 14400,
+          "primera_linea": 125,
+          "seccion": "MD-L000125-L000132",
           "sha256": "06fd22b8793c69901b33f1b058062966a4b3d313281a5ecc57ca5b29ede9a338",
           "titulo": "Invariante {#invariante}",
-          "ultima_linea": 126
+          "ultima_linea": 132
         },
         {
-          "fin_byte_exclusivo": 15800,
-          "inicio_byte": 14688,
-          "primera_linea": 127,
-          "seccion": "MD-L000127-L000134",
+          "fin_byte_exclusivo": 16536,
+          "inicio_byte": 15424,
+          "primera_linea": 133,
+          "seccion": "MD-L000133-L000140",
           "sha256": "4f36db97466c319ee5c67717d2d6d04ce9d5c42af03b1ec1f08f9f64713a9d89",
           "titulo": "Núcleo del Lenguaje SV {#nucleo}",
-          "ultima_linea": 134
+          "ultima_linea": 140
         },
         {
-          "fin_byte_exclusivo": 16730,
-          "inicio_byte": 15800,
-          "primera_linea": 135,
-          "seccion": "MD-L000135-L000142",
+          "fin_byte_exclusivo": 17466,
+          "inicio_byte": 16536,
+          "primera_linea": 141,
+          "seccion": "MD-L000141-L000148",
           "sha256": "bd10f1baced1c2d1ab91a830e008aa773d0e850681e493739ef5167678ff2a48",
           "titulo": "Observabilidad {#observabilidad}",
-          "ultima_linea": 142
+          "ultima_linea": 148
         },
         {
-          "fin_byte_exclusivo": 17644,
-          "inicio_byte": 16730,
-          "primera_linea": 143,
-          "seccion": "MD-L000143-L000150",
+          "fin_byte_exclusivo": 18380,
+          "inicio_byte": 17466,
+          "primera_linea": 149,
+          "seccion": "MD-L000149-L000156",
           "sha256": "963307056f16bfe4595e2e4771bf1592156bca7f74d312464a20e6d034f13dab",
           "titulo": "Perfil lingüístico SVP-ES o SVP-EN {#perfil}",
-          "ultima_linea": 150
+          "ultima_linea": 156
         },
         {
-          "fin_byte_exclusivo": 18704,
-          "inicio_byte": 17644,
-          "primera_linea": 151,
-          "seccion": "MD-L000151-L000158",
+          "fin_byte_exclusivo": 19440,
+          "inicio_byte": 18380,
+          "primera_linea": 157,
+          "seccion": "MD-L000157-L000164",
           "sha256": "c1fb99b9054c3cd2979def6657da3a9903aa32a1b39d1e5307e12aaa6545debb",
           "titulo": "Polígono del SV {#poligono}",
-          "ultima_linea": 158
+          "ultima_linea": 164
         },
         {
-          "fin_byte_exclusivo": 19742,
-          "inicio_byte": 18704,
-          "primera_linea": 159,
-          "seccion": "MD-L000159-L000166",
+          "fin_byte_exclusivo": 20478,
+          "inicio_byte": 19440,
+          "primera_linea": 165,
+          "seccion": "MD-L000165-L000172",
           "sha256": "95428855caaaa2c4bb7515480df456a8e038d9ded3a5326cd7916d02eb6f0ef8",
           "titulo": "Representación intermedia · IR {#ir}",
-          "ultima_linea": 166
+          "ultima_linea": 172
         },
         {
-          "fin_byte_exclusivo": 20737,
-          "inicio_byte": 19742,
-          "primera_linea": 167,
-          "seccion": "MD-L000167-L000174",
+          "fin_byte_exclusivo": 21473,
+          "inicio_byte": 20478,
+          "primera_linea": 173,
+          "seccion": "MD-L000173-L000180",
           "sha256": "505738938fa701cf0cb53cf039e3fc85f8e37f854362408c9dbbd3521eb00a07",
           "titulo": "Selector de recursos de cálculo {#selector}",
-          "ultima_linea": 174
+          "ultima_linea": 180
         },
         {
-          "fin_byte_exclusivo": 21697,
-          "inicio_byte": 20737,
-          "primera_linea": 175,
-          "seccion": "MD-L000175-L000182",
+          "fin_byte_exclusivo": 22433,
+          "inicio_byte": 21473,
+          "primera_linea": 181,
+          "seccion": "MD-L000181-L000188",
           "sha256": "0c6110d4959c05f0c3c71e8e77adc23615792b9f25f00dc356de4061990f90b6",
           "titulo": "Semántica del lenguaje {#semantica}",
-          "ultima_linea": 182
+          "ultima_linea": 188
         },
         {
-          "fin_byte_exclusivo": 22675,
-          "inicio_byte": 21697,
-          "primera_linea": 183,
-          "seccion": "MD-L000183-L000190",
+          "fin_byte_exclusivo": 23411,
+          "inicio_byte": 22433,
+          "primera_linea": 189,
+          "seccion": "MD-L000189-L000196",
           "sha256": "db794c1b88fd4f00aa0e4252d7e06746947348c9667e3e469735245fb8336c9c",
           "titulo": "Trazabilidad {#trazabilidad}",
-          "ultima_linea": 190
+          "ultima_linea": 196
         },
         {
-          "fin_byte_exclusivo": 23773,
-          "inicio_byte": 22675,
-          "primera_linea": 191,
-          "seccion": "MD-L000191-L000198",
+          "fin_byte_exclusivo": 24509,
+          "inicio_byte": 23411,
+          "primera_linea": 197,
+          "seccion": "MD-L000197-L000204",
           "sha256": "b0bf2ec7c26c9202dfdb5353396eabd20fad59f7d03eb67b2db9a6e724e18a12",
           "titulo": "Tubería de IA {#tuberia}",
-          "ultima_linea": 198
+          "ultima_linea": 204
         },
         {
-          "fin_byte_exclusivo": 25191,
-          "inicio_byte": 23773,
-          "primera_linea": 199,
-          "seccion": "MD-L000199-L000209",
+          "fin_byte_exclusivo": 25927,
+          "inicio_byte": 24509,
+          "primera_linea": 205,
+          "seccion": "MD-L000205-L000215",
           "sha256": "d6f94462f2bb0de718cea062db945ff154b09ab29f0652e39a8c6c084e584067",
           "titulo": "Publicaciones",
-          "ultima_linea": 209
-        },
-        {
-          "fin_byte_exclusivo": 25232,
-          "inicio_byte": 25191,
-          "primera_linea": 210,
-          "seccion": "MD-L000210-L000211",
-          "sha256": "473839c7f794e6ee1f4c040251853b5e04b80a77a79cca8dd435d0d543a48546",
-          "titulo": "Casos de uso o ejemplos específicos",
-          "ultima_linea": 211
-        },
-        {
-          "fin_byte_exclusivo": 25755,
-          "inicio_byte": 25232,
-          "primera_linea": 212,
-          "seccion": "MD-L000212-L000215",
-          "sha256": "94d31b8b742c41cabb6681886f058dc43fe2ad6063f1f78c5d7f821ed35a5e4c",
-          "titulo": "Interpretar un archivo sin atribuirle una ejecución",
           "ultima_linea": 215
         },
         {
-          "fin_byte_exclusivo": 26166,
-          "inicio_byte": 25755,
+          "fin_byte_exclusivo": 25968,
+          "inicio_byte": 25927,
           "primera_linea": 216,
-          "seccion": "MD-L000216-L000219",
-          "sha256": "b75db0ae23083e6137d1b6e97ef9e043b581574c3aaf53ca1da46f0bc1d9aa80",
-          "titulo": "Elegir recursos con evidencia",
-          "ultima_linea": 219
+          "seccion": "MD-L000216-L000217",
+          "sha256": "473839c7f794e6ee1f4c040251853b5e04b80a77a79cca8dd435d0d543a48546",
+          "titulo": "Casos de uso o ejemplos específicos",
+          "ultima_linea": 217
         },
         {
-          "fin_byte_exclusivo": 26919,
-          "inicio_byte": 26166,
-          "primera_linea": 220,
-          "seccion": "MD-L000220-L000226",
+          "fin_byte_exclusivo": 26491,
+          "inicio_byte": 25968,
+          "primera_linea": 218,
+          "seccion": "MD-L000218-L000221",
+          "sha256": "94d31b8b742c41cabb6681886f058dc43fe2ad6063f1f78c5d7f821ed35a5e4c",
+          "titulo": "Interpretar un archivo sin atribuirle una ejecución",
+          "ultima_linea": 221
+        },
+        {
+          "fin_byte_exclusivo": 26902,
+          "inicio_byte": 26491,
+          "primera_linea": 222,
+          "seccion": "MD-L000222-L000225",
+          "sha256": "b75db0ae23083e6137d1b6e97ef9e043b581574c3aaf53ca1da46f0bc1d9aa80",
+          "titulo": "Elegir recursos con evidencia",
+          "ultima_linea": 225
+        },
+        {
+          "fin_byte_exclusivo": 27655,
+          "inicio_byte": 26902,
+          "primera_linea": 226,
+          "seccion": "MD-L000226-L000232",
           "sha256": "43849bde1d4fe56998eb6829260515ab1938dafc88dc75bd8f4fc20792664b06",
           "titulo": "Rechazar una instrucción ajena al contrato",
-          "ultima_linea": 226
+          "ultima_linea": 232
         }
       ]
     },
@@ -1029,9 +1101,9 @@
       ]
     }
   ],
-  "edicion": "enciclopedia-sv-hcc1-20261030",
+  "edicion": "enciclopedia-sv-orientacion-terna-20261031",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "eed359bd919ca4610a3817367c4c844d691aa7da58ef45b5291d8efa4a2899c4",
+  "politica_sha256": "f07f3d9c4a39bf84c2f5a02090dbd2491bcb9e54964cfdc99b75b618d10183d2",
   "recepcion_visual": false,
   "version": 1
 }

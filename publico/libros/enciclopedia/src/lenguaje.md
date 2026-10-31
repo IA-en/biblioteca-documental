@@ -59,6 +59,12 @@ Especificación de las entradas, resultados, relaciones, restricciones y condici
 
 **Para continuar la lectura:** [Invariante](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#invariante) · [Admisión técnica](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#admision). Identificar qué debe conservarse y qué condiciones permiten admitir una entrada. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
 
+### Determinismo normativo del SV {#determinismo}
+
+Aplicación de una regla recibida a un estado admitido, con valores y condiciones explícitos. Si permanecen el caso, la evidencia y la regla, debe conservarse el resultado normativo. No equivale a predecir cualquier sistema físico, ni convierte por sí solo una respuesta de inteligencia artificial en correcta o reproducible.
+
+**Distinción:** una variación de redacción equivalente no es un cambio de hechos; un fallo técnico tampoco es un valor de la terna. Consulte [¿Por qué la terna [0, 1, U] del SV?](presentacion.md#por-que-la-terna), [núcleo](#nucleo) y [diagnóstico técnico](#diagnostico). La entrada introductoria conserva los fundamentos y los límites comunes.
+
 ### Diagnóstico técnico {#diagnostico}
 
 Información que identifica un rechazo, una limitación o una incidencia del procesamiento. Explica qué condición impide continuar o interpretar válidamente el resultado.

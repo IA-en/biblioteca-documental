@@ -4,6 +4,8 @@
 
 El Lenguaje de Computación SV expresa estados, relaciones y operaciones del Sistema Vectorial SV mediante construcciones explícitas. Este libro desarrolla la teoría del lenguaje: sus fundamentos, el significado de sus construcciones y la arquitectura que relaciona el núcleo con la ejecución y sus recursos. Los ejemplos ilustran esas explicaciones.
 
+Como orientación previa, consulte [¿Por qué la terna [0, 1, U] del SV?](https://documentos-sv.itvia.online/enciclopedia/presentacion.html#por-que-la-terna): distingue determinismo, predicción e indeterminación y explica la autoridad de las reglas frente a las propuestas de inteligencia artificial. Esta introducción no modifica las construcciones ni las especificaciones del Lenguaje.
+
 ## **1.1.** Alcance de la edición {#alcance-de-la-edición}
 
 La edición reúne construcciones del lenguaje, ejemplos, uso del Playground, arquitectura, observabilidad y requisitos de integración. La sección de programas completos y aplicaciones permanece en desarrollo. Cada capítulo diferencia las funciones disponibles de los contratos cuya realización integrada continúa pendiente.

@@ -1,12 +1,12 @@
 {
-  "edicion": "enciclopedia-sv-hcc1-20261030",
+  "edicion": "enciclopedia-sv-orientacion-terna-20261031",
   "estado": "preparacion_local",
   "version": 1,
   "libros": [
     {
       "titulo": "Enciclopedia temática del Sistema Vectorial SV",
       "plan": {
-        "sha256": "868790d7296f6c6fc6f9a67bf7554aa20f87c9e43c12eb749830548a45f6adaa",
+        "sha256": "271f13ab14577edbaeb660fec877de5115ed26ff7d281d116eae61d9a40dad8d",
         "ruta": "libros/enciclopedia/plan.json"
       },
       "metadatos": [
@@ -30,11 +30,11 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/presentacion.md",
-            "sha256": "b481fd550084c7dc015fae18b43e193c6f120b3e9ec367b6d9f414921fa41abd"
+            "sha256": "4d1c4c729751ca408ac80dc2fc59b93f647cccbf666f33b9e3aafc29955239bc"
           },
           "documento": "ENC-02",
-          "procedencia": "Revisión de concordancia documental de 30/10/2026",
-          "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+          "procedencia": "Orientación conceptual revisada el 31/10/2026",
+          "alcance": "Distinción entre determinismo, predicción, corrección e indeterminación; autoridad de la terna y remisión a las fuentes rectoras. No añade reglas al núcleo ni acredita capacidades.",
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",
@@ -60,11 +60,11 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/lenguaje.md",
-            "sha256": "38783f0eea8c5c18fc674fa3a6c781c2849ffc6ec262029c2a7deb250ab6d4ce"
+            "sha256": "c705a0ffe1c13d0a51e106d7725f56775c5968b2078188114b30e8825b064590"
           },
           "documento": "ENC-04",
-          "procedencia": "Revisión de concordancia documental de 30/10/2026",
-          "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+          "procedencia": "Orientación conceptual revisada el 31/10/2026",
+          "alcance": "Distinción entre determinismo, predicción, corrección e indeterminación; autoridad de la terna y remisión a las fuentes rectoras. No añade reglas al núcleo ni acredita capacidades.",
           "tipo_original": "markdown",
           "visibilidad": "publica",
           "licencia": "CC BY-NC-ND 4.0",

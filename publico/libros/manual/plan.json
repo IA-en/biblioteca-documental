@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "e1b14561fcb3f8eb6d2b3665870027bb748a5472e7d9d5e0b8d3bb0986c37da4",
+  "revision": "5757a086e8434732bc1409e11ddc40318ffa804552701bc4acc6532061437774",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -14,8 +14,8 @@
       "id": "MANUAL_PRESENTACION",
       "ruta": "presentacion.md",
       "titulo": "1. Presentación y alcance",
-      "url": "urn:sv:documento:sha256:924cc121095eff9db97984eb97898e99129e09a0e2cb5d2bf1d9e2698d2de876",
-      "sha256": "924cc121095eff9db97984eb97898e99129e09a0e2cb5d2bf1d9e2698d2de876"
+      "url": "urn:sv:documento:sha256:a26df8da16e7c3dedc9f5c63bf3d41e65294f14e149884de85ca227123165a80",
+      "sha256": "a26df8da16e7c3dedc9f5c63bf3d41e65294f14e149884de85ca227123165a80"
     },
     {
       "id": "MANUAL_CONSTRUCTOR",

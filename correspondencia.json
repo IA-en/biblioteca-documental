@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "c79fdaf6d60bea6ab3078eddcbf4fd9bfdf1511386b4c8aba8adc24ea0caec5b",
+  "biblioteca_sha256": "f1a3420a547bf595c972962611c43d5d8b0d80c209f7f4479cf8c116722cba05",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -1445,8 +1445,8 @@
       ]
     },
     {
-      "alcance": "Documentación de consulta y condiciones vigentes. La revisión editorial no acredita producción ni habilita entregas a proveedores.",
-      "cobertura_bytes": 4487,
+      "alcance": "Distinción entre determinismo, predicción, corrección e indeterminación; autoridad de la terna y remisión a las fuentes rectoras. No añade reglas al núcleo ni acredita capacidades.",
+      "cobertura_bytes": 4880,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_PRESENTACION",
       "identificador_editorial_r0": null,
@@ -1454,45 +1454,45 @@
       "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
       "original": {
         "ruta": "libros/manual/src/presentacion.md",
-        "sha256": "924cc121095eff9db97984eb97898e99129e09a0e2cb5d2bf1d9e2698d2de876"
+        "sha256": "a26df8da16e7c3dedc9f5c63bf3d41e65294f14e149884de85ca227123165a80"
       },
-      "procedencia": "Revisión editorial de 19/10/2026; antecedentes conservados en el historial",
+      "procedencia": "Orientación conceptual revisada el 31/10/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 552,
+          "fin_byte_exclusivo": 945,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000006",
-          "sha256": "40f11af7f2dd5f706a725225de4c35270377cccd0e236ac17758b41e66508247",
+          "seccion": "MD-L000001-L000008",
+          "sha256": "f4c102fbc3d68a8e8bded10e44efef31759a3a5c5b00594bf921c635faf9af5a",
           "titulo": "1. Lenguaje de Computación SV: fundamentos, arquitectura y referencia {#manual-del-lenguaje-de-computación-sv}",
-          "ultima_linea": 6
+          "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 1271,
-          "inicio_byte": 552,
-          "primera_linea": 7,
-          "seccion": "MD-L000007-L000012",
+          "fin_byte_exclusivo": 1664,
+          "inicio_byte": 945,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000014",
           "sha256": "813766bf9da1c52f9b1ffa233d05b76b123f10d7f65c84744a65469e41876146",
           "titulo": "1.1. Alcance de la edición {#alcance-de-la-edición}",
-          "ultima_linea": 12
+          "ultima_linea": 14
         },
         {
-          "fin_byte_exclusivo": 3718,
-          "inicio_byte": 1271,
-          "primera_linea": 13,
-          "seccion": "MD-L000013-L000027",
+          "fin_byte_exclusivo": 4111,
+          "inicio_byte": 1664,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000029",
           "sha256": "0d1cf6062d5c083892d0c34e375ce47b8ab79670d54bb8b6f7db587be99be2be",
           "titulo": "1.2. Lectura recomendada {#lectura-recomendada}",
-          "ultima_linea": 27
+          "ultima_linea": 29
         },
         {
-          "fin_byte_exclusivo": 4487,
-          "inicio_byte": 3718,
-          "primera_linea": 28,
-          "seccion": "MD-L000028-L000034",
+          "fin_byte_exclusivo": 4880,
+          "inicio_byte": 4111,
+          "primera_linea": 30,
+          "seccion": "MD-L000030-L000036",
           "sha256": "dc5bb1b75b557d51d7eb998ca84abcdbaa08269f4404f7c42d75ea704253b883",
           "titulo": "1.3. Fuentes y versiones {#fuentes-y-versiones}",
-          "ultima_linea": 34
+          "ultima_linea": 36
         }
       ]
     },
@@ -4136,9 +4136,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-concordancia-hcc1-20261030",
+  "edicion": "biblioteca-sv-orientacion-terna-20261031",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "186e499d954da7949bd8022c558ef5c1f2317bbaf17c7fa400813d4280fe32ae",
+  "politica_sha256": "e744257f6c70ee755f105becbf0adb6a4154d6f9c789a8511dc2744bd7d6b3a5",
   "recepcion_visual": false,
   "version": 1
 }

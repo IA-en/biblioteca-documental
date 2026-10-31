@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 280" role="img" aria-labelledby="titulo descripcion">
+<title id="titulo">La terna del Sistema Vectorial SV en el ámbito de la aptitud</title>
+<desc id="descripcion">Tres estados separados: cero, apto; uno, no apto; U, indeterminado. Cada estado exige una definición del parámetro y evidencia conforme al contrato. U no equivale a una probabilidad intermedia.</desc>
+<rect x="1" y="1" width="958" height="278" rx="16" fill="#f3f7f8" stroke="#aac2cf"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<text x="480" y="35" font-size="20" font-weight="700" fill="#123950">Estados explícitos · criterio recibido · evidencia identificada</text>
+<g fill="#fff" stroke="#123950" stroke-width="2">
+<rect x="24" y="60" width="288" height="162" rx="12"/>
+<rect x="336" y="60" width="288" height="162" rx="12"/>
+<rect x="648" y="60" width="288" height="162" rx="12"/>
+</g>
+<g font-size="52" font-weight="700" fill="#123950">
+<text x="168" y="121">0</text><text x="480" y="121">1</text><text x="792" y="121">U</text>
+</g>
+<g font-size="23" font-weight="700" fill="#123950">
+<text x="168" y="158">Apto</text><text x="480" y="158">No apto</text><text x="792" y="158">Indeterminado</text>
+</g>
+<g font-size="16" fill="#123950">
+<text x="168" y="192">Conformidad acreditada</text>
+<text x="480" y="192">Incumplimiento acreditado</text>
+<text x="792" y="188">Resolución no establecida</text><text x="792" y="209">conforme al contrato</text>
+</g>
+<text x="480" y="253" font-size="17" fill="#123950">La U conserva la indeterminación; no la sustituye por una decisión forzada.</text>
+</g>
+<!-- SPDX-License-Identifier: CC-BY-NC-ND-4.0 -->
+<!-- © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). -->
+</svg>
