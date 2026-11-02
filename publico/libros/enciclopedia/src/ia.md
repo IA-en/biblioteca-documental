@@ -17,7 +17,6 @@ Las definiciones propias del SV se identifican como tales. Las siglas y equivale
 | Uso y evidencia | [Conexión](#conexion), [consulta](#consulta), [evidencia](#evidencia), [sesión](#sesion), [token](#token). |
 | Biblioteca y procedimientos | [Dinámica forense](#dinamica-forense), [procedimiento Pasivo y procedimiento Activo](#procedimientos), [protocolo acelerado](#protocolo-acelerado). |
 | Evaluación y enfrentamiento | [Evaluación individual](#evaluacion-individual), [perfiles del enfrentamiento](#perfiles-enfrentamiento), [torneo](#torneo), [selección del defensor](#seleccion-defensor). |
-
 | Supervisión y auditoría | [Cobertura de observación](#cobertura-observacion), [expediente de supervisión](#expediente-supervision), [procedencia de la evidencia](#procedencia-evidencia). |
 
 ## Términos

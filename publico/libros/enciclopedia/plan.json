@@ -23,8 +23,8 @@
     },
     {
       "titulo": "Diccionario de la Inteligencia Artificial (IA)",
-      "sha256": "e1f46ac4202410aed3790ee5e74e99c21f0d25b03c8736a2aa7bf3000ae81a1e",
-      "url": "urn:sv:documento:sha256:e1f46ac4202410aed3790ee5e74e99c21f0d25b03c8736a2aa7bf3000ae81a1e",
+      "sha256": "3da6e8ef44276672ea8894b591bd7f1efcddcbf12ab985de23d28a9d228922e5",
+      "url": "urn:sv:documento:sha256:3da6e8ef44276672ea8894b591bd7f1efcddcbf12ab985de23d28a9d228922e5",
       "id": "ENC-05",
       "ruta": "ia.md"
     },
@@ -44,6 +44,6 @@
     "id": "ENC-01",
     "ruta": "SUMMARY.md"
   },
-  "revision": "ab5fa9eeaa493439d2f41801018bbc16daeea5a79523c7b355a3e51047f39750",
+  "revision": "e25f0ec8ddacd041dea5799d96bbf525308ebaed546f1ab8e9e3ef33cdf7ec24",
   "libro": "SV_ENCICLOPEDIA"
 }
