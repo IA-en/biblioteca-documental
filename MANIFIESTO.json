@@ -582,8 +582,8 @@
       "ruta": "libros/manual/src/tramo-10.md"
     },
     {
-      "bytes": 27049,
-      "sha256": "de0a641fa43a83ce367c86e636691f5b0b8f1a6bbd5da146a1cc4b1fa35f9a21",
+      "bytes": 29193,
+      "sha256": "a5deb900df7c83fa6d548c24e5c65000025e77d0ec99993fcc63c3716277a137",
       "ruta": "libros/manual/theme/head.hbs"
     },
     {
@@ -1382,8 +1382,8 @@
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/404.html"
     },
     {
-      "bytes": 70919,
-      "sha256": "c3ec16e9a8c53d738cfdc6a86fac4b6007169f638485fb2a6304c38747182768",
+      "bytes": 73463,
+      "sha256": "0d72f0a85e92c84135ca278ee94d5cd2d7b873768c6d8787f803201c8d7d1091",
       "ruta": "publico/dominios/lenguaje-de-computacion/manual/agradecimientos.html"
     },
     {
