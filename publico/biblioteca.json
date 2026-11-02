@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-supervision-20261102",
+  "edicion": "biblioteca-sv-supervision-20261102-r118",
   "libros": [
     {
       "id": "guia",
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "a8fc476b1c6fb497bcaa173e34585c1db5fa21c4a2fa9af9e3faf8062c1e8825",
+        "sha256": "e8c112716b3c1604fda7c392da94376aec358169f46f20957b7ad750c9b5d114",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -783,11 +783,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-06",
           "original": {
-            "sha256": "517d4f1b60ee12e5ba2ea73c325aa7dcadf010a6ddd12ef2ba44298368afbac1",
+            "sha256": "f4d2da23ad36372c38bd2fa2de111fde0bf7b4a1eca58471d8dd80e705140fb0",
             "ruta": "libros/dominios/src/ciberseguridad.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición de 02/11/2026; requisitos de supervisión conservados en la sede común del Agente Especializado en Ciberseguridad Inteligente."
+          "procedencia": "Revisión documental 118 de 02/11/2026; fronteras de IA, responsabilidad institucional y límites de recepción de la supervisión."
         },
         {
           "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",

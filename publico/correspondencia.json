@@ -1,6 +1,6 @@
 {
-  "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "3c2dbf8ed2c1d4542216cbfd1b03a991c95388449868a5356262b64a017423d7",
+  "alcance": "Composición de correspondencias: Dominios cotejado de nuevo en la revisión 118; las restantes correspondencias se conservan por identidad con la edición pública anterior, sin nuevo cotejo. No acredita lectura de imágenes, traducción ni producción.",
+  "biblioteca_sha256": "921e36108b53ec0b680330b768c863821294e51b000d2318033d3e22fcb579b2",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3214,7 +3214,7 @@
     },
     {
       "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
-      "cobertura_bytes": 9446,
+      "cobertura_bytes": 10009,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-06",
       "identificador_editorial_r0": null,
@@ -3222,9 +3222,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/ciberseguridad.md",
-        "sha256": "517d4f1b60ee12e5ba2ea73c325aa7dcadf010a6ddd12ef2ba44298368afbac1"
+        "sha256": "f4d2da23ad36372c38bd2fa2de111fde0bf7b4a1eca58471d8dd80e705140fb0"
       },
-      "procedencia": "Edición de 02/11/2026; requisitos de supervisión conservados en la sede común del Agente Especializado en Ciberseguridad Inteligente.",
+      "procedencia": "Revisión documental 118 de 02/11/2026; fronteras de IA, responsabilidad institucional y límites de recepción de la supervisión.",
       "secciones": [
         {
           "fin_byte_exclusivo": 449,
@@ -3245,76 +3245,76 @@
           "ultima_linea": 12
         },
         {
-          "fin_byte_exclusivo": 2647,
+          "fin_byte_exclusivo": 3209,
           "inicio_byte": 1076,
           "primera_linea": 13,
-          "seccion": "MD-L000013-L000020",
-          "sha256": "1812c7c497debe30fd5058e2dc3539bfd391121e7b0b0f618d0f5d00d3ebcf5e",
+          "seccion": "MD-L000013-L000022",
+          "sha256": "fb8b9ef8c437aef95220722c389c29a83af62426f4082ebe4f6bcd1ca14b5cc3",
           "titulo": "Relación con el dominio y el acceso",
-          "ultima_linea": 20
+          "ultima_linea": 22
         },
         {
-          "fin_byte_exclusivo": 3384,
-          "inicio_byte": 2647,
-          "primera_linea": 21,
-          "seccion": "MD-L000021-L000025",
+          "fin_byte_exclusivo": 3946,
+          "inicio_byte": 3209,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000027",
           "sha256": "5b865df72f19b4c34f0d46a46fab49954984e3478196399d84fd45d89351cacd",
           "titulo": "Objetivo del Agente Especializado",
-          "ultima_linea": 25
+          "ultima_linea": 27
         },
         {
-          "fin_byte_exclusivo": 4951,
-          "inicio_byte": 3384,
-          "primera_linea": 26,
-          "seccion": "MD-L000026-L000033",
+          "fin_byte_exclusivo": 5513,
+          "inicio_byte": 3946,
+          "primera_linea": 28,
+          "seccion": "MD-L000028-L000035",
           "sha256": "5f7ae76de0f4d0e7c07c6490c91b33e3d47ed98882140918d63f41c55859686b",
           "titulo": "Instrucciones preliminares pre-núcleo {#instrucciones-pre-nucleo}",
-          "ultima_linea": 33
+          "ultima_linea": 35
         },
         {
-          "fin_byte_exclusivo": 6278,
-          "inicio_byte": 4951,
-          "primera_linea": 34,
-          "seccion": "MD-L000034-L000039",
+          "fin_byte_exclusivo": 6840,
+          "inicio_byte": 5513,
+          "primera_linea": 36,
+          "seccion": "MD-L000036-L000041",
           "sha256": "5532c5a62b380c116aad8b4e96561a4a70276e8ff868b2ae46a6102d77b26e9b",
           "titulo": "Relación con las evaluaciones de modelos",
-          "ultima_linea": 39
+          "ultima_linea": 41
         },
         {
-          "fin_byte_exclusivo": 6837,
-          "inicio_byte": 6278,
-          "primera_linea": 40,
-          "seccion": "MD-L000040-L000045",
+          "fin_byte_exclusivo": 7399,
+          "inicio_byte": 6840,
+          "primera_linea": 42,
+          "seccion": "MD-L000042-L000047",
           "sha256": "b75014be593dcc0cd7054b673c2652d2605677fea1e02d4b81f3646d115fb377",
           "titulo": "Inventario de referencia",
-          "ultima_linea": 45
+          "ultima_linea": 47
         },
         {
-          "fin_byte_exclusivo": 7427,
-          "inicio_byte": 6837,
-          "primera_linea": 46,
-          "seccion": "MD-L000046-L000051",
+          "fin_byte_exclusivo": 7989,
+          "inicio_byte": 7399,
+          "primera_linea": 48,
+          "seccion": "MD-L000048-L000053",
           "sha256": "009afd559dcf25b24c3ddbd02fa5fba9e524c5f7fc32a16cd8417292dbcee5dd",
           "titulo": "Contexto necesario",
-          "ultima_linea": 51
+          "ultima_linea": 53
         },
         {
-          "fin_byte_exclusivo": 8152,
-          "inicio_byte": 7427,
-          "primera_linea": 52,
-          "seccion": "MD-L000052-L000057",
+          "fin_byte_exclusivo": 8714,
+          "inicio_byte": 7989,
+          "primera_linea": 54,
+          "seccion": "MD-L000054-L000059",
           "sha256": "0b67300ad96ce54934ef80fd5d9ca3e006f34908685777fed16a35ca2c094ed1",
           "titulo": "Límites",
-          "ultima_linea": 57
+          "ultima_linea": 59
         },
         {
-          "fin_byte_exclusivo": 9446,
-          "inicio_byte": 8152,
-          "primera_linea": 58,
-          "seccion": "MD-L000058-L000065",
-          "sha256": "6275a1904b9e8594b0391342c32798fcff520791c9b0a86fafd6c8ae069fbb0c",
+          "fin_byte_exclusivo": 10009,
+          "inicio_byte": 8714,
+          "primera_linea": 60,
+          "seccion": "MD-L000060-L000068",
+          "sha256": "75113ec6b61188b4c9d4c13fcd07af0698b35165df3cb0f03f0e863079d810fe",
           "titulo": "Fuentes de interpretación",
-          "ultima_linea": 65
+          "ultima_linea": 68
         }
       ]
     },
@@ -4136,9 +4136,83 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-supervision-20261102",
+  "edicion": "biblioteca-sv-supervision-20261102-r118",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "6dde33e58404654c30a9547575cbcfb5692212c2cae05741148d843694f23748",
+  "politica_sha256": "ae5bd2e20b52ec70004bfe07c3af53e02a11a56a274e4a8e2c1c3f359d065870",
   "recepcion_visual": false,
-  "version": 1
+  "version": 1,
+  "revision_verificacion": {
+    "revision": "118",
+    "libros_cotejados_de_nuevo": [
+      "dominios"
+    ],
+    "documentos_cotejados_de_nuevo": [
+      "DOMINIOS-01",
+      "DOMINIOS-02",
+      "DOMINIOS-03",
+      "DOMINIOS-04",
+      "DOMINIOS-05",
+      "DOMINIOS-06",
+      "DOMINIOS-07",
+      "DOMINIOS-08"
+    ],
+    "documentos_conservados_sin_nuevo_cotejo": [
+      "GUIA-01",
+      "GUIA-02",
+      "GUIA-03",
+      "GUIA-04",
+      "GUIA-05",
+      "VISUALIZADORES-01",
+      "VISUALIZADORES-02",
+      "VISUALIZADORES-03",
+      "VISUALIZADORES-04",
+      "VISUALIZADORES-05",
+      "VISUALIZADORES-06",
+      "VISUALIZADORES-07",
+      "NORMATIVA-01",
+      "NORMATIVA-02",
+      "NORMATIVA-03",
+      "NORMATIVA-04",
+      "NORMATIVA-05",
+      "NORMATIVA-06",
+      "NORMATIVA-07",
+      "NORMATIVA-08",
+      "NORMATIVA-09",
+      "NORMATIVA-10",
+      "MANUAL_INDICE",
+      "MANUAL_PRESENTACION",
+      "MANUAL_CONSTRUCTOR",
+      "MANUAL_TRAMO10",
+      "MANUAL_PARAMETROS_RUTAS",
+      "MANUAL_ARBITRO_DIRECTOR",
+      "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
+      "MANUAL_HARDWARE_ACELERACION",
+      "MANUAL_EXPLORADOR_TENSORIAL",
+      "MANUAL_HERRAMIENTAS",
+      "MANUAL_DESARROLLO_VALIDACION",
+      "MANUAL_AGRADECIMIENTOS",
+      "MANUAL_PLAYGROUND_SV",
+      "MANUAL_EJEMPLOS_SVP",
+      "MANUAL_PROGRAMACION_DSL",
+      "MANUAL_CONSTRUCCIONES_Y_COMPONENTES",
+      "MANUAL_ARQUITECTURA_EJECUCION",
+      "MANUAL_OBSERVABILIDAD",
+      "MANUAL_CONFORMIDAD_DIAGNOSTICOS",
+      "MANUAL_REFERENCIA_TERMINOLOGIA",
+      "MANUAL_INTEGRACION_GESTOR_SV",
+      "EET-01",
+      "EET-02",
+      "EET-03",
+      "EET-04",
+      "EET-05",
+      "EET-13",
+      "EET-14",
+      "EET-15"
+    ],
+    "correspondencia_anterior_sha256": "6d5fa836a492923522b514d45db4b6b82303f5aac151bd3baf0178dd841ead13",
+    "base_github": "e90fe9091f604efa827283896023f10856482f1f",
+    "catalogo_limitado_sha256": "7df3bcd7ac964dcd88c3231c407c3e9a9bae73b1ab7edb8b557c342f1288c683",
+    "politica_limitada_sha256": "804e3b0aca8f6f2b978b6dfc0660ed8ad88204ba5670af35deeffa29bcc87876",
+    "informe_limitado_sha256": "e1dd3db7213b1cdc00b5d8c14822db84e19f89c891ebbeffda2e94c6cf517c9d"
+  }
 }

@@ -36,7 +36,7 @@ La preparación material anterior al núcleo se estudia en las [instrucciones pr
 
 ### Aislamiento de la IA {#aislamiento}
 
-Separación material de las facultades del modelo respecto de los recursos y operaciones que no le están autorizados. En el SV impide que la IA alcance directamente el núcleo, modifique el sistema, conceda permisos o acceda a credenciales.
+Separación material de las facultades del modelo respecto de los recursos y operaciones que no le están autorizados. En el SV debe impedir que la IA, incluida la que desempeñe el Perfil defensor (PD), alcance directamente el núcleo, modifique el sistema, conceda permisos o acceda a credenciales.
 
 **Límite:** una instrucción dirigida al modelo no basta para demostrar ese aislamiento. Deben existir controles externos y evidencia de su resistencia a entradas maliciosas y accesos alternativos. La exigencia permanece en seudo-producción y en los tres nodos. Véase [Consulta sin autoridad sobre el sistema](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html#consulta-sin-autoridad-sobre-el-sistema).
 
@@ -140,7 +140,7 @@ Contenido o registro identificable que permite examinar una afirmación dentro d
 
 Registro estable que relaciona finalidad, recursos, autorización, actuaciones y evidencias de una supervisión, una auditoría preventiva o una respuesta a incidentes. Distingue el ámbito propio de la instalación del ámbito externo expresamente autorizado; ninguno se confunde con el dominio de conocimiento del agente.
 
-**Distinción:** abrir una página o identificar una dirección alcanzable no autoriza intervenir. El expediente conserva quién autorizó, alcance, vigencia, condiciones de interrupción y procedencia de los resultados. Véase [Expediente y trazabilidad](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ciberseguridad-inteligente/SUPERVISION-Y-AUDITORIA-DE-SISTEMAS.md#expediente-y-trazabilidad). Equivalente inglés: *monitoring or audit case record*.
+**Distinción:** abrir una página o identificar una dirección alcanzable no autoriza intervenir. El expediente conserva la identidad de la instalación, su titular y responsable, quién autorizó, alcance, vigencia, condiciones de interrupción y procedencia de los resultados. Véase [Expediente y trazabilidad](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ciberseguridad-inteligente/SUPERVISION-Y-AUDITORIA-DE-SISTEMAS.md#expediente-y-trazabilidad). Equivalente inglés: *monitoring or audit case record*.
 
 ### Grados de libertad del modelo {#grados}
 
@@ -328,4 +328,5 @@ Una respuesta tiene un recuento conocido de tokens, pero su cargo final aún no 
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
 

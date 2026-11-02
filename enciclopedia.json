@@ -1,12 +1,12 @@
 {
-  "edicion": "enciclopedia-sv-supervision-20261102b",
+  "edicion": "enciclopedia-sv-supervision-20261102-r118",
   "estado": "preparacion_local",
   "version": 1,
   "libros": [
     {
       "titulo": "Enciclopedia temática del Sistema Vectorial SV",
       "plan": {
-        "sha256": "8dede398dedd1a95a55c2709790b90b782f1ba802e1ee9594f8c3c978d4f3982",
+        "sha256": "229c3ceb2a97300322efc0585b4b576027793062f9676a3218cf0c0bd892cd55",
         "ruta": "libros/enciclopedia/plan.json"
       },
       "metadatos": [
@@ -75,10 +75,10 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/ia.md",
-            "sha256": "3da6e8ef44276672ea8894b591bd7f1efcddcbf12ab985de23d28a9d228922e5"
+            "sha256": "01627eefbe6570576a75992fb12e766277aedc7f911e6e0168420ce5b02fd8a1"
           },
           "documento": "ENC-05",
-          "procedencia": "Edición de 02/11/2026; requisitos de supervisión conservados en la sede común del Agente Especializado en Ciberseguridad Inteligente.",
+          "procedencia": "Revisión documental 118 de 02/11/2026; fronteras de IA, responsabilidad institucional y límites de recepción de la supervisión.",
           "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
           "tipo_original": "markdown",
           "visibilidad": "publica",

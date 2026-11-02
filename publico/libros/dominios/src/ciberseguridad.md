@@ -18,6 +18,8 @@ El [espacio de Ciberseguridad](https://sv.itvia.online/inicio/agentes/cibersegur
 
 La [supervisión y auditoría de sistemas](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ciberseguridad-inteligente/SUPERVISION-Y-AUDITORIA-DE-SISTEMAS.md) distingue el ámbito propio de operación y el ámbito externo autorizado. Sus requisitos de expedientes, fuentes, evidencia y continuidad no amplían OP-CYB-001 ni reciben otras operaciones por analogía. La cobertura efectiva y los permisos se comprueban para cada instalación; un dominio de conocimiento no equivale a una red ni a un dominio administrativo.
 
+La instalación conserva su titular y responsable: supervisar el propio SV y supervisar recursos de una institución que utiliza el SV son actuaciones distintas. Los permisos se constituyen por perfil y operación, vinculados a esa instalación, su ámbito y su expediente; compartir un dominio de conocimiento no comparte facultades. Su especificación común se mantiene en [Autoridad y ámbito](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ciberseguridad-inteligente/SUPERVISION-Y-AUDITORIA-DE-SISTEMAS.md#autoridad-y-ámbito).
+
 ## Objetivo del Agente Especializado
 
 La [protección desde el arranque y preservación del núcleo](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/072b101459a94b1df139ce451dd116615847f679/agentes/ciberseguridad-inteligente/PROTECCION-DESDE-EL-ARRANQUE.md) define el objetivo arquitectónico del Agente Especializado en Ciberseguridad Inteligente. Distingue firmware, procesador, memoria, periféricos y capa 2 de red, y mantiene toda inteligencia artificial (IA), también la defensora, fuera de la autoridad del núcleo. Su recepción material está pendiente; no amplía OP-CYB-001 ni acredita una protección instalada. La definición se conserva en la sede del agente para evitar versiones paralelas en los libros.
@@ -62,4 +64,5 @@ Consulte el [catálogo de P01–P24](https://github.com/juantoniolloretegea/SVpe
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
 
