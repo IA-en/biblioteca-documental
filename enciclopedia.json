@@ -1,12 +1,12 @@
 {
-  "edicion": "enciclopedia-sv-orientacion-terna-20261031",
+  "edicion": "enciclopedia-sv-supervision-20261102",
   "estado": "preparacion_local",
   "version": 1,
   "libros": [
     {
       "titulo": "Enciclopedia temática del Sistema Vectorial SV",
       "plan": {
-        "sha256": "271f13ab14577edbaeb660fec877de5115ed26ff7d281d116eae61d9a40dad8d",
+        "sha256": "81ee85d73cb5256b449822da8c2346cf7dc794d224aa552e5c76e8c5a1025334",
         "ruta": "libros/enciclopedia/plan.json"
       },
       "metadatos": [
@@ -75,10 +75,10 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/ia.md",
-            "sha256": "9edd7d002018e1bad0dca18170125f1755720eba79603237711b9b99fcac8862"
+            "sha256": "e1f46ac4202410aed3790ee5e74e99c21f0d25b03c8736a2aa7bf3000ae81a1e"
           },
           "documento": "ENC-05",
-          "procedencia": "Revisión de concordancia documental de 30/10/2026",
+          "procedencia": "Edición de 02/11/2026; requisitos de supervisión conservados en la sede común del Agente Especializado en Ciberseguridad Inteligente.",
           "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
           "tipo_original": "markdown",
           "visibilidad": "publica",

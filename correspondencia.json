@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "bef9903475037d1bb136f3e4f7797fd2b281d3b83a3c5eba1467dfe246b89e3e",
+  "biblioteca_sha256": "3c2dbf8ed2c1d4542216cbfd1b03a991c95388449868a5356262b64a017423d7",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -3214,7 +3214,7 @@
     },
     {
       "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
-      "cobertura_bytes": 8897,
+      "cobertura_bytes": 9446,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-06",
       "identificador_editorial_r0": null,
@@ -3222,9 +3222,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/ciberseguridad.md",
-        "sha256": "c8fc9f23c9ae7099fa099e04b675b6e1309f8204ee32194c8a81edb294a3f8ac"
+        "sha256": "517d4f1b60ee12e5ba2ea73c325aa7dcadf010a6ddd12ef2ba44298368afbac1"
       },
-      "procedencia": "Revisión de concordancia documental de 30/10/2026",
+      "procedencia": "Edición de 02/11/2026; requisitos de supervisión conservados en la sede común del Agente Especializado en Ciberseguridad Inteligente.",
       "secciones": [
         {
           "fin_byte_exclusivo": 449,
@@ -3245,76 +3245,76 @@
           "ultima_linea": 12
         },
         {
-          "fin_byte_exclusivo": 2099,
+          "fin_byte_exclusivo": 2647,
           "inicio_byte": 1076,
           "primera_linea": 13,
-          "seccion": "MD-L000013-L000018",
-          "sha256": "b7fa9e18d31996e9c4d7034c2fe60bac634219481dacd30e61ceff8056b0f6ce",
+          "seccion": "MD-L000013-L000020",
+          "sha256": "1812c7c497debe30fd5058e2dc3539bfd391121e7b0b0f618d0f5d00d3ebcf5e",
           "titulo": "Relación con el dominio y el acceso",
-          "ultima_linea": 18
+          "ultima_linea": 20
         },
         {
-          "fin_byte_exclusivo": 2836,
-          "inicio_byte": 2099,
-          "primera_linea": 19,
-          "seccion": "MD-L000019-L000023",
+          "fin_byte_exclusivo": 3384,
+          "inicio_byte": 2647,
+          "primera_linea": 21,
+          "seccion": "MD-L000021-L000025",
           "sha256": "5b865df72f19b4c34f0d46a46fab49954984e3478196399d84fd45d89351cacd",
           "titulo": "Objetivo del Agente Especializado",
-          "ultima_linea": 23
+          "ultima_linea": 25
         },
         {
-          "fin_byte_exclusivo": 4403,
-          "inicio_byte": 2836,
-          "primera_linea": 24,
-          "seccion": "MD-L000024-L000031",
+          "fin_byte_exclusivo": 4951,
+          "inicio_byte": 3384,
+          "primera_linea": 26,
+          "seccion": "MD-L000026-L000033",
           "sha256": "5f7ae76de0f4d0e7c07c6490c91b33e3d47ed98882140918d63f41c55859686b",
           "titulo": "Instrucciones preliminares pre-núcleo {#instrucciones-pre-nucleo}",
-          "ultima_linea": 31
+          "ultima_linea": 33
         },
         {
-          "fin_byte_exclusivo": 5730,
-          "inicio_byte": 4403,
-          "primera_linea": 32,
-          "seccion": "MD-L000032-L000037",
+          "fin_byte_exclusivo": 6278,
+          "inicio_byte": 4951,
+          "primera_linea": 34,
+          "seccion": "MD-L000034-L000039",
           "sha256": "5532c5a62b380c116aad8b4e96561a4a70276e8ff868b2ae46a6102d77b26e9b",
           "titulo": "Relación con las evaluaciones de modelos",
-          "ultima_linea": 37
+          "ultima_linea": 39
         },
         {
-          "fin_byte_exclusivo": 6289,
-          "inicio_byte": 5730,
-          "primera_linea": 38,
-          "seccion": "MD-L000038-L000043",
+          "fin_byte_exclusivo": 6837,
+          "inicio_byte": 6278,
+          "primera_linea": 40,
+          "seccion": "MD-L000040-L000045",
           "sha256": "b75014be593dcc0cd7054b673c2652d2605677fea1e02d4b81f3646d115fb377",
           "titulo": "Inventario de referencia",
-          "ultima_linea": 43
+          "ultima_linea": 45
         },
         {
-          "fin_byte_exclusivo": 6879,
-          "inicio_byte": 6289,
-          "primera_linea": 44,
-          "seccion": "MD-L000044-L000049",
+          "fin_byte_exclusivo": 7427,
+          "inicio_byte": 6837,
+          "primera_linea": 46,
+          "seccion": "MD-L000046-L000051",
           "sha256": "009afd559dcf25b24c3ddbd02fa5fba9e524c5f7fc32a16cd8417292dbcee5dd",
           "titulo": "Contexto necesario",
-          "ultima_linea": 49
+          "ultima_linea": 51
         },
         {
-          "fin_byte_exclusivo": 7604,
-          "inicio_byte": 6879,
-          "primera_linea": 50,
-          "seccion": "MD-L000050-L000055",
+          "fin_byte_exclusivo": 8152,
+          "inicio_byte": 7427,
+          "primera_linea": 52,
+          "seccion": "MD-L000052-L000057",
           "sha256": "0b67300ad96ce54934ef80fd5d9ca3e006f34908685777fed16a35ca2c094ed1",
           "titulo": "Límites",
-          "ultima_linea": 55
+          "ultima_linea": 57
         },
         {
-          "fin_byte_exclusivo": 8897,
-          "inicio_byte": 7604,
-          "primera_linea": 56,
-          "seccion": "MD-L000056-L000062",
-          "sha256": "9604522fc8af77b07e0b7be3bbe4871339edac111fdcc07594c5862a5c0cac30",
+          "fin_byte_exclusivo": 9446,
+          "inicio_byte": 8152,
+          "primera_linea": 58,
+          "seccion": "MD-L000058-L000065",
+          "sha256": "6275a1904b9e8594b0391342c32798fcff520791c9b0a86fafd6c8ae069fbb0c",
           "titulo": "Fuentes de interpretación",
-          "ultima_linea": 62
+          "ultima_linea": 65
         }
       ]
     },
@@ -4136,9 +4136,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-agradecimientos-80-20261102",
+  "edicion": "biblioteca-sv-supervision-20261102",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "c2cf6d4752eb1d96b4626e83a41d6b3980692abe2189764cd8218da26ecebf31",
+  "politica_sha256": "6dde33e58404654c30a9547575cbcfb5692212c2cae05741148d843694f23748",
   "recepcion_visual": false,
   "version": 1
 }

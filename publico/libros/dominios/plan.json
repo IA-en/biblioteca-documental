@@ -46,8 +46,8 @@
     },
     {
       "titulo": "Ciberseguridad",
-      "url": "urn:sv:documento:sha256:c8fc9f23c9ae7099fa099e04b675b6e1309f8204ee32194c8a81edb294a3f8ac",
-      "sha256": "c8fc9f23c9ae7099fa099e04b675b6e1309f8204ee32194c8a81edb294a3f8ac",
+      "url": "urn:sv:documento:sha256:517d4f1b60ee12e5ba2ea73c325aa7dcadf010a6ddd12ef2ba44298368afbac1",
+      "sha256": "517d4f1b60ee12e5ba2ea73c325aa7dcadf010a6ddd12ef2ba44298368afbac1",
       "ruta": "ciberseguridad.md",
       "id": "DOMINIOS-06"
     },
@@ -59,5 +59,5 @@
       "id": "DOMINIOS-07"
     }
   ],
-  "revision": "588067cbdc7257c1fe30307eeb9f2024e80150102a34aababf926ac9c4df77c3"
+  "revision": "527329912dbd1a127bd0e3ddfe43c25dceb47a0f2973915444f824d8b97144db"
 }

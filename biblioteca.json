@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-agradecimientos-80-20261102",
+  "edicion": "biblioteca-sv-supervision-20261102",
   "libros": [
     {
       "id": "guia",
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "3604bc440b67e441b2492bcee05f742c95349d8ab9d78465363be5eb7cad67b8",
+        "sha256": "a8fc476b1c6fb497bcaa173e34585c1db5fa21c4a2fa9af9e3faf8062c1e8825",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -783,11 +783,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-06",
           "original": {
-            "sha256": "c8fc9f23c9ae7099fa099e04b675b6e1309f8204ee32194c8a81edb294a3f8ac",
+            "sha256": "517d4f1b60ee12e5ba2ea73c325aa7dcadf010a6ddd12ef2ba44298368afbac1",
             "ruta": "libros/dominios/src/ciberseguridad.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Revisión de concordancia documental de 30/10/2026"
+          "procedencia": "Edición de 02/11/2026; requisitos de supervisión conservados en la sede común del Agente Especializado en Ciberseguridad Inteligente."
         },
         {
           "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
