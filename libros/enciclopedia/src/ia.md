@@ -18,6 +18,8 @@ Las definiciones propias del SV se identifican como tales. Las siglas y equivale
 | Biblioteca y procedimientos | [Dinámica forense](#dinamica-forense), [procedimiento Pasivo y procedimiento Activo](#procedimientos), [protocolo acelerado](#protocolo-acelerado). |
 | Evaluación y enfrentamiento | [Evaluación individual](#evaluacion-individual), [perfiles del enfrentamiento](#perfiles-enfrentamiento), [torneo](#torneo), [selección del defensor](#seleccion-defensor). |
 
+| Supervisión y auditoría | [Cobertura de observación](#cobertura-observacion), [expediente de supervisión](#expediente-supervision), [procedencia de la evidencia](#procedencia-evidencia). |
+
 ## Términos
 
 Las entradas están ordenadas alfabéticamente. Las remisiones enlazan explicaciones complementarias, sin sustituir los contratos de los libros.
@@ -64,6 +66,12 @@ Ordenación de resultados conforme a un criterio fijado para una edición y unas
 **En el SV:** elegir un modelo como referencia visual no lo convierte en ganador. La predominancia de uso tampoco añade puntos ni modifica el orden recibido. Los criterios particulares de una convocatoria no se presentan como una regla universal. Véase [Comparación y lectura de resultados](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html).
 
 **Para continuar la lectura:** [Evaluación de un modelo de IA](https://documentos-sv.itvia.online/enciclopedia/ia.html#evaluacion) · [Predominancia en un dominio](https://documentos-sv.itvia.online/enciclopedia/ia.html#predominancia). Separar el puesto obtenido en una evaluación de la función asignada en un dominio. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+### Cobertura de observación {#cobertura-observacion}
+
+Conjunto de recursos, fuentes, sucesos, magnitudes y periodos para los que existe observación efectivamente comprobada, con sus condiciones de adquisición y sus límites. La instalación de un recolector no prueba que haya observado todos los procesos o que estuviera activo en un momento anterior.
+
+**Distinción:** falta de registros, pérdida de observación y ausencia de actividad son hechos diferentes. La cobertura parcial no se transforma en protección completa ni recibe por sí sola una valoración de la terna. Véase [Adquisición común y contrato de evidencia](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ciberseguridad-inteligente/SUPERVISION-Y-AUDITORIA-DE-SISTEMAS.md#adquisición-común-y-contrato-de-evidencia). Equivalente inglés: *observation coverage*.
 
 ### Conexión con un proveedor o modelo {#conexion}
 
@@ -128,6 +136,12 @@ Contenido o registro identificable que permite examinar una afirmación dentro d
 **Límite:** una afirmación sin comprobación no se convierte en evidencia por registrarla. La integridad de un archivo y la validez científica de su contenido son cuestiones distintas. Véase [Comparación y lectura de resultados](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html).
 
 **Para continuar la lectura:** [Comprobación](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#comprobacion) · [Huella de contenido · SHA-256](https://documentos-sv.itvia.online/enciclopedia/lenguaje.html#huella). Separar comprobación pertinente e identidad de los documentos. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+### Expediente de supervisión o auditoría {#expediente-supervision}
+
+Registro estable que relaciona finalidad, recursos, autorización, actuaciones y evidencias de una supervisión, una auditoría preventiva o una respuesta a incidentes. Distingue el ámbito propio de la instalación del ámbito externo expresamente autorizado; ninguno se confunde con el dominio de conocimiento del agente.
+
+**Distinción:** abrir una página o identificar una dirección alcanzable no autoriza intervenir. El expediente conserva quién autorizó, alcance, vigencia, condiciones de interrupción y procedencia de los resultados. Véase [Expediente y trazabilidad](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ciberseguridad-inteligente/SUPERVISION-Y-AUDITORIA-DE-SISTEMAS.md#expediente-y-trazabilidad). Equivalente inglés: *monitoring or audit case record*.
 
 ### Grados de libertad del modelo {#grados}
 
@@ -194,6 +208,12 @@ Relación de asignación por la que un modelo desempeña una función principal 
 **Distinción:** no equivale a superioridad universal ni a un puesto de clasificación. Su fundamento debe relacionar función, capacidades evaluadas, límites y evidencia. La mera proximidad temática no justifica otra asignación. Véase [Comparación por modos y predominancias](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html#comparación-por-modos-y-predominancias).
 
 **Para continuar la lectura:** [Grados de libertad del modelo](https://documentos-sv.itvia.online/enciclopedia/ia.html#grados) · [Clasificación comparativa de modelos](https://documentos-sv.itvia.online/enciclopedia/ia.html#clasificacion). Relacionar la función asignada con la evidencia, sin confundirla con el orden de clasificación. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+### Procedencia de la evidencia {#procedencia-evidencia}
+
+Información que permite identificar la fuente de una evidencia, su adquisición, las transformaciones realizadas y su relación con los originales conservados. Una medida obtenida directamente y un registro aportado por un tercero mantienen procedencias distintas, aunque describan el mismo recurso.
+
+**Distinción:** una huella permite cotejar integridad respecto de una referencia; no acredita por sí sola autenticidad, cobertura histórica ni validez pericial. Véase [Expediente y trazabilidad](https://github.com/juantoniolloretegea/SVperitus-dataset/blob/main/agentes/ciberseguridad-inteligente/SUPERVISION-Y-AUDITORIA-DE-SISTEMAS.md#expediente-y-trazabilidad). Equivalente inglés: *evidence provenance*.
 
 ### Procedimientos de obtención de información {#procedimientos}
 
@@ -309,3 +329,4 @@ Una respuesta tiene un recuento conocido de tokens, pero su cargo final aún no 
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+
