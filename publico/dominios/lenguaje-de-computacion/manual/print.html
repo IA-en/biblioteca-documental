@@ -996,10 +996,12 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <p>El Lenguaje de Computación del Sistema Vectorial SV y sus herramientas asociadas se apoyan en proyectos, bibliotecas y tecnologías que contribuyen a su desarrollo, comprobación, gestión documental y representación. Agradecemos el trabajo de las comunidades y equipos que los crean, mantienen y documentan. Este reconocimiento comprende también las herramientas utilizadas en pruebas técnicas de inferencia, sin atribuirles por ello una función activa en todas las instalaciones.</p>
 <p>La relación se presenta en <strong>orden alfabético</strong>, sin clasificación de importancia. Cada entrada indica el ámbito de su aportación:</p>
 <ul>
+<li><strong><a href="https://alpinelinux.org/">Alpine Linux</a></strong>: sistema invitado de las redes virtuales de ensayo. Se ha utilizado la edición 3.24.3; las licencias de sus componentes se conservan individualmente.</li>
 <li><strong><a href="https://github.com/dtolnay/anyhow">anyhow</a></strong>: tratamiento y descripción de errores en herramientas auxiliares y adaptadores de inferencia en Rust.</li>
 <li><strong><a href="https://opendal.apache.org/">Apache OpenDAL</a></strong>: abstracción de almacenamiento incorporada a Rustic para sus transportes. Su presencia no acredita que un destino remoto esté configurado o recibido para las copias del SV.</li>
 <li><strong><a href="https://github.com/tokio-rs/axum">Axum</a></strong>: organización de las rutas y atención de las solicitudes del servicio web del Gestor.</li>
 <li><strong><a href="https://github.com/marshallpierce/rust-base64">base64</a></strong>: codificación de datos binarios en los formatos de intercambio que la requieren.</li>
+<li><strong><a href="https://busybox.net/">BusyBox</a></strong>: utilidades del sistema invitado para comprobar servicios y conectividad con datos sintéticos en las redes de ensayo; se conservan sus condiciones GNU GPL v2.</li>
 <li><strong><a href="https://github.com/huggingface/candle">Candle</a></strong>: bibliotecas de Hugging Face para cálculo tensorial y ejecución de modelos en Rust, utilizadas por la traducción auxiliar local y por motores de inferencia empleados en ensayos.</li>
 <li><strong><a href="https://doc.rust-lang.org/cargo/">Cargo</a></strong>: organización de los componentes Rust, sus dependencias, construcción y pruebas.</li>
 <li><strong><a href="https://rustsec.org/">cargo-audit y RustSec</a></strong>: contraste de dependencias con avisos públicos de seguridad y conservación del resultado de la revisión.</li>
@@ -1035,6 +1037,7 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <li><strong><a href="https://github.com/namazso/PawnIO">PawnIO</a></strong>: controlador utilizado por la lectura de sensores del soporte Windows; su reconocimiento no atribuye autoridad decisoria sobre el SV.</li>
 <li><strong><a href="https://github.com/jrmuizel/pdf-extract">pdf-extract</a></strong>: extracción de texto de documentos PDF, base de la adaptación documental utilizada por el SV.</li>
 <li><strong><a href="https://github.com/pulldown-cmark/pulldown-cmark">pulldown-cmark</a></strong>: interpretación de Markdown para su presentación documental.</li>
+<li><strong><a href="https://www.qemu.org/">QEMU</a></strong>: emulación de equipos y enlaces virtuales aislados en las comprobaciones locales. Se ha utilizado la versión 10.2.1; su licencia principal es GNU GPL v2, con las excepciones y licencias de componentes recogidas por el proyecto.</li>
 <li><strong><a href="https://github.com/rust-random/rand">rand</a></strong>: generación de valores aleatorios en los mecanismos que la requieren.</li>
 <li><strong><a href="https://github.com/gz/rust-cpuid">raw-cpuid</a></strong>: consulta desde Rust de la identificación, topología y geometría de caché declaradas por la unidad central de procesamiento. No equivale a medir su actividad ni su tiempo efectivo de habilitación.</li>
 <li><strong><a href="https://github.com/cberner/redb">redb</a></strong>: base de datos integrada en Rust utilizada para los registros persistentes del Gestor y componentes asociados.</li>
@@ -1055,8 +1058,10 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <li><strong><a href="https://github.com/toml-rs/toml">toml_edit</a></strong>: actualización acotada de los manifiestos de dependencias conservando su estructura.</li>
 <li><strong><a href="https://github.com/tower-rs/tower">Tower</a></strong>: utilidades para comprobar los servicios HTTP del Gestor.</li>
 <li><strong><a href="https://github.com/harfbuzz/ttf-parser">ttf-parser</a></strong>: lectura de estructuras y métricas de fuentes tipográficas en el tratamiento documental.</li>
+<li><strong><a href="https://ubuntu.com/">Ubuntu</a></strong>: entorno Linux de construcción y ejecución de instrumentos y máquinas virtuales. Sus paquetes y bibliotecas conservan sus licencias propias.</li>
 <li><strong><a href="https://github.com/unicode-rs/unicode-normalization">unicode-normalization</a></strong>: normalización Unicode en la extracción y el tratamiento de texto documental.</li>
 <li><strong><a href="https://userway.org/">UserWay</a></strong>: herramienta complementaria de accesibilidad incorporada a la web institucional; no sustituye la accesibilidad propia de la interfaz.</li>
+<li><strong><a href="https://vector.dev/">Vector</a></strong>: adquisición local de métricas del anfitrión. La versión 0.61.0 se ha utilizado en una captura de procesador, memoria y estado del sistema en Windows; esta comprobación no acredita todavía supervisión permanente, red ni todos los sucesos de seguridad. Licencia Mozilla Public License 2.0.</li>
 <li><strong><a href="https://wasi.dev/">WASI</a></strong>: interfaces del sistema para comprobar la ejecución WebAssembly fuera del navegador, dentro de las capacidades concedidas por el entorno.</li>
 <li><strong><a href="https://wasm-bindgen.github.io/wasm-bindgen/">wasm-bindgen</a></strong>: comunicación entre WebAssembly y JavaScript en los visualizadores web asociados.</li>
 <li><strong><a href="https://github.com/bytecodealliance/wasmtime">Wasmtime</a></strong>: entorno de ejecución utilizado para comprobar componentes WebAssembly con WASI. Puede emplearse en equipos locales y servidores.</li>
@@ -1069,7 +1074,7 @@ cargo build --manifest-path rust/Cargo.toml -p sv_native --locked
 <h2 id="identificación-y-alcance-del-reconocimiento"><a class="header" href="#identificación-y-alcance-del-reconocimiento">Identificación y alcance del reconocimiento</a></h2>
 <p>Esta página ofrece metadatos públicos que describen la misma relación de proyectos y sus enlaces oficiales. Facilitan su identificación por buscadores; no garantizan su indexación ni notifican automáticamente a los responsables de los proyectos. El reconocimiento no establece patrocinio, colaboración contractual ni aval de sus titulares.</p>
 <p>El <a href="https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-practica-20261027/practicas/COMPONENTES-Y-AGRADECIMIENTOS.md">inventario acotado de la instrumentación del ensayo práctico</a> identifica versiones, licencias y funciones efectivamente utilizadas. Las referencias de arquitectura estudiadas y no incorporadas se indican por separado.</p>
-<p>Revisión: 29 de octubre de 2026.</p>
+<p>Revisión: 2 de noviembre de 2026.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 
