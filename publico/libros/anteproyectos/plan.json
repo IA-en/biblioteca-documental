@@ -1,0 +1,70 @@
+{
+  "version": 3,
+  "libro": "SV_ANTEPROYECTOS",
+  "summary": {
+    "titulo": "Índice",
+    "url": "urn:sv:documento:sha256:da9e7231cc4769a65c3b12309d057bad0f7e9cbef30ba9774ef7095b8165291f",
+    "sha256": "da9e7231cc4769a65c3b12309d057bad0f7e9cbef30ba9774ef7095b8165291f",
+    "ruta": "SUMMARY.md",
+    "id": "ANTEPROYECTOS-01"
+  },
+  "capitulos": [
+    {
+      "titulo": "Presentación",
+      "url": "urn:sv:documento:sha256:8f90377a56eac23095e38bf324cae3803bc423b5ae72709bf390b2e9357ed5f5",
+      "sha256": "8f90377a56eac23095e38bf324cae3803bc423b5ae72709bf390b2e9357ed5f5",
+      "ruta": "presentacion.md",
+      "id": "ANTEPROYECTOS-02"
+    },
+    {
+      "titulo": "Objeto y método",
+      "url": "urn:sv:documento:sha256:b22983d1ccde427464c5e8cbbb63d34f727c5dfe8681fcde6ddfcd3c8d860d8b",
+      "sha256": "b22983d1ccde427464c5e8cbbb63d34f727c5dfe8681fcde6ddfcd3c8d860d8b",
+      "ruta": "metodo.md",
+      "id": "ANTEPROYECTOS-03"
+    },
+    {
+      "titulo": "Supervisión y célula de intrusión",
+      "url": "urn:sv:documento:sha256:da3a86092958d00927fe301ff84b130393af9a8437d30dfe65abc5e2107f472c",
+      "sha256": "da3a86092958d00927fe301ff84b130393af9a8437d30dfe65abc5e2107f472c",
+      "ruta": "celula-intrusion.md",
+      "id": "ANTEPROYECTOS-04"
+    },
+    {
+      "titulo": "Observación y recursos",
+      "url": "urn:sv:documento:sha256:0aabf19dc9f57f24019289fc0af18ba39b1435a57b393cac8bc4bfaad8b17e7c",
+      "sha256": "0aabf19dc9f57f24019289fc0af18ba39b1435a57b393cac8bc4bfaad8b17e7c",
+      "ruta": "observacion-recursos.md",
+      "id": "ANTEPROYECTOS-05"
+    },
+    {
+      "titulo": "Imágenes y dominios",
+      "url": "urn:sv:documento:sha256:bb99a7bb74659ea35a75baddf2c53595470a4fd0fc91d074e9d790ba2b9e5b02",
+      "sha256": "bb99a7bb74659ea35a75baddf2c53595470a4fd0fc91d074e9d790ba2b9e5b02",
+      "ruta": "imagenes-dominios.md",
+      "id": "ANTEPROYECTOS-06"
+    },
+    {
+      "titulo": "Condiciones de integración",
+      "url": "urn:sv:documento:sha256:1e511767b73bf4021f3cbb46fcbad95fd74174f6166557a7aa2a2250987d29aa",
+      "sha256": "1e511767b73bf4021f3cbb46fcbad95fd74174f6166557a7aa2a2250987d29aa",
+      "ruta": "integracion.md",
+      "id": "ANTEPROYECTOS-07"
+    },
+    {
+      "titulo": "Comprobación y evolución",
+      "url": "urn:sv:documento:sha256:70a2f18ab273aa57eef5219787b62c6c75c3fd01bc39435f09552bac2763f140",
+      "sha256": "70a2f18ab273aa57eef5219787b62c6c75c3fd01bc39435f09552bac2763f140",
+      "ruta": "comprobacion.md",
+      "id": "ANTEPROYECTOS-08"
+    },
+    {
+      "titulo": "Fuentes y relaciones",
+      "url": "urn:sv:documento:sha256:c74f62bed7c2099f9f87bbf83b307b066601e882e5020749b1af13d1fc871386",
+      "sha256": "c74f62bed7c2099f9f87bbf83b307b066601e882e5020749b1af13d1fc871386",
+      "ruta": "fuentes.md",
+      "id": "ANTEPROYECTOS-09"
+    }
+  ],
+  "revision": "432da42036b3cc3c547c6ccfb2f9ce2490542d1047d0dc589c31ccc93ad450b5"
+}

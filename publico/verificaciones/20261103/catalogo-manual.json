@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "edicion": "biblioteca-sv-memorias-descriptivas-20261103",
+  "libros": [
+    {
+      "id": "manual",
+      "titulo": "Lenguaje de Computación SV: fundamentos, arquitectura y referencia",
+      "raiz": "libros/manual/src",
+      "plan": {
+        "ruta": "libros/manual/plan.json",
+        "sha256": "2d0b61b11b5d1b70055762edfdd1ab454a23d1526f89c0da7a78a77bebdca8b8"
+      },
+      "metadatos": [
+        {
+          "documento": "MANUAL_INDICE",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/SUMMARY.md",
+            "sha256": "8a97a2690582340bc23fe7dc01ad5fd7bfe9a1fd4411aa1967a9ffecbb917cf9"
+          },
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_PRESENTACION",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/presentacion.md",
+            "sha256": "a26df8da16e7c3dedc9f5c63bf3d41e65294f14e149884de85ca227123165a80"
+          },
+          "procedencia": "Orientación conceptual revisada el 31/10/2026",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Distinción entre determinismo, predicción, corrección e indeterminación; autoridad de la terna y remisión a las fuentes rectoras. No añade reglas al núcleo ni acredita capacidades.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_CONSTRUCTOR",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/constructor.md",
+            "sha256": "6258b9f7b0f18794022a23586fc86e9c39217310a8763271c76b2d60cc02c3d9"
+          },
+          "procedencia": "Edición pública propia actualizada el 15/10/2026; fuentes bibliográficas identificadas en los capítulos.",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_TRAMO10",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/tramo-10.md",
+            "sha256": "10e7cae6cd6a51fc0ce31e49ff85e1a3258a4e2479ab26e746bf40ae5881bb53"
+          },
+          "procedencia": "Adaptación editorial propia de 12/10/2026. Fuentes históricas identificadas y enlazadas en el capítulo; no es reproducción literal de ellas.",
+          "licencia": "CC BY-NC-ND 4.0; atribución y condiciones propias conservadas en la fuente",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Edición explicativa de alcance limitado. La identidad literal corresponde al Markdown propio publicado, no a sus fuentes bibliográficas.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_PARAMETROS_RUTAS",
+          "identificador_editorial_r0": null,
+          "alcance": "Constitución celular, consejo al experto y estudio del potencial; requisitos y límites de la seudo-producción, sin habilitación operativa.",
+          "correspondencia": "identidad_literal",
+          "procedencia": "Revisión editorial del 25/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "original": {
+            "ruta": "libros/manual/src/parametros-rutas.md",
+            "sha256": "5936336a7db8bda5b9970a66abb85986de8908bc0d4ed490f760626d4a83c0ca"
+          },
+          "sintetico": false
+        },
+        {
+          "documento": "MANUAL_ARBITRO_DIRECTOR",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/arbitro-director.md",
+            "sha256": "90330d358ea3fb2f845c138e38f2fa601cf5474207ae4bc9c657361395832ac5"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_SELECTOR_ARBITRO_DIRECTOR",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/selector-arbitro-director.md",
+            "sha256": "1cf2bb97d0d9edb70bd2b5768553ccf2a217c78f84ffba30d6651e5e904cad99"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_HARDWARE_ACELERACION",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/hardware-aceleracion-tensorial.md",
+            "sha256": "0ec830fee2101a910d6b9db8133b3e534fe46a232a625503ebca591461826e34"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "MANUAL_EXPLORADOR_TENSORIAL",
+          "tipo_original": "markdown",
+          "original": {
+            "ruta": "libros/manual/src/explorador-tensorial-sv.md",
+            "sha256": "4fde56586841ba35651b49117c7a4f05cf10b101d4bee8a2b5a37dd5eb8319fb"
+          },
+          "procedencia": "Edición pública propia de 15/10/2026; exposición explicativa basada en las referencias identificadas.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "sintetico": false,
+          "visibilidad": "publica",
+          "alcance": "Funciones, condiciones y resultados experimentales delimitados; no acredita validación general de nodos, modelos o dispositivos.",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null
+        },
+        {
+          "procedencia": "Edición pública de 26/10/2026",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "097f5be72ef06554f1d890efec040f9f74eb044e16d4572a18ffdf87bca1147e",
+            "ruta": "libros/manual/src/herramientas-desarrollo-comprobacion.md"
+          },
+          "sintetico": false,
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "visibilidad": "publica",
+          "alcance": "Reconocimiento de componentes utilizados y mantenimiento de dependencias y versiones; sin modificación de la semántica del lenguaje ni habilitación de producción.",
+          "documento": "MANUAL_HERRAMIENTAS"
+        },
+        {
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null,
+          "sintetico": false,
+          "procedencia": "Edición pública de 27/10/2026",
+          "documento": "MANUAL_DESARROLLO_VALIDACION",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "e8c026acae6407d3b0d428e148646431f35be3ea516c27be86d6aee52c35f909",
+            "ruta": "libros/manual/src/desarrollo-validacion-nucleo.md"
+          },
+          "visibilidad": "publica"
+        },
+        {
+          "alcance": "Reconocimiento de componentes utilizados y mantenimiento de dependencias y versiones; sin modificación de la semántica del lenguaje ni habilitación de producción.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null,
+          "sintetico": false,
+          "procedencia": "Edición de 02/11/2026; fuente canónica identificada por SHA-256 c88b349863b80685a53f5f8ff05e1d416f36040068d68f568406887023ff9719.",
+          "documento": "MANUAL_AGRADECIMIENTOS",
+          "tipo_original": "markdown",
+          "original": {
+            "sha256": "f63403c70eb388c86b9ac7c6af6ff79f28817669b04e7c684db5c3784893ff80",
+            "ruta": "libros/manual/src/agradecimientos.md"
+          },
+          "visibilidad": "publica"
+        },
+        {
+          "tipo_original": "markdown",
+          "licencia": "CC BY-NC-ND 4.0",
+          "visibilidad": "publica",
+          "original": {
+            "ruta": "libros/manual/src/playground-sv.md",
+            "sha256": "fc2b0efbb3c4012d863e62319f756f26937c5b686d43336fbf1249ab47a31fa0"
+          },
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Guía de consulta; distingue conformidad, ejecución y capacidades pendientes. No autoriza uso de datos ni inferencia.",
+          "documento": "MANUAL_PLAYGROUND_SV"
+        },
+        {
+          "tipo_original": "markdown",
+          "licencia": "CC BY-NC-ND 4.0",
+          "visibilidad": "publica",
+          "original": {
+            "ruta": "libros/manual/src/ejemplos-svp.md",
+            "sha256": "8ef2d2d5c5878cfeaa0a20cfe0b237514cacde4cdfab14a24f0456e74aab7402"
+          },
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Guía de consulta; distingue conformidad, ejecución y capacidades pendientes. No autoriza uso de datos ni inferencia.",
+          "documento": "MANUAL_EJEMPLOS_SVP"
+        },
+        {
+          "tipo_original": "markdown",
+          "licencia": "CC BY-NC-ND 4.0",
+          "visibilidad": "publica",
+          "original": {
+            "ruta": "libros/manual/src/programacion-dsl.md",
+            "sha256": "057e9a32aa866949d6f91d5f31ac31a286215752a9e04cae311f905013fcb11b"
+          },
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Guía de consulta; distingue conformidad, ejecución y capacidades pendientes. No autoriza uso de datos ni inferencia.",
+          "documento": "MANUAL_PROGRAMACION_DSL"
+        },
+        {
+          "tipo_original": "markdown",
+          "licencia": "CC BY-NC-ND 4.0",
+          "visibilidad": "publica",
+          "original": {
+            "ruta": "libros/manual/src/construcciones-y-componentes.md",
+            "sha256": "52241722c8a8315ff5c666a1d240dc82a8519af8262382e698c41dd3514fd6f6"
+          },
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Guía de consulta; distingue conformidad, ejecución y capacidades pendientes. No autoriza uso de datos ni inferencia.",
+          "documento": "MANUAL_CONSTRUCCIONES_Y_COMPONENTES"
+        },
+        {
+          "alcance": "Estudio de instrucciones preliminares pre-núcleo. Conserva contratos y jerarquía; no acredita implementación ni habilita dominios, agentes o pruebas.",
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_ARQUITECTURA_EJECUCION",
+          "identificador_editorial_r0": null,
+          "procedencia": "Edición explicativa de 28/10/2026",
+          "original": {
+            "ruta": "libros/manual/src/arquitectura-ejecucion.md",
+            "sha256": "49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759"
+          },
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_OBSERVABILIDAD",
+          "identificador_editorial_r0": null,
+          "procedencia": "Revisión de concordancia documental de 30/10/2026",
+          "original": {
+            "ruta": "libros/manual/src/observabilidad.md",
+            "sha256": "237691579d67514e5bda9349c1518eb1bb4e49983636482d375d9f45f330cd43"
+          },
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "alcance": "Arquitectura, observabilidad y consulta del lenguaje conforme al alcance de la edición.",
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_CONFORMIDAD_DIAGNOSTICOS",
+          "identificador_editorial_r0": null,
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "original": {
+            "ruta": "libros/manual/src/conformidad-diagnosticos.md",
+            "sha256": "1db2302bf1d95386ca02e352cd63b56ab71291bff2072719ce216fc76dbb487e"
+          },
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "alcance": "Precisión terminológica y referencias a la Enciclopedia temática. Conserva los contratos, condiciones y límites del libro.",
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "MANUAL_REFERENCIA_TERMINOLOGIA",
+          "identificador_editorial_r0": null,
+          "procedencia": "Revisión terminológica de 25/10/2026; antecedentes conservados",
+          "original": {
+            "ruta": "libros/manual/src/referencia-terminologia.md",
+            "sha256": "4ce2400241265fda0cc97a6e05b652ffb2f3a4a67f6e80f90a8cb75989823ffb"
+          },
+          "licencia": "CC BY-NC-ND 4.0"
+        },
+        {
+          "correspondencia": "identidad_literal",
+          "identificador_editorial_r0": null,
+          "sintetico": false,
+          "documento": "MANUAL_INTEGRACION_GESTOR_SV",
+          "original": {
+            "ruta": "libros/manual/src/integracion-gestor-sv.md",
+            "sha256": "68426e0158ce1461dab8e7323feec0e022065f63ab55d18e9b6895ef191f7bac"
+          },
+          "procedencia": "Edición explicativa propia de 19/10/2026",
+          "alcance": "Relación del Gestor con los contratos del Lenguaje, asignaciones por dominio y acceso documental.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "visibilidad": "publica",
+          "tipo_original": "markdown"
+        }
+      ]
+    }
+  ],
+  "estado": "preparacion_local"
+}

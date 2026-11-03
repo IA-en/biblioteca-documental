@@ -1,0 +1,531 @@
+{
+  "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
+  "biblioteca_sha256": "c1fe61eb4137592d3f840e5cab4d315fa58bc4070b1c197b812d88c4742bd4ab",
+  "conforme": true,
+  "consulta_proveedor": false,
+  "conversion_general_recibida": false,
+  "documentos": [
+    {
+      "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+      "cobertura_bytes": 703,
+      "correspondencia": "identidad_literal",
+      "documento": "VISUALIZADORES-01",
+      "identificador_editorial_r0": null,
+      "libro": "visualizadores",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/visualizadores/src/SUMMARY.md",
+        "sha256": "2b09bcb94740214f313a0a7034c62178549d023486eae8bcd9b9dd399b27223d"
+      },
+      "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 703,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000012",
+          "sha256": "2b09bcb94740214f313a0a7034c62178549d023486eae8bcd9b9dd399b27223d",
+          "titulo": "Índice",
+          "ultima_linea": 12
+        }
+      ]
+    },
+    {
+      "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+      "cobertura_bytes": 3528,
+      "correspondencia": "identidad_literal",
+      "documento": "VISUALIZADORES-02",
+      "identificador_editorial_r0": null,
+      "libro": "visualizadores",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/visualizadores/src/finalidad.md",
+        "sha256": "a7d2d726d93b6ca026da9816f2181e04f527ae494ed82acb9c905ac8268a4142"
+      },
+      "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 540,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000006",
+          "sha256": "f510b5f4c372652a674a85731be967cd38f08a3c2661a737f267ff1815958438",
+          "titulo": "Reglas, usos y descripciones documentales de documentos para el conocimiento de la IA",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 1248,
+          "inicio_byte": 540,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000014",
+          "sha256": "db116094ac6ce10a26adb1931eaf9a3a00f26a9a4043f962efcb9beeaab29b75",
+          "titulo": "Qué conserva el sistema",
+          "ultima_linea": 14
+        },
+        {
+          "fin_byte_exclusivo": 1927,
+          "inicio_byte": 1248,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000022",
+          "sha256": "a4b9aadbd0ec8460ef861c7646a5ddd86adca1a8ee592ac4116e785617195f49",
+          "titulo": "Cómo trabajar con un documento",
+          "ultima_linea": 22
+        },
+        {
+          "fin_byte_exclusivo": 2559,
+          "inicio_byte": 1927,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000028",
+          "sha256": "9003d13de6212b4a52055f8c43e66eaab487786c2675ed5da569ad89fbc9115a",
+          "titulo": "Quién autoriza el uso por la IA",
+          "ultima_linea": 28
+        },
+        {
+          "fin_byte_exclusivo": 3528,
+          "inicio_byte": 2559,
+          "primera_linea": 29,
+          "seccion": "MD-L000029-L000037",
+          "sha256": "7f728bad78f8134784f85de99ca0296edf3640d07bc93409e08e4dcd7838d2ec",
+          "titulo": "Lectura y traducción",
+          "ultima_linea": 37
+        }
+      ]
+    },
+    {
+      "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+      "cobertura_bytes": 4860,
+      "correspondencia": "identidad_literal",
+      "documento": "VISUALIZADORES-03",
+      "identificador_editorial_r0": null,
+      "libro": "visualizadores",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/visualizadores/src/formatos.md",
+        "sha256": "f2d1e5ec058a4c7cef902b457b041b5015ae1dbdd464bb89e2daf02465146bd1"
+      },
+      "procedencia": "Edición pública propia de 11/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 41,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "fadf9d6480c6bc2c2323a4d3bbcdcbee96d16bf27d3a726c8f748f54c75749e5",
+          "titulo": "Formatos, representaciones y límites",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 1487,
+          "inicio_byte": 41,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000010",
+          "sha256": "2e0a4f1bbb36f2d549a9a436411e9475f86e774cefca22dd951b4f937971361b",
+          "titulo": "PDF: leer las páginas",
+          "ultima_linea": 10
+        },
+        {
+          "fin_byte_exclusivo": 2780,
+          "inicio_byte": 1487,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000020",
+          "sha256": "9fcc0af77c4585a9e9bd95055905db4412b4604662f8a6c0cc931e8a00cfaea0",
+          "titulo": "PDF: obtener texto y organizar libros",
+          "ultima_linea": 20
+        },
+        {
+          "fin_byte_exclusivo": 3288,
+          "inicio_byte": 2780,
+          "primera_linea": 21,
+          "seccion": "MD-L000021-L000026",
+          "sha256": "9d1eeafd98ef9aba1f7ae5e25e4a032663426bb32c157dfc3a417e46e4385578",
+          "titulo": "Página web conservada",
+          "ultima_linea": 26
+        },
+        {
+          "fin_byte_exclusivo": 3816,
+          "inicio_byte": 3288,
+          "primera_linea": 27,
+          "seccion": "MD-L000027-L000032",
+          "sha256": "2a571c55aad4b7a9b5e2bf3bd2fdbb31947a7edabaf21b802abaaed7e90487b0",
+          "titulo": "Markdown y mdBook",
+          "ultima_linea": 32
+        },
+        {
+          "fin_byte_exclusivo": 4860,
+          "inicio_byte": 3816,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000046",
+          "sha256": "e2020a08dcc589f5ae3a801c849d7f369e9c4347aafd95a033f0151900e2d149",
+          "titulo": "Elegir la representación adecuada",
+          "ultima_linea": 46
+        }
+      ]
+    },
+    {
+      "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
+      "cobertura_bytes": 4051,
+      "correspondencia": "identidad_literal",
+      "documento": "VISUALIZADORES-04",
+      "identificador_editorial_r0": null,
+      "libro": "visualizadores",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/visualizadores/src/entrega.md",
+        "sha256": "b9fcd409955b2aa714fa84ea865050c489d97b1d2197df846ebf0449a3f188f3"
+      },
+      "procedencia": "Edición pública de 27/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 47,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "6c5c47e7de3add6d467b733f1e3464bc3092ae135335670a63d703510934a698",
+          "titulo": "Permisos documentales y bloqueo de entregas",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 996,
+          "inicio_byte": 47,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000008",
+          "sha256": "22bffe9a8b6529fc2fc5df842d0e667e7853d2cf4d3e540a6ce9058d85b041cb",
+          "titulo": "Regla vigente",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 1694,
+          "inicio_byte": 996,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000014",
+          "sha256": "7acb2f8dfcfc314bfb2abb354afeb56a9eb41a08b55d95a0371c4786717018ee",
+          "titulo": "Qué sigue disponible",
+          "ultima_linea": 14
+        },
+        {
+          "fin_byte_exclusivo": 2526,
+          "inicio_byte": 1694,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000020",
+          "sha256": "2b8154cd385ad34fcfeb6de51412e3be4fd1cb87c3aac7d732bf339960fe2e79",
+          "titulo": "Desactivar la traducción auxiliar",
+          "ultima_linea": 20
+        },
+        {
+          "fin_byte_exclusivo": 3242,
+          "inicio_byte": 2526,
+          "primera_linea": 21,
+          "seccion": "MD-L000021-L000026",
+          "sha256": "8e50b4a25b63112353d7b4976b5185effb7381e3061fbed3d86b0accf9b8348b",
+          "titulo": "Lectura de antecedentes",
+          "ultima_linea": 26
+        },
+        {
+          "fin_byte_exclusivo": 4051,
+          "inicio_byte": 3242,
+          "primera_linea": 27,
+          "seccion": "MD-L000027-L000032",
+          "sha256": "6cbb4df3f5e76f16db29a198c9beacb7d597e1deb0de51cffe6861de2782f8a1",
+          "titulo": "Condiciones de una nueva habilitación",
+          "ultima_linea": 32
+        }
+      ]
+    },
+    {
+      "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+      "cobertura_bytes": 2982,
+      "correspondencia": "identidad_literal",
+      "documento": "VISUALIZADORES-05",
+      "identificador_editorial_r0": null,
+      "libro": "visualizadores",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/visualizadores/src/revision.md",
+        "sha256": "90acceda7c5516d9b20aa62692beaee0eca5fa8f3d1f1aaf1a2ef6a79a496fbe"
+      },
+      "procedencia": "Edición pública propia de 11/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 45,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "676a851a23144924a9ef6a9101d8a7658ce4a35e998cb4f4bae975660eaf15ab",
+          "titulo": "Información disponible para la revisión",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 489,
+          "inicio_byte": 45,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000008",
+          "sha256": "e68cea4d4ed05c806a4f783657499713b6a0a2f65a8897217487b209cca27789",
+          "titulo": "Leer sin perder la referencia",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 1140,
+          "inicio_byte": 489,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000020",
+          "sha256": "60667923aae5cccc6834f1c3d423d1359b7e47d1b56b37fedc51d8ea75667126",
+          "titulo": "Qué revisar",
+          "ultima_linea": 20
+        },
+        {
+          "fin_byte_exclusivo": 1851,
+          "inicio_byte": 1140,
+          "primera_linea": 21,
+          "seccion": "MD-L000021-L000028",
+          "sha256": "2db85377a26ce4b7b252ea4add91296ac808ecff514144f68548c191366fbbd6",
+          "titulo": "Historial del documento",
+          "ultima_linea": 28
+        },
+        {
+          "fin_byte_exclusivo": 2201,
+          "inicio_byte": 1851,
+          "primera_linea": 29,
+          "seccion": "MD-L000029-L000032",
+          "sha256": "3a07db42218b6829d475f379c3c790a0221f1f2337abbbef0d18beeb3e03b875",
+          "titulo": "Ante una representación incompleta",
+          "ultima_linea": 32
+        },
+        {
+          "fin_byte_exclusivo": 2982,
+          "inicio_byte": 2201,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000041",
+          "sha256": "3103e9b4768049fcbb2d67c130c0b0cb74159c5cca662bec3e73c0ca4801ddbd",
+          "titulo": "Ante una respuesta de la IA",
+          "ultima_linea": 41
+        }
+      ]
+    },
+    {
+      "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
+      "cobertura_bytes": 4289,
+      "correspondencia": "identidad_literal",
+      "documento": "VISUALIZADORES-06",
+      "identificador_editorial_r0": null,
+      "libro": "visualizadores",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/visualizadores/src/verificacion.md",
+        "sha256": "0a12c7b6614cb3263ebe3f80d11e5174aefd9c62ce1bd553b17af91fc0b54ec2"
+      },
+      "procedencia": "Edición pública de 27/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 93,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "2e669f9c0e01ca7677ac5228477836d13ed6ac582e44fc70422f17bc66a8aac3",
+          "titulo": "Comprobaciones, estado y fuentes",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 2007,
+          "inicio_byte": 93,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000018",
+          "sha256": "e648f14d34c6402710e236728529856eb0992c83775ee87f231f04d814389067",
+          "titulo": "Capacidades y límites",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 2695,
+          "inicio_byte": 2007,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000030",
+          "sha256": "d6853b51cdf64acbec04f6abe8b6303c1caf0c13a19db589370cb5b51364573b",
+          "titulo": "Función de los componentes",
+          "ultima_linea": 30
+        },
+        {
+          "fin_byte_exclusivo": 3551,
+          "inicio_byte": 2695,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000040",
+          "sha256": "2a0c3b29fad47a7693ec496b159aa6604f277cba1d5a48362a61eb1dcad18d1c",
+          "titulo": "Fuentes primarias",
+          "ultima_linea": 40
+        },
+        {
+          "fin_byte_exclusivo": 4289,
+          "inicio_byte": 3551,
+          "primera_linea": 41,
+          "seccion": "MD-L000041-L000049",
+          "sha256": "3add1b4e415e8a7895799db235a638d38894f3a39a1d3b0d1e2426697f064a5e",
+          "titulo": "Derechos y alcance de la explicación",
+          "ultima_linea": 49
+        }
+      ]
+    },
+    {
+      "alcance": "Lectura, permisos y controles documentales; contenido a proveedores bloqueado; no acredita producción ni certificación general.",
+      "cobertura_bytes": 20129,
+      "correspondencia": "identidad_literal",
+      "documento": "VISUALIZADORES-07",
+      "identificador_editorial_r0": null,
+      "libro": "visualizadores",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/visualizadores/src/prioridades.md",
+        "sha256": "89ff65a1ac9a924d3ae538d93bbbb977e010be32bae438652a1feb65e0a578a4"
+      },
+      "procedencia": "Edición pública propia V.08 de 18/10/2026; antecedentes conservados en el historial",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 466,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000006",
+          "sha256": "9913195b511fccb1a107c2dcccb96ef0064fb0ce3b8607159f621650351bc232",
+          "titulo": "Prioridades documentales y Universos relacionados",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 1102,
+          "inicio_byte": 466,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000012",
+          "sha256": "0bcefee1e9b8c77563ab9a62c12d6b59a3462e8e419c406194b4627c4d869d5a",
+          "titulo": "Universo y responsabilidad documental",
+          "ultima_linea": 12
+        },
+        {
+          "fin_byte_exclusivo": 1449,
+          "inicio_byte": 1102,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000016",
+          "sha256": "2a25c46941302cbd6f56da1e6f4375bcf7ed940ee07286dd3aab5da339bf2320",
+          "titulo": "Reglas de clasificación",
+          "ultima_linea": 16
+        },
+        {
+          "fin_byte_exclusivo": 2748,
+          "inicio_byte": 1449,
+          "primera_linea": 17,
+          "seccion": "MD-L000017-L000026",
+          "sha256": "19545cc2e82f6742c6cee916ca565e51213629fc108433ed77704e3bc5ca0a1a",
+          "titulo": "1. Finalidad y ámbito",
+          "ultima_linea": 26
+        },
+        {
+          "fin_byte_exclusivo": 3957,
+          "inicio_byte": 2748,
+          "primera_linea": 27,
+          "seccion": "MD-L000027-L000036",
+          "sha256": "31ffda22ab4016ee4fde38328d5a7a293eb229412b335d326abbc11f0789c872",
+          "titulo": "2. Identidad del documento y pertenencia a un Universo",
+          "ultima_linea": 36
+        },
+        {
+          "fin_byte_exclusivo": 5419,
+          "inicio_byte": 3957,
+          "primera_linea": 37,
+          "seccion": "MD-L000037-L000048",
+          "sha256": "116260d292c82ac2a427cf77692093ccbdb74704fcd2ca0576f08e32effff8fc",
+          "titulo": "Selección por Universo y conservación del maestro",
+          "ultima_linea": 48
+        },
+        {
+          "fin_byte_exclusivo": 7767,
+          "inicio_byte": 5419,
+          "primera_linea": 49,
+          "seccion": "MD-L000049-L000078",
+          "sha256": "36e1b88624d61933ec0c567f9c8722d21ff91e23d4d6314e08b08c02a3c48b08",
+          "titulo": "3. Ficha y ayuda para la clasificación",
+          "ultima_linea": 78
+        },
+        {
+          "fin_byte_exclusivo": 9135,
+          "inicio_byte": 7767,
+          "primera_linea": 79,
+          "seccion": "MD-L000079-L000092",
+          "sha256": "2530ce5418f48752bb18e518f8ab6cc3c55b16ff6f52366c3ac7e94cd0f2a7b3",
+          "titulo": "4. Precedencia determinista dentro de un Universo",
+          "ultima_linea": 92
+        },
+        {
+          "fin_byte_exclusivo": 9979,
+          "inicio_byte": 9135,
+          "primera_linea": 93,
+          "seccion": "MD-L000093-L000100",
+          "sha256": "4ec848e6762bbe3ae0fa98d6ef005628f6e229c51dabc8412241d7d590b31484",
+          "titulo": "Ordenar documentos de igual prioridad y fecha",
+          "ultima_linea": 100
+        },
+        {
+          "fin_byte_exclusivo": 10820,
+          "inicio_byte": 9979,
+          "primera_linea": 101,
+          "seccion": "MD-L000101-L000106",
+          "sha256": "ab39dfe3abbe9c0f72fa76a6b6558acf4ecb0fccb9338dd8152421da4a9b62f8",
+          "titulo": "Complementos, rectificaciones y discrepancias",
+          "ultima_linea": 106
+        },
+        {
+          "fin_byte_exclusivo": 12396,
+          "inicio_byte": 10820,
+          "primera_linea": 107,
+          "seccion": "MD-L000107-L000124",
+          "sha256": "ca6f92dc9b23e68779cab29a2c1522a59e535917d6dfc89e5b2d8162d1c54276",
+          "titulo": "5. Selección y orden de los Universos relacionados",
+          "ultima_linea": 124
+        },
+        {
+          "fin_byte_exclusivo": 14218,
+          "inicio_byte": 12396,
+          "primera_linea": 125,
+          "seccion": "MD-L000125-L000143",
+          "sha256": "3a663978446f396b7d208290bec9f3a85dd04020405b630ee3f16b71651f9343",
+          "titulo": "6. Incorporación, cambios y condiciones de suministro",
+          "ultima_linea": 143
+        },
+        {
+          "fin_byte_exclusivo": 15524,
+          "inicio_byte": 14218,
+          "primera_linea": 144,
+          "seccion": "MD-L000144-L000160",
+          "sha256": "64e21ef3a9b217cf2669d88748f15f9914792c1ccf093f03e9692bde8f66aba1",
+          "titulo": "7. Integridad y trazabilidad",
+          "ultima_linea": 160
+        },
+        {
+          "fin_byte_exclusivo": 16545,
+          "inicio_byte": 15524,
+          "primera_linea": 161,
+          "seccion": "MD-L000161-L000168",
+          "sha256": "561f41dfd4a66ac2aabbdfa7493f7bb73e92066d3f91fd3a07030e614675ce05",
+          "titulo": "8. Relación con las futuras rutas de conocimiento",
+          "ultima_linea": 168
+        },
+        {
+          "fin_byte_exclusivo": 18129,
+          "inicio_byte": 16545,
+          "primera_linea": 169,
+          "seccion": "MD-L000169-L000187",
+          "sha256": "b7a1ebebf85b3d4418cfc277f284c6aae32faf0b1a7cd2a8a2db90f2e5cbf850",
+          "titulo": "9. Comprobación de las reglas",
+          "ultima_linea": 187
+        },
+        {
+          "fin_byte_exclusivo": 20129,
+          "inicio_byte": 18129,
+          "primera_linea": 188,
+          "seccion": "MD-L000188-L000198",
+          "sha256": "32d76596c6acebe58850756a4a16e2058238e26083686f0f72f2fb2ab890faa4",
+          "titulo": "Referencias y derechos",
+          "ultima_linea": 198
+        }
+      ]
+    }
+  ],
+  "edicion": "biblioteca-sv-memorias-descriptivas-20261103",
+  "navegacion_autonoma_modelo": false,
+  "politica_sha256": "10cc0b0592826738e5b7350a2a84bc3bb7f8d9a28fe2648c6b2caa160cf53250",
+  "recepcion_visual": false,
+  "version": 1
+}

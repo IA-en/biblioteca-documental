@@ -1,0 +1,11 @@
+{
+  "permitir_restringidos": false,
+  "permitir_sinteticos": false,
+  "biblioteca_sha256": "c63cf6646449dce44b9a765d7762de6d8fa6885ddc579705c6ef02d93cf8f148",
+  "finalidad": "verificacion_local",
+  "libros_permitidos": [
+    "dominios"
+  ],
+  "nodo": 1,
+  "version": 1
+}

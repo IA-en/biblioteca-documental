@@ -12,6 +12,8 @@ La biblioteca ofrece publicaciones de consulta sobre el Sistema Vectorial SV. Ca
 
 **Lenguaje de Computación.** Ámbito del lenguaje, compatibilidad y requisitos de ejecución. La edición disponible tiene alcance limitado y no constituye un manual completo.
 
+**Anteproyectos y memorias descriptivas.** Necesidades y alternativas transversales, con sus condiciones de desarrollo y comprobación. El [libro](anteproyectos-memorias-descriptivas/index.html) distingue las propuestas de las capacidades acreditadas y remite a las definiciones competentes.
+
 Las publicaciones deben leerse conforme al alcance que declaran. Un marco de referencia describe exigencias; una comprobación acredita un resultado delimitado. Ninguna de ambas cosas equivale por sí sola a una certificación.
 
 ## Ediciones y continuidad

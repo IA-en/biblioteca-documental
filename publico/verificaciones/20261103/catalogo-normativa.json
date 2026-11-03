@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "edicion": "biblioteca-sv-memorias-descriptivas-20261103",
+  "libros": [
+    {
+      "id": "normativa",
+      "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
+      "plan": {
+        "ruta": "libros/normativa/plan.json",
+        "sha256": "bd3d155a5b250a16b1637b0767d960d974f3691c6c7b69167fd71f5952d592f5"
+      },
+      "metadatos": [
+        {
+          "documento": "NORMATIVA-01",
+          "original": {
+            "ruta": "libros/normativa/src/SUMMARY.md",
+            "sha256": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-02",
+          "original": {
+            "ruta": "libros/normativa/src/presentacion.md",
+            "sha256": "bdb08774f5a23af6237ce2bb3d05b7feb33c6cc86b952762b07b90121549b769"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-03",
+          "original": {
+            "ruta": "libros/normativa/src/garantias.md",
+            "sha256": "c1ea55cae07e42bffd9611c5b1ac0ac06f1b6a29f07deec9ac4b7168ffb73fc4"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-04",
+          "original": {
+            "ruta": "libros/normativa/src/trazabilidad.md",
+            "sha256": "f5ac6a959d34d52cbabd5ebcd77abb291c89498667c70ac19b2ab27866c7c822"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-05",
+          "original": {
+            "ruta": "libros/normativa/src/marco-normativo.md",
+            "sha256": "a07bf70497b4602ba384c84082fc3bf089d4815324f4b76a97d4512942d7b468"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-06",
+          "original": {
+            "ruta": "libros/normativa/src/ciberseguridad.md",
+            "sha256": "098735b7786e81b15b73d97e3a6b6a5a50dffd7b17a906d7059670a41c0d26f4"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-07",
+          "original": {
+            "ruta": "libros/normativa/src/uso-sanitario.md",
+            "sha256": "bed7acb4ebe90b35f075b2c136f1bbd21504907176f9d049350c21fd7089eefb"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-08",
+          "original": {
+            "ruta": "libros/normativa/src/derechos.md",
+            "sha256": "fe9e45bbf6f6e0fe0e8a46c8ef590288926546cd80ed756704d6ad0b03360507"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia de 10/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-09",
+          "original": {
+            "ruta": "libros/normativa/src/evaluacion.md",
+            "sha256": "90700334409926449911b3e28fe7707b199eb98685c0be30eedc53f3de0b5fd7"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        },
+        {
+          "documento": "NORMATIVA-10",
+          "original": {
+            "ruta": "libros/normativa/src/referencias.md",
+            "sha256": "4dcf6e6f53f807b4db46d892ef872e0a61edc084f72a977c5c0350c2888821a4"
+          },
+          "identificador_editorial_r0": null,
+          "correspondencia": "identidad_literal",
+          "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "procedencia": "Edición pública propia; actualización de 13/10/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown"
+        }
+      ],
+      "raiz": "libros/normativa/src"
+    }
+  ],
+  "estado": "preparacion_local"
+}

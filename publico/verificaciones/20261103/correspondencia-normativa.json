@@ -1,0 +1,633 @@
+{
+  "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
+  "biblioteca_sha256": "23afc7032bb600f841b84f399e98900d123709c85f5150b2006a97962dd9314b",
+  "conforme": true,
+  "consulta_proveedor": false,
+  "conversion_general_recibida": false,
+  "documentos": [
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 507,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-01",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/SUMMARY.md",
+        "sha256": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc"
+      },
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 507,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000013",
+          "sha256": "49723480e2f40a70525c29c120fb57b2ab463313e502d24a5ca501b423d0c6dc",
+          "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
+          "ultima_linea": 13
+        }
+      ]
+    },
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 2437,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-02",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/presentacion.md",
+        "sha256": "bdb08774f5a23af6237ce2bb3d05b7feb33c6cc86b952762b07b90121549b769"
+      },
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 118,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "d51dd3ec889a8fab5b1ec9525e0aea725829510a92304486bb1fcc14713eddc2",
+          "titulo": "Normativa, trazabilidad y seguimiento de la IA en el SV",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 1099,
+          "inicio_byte": 118,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000012",
+          "sha256": "1b331d0c709658e17c9d418895269af3de3775d7058ecdb57b81fbdd30fa876d",
+          "titulo": "Propósito de esta obra",
+          "ultima_linea": 12
+        },
+        {
+          "fin_byte_exclusivo": 1707,
+          "inicio_byte": 1099,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000018",
+          "sha256": "e648dd6c9d1fedbb6d8c978d2c52a2ae168a2edfb74872a74e331d6365f9c403",
+          "titulo": "Cómo leerlo",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 2437,
+          "inicio_byte": 1707,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000029",
+          "sha256": "e63df7ad08781f54b12e3b6eb2b8053075073adf9e7b966ad083c53faa4ad456",
+          "titulo": "Principio rector",
+          "ultima_linea": 29
+        }
+      ]
+    },
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 2878,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-03",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/garantias.md",
+        "sha256": "c1ea55cae07e42bffd9611c5b1ac0ac06f1b6a29f07deec9ac4b7168ffb73fc4"
+      },
+      "procedencia": "Edición pública propia de 10/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 24,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "9f03a80bd416d760c83d27fd08310160639ea5e6e3629c99c0d8d64cb812f2d4",
+          "titulo": "Garantías y alcance",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 877,
+          "inicio_byte": 24,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000015",
+          "sha256": "a5498b9b8a0e26fce39bd199277a051d60f3b57637f672ea98d656dfc3abbdef",
+          "titulo": "Qué significa ofrecer una garantía documental",
+          "ultima_linea": 15
+        },
+        {
+          "fin_byte_exclusivo": 1498,
+          "inicio_byte": 877,
+          "primera_linea": 16,
+          "seccion": "MD-L000016-L000021",
+          "sha256": "6695bfedd18c37e22e1fbde2773b4da7af91a45efeb4dbb84314e8afa04ea572",
+          "titulo": "Conocimiento documental y conocimiento previo",
+          "ultima_linea": 21
+        },
+        {
+          "fin_byte_exclusivo": 2024,
+          "inicio_byte": 1498,
+          "primera_linea": 22,
+          "seccion": "MD-L000022-L000027",
+          "sha256": "79e8a77d8223e1ba059623e7b929f3ca0fc1ed426ba525cde315cfefaad5bc7e",
+          "titulo": "Diferentes grados de acreditación",
+          "ultima_linea": 27
+        },
+        {
+          "fin_byte_exclusivo": 2878,
+          "inicio_byte": 2024,
+          "primera_linea": 28,
+          "seccion": "MD-L000028-L000038",
+          "sha256": "5c0035426199fab165ebdf6a955a52edfbb72613eef1a5fcd2585dea2635a12b",
+          "titulo": "Supervisión humana",
+          "ultima_linea": 38
+        }
+      ]
+    },
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 3509,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-04",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/trazabilidad.md",
+        "sha256": "f5ac6a959d34d52cbabd5ebcd77abb291c89498667c70ac19b2ab27866c7c822"
+      },
+      "procedencia": "Edición pública propia de 10/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 40,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "38fcf1a9749d7b111afaaf0d60ec6d8e88ae089c71f6c3336904d136a633b012",
+          "titulo": "Procedencia y seguimiento documental",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 599,
+          "inicio_byte": 40,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000010",
+          "sha256": "cbca4fdcb8fbd268abc3a104701ef7eb04646874f5f91e7543cd9252a6e44ad6",
+          "titulo": "De la fuente a la valoración",
+          "ultima_linea": 10
+        },
+        {
+          "fin_byte_exclusivo": 1354,
+          "inicio_byte": 599,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000018",
+          "sha256": "7e997c16921117cb3a9aac665b6e8000cc8ee0529d5e3f2df93e42757574c0e9",
+          "titulo": "Identidad, versión y transformación",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 2146,
+          "inicio_byte": 1354,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000030",
+          "sha256": "863cb055e39e58887462adb7423ac31aab1565198ec34545b360b6f8cd4bae32",
+          "titulo": "Tres hechos diferentes",
+          "ultima_linea": 30
+        },
+        {
+          "fin_byte_exclusivo": 2736,
+          "inicio_byte": 2146,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000036",
+          "sha256": "5a50fb849e8a5e98b4bff4227872aa760d7293ac0e0044d61674935883fc32b6",
+          "titulo": "Actualización y retirada",
+          "ultima_linea": 36
+        },
+        {
+          "fin_byte_exclusivo": 3509,
+          "inicio_byte": 2736,
+          "primera_linea": 37,
+          "seccion": "MD-L000037-L000047",
+          "sha256": "40aaa73d956147f448ba3294912eb1d84ef31c4d54c6bb23cbe7d7e21031957b",
+          "titulo": "Explicación y procesos del modelo",
+          "ultima_linea": 47
+        }
+      ]
+    },
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 7718,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-05",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/marco-normativo.md",
+        "sha256": "a07bf70497b4602ba384c84082fc3bf089d4815324f4b76a97d4512942d7b468"
+      },
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 33,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "0b0acbbe5c1d2a285ca3ddc3a9c319104b6c90b45e21815cc0580e7d8ee5102b",
+          "titulo": "Normas y marcos de referencia",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 550,
+          "inicio_byte": 33,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000008",
+          "sha256": "a96e52feb13f9e9ae1f0f90d60de8764857fd4d555e846f88b9f6aba881b945b",
+          "titulo": "Criterio de selección",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 1698,
+          "inicio_byte": 550,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000022",
+          "sha256": "28cb9eed420e56c5cdc63a84a7f7f7aec4ddc70c7f761b41effe608f1cb6d358",
+          "titulo": "Normas internacionales",
+          "ultima_linea": 22
+        },
+        {
+          "fin_byte_exclusivo": 2355,
+          "inicio_byte": 1698,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000028",
+          "sha256": "40898bce341fa8993ae3fa014675d4bfbc4107f2e15566f7e8ebc0e59e13da05",
+          "titulo": "Recomendaciones y especificaciones",
+          "ultima_linea": 28
+        },
+        {
+          "fin_byte_exclusivo": 2834,
+          "inicio_byte": 2355,
+          "primera_linea": 29,
+          "seccion": "MD-L000029-L000032",
+          "sha256": "b5dfc325c925c54ceff4fd0994bfbaef2ba44734d77699f6222557464b461ead",
+          "titulo": "Legislación según la finalidad",
+          "ultima_linea": 32
+        },
+        {
+          "fin_byte_exclusivo": 4800,
+          "inicio_byte": 2834,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000047",
+          "sha256": "bcdc424793d5d5ea26fb734da864db89a369975fafd51f44a24fe6194c380c88",
+          "titulo": "Modificación de 2026 y calendario de aplicación",
+          "ultima_linea": 47
+        },
+        {
+          "fin_byte_exclusivo": 6165,
+          "inicio_byte": 4800,
+          "primera_linea": 48,
+          "seccion": "MD-L000048-L000055",
+          "sha256": "b7834782d442f43b349b14b609534faaee682b2402cce7bda69e74585ae8bc75",
+          "titulo": "Alfabetización, supervisión y evidencia",
+          "ultima_linea": 55
+        },
+        {
+          "fin_byte_exclusivo": 6745,
+          "inicio_byte": 6165,
+          "primera_linea": 56,
+          "seccion": "MD-L000056-L000059",
+          "sha256": "5ece0290f34cea6778f4b3ce0ef417aaee48b31f523b8e20861465bc83bf60f0",
+          "titulo": "Versiones lingüísticas y texto de referencia",
+          "ultima_linea": 59
+        },
+        {
+          "fin_byte_exclusivo": 7718,
+          "inicio_byte": 6745,
+          "primera_linea": 60,
+          "seccion": "MD-L000060-L000070",
+          "sha256": "8ea23a7af5489d56e28b30af7f528115015c6d5fcdcf0fd9b1a81e65398ef2b6",
+          "titulo": "Otras disposiciones según la actividad",
+          "ultima_linea": 70
+        }
+      ]
+    },
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 3382,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-06",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/ciberseguridad.md",
+        "sha256": "098735b7786e81b15b73d97e3a6b6a5a50dffd7b17a906d7059670a41c0d26f4"
+      },
+      "procedencia": "Edición pública propia de 10/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 40,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "6bb003528c60818ea259715747f00505e6ce07473bac30f9817d85037d847258",
+          "titulo": "Ciberseguridad: evidencia y límites",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 650,
+          "inicio_byte": 40,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000008",
+          "sha256": "fbe623a2faf84540648fa454f1814112147082b2f3aaa8caf492a95e9b1b2ad8",
+          "titulo": "Una recomendación necesita contexto",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 1242,
+          "inicio_byte": 650,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000014",
+          "sha256": "9053d482849c86e4adc616714666bbb64e0e20d4282334c77fab9e6a53f73bb5",
+          "titulo": "Evidencia y autoridad",
+          "ultima_linea": 14
+        },
+        {
+          "fin_byte_exclusivo": 2186,
+          "inicio_byte": 1242,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000022",
+          "sha256": "01a6c9155543c6f761e849de4e4de6a9e48597528401e6a3d443c9ea0747b658",
+          "titulo": "Registros e investigación de incidentes",
+          "ultima_linea": 22
+        },
+        {
+          "fin_byte_exclusivo": 3382,
+          "inicio_byte": 2186,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000035",
+          "sha256": "252bd7fedb499d9e63986c7b67c64580beded30ed3460f77b5c0fd7d4ca646a3",
+          "titulo": "Límites de una conclusión",
+          "ultima_linea": 35
+        }
+      ]
+    },
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 2708,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-07",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/uso-sanitario.md",
+        "sha256": "bed7acb4ebe90b35f075b2c136f1bbd21504907176f9d049350c21fd7089eefb"
+      },
+      "procedencia": "Edición pública propia de 10/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 32,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "e110457d0e880e4a68dceab9ddff444ce051346011337a6ca73c0940fdb83dbc",
+          "titulo": "Inmunología y uso sanitario",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 627,
+          "inicio_byte": 32,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000008",
+          "sha256": "c07c12a3cf68a3cfccb835f3fc139e91c6a9de2a5fb999a75da53856b6facf23",
+          "titulo": "Calidad científica y pertinencia clínica",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 1133,
+          "inicio_byte": 627,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000014",
+          "sha256": "988a97ecab371c635354bf9e3cc27d0d7d1ae3ac0301506408effaa7152a0374",
+          "titulo": "Fidelidad y seguridad",
+          "ultima_linea": 14
+        },
+        {
+          "fin_byte_exclusivo": 1630,
+          "inicio_byte": 1133,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000020",
+          "sha256": "324abdde72e20450c146bb664baf865b80404e90f4cdc7ec49e23792cf117377",
+          "titulo": "Procedencia e intercambio",
+          "ultima_linea": 20
+        },
+        {
+          "fin_byte_exclusivo": 2708,
+          "inicio_byte": 1630,
+          "primera_linea": 21,
+          "seccion": "MD-L000021-L000031",
+          "sha256": "979f908f16396c9026729bdd18cb06fccdeacffba8aa7c26f209a420c8347bb5",
+          "titulo": "Finalidad y evaluación regulatoria",
+          "ultima_linea": 31
+        }
+      ]
+    },
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 2994,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-08",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/derechos.md",
+        "sha256": "fe9e45bbf6f6e0fe0e8a46c8ef590288926546cd80ed756704d6ad0b03360507"
+      },
+      "procedencia": "Edición pública propia de 10/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 46,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "8d338f0c0fc41efcee1b72a0c0e9950fc06bc7290a1d11703395f147dc08c472",
+          "titulo": "Derechos, confidencialidad y conservación",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 789,
+          "inicio_byte": 46,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000010",
+          "sha256": "dd3ddfef424e30e3a58b31db0feff00577b03dc1138039e3409b6c05f99f2412",
+          "titulo": "Permisos distintos para usos distintos",
+          "ultima_linea": 10
+        },
+        {
+          "fin_byte_exclusivo": 1324,
+          "inicio_byte": 789,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000016",
+          "sha256": "3853dc0dfc5a6d748950b36d7a7c2e8841f0c1abe6bfe7d16cca5be3bc66e207",
+          "titulo": "Transparencia proporcionada",
+          "ultima_linea": 16
+        },
+        {
+          "fin_byte_exclusivo": 2100,
+          "inicio_byte": 1324,
+          "primera_linea": 17,
+          "seccion": "MD-L000017-L000024",
+          "sha256": "68d8ef02dd55a36d0a83bcdcc0ffc0670ccc3b0d2f5e332bb792935a77e824aa",
+          "titulo": "Conservación y protección de datos",
+          "ultima_linea": 24
+        },
+        {
+          "fin_byte_exclusivo": 2994,
+          "inicio_byte": 2100,
+          "primera_linea": 25,
+          "seccion": "MD-L000025-L000035",
+          "sha256": "2bd695fc419fe70f2ffe324afa34037a0668a7559d63dfa4dcca9b8e74af1166",
+          "titulo": "Idiomas y licencias de esta edición",
+          "ultima_linea": 35
+        }
+      ]
+    },
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 2859,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-09",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/evaluacion.md",
+        "sha256": "90700334409926449911b3e28fe7707b199eb98685c0be30eedc53f3de0b5fd7"
+      },
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 24,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "f20bad9c7a99ea1491198c80e471d1b331ad14b79e9b9ac809ef3fad2cd7ee47",
+          "titulo": "Evaluación y mejora",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 901,
+          "inicio_byte": 24,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000016",
+          "sha256": "52135d8a3ad07e7b81effa3adc0f993df99de1669272acfbb16d3c7b15dbd21d",
+          "titulo": "Qué debe medirse",
+          "ultima_linea": 16
+        },
+        {
+          "fin_byte_exclusivo": 1626,
+          "inicio_byte": 901,
+          "primera_linea": 17,
+          "seccion": "MD-L000017-L000024",
+          "sha256": "e692b4667ea5ecc31ad1788fc3bcc2c4f7bef8972ca498b8a0fc432f7d0c4485",
+          "titulo": "Resultados reproducibles y límites",
+          "ultima_linea": 24
+        },
+        {
+          "fin_byte_exclusivo": 2169,
+          "inicio_byte": 1626,
+          "primera_linea": 25,
+          "seccion": "MD-L000025-L000030",
+          "sha256": "9327da375c18b81f31d34d592341a368f8a47e5a8d6c4b4d457c6c77399206c7",
+          "titulo": "Corrección sin reescribir el antecedente",
+          "ultima_linea": 30
+        },
+        {
+          "fin_byte_exclusivo": 2859,
+          "inicio_byte": 2169,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000039",
+          "sha256": "b2a2f6c457e09c3e46167bb97b56ea822e4164671f9faf74eeb26a8a82ac7dbb",
+          "titulo": "Qué significa esta V.02",
+          "ultima_linea": 39
+        }
+      ]
+    },
+    {
+      "alcance": "Edición de consulta pública; no acredita certificación ni autorización de uso asistencial.",
+      "cobertura_bytes": 5593,
+      "correspondencia": "identidad_literal",
+      "documento": "NORMATIVA-10",
+      "identificador_editorial_r0": null,
+      "libro": "normativa",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/normativa/src/referencias.md",
+        "sha256": "4dcf6e6f53f807b4db46d892ef872e0a61edc084f72a977c5c0350c2888821a4"
+      },
+      "procedencia": "Edición pública propia; actualización de 13/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 26,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "d84e3f194558abfdb6baada3d12d513f320280d6d7f0bb3eb0c5fb9a887701d7",
+          "titulo": "Referencias y edición",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 359,
+          "inicio_byte": 26,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000006",
+          "sha256": "b987501493ee070859b161e21c6a8cb1ff7aed1e6e7a815f47909e0ca9e5ea25",
+          "titulo": "Fuentes oficiales",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 1347,
+          "inicio_byte": 359,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000017",
+          "sha256": "14ec5f7dfc3bfccff359af3ffd28f0f45b98c7cb94d740c2af9598422fecb2ed",
+          "titulo": "Gestión de IA, calidad y seguridad",
+          "ultima_linea": 17
+        },
+        {
+          "fin_byte_exclusivo": 2049,
+          "inicio_byte": 1347,
+          "primera_linea": 18,
+          "seccion": "MD-L000018-L000025",
+          "sha256": "d855da4cd2e17d5343b8552aa197117530d1da1c110fa4e3b68b382e15be5712",
+          "titulo": "Procedencia y ciberseguridad",
+          "ultima_linea": 25
+        },
+        {
+          "fin_byte_exclusivo": 3839,
+          "inicio_byte": 2049,
+          "primera_linea": 26,
+          "seccion": "MD-L000026-L000039",
+          "sha256": "d97b611dab632f67b68f729ccf52feb9c3d20630f7d6f6a38b1a6042a5f57657",
+          "titulo": "Información sanitaria y legislación",
+          "ultima_linea": 39
+        },
+        {
+          "fin_byte_exclusivo": 5593,
+          "inicio_byte": 3839,
+          "primera_linea": 40,
+          "seccion": "MD-L000040-L000058",
+          "sha256": "3799c22977c18a8fc414831a60e1e6edeee85ec99b8e70d3f61ec178948862f4",
+          "titulo": "Nota de edición",
+          "ultima_linea": 58
+        }
+      ]
+    }
+  ],
+  "edicion": "biblioteca-sv-memorias-descriptivas-20261103",
+  "navegacion_autonoma_modelo": false,
+  "politica_sha256": "94b4b6fe016b430e977e01c691c18f7730bed6492f8e5daaed9b160b38118baa",
+  "recepcion_visual": false,
+  "version": 1
+}

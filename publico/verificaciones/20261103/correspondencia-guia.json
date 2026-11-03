@@ -1,0 +1,238 @@
+{
+  "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
+  "biblioteca_sha256": "53df7189b73cf43fab0878ea38af42179ebb83fd8010cb273fc6dd510c8f3ba9",
+  "conforme": true,
+  "consulta_proveedor": false,
+  "conversion_general_recibida": false,
+  "documentos": [
+    {
+      "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+      "cobertura_bytes": 203,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-01",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/SUMMARY.md",
+        "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f"
+      },
+      "procedencia": "Edición pública propia de 11/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 203,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000006",
+          "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
+          "titulo": "Biblioteca documental del SV",
+          "ultima_linea": 6
+        }
+      ]
+    },
+    {
+      "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
+      "cobertura_bytes": 3708,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-02",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/indice.md",
+        "sha256": "501ba6e3b88a3f1321a9c8c758df8e2e07c1d597a58ce6a90ee0ce6b1da8ed4f"
+      },
+      "procedencia": "Edición pública propia actualizada, 03/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 298,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000006",
+          "sha256": "56802710603da4b28e9d20be6917fb33a3b3bf5ffc3fca02f49020056aa68ad8",
+          "titulo": "Biblioteca documental del SV",
+          "ultima_linea": 6
+        },
+        {
+          "fin_byte_exclusivo": 2145,
+          "inicio_byte": 298,
+          "primera_linea": 7,
+          "seccion": "MD-L000007-L000017",
+          "sha256": "1d95887201ed2b880277d3f0381b34cba8ad1cfedcb19ebcc3521add9a9b9984",
+          "titulo": "Libros disponibles",
+          "ultima_linea": 17
+        },
+        {
+          "fin_byte_exclusivo": 2597,
+          "inicio_byte": 2145,
+          "primera_linea": 18,
+          "seccion": "MD-L000018-L000021",
+          "sha256": "97b2753aa7ce439bb035c829687877d8ad2e4378cbcc7527ced463ab8a4771d3",
+          "titulo": "Enciclopedia temática del Sistema Vectorial SV",
+          "ultima_linea": 21
+        },
+        {
+          "fin_byte_exclusivo": 3708,
+          "inicio_byte": 2597,
+          "primera_linea": 22,
+          "seccion": "MD-L000022-L000034",
+          "sha256": "e09f3ae45aa956ad35d6cdf3a4f24c5403b0b303f54cbaa1600d390714f382fe",
+          "titulo": "Manual para desarrolladores",
+          "ultima_linea": 34
+        }
+      ]
+    },
+    {
+      "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
+      "cobertura_bytes": 2456,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-03",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/organizacion.md",
+        "sha256": "e19540168dabcd2e60a83d00c325de3e5e92c567bc864eda12ca8aaae515cd69"
+      },
+      "procedencia": "Edición pública propia actualizada, 03/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 251,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "6afbfd5f458f47b1189aba10dc884e9e6fcf23233c2e3cceb0afac8db7f72288",
+          "titulo": "Organización y alcance",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 1689,
+          "inicio_byte": 251,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000018",
+          "sha256": "a453b446f9d5340bc6df0cee1ea764c5c2486c89b866cdd7fbebe52545551f60",
+          "titulo": "Colecciones actuales",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 2456,
+          "inicio_byte": 1689,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000027",
+          "sha256": "329d0a06d0ff64b137ae7c03a74b594472320ffbe9d69c254cecc6ae6aece7b6",
+          "titulo": "Ediciones y continuidad",
+          "ultima_linea": 27
+        }
+      ]
+    },
+    {
+      "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+      "cobertura_bytes": 1782,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-04",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/consulta.md",
+        "sha256": "dc9b1b1fad1ef1c174df9fcd4c67ba0b9d5252fb2345a0e52e4ded8a8808110d"
+      },
+      "procedencia": "Edición pública propia de 11/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 33,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "8207e57c45e14fba0401e54c4523d9c1e33ded27e191d3d502ced76b95b27c6b",
+          "titulo": "Consulta, fuentes y versiones",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 441,
+          "inicio_byte": 33,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000008",
+          "sha256": "7db11b942d453238ef49c2f6876e3c7e1753452ad7fc1ca2edfa59f731565e44",
+          "titulo": "Índice y capítulos",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 937,
+          "inicio_byte": 441,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000014",
+          "sha256": "22b8ada2113ced49dfc2d29a8cdea6fb665190b2fd1b93ebecf4388eb558be05",
+          "titulo": "Fuentes y alcance",
+          "ultima_linea": 14
+        },
+        {
+          "fin_byte_exclusivo": 1782,
+          "inicio_byte": 937,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000023",
+          "sha256": "65f1294647d5f274e3ab8b1a1694f0f823d753f9079c1618fe2ff3e81aa52a3e",
+          "titulo": "Original e idiomas",
+          "ultima_linea": 23
+        }
+      ]
+    },
+    {
+      "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+      "cobertura_bytes": 1210,
+      "correspondencia": "identidad_literal",
+      "documento": "GUIA-05",
+      "identificador_editorial_r0": null,
+      "libro": "guia",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/guia/src/licencias.md",
+        "sha256": "cf3cf23c00ee9cee3b246919eef91b85b7006c219b2e48c7774cee46c8c7dd46"
+      },
+      "procedencia": "Edición pública propia de 11/10/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 27,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000002",
+          "sha256": "976e1e3e25a4c9441427be8b52bf0bdf09af3af7f4826b193d983d9dac6eb9bd",
+          "titulo": "Licencias y atribución",
+          "ultima_linea": 2
+        },
+        {
+          "fin_byte_exclusivo": 383,
+          "inicio_byte": 27,
+          "primera_linea": 3,
+          "seccion": "MD-L000003-L000008",
+          "sha256": "0ab8b1b6fa982b24a91e5d0baf847c9dc5615b6b784f0433756f703dfc5b120d",
+          "titulo": "Textos propios",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 588,
+          "inicio_byte": 383,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000012",
+          "sha256": "285b4606fb570dae862991de64e3dcdc82fa7ed861aed0b5fdcbcd554284da58",
+          "titulo": "Ediciones anteriores",
+          "ultima_linea": 12
+        },
+        {
+          "fin_byte_exclusivo": 1210,
+          "inicio_byte": 588,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000021",
+          "sha256": "e3448f1eaeec9d71ec6c32cddd08c44af40b08cd375b2cddffdff4f6c5f95375",
+          "titulo": "Presentación",
+          "ultima_linea": 21
+        }
+      ]
+    }
+  ],
+  "edicion": "biblioteca-sv-memorias-descriptivas-20261103",
+  "navegacion_autonoma_modelo": false,
+  "politica_sha256": "b5f2c459c2b1b01c2fc8849510f1fd901718df9a1a3b03ef6e5219c3ac97a13b",
+  "recepcion_visual": false,
+  "version": 1
+}

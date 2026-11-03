@@ -1,0 +1,28 @@
+[book]
+title = "Anteproyectos y memorias descriptivas del Sistema Vectorial SV"
+description = "Necesidades, alternativas y condiciones de desarrollo: supervisión, célula de intrusión, observación y herramientas auxiliares de imágenes."
+language = "es"
+src = "src"
+[build]
+build-dir = "book"
+create-missing = false
+use-default-preprocessors = false
+[output.html]
+theme = "theme"
+additional-css = ["biblioteca.css"]
+additional-js = ["presentacion.js"]
+mathjax-support = false
+no-section-label = true
+smart-punctuation = false
+git-repository-url = "https://github.com/IA-en/biblioteca-documental"
+[output.html.playground]
+runnable = false
+editable = false
+copy-js = false
+[output.html.search]
+enable = false
+
+
+# SPDX-License-Identifier: CC-BY-NC-ND-4.0
+# © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
+# https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.es

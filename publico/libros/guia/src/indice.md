@@ -1,6 +1,6 @@
 # Biblioteca documental del SV
 
-Edición del catálogo: 27 de octubre de 2026 · Original en español.
+Edición del catálogo: 3 de noviembre de 2026 · Original en español.
 
 Libros para comprender los fundamentos y las garantías documentales del Sistema Vectorial SV. La matriz editorial es [IA eñ · La Biblia de la IA](https://editorialia.com/), ISSN 2695-6411.
 
@@ -13,6 +13,7 @@ Libros para comprender los fundamentos y las garantías documentales del Sistema
 | [Normativa, trazabilidad y seguimiento de la IA en el SV · V.02](normativa/trazabilidad-y-seguimiento-ia/index.html) | Procedencia, evaluación, derechos y referencias normativas; atención a ciberseguridad y uso sanitario. Marco explicativo, sin declaración de certificación. |
 | [Lenguaje de Computación SV: fundamentos, arquitectura y referencia](dominios/lenguaje-de-computacion/manual/index.html) | Fundamentos y teoría del lenguaje, significado de sus construcciones, arquitectura, recursos y comprobación. Las capacidades disponibles y pendientes se delimitan en sus capítulos. |
 | [Validación, autorización y puesta en Producción de modelos de Inteligencia Artificial](evaluacion/validacion-autorizacion-modelos/index.html) | Método de examen documental, corrección ciega, comparación y responsabilidades institucionales. Original en español; traducción automática para la lectura. |
+| [Anteproyectos y memorias descriptivas del Sistema Vectorial SV](anteproyectos-memorias-descriptivas/index.html) | Necesidades, alternativas y condiciones de desarrollo. Primera memoria: supervisión, célula de intrusión, recursos y herramientas auxiliares de imágenes. |
 
 ## Enciclopedia temática del Sistema Vectorial SV
 

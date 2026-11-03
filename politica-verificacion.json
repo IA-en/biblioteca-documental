@@ -1,7 +1,7 @@
 {
   "permitir_restringidos": false,
   "permitir_sinteticos": false,
-  "biblioteca_sha256": "921e36108b53ec0b680330b768c863821294e51b000d2318033d3e22fcb579b2",
+  "biblioteca_sha256": "c0941572b30c913d7e4f9151c0842b8c45102ac7035334b89daa12687442ab85",
   "finalidad": "verificacion_local",
   "libros_permitidos": [
     "guia",
@@ -9,7 +9,8 @@
     "normativa",
     "manual",
     "dominios",
-    "evaluacion-modelos"
+    "evaluacion-modelos",
+    "anteproyectos"
   ],
   "nodo": 1,
   "version": 1

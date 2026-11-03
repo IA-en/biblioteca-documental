@@ -1,0 +1,11 @@
+{
+  "permitir_restringidos": false,
+  "permitir_sinteticos": false,
+  "biblioteca_sha256": "23afc7032bb600f841b84f399e98900d123709c85f5150b2006a97962dd9314b",
+  "finalidad": "verificacion_local",
+  "libros_permitidos": [
+    "normativa"
+  ],
+  "nodo": 1,
+  "version": 1
+}

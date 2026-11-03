@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "edicion": "biblioteca-sv-memorias-descriptivas-20261103",
+  "libros": [
+    {
+      "id": "guia",
+      "plan": {
+        "sha256": "38f42dec0a53f11d1865e3d3e1f58f3ea05600a71857e585d78ec3a726b2abc0",
+        "ruta": "libros/guia/plan.json"
+      },
+      "titulo": "Biblioteca documental del SV",
+      "raiz": "libros/guia/src",
+      "metadatos": [
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "a2071c50eb539fd961f1ec969b8ad9194022fe2d123e58f5ae53eeb66deb320f",
+            "ruta": "libros/guia/src/SUMMARY.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-01",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "501ba6e3b88a3f1321a9c8c758df8e2e07c1d597a58ce6a90ee0ce6b1da8ed4f",
+            "ruta": "libros/guia/src/indice.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-02",
+          "procedencia": "Edición pública propia actualizada, 03/11/2026",
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "e19540168dabcd2e60a83d00c325de3e5e92c567bc864eda12ca8aaae515cd69",
+            "ruta": "libros/guia/src/organizacion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-03",
+          "procedencia": "Edición pública propia actualizada, 03/11/2026",
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "dc9b1b1fad1ef1c174df9fcd4c67ba0b9d5252fb2345a0e52e4ded8a8808110d",
+            "ruta": "libros/guia/src/consulta.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-04",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        },
+        {
+          "identificador_editorial_r0": null,
+          "original": {
+            "sha256": "cf3cf23c00ee9cee3b246919eef91b85b7006c219b2e48c7774cee46c8c7dd46",
+            "ruta": "libros/guia/src/licencias.md"
+          },
+          "correspondencia": "identidad_literal",
+          "documento": "GUIA-05",
+          "procedencia": "Edición pública propia de 11/10/2026",
+          "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false
+        }
+      ]
+    }
+  ],
+  "estado": "preparacion_local"
+}

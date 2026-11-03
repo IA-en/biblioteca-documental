@@ -7,6 +7,7 @@ No necesita leer un volumen completo ni seguir un orden único. Elija una pregun
 - [Evaluación y autorización](#evaluar-y-autorizar)
 - [Protección del núcleo](#proteccion-del-nucleo)
 - [Uso y evidencia](#uso-y-evidencia)
+- [Estudiar una propuesta](#estudiar-propuesta)
 
 Los diagramas representan **relaciones para la lectura**. Sus conexiones no declaran un orden obligatorio de ejecución, una habilitación operativa ni una nueva relación matemática del SV. Puede recorrerlos en ambos sentidos y regresar mediante el navegador.
 
@@ -132,6 +133,14 @@ Esta protección permanece en todos los nodos y también en seudo-producción.
 Acceder a una página no demuestra que se haya enviado una consulta. Un recuento de [tokens](ia.html#token) tampoco acredita un coste monetario definitivo.
 
 **En dos casos:** [distinguir demostración, sesión y consulta](ia.md#distinguir-demostración-sesión-y-consulta) e [interpretar un consumo incompleto](ia.md#interpretar-un-consumo-incompleto). **Fuentes del recorrido:** [Facultades, autorización y producción](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/autoridad.html) y [Observabilidad y medidas](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/observabilidad.html).
+
+## Estudiar una propuesta {#estudiar-propuesta}
+
+¿Qué necesidad se estudia y qué falta para convertir una propuesta en una capacidad comprobada?
+
+El [anteproyecto](ia.md#anteproyecto) plantea alternativas; la [memoria descriptiva](ia.md#memoria-descriptiva) explica sus relaciones, condiciones y límites. Las [memorias del SV](https://documentos-sv.itvia.online/anteproyectos-memorias-descriptivas/index.html) permiten seguir ese recorrido sin confundirlo con una evaluación de modelos, una autorización institucional o la constitución de un Universo.
+
+**En un caso:** una [célula de intrusión propuesta](https://documentos-sv.itvia.online/anteproyectos-memorias-descriptivas/celula-intrusion.html) requiere parámetros definidos y evidencia de observación. Dibujarla o aumentar su dimensión no acredita una mejora de seguridad.
 
 ## Elegir otra continuación
 

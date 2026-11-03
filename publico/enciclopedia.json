@@ -1,12 +1,12 @@
 {
-  "edicion": "enciclopedia-sv-supervision-20261102-r118",
+  "edicion": "biblioteca-sv-memorias-descriptivas-20261103",
   "estado": "preparacion_local",
   "version": 1,
   "libros": [
     {
       "titulo": "Enciclopedia temática del Sistema Vectorial SV",
       "plan": {
-        "sha256": "229c3ceb2a97300322efc0585b4b576027793062f9676a3218cf0c0bd892cd55",
+        "sha256": "bdb345ca3aa30e38dcb128db6f0f19cacb466c15dd2c5d2672af327d66cf13e7",
         "ruta": "libros/enciclopedia/plan.json"
       },
       "metadatos": [
@@ -45,10 +45,10 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/recorridos.md",
-            "sha256": "5c80a28b18281d974286a74982916ab6bd6e799def753bc30f2678aea98377d2"
+            "sha256": "2119f04e8af1f884c281d8979011894f8803da178add23ac09447c431c8b114f"
           },
           "documento": "ENC-03",
-          "procedencia": "Revisión de concordancia documental de 30/10/2026",
+          "procedencia": "Edición pública propia actualizada, 03/11/2026",
           "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -75,10 +75,10 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/ia.md",
-            "sha256": "01627eefbe6570576a75992fb12e766277aedc7f911e6e0168420ce5b02fd8a1"
+            "sha256": "5a79bb0844564b977d8c50b754bcf87a28af5eb8a2a144165da0bba89d2ce73e"
           },
           "documento": "ENC-05",
-          "procedencia": "Revisión documental 118 de 02/11/2026; fronteras de IA, responsabilidad institucional y límites de recepción de la supervisión.",
+          "procedencia": "Edición pública propia actualizada, 03/11/2026",
           "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
           "tipo_original": "markdown",
           "visibilidad": "publica",
