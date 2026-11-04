@@ -8,4 +8,6 @@
 - [Imágenes y dominios](imagenes-dominios.md)
 - [Condiciones de integración](integracion.md)
 - [Comprobación y evolución](comprobacion.md)
+- [Ampliaciones y límites](ampliaciones.md)
+- [Memoria de actividades](memoria-actividades.md)
 - [Fuentes y relaciones](fuentes.md)

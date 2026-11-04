@@ -2,7 +2,9 @@
 
 Un **anteproyecto** formula una solución susceptible de estudio: identifica la necesidad, propone un alcance y compara alternativas. Una **memoria descriptiva** expone de manera ordenada qué se propone, por qué, con qué elementos se relaciona y qué condiciones deben cumplirse para desarrollarlo y comprobarlo. Puede acompañar un anteproyecto o describir una realización; en este último caso identifica las evidencias que permiten afirmar qué se ha realizado.
 
-En este libro ambos términos tienen una función documental. No constituyen nuevos estados de ejecución del SV ni sustituyen las reglas de admisión de sus componentes.
+Una **memoria de actividades** relaciona actuaciones concretas, su estado y la evidencia de sus resultados. Permite seguir el desarrollo de una propuesta sin convertir cada revisión o prueba en un anteproyecto independiente. Su relación con el Registro de Sucesos y los Tiques Técnicos se explica en [Memoria de actividades](memoria-actividades.md).
+
+En este libro estos términos tienen una función documental. No constituyen nuevos estados de ejecución del SV ni sustituyen las reglas de admisión de sus componentes.
 
 ## Jerarquía y distribución documental
 
@@ -15,7 +17,7 @@ Los pilares, las invariantes y la constitución competente del dominio prevalece
 | [Validación y autorización de modelos](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/index.html) | Aptitud, evaluación y autoridad para el uso. |
 | [Ensayo y observabilidad de la IA](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad) | Procedimientos, instrumentos, condiciones de ensayo y evidencias. |
 | [Enciclopedia temática](https://documentos-sv.itvia.online/enciclopedia/index.html) | Definiciones comunes y recorridos hacia las fuentes. |
-| Este libro | Necesidades, alternativas y memorias descriptivas de propuestas transversales. |
+| Este libro | Necesidades, alternativas y memorias descriptivas de propuestas transversales, con seguimiento de actuaciones y referencias a sus evidencias. |
 
 Las remisiones permiten conservar una explicación principal en su sede. Un resumen contextual no debe convertirse en una especificación paralela con reglas distintas.
 

@@ -1,0 +1,640 @@
+{
+  "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
+  "biblioteca_sha256": "ceaf388b718eba38e28b342a514089d05bc17a507a470882f14d2ddcb643fee6",
+  "conforme": true,
+  "consulta_proveedor": false,
+  "conversion_general_recibida": false,
+  "documentos": [
+    {
+      "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+      "cobertura_bytes": 519,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-01",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/SUMMARY.md",
+        "sha256": "e1a2b1a3f9c8d00ec2aebf9c639156321003803dc72d40bfd90550973b79410d"
+      },
+      "procedencia": "Edición pública propia revisada, 04/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 519,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000013",
+          "sha256": "e1a2b1a3f9c8d00ec2aebf9c639156321003803dc72d40bfd90550973b79410d",
+          "titulo": "Índice",
+          "ultima_linea": 13
+        }
+      ]
+    },
+    {
+      "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+      "cobertura_bytes": 3133,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-02",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/presentacion.md",
+        "sha256": "8d40789bd980c4a7991df1c8ed3d5d3a7df46a88adacc875f4b09fda8f254230"
+      },
+      "procedencia": "Edición pública propia revisada, 04/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 1213,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000010",
+          "sha256": "2a3617b1fbf856de82eeceb696f290575dfb1fe06683784ba3924b1254ddc3f2",
+          "titulo": "Anteproyectos y memorias descriptivas del Sistema Vectorial SV",
+          "ultima_linea": 10
+        },
+        {
+          "fin_byte_exclusivo": 3133,
+          "inicio_byte": 1213,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000031",
+          "sha256": "af0b4f958361377d510b678aac1eeae47149357e12601790a366facadb6cfbc8",
+          "titulo": "Cómo consultar el libro",
+          "ultima_linea": 31
+        }
+      ]
+    },
+    {
+      "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+      "cobertura_bytes": 4203,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-03",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/metodo.md",
+        "sha256": "b85aa55824bb764212d9cc6cb40db6ac07653ac3151b0c3730a6038213c66534"
+      },
+      "procedencia": "Edición pública propia revisada, 04/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 1047,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000008",
+          "sha256": "c3ce75ec72cb65d1497d858357f37626c55b778a5b44b380fde1277a24b03fef",
+          "titulo": "Objeto y método de las memorias descriptivas",
+          "ultima_linea": 8
+        },
+        {
+          "fin_byte_exclusivo": 2697,
+          "inicio_byte": 1047,
+          "primera_linea": 9,
+          "seccion": "MD-L000009-L000023",
+          "sha256": "73a908c49f68a7f34b2871321a0e663c82f4f327a790b9af8723bff162cb484c",
+          "titulo": "Jerarquía y distribución documental",
+          "ultima_linea": 23
+        },
+        {
+          "fin_byte_exclusivo": 3441,
+          "inicio_byte": 2697,
+          "primera_linea": 24,
+          "seccion": "MD-L000024-L000029",
+          "sha256": "0a79434f26070e109a4fcb1081c7298030b827f131ee01e1728a47aeec18a8f9",
+          "titulo": "Información necesaria",
+          "ultima_linea": 29
+        },
+        {
+          "fin_byte_exclusivo": 4203,
+          "inicio_byte": 3441,
+          "primera_linea": 30,
+          "seccion": "MD-L000030-L000036",
+          "sha256": "4fbac1bd8b79e2b63e228713c7185d29824570dd8051fcd2a3d606f3738e128e",
+          "titulo": "Criterio de suficiencia",
+          "ultima_linea": 36
+        }
+      ]
+    },
+    {
+      "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+      "cobertura_bytes": 4486,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-04",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/celula-intrusion.md",
+        "sha256": "da3a86092958d00927fe301ff84b130393af9a8437d30dfe65abc5e2107f472c"
+      },
+      "procedencia": "Primera edición pública propia, 03/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 324,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "5c200ef548addd7819a710178f5c1a9d72184786a69be5354d780b3ca80d55e2",
+          "titulo": "Memoria descriptiva: supervisión y célula de intrusión",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 1034,
+          "inicio_byte": 324,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000010",
+          "sha256": "fd50ffda9a7d88c224f7225e88b8f4d07b69c53669af9860de828c92c13be6eb",
+          "titulo": "Necesidad",
+          "ultima_linea": 10
+        },
+        {
+          "fin_byte_exclusivo": 2066,
+          "inicio_byte": 1034,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000022",
+          "sha256": "7205e0d3f6e36dffdcaf8495129d5ea5182bffaeb494ac307c31196b4f0dad51",
+          "titulo": "Relación entre datos, parámetros y representación",
+          "ultima_linea": 22
+        },
+        {
+          "fin_byte_exclusivo": 3369,
+          "inicio_byte": 2066,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000032",
+          "sha256": "a8039e498c5367e565720c0c4b281ebe92a70db3a11d3f2bd593e2ca6242e009",
+          "titulo": "Dimensión y criticidad",
+          "ultima_linea": 32
+        },
+        {
+          "fin_byte_exclusivo": 4486,
+          "inicio_byte": 3369,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000043",
+          "sha256": "3e5b3b849ea2312b409099a5096db2890424ca1210257e38b7d486a9810af70b",
+          "titulo": "Sucesos e indeterminación",
+          "ultima_linea": 43
+        }
+      ]
+    },
+    {
+      "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+      "cobertura_bytes": 4311,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-05",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/observacion-recursos.md",
+        "sha256": "0aabf19dc9f57f24019289fc0af18ba39b1435a57b393cac8bc4bfaad8b17e7c"
+      },
+      "procedencia": "Primera edición pública propia, 03/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 223,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "3a05e890101ff7c2b85dcdde2db9d4d9aa7ebc714e906fc9c7c878208a09b042",
+          "titulo": "Observación, capacidad y conservación",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 1505,
+          "inicio_byte": 223,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000012",
+          "sha256": "e478c0412e054718e4b130236d956d158352be0d660ab6a63194e6834fb293f3",
+          "titulo": "Qué se observa y cuándo",
+          "ultima_linea": 12
+        },
+        {
+          "fin_byte_exclusivo": 2415,
+          "inicio_byte": 1505,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000020",
+          "sha256": "ffc6e7b46241656ad27095227bd6fbc1c89cbd6adca04984f1a1016284d53f9e",
+          "titulo": "Muestreo no periódico como alternativa",
+          "ultima_linea": 20
+        },
+        {
+          "fin_byte_exclusivo": 4311,
+          "inicio_byte": 2415,
+          "primera_linea": 21,
+          "seccion": "MD-L000021-L000033",
+          "sha256": "84d688f41b80f6268d44743e8c5680dbb7c0c8f8fb4c2c7b039311411762cff8",
+          "titulo": "Dimensionamiento y continuidad",
+          "ultima_linea": 33
+        }
+      ]
+    },
+    {
+      "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+      "cobertura_bytes": 4335,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-06",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/imagenes-dominios.md",
+        "sha256": "bb99a7bb74659ea35a75baddf2c53595470a4fd0fc91d074e9d790ba2b9e5b02"
+      },
+      "procedencia": "Primera edición pública propia, 03/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 315,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "f214049454c7005cb4e9a0908562abd2a1ce7ae6a4e2085138dd927ac567034e",
+          "titulo": "Herramientas auxiliares de imágenes y dominios",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 1374,
+          "inicio_byte": 315,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000012",
+          "sha256": "c123b4c321bd6fed8648954e11f28ee4a2a66970f953e20ee2491b5e9b647ce3",
+          "titulo": "Utilidad que debe demostrarse",
+          "ultima_linea": 12
+        },
+        {
+          "fin_byte_exclusivo": 2543,
+          "inicio_byte": 1374,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000020",
+          "sha256": "00b39601093d8448ade70d0c0cd6f785bf6180347792227683a7466b2f3e33a1",
+          "titulo": "Uso compartido o separado",
+          "ultima_linea": 20
+        },
+        {
+          "fin_byte_exclusivo": 3551,
+          "inicio_byte": 2543,
+          "primera_linea": 21,
+          "seccion": "MD-L000021-L000028",
+          "sha256": "f08f83bcc10d20b8267c05ed44aac1404b3cda67560d7738dcf8cc46e158ffb0",
+          "titulo": "Relación con el experto y con el núcleo",
+          "ultima_linea": 28
+        },
+        {
+          "fin_byte_exclusivo": 4335,
+          "inicio_byte": 3551,
+          "primera_linea": 29,
+          "seccion": "MD-L000029-L000035",
+          "sha256": "7fb838a39f3ab3e9698f65544841e570296705c20c48d6a60d92f737666a471f",
+          "titulo": "Condiciones para continuar",
+          "ultima_linea": 35
+        }
+      ]
+    },
+    {
+      "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+      "cobertura_bytes": 4537,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-07",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/integracion.md",
+        "sha256": "1e511767b73bf4021f3cbb46fcbad95fd74174f6166557a7aa2a2250987d29aa"
+      },
+      "procedencia": "Primera edición pública propia, 03/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 276,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "0da39798fcd20a28f48cb8b4f845322e1a6749185b67aab7046b08d5b5f3ae67",
+          "titulo": "Condiciones de integración y evolución compatible",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 1298,
+          "inicio_byte": 276,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000012",
+          "sha256": "bc21a93f8aa971456567b09ddce8d5fec313df07813822efd8c3fe5ae81c23cb",
+          "titulo": "Identidad y responsabilidad",
+          "ultima_linea": 12
+        },
+        {
+          "fin_byte_exclusivo": 2381,
+          "inicio_byte": 1298,
+          "primera_linea": 13,
+          "seccion": "MD-L000013-L000025",
+          "sha256": "83eec927e72ef5ad06eb6557b8a869d45b3c8a56213e3946ff71a709cc240283",
+          "titulo": "Relaciones que deben poder conservarse",
+          "ultima_linea": 25
+        },
+        {
+          "fin_byte_exclusivo": 3434,
+          "inicio_byte": 2381,
+          "primera_linea": 26,
+          "seccion": "MD-L000026-L000033",
+          "sha256": "3d65027e4185b81abbb3998aec000c5e0d01d5a419a57b295a7e8f3970c2462a",
+          "titulo": "Fronteras",
+          "ultima_linea": 33
+        },
+        {
+          "fin_byte_exclusivo": 4537,
+          "inicio_byte": 3434,
+          "primera_linea": 34,
+          "seccion": "MD-L000034-L000044",
+          "sha256": "093da056de9fd5a29793dbbc45adb30d0561e72c7ccb0d59a58f8ab8fab00850",
+          "titulo": "Continuidad y cambios",
+          "ultima_linea": 44
+        }
+      ]
+    },
+    {
+      "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+      "cobertura_bytes": 3986,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-08",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/comprobacion.md",
+        "sha256": "991c3e07aeb52b1723e198fd153ccf0e7c983c8cb735df79ec6b0976e19954fd"
+      },
+      "procedencia": "Edición pública propia revisada, 04/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 227,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "e32ffc57fe54c141b9cab2bac05efbd6d14620ea85781e450110c12026063928",
+          "titulo": "Comprobación y evolución del anteproyecto",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 1739,
+          "inicio_byte": 227,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000018",
+          "sha256": "4a92a4eb332842eb84335af135743cce1695bf3eb3d0121a15461376ec9cca13",
+          "titulo": "Comprobaciones previstas",
+          "ultima_linea": 18
+        },
+        {
+          "fin_byte_exclusivo": 2390,
+          "inicio_byte": 1739,
+          "primera_linea": 19,
+          "seccion": "MD-L000019-L000024",
+          "sha256": "a9dfed73145837a39d8b589093c3a68eedfddadf4fdbe1568f35907fb4698c29",
+          "titulo": "Del estudio a una realización",
+          "ultima_linea": 24
+        },
+        {
+          "fin_byte_exclusivo": 3219,
+          "inicio_byte": 2390,
+          "primera_linea": 25,
+          "seccion": "MD-L000025-L000030",
+          "sha256": "476bf66abea73793e22d6c6f13ba98e3a5599062745472a63a6c0e94369f5fc2",
+          "titulo": "Relación con el trabajo vigente",
+          "ultima_linea": 30
+        },
+        {
+          "fin_byte_exclusivo": 3986,
+          "inicio_byte": 3219,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000038",
+          "sha256": "4d8c6b742d9f7b1f97714c1ed3214e50eaa31a35467aee5e1cb40916ac9b218f",
+          "titulo": "Seguimiento documental y recepción técnica {#seguimiento-documental}",
+          "ultima_linea": 38
+        }
+      ]
+    },
+    {
+      "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+      "cobertura_bytes": 6104,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-09",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/fuentes.md",
+        "sha256": "a4c97e4edce127adbdef23949811bef7563ebce675392527ad2f6e7ea7061ed1"
+      },
+      "procedencia": "Edición pública propia revisada, 04/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 290,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "09b0405115329414dc428adc0b9bd3ce766ac29f7ee60e3dce83036335d0651e",
+          "titulo": "Fuentes y relaciones documentales",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 1624,
+          "inicio_byte": 290,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000013",
+          "sha256": "86054159699bccabdaf4f20a56631af1c4f115b27298e3d93ba316e9ec97b19e",
+          "titulo": "Fundamento y constitución",
+          "ultima_linea": 13
+        },
+        {
+          "fin_byte_exclusivo": 3435,
+          "inicio_byte": 1624,
+          "primera_linea": 14,
+          "seccion": "MD-L000014-L000021",
+          "sha256": "b539d27190dc8a625fc24d48d30dc2424dcf0e2ccdfa27755d9bf149d684d7de",
+          "titulo": "Libros y especificaciones competentes",
+          "ultima_linea": 21
+        },
+        {
+          "fin_byte_exclusivo": 4440,
+          "inicio_byte": 3435,
+          "primera_linea": 22,
+          "seccion": "MD-L000022-L000027",
+          "sha256": "725bad549f9738d132c6d143f203f2f20b57b90fa61c6c4139a204b48494498f",
+          "titulo": "Documentación técnica y reconocimiento",
+          "ultima_linea": 27
+        },
+        {
+          "fin_byte_exclusivo": 5059,
+          "inicio_byte": 4440,
+          "primera_linea": 28,
+          "seccion": "MD-L000028-L000033",
+          "sha256": "c7c9cf89a02f90f84974141dcecb01878dab8c068378fa6b0f2f3e000e81693b",
+          "titulo": "Continuidad editorial",
+          "ultima_linea": 33
+        },
+        {
+          "fin_byte_exclusivo": 6104,
+          "inicio_byte": 5059,
+          "primera_linea": 34,
+          "seccion": "MD-L000034-L000041",
+          "sha256": "25e75dcd3b934d99f5cb6cb4a1e3077b0a4caf433844964cdd3321b15038fec4",
+          "titulo": "Ampliaciones y seguimiento",
+          "ultima_linea": 41
+        }
+      ]
+    },
+    {
+      "alcance": "Memoria descriptiva y seguimiento documental; no acredita capacidades técnicas ni autoriza operaciones.",
+      "cobertura_bytes": 7069,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-10",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/ampliaciones.md",
+        "sha256": "921c71381f41fd6cac9e716436342632b1faf577b32e4f18a45b725b273c0253"
+      },
+      "procedencia": "Edición pública propia revisada, 04/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 298,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "ded42dc18c2e5aabd062a0ed9d87628a63cefd7e860f6e48f5db755540683e49",
+          "titulo": "Ampliaciones y límites de realización",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 2271,
+          "inicio_byte": 298,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000014",
+          "sha256": "7b86724d83e781b0a5b089214de7fcde211df9de4cadeec0937ae7ea696434de",
+          "titulo": "Identificación de programas e informes antivirus {#antivirus}",
+          "ultima_linea": 14
+        },
+        {
+          "fin_byte_exclusivo": 3866,
+          "inicio_byte": 2271,
+          "primera_linea": 15,
+          "seccion": "MD-L000015-L000022",
+          "sha256": "dda3834e4d5baa7260ab5e74559946f13450a2f46afd2ecbeffcad43a06ca140",
+          "titulo": "Protección desde el arranque y firmware {#firmware}",
+          "ultima_linea": 22
+        },
+        {
+          "fin_byte_exclusivo": 5306,
+          "inicio_byte": 3866,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000030",
+          "sha256": "65f5bfaf7a400b1b200d6723e88b0d44b86833a1103779646e9b1995e295518d",
+          "titulo": "Diversidad de procesadores y aceleradores {#hardware}",
+          "ultima_linea": 30
+        },
+        {
+          "fin_byte_exclusivo": 5989,
+          "inicio_byte": 5306,
+          "primera_linea": 31,
+          "seccion": "MD-L000031-L000036",
+          "sha256": "3cd70a609cbc038d7d4b5a6fe01137bd6643041b2f7ac557163d1bfe88065ee7",
+          "titulo": "Suficiencia de recursos {#recursos}",
+          "ultima_linea": 36
+        },
+        {
+          "fin_byte_exclusivo": 7069,
+          "inicio_byte": 5989,
+          "primera_linea": 37,
+          "seccion": "MD-L000037-L000046",
+          "sha256": "9339e60c5fe54095d12a9b6d393259d62724b0ab52df1489345898ecc852a529",
+          "titulo": "Relación con las líneas ya descritas",
+          "ultima_linea": 46
+        }
+      ]
+    },
+    {
+      "alcance": "Memoria descriptiva y seguimiento documental; no acredita capacidades técnicas ni autoriza operaciones.",
+      "cobertura_bytes": 8308,
+      "correspondencia": "identidad_literal",
+      "documento": "ANTEPROYECTOS-11",
+      "identificador_editorial_r0": null,
+      "libro": "anteproyectos",
+      "licencia": "CC BY-NC-ND 4.0",
+      "original": {
+        "ruta": "libros/anteproyectos/src/memoria-actividades.md",
+        "sha256": "df2bf9f22aee3f7cf236c6a95764d66ca84d07eccec0fb73fcc94f21b388e447"
+      },
+      "procedencia": "Edición pública propia revisada, 04/11/2026",
+      "secciones": [
+        {
+          "fin_byte_exclusivo": 364,
+          "inicio_byte": 0,
+          "primera_linea": 1,
+          "seccion": "MD-L000001-L000004",
+          "sha256": "03fd11dbd3bde0a1216e257ed7db81168c66ca024b3b577702febc700b234df2",
+          "titulo": "Memoria de actividades",
+          "ultima_linea": 4
+        },
+        {
+          "fin_byte_exclusivo": 1005,
+          "inicio_byte": 364,
+          "primera_linea": 5,
+          "seccion": "MD-L000005-L000010",
+          "sha256": "95b53e52ad6577844df6b0345b2ca291c409bc2df1515779acea0a708d3a47fa",
+          "titulo": "Función y alcance {#funcion}",
+          "ultima_linea": 10
+        },
+        {
+          "fin_byte_exclusivo": 2241,
+          "inicio_byte": 1005,
+          "primera_linea": 11,
+          "seccion": "MD-L000011-L000022",
+          "sha256": "aadba39590f1b58280c83b11540e657474c12711fcdbd298db9d64465ef38c20",
+          "titulo": "Estados y evidencia {#estados}",
+          "ultima_linea": 22
+        },
+        {
+          "fin_byte_exclusivo": 3722,
+          "inicio_byte": 2241,
+          "primera_linea": 23,
+          "seccion": "MD-L000023-L000032",
+          "sha256": "02c98ea096861d86176305e355c4969f3a3d99ca2a47ffdf78aa0a2e81962f26",
+          "titulo": "Registro de Sucesos y Tiques Técnicos {#vinculos-nativos}",
+          "ultima_linea": 32
+        },
+        {
+          "fin_byte_exclusivo": 5603,
+          "inicio_byte": 3722,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000049",
+          "sha256": "0ffe1ad3cd99ab502c5f54728e6bfcf1a9f99c8fda8408515ca4e382660b3fb6",
+          "titulo": "Seguimiento de las líneas de estudio {#seguimiento}",
+          "ultima_linea": 49
+        },
+        {
+          "fin_byte_exclusivo": 7491,
+          "inicio_byte": 5603,
+          "primera_linea": 50,
+          "seccion": "MD-L000050-L000072",
+          "sha256": "5b474231c69cc20c8571fbc7414d39459360daf3a3f56b2806158c45d2b07b41",
+          "titulo": "Estructura y actualización del archivo {#archivo}",
+          "ultima_linea": 72
+        },
+        {
+          "fin_byte_exclusivo": 8308,
+          "inicio_byte": 7491,
+          "primera_linea": 73,
+          "seccion": "MD-L000073-L000080",
+          "sha256": "0aed6f4a1d1acd4c7bb193a57d760d54d62c21c16935a5bf75a7176622f812af",
+          "titulo": "Comprobación de la memoria",
+          "ultima_linea": 80
+        }
+      ]
+    }
+  ],
+  "edicion": "biblioteca-sv-memoria-actividades-20261104",
+  "navegacion_autonoma_modelo": false,
+  "politica_sha256": "d358dd5cea1dfcb3a8c9cc2dfb55cee1c95116e1c2fde31590595459b5a611ff",
+  "recepcion_visual": false,
+  "version": 1
+}

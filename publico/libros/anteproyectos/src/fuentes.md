@@ -31,6 +31,11 @@ Las revisiones se conservan en el [repositorio de la Biblioteca documental](http
 
 No se trasladan aquí expedientes privados ni resultados reservados. Cada memoria posterior conservará su objeto, fecha, estado, fuentes, límites y relaciones con los libros competentes.
 
+## Ampliaciones y seguimiento
+
+Las [ampliaciones delimitadas](ampliaciones.md) remiten a la [arquitectura de las instrucciones pre-núcleo](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/arquitectura-ejecucion.html#instrucciones-pre-nucleo), a su [delimitación en Ciberseguridad](https://documentos-sv.itvia.online/dominios/universos/ciberseguridad.html#instrucciones-pre-nucleo) y al [alcance del hardware de ensayo](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/main/docs/hardware-de-ensayo/ALCANCE.md). La [memoria de actividades](memoria-actividades.md) conserva las referencias de sus actuaciones sin sustituir los registros competentes.
+
+
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

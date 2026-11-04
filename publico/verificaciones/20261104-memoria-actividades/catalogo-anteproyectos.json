@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "edicion": "biblioteca-sv-memoria-actividades-20261104",
+  "libros": [
+    {
+      "id": "anteproyectos",
+      "titulo": "Anteproyectos y memorias descriptivas del Sistema Vectorial SV",
+      "raiz": "libros/anteproyectos/src",
+      "plan": {
+        "ruta": "libros/anteproyectos/plan.json",
+        "sha256": "bf22ce4690f6279f45d78a189f01964522c610711a2f6f0e7ca5d41f62403b37"
+      },
+      "metadatos": [
+        {
+          "documento": "ANTEPROYECTOS-01",
+          "original": {
+            "sha256": "e1a2b1a3f9c8d00ec2aebf9c639156321003803dc72d40bfd90550973b79410d",
+            "ruta": "libros/anteproyectos/src/SUMMARY.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-02",
+          "original": {
+            "sha256": "8d40789bd980c4a7991df1c8ed3d5d3a7df46a88adacc875f4b09fda8f254230",
+            "ruta": "libros/anteproyectos/src/presentacion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-03",
+          "original": {
+            "sha256": "b85aa55824bb764212d9cc6cb40db6ac07653ac3151b0c3730a6038213c66534",
+            "ruta": "libros/anteproyectos/src/metodo.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-04",
+          "original": {
+            "sha256": "da3a86092958d00927fe301ff84b130393af9a8437d30dfe65abc5e2107f472c",
+            "ruta": "libros/anteproyectos/src/celula-intrusion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Primera edición pública propia, 03/11/2026",
+          "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-05",
+          "original": {
+            "sha256": "0aabf19dc9f57f24019289fc0af18ba39b1435a57b393cac8bc4bfaad8b17e7c",
+            "ruta": "libros/anteproyectos/src/observacion-recursos.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Primera edición pública propia, 03/11/2026",
+          "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-06",
+          "original": {
+            "sha256": "bb99a7bb74659ea35a75baddf2c53595470a4fd0fc91d074e9d790ba2b9e5b02",
+            "ruta": "libros/anteproyectos/src/imagenes-dominios.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Primera edición pública propia, 03/11/2026",
+          "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-07",
+          "original": {
+            "sha256": "1e511767b73bf4021f3cbb46fcbad95fd74174f6166557a7aa2a2250987d29aa",
+            "ruta": "libros/anteproyectos/src/integracion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Primera edición pública propia, 03/11/2026",
+          "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-08",
+          "original": {
+            "sha256": "991c3e07aeb52b1723e198fd153ccf0e7c983c8cb735df79ec6b0976e19954fd",
+            "ruta": "libros/anteproyectos/src/comprobacion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-09",
+          "original": {
+            "sha256": "a4c97e4edce127adbdef23949811bef7563ebce675392527ad2f6e7ea7061ed1",
+            "ruta": "libros/anteproyectos/src/fuentes.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "alcance": "Anteproyecto y memoria descriptiva; necesidades, alternativas y condiciones de comprobación. No acredita capacidades ni habilita operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-10",
+          "original": {
+            "sha256": "921c71381f41fd6cac9e716436342632b1faf577b32e4f18a45b725b273c0253",
+            "ruta": "libros/anteproyectos/src/ampliaciones.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "alcance": "Memoria descriptiva y seguimiento documental; no acredita capacidades técnicas ni autoriza operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-11",
+          "original": {
+            "sha256": "df2bf9f22aee3f7cf236c6a95764d66ca84d07eccec0fb73fcc94f21b388e447",
+            "ruta": "libros/anteproyectos/src/memoria-actividades.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "alcance": "Memoria descriptiva y seguimiento documental; no acredita capacidades técnicas ni autoriza operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        }
+      ]
+    }
+  ],
+  "estado": "preparacion_local"
+}

@@ -1,6 +1,6 @@
 # Anteproyectos y memorias descriptivas del Sistema Vectorial SV
 
-**Primera edición · 3 de noviembre de 2026 · Original en español.**
+**Primera edición · 3 de noviembre de 2026 · Revisión documental · 4 de noviembre de 2026 · Original en español.**
 
 Este libro reúne propuestas de desarrollo que relacionan varias áreas del Sistema Vectorial SV. Su objeto es describir la necesidad, el fundamento, las alternativas, las dependencias y las condiciones de comprobación de cada propuesta, de modo que pueda estudiarse sin perder su relación con el sistema existente.
 
@@ -18,6 +18,8 @@ La primera memoria estudia una **célula de intrusión vinculada a la supervisi�
 | Delimitar una posible herramienta de imágenes | [Imágenes y dominios](imagenes-dominios.md) |
 | Prever permisos, registros e interfaces compatibles | [Condiciones de integración](integracion.md) |
 | Reconocer qué falta para acreditar cada propuesta | [Comprobación y evolución](comprobacion.md) |
+| Relacionar informes antivirus, firmware y diversidad de hardware | [Ampliaciones y límites](ampliaciones.md) |
+| Seguir actuaciones y consultar sus evidencias | [Memoria de actividades y archivo CSV](memoria-actividades.md) |
 | Acceder a las definiciones y documentos competentes | [Fuentes y relaciones](fuentes.md) |
 
 La [Enciclopedia temática](https://documentos-sv.itvia.online/enciclopedia/ia.html#anteproyecto) enlaza los conceptos y sus relaciones. Este volumen conserva el desarrollo descriptivo de la propuesta; los libros de Dominios, Lenguaje de Computación, Validación y Observabilidad conservan sus propias definiciones y reglas.

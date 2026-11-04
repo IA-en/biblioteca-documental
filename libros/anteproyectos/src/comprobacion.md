@@ -28,6 +28,11 @@ Este anteproyecto no añade condiciones a exámenes ya constituidos, no cambia s
 
 Los criterios troncales de ensayo permanecen en [Ensayo y observabilidad de la IA](https://github.com/juantoniolloretegea/SV-motor/tree/main/laboratorio/ensayo-ia-y-observabilidad), y las consecuencias de omitir conocimiento o controles se relacionan con [Consecuencias de la omisión: fuentes y delimitación](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/CONSECUENCIAS-Y-FUENTES.md). La recepción no se sustituye por una afirmación de seguridad absoluta.
 
+## Seguimiento documental y recepción técnica {#seguimiento-documental}
+
+La [memoria de actividades](memoria-actividades.md) permite relacionar las actuaciones con su criterio de cierre y con sucesos o Tiques Técnicos pertinentes. Una actividad documental recibida no acredita la realización técnica que describe. Las ampliaciones conservan sus condiciones propias y no modifican requisitos de exámenes vigentes.
+
+
 ---
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
