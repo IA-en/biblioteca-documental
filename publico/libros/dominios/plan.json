@@ -32,8 +32,8 @@
     },
     {
       "ruta": "parametros-rutas.md",
-      "sha256": "aaf22c4fd91ceaaa74669682c08e81029bc3ea7f3bdc097208101a66a41091b4",
-      "url": "urn:sv:documento:sha256:aaf22c4fd91ceaaa74669682c08e81029bc3ea7f3bdc097208101a66a41091b4",
+      "sha256": "0fa377346d963f556bc14c942a35127f6d4f4ddab01290ded743889237277d20",
+      "url": "urn:sv:documento:sha256:0fa377346d963f556bc14c942a35127f6d4f4ddab01290ded743889237277d20",
       "titulo": "Parámetros, rutas y evidencia",
       "id": "DOMINIOS-08"
     },
@@ -46,8 +46,8 @@
     },
     {
       "titulo": "Ciberseguridad",
-      "url": "urn:sv:documento:sha256:0b78e71d54f09292425eeaa03cb8b08226245a66c73eb19764fadb4ebc9a4974",
-      "sha256": "0b78e71d54f09292425eeaa03cb8b08226245a66c73eb19764fadb4ebc9a4974",
+      "url": "urn:sv:documento:sha256:b4e09f5906128f5e8c53201d0fbb37d8a726cc8f14f86bbbd0e253e64af02d53",
+      "sha256": "b4e09f5906128f5e8c53201d0fbb37d8a726cc8f14f86bbbd0e253e64af02d53",
       "ruta": "ciberseguridad.md",
       "id": "DOMINIOS-06"
     },
@@ -59,5 +59,5 @@
       "id": "DOMINIOS-07"
     }
   ],
-  "revision": "d154734e6d91050f0298a70617dca2ef0bd4356b0973d09272b1d07af9663faf"
+  "revision": "28641f96a7d319d4a21096ed3dc8dd15d8b44612461bee36bd125889561bf25c"
 }

@@ -124,4 +124,10 @@ La especificación documenta requisitos y una propuesta en evaluación. No susti
 
 ---
 
+## Análisis externo y verificación de propuestas {#analisis-externo-rutas}
+
+Los procedimientos externos que propongan relaciones o recorridos deben declarar su método, versión, entradas, límites y resultado. La admisión comprueba las condiciones del dominio y conserva la propuesta diferenciada de su valoración. Un procedimiento estadístico o una inferencia externa no adquieren autoridad semántica por atravesar una interfaz.
+
+El estudio de complejidad conserva la [distinción entre selección y verificación](../../universos/parametros-rutas.html#complejidad-y-sucesos). Un límite temporal o de recursos del instrumento no demuestra la inexistencia de solución ni determina por sí solo el significado de U. La regla aplicable debe distinguir indeterminación, fallo instrumental y ausencia de constitución. Estas exigencias se examinan con los contratos existentes antes de proponer una modificación del lenguaje.
+
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

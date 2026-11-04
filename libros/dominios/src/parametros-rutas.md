@@ -253,4 +253,12 @@ El encaje de estas necesidades en la ejecución se desarrolla en el [Lenguaje de
 
 ---
 
+## Complejidad del cálculo y relaciones entre sucesos {#complejidad-y-sucesos}
+
+Verificar un recorrido propuesto, encontrar uno admisible y demostrar su optimalidad son problemas diferentes. La [memoria de análisis formal de rutas](../../anteproyectos-memorias-descriptivas/dispositivos-rutas.html#selección-verificación-y-complejidad-de-rutas) delimita su estudio. Antes de atribuir una clase de complejidad deben fijarse entradas, representación, tamaño, condiciones y pregunta de decisión. La terna no constituye por sí misma un algoritmo de búsqueda.
+
+La ruta de conocimiento conserva sus obligaciones documentales. Una relación entre procesos o sucesos conserva, en cambio, las identidades de las instancias observadas, sus fuentes y la evidencia del vínculo. Una secuencia temporal, un identificador reutilizado o una dirección común no demuestran por sí solos causalidad, intención adversa ni una ruta de intrusión realizada.
+
+La correspondencia entre ambos objetos requiere una definición expresa. Debe mostrar qué conocimiento fundamenta una comprobación y qué evidencia singular permite aplicarla. Un grafo de hipótesis no sustituye el Registro de Sucesos ni convierte escenarios posibles en hechos. Una reconstrucción posterior conserva sus antecedentes y se registra como tal; no reescribe el recorrido observado.
+
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

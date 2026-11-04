@@ -1,7 +1,7 @@
 {
   "version": 3,
   "libro": "SVP_MANUAL_PILOTO",
-  "revision": "8e28ed802a9a7081df198278245355f2900452fa8300093228020c11c2e9270c",
+  "revision": "d1daa94ee7a6abe4b23daa1d7d8cff3da794b28ff4170c42c94956d90483c0c1",
   "summary": {
     "id": "MANUAL_INDICE",
     "ruta": "SUMMARY.md",
@@ -53,11 +53,11 @@
       "ruta": "programacion-dsl.md"
     },
     {
-      "url": "urn:sv:documento:sha256:49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759",
+      "url": "urn:sv:documento:sha256:2da2b83ae75d4ef782617e141269e9f6679838f455ba112a593f954ccd2a1fcb",
       "ruta": "arquitectura-ejecucion.md",
       "id": "MANUAL_ARQUITECTURA_EJECUCION",
       "titulo": "7. Arquitectura y entornos de ejecución",
-      "sha256": "49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759"
+      "sha256": "2da2b83ae75d4ef782617e141269e9f6679838f455ba112a593f954ccd2a1fcb"
     },
     {
       "id": "MANUAL_ARBITRO_DIRECTOR",
@@ -88,11 +88,11 @@
       "sha256": "0ec830fee2101a910d6b9db8133b3e534fe46a232a625503ebca591461826e34"
     },
     {
-      "url": "urn:sv:documento:sha256:237691579d67514e5bda9349c1518eb1bb4e49983636482d375d9f45f330cd43",
+      "url": "urn:sv:documento:sha256:6b06651f5bad322541d7bf88bce095926f4013a9a3e7f8ae66681ef7e8ca4def",
       "ruta": "observabilidad.md",
       "id": "MANUAL_OBSERVABILIDAD",
       "titulo": "12. Observabilidad y medidas",
-      "sha256": "237691579d67514e5bda9349c1518eb1bb4e49983636482d375d9f45f330cd43"
+      "sha256": "6b06651f5bad322541d7bf88bce095926f4013a9a3e7f8ae66681ef7e8ca4def"
     },
     {
       "ruta": "herramientas-desarrollo-comprobacion.md",
@@ -110,8 +110,8 @@
     },
     {
       "ruta": "parametros-rutas.md",
-      "sha256": "5936336a7db8bda5b9970a66abb85986de8908bc0d4ed490f760626d4a83c0ca",
-      "url": "urn:sv:documento:sha256:5936336a7db8bda5b9970a66abb85986de8908bc0d4ed490f760626d4a83c0ca",
+      "sha256": "4777d2e1e3fa027262de6d596617c812e5fc868ced6dba2f297a0df96a4879af",
+      "url": "urn:sv:documento:sha256:4777d2e1e3fa027262de6d596617c812e5fc868ced6dba2f297a0df96a4879af",
       "titulo": "15. Parámetros, recorridos y evidencia",
       "id": "MANUAL_PARAMETROS_RUTAS"
     },

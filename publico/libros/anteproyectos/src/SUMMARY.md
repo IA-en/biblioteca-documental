@@ -10,4 +10,5 @@
 - [Comprobación y evolución](comprobacion.md)
 - [Ampliaciones y límites](ampliaciones.md)
 - [Memoria de actividades](memoria-actividades.md)
+- [Dispositivos conectados y análisis formal de rutas](dispositivos-rutas.md)
 - [Fuentes y relaciones](fuentes.md)

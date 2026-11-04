@@ -70,5 +70,13 @@ La [entrada de la Enciclopedia](https://documentos-sv.itvia.online/enciclopedia/
 
 ---
 
+## Frontera de dispositivos y actuación física {#frontera-dispositivos}
+
+Como requisito de integración, una interfaz de funciones externas (FFI) para dispositivos debe delimitar operaciones, tipos, unidades, tamaños, identidad del destino, permisos, errores y condiciones de continuación. La definición del ámbito corresponde a [Ciberseguridad](../../universos/ciberseguridad.html#dispositivos-efectos-fisicos). La capacidad de observar no habilita actuación física.
+
+La implementación debe comprobar que descripciones externas, medidas, órdenes propuestas y programas generados no se interpretan como autoridad del núcleo. El control se materializa en Rust y en los mecanismos de aislamiento, privilegios y verificación pertinentes. Denominar FFI a un componente no demuestra esas propiedades. La inteligencia artificial (IA), también defensora, permanece fuera de la autoridad del núcleo.
+
+Los límites de integridad, autorización y protección no dependen de que el modelo recuerde una instrucción. Las garantías físicas requieren los mecanismos propios del equipo y su comprobación independiente. No se incorporan nuevas instrucciones, gramática o representación intermedia por esta previsión documental.
+
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
 

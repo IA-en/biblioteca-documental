@@ -40,7 +40,7 @@
             const default_dark_theme = "navy";
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="toc-4efac8d4.js"></script>
+        <script src="toc-187fbedb.js"></script>
     <link rel="stylesheet" href="/lectura-contexto-2313f39030c5.css">
 <script defer src="/lectura-contexto-c6bd9514618d.js"></script>
 </head>
@@ -457,6 +457,51 @@
 <p>La persona o función responsable de la revisión debe contrastar los estados y las referencias antes de publicar otra edición. Los campos técnicos pendientes conservan sus condiciones; una referencia metodológica no se convierte en evidencia de ejecución. El CSV es un medio de consulta y seguimiento, sin escritura automática sobre las bases del SV.</p>
 <h2 id="comprobación-de-la-memoria"><a class="header" href="#comprobación-de-la-memoria">Comprobación de la memoria</a></h2>
 <p>La revisión comprobará que cada cierre tenga evidencia suficiente para su objeto; que no haya capacidades atribuidas por una mera descripción; que las relaciones nativas sean auténticas y respeten sus permisos; y que las actividades conserven el alcance de la propuesta de origen. Las definiciones comunes se mantienen en <a href="#objeto-y-método-de-las-memorias-descriptivas">Objeto y método</a>, y las condiciones de admisión en <a href="#comprobación-y-evolución-del-anteproyecto">Comprobación y evolución</a>.</p>
+<hr>
+<p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
+<div style="break-before: page; page-break-before: always;"></div>
+<h1 id="dispositivos-conectados-y-análisis-formal-de-rutas"><a class="header" href="#dispositivos-conectados-y-análisis-formal-de-rutas">Dispositivos conectados y análisis formal de rutas</a></h1>
+<p><strong>Memoria descriptiva de dos líneas de estudio · 4 de noviembre de 2026.</strong> Se definen objetos, entregables y condiciones de comprobación. La publicación no acredita una realización operativa ni modifica una convocatoria.</p>
+<h2 id="dispositivos-del-internet-de-las-cosas-y-control-físico"><a class="header" href="#dispositivos-del-internet-de-las-cosas-y-control-físico">Dispositivos del Internet de las cosas y control físico</a></h2>
+<p>El primer objeto es estudiar la supervisión y las posibles actuaciones sobre dispositivos del <strong>Internet de las cosas (IoT)</strong> que relacionan comunicaciones, software, sensores y procesos físicos. La heterogeneidad y el acoplamiento de estos componentes requieren analizar sus distintas superficies de exposición y consecuencias; constituyen un campo de estudio específico de la seguridad ciberfísica. <a href="https://doi.org/10.1109/JIOT.2017.2703172">Humayed y colaboradores, 2017</a>.</p>
+<p>Los requisitos del SV se conservan en <a href="../dominios/universos/ciberseguridad.html#dispositivos-efectos-fisicos">Ciberseguridad: dispositivos y efectos físicos</a>. La memoria estudia cómo realizarlos: inventario verificable, fuentes admitidas, separación entre observación y órdenes, permisos por operación, límites independientes del modelo y evidencia de la respuesta del equipo. No se presupone un controlador universal ni la compatibilidad de todos los protocolos.</p>
+<div class="table-wrapper">
+<table>
+<thead>
+<tr><th>Entregable previsto</th><th>Condición de recepción</th></tr>
+</thead>
+<tbody>
+<tr><td>Ficha del dispositivo y de su integración</td><td>Identidad, versión, función física, interfaces, unidades, responsable, permisos y alcance comprobados.</td></tr>
+<tr><td>Contrato de lectura y actuación</td><td>Operaciones diferenciadas; entradas admitidas, límites, errores, revocación y respuesta ante pérdida de comunicación definidos.</td></tr>
+<tr><td>Pruebas del intermediario</td><td>Casos normales y negativos reproducibles; rechazo de operaciones sin permiso y conservación de evidencias.</td></tr>
+<tr><td>Informe de transferencia</td><td>Separación explícita entre emulación, virtualización y dispositivo físico; ninguna conclusión excede la cobertura recibida.</td></tr>
+</tbody>
+</table>
+</div>
+<p>Una integración externa se somete a las <a href="../dominios/lenguaje-de-computacion/manual/arquitectura-ejecucion.html#frontera-dispositivos">fronteras del Lenguaje de Computación</a>. Su capacidad de descubrir funciones o describir un equipo no le confiere autoridad para actuar. El protocolo concreto, la licencia, el mantenimiento y el alcance de sus permisos deben examinarse antes de admitirlo.</p>
+<h2 id="selección-verificación-y-complejidad-de-rutas"><a class="header" href="#selección-verificación-y-complejidad-de-rutas">Selección, verificación y complejidad de rutas</a></h2>
+<p>El segundo objeto es estudiar procedimientos computables para seleccionar y comprobar recorridos, conforme a <a href="../dominios/universos/parametros-rutas.html">Parámetros, rutas y evidencia</a>. La definición del dominio precede a la elección del algoritmo.</p>
+<p>La teoría de complejidad distingue <strong>tiempo polinómico (P)</strong> y <strong>tiempo polinómico no determinista (NP)</strong>. En problemas de decisión, P reúne los resolubles mediante cálculo determinista polinómico; NP admite certificados de respuesta afirmativa de longitud polinómica, verificables en tiempo polinómico. P está contenido en NP; no se identifica NP con «no polinómico». El problema de su igualdad permanece abierto según la <a href="https://www.claymath.org/millennium/p-vs-np/">referencia del Clay Mathematics Institute</a>. Véase <a href="https://doi.org/10.1145/1562164.1562186">Fortnow, 2009</a>.</p>
+<p>Encontrar un recorrido admisible, verificar uno propuesto y demostrar que es óptimo son tareas diferentes. Antes de asignar una clase de complejidad se necesitan una pregunta formal, una representación de entrada y una medida de su tamaño. Ni el número de combinaciones ni un ejemplo lento justifican por sí solos una clasificación de dificultad.</p>
+<p>El estudio deberá producir:</p>
+<ol>
+<li>Una formulación explícita de cobertura, precedencias, condiciones y permisos, sin convertir la prioridad documental en criticidad.</li>
+<li>Un verificador independiente de la producción de propuestas, con casos conformes, omisiones obligatorias, precedencias incumplidas y evidencia insuficiente.</li>
+<li>Una comparación reproducible de métodos bajo el mismo contrato; se distinguirán corrección, completitud, coste y, cuando proceda, prueba de optimalidad.</li>
+<li>Un informe sobre la transferencia entre selección documental y análisis de relaciones entre procesos o sucesos. No se presume que tengan la misma formulación ni complejidad.</li>
+</ol>
+<p>La terna (0,1,U) conserva el significado de cada cuestión evaluada. No resuelve por sí misma una búsqueda ni demuestra una relación entre P y NP. Las Matemáticas del Potencial SV conservan las condiciones del capítulo principal: una comparación por potencial requiere definición y evidencia propias y no permite omitir conocimiento obligatorio. La clase de complejidad P y el potencial P_D representan objetos diferentes.</p>
+<h2 id="relación-con-el-análisis-de-seguridad"><a class="header" href="#relación-con-el-análisis-de-seguridad">Relación con el análisis de seguridad</a></h2>
+<p>Los árboles y grafos de ataque permiten representar escenarios y dependencias de seguridad bajo modelos explícitos. Su generación y sus límites se estudian en <a href="https://doi.org/10.1016/j.cose.2023.103602">Konsta y colaboradores, 2024</a>. Un escenario representado no acredita un incidente observado.</p>
+<p>En el SV deberán distinguirse las relaciones documentales exigidas, las relaciones de actividad efectivamente observadas y las hipótesis por comprobar. La coincidencia de nombres, direcciones o tiempos no basta para atribuir causalidad o intención. Cada afirmación debe conservar sus fuentes y la cobertura que la sostiene.</p>
+<p>Los <a href="https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/dispositivos-y-rutas.md">criterios de observación y ensayo</a> precisan cómo separar medición, interpretación y limitaciones. Estas líneas requieren una recepción específica; no constituyen nuevos Universos, células ni parámetros de una evaluación vigente.</p>
+<h2 id="referencias"><a class="header" href="#referencias">Referencias</a></h2>
+<ul>
+<li>Humayed, A.; Lin, J.; Li, F.; Luo, B. (2017). <em>Cyber-Physical Systems Security—A Survey</em>. IEEE Internet of Things Journal, 4(6), 1802–1831. DOI: <a href="https://doi.org/10.1109/JIOT.2017.2703172">10.1109/JIOT.2017.2703172</a>.</li>
+<li>Fortnow, L. (2009). <em>The status of the P versus NP problem</em>. Communications of the ACM, 52(9), 78–86. DOI: <a href="https://doi.org/10.1145/1562164.1562186">10.1145/1562164.1562186</a>.</li>
+<li>Konsta, A.-M.; Lluch Lafuente, A.; Spiga, B.; Dragoni, N. (2024). <em>Survey: Automatic generation of attack trees and attack graphs</em>. Computers &amp; Security, 137, 103602. DOI: <a href="https://doi.org/10.1016/j.cose.2023.103602">10.1016/j.cose.2023.103602</a>.</li>
+</ul>
+<p>Las referencias proporcionan antecedentes científicos. No certifican la seguridad, la complejidad ni el rendimiento de una realización del SV.</p>
 <hr>
 <p>© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</p>
 <div style="break-before: page; page-break-before: always;"></div>

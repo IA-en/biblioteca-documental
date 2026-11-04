@@ -40,4 +40,8 @@ Las hipótesis de defensa posteriores al ensayo se consultan en el [torneo de ci
 
 La [telemetría del ensayo](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/modelos-de-ia/estandar-comparativo-o-benchmark/ediciones/ciberseguridad/eet-cyb16-practica-20261027/TELEMETRIA-Y-MEDICIONES.md) concreta la identificación de participante, intento y conexión. La actividad del Perfil atacante (PA), la del Perfil defensor (PD) y la asistencia de preparación conservan registros separados. Un consumo agregado de cuenta no se atribuye a un enfrentamiento sin evidencia suficiente. Las reglas del ensayo y sus registros no sustituyen la recepción de la instrumentación utilizada.
 
+## Dispositivos conectados y procedimientos de rutas {#observacion-dispositivos-rutas}
+
+Los [criterios de observación y comprobación](https://github.com/juantoniolloretegea/SV-motor/blob/main/laboratorio/ensayo-ia-y-observabilidad/dispositivos-y-rutas.md) reúnen la configuración, las fuentes, los controles negativos y los límites de transferencia entre simulación y sistema físico. Conservan una única referencia para estas exigencias y no acreditan por sí solos una campaña realizada.
+
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).

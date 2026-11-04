@@ -3,8 +3,8 @@
   "libro": "SV_ANTEPROYECTOS",
   "summary": {
     "titulo": "Índice",
-    "url": "urn:sv:documento:sha256:e1a2b1a3f9c8d00ec2aebf9c639156321003803dc72d40bfd90550973b79410d",
-    "sha256": "e1a2b1a3f9c8d00ec2aebf9c639156321003803dc72d40bfd90550973b79410d",
+    "url": "urn:sv:documento:sha256:32189f574ce4084e19da6c64a205dda2f783d17732b6d6b33470d69e076ee23b",
+    "sha256": "32189f574ce4084e19da6c64a205dda2f783d17732b6d6b33470d69e076ee23b",
     "ruta": "SUMMARY.md",
     "id": "ANTEPROYECTOS-01"
   },
@@ -73,6 +73,13 @@
       "id": "ANTEPROYECTOS-11"
     },
     {
+      "titulo": "Dispositivos conectados y análisis formal de rutas",
+      "url": "urn:sv:documento:sha256:c50cd5d56be741d87a0ae494402b99871cb77bcf4f9cd98f9b9c5773de1c9f97",
+      "sha256": "c50cd5d56be741d87a0ae494402b99871cb77bcf4f9cd98f9b9c5773de1c9f97",
+      "ruta": "dispositivos-rutas.md",
+      "id": "ANTEPROYECTOS-12"
+    },
+    {
       "titulo": "Fuentes y relaciones",
       "url": "urn:sv:documento:sha256:a4c97e4edce127adbdef23949811bef7563ebce675392527ad2f6e7ea7061ed1",
       "sha256": "a4c97e4edce127adbdef23949811bef7563ebce675392527ad2f6e7ea7061ed1",
@@ -80,5 +87,5 @@
       "id": "ANTEPROYECTOS-09"
     }
   ],
-  "revision": "9007a7d83cf902b0daec808ad5391a7cffdb75b0b112a6a44970f3e8c56728f2"
+  "revision": "385e958b053e3f8ce327c6df0a319c3b35a853dd4bc16ed21b00b0bb8fb434a6"
 }

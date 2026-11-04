@@ -65,6 +65,18 @@ Consulte el [catálogo de P01–P24](https://github.com/juantoniolloretegea/SVpe
 
 ---
 
+## Dispositivos conectados y efectos físicos {#dispositivos-efectos-fisicos}
+
+**Requisitos de estudio e integración.** La ciberseguridad del Internet de las cosas (IoT) comprende las comunicaciones y los componentes digitales en su relación con sensores, actuadores y procesos físicos. La identidad y función del recurso, su titular, el ámbito autorizado y las fuentes observables deben quedar delimitados antes de ampliar una supervisión.
+
+La observación, el consejo del Agente Especializado y la actuación sobre un equipo son operaciones distintas. Leer una magnitud no autoriza a cambiar una consigna, arrancar, detener ni actualizar firmware. Cada facultad debe quedar vinculada al perfil, la instalación, el recurso, la operación y su vigencia. La disponibilidad de una interfaz técnica no concede esos permisos.
+
+La evidencia distingue consigna, lectura comunicada y medición independiente. En un ejemplo de refrigeración, una lectura aparentemente normal puede ser insuficiente para acreditar la temperatura física o la conservación de la carga. Deben declararse cobertura, integridad, interrupciones y dependencias de pasarelas o servicios remotos. El análisis ciberfísico dispone de antecedentes específicos en [Humayed y colaboradores, 2017](https://doi.org/10.1109/JIOT.2017.2703172).
+
+Toda posible intervención necesita límites comprobables y protecciones independientes del consejo del modelo. Los metadatos del dispositivo y los procedimientos generados por inteligencia artificial (IA) se contrastan antes de admitir su uso. El tratamiento ante pérdida de comunicación o fallo depende del proceso; no se prescribe un apagado universal. Recuperación informática y recuperación física deben verificarse por separado.
+
+La [memoria de dispositivos y rutas](../../anteproyectos-memorias-descriptivas/dispositivos-rutas.html) identifica los entregables y pruebas previstos. Su incorporación no amplía el Universo OP-CYB-001 ni acredita soporte operativo para un nuevo equipo.
+
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | ORCID: 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | ISSN 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).
 
 

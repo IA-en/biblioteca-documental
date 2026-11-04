@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-memoria-actividades-20261104",
+  "edicion": "biblioteca-sv-dispositivos-rutas-20261104",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "2d0b61b11b5d1b70055762edfdd1ab454a23d1526f89c0da7a78a77bebdca8b8"
+        "sha256": "12af7daa3a18113d59363b6a2df50dffe2820a9698a0608c82e03ecd1eada8cb"
       },
       "metadatos": [
         {
@@ -441,11 +441,11 @@
           "identificador_editorial_r0": null,
           "alcance": "Constitución celular, consejo al experto y estudio del potencial; requisitos y límites de la seudo-producción, sin habilitación operativa.",
           "correspondencia": "identidad_literal",
-          "procedencia": "Revisión editorial del 25/10/2026",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/manual/src/parametros-rutas.md",
-            "sha256": "5936336a7db8bda5b9970a66abb85986de8908bc0d4ed490f760626d4a83c0ca"
+            "sha256": "4777d2e1e3fa027262de6d596617c812e5fc868ced6dba2f297a0df96a4879af"
           },
           "sintetico": false
         },
@@ -622,10 +622,10 @@
           "visibilidad": "publica",
           "documento": "MANUAL_ARQUITECTURA_EJECUCION",
           "identificador_editorial_r0": null,
-          "procedencia": "Edición explicativa de 28/10/2026",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
           "original": {
             "ruta": "libros/manual/src/arquitectura-ejecucion.md",
-            "sha256": "49867248133090f98f050b40bbf7d4ab575683aa445d9f3304ff1576d8562759"
+            "sha256": "2da2b83ae75d4ef782617e141269e9f6679838f455ba112a593f954ccd2a1fcb"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -637,10 +637,10 @@
           "visibilidad": "publica",
           "documento": "MANUAL_OBSERVABILIDAD",
           "identificador_editorial_r0": null,
-          "procedencia": "Revisión de concordancia documental de 30/10/2026",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
           "original": {
             "ruta": "libros/manual/src/observabilidad.md",
-            "sha256": "237691579d67514e5bda9349c1518eb1bb4e49983636482d375d9f45f330cd43"
+            "sha256": "6b06651f5bad322541d7bf88bce095926f4013a9a3e7f8ae66681ef7e8ca4def"
           },
           "licencia": "CC BY-NC-ND 4.0"
         },
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "54643e183105fc920ba1dadb58cdd8f9924e056845f70281a27940c2b8bc1c1b",
+        "sha256": "69d313012582b71ef7eac1a59432790c627d67a6077ed579e44c37c2fac24637",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -783,11 +783,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-06",
           "original": {
-            "sha256": "0b78e71d54f09292425eeaa03cb8b08226245a66c73eb19764fadb4ebc9a4974",
+            "sha256": "b4e09f5906128f5e8c53201d0fbb37d8a726cc8f14f86bbbd0e253e64af02d53",
             "ruta": "libros/dominios/src/ciberseguridad.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública propia actualizada, 03/11/2026"
+          "procedencia": "Edición pública propia revisada, 04/11/2026"
         },
         {
           "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
@@ -811,11 +811,11 @@
           "identificador_editorial_r0": null,
           "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública de 27/10/2026",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
           "licencia": "CC BY-NC-ND 4.0",
           "original": {
             "ruta": "libros/dominios/src/parametros-rutas.md",
-            "sha256": "aaf22c4fd91ceaaa74669682c08e81029bc3ea7f3bdc097208101a66a41091b4"
+            "sha256": "0fa377346d963f556bc14c942a35127f6d4f4ddab01290ded743889237277d20"
           },
           "sintetico": false
         }
@@ -959,13 +959,13 @@
       "raiz": "libros/anteproyectos/src",
       "plan": {
         "ruta": "libros/anteproyectos/plan.json",
-        "sha256": "bf22ce4690f6279f45d78a189f01964522c610711a2f6f0e7ca5d41f62403b37"
+        "sha256": "ac717c6702ca02de247294c2868ca2b1be7810fb24b9681c02b0fdba3f378de7"
       },
       "metadatos": [
         {
           "documento": "ANTEPROYECTOS-01",
           "original": {
-            "sha256": "e1a2b1a3f9c8d00ec2aebf9c639156321003803dc72d40bfd90550973b79410d",
+            "sha256": "32189f574ce4084e19da6c64a205dda2f783d17732b6d6b33470d69e076ee23b",
             "ruta": "libros/anteproyectos/src/SUMMARY.md"
           },
           "correspondencia": "identidad_literal",
@@ -1121,6 +1121,21 @@
           "correspondencia": "identidad_literal",
           "procedencia": "Edición pública propia revisada, 04/11/2026",
           "alcance": "Memoria descriptiva y seguimiento documental; no acredita capacidades técnicas ni autoriza operaciones.",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "sintetico": false,
+          "identificador_editorial_r0": null
+        },
+        {
+          "documento": "ANTEPROYECTOS-12",
+          "original": {
+            "sha256": "c50cd5d56be741d87a0ae494402b99871cb77bcf4f9cd98f9b9c5773de1c9f97",
+            "ruta": "libros/anteproyectos/src/dispositivos-rutas.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "alcance": "Requisitos y líneas de estudio; no acredita capacidades ni modifica evaluaciones.",
           "licencia": "CC BY-NC-ND 4.0",
           "tipo_original": "markdown",
           "visibilidad": "publica",
