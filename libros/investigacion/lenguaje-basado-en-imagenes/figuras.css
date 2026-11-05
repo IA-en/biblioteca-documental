@@ -1,0 +1,12 @@
+/* Presentación editorial de las figuras del tratado. */
+main {line-height:1.7}
+main img {max-width:100%;height:auto;display:block;margin:1.4rem auto .6rem}
+main p:has(> img) {text-align:center}
+.pie-figura {font-size:.92em;line-height:1.5;margin:.5rem 0 2rem;padding:.7rem 1rem;border-left:3px solid #7b9b96}
+.figura-tratado {margin:2rem 0;break-inside:avoid}
+.autoria-figura {display:block;font-size:.72em;line-height:1.5;margin-top:.8rem;color:var(--fg);opacity:.8}
+.formatos-figura {display:block;font-size:.82em;line-height:1.5;margin-top:.6rem}
+.edicion {padding:1rem 1.3rem;border:1px solid #7b9b96;border-radius:4px}
+table {font-size:.92em}
+code {overflow-wrap:anywhere}
+@media print {main img {max-height:215mm;object-fit:contain} .pie-figura {break-before:avoid} h2,h3 {break-after:avoid}}

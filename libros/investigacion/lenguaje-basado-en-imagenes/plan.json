@@ -1,0 +1,21 @@
+{
+  "edicion": "V.03",
+  "fecha": "2026-11-05",
+  "naturaleza": "Investigación",
+  "capitulos": 19,
+  "figuras": 28,
+  "representaciones_de_figuras": 112,
+  "frames": 11,
+  "vectores": 74,
+  "posiciones": 834,
+  "posiciones_informativas": 832,
+  "reservas_pendientes_de_conformidad": 2,
+  "potencial_visual_calculado": false,
+  "conversion_fotografica_general_acreditada": false,
+  "comprension_independiente_del_idioma_acreditada": false,
+  "original": "es",
+  "fuentes": "src",
+  "indice": "src/SUMMARY.md",
+  "lectura": "https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/",
+  "advertencia": "La versión desplegada se identifica en su portada y puede diferir de estos originales."
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="540" viewBox="0 0 1500 540" role="img" aria-labelledby="titulo desc">
+<title id="titulo">Correspondencia entre imagen, glifo y texto, célula y dato de potencial</title><desc id="desc">Cuatro representaciones vinculadas con identidad de suceso. El potencial se conserva como dato estructurado; la cifra aislada no identifica por sí sola el frame.</desc>
+<rect width="1500" height="540" fill="#f8faf8"/>
+<g font-family="Georgia,serif" text-anchor="middle" fill="#173c3b">
+<text x="750" y="55" font-size="28">Principios Rectores del Lenguaje Basado en Imágenes (LBI)</text>
+<text x="750" y="95" font-size="22">Correspondencia de extremo a extremo y conservación del significado</text>
+<g stroke="#467a74" stroke-width="2"><rect x="30" y="145" width="300" height="205" rx="12" fill="#fff"/><rect x="410" y="145" width="300" height="205" rx="12" fill="#e9f1ec"/><rect x="790" y="145" width="300" height="205" rx="12" fill="#fff"/><rect x="1170" y="145" width="300" height="205" rx="12" fill="#e9f1ec"/></g>
+<text x="180" y="205" font-size="30">Imagen real</text><text x="180" y="257" font-size="21">Evidencia visual</text><text x="180" y="300" font-size="20">Identidad y procedencia</text>
+<text x="560" y="205" font-size="30">Glifo · Texto</text><text x="560" y="257" font-size="21">Relaciones y ámbitos</text><text x="560" y="300" font-size="20">Núcleo semántico</text>
+<text x="940" y="205" font-size="30">Célula</text><text x="940" y="257" font-size="27">0 · 1 · U</text><text x="940" y="300" font-size="20">Sistema Vectorial (SV)</text>
+<text x="1320" y="205" font-size="27">Dato de potencial</text><text x="1320" y="257" font-size="20">Identidad · Firma · Ruta</text><text x="1320" y="300" font-size="21">P = μ − λ · I = μ + λ</text>
+<text x="370" y="260" font-size="48">↔</text><text x="750" y="260" font-size="48">↔</text><text x="1130" y="260" font-size="48">↔</text>
+<text x="750" y="410" font-size="23">Cada nuevo suceso conserva una identidad propia</text>
+<text x="750" y="453" font-size="21">La cifra aislada de potencial no acredita una inversa única</text>
+<text x="750" y="495" font-size="19">Exactitud canónica, fidelidad semántica y cálculo de magnitudes se comprueban por separado</text></g></svg>

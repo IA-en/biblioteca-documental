@@ -1,0 +1,1 @@
+Los recursos de presentación biblioteca.css, presentacion.js y theme/index.hbs proceden de la biblioteca documental y de las plantillas de mdBook. Conservan sus avisos y la Mozilla Public License 2.0 (MPL-2.0) aplicable; véase mdbook-license.txt. El aviso de los contenidos propios no sustituye las condiciones de terceros.
