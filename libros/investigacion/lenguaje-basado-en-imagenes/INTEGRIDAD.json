@@ -80,13 +80,13 @@
     },
     {
       "ruta": "articulo/manuscrito.md",
-      "octetos": 35719,
-      "sha256": "d664e3cbfdb36fc48ec97744e3d6479c626ac83fb2df65d2a420f72c717026b5"
+      "octetos": 53214,
+      "sha256": "f5192fc63f15be9f476cc927f26dde8ddf583b550c36e6e67f82eee30986df1b"
     },
     {
       "ruta": "articulo/README.md",
-      "octetos": 971,
-      "sha256": "e2ecb9aed9578e9576e67967507f31c0a894b531ef67ceffbfcb930b1edc74d8"
+      "octetos": 1175,
+      "sha256": "754cff772b24cdbbfaae4248ebe9f322be6ffd271f7032c22e957de5855fddea"
     },
     {
       "ruta": "biblioteca.css",
@@ -125,8 +125,8 @@
     },
     {
       "ruta": "plan.json",
-      "octetos": 844,
-      "sha256": "d3d028c9c5ac2d02671f0dab18fd627c2a98aaf71c564b7c068540eb18a489d5"
+      "octetos": 834,
+      "sha256": "d2bc2fca1ba75f277da21fc912062df912c6b594707bac07284e46e9bcd4fd9d"
     },
     {
       "ruta": "plan.json.license",
