@@ -1,8 +1,8 @@
 {
-  "edicion": "V.03",
+  "edicion": "V.04",
   "fecha": "2026-11-05",
   "naturaleza": "Investigación",
-  "capitulos": 19,
+  "capitulos": 20,
   "figuras": 28,
   "representaciones_de_figuras": 112,
   "frames": 11,
@@ -19,5 +19,7 @@
   "lectura": "https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/",
   "advertencia": "La versión desplegada se identifica en su portada y puede diferir de estos originales.",
   "articulo": "articulo/manuscrito.md",
-  "estado_articulo": "Manuscrito preparado; sin edición publicada en revista"
+  "estado_articulo": "Publicado por su autor: edición 1, 5 de noviembre de 2026",
+  "doi_articulo": "https://doi.org/10.21428/39829d0b.8b9c0155",
+  "edicion_articulo": "https://www.itvia.online/pub/klhyeedw/release/1"
 }

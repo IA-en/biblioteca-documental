@@ -18,7 +18,7 @@ Cada posición contiene un único valor de la terna. El nombre de un objeto, una
 
 En la codificación del caso, ciertos valores 0 y 1 seleccionan referentes y relaciones; otros campos contienen el estado semántico. Ambos usos están definidos y no se intercambian. Un valor aislado, sin su posición y su constitución, no identifica una acción.
 
-Esa selección mediante campos constituye una codificación experimental de información. Su recuperación exacta no basta para acreditar que cada posición satisface el contrato semántico de una célula del Sistema Vectorial (SV). Debe explicitarse la cuestión asociada a cada posición y su correspondencia con 0, 1 y U; el agrupamiento de símbolos en una longitud cuadrada no demuestra por sí solo esa correspondencia. Los [fundamentos de la paridad, apartado 2](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ce5aad1125460263904acb91142f33324ce89dfc/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/CELULA_IMAGEN_Y_AGENTES_EN_EL_SV_P1_P3_BIS_2026_09_13_V2.md) distinguen el objeto matemático, su interpretación y la realización gráfica.
+Esa selección mediante campos constituye una codificación experimental de información. Su recuperación exacta no basta para acreditar que cada posición satisface el contrato semántico de una célula del Sistema Vectorial (SV). Debe explicitarse la cuestión asociada a cada posición y su correspondencia con 0, 1 y U; el agrupamiento de símbolos en una longitud cuadrada no demuestra por sí solo esa correspondencia. Los <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ce5aad1125460263904acb91142f33324ce89dfc/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/CELULA_IMAGEN_Y_AGENTES_EN_EL_SV_P1_P3_BIS_2026_09_13_V2.md" target="_blank" rel="noopener noreferrer">fundamentos de la paridad, apartado 2</a> distinguen el objeto matemático, su interpretación y la realización gráfica.
 
 ## Operaciones y estructuras
 
@@ -26,5 +26,6 @@ Llamar vector a una sucesión ordenada no demuestra que su conjunto sea un espac
 
 Un análisis que emplee otra codificación numérica puede servir como instrumento externo, pero debe demostrar que conserva la interpretación del Sistema Vectorial (SV). Este tratado no añade operaciones algebraicas al núcleo ni deduce conmutatividad de una representación gráfica. El orden de los acontecimientos y los papeles de los participantes pueden ser esenciales y no conmutativos.
 
-Fuente principal: [corrección, célula y clasificación del Sistema Vectorial (SV)](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/correccion.html).
+Fuente principal: <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/correccion.html" target="_blank" rel="noopener noreferrer">corrección, célula y clasificación del Sistema Vectorial (SV)</a>.
 
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

@@ -1,5 +1,5 @@
 {
-  "edicion": "V.03",
+  "edicion": "V.04",
   "algoritmo": "SHA-256",
   "alcance": "Todos los archivos distribuidos excepto este manifiesto",
   "archivos": [
@@ -80,13 +80,33 @@
     },
     {
       "ruta": "articulo/manuscrito.md",
-      "octetos": 53214,
-      "sha256": "f5192fc63f15be9f476cc927f26dde8ddf583b550c36e6e67f82eee30986df1b"
+      "octetos": 53446,
+      "sha256": "1a767b9e6dd1240d18fbb47207ca34b84d2580ada3acce65ca3e15a459a09ab4"
+    },
+    {
+      "ruta": "articulo/manuscrito.md.license",
+      "octetos": 306,
+      "sha256": "fbf743c6167e675ad0d2c6a26e172fdaf1e31bfe44f7625b55d9f6ac519e71f3"
     },
     {
       "ruta": "articulo/README.md",
-      "octetos": 1175,
-      "sha256": "754cff772b24cdbbfaae4248ebe9f322be6ffd271f7032c22e957de5855fddea"
+      "octetos": 1612,
+      "sha256": "0dc62e40e7d2836457e60aff1eb25e811cadbb64ea7c0553b12b1f9bcd86d4de"
+    },
+    {
+      "ruta": "articulo/README.md.license",
+      "octetos": 302,
+      "sha256": "90399564ba8c5ffcdf11c996fed2bd961879fd25c784737204fb798573c371c4"
+    },
+    {
+      "ruta": "AUTORIA-Y-CITACION.md",
+      "octetos": 1817,
+      "sha256": "b3abcd8e42adc52c70339bd936234d088b8ebf1d98f9ca2e34e4908c02c80461"
+    },
+    {
+      "ruta": "AUTORIA-Y-CITACION.md.license",
+      "octetos": 305,
+      "sha256": "23ac2a67f4b219f07b7bf05fb331cf8fd067dc927aa22c89a03fb0c4ec2f5ba8"
     },
     {
       "ruta": "biblioteca.css",
@@ -96,12 +116,12 @@
     {
       "ruta": "book.toml",
       "octetos": 813,
-      "sha256": "9a7e1d7d4d28e0dcb8e80e4a155756acecdb06513fa7f8e31c133f45d27783ca"
+      "sha256": "f8810c3278c1f08d577b018c6017d720c8369f801894376e1a31958475fc0075"
     },
     {
       "ruta": "book.toml.license",
       "octetos": 293,
-      "sha256": "30f8607e0529576bdc877dbc942d62dcb050e7a3411ed3f3457605c9ea245ce4"
+      "sha256": "f0f4271141e0fe0a1f31f84359e01edf9012e68e7a4933a9ce3b015b389e9c2b"
     },
     {
       "ruta": "figuras.css",
@@ -125,13 +145,13 @@
     },
     {
       "ruta": "plan.json",
-      "octetos": 834,
-      "sha256": "d2bc2fca1ba75f277da21fc912062df912c6b594707bac07284e46e9bcd4fd9d"
+      "octetos": 973,
+      "sha256": "758d6d0fb4a18c273febfc516e96bc073ce2dac7906aa42e71687ee07063e200"
     },
     {
       "ruta": "plan.json.license",
       "octetos": 293,
-      "sha256": "b6769bb0a14245358d6c1bcfa8dbdaade662db55e3f0ce19b1a327f3e8751fd9"
+      "sha256": "2a6ead2778e0cc9a59e6cdcfa6a4c507f69bc68cc537ec9b91ff38de7ecb036b"
     },
     {
       "ruta": "presentacion.js",
@@ -140,13 +160,13 @@
     },
     {
       "ruta": "README.md",
-      "octetos": 3290,
-      "sha256": "d224b07262665325ae23f9907774dea783fb912f5830972d9cacc41e3c61fffb"
+      "octetos": 3681,
+      "sha256": "2fe3ebec29396fef8bc68255334fef98cbea097c8c614f15ef9d78c1ce463a78"
     },
     {
       "ruta": "README.md.license",
       "octetos": 293,
-      "sha256": "2dcc9ac7a95a75a14477577084b490ee6af4b54184ffc374479e982b5fffff55"
+      "sha256": "a192f4fbf89bf12748178332fa3b96ce115b441283b7b845193da0d5c36de275"
     },
     {
       "ruta": "RECURSOS-Y-LICENCIAS.txt",
@@ -155,213 +175,223 @@
     },
     {
       "ruta": "src/01-presentacion.md",
-      "octetos": 4861,
-      "sha256": "f2baa130f92b37eeec6718604e38e872290881cd24d95c3562534c0a00723dc5"
+      "octetos": 6168,
+      "sha256": "bd646c0da1ea6a10a22f3a7a0ec4fc6898297beb8784ba02e0f92bfb0ab13cfd"
     },
     {
       "ruta": "src/01-presentacion.md.license",
       "octetos": 306,
-      "sha256": "b94bd01c6af92c3974ca89929cac25c7b2dc53a3952e40573230fe807576b414"
+      "sha256": "c81ac179bc89a06d25ac47b8c855d0c79b918d7d782678413e9cda7aa6ab1200"
     },
     {
       "ruta": "src/02-fundamento.md",
-      "octetos": 3109,
-      "sha256": "d70f1916bde665449c864c70b4a6bb527b28bd3d05cdd40b97e7a33977b045a9"
+      "octetos": 3398,
+      "sha256": "e5e6602dd71e038060af0a3369e628c94f100ab095272bec3f77bd8778a5f1b4"
     },
     {
       "ruta": "src/02-fundamento.md.license",
       "octetos": 304,
-      "sha256": "857f429f4a3b6b313df1f46032d1f3e3fcd8cb55b2ab1feb2f931573373f6153"
+      "sha256": "5c1218ab78f5cae0f12011c17951518caca22f75734c04aee2cb22377a79538a"
     },
     {
       "ruta": "src/03-recorrido.md",
-      "octetos": 8517,
-      "sha256": "b6999259a9ed8046fea0d9b0e4b1355c1fd185c610dab38f61384ff0d8f07608"
+      "octetos": 8991,
+      "sha256": "e023c594c60ec3ddedf663138b3639213b2da6c872366958a97a759fe2668f08"
     },
     {
       "ruta": "src/03-recorrido.md.license",
       "octetos": 303,
-      "sha256": "4c9cc52e257495d7f5bea9be704c67bc3ed2b361e667a4aebb5602a46736eeb4"
+      "sha256": "b1b022771b3a6754688dfdac0830b6fa6fa4f5e49fbfb19103f7d9abcaa7bfbb"
     },
     {
       "ruta": "src/04-terna.md",
-      "octetos": 5335,
-      "sha256": "e9ee9bf1ba966f2cb5b394649d0b97225587dbbb889bf1b42105d45724058c9b"
+      "octetos": 6022,
+      "sha256": "8ed446eb9504ca438cf86def9d63e0dfdb5dcbb08d2e1d58dde2603d57221f4f"
     },
     {
       "ruta": "src/04-terna.md.license",
       "octetos": 299,
-      "sha256": "832b3dae26b3f0f393c034f1bae4cfe8cd190ce41a655bf30635fc11b57acdb9"
+      "sha256": "c9c3c462dcb779fcd7282b907ddd1455c23b4d42e2b3c564e627cce80d644245"
     },
     {
       "ruta": "src/05-biyeccion.md",
-      "octetos": 3565,
-      "sha256": "c9dc598fca7d41f77a2928bdfd382e41f10409b67d3114147fb57fa5f681731d"
+      "octetos": 5528,
+      "sha256": "96c33e87edcb97069ee465eefced20882798c485d120d868d9dd6817e04a656a"
     },
     {
       "ruta": "src/05-biyeccion.md.license",
       "octetos": 303,
-      "sha256": "0a009814a288c77262048c791a5f99a0eae0d6f64baa9b28a292ff3196785030"
+      "sha256": "f6796951c47d4cb827e58ddfbb2faf1d2bf807244e3e01e96414ee44e5bde71a"
     },
     {
       "ruta": "src/06-criticidad.md",
-      "octetos": 11435,
-      "sha256": "0ebb3aec2f122cb6f14cf7c73f1bb39ee75535ca3d7b232c65f5b1cabc72b851"
+      "octetos": 13341,
+      "sha256": "20758a60927d122e717349a9f26c4ee42c1829852fd51e06594c0c16cd56a4b8"
     },
     {
       "ruta": "src/06-criticidad.md.license",
       "octetos": 304,
-      "sha256": "f3cd87a02adf3d5d84269c8199272663a74e81cc24c6d73e3e4e1c1bbc8831dc"
+      "sha256": "7b951c6ebb4e464cf33b784862c8c4ab881c46f3653b8c29e11acb1127eb57cc"
     },
     {
       "ruta": "src/07-economia.md",
-      "octetos": 2834,
-      "sha256": "904962e8fed52048c7d865ad3432989da97e95b01b28c23ca4fc8c47c63eb37e"
+      "octetos": 3072,
+      "sha256": "6d0381a8c33bd25d269fbddff1f8cd2ae2b75cd396bb12485d4286ff1774e908"
     },
     {
       "ruta": "src/07-economia.md.license",
       "octetos": 302,
-      "sha256": "9e932daff132c38ec0da46922bba95bf821a766706a44fe38156d650d0214789"
+      "sha256": "86472e4de159e15794b07cf1d5e169f80f52bdd2f5d28866cd96c07a7f5b57a1"
     },
     {
       "ruta": "src/08-repertorio.md",
-      "octetos": 3352,
-      "sha256": "c8284477ba1e08fc5b9f0c0cb953db6d7ed75bbbc720783dd87784be3c6b7e03"
+      "octetos": 3703,
+      "sha256": "11b70f67a108608bead4d842546650361fd865608f33b7a2b1424080546776ad"
     },
     {
       "ruta": "src/08-repertorio.md.license",
       "octetos": 304,
-      "sha256": "439515602a5624fe384d6eb37cea89001e4ad2437e68ea3d74f9aa4a58f42749"
+      "sha256": "f7a547e9ad1cc1ae007d6c89c2f66c254b5e11e3cdf544f2f1c128ab78a927e4"
     },
     {
       "ruta": "src/09-caso-completo.md",
-      "octetos": 23313,
-      "sha256": "cf08f98b7dd13ad8d8a9f35031416e930c4d96ad374e6a85571f86a46b3a89b8"
+      "octetos": 25916,
+      "sha256": "e519ef91eacce76bd187b6bf088765349bc8d8897222cf1673398a8495bc3a28"
     },
     {
       "ruta": "src/09-caso-completo.md.license",
       "octetos": 307,
-      "sha256": "3d8bba1fba117cc33544a0fa32ccdf7b1552c01ca42627a531a34dd0a9526b8e"
+      "sha256": "5395d389061efaef977a2db10f5847bda209b5271638c638b722034602213954"
     },
     {
       "ruta": "src/10-celulas.md",
-      "octetos": 8020,
-      "sha256": "d9ff3590b7e9b3cfee5be3d270e9f6a4e8c6a4835630bf5fecf2405b2b5a329f"
+      "octetos": 8283,
+      "sha256": "20bb5c91e724564767bb481fc84b8879eaedfb5b9a746863a08ca64d0c5531e7"
     },
     {
       "ruta": "src/10-celulas.md.license",
       "octetos": 301,
-      "sha256": "0d167824ab7163e4bf9b2cdc237c8b45ba2be9e667a9fedf761bded950471fe3"
+      "sha256": "cbc8e5caebb88b5982fffd70d38c2dd313afaf5f12c66ca5b9b88d13521c1718"
     },
     {
       "ruta": "src/11-deduccion.md",
-      "octetos": 2497,
-      "sha256": "d86cef7966f24cfff1c632aacf9c14c62f64789847beb38c075755f308cfea55"
+      "octetos": 2680,
+      "sha256": "aee4b77e788be169efa5ffb19c86c46b0d40347e7407e00e387d79f970ad3c67"
     },
     {
       "ruta": "src/11-deduccion.md.license",
       "octetos": 303,
-      "sha256": "c948d4e878b1160671ba0cad6b9b5c52d7c049409baf79ad91c225a9f6069707"
+      "sha256": "79730979c58b55717ff5bf0a3f6b1ce3bf01e8d4721e6a8dc24ba12ff2e8af85"
     },
     {
       "ruta": "src/12-prueba.md",
-      "octetos": 4200,
-      "sha256": "15026b965a80b710e7df3b1feb0a64227eb4fbe7f0d2a1f7f347b1b4808e2adc"
+      "octetos": 4474,
+      "sha256": "60741512fed9e368e1d997f727ce0629536b220b14ac3ef4b0f2c535b4157807"
     },
     {
       "ruta": "src/12-prueba.md.license",
       "octetos": 300,
-      "sha256": "fed8fcf52b001dca5c27b8e43eee658d1307339c922135d83e139e43642ca065"
+      "sha256": "27d1d335effacd7ed2a07cd07171ee5f3864bf50e9c61e0836c196dbf93280c9"
     },
     {
       "ruta": "src/13-imagenes.md",
-      "octetos": 5550,
-      "sha256": "7994e483df6236548b4c256017b5598a43f70cb17321e39a4fe1ad895174cea4"
+      "octetos": 6538,
+      "sha256": "b654d30e120449f8f1c08268a96f1882842303382654310ebb74d6a6f5d3cb03"
     },
     {
       "ruta": "src/13-imagenes.md.license",
       "octetos": 302,
-      "sha256": "f08905350a29d579a6e3a1be42d930f99649153cec0292c51113a753fb2b00b6"
+      "sha256": "d1841f8d83585ae257868843d14f22d53b692e0ff5c99d5f38627fbcfb8c64bf"
     },
     {
       "ruta": "src/14-evaluacion.md",
-      "octetos": 2657,
-      "sha256": "098d29c80ddb84a35534319f20ff07a59123eac1a9f6b019999097032d8d8946"
+      "octetos": 3343,
+      "sha256": "d5dc36e329459196ebeae9d69a46be7fba268fabda2190edaacf37997a689706"
     },
     {
       "ruta": "src/14-evaluacion.md.license",
       "octetos": 304,
-      "sha256": "4b690f0b4dbd4f2799f5fc5223dcbf66b83b930dff01acd438ad4b45a1120492"
+      "sha256": "5707ab6db826570b8a150197d9b94671da1a3504da4c548e50644f60b7d368a5"
     },
     {
       "ruta": "src/15-ediciones.md",
-      "octetos": 7542,
-      "sha256": "85c3312171842ff2419907274e75365b2585a9242e29b931484c2a9b97e064a5"
+      "octetos": 9053,
+      "sha256": "cce75daddea13cece5c27f18af20a8042b4ac36b1f77cd1c7a33a6eb9f14a1c1"
     },
     {
       "ruta": "src/15-ediciones.md.license",
       "octetos": 303,
-      "sha256": "554943a20993f4776aaee44dc8c631557d62c96c99f25f9452f55f20ada6c2d1"
+      "sha256": "f301aeeb91c8e543e563e3f8fe9ffb343d0c2e04a2a9f1693508d628dac97860"
     },
     {
       "ruta": "src/16-fuentes.md",
-      "octetos": 3264,
-      "sha256": "b89071369df0245137ea5e004564ae8301d98ee86c60f10d9d48242e8a02b349"
+      "octetos": 4357,
+      "sha256": "8922e4e6e25f9f13b5caed2a6320f2d5f03dce85c6d93c21fc9d85f7a9261c82"
     },
     {
       "ruta": "src/16-fuentes.md.license",
       "octetos": 301,
-      "sha256": "6d190beb90d5befcd672885d9459b0ab56a0486fd906e690e805b6cfb211cc87"
+      "sha256": "40f2bac6b0df9246206a15b2818884771856bcd5541550c8513dceb581669e0d"
     },
     {
       "ruta": "src/17-potencial.md",
-      "octetos": 7380,
-      "sha256": "d8291756419b119ff2bfa3ca20cf118a6e7cc43d4a2d205b823c1d50d5cf1e14"
+      "octetos": 9745,
+      "sha256": "146b0818f058266bf46243605f576c2b0aeef2b0f2a9b5f06b87206acb106294"
     },
     {
       "ruta": "src/17-potencial.md.license",
       "octetos": 303,
-      "sha256": "f926f0a5ab2dade1c8dfe771bde67b4082f3c45a21528b6d6951515c7e305d27"
+      "sha256": "56b378deb9c2b3d4f1540dd78c95caf46a9b90b46fa54692ca899127df6c06d8"
     },
     {
       "ruta": "src/18-organizacion.md",
-      "octetos": 6394,
-      "sha256": "6a78b281bc1a226e598a10a5c0536063bb88ae1cee4d0e1290138476daf9556f"
+      "octetos": 8319,
+      "sha256": "c53341ba88971414b5ba3c92a319d4b00b88d62960b4827bfc836d7a177471cd"
     },
     {
       "ruta": "src/18-organizacion.md.license",
       "octetos": 306,
-      "sha256": "006489ec330b85abb2e55d48c60883bcabaf641e2ac36b4019482d229336e7d2"
+      "sha256": "c4d25b4aef5aa5143a1f03c46c47969ac451b86ef7f8fe313ac00f1c12546ac1"
     },
     {
       "ruta": "src/19-verificacion.md",
-      "octetos": 5800,
-      "sha256": "447936326538b29925b66a07addb786e62abb81326f659694a12b27ac9f8e429"
+      "octetos": 6600,
+      "sha256": "c30a25c4eeb726ad78695fa586de656b9554cbaaa42bec209807bfc6d61ae5f5"
     },
     {
       "ruta": "src/19-verificacion.md.license",
       "octetos": 306,
-      "sha256": "1e05dc1ed2bbbccee8c9594da3159a023897b2092d9e1c53346e1174dc5916e2"
+      "sha256": "631ad9c95cc75753fe27a4f95e5b493e646716d9a2d56e812f24867e8f95a862"
+    },
+    {
+      "ruta": "src/20-programacion.md",
+      "octetos": 6204,
+      "sha256": "8943f98612c68222d5c96404835bd9d8a52bea901f8c0009045c2a3ab1e20287"
+    },
+    {
+      "ruta": "src/20-programacion.md.license",
+      "octetos": 306,
+      "sha256": "03f6e468a21cf50b288333d5b53f85df70431817e82d4b24b82285d7fa077767"
     },
     {
       "ruta": "src/bibliografia.md",
-      "octetos": 5436,
-      "sha256": "1fd9f5ad8167860907183e8d589faebfb6411cf11fc46afd9ba5d83d7f666c7e"
+      "octetos": 11526,
+      "sha256": "ad263e54682a05d434bc38951575d8b6a3ef33ecd7e001a1f2850eed332c319e"
     },
     {
       "ruta": "src/bibliografia.md.license",
       "octetos": 303,
-      "sha256": "132c47462e1b3d981bf835ae1f039b6b48c25515086a141de51d34c9bd26e586"
+      "sha256": "eab9d03ddde31a406e4bbfbb897464eba9aa71079f94ff600b175a6fffe1952e"
     },
     {
       "ruta": "src/figuras.md",
-      "octetos": 2429,
-      "sha256": "ef95820aa813b1ad65568d33c33e948d16364d85f4233baa159afeaac801bfa4"
+      "octetos": 2635,
+      "sha256": "bb0ece51fff753a803abf1ebd044de52c1c77bfba6e207856e041eebb8fab322"
     },
     {
       "ruta": "src/figuras.md.license",
       "octetos": 298,
-      "sha256": "eb433a7de021ddb80a538c34f017d04b6b5378ffbc51b5f35e33df9de218cf78"
+      "sha256": "aab43b08c6a06f57e2671abc9e191b670948120169910ae6eabfe712a3b5eefc"
     },
     {
       "ruta": "src/formatos/01-01-relato-inicial.jpg",
@@ -1205,13 +1235,13 @@
     },
     {
       "ruta": "src/herramientas.md",
-      "octetos": 2019,
-      "sha256": "8ffcf7f2799543a94ee023d2a5668a36da13a9e7836cdd0955b3994bc114764b"
+      "octetos": 2680,
+      "sha256": "e15f84c7d4cf4a41454761c11d1f164113ce86e3b747e0ae3bae4d12f5848fdd"
     },
     {
       "ruta": "src/herramientas.md.license",
       "octetos": 303,
-      "sha256": "05a0fd28c2bbc38c502c98d24d713ad413cb42da5cc79c803f0da0908ec25037"
+      "sha256": "a4aac3f1d9a909b10d8232e0de3be7faad9d97f7883dad5962460be2d57975f4"
     },
     {
       "ruta": "src/imagenes/01-01-relato-inicial.png",
@@ -1505,23 +1535,23 @@
     },
     {
       "ruta": "src/SUMMARY.md",
-      "octetos": 1454,
-      "sha256": "9b652f80a5f393364b6b1872b7836c2eb3d9e1aeb9a560263103f8da35a13ecb"
+      "octetos": 1738,
+      "sha256": "e3da107e6dbef8cbdffac0bfe9b836c4f1a1124a6bb2896097a8ec0404ad7ec3"
     },
     {
       "ruta": "src/SUMMARY.md.license",
       "octetos": 298,
-      "sha256": "c841a6a8ecef56763806cf2eb1dae472308370c536c8a5cec5535545f7b1e891"
+      "sha256": "4ac22567c5b078b59e50036e7012726689be0b3eb9560746937b78e04b2db2f1"
     },
     {
       "ruta": "theme/index.hbs",
-      "octetos": 19200,
-      "sha256": "454a41d54819ecd58682e2848f9a28fe078529e0006166f3980e1c48e3359c8b"
+      "octetos": 19408,
+      "sha256": "509d779dbf6eedc1f36317c6dabdd2e6cec94193bb83fab1342a25a77262c256"
     },
     {
       "ruta": "theme/index.hbs.license",
-      "octetos": 1473,
-      "sha256": "b2d695c50774d7789abc0a634ce191f6dfa96be4644bd12b6b74e2c2597f87fd"
+      "octetos": 1472,
+      "sha256": "a5a87156b4fe6f125a4116da616ecdcbce3a27e8fddb9edb06f4b1da4dd7cfdf"
     }
   ]
 }

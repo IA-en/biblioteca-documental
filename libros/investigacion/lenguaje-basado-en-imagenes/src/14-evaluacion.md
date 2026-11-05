@@ -28,5 +28,8 @@ Se ha preparado una estructura de dieciséis preguntas que separa cuestiones com
 
 La continuidad inmediata consiste en completar la evaluación de las respuestas ya conservadas, seleccionar las ambigüedades prioritarias, preparar variantes y fijar su contrato antes de mostrarlas. Los resultados de comprensión libre, aprendizaje de convenciones y reconstrucción se mantendrán diferenciados.
 
-Fuente: [edición del examen](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/edicion.html) y [regla de corrección](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/correccion.html).
+Fuente: <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/edicion.html" target="_blank" rel="noopener noreferrer">edición del examen</a> y <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/correccion.html" target="_blank" rel="noopener noreferrer">regla de corrección</a>.
 
+La fórmula y la separación entre clasificación matemática y criticidad se apoyan en los <a href="https://doi.org/10.21428/39829d0b.b0cf9a13" target="_blank" rel="noopener noreferrer">Fundamentos algebraico-semánticos del Sistema Vectorial, apartados 5.2–5.3</a>. La aplicación a reconstrucciones visuales conserva esa regla y requiere constituir previamente los parámetros de fidelidad.
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

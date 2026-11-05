@@ -21,7 +21,7 @@ Cada suceso conserva el vínculo con sus células, su imagen, su expresión sem�
 
 El caso conserva once sucesos y setenta y cuatro células: cincuenta de morfología (9,3) y veinticuatro de morfología (16,4). Las matrices homogéneas correspondientes tienen dimensiones 50 × 9 y 24 × 16. Esas dimensiones describen conjuntos de células; no constituyen células nuevas de 450 o 384 parámetros.
 
-La composición completa contiene 834 posiciones, de las cuales 832 son informativas conforme a la longitud conservada de cada frame. Las dos posiciones de reserva original permanecen diferenciadas del relleno externo que pueda necesitar una representación rectangular.
+La composición completa contiene 834 posiciones, de las cuales 832 son informativas conforme a la longitud conservada de cada *frame*. Las dos posiciones de reserva original permanecen diferenciadas del relleno externo que pueda necesitar una representación rectangular.
 
 La distinción de máscaras evita confundir ambas clases de reserva, pero no legitima las dos posiciones internas. Su conformidad sigue pendiente en los términos del [capítulo 7](07-economia.md). Las magnitudes de este apartado describen fielmente el prototipo conservado.
 
@@ -48,3 +48,13 @@ La organización facilita el aprovechamiento matemático, sin anticipar propieda
 La revisión adversarial recuperó los 74 vectores desde los datos tensoriales y comprobó la cancelación íntegra de una transacción ante un conflicto de identidad. También constató que la función de almacenamiento admite contenidos sin estructura validada, células sin suceso existente y vectores incompatibles con la dimensión declarada. El programa que prepara el caso verifica parte de esas condiciones; la función de almacenamiento no las impone por sí misma.
 
 El cotejo tabular original compara pares de filas, pero no exige igualdad de cardinalidad. Puede aceptar un archivo truncado o con filas adicionales si coinciden los pares recorridos. El archivo conservado contiene las 74 filas esperadas; el defecto afecta al alcance de su comprobador. La revisión no atribuye corrupción a esos datos. Un verificador suficiente deberá comprobar cantidad, identidad, orden, morfología, longitud y símbolos antes de declarar equivalencia.
+
+## Ejecución local y aprovechamiento de arquitecturas existentes
+
+La representación finita del caso, su recuperación y su organización persistente se han comprobado en un ordenador local. El procedimiento explícito no exige, por definición, entrenar un modelo general ni disponer de un centro de datos. Esta viabilidad corresponde al tamaño y las operaciones examinados; no establece requisitos universales de memoria, latencia o capacidad para fotografías arbitrarias. La ampliación deberá medir esas magnitudes y documentar las características del equipo.
+
+La organización matricial y tensorial permite estudiar tareas por lotes en una unidad de procesamiento gráfico (GPU) o una unidad de procesamiento tensorial (TPU), siempre que sus operaciones y tipos de datos sean compatibles. La <a href="https://docs.nvidia.com/cuda/cuda-programming-guide/01-introduction/programming-model.html" target="_blank" rel="noopener noreferrer">documentación del modelo de programación de NVIDIA</a> describe el procesamiento paralelo; la <a href="https://docs.cloud.google.com/tpu/docs/system-architecture-tpu-vm" target="_blank" rel="noopener noreferrer">documentación de la arquitectura tensorial de Google</a> expone sus unidades de cálculo matricial. Estos antecedentes justifican una posibilidad de adaptación, no una integración ni una aceleración ya medidas.
+
+Cada adaptación deberá conservar las máscaras, las identidades, el orden y el significado de la terna. El resultado deberá cotejarse con una realización de referencia. La elección de dispositivo depende de la operación y del volumen: preparar tensores no obliga a utilizar un acelerador ni convierte las etiquetas de los estados en cantidades algebraicas.
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

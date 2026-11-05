@@ -10,7 +10,7 @@ La investigación debe distinguir una especificación, una comprobación finita 
 
 | Afirmación | Evidencia disponible | Límite de la conclusión |
 |---|---|---|
-| El caso admite recuperación canónica | Once frames, vectores y contrastes de representación conservados; tablas de los capítulos 9 y 10 | No demuestra biyección sobre toda imagen ni sobre todas las entradas del algoritmo. |
+| El caso admite recuperación canónica | Once *frames*, vectores y contrastes de representación conservados; tablas de los capítulos 9 y 10 | No demuestra biyección sobre toda imagen ni sobre todas las entradas del algoritmo. |
 | Los datos tensoriales conservan los vectores | Recuperación de 74 vectores; 834 posiciones existentes y 832 informativas | La fidelidad de almacenamiento no acredita la constitución semántica de cada posición. |
 | Las nuevas identidades pueden conservar contenido repetido | Dos inscripciones con igual contenido y distinta identidad; rechazo de sustitución | La política corresponde a la operación examinada; no equivale a inmutabilidad física de cualquier archivo. |
 | El potencial participa en el retorno | Registro completo de individuación y fórmulas de la fuente | La cifra aislada no identifica necesariamente el suceso; la proyección visual sigue sin constituirse. |
@@ -22,7 +22,7 @@ La revisión adversarial realizó nueve contrastes de caracterización. Los nuev
 
 ## Entrada desde el mundo y retorno
 
-La [transducción al alfabeto ternario, apartados 4 y 5](https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/613d7796941e52c980f252075764867efc96a8a2/documentos/composicion/IV_transduccion_alfabeto_ternario_interfaz_parametrica.md) distingue captura, admisibilidad observacional y transductor. Esta distinción permite precisar la entrada visual: imagen obtenida, calidad de observación, criterio explícito de cada parámetro y valor ternario resultante. La fuente establece condiciones de transducción; no aporta un algoritmo general que reconstruya fotografías desde sus descripciones.
+La <a href="https://github.com/juantoniolloretegea/SV-matematica-semantica/blob/613d7796941e52c980f252075764867efc96a8a2/documentos/composicion/IV_transduccion_alfabeto_ternario_interfaz_parametrica.md" target="_blank" rel="noopener noreferrer">transducción al alfabeto ternario, apartados 4 y 5</a> distingue captura, admisibilidad observacional y transductor. Esta distinción permite precisar la entrada visual: imagen obtenida, calidad de observación, criterio explícito de cada parámetro y valor ternario resultante. La fuente establece condiciones de transducción; no aporta un algoritmo general que reconstruya fotografías desde sus descripciones.
 
 Un fallo instrumental debe quedar registrado como tal. No se convierte automáticamente en U. Si un dominio contempla su proyección a U, necesita una política explícita que preserve la causa y sea compatible con su contrato. Se evita así confundir la calidad de la observación con el estado de la relación observada.
 
@@ -37,3 +37,9 @@ La investigación sobre comprensión visual dispone de antecedentes de diagnóst
 La evaluación entre idiomas deberá contrastar el mismo contenido nuclear con observadores que no hayan recibido la clave. Se conservarán respuestas, ambigüedades, desacuerdos y condiciones de exposición. La prohibición de consultar fuentes externas es una condición procedimental; sin comprobación adicional no prueba aislamiento técnico ni ausencia de conocimiento previo.
 
 Las reservas celulares, la validación de entradas, la proyección visual del potencial y el contraste fotográfico permanecen abiertos. La edición conserva los resultados anteriores y precisa su alcance, sin reemplazar evidencia ni introducir reglas nuevas en los fundamentos.
+
+## Alcance del contraste de programación
+
+La admisión del ejemplo oficial de célula simple en los perfiles fuente español e inglés produjo representaciones intermedias iguales salvo la huella del texto de origen. Este contraste acredita una correspondencia concreta entre dos expresiones formales. No demuestra comprensión de prosa libre, ejecución de la operación declarada ni conversión de una fotografía en un programa. El [capítulo 20](20-programacion.md) especifica la obligación de conservación que deberá satisfacer la ampliación visual.
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

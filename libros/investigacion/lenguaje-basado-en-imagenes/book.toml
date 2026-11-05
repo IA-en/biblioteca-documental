@@ -1,7 +1,7 @@
 [book]
 title = "Tratado Lenguaje Basado en Imágenes (LBI) - Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un frame del Sistema Vectorial (SV)"
 authors = ["Juan Antonio Lloret Egea"]
-description = "V.03 · Investigación sobre representación visual, fidelidad semántica y células del Sistema Vectorial (SV)."
+description = "V.04 · Investigación sobre representación visual, fidelidad semántica y células del Sistema Vectorial (SV)."
 language = "es"
 src = "src"
 [build]

@@ -37,5 +37,6 @@ Las modificaciones propuestas son hipótesis de mejora. Deben probarse mantenien
 
 El candidato tiene prohibido consultar Internet, seguir enlaces, acceder a fuentes externas, utilizar herramientas o delegar. Debe trabajar sólo con el material entregado y señalar sus incertidumbres. La confirmación de esa condición se conserva junto con la respuesta.
 
-El caso completo forma parte de esta edición pública. La prohibición mantiene el examen cerrado por sus reglas, mientras que el desconocimiento previo y el aislamiento efectivo requieren la evidencia correspondiente. La documentación del Sistema Vectorial (SV) distingue igualmente estos alcances. No se abre un desarrollo adicional de aislamiento como requisito para continuar esta fase.
+El caso completo forma parte de esta edición pública. La prohibición mantiene el examen cerrado por sus reglas, mientras que el desconocimiento previo y el aislamiento efectivo requieren la evidencia correspondiente. La documentación del Sistema Vectorial (SV) distingue igualmente estos alcances. La declaración de cumplimiento del candidato y la configuración visible constituyen la evidencia conservada; no equivalen a una auditoría técnica independiente de la plataforma.
 
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

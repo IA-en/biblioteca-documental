@@ -2,6 +2,8 @@
 
 **Juan Antonio Lloret Egea**
 
+Publicación académica · Edición 1 · 5 de noviembre de 2026. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.8b9c0155</a>.
+
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. Open Researcher and Contributor ID (ORCID): [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA). IA eñ™ – La Biblia de la IA™. Número Internacional Normalizado de Publicaciones Seriadas (ISSN): 2695-6411.
 
 Licencia [Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es) para los contenidos propios de esta versión. Los materiales de terceros conservan sus derechos y condiciones.

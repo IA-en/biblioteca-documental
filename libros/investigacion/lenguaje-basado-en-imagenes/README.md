@@ -2,35 +2,35 @@
 
 **Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un frame del Sistema Vectorial (SV).**
 
-V.03 · 5 de noviembre de 2026 · Edición de investigación.
+V.04 · 5 de noviembre de 2026 · Cuarta edición de investigación.
 
-Esta carpeta conserva los originales del tratado, sus figuras y la configuración editorial. Se integra en la sección de investigación de la biblioteca; no modifica la Enciclopedia ni constituye una aprobación de las capacidades todavía pendientes.
+Esta carpeta reúne los originales del tratado, sus figuras y el artículo asociado. El objeto de la investigación es conservar participantes, acciones, relaciones, orden, finalidad e identidad al pasar entre representaciones visuales, verbales y matemáticas.
 
-- [Índice del tratado](src/SUMMARY.md).
-- [Objeto y alcance](src/01-presentacion.md).
-- [Caso completo y once frames](src/09-caso-completo.md).
-- [Composiciones y 74 vectores](src/10-celulas.md).
-- [Alcance de la evidencia](src/19-verificacion.md).
-- [Bibliografía](src/bibliografia.md) y [relación de instrumentos](src/herramientas.md).
-- [Autoría y licencias](src/16-fuentes.md).
-- [Índice de figuras](src/figuras.md).
-
-## Edición de consulta y originales
-
-La [dirección de lectura de la biblioteca](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/) sirve una edición identificada en su portada. La incorporación de estos originales V.03 al repositorio no sustituye por sí sola la edición V.02 desplegada. Debe comprobarse la versión que indica cada soporte antes de compararlos.
-
-La V.03 contiene 19 capítulos, bibliografía, relación de instrumentos e índice de figuras. Conserva 28 figuras en 112 archivos de representación, sin modificar las muestras ni los vectores del caso anterior. Las imágenes se incorporan mediante referencias relativas a `src/imagenes` y `src/formatos`.
-
-La revisión precisa el alcance de la recuperación canónica, las dos reservas celulares pendientes de conformidad, la función del dato completo de potencial y las limitaciones del almacenamiento. No acredita todavía una conversión general de fotografías ni comprensión independiente del idioma.
-
-## Preparación editorial
-
-La configuración `book.toml` permite generar el libro con mdBook 0.5.4 mediante `mdbook build`. La salida se escribe en `book/`. Los recursos de identidad situados en la raíz de la biblioteca y el servicio de traducción pertenecen a la presentación de la biblioteca; la generación local del libro no acredita por sí sola su disponibilidad.
-
-El manifiesto `INTEGRIDAD.json` relaciona los archivos con su huella SHA-256. La huella permite verificar los archivos disponibles; no es una firma de autoría ni permite reconstruir por sí sola su contenido. Los archivos asociados con extensión `.license` conservan la atribución sin alterar las muestras de las figuras canónicas.
-
-## Autoría
+## Autoría y referencia
 
 © 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. Open Researcher and Contributor ID (ORCID): [0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351). Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA). IA eñ™ – La Biblia de la IA™. Número Internacional Normalizado de Publicaciones Seriadas (ISSN): 2695-6411.
 
-Los contenidos propios se rigen por Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). Los componentes y fuentes de terceros conservan sus autores, avisos y licencias. La configuración editorial no modifica esos derechos.
+Los contenidos propios se presentan bajo [Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.es). Los materiales y componentes de terceros conservan su autoría, sus avisos y sus condiciones.
+
+## Publicación académica vinculada
+
+Lloret Egea, Juan Antonio (2026). *Lenguaje Basado en Imágenes (LBI): representación trazable y conservación semántica en el Sistema Vectorial (SV)*. Edición 1, 5 de noviembre de 2026. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.8b9c0155</a>.
+
+El identificador corresponde al artículo publicado. El tratado desarrolla sus fundamentos, el caso y los materiales gráficos; conserva su propia numeración de ediciones. La publicación del artículo no modifica por sí misma el alcance de las comprobaciones descritas.
+
+
+## Lectura y materiales
+
+- [Libro público](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/) e [índice de capítulos](src/SUMMARY.md).
+- [Artículo publicado](https://doi.org/10.21428/39829d0b.8b9c0155) y [versión documental con imágenes](articulo/manuscrito.md).
+- [Caso completo: once frames](src/09-caso-completo.md) y [74 vectores](src/10-celulas.md).
+- [Matrices y tensores](src/18-organizacion.md), [alcance de la evidencia](src/19-verificacion.md) y [programación visual](src/20-programacion.md).
+- [Bibliografía](src/bibliografia.md), [instrumentos y comunidades](src/herramientas.md), [autoría y licencias](src/16-fuentes.md) e [índice de figuras](src/figuras.md).
+
+La edición contiene veinte capítulos y veintiocho figuras con cuatro representaciones cada una. Las imágenes forman parte de la obra y se conservan en las carpetas de imágenes y formatos, con referencias relativas desde los capítulos. La versión de lectura se identifica en su portada.
+
+## Alcance científico y conservación
+
+La recuperación canónica está comprobada para el caso finito descrito. La conversión general desde fotografías, la comprensión entre idiomas y la integración visual con el lenguaje de computación requieren nuevos contrastes. El potencial se interpreta con su dominio y su registro de individuación: una cifra aislada no identifica necesariamente un suceso.
+
+El inventario de integridad permite contrastar los archivos conservados. Las atribuciones asociadas a las imágenes mantienen la identidad de las muestras canónicas; cada figura editorial incorpora además su pie de autoría. La biblioteca y este soporte constituyen representaciones relacionadas de la misma edición.

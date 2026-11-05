@@ -8,9 +8,9 @@ La expresión no enumera cuatro componentes independientes. Establece una obliga
 
 <figure id="figura-3-1" class="figura-tratado">
 
-![Recorrido entre imagen, representación semántica y célula](imagenes/03-01-recorrido.svg?v=lbi-v02)
+<a href="imagenes/03-01-recorrido.svg?v=lbi-v02" target="_blank" rel="noopener noreferrer"><img src="imagenes/03-01-recorrido.svg?v=lbi-v02" alt="Recorrido entre imagen, representaci&#243;n sem&#225;ntica y c&#233;lula"></a>
 
-<figcaption class="pie-figura"><strong>Figura 3.1.</strong> Recorrido de conversión en ambos sentidos. La identidad de la aparición y su núcleo semántico deben conservarse a través de las capas intermedias. El cuarto componente conserva el dato de potencial completo; su cifra aislada no acredita una inversa única. Revisión de la figura en V.02. La exactitud canónica y la fidelidad de una reconstrucción se comprueban por separado.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | Open Researcher and Contributor ID (ORCID): 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | Número Internacional Normalizado de Publicaciones Seriadas (ISSN) 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). Los componentes y fuentes de terceros conservan sus avisos.</small><span class="formatos-figura">Versiones: <a href="imagenes/03-01-recorrido.svg?v=lbi-v02">Scalable Vector Graphics (SVG), geometría de origen</a> · <a href="formatos/03-01-recorrido.png?v=lbi-v02">Portable Network Graphics (PNG)</a> · <a href="formatos/03-01-recorrido.jpg?v=lbi-v02">Joint Photographic Experts Group (JPEG; .jpg)</a> · <a href="formatos/03-01-recorrido.webp?v=lbi-v02">WebP sin pérdida</a>.</span></figcaption>
+<figcaption class="pie-figura"><strong>Figura 3.1.</strong> Recorrido de conversión en ambos sentidos. La identidad de la aparición y su núcleo semántico deben conservarse a través de las capas intermedias. El cuarto componente conserva el dato de potencial completo; su cifra aislada no acredita una inversa única. Revisión de la figura en V.02. La exactitud canónica y la fidelidad de una reconstrucción se comprueban por separado.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | Open Researcher and Contributor ID (ORCID): 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | Número Internacional Normalizado de Publicaciones Seriadas (ISSN) 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). Los componentes y fuentes de terceros conservan sus avisos.</small><span class="formatos-figura">Versiones: <a href="imagenes/03-01-recorrido.svg?v=lbi-v02" target="_blank" rel="noopener noreferrer">Scalable Vector Graphics (SVG), geometría de origen</a> · <a href="formatos/03-01-recorrido.png?v=lbi-v02" target="_blank" rel="noopener noreferrer">Portable Network Graphics (PNG)</a> · <a href="formatos/03-01-recorrido.jpg?v=lbi-v02" target="_blank" rel="noopener noreferrer">Joint Photographic Experts Group (JPEG; .jpg)</a> · <a href="formatos/03-01-recorrido.webp?v=lbi-v02" target="_blank" rel="noopener noreferrer">WebP sin pérdida</a>.</span></figcaption>
 </figure>
 
 ## Principio de vinculación íntegra
@@ -23,7 +23,7 @@ Cada caso debe relacionar su imagen de origen, la evidencia seleccionada, el gli
 | Selección de rasgos | Justificar qué regiones o relaciones sostienen cada parámetro. |
 | Glifo | Expresar referentes, papeles, ámbitos, estados y relaciones sin depender de una frase oculta. |
 | Texto | Trasladar el mismo contenido nuclear, aunque varíen idioma y formulación. |
-| Célula | Conservar posiciones, valores de la terna, constitución y correspondencia con el frame. |
+| Célula | Conservar posiciones, valores de la terna, constitución y correspondencia con el *frame*. |
 | Dato de potencial | Conservar identidad, dominio, firma, ruta y magnitudes justificadas; véase el capítulo 17. |
 | Reconstrucción | Recuperar la representación exigida y comprobar su fidelidad respecto del origen. |
 
@@ -51,7 +51,7 @@ El retorno exacto y el retorno con pérdida tienen obligaciones distintas. Si se
 
 Si se admite una imagen reconstruida distinta en detalles no nucleares, deben conservarse todos los parámetros críticos y cumplirse el criterio de aptitud fijado previamente. La nueva imagen no se declara idéntica al archivo original; se declara conforme al contenido exigido cuando la comprobación lo acredita.
 
-Varias imágenes o formulaciones verbales pueden compartir significado. Esa equivalencia no demuestra una biyección sobre todos sus archivos o cadenas de palabras. La biyección exacta entre frame y vector se delimita mediante una representación canónica, su identidad y su constitución. El capítulo 5 desarrolla esta distinción matemática.
+Varias imágenes o formulaciones verbales pueden compartir significado. Esa equivalencia no demuestra una biyección sobre todos sus archivos o cadenas de palabras. La biyección exacta entre *frame* y vector se delimita mediante una representación canónica, su identidad y su constitución. El capítulo 5 desarrolla esta distinción matemática.
 
 ## Principio de identidad y conservación de sucesos
 
@@ -75,3 +75,4 @@ Un caso completo deberá superar el recorrido de ida y el de retorno, con la mis
 
 Estas distinciones mantienen la obligación completa sin confundir una parte realizada con el recorrido entero. Toda continuación de la investigación debe contribuir a **Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un frame del Sistema Vectorial (SV)**.
 
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

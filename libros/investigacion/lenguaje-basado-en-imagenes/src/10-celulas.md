@@ -14,7 +14,7 @@ La geometría del polígono y la figura de la escena cumplen funciones distintas
 
 Las tablas siguientes permiten inspeccionar exactamente los vectores. La incorporación del visor interactivo al tratado queda como realización posterior; estas tablas no se presentan como sustituto del visor. Esta directriz se refiere exclusivamente a representación, sin trasladar al dominio visual otras funciones del lugar donde se muestra un ejemplo.
 
-| Frame | Longitud informativa | Capacidad | Células (9,3) | Células (16,4) |
+| *Frame* | Longitud informativa | Capacidad | Células (9,3) | Células (16,4) |
 | --- | ---: | ---: | ---: | ---: |
 | 1 | 104 | 104 | 8 | 2 |
 | 2 | 48 | 48 | 0 | 3 |
@@ -28,7 +28,7 @@ Las tablas siguientes permiten inspeccionar exactamente los vectores. La incorpo
 | 10 | 48 | 48 | 0 | 3 |
 | 11 | 144 | 144 | 16 | 0 |
 
-## Frame 1
+## *Frame* 1
 
 Longitud informativa: 104. [Ver figura 9.1](09-caso-completo.md#figura-9-1).
 
@@ -45,7 +45,7 @@ Longitud informativa: 104. [Ver figura 9.1](09-caso-completo.md#figura-9-1).
 | 9 | (16,4) | `0010011110001001` |
 | 10 | (16,4) | `000000011001000U` |
 
-## Frame 2
+## *Frame* 2
 
 Longitud informativa: 48. [Ver figura 9.2](09-caso-completo.md#figura-9-2).
 
@@ -55,7 +55,7 @@ Longitud informativa: 48. [Ver figura 9.2](09-caso-completo.md#figura-9-2).
 | 2 | (16,4) | `0000001000000001` |
 | 3 | (16,4) | `1000000100100000` |
 
-## Frame 3
+## *Frame* 3
 
 Longitud informativa: 60. [Ver figura 9.3](09-caso-completo.md#figura-9-3).
 
@@ -68,7 +68,7 @@ Longitud informativa: 60. [Ver figura 9.3](09-caso-completo.md#figura-9-3).
 | 5 | (9,3) | `100110101` |
 | 6 | (16,4) | `0000001100110001` |
 
-## Frame 4
+## *Frame* 4
 
 Longitud informativa: 48. [Ver figura 9.4](09-caso-completo.md#figura-9-4).
 
@@ -78,7 +78,7 @@ Longitud informativa: 48. [Ver figura 9.4](09-caso-completo.md#figura-9-4).
 | 2 | (16,4) | `0000010000000001` |
 | 3 | (16,4) | `0001000110101000` |
 
-## Frame 5
+## *Frame* 5
 
 Longitud informativa: 60. [Ver figura 9.5](09-caso-completo.md#figura-9-5).
 
@@ -91,7 +91,7 @@ Longitud informativa: 60. [Ver figura 9.5](09-caso-completo.md#figura-9-5).
 | 5 | (9,3) | `001010000` |
 | 6 | (16,4) | `1100010111001101` |
 
-## Frame 6
+## *Frame* 6
 
 Longitud informativa: 96. [Ver figura 9.6](09-caso-completo.md#figura-9-6).
 
@@ -104,7 +104,7 @@ Longitud informativa: 96. [Ver figura 9.6](09-caso-completo.md#figura-9-6).
 | 5 | (16,4) | `1011000000100110` |
 | 6 | (16,4) | `0010000110100110` |
 
-## Frame 7
+## *Frame* 7
 
 Longitud informativa: 104. [Ver figura 9.7](09-caso-completo.md#figura-9-7).
 
@@ -121,7 +121,7 @@ Longitud informativa: 104. [Ver figura 9.7](09-caso-completo.md#figura-9-7).
 | 9 | (16,4) | `0011110000000011` |
 | 10 | (16,4) | `0001001101001000` |
 
-## Frame 8
+## *Frame* 8
 
 Longitud informativa: 52. [Ver figura 9.8](09-caso-completo.md#figura-9-8).
 
@@ -133,7 +133,7 @@ Longitud informativa: 52. [Ver figura 9.8](09-caso-completo.md#figura-9-8).
 | 4 | (9,3) | `000010011` |
 | 5 | (16,4) | `1001001101001000` |
 
-## Frame 9
+## *Frame* 9
 
 Longitud informativa: 68. [Ver figura 9.9](09-caso-completo.md#figura-9-9).
 
@@ -146,7 +146,7 @@ Longitud informativa: 68. [Ver figura 9.9](09-caso-completo.md#figura-9-9).
 | 5 | (16,4) | `0001001100101000` |
 | 6 | (16,4) | `1000101100011000` |
 
-## Frame 10
+## *Frame* 10
 
 Longitud informativa: 48. [Ver figura 9.10](09-caso-completo.md#figura-9-10).
 
@@ -156,7 +156,7 @@ Longitud informativa: 48. [Ver figura 9.10](09-caso-completo.md#figura-9-10).
 | 2 | (16,4) | `0000101000000001` |
 | 3 | (16,4) | `1000000110110000` |
 
-## Frame 11
+## *Frame* 11
 
 Longitud informativa: 144. [Ver figura 9.11](09-caso-completo.md#figura-9-11).
 
@@ -181,7 +181,7 @@ Longitud informativa: 144. [Ver figura 9.11](09-caso-completo.md#figura-9-11).
 
 ## Correspondencia de la prueba
 
-| Lámina | Frame |
+| Lámina | *Frame* |
 | --- | ---: |
 | A | 3 |
 | B | 5 |
@@ -200,4 +200,6 @@ El orden canónico es **J → D → A → I → B → C → K → G → F → H 
 La igualdad entre imagen y vector se refiere a la representación constituida. Las fotografías reales correspondientes a cada suceso todavía no están asociadas a esta serie. Publicar las tablas no demuestra la realización del extremo fotográfico pendiente.
 
 
-Fundamento de representación: [paridad entre célula e imagen, apartados 2.1 y 2.2](https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ce5aad1125460263904acb91142f33324ce89dfc/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/CELULA_IMAGEN_Y_AGENTES_EN_EL_SV_P1_P3_BIS_2026_09_13_V2.md).
+Fundamento de representación: <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ce5aad1125460263904acb91142f33324ce89dfc/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/CELULA_IMAGEN_Y_AGENTES_EN_EL_SV_P1_P3_BIS_2026_09_13_V2.md" target="_blank" rel="noopener noreferrer">paridad entre célula e imagen, apartados 2.1 y 2.2</a>.
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
