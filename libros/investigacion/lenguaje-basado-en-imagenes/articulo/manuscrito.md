@@ -161,7 +161,7 @@ Las once apariciones comprenden veintiocho relaciones y setenta y cuatro vectore
 
 La base gráfica compartida representa 59 521 posiciones en la codificación conservada; junto con la historia suma 60 355. Esta cifra no incluye todo el coste de la gramática ni de su documentación. La comparación de economías deberá declarar siempre qué información se conserva en la célula, en un repertorio común o en datos auxiliares.
 
-La revisión recuperó exactamente los 74 vectores desde la representación tensorial. Verificó asimismo que dos identidades distintas pueden conservar el mismo contenido y que un conflicto de identidad cancela íntegramente el lote transaccional examinado. Esas comprobaciones no acreditan inmutabilidad física de cualquier archivo ni equivalencia semántica universal.
+La revisión recuperó exactamente los 74 vectores desde una disposición multidimensional indexada por frame, célula y posición. Esta organización distingue las posiciones celulares existentes de los emplazamientos auxiliares utilizados para ordenar los datos; estos últimos no son parámetros ni valores U. Se comprobó asimismo que dos identidades distintas pueden conservar el mismo contenido y que un conflicto de identidad impide incorporar el conjunto de inscripciones examinado. Esas comprobaciones no acreditan inmutabilidad física de cualquier archivo ni equivalencia semántica universal.
 
 ### 5.2. Comprensión del repertorio
 
