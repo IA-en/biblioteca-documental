@@ -9,8 +9,8 @@
     },
     {
       "titulo": "Explorar relaciones y recorridos",
-      "sha256": "2119f04e8af1f884c281d8979011894f8803da178add23ac09447c431c8b114f",
-      "url": "urn:sv:documento:sha256:2119f04e8af1f884c281d8979011894f8803da178add23ac09447c431c8b114f",
+      "sha256": "6997f22da40b05ea73570cf64a59a0f5008aa3f54301e26dd415eeaadffe47f5",
+      "url": "urn:sv:documento:sha256:6997f22da40b05ea73570cf64a59a0f5008aa3f54301e26dd415eeaadffe47f5",
       "id": "ENC-03",
       "ruta": "recorridos.md"
     },
@@ -23,8 +23,8 @@
     },
     {
       "titulo": "Diccionario de la Inteligencia Artificial (IA)",
-      "sha256": "73bc256224ad9e7a250d662d1ba5c205eeb1831c0477800d1697e433fd941bb9",
-      "url": "urn:sv:documento:sha256:73bc256224ad9e7a250d662d1ba5c205eeb1831c0477800d1697e433fd941bb9",
+      "sha256": "6973fe01a34bfef5a9cab756f535d7e783fbe1d7bc8229be4d1deb8428597060",
+      "url": "urn:sv:documento:sha256:6973fe01a34bfef5a9cab756f535d7e783fbe1d7bc8229be4d1deb8428597060",
       "id": "ENC-05",
       "ruta": "ia.md"
     },
@@ -44,6 +44,6 @@
     "id": "ENC-01",
     "ruta": "SUMMARY.md"
   },
-  "revision": "41b76cb06495287fb384a552385546b62286db41b2861d04a2ebaec521e5ea99",
+  "revision": "95b10ef9f5980071f4eaee14f9e98f604393d3fe393a0fcdba6d747a83201a78",
   "libro": "SV_ENCICLOPEDIA"
 }

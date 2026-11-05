@@ -1,9 +1,9 @@
 {
   "version": 1,
   "conforme": true,
-  "edicion": "biblioteca-sv-dispositivos-rutas-20261104",
-  "biblioteca_sha256": "9a90dc1bd6d7ae48b7e349b3aef8b146b543c5f2d3008d027571c038b1f9d8a9",
-  "politica_sha256": "f658ed303b6ce9fb566d95b51b31586c270cd55b01ea3e92b2ce7d568efca026",
+  "edicion": "biblioteca-sv-rutas-genetica-agradecimientos-20261105",
+  "biblioteca_sha256": "45bcac4002673251226dc2a85588273cd2da226811dbf118d6d10a7505d16a64",
+  "politica_sha256": "db0186ab7289b9048271a13147e16fde97bee63718a92fc17b2fe50c6b5f5108",
   "documentos": [
     {
       "alcance": "Documentación explicativa de consulta; no autoriza suministro ni acredita certificación.",
@@ -2612,7 +2612,7 @@
     },
     {
       "alcance": "Catálogo de especialidades en investigación y desarrollo; no acredita Universos constituidos ni agentes activos.",
-      "cobertura_bytes": 4434,
+      "cobertura_bytes": 4512,
       "correspondencia": "identidad_literal",
       "documento": "DOMINIOS-02",
       "identificador_editorial_r0": null,
@@ -2620,45 +2620,45 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/dominios/src/presentacion.md",
-        "sha256": "aa561f2647e9205b7a5499bbb0d9790e52085a708f4c934f9ab10f464556e39b"
+        "sha256": "325d91c595811d4cc4862baa699a2e13b71ee5a321db76ad0c666fdbcdad04dd"
       },
-      "procedencia": "Edición pública actualizada el 25/10/2026",
+      "procedencia": "Edición pública propia revisada, 05/11/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 561,
+          "fin_byte_exclusivo": 562,
           "inicio_byte": 0,
           "primera_linea": 1,
           "seccion": "MD-L000001-L000008",
-          "sha256": "a1ef7b7a4973e961077d80b0d9c19a15657c6636e0821a32f360caefb88fab52",
+          "sha256": "2304cb9156ac19d17f01cc718141d620a2c125ea1e28dbaea3c11ac8627901aa",
           "titulo": "Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros",
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 2174,
-          "inicio_byte": 561,
+          "fin_byte_exclusivo": 2252,
+          "inicio_byte": 562,
           "primera_linea": 9,
-          "seccion": "MD-L000009-L000023",
-          "sha256": "fb98dc2a39e0dee8b5b3a8813b52c6e127beb86dc0d237b63a266d1abb7c3c78",
+          "seccion": "MD-L000009-L000024",
+          "sha256": "19e41d7b6fa1f529352e39c3b41ff4eb3d8b7b2d3ebd571b0e1130b14874bc1c",
           "titulo": "Dominios",
-          "ultima_linea": 23
+          "ultima_linea": 24
         },
         {
-          "fin_byte_exclusivo": 3387,
-          "inicio_byte": 2174,
-          "primera_linea": 24,
-          "seccion": "MD-L000024-L000031",
+          "fin_byte_exclusivo": 3465,
+          "inicio_byte": 2252,
+          "primera_linea": 25,
+          "seccion": "MD-L000025-L000032",
           "sha256": "6c348ac6a72377a854b1df4ef4d512ef6ce30bfeeb19e1fcf57abfe644a196ef",
           "titulo": "Cómo leer este libro",
-          "ultima_linea": 31
+          "ultima_linea": 32
         },
         {
-          "fin_byte_exclusivo": 4434,
-          "inicio_byte": 3387,
-          "primera_linea": 32,
-          "seccion": "MD-L000032-L000040",
+          "fin_byte_exclusivo": 4512,
+          "inicio_byte": 3465,
+          "primera_linea": 33,
+          "seccion": "MD-L000033-L000041",
           "sha256": "481d03db6460fbe7db843e67cb561bdd68561c9d3ceb81375c6f8ddcc8e68525",
           "titulo": "Relación con los demás libros",
-          "ultima_linea": 40
+          "ultima_linea": 41
         }
       ]
     },
@@ -4259,7 +4259,7 @@
     },
     {
       "alcance": "Reconocimiento de componentes utilizados y mantenimiento de dependencias y versiones; sin modificación de la semántica del lenguaje ni habilitación de producción.",
-      "cobertura_bytes": 18185,
+      "cobertura_bytes": 19191,
       "correspondencia": "identidad_literal",
       "documento": "MANUAL_AGRADECIMIENTOS",
       "identificador_editorial_r0": null,
@@ -4267,27 +4267,27 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/manual/src/agradecimientos.md",
-        "sha256": "f63403c70eb388c86b9ac7c6af6ff79f28817669b04e7c684db5c3784893ff80"
+        "sha256": "f21b99e5abeb803e40c4a3d376213a6ffa30963b020569d0f0972e9fa1848f92"
       },
-      "procedencia": "Edición de 02/11/2026; fuente canónica identificada por SHA-256 c88b349863b80685a53f5f8ff05e1d416f36040068d68f568406887023ff9719.",
+      "procedencia": "Edición pública propia revisada, 05/11/2026",
       "secciones": [
         {
-          "fin_byte_exclusivo": 16940,
+          "fin_byte_exclusivo": 17946,
           "inicio_byte": 0,
           "primera_linea": 1,
-          "seccion": "MD-L000001-L000091",
-          "sha256": "2b550024de94a6905a75e3357f7a6b57cd148ac3babf4ddda14197eb023cfd0c",
+          "seccion": "MD-L000001-L000094",
+          "sha256": "91401b5f1e7db679a069339dd410e6f65fe903d27e467327e7cb3df4f00a8ef5",
           "titulo": "20. Agradecimientos {#agradecimientos}",
-          "ultima_linea": 91
+          "ultima_linea": 94
         },
         {
-          "fin_byte_exclusivo": 18185,
-          "inicio_byte": 16940,
-          "primera_linea": 92,
-          "seccion": "MD-L000092-L000103",
-          "sha256": "3ad3f14673eb89628d91ff230887c38f90767c3271ddecb8710bd2210eb10985",
+          "fin_byte_exclusivo": 19191,
+          "inicio_byte": 17946,
+          "primera_linea": 95,
+          "seccion": "MD-L000095-L000106",
+          "sha256": "cc7cc47a58761d54048803517c21addfaa5cbb5b546552a741b0f159e738045c",
           "titulo": "Identificación y alcance del reconocimiento",
-          "ultima_linea": 103
+          "ultima_linea": 106
         }
       ]
     },
@@ -4921,22 +4921,22 @@
     },
     {
       "libro": "dominios",
-      "catalogo": "verificaciones/20261104-dispositivos-rutas/catalogo-dominios.json",
-      "catalogo_sha256": "6b85b70f0f091b2e2ac1e9f222fac5fabeab1cfdc03ec85fe11f603427cc635e",
-      "politica": "verificaciones/20261104-dispositivos-rutas/politica-dominios.json",
-      "politica_sha256": "4c2c4a71d3ddaf35ffb037a4eb85469416d2c731bca477f6095390a7e63f0c81",
-      "correspondencia": "verificaciones/20261104-dispositivos-rutas/correspondencia-dominios.json",
-      "correspondencia_sha256": "882159d12d4b8c3862d8ca179cd1087c7436f12dddaff30f9664555eb17c22e7",
+      "catalogo": "verificaciones/20261105-rutas-genetica/catalogo-dominios.json",
+      "catalogo_sha256": "4a2a57a0624cbb6ece66be41a02d78977a4d32f2981fe16d067f7034ed0c5c6b",
+      "politica": "verificaciones/20261105-rutas-genetica/politica-dominios.json",
+      "politica_sha256": "ba6ee6d29b791a1c638e1c8d113dc421d53a6899166e6d7355866663a2ecc6fc",
+      "correspondencia": "verificaciones/20261105-rutas-genetica/correspondencia-dominios.json",
+      "correspondencia_sha256": "63c160f2b725851e9e1cbe80e3bed851c157c8410148d91c78816cad83be1db8",
       "documentos": 8
     },
     {
       "libro": "manual",
-      "catalogo": "verificaciones/20261104-dispositivos-rutas/catalogo-manual.json",
-      "catalogo_sha256": "5c1f493aff21ddaf647356c1e4d28bc1747ed87d4c48e12ebc2e1a7dada8c637",
-      "politica": "verificaciones/20261104-dispositivos-rutas/politica-manual.json",
-      "politica_sha256": "52b6ac515075b0bac8140b2ec68881bdafd68d280043efdbbeb5bbe2197cfe2c",
-      "correspondencia": "verificaciones/20261104-dispositivos-rutas/correspondencia-manual.json",
-      "correspondencia_sha256": "681c54429b1cd74d5d962d243c359e83db4b5bd402d069308709ebdece599291",
+      "catalogo": "verificaciones/20261105-rutas-genetica/catalogo-manual.json",
+      "catalogo_sha256": "9d3dd38e539ddde9024eb5a634530d754460fec7ce21a1f89deb98076999d87d",
+      "politica": "verificaciones/20261105-rutas-genetica/politica-manual.json",
+      "politica_sha256": "bebcb8acc2aa186844c6623a917595e0ab35667c832b75e525e31f1e8de62455",
+      "correspondencia": "verificaciones/20261105-rutas-genetica/correspondencia-manual.json",
+      "correspondencia_sha256": "c32400f9f8e4871d397c047733dd489ee0fff6096acadcdb7b0271e4abfe9ffe",
       "documentos": 21
     }
   ],
@@ -4944,5 +4944,5 @@
   "conversion_general_recibida": false,
   "navegacion_autonoma_modelo": false,
   "recepcion_visual": false,
-  "alcance": "Composición de cotejos por libro. Anteproyectos, Dominios y Manual cotejados el 04/11/2026; restantes libros conservan sus originales y cotejos. No acredita recepción operativa ni entrega a modelos."
+  "alcance": "Composición de cotejos por libro. Dominios y Manual cotejados en la revisión de 05/11/2026; los restantes libros conservan sus originales y cotejos. No acredita recepción operativa ni entrega a modelos."
 }

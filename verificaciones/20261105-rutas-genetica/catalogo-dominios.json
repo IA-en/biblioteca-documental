@@ -1,0 +1,138 @@
+{
+  "version": 1,
+  "edicion": "biblioteca-sv-rutas-genetica-20261105",
+  "libros": [
+    {
+      "plan": {
+        "sha256": "bec889eef7b082d9429489d67d3779fdbf7beba0f3cadfc95ec807b94fc5e543",
+        "ruta": "libros/dominios/plan.json"
+      },
+      "raiz": "libros/dominios/src",
+      "titulo": "Dominios y universos del Sistema Vectorial SV - Definiciones y parámetros",
+      "metadatos": [
+        {
+          "alcance": "Explicación metodológica; no acredita validación profesional, ejecución ni autorización de suministro.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-01",
+          "original": {
+            "sha256": "b42bf815760f61abb8cc46eef143926b524c578493a9af8b5935c9c38f96b269",
+            "ruta": "libros/dominios/src/SUMMARY.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia de 12/10/2026; referencias versionadas en el capítulo de fuentes."
+        },
+        {
+          "alcance": "Catálogo de especialidades en investigación y desarrollo; no acredita Universos constituidos ni agentes activos.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-02",
+          "original": {
+            "sha256": "325d91c595811d4cc4862baa699a2e13b71ee5a321db76ad0c666fdbcdad04dd",
+            "ruta": "libros/dominios/src/presentacion.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 05/11/2026"
+        },
+        {
+          "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-03",
+          "original": {
+            "sha256": "aecf5015329835775439b70e085486d2dc9dd0e54d0b4d33adec2a2761cac50d",
+            "ruta": "libros/dominios/src/conceptos.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Revisión explicativa de 29/10/2026"
+        },
+        {
+          "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-04",
+          "original": {
+            "sha256": "cadda1f927d4edc1ce0d5a6d3a338bcfb8a5f4660eef20ba26b8c645d0127352",
+            "ruta": "libros/dominios/src/metodologia.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Revisión explicativa de 29/10/2026"
+        },
+        {
+          "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-05",
+          "original": {
+            "sha256": "2121d54184e7050de92064dcb4f6a5a4925fec6ebae252e91b41427bd862c00b",
+            "ruta": "libros/dominios/src/inmunologia.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Revisión explicativa de 29/10/2026"
+        },
+        {
+          "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-06",
+          "original": {
+            "sha256": "b4e09f5906128f5e8c53201d0fbb37d8a726cc8f14f86bbbd0e253e64af02d53",
+            "ruta": "libros/dominios/src/ciberseguridad.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026"
+        },
+        {
+          "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "tipo_original": "markdown",
+          "sintetico": false,
+          "identificador_editorial_r0": null,
+          "documento": "DOMINIOS-07",
+          "original": {
+            "sha256": "ce65d5bce7bac87d0ce2b17ea226b803aed58c9f2a1667c441c71a1796d6a4e8",
+            "ruta": "libros/dominios/src/fuentes.md"
+          },
+          "correspondencia": "identidad_literal",
+          "procedencia": "Revisión explicativa de 29/10/2026"
+        },
+        {
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "documento": "DOMINIOS-08",
+          "identificador_editorial_r0": null,
+          "alcance": "Concordancia editorial y distinción de autorizaciones vigentes; sin modificación de la semántica del SV ni habilitación asistencial.",
+          "correspondencia": "identidad_literal",
+          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "licencia": "CC BY-NC-ND 4.0",
+          "original": {
+            "ruta": "libros/dominios/src/parametros-rutas.md",
+            "sha256": "0fa377346d963f556bc14c942a35127f6d4f4ddab01290ded743889237277d20"
+          },
+          "sintetico": false
+        }
+      ],
+      "id": "dominios"
+    }
+  ],
+  "estado": "preparacion_local"
+}

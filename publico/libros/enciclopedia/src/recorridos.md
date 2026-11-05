@@ -33,6 +33,8 @@ Puede reunir dominios completos, subdominios o conjuntos de Universos; su constr
 
 **Para distinguir:** el [modelo de IA](ia.md#modelo) utilizado no es el agente. La [biblioteca de dominio](ia.md#biblioteca) aporta fuentes bajo condiciones identificadas; no es una autorización de consulta.
 
+**Dependencias del conocimiento:** las [rutas críticas del SV](ia.md#ruta-critica) identifican los elementos y relaciones obligatorios cuando el dominio los ha constituido. Este recorrido editorial facilita la consulta; no acredita su ejecución.
+
 **En un caso:** [dos funciones principales en una misma institución](ia.md#dos-funciones-principales-en-una-misma-institución). **Fuente del recorrido:** [Dominios y universos · Definiciones y relaciones](https://documentos-sv.itvia.online/dominios/universos/conceptos.html).
 
 ## Escritura y significado

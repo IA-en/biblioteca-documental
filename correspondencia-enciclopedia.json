@@ -1,6 +1,6 @@
 {
   "alcance": "Correspondencia completa y literal de los originales Markdown seleccionados, incluidas sus referencias; no acredita lectura de imágenes, traducción ni producción",
-  "biblioteca_sha256": "9a7654229f11bae2fa9057e721f2393a9b9501f5623542f40277a8bc31cb64dd",
+  "biblioteca_sha256": "d32b587b832b6b3064a81df9d05354796f448817720513bba94b10c6661b6e5a",
   "conforme": true,
   "consulta_proveedor": false,
   "conversion_general_recibida": false,
@@ -192,7 +192,7 @@
     },
     {
       "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
-      "cobertura_bytes": 10037,
+      "cobertura_bytes": 10286,
       "correspondencia": "identidad_literal",
       "documento": "ENC-03",
       "identificador_editorial_r0": null,
@@ -200,9 +200,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/enciclopedia/src/recorridos.md",
-        "sha256": "2119f04e8af1f884c281d8979011894f8803da178add23ac09447c431c8b114f"
+        "sha256": "6997f22da40b05ea73570cf64a59a0f5008aa3f54301e26dd415eeaadffe47f5"
       },
-      "procedencia": "Edición pública propia actualizada, 03/11/2026",
+      "procedencia": "Edición pública propia revisada, 05/11/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 962,
@@ -241,157 +241,157 @@
           "ultima_linea": 29
         },
         {
-          "fin_byte_exclusivo": 2271,
+          "fin_byte_exclusivo": 2520,
           "inicio_byte": 1558,
           "primera_linea": 30,
-          "seccion": "MD-L000030-L000037",
-          "sha256": "a0de036adc1f4d975c57c810d1981dd9ed2b27b7d4031992e9193adf7fd701d3",
+          "seccion": "MD-L000030-L000039",
+          "sha256": "42720a38d82940909cb5d4a86925e72b71098bcc04d16061a018fc6a25ab9ade",
           "titulo": "Agente Especializado",
-          "ultima_linea": 37
+          "ultima_linea": 39
         },
         {
-          "fin_byte_exclusivo": 2369,
-          "inicio_byte": 2271,
-          "primera_linea": 38,
-          "seccion": "MD-L000038-L000041",
+          "fin_byte_exclusivo": 2618,
+          "inicio_byte": 2520,
+          "primera_linea": 40,
+          "seccion": "MD-L000040-L000043",
           "sha256": "638e10c76ea80a31affda279397a925aa38882c17a42284746cf9345ab5b5749",
           "titulo": "Escritura y significado",
-          "ultima_linea": 41
+          "ultima_linea": 43
         },
         {
-          "fin_byte_exclusivo": 2527,
-          "inicio_byte": 2369,
-          "primera_linea": 42,
-          "seccion": "MD-L000042-L000047",
+          "fin_byte_exclusivo": 2776,
+          "inicio_byte": 2618,
+          "primera_linea": 44,
+          "seccion": "MD-L000044-L000049",
           "sha256": "95b65e3736669d37f542b47a5f35bec00c2b116b42584ec3d575c6565ca1dbf5",
           "titulo": "Gramática · forma",
-          "ultima_linea": 47
+          "ultima_linea": 49
         },
         {
-          "fin_byte_exclusivo": 2702,
-          "inicio_byte": 2527,
-          "primera_linea": 48,
-          "seccion": "MD-L000048-L000053",
+          "fin_byte_exclusivo": 2951,
+          "inicio_byte": 2776,
+          "primera_linea": 50,
+          "seccion": "MD-L000050-L000055",
           "sha256": "d012d8430b32b011f72818aef2b0896ae6c54f4eb84369babef57d070907db8b",
           "titulo": "Semántica · significado",
-          "ultima_linea": 53
+          "ultima_linea": 55
         },
         {
-          "fin_byte_exclusivo": 3393,
-          "inicio_byte": 2702,
-          "primera_linea": 54,
-          "seccion": "MD-L000054-L000061",
+          "fin_byte_exclusivo": 3642,
+          "inicio_byte": 2951,
+          "primera_linea": 56,
+          "seccion": "MD-L000056-L000063",
           "sha256": "3362b01105292a3988708cda35e4a639b8e55c2f89231d53647a0301b4df6d6a",
           "titulo": "IR · representación",
-          "ultima_linea": 61
+          "ultima_linea": 63
         },
         {
-          "fin_byte_exclusivo": 3504,
-          "inicio_byte": 3393,
-          "primera_linea": 62,
-          "seccion": "MD-L000062-L000065",
+          "fin_byte_exclusivo": 3753,
+          "inicio_byte": 3642,
+          "primera_linea": 64,
+          "seccion": "MD-L000064-L000067",
           "sha256": "6fc5396e990e4c0138dd01702a73e60aa7b6c16db699e783d363457603c11fd4",
           "titulo": "Evaluar y autorizar",
-          "ultima_linea": 65
+          "ultima_linea": 67
         },
         {
-          "fin_byte_exclusivo": 3672,
-          "inicio_byte": 3504,
-          "primera_linea": 66,
-          "seccion": "MD-L000066-L000071",
+          "fin_byte_exclusivo": 3921,
+          "inicio_byte": 3753,
+          "primera_linea": 68,
+          "seccion": "MD-L000068-L000073",
           "sha256": "2c2efde4c1bc2ca8c2bb4f60a4fbd82f161c2792fd8edb6aa2a4048785f51bf0",
           "titulo": "Evaluación",
-          "ultima_linea": 71
+          "ultima_linea": 73
         },
         {
-          "fin_byte_exclusivo": 3826,
-          "inicio_byte": 3672,
-          "primera_linea": 72,
-          "seccion": "MD-L000072-L000077",
+          "fin_byte_exclusivo": 4075,
+          "inicio_byte": 3921,
+          "primera_linea": 74,
+          "seccion": "MD-L000074-L000079",
           "sha256": "2a59ae115dfe2b22ed78fdc324bd1050c21d506a99924e84d8a14154405f5f3c",
           "titulo": "Clasificación",
-          "ultima_linea": 77
+          "ultima_linea": 79
         },
         {
-          "fin_byte_exclusivo": 3956,
-          "inicio_byte": 3826,
-          "primera_linea": 78,
-          "seccion": "MD-L000078-L000081",
+          "fin_byte_exclusivo": 4205,
+          "inicio_byte": 4075,
+          "primera_linea": 80,
+          "seccion": "MD-L000080-L000083",
           "sha256": "e388244ee34c2c7da3f79b435aea1b647d89cd77312e696990644423b81d4c3c",
           "titulo": "Autorización",
-          "ultima_linea": 81
+          "ultima_linea": 83
         },
         {
-          "fin_byte_exclusivo": 5044,
-          "inicio_byte": 3956,
-          "primera_linea": 82,
-          "seccion": "MD-L000082-L000089",
+          "fin_byte_exclusivo": 5293,
+          "inicio_byte": 4205,
+          "primera_linea": 84,
+          "seccion": "MD-L000084-L000091",
           "sha256": "04a092907e292b1f206327ccff92f818df96555cfa2172efcb7548f744752bb6",
           "titulo": "Distinguir evaluación individual, torneo y selección del defensor",
-          "ultima_linea": 89
+          "ultima_linea": 91
         },
         {
-          "fin_byte_exclusivo": 5795,
-          "inicio_byte": 5044,
-          "primera_linea": 90,
-          "seccion": "MD-L000090-L000099",
+          "fin_byte_exclusivo": 6044,
+          "inicio_byte": 5293,
+          "primera_linea": 92,
+          "seccion": "MD-L000092-L000101",
           "sha256": "2ab206d7012319f22e12ffe3d19c380a2089748f1a8cd9f98086e05f8ff266d8",
           "titulo": "Comparar tres conceptos próximos: modo, predominancia y estado",
-          "ultima_linea": 99
+          "ultima_linea": 101
         },
         {
-          "fin_byte_exclusivo": 6005,
-          "inicio_byte": 5795,
-          "primera_linea": 100,
-          "seccion": "MD-L000100-L000105",
+          "fin_byte_exclusivo": 6254,
+          "inicio_byte": 6044,
+          "primera_linea": 102,
+          "seccion": "MD-L000102-L000107",
           "sha256": "7caac9082de05ffb8c60554631730b8f83bc1e730dee96b724a2434678e52c46",
           "titulo": "Protección del núcleo {#proteccion-del-nucleo}",
-          "ultima_linea": 105
+          "ultima_linea": 107
         },
         {
-          "fin_byte_exclusivo": 7030,
-          "inicio_byte": 6005,
-          "primera_linea": 106,
-          "seccion": "MD-L000106-L000118",
+          "fin_byte_exclusivo": 7279,
+          "inicio_byte": 6254,
+          "primera_linea": 108,
+          "seccion": "MD-L000108-L000120",
           "sha256": "4c23d8ed5c531cba7827c5661e68dea8f61ec6a950fa348aae04bb229733dfe0",
           "titulo": "Tubería y admisión controladas",
-          "ultima_linea": 118
+          "ultima_linea": 120
         },
         {
-          "fin_byte_exclusivo": 7123,
-          "inicio_byte": 7030,
-          "primera_linea": 119,
-          "seccion": "MD-L000119-L000122",
+          "fin_byte_exclusivo": 7372,
+          "inicio_byte": 7279,
+          "primera_linea": 121,
+          "seccion": "MD-L000121-L000124",
           "sha256": "299fef3d22b05b248f6b3f68aabce7a737b55e9ab8309032d77aefe0b585bdee",
           "titulo": "Uso y evidencia",
-          "ultima_linea": 122
+          "ultima_linea": 124
         },
         {
-          "fin_byte_exclusivo": 8256,
-          "inicio_byte": 7123,
-          "primera_linea": 123,
-          "seccion": "MD-L000123-L000136",
+          "fin_byte_exclusivo": 8505,
+          "inicio_byte": 7372,
+          "primera_linea": 125,
+          "seccion": "MD-L000125-L000138",
           "sha256": "ba96e6e3fc320a71e92871de1bdc9b3364cdc5b19f23b58d395f016befb79aeb",
           "titulo": "Seguir una consulta: autorización, sesión, inferencia y evidencia",
-          "ultima_linea": 136
+          "ultima_linea": 138
         },
         {
-          "fin_byte_exclusivo": 9097,
-          "inicio_byte": 8256,
-          "primera_linea": 137,
-          "seccion": "MD-L000137-L000144",
+          "fin_byte_exclusivo": 9346,
+          "inicio_byte": 8505,
+          "primera_linea": 139,
+          "seccion": "MD-L000139-L000146",
           "sha256": "e9995668d7042027508425563d21f8115c24328566044c1dfd6a64ce5139382f",
           "titulo": "Estudiar una propuesta {#estudiar-propuesta}",
-          "ultima_linea": 144
+          "ultima_linea": 146
         },
         {
-          "fin_byte_exclusivo": 10037,
-          "inicio_byte": 9097,
-          "primera_linea": 145,
-          "seccion": "MD-L000145-L000153",
+          "fin_byte_exclusivo": 10286,
+          "inicio_byte": 9346,
+          "primera_linea": 147,
+          "seccion": "MD-L000147-L000155",
           "sha256": "2106cfa507dec8c9587131a5fbcb3366b1601af92d8e05efe7ab6c5ac3ac284d",
           "titulo": "Elegir otra continuación",
-          "ultima_linea": 153
+          "ultima_linea": 155
         }
       ]
     },
@@ -692,7 +692,7 @@
     },
     {
       "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
-      "cobertura_bytes": 43592,
+      "cobertura_bytes": 45816,
       "correspondencia": "identidad_literal",
       "documento": "ENC-05",
       "identificador_editorial_r0": null,
@@ -700,9 +700,9 @@
       "licencia": "CC BY-NC-ND 4.0",
       "original": {
         "ruta": "libros/enciclopedia/src/ia.md",
-        "sha256": "73bc256224ad9e7a250d662d1ba5c205eeb1831c0477800d1697e433fd941bb9"
+        "sha256": "6973fe01a34bfef5a9cab756f535d7e783fbe1d7bc8229be4d1deb8428597060"
       },
-      "procedencia": "Edición pública propia revisada, 04/11/2026",
+      "procedencia": "Edición pública propia revisada, 05/11/2026",
       "secciones": [
         {
           "fin_byte_exclusivo": 777,
@@ -714,17 +714,17 @@
           "ultima_linea": 8
         },
         {
-          "fin_byte_exclusivo": 2387,
+          "fin_byte_exclusivo": 2421,
           "inicio_byte": 777,
           "primera_linea": 9,
           "seccion": "MD-L000009-L000022",
-          "sha256": "a51a876717b7c1153a9b36f2c4017713f547bbff1dc2c05eec0504e8b1f4eb77",
+          "sha256": "a291e2b0b1a1163f15309de335625dc1d864aba1da758e90ace8473a2a611a77",
           "titulo": "Consulta temática",
           "ultima_linea": 22
         },
         {
-          "fin_byte_exclusivo": 2547,
-          "inicio_byte": 2387,
+          "fin_byte_exclusivo": 2581,
+          "inicio_byte": 2421,
           "primera_linea": 23,
           "seccion": "MD-L000023-L000026",
           "sha256": "961631f6a613e564ce485413cdee517656c2c50b717ca8d8441f26758d1f1473",
@@ -732,8 +732,8 @@
           "ultima_linea": 26
         },
         {
-          "fin_byte_exclusivo": 3996,
-          "inicio_byte": 2547,
+          "fin_byte_exclusivo": 4030,
+          "inicio_byte": 2581,
           "primera_linea": 27,
           "seccion": "MD-L000027-L000037",
           "sha256": "344570b185193fdc1afc2895eaf07e4a5aaec3a2f7e76d343e12491fa9b9ea08",
@@ -741,8 +741,8 @@
           "ultima_linea": 37
         },
         {
-          "fin_byte_exclusivo": 5171,
-          "inicio_byte": 3996,
+          "fin_byte_exclusivo": 5205,
+          "inicio_byte": 4030,
           "primera_linea": 38,
           "seccion": "MD-L000038-L000045",
           "sha256": "2056a5a667dd5ecdf266e6772d1369573717de304a4ba2152260e5d325a11046",
@@ -750,8 +750,8 @@
           "ultima_linea": 45
         },
         {
-          "fin_byte_exclusivo": 5884,
-          "inicio_byte": 5171,
+          "fin_byte_exclusivo": 5918,
+          "inicio_byte": 5205,
           "primera_linea": 46,
           "seccion": "MD-L000046-L000053",
           "sha256": "5846d5b8d776e9730278bad6c3743340c307207837056bfe75807defc8209077",
@@ -759,8 +759,8 @@
           "ultima_linea": 53
         },
         {
-          "fin_byte_exclusivo": 6860,
-          "inicio_byte": 5884,
+          "fin_byte_exclusivo": 6894,
+          "inicio_byte": 5918,
           "primera_linea": 54,
           "seccion": "MD-L000054-L000061",
           "sha256": "67ab39d1e9bb750e92a14bb5cc59559bf8244201e5add3957bef55a778b3771c",
@@ -768,8 +768,8 @@
           "ultima_linea": 61
         },
         {
-          "fin_byte_exclusivo": 7773,
-          "inicio_byte": 6860,
+          "fin_byte_exclusivo": 7807,
+          "inicio_byte": 6894,
           "primera_linea": 62,
           "seccion": "MD-L000062-L000069",
           "sha256": "6081c61e197f18f29ecec70e1b8003d433ec65c0f1d4dc4118805ebbdb125e5d",
@@ -777,8 +777,8 @@
           "ultima_linea": 69
         },
         {
-          "fin_byte_exclusivo": 8831,
-          "inicio_byte": 7773,
+          "fin_byte_exclusivo": 8865,
+          "inicio_byte": 7807,
           "primera_linea": 70,
           "seccion": "MD-L000070-L000077",
           "sha256": "f26ef322faff1cbc452beb5761d8c3e608799b95f7928a720f211c984563a9a3",
@@ -786,8 +786,8 @@
           "ultima_linea": 77
         },
         {
-          "fin_byte_exclusivo": 9698,
-          "inicio_byte": 8831,
+          "fin_byte_exclusivo": 9732,
+          "inicio_byte": 8865,
           "primera_linea": 78,
           "seccion": "MD-L000078-L000083",
           "sha256": "f07a152aa1d4fe853b74e04fea2480e12b4063e69e761dba9d4a0a7dcc7429b2",
@@ -795,8 +795,8 @@
           "ultima_linea": 83
         },
         {
-          "fin_byte_exclusivo": 10826,
-          "inicio_byte": 9698,
+          "fin_byte_exclusivo": 10860,
+          "inicio_byte": 9732,
           "primera_linea": 84,
           "seccion": "MD-L000084-L000091",
           "sha256": "03252eef03c47aa4b2cf1b271cfa5350cf8c5c7707c60897bceed6f4724c8305",
@@ -804,8 +804,8 @@
           "ultima_linea": 91
         },
         {
-          "fin_byte_exclusivo": 11822,
-          "inicio_byte": 10826,
+          "fin_byte_exclusivo": 11856,
+          "inicio_byte": 10860,
           "primera_linea": 92,
           "seccion": "MD-L000092-L000099",
           "sha256": "f43a42325e5e3bf977e6f7eac182523d02ed1c5384f3a67c52067d6f0eb3519e",
@@ -813,8 +813,8 @@
           "ultima_linea": 99
         },
         {
-          "fin_byte_exclusivo": 12820,
-          "inicio_byte": 11822,
+          "fin_byte_exclusivo": 12854,
+          "inicio_byte": 11856,
           "primera_linea": 100,
           "seccion": "MD-L000100-L000107",
           "sha256": "774c7351d891e58874bf9bab9b8440ad383e29d741ec8002ee605071912f26ea",
@@ -822,8 +822,8 @@
           "ultima_linea": 107
         },
         {
-          "fin_byte_exclusivo": 13664,
-          "inicio_byte": 12820,
+          "fin_byte_exclusivo": 13698,
+          "inicio_byte": 12854,
           "primera_linea": 108,
           "seccion": "MD-L000108-L000115",
           "sha256": "04e6c7cb265dfbfff1c4d877c798d32c816f48299939d92877f0cb8a97e014e9",
@@ -831,8 +831,8 @@
           "ultima_linea": 115
         },
         {
-          "fin_byte_exclusivo": 14645,
-          "inicio_byte": 13664,
+          "fin_byte_exclusivo": 14679,
+          "inicio_byte": 13698,
           "primera_linea": 116,
           "seccion": "MD-L000116-L000123",
           "sha256": "8507915f3d8a6432fcaaef029a7e64ce7ccabc67befb0bd4ce250f178db4bb96",
@@ -840,8 +840,8 @@
           "ultima_linea": 123
         },
         {
-          "fin_byte_exclusivo": 15648,
-          "inicio_byte": 14645,
+          "fin_byte_exclusivo": 15682,
+          "inicio_byte": 14679,
           "primera_linea": 124,
           "seccion": "MD-L000124-L000131",
           "sha256": "88fc709020c6242761430aa369aca39792fbd7908e36dd25018b729ce6ee108f",
@@ -849,8 +849,8 @@
           "ultima_linea": 131
         },
         {
-          "fin_byte_exclusivo": 16500,
-          "inicio_byte": 15648,
+          "fin_byte_exclusivo": 16534,
+          "inicio_byte": 15682,
           "primera_linea": 132,
           "seccion": "MD-L000132-L000139",
           "sha256": "cd40ac791c2a74022a20dbe423d8004478082caf90b0fdfe1804dc91e31a3e5b",
@@ -858,8 +858,8 @@
           "ultima_linea": 139
         },
         {
-          "fin_byte_exclusivo": 17495,
-          "inicio_byte": 16500,
+          "fin_byte_exclusivo": 17529,
+          "inicio_byte": 16534,
           "primera_linea": 140,
           "seccion": "MD-L000140-L000147",
           "sha256": "d8b8335c8b64511e89ecaf3f800dfb25c028ddd9b23abaef57b7b440fe9b3305",
@@ -867,8 +867,8 @@
           "ultima_linea": 147
         },
         {
-          "fin_byte_exclusivo": 18432,
-          "inicio_byte": 17495,
+          "fin_byte_exclusivo": 18466,
+          "inicio_byte": 17529,
           "primera_linea": 148,
           "seccion": "MD-L000148-L000153",
           "sha256": "0ff01ee0da1612ee6768669a2f5047823d70f7366786462c113c4f0cbce7df2a",
@@ -876,8 +876,8 @@
           "ultima_linea": 153
         },
         {
-          "fin_byte_exclusivo": 19521,
-          "inicio_byte": 18432,
+          "fin_byte_exclusivo": 19555,
+          "inicio_byte": 18466,
           "primera_linea": 154,
           "seccion": "MD-L000154-L000161",
           "sha256": "4c6cb5f02c50a3859b59a72eb3dbe6a453738f121477d638c743076b80ab2a93",
@@ -885,8 +885,8 @@
           "ultima_linea": 161
         },
         {
-          "fin_byte_exclusivo": 20532,
-          "inicio_byte": 19521,
+          "fin_byte_exclusivo": 20566,
+          "inicio_byte": 19555,
           "primera_linea": 162,
           "seccion": "MD-L000162-L000169",
           "sha256": "c7f342d8cb6a033aef70fd76ca05adfddb8b669f49f6b6292f3a70ef2c15728b",
@@ -894,8 +894,8 @@
           "ultima_linea": 169
         },
         {
-          "fin_byte_exclusivo": 21508,
-          "inicio_byte": 20532,
+          "fin_byte_exclusivo": 21542,
+          "inicio_byte": 20566,
           "primera_linea": 170,
           "seccion": "MD-L000170-L000177",
           "sha256": "aaa7395253ef4be87596300266a488a075eaca2788819befcbd248d97547acb2",
@@ -903,8 +903,8 @@
           "ultima_linea": 177
         },
         {
-          "fin_byte_exclusivo": 22404,
-          "inicio_byte": 21508,
+          "fin_byte_exclusivo": 22438,
+          "inicio_byte": 21542,
           "primera_linea": 178,
           "seccion": "MD-L000178-L000185",
           "sha256": "fd9fccc877ef1679763b3641367ee41e44f36bda1dd11fcca5d22a3419607a21",
@@ -912,8 +912,8 @@
           "ultima_linea": 185
         },
         {
-          "fin_byte_exclusivo": 23345,
-          "inicio_byte": 22404,
+          "fin_byte_exclusivo": 23379,
+          "inicio_byte": 22438,
           "primera_linea": 186,
           "seccion": "MD-L000186-L000193",
           "sha256": "6776c3e52c649cf345ea9b6c7a0beb34ad188aa2324b8979964d23826b7b52b1",
@@ -921,8 +921,8 @@
           "ultima_linea": 193
         },
         {
-          "fin_byte_exclusivo": 24337,
-          "inicio_byte": 23345,
+          "fin_byte_exclusivo": 24371,
+          "inicio_byte": 23379,
           "primera_linea": 194,
           "seccion": "MD-L000194-L000201",
           "sha256": "580fd01310ef262833f648712180a7289f0253a4ba890aed4b0226aa149b4fb7",
@@ -930,8 +930,8 @@
           "ultima_linea": 201
         },
         {
-          "fin_byte_exclusivo": 25571,
-          "inicio_byte": 24337,
+          "fin_byte_exclusivo": 25605,
+          "inicio_byte": 24371,
           "primera_linea": 202,
           "seccion": "MD-L000202-L000211",
           "sha256": "8246bb642419e8181df4e8a2be2a0e6a7241d0688241284cc190959b288c6729",
@@ -939,8 +939,8 @@
           "ultima_linea": 211
         },
         {
-          "fin_byte_exclusivo": 26701,
-          "inicio_byte": 25571,
+          "fin_byte_exclusivo": 26735,
+          "inicio_byte": 25605,
           "primera_linea": 212,
           "seccion": "MD-L000212-L000219",
           "sha256": "4ee8a03e1231a35e02ed9b278f5a96075831dcf98eae23acbeed631039fc6bb0",
@@ -948,8 +948,8 @@
           "ultima_linea": 219
         },
         {
-          "fin_byte_exclusivo": 27607,
-          "inicio_byte": 26701,
+          "fin_byte_exclusivo": 27641,
+          "inicio_byte": 26735,
           "primera_linea": 220,
           "seccion": "MD-L000220-L000227",
           "sha256": "1013e6b68728e545afe7c3f2ac8f426b132c3f3006ab6d74e02a46e2d6d6234e",
@@ -957,8 +957,8 @@
           "ultima_linea": 227
         },
         {
-          "fin_byte_exclusivo": 28724,
-          "inicio_byte": 27607,
+          "fin_byte_exclusivo": 28758,
+          "inicio_byte": 27641,
           "primera_linea": 228,
           "seccion": "MD-L000228-L000235",
           "sha256": "1cef15851df298d88a51cc4d4f650071cd56db28c8297b45be1767531429bbe3",
@@ -966,8 +966,8 @@
           "ultima_linea": 235
         },
         {
-          "fin_byte_exclusivo": 29497,
-          "inicio_byte": 28724,
+          "fin_byte_exclusivo": 29531,
+          "inicio_byte": 28758,
           "primera_linea": 236,
           "seccion": "MD-L000236-L000241",
           "sha256": "651a6f4592ae9ba52f9b0b190e95ceef3479f1bc70467c908c9d38f1e33bf265",
@@ -975,8 +975,8 @@
           "ultima_linea": 241
         },
         {
-          "fin_byte_exclusivo": 30582,
-          "inicio_byte": 29497,
+          "fin_byte_exclusivo": 30616,
+          "inicio_byte": 29531,
           "primera_linea": 242,
           "seccion": "MD-L000242-L000249",
           "sha256": "cccd785c293e04b94e3e3f864a1adaf4edfd7c5dff1553ee4eb53d38712b5440",
@@ -984,8 +984,8 @@
           "ultima_linea": 249
         },
         {
-          "fin_byte_exclusivo": 31602,
-          "inicio_byte": 30582,
+          "fin_byte_exclusivo": 31636,
+          "inicio_byte": 30616,
           "primera_linea": 250,
           "seccion": "MD-L000250-L000257",
           "sha256": "fa9e4d9793025790984f1f6bf2b951b457a3ac5263ed745ee76785f3fbd44e1b",
@@ -993,8 +993,8 @@
           "ultima_linea": 257
         },
         {
-          "fin_byte_exclusivo": 32476,
-          "inicio_byte": 31602,
+          "fin_byte_exclusivo": 32510,
+          "inicio_byte": 31636,
           "primera_linea": 258,
           "seccion": "MD-L000258-L000265",
           "sha256": "8698d3aa0a67f28582983c4f17caeea216205fad6da0524d6ea88ac5f19bd0d9",
@@ -1002,8 +1002,8 @@
           "ultima_linea": 265
         },
         {
-          "fin_byte_exclusivo": 33497,
-          "inicio_byte": 32476,
+          "fin_byte_exclusivo": 33531,
+          "inicio_byte": 32510,
           "primera_linea": 266,
           "seccion": "MD-L000266-L000273",
           "sha256": "7fd3d3a4dacf7db70235b31d82a5a5e43b0c42316257da04477dbfd23fb8fc8f",
@@ -1011,112 +1011,121 @@
           "ultima_linea": 273
         },
         {
-          "fin_byte_exclusivo": 34418,
-          "inicio_byte": 33497,
+          "fin_byte_exclusivo": 35721,
+          "inicio_byte": 33531,
           "primera_linea": 274,
-          "seccion": "MD-L000274-L000281",
+          "seccion": "MD-L000274-L000287",
+          "sha256": "cbf3d584a222d870350ab6ebca8aed73a155e1ab812cb9cf5d2866b282f9e4da",
+          "titulo": "Ruta crítica del SV · Rutas críticas {#ruta-critica}",
+          "ultima_linea": 287
+        },
+        {
+          "fin_byte_exclusivo": 36642,
+          "inicio_byte": 35721,
+          "primera_linea": 288,
+          "seccion": "MD-L000288-L000295",
           "sha256": "b16446b293a8ad2249e1fcef45a3f3e4e55b75bdf9749fa0d3b2096a3b6ebb42",
           "titulo": "Selección del defensor {#seleccion-defensor}",
-          "ultima_linea": 281
+          "ultima_linea": 295
         },
         {
-          "fin_byte_exclusivo": 35607,
-          "inicio_byte": 34418,
-          "primera_linea": 282,
-          "seccion": "MD-L000282-L000291",
+          "fin_byte_exclusivo": 37831,
+          "inicio_byte": 36642,
+          "primera_linea": 296,
+          "seccion": "MD-L000296-L000305",
           "sha256": "366758b84cce5a835c33600ae9cf6ad0b506ab73cfb8de50e1afb00ffacaa802",
           "titulo": "Seudo-producción {#seudoproduccion}",
-          "ultima_linea": 291
+          "ultima_linea": 305
         },
         {
-          "fin_byte_exclusivo": 36576,
-          "inicio_byte": 35607,
-          "primera_linea": 292,
-          "seccion": "MD-L000292-L000299",
+          "fin_byte_exclusivo": 38800,
+          "inicio_byte": 37831,
+          "primera_linea": 306,
+          "seccion": "MD-L000306-L000313",
           "sha256": "fa855495ee4ff0d86fbaa32fed70d68661ac1b3d841d55b77b45bfddc7c683c6",
           "titulo": "Sesión de uso {#sesion}",
-          "ultima_linea": 299
+          "ultima_linea": 313
         },
         {
-          "fin_byte_exclusivo": 37620,
-          "inicio_byte": 36576,
-          "primera_linea": 300,
-          "seccion": "MD-L000300-L000307",
+          "fin_byte_exclusivo": 39844,
+          "inicio_byte": 38800,
+          "primera_linea": 314,
+          "seccion": "MD-L000314-L000321",
           "sha256": "957acb604e22c17876f722979c35a5a0b9e2f079a7da63e018183b427c394229",
           "titulo": "Token · Unidad de procesamiento del modelo {#token}",
-          "ultima_linea": 307
+          "ultima_linea": 321
         },
         {
-          "fin_byte_exclusivo": 38587,
-          "inicio_byte": 37620,
-          "primera_linea": 308,
-          "seccion": "MD-L000308-L000315",
+          "fin_byte_exclusivo": 40811,
+          "inicio_byte": 39844,
+          "primera_linea": 322,
+          "seccion": "MD-L000322-L000329",
           "sha256": "244fb088b5e196c2586bc9aa18430e19a892634474bc9f368ea9c5f0a451b1af",
           "titulo": "Torneo de ciberseguridad {#torneo}",
-          "ultima_linea": 315
+          "ultima_linea": 329
         },
         {
-          "fin_byte_exclusivo": 39613,
-          "inicio_byte": 38587,
-          "primera_linea": 316,
-          "seccion": "MD-L000316-L000323",
+          "fin_byte_exclusivo": 41837,
+          "inicio_byte": 40811,
+          "primera_linea": 330,
+          "seccion": "MD-L000330-L000337",
           "sha256": "b9c960b5e2f299982b8a85649a2029781243085ad33fe6bab1c47ce23b8e1dd5",
           "titulo": "Universo del SV {#universo}",
-          "ultima_linea": 323
-        },
-        {
-          "fin_byte_exclusivo": 41422,
-          "inicio_byte": 39613,
-          "primera_linea": 324,
-          "seccion": "MD-L000324-L000335",
-          "sha256": "5dcb0ceaf378681d397841c39df50b9b1b3826de64f76e637ba3446f23057170",
-          "titulo": "Publicaciones",
-          "ultima_linea": 335
-        },
-        {
-          "fin_byte_exclusivo": 41463,
-          "inicio_byte": 41422,
-          "primera_linea": 336,
-          "seccion": "MD-L000336-L000337",
-          "sha256": "473839c7f794e6ee1f4c040251853b5e04b80a77a79cca8dd435d0d543a48546",
-          "titulo": "Casos de uso o ejemplos específicos",
           "ultima_linea": 337
         },
         {
-          "fin_byte_exclusivo": 41951,
-          "inicio_byte": 41463,
+          "fin_byte_exclusivo": 43646,
+          "inicio_byte": 41837,
           "primera_linea": 338,
-          "seccion": "MD-L000338-L000341",
-          "sha256": "0d20b71b7d48b3d08fdd87acd3e40d8eb47808c9f6b8920dcb84df3f77c2179e",
-          "titulo": "Dos funciones principales en una misma institución",
-          "ultima_linea": 341
-        },
-        {
-          "fin_byte_exclusivo": 42429,
-          "inicio_byte": 41951,
-          "primera_linea": 342,
-          "seccion": "MD-L000342-L000345",
-          "sha256": "5c0cb6c0dcaa7450de77b299cbfe18f89ac5ef14b68dfb9bca0bf5171b18a547",
-          "titulo": "Comparar sin modificar la clasificación",
-          "ultima_linea": 345
-        },
-        {
-          "fin_byte_exclusivo": 42883,
-          "inicio_byte": 42429,
-          "primera_linea": 346,
-          "seccion": "MD-L000346-L000349",
-          "sha256": "0fb6a5d8a64ad3a8fa95affe1668ec9fc1693c9ff3f28511987578e94cdd3d36",
-          "titulo": "Distinguir demostración, sesión y consulta",
+          "seccion": "MD-L000338-L000349",
+          "sha256": "5dcb0ceaf378681d397841c39df50b9b1b3826de64f76e637ba3446f23057170",
+          "titulo": "Publicaciones",
           "ultima_linea": 349
         },
         {
-          "fin_byte_exclusivo": 43592,
-          "inicio_byte": 42883,
+          "fin_byte_exclusivo": 43687,
+          "inicio_byte": 43646,
           "primera_linea": 350,
-          "seccion": "MD-L000350-L000358",
+          "seccion": "MD-L000350-L000351",
+          "sha256": "473839c7f794e6ee1f4c040251853b5e04b80a77a79cca8dd435d0d543a48546",
+          "titulo": "Casos de uso o ejemplos específicos",
+          "ultima_linea": 351
+        },
+        {
+          "fin_byte_exclusivo": 44175,
+          "inicio_byte": 43687,
+          "primera_linea": 352,
+          "seccion": "MD-L000352-L000355",
+          "sha256": "0d20b71b7d48b3d08fdd87acd3e40d8eb47808c9f6b8920dcb84df3f77c2179e",
+          "titulo": "Dos funciones principales en una misma institución",
+          "ultima_linea": 355
+        },
+        {
+          "fin_byte_exclusivo": 44653,
+          "inicio_byte": 44175,
+          "primera_linea": 356,
+          "seccion": "MD-L000356-L000359",
+          "sha256": "5c0cb6c0dcaa7450de77b299cbfe18f89ac5ef14b68dfb9bca0bf5171b18a547",
+          "titulo": "Comparar sin modificar la clasificación",
+          "ultima_linea": 359
+        },
+        {
+          "fin_byte_exclusivo": 45107,
+          "inicio_byte": 44653,
+          "primera_linea": 360,
+          "seccion": "MD-L000360-L000363",
+          "sha256": "0fb6a5d8a64ad3a8fa95affe1668ec9fc1693c9ff3f28511987578e94cdd3d36",
+          "titulo": "Distinguir demostración, sesión y consulta",
+          "ultima_linea": 363
+        },
+        {
+          "fin_byte_exclusivo": 45816,
+          "inicio_byte": 45107,
+          "primera_linea": 364,
+          "seccion": "MD-L000364-L000372",
           "sha256": "e87b52eaa6109f4f923451af81355d00f78509f0a0e3cd65522b3c9c0a04e1c5",
           "titulo": "Interpretar un consumo incompleto",
-          "ultima_linea": 358
+          "ultima_linea": 372
         }
       ]
     },
@@ -1164,9 +1173,9 @@
       ]
     }
   ],
-  "edicion": "biblioteca-sv-memoria-actividades-20261104",
+  "edicion": "biblioteca-sv-rutas-genetica-20261105",
   "navegacion_autonoma_modelo": false,
-  "politica_sha256": "906980717ec3cde6c37a7bb3a5d742e00722f61aaba4e0259b1502dd82c30c86",
+  "politica_sha256": "2cf036cee51cf54599fb9cf79dd5b4fc40bc33bf6c5f5e69227cc9548d974825",
   "recepcion_visual": false,
   "version": 1
 }

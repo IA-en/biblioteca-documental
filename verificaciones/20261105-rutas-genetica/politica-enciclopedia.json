@@ -1,0 +1,11 @@
+{
+  "biblioteca_sha256": "d32b587b832b6b3064a81df9d05354796f448817720513bba94b10c6661b6e5a",
+  "permitir_restringidos": false,
+  "version": 1,
+  "nodo": 1,
+  "permitir_sinteticos": false,
+  "libros_permitidos": [
+    "enciclopedia"
+  ],
+  "finalidad": "verificacion_local"
+}

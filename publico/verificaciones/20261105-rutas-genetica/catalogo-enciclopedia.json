@@ -1,0 +1,108 @@
+{
+  "edicion": "biblioteca-sv-rutas-genetica-20261105",
+  "estado": "preparacion_local",
+  "version": 1,
+  "libros": [
+    {
+      "titulo": "Enciclopedia temática del Sistema Vectorial SV",
+      "plan": {
+        "sha256": "1a43af2327c93df7675f02a3d0a9af153060a90b1593a2c2826e33ae4496b24d",
+        "ruta": "libros/enciclopedia/plan.json"
+      },
+      "metadatos": [
+        {
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "original": {
+            "ruta": "libros/enciclopedia/src/SUMMARY.md",
+            "sha256": "d8b9377cbd6d4d602aba42491e23f9ec88e9137391e548dcfb9a84cc1ec7e9d8"
+          },
+          "documento": "ENC-01",
+          "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
+          "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null
+        },
+        {
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "original": {
+            "ruta": "libros/enciclopedia/src/presentacion.md",
+            "sha256": "4d1c4c729751ca408ac80dc2fc59b93f647cccbf666f33b9e3aafc29955239bc"
+          },
+          "documento": "ENC-02",
+          "procedencia": "Orientación conceptual revisada el 31/10/2026",
+          "alcance": "Distinción entre determinismo, predicción, corrección e indeterminación; autoridad de la terna y remisión a las fuentes rectoras. No añade reglas al núcleo ni acredita capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null
+        },
+        {
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "original": {
+            "ruta": "libros/enciclopedia/src/recorridos.md",
+            "sha256": "6997f22da40b05ea73570cf64a59a0f5008aa3f54301e26dd415eeaadffe47f5"
+          },
+          "documento": "ENC-03",
+          "procedencia": "Edición pública propia revisada, 05/11/2026",
+          "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null
+        },
+        {
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "original": {
+            "ruta": "libros/enciclopedia/src/lenguaje.md",
+            "sha256": "c705a0ffe1c13d0a51e106d7725f56775c5968b2078188114b30e8825b064590"
+          },
+          "documento": "ENC-04",
+          "procedencia": "Orientación conceptual revisada el 31/10/2026",
+          "alcance": "Distinción entre determinismo, predicción, corrección e indeterminación; autoridad de la terna y remisión a las fuentes rectoras. No añade reglas al núcleo ni acredita capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null
+        },
+        {
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "original": {
+            "ruta": "libros/enciclopedia/src/ia.md",
+            "sha256": "6973fe01a34bfef5a9cab756f535d7e783fbe1d7bc8229be4d1deb8428597060"
+          },
+          "documento": "ENC-05",
+          "procedencia": "Edición pública propia revisada, 05/11/2026",
+          "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null
+        },
+        {
+          "correspondencia": "identidad_literal",
+          "sintetico": false,
+          "original": {
+            "ruta": "libros/enciclopedia/src/fisica-quimica-matematica.md",
+            "sha256": "9fddcd085f2e32579a8e5689b460e73149093f6c3c7222f6186d89872de79685"
+          },
+          "documento": "ENC-06",
+          "procedencia": "Enciclopedia temática del SV, primera edición de 25/10/2026",
+          "alcance": "Definiciones explicativas con fuentes y ejemplos. El volumen III permanece anunciado y sin entradas. No autoriza ejecución ni certifica capacidades.",
+          "tipo_original": "markdown",
+          "visibilidad": "publica",
+          "licencia": "CC BY-NC-ND 4.0",
+          "identificador_editorial_r0": null
+        }
+      ],
+      "id": "enciclopedia",
+      "raiz": "libros/enciclopedia/src"
+    }
+  ]
+}

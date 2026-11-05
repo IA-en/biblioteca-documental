@@ -1,12 +1,12 @@
 {
-  "edicion": "biblioteca-sv-memoria-actividades-20261104",
+  "edicion": "biblioteca-sv-rutas-genetica-20261105",
   "estado": "preparacion_local",
   "version": 1,
   "libros": [
     {
       "titulo": "Enciclopedia temática del Sistema Vectorial SV",
       "plan": {
-        "sha256": "8b25e7a540f748e2fae4e2e11c7ced4c43d07677e2d4db982651ef7dbc20bfca",
+        "sha256": "1a43af2327c93df7675f02a3d0a9af153060a90b1593a2c2826e33ae4496b24d",
         "ruta": "libros/enciclopedia/plan.json"
       },
       "metadatos": [
@@ -45,10 +45,10 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/recorridos.md",
-            "sha256": "2119f04e8af1f884c281d8979011894f8803da178add23ac09447c431c8b114f"
+            "sha256": "6997f22da40b05ea73570cf64a59a0f5008aa3f54301e26dd415eeaadffe47f5"
           },
           "documento": "ENC-03",
-          "procedencia": "Edición pública propia actualizada, 03/11/2026",
+          "procedencia": "Edición pública propia revisada, 05/11/2026",
           "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
           "tipo_original": "markdown",
           "visibilidad": "publica",
@@ -75,10 +75,10 @@
           "sintetico": false,
           "original": {
             "ruta": "libros/enciclopedia/src/ia.md",
-            "sha256": "73bc256224ad9e7a250d662d1ba5c205eeb1831c0477800d1697e433fd941bb9"
+            "sha256": "6973fe01a34bfef5a9cab756f535d7e783fbe1d7bc8229be4d1deb8428597060"
           },
           "documento": "ENC-05",
-          "procedencia": "Edición pública propia revisada, 04/11/2026",
+          "procedencia": "Edición pública propia revisada, 05/11/2026",
           "alcance": "Distinción entre evaluación individual, torneo, selección del defensor y procedimientos documentales. Remisiones comunes; no acredita recepción operativa ni producción.",
           "tipo_original": "markdown",
           "visibilidad": "publica",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "edicion": "biblioteca-sv-dispositivos-rutas-20261104",
+  "edicion": "biblioteca-sv-rutas-genetica-agradecimientos-20261105",
   "libros": [
     {
       "id": "guia",
@@ -371,7 +371,7 @@
       "raiz": "libros/manual/src",
       "plan": {
         "ruta": "libros/manual/plan.json",
-        "sha256": "12af7daa3a18113d59363b6a2df50dffe2820a9698a0608c82e03ecd1eada8cb"
+        "sha256": "4bee366aeb718b60a9e7d86d6fc9d7d040c4464013951df620b50aab55ccd4f7"
       },
       "metadatos": [
         {
@@ -545,11 +545,11 @@
           "correspondencia": "identidad_literal",
           "identificador_editorial_r0": null,
           "sintetico": false,
-          "procedencia": "Edición de 02/11/2026; fuente canónica identificada por SHA-256 c88b349863b80685a53f5f8ff05e1d416f36040068d68f568406887023ff9719.",
+          "procedencia": "Edición pública propia revisada, 05/11/2026",
           "documento": "MANUAL_AGRADECIMIENTOS",
           "tipo_original": "markdown",
           "original": {
-            "sha256": "f63403c70eb388c86b9ac7c6af6ff79f28817669b04e7c684db5c3784893ff80",
+            "sha256": "f21b99e5abeb803e40c4a3d376213a6ffa30963b020569d0f0972e9fa1848f92",
             "ruta": "libros/manual/src/agradecimientos.md"
           },
           "visibilidad": "publica"
@@ -693,7 +693,7 @@
     },
     {
       "plan": {
-        "sha256": "69d313012582b71ef7eac1a59432790c627d67a6077ed579e44c37c2fac24637",
+        "sha256": "bec889eef7b082d9429489d67d3779fdbf7beba0f3cadfc95ec807b94fc5e543",
         "ruta": "libros/dominios/plan.json"
       },
       "raiz": "libros/dominios/src",
@@ -723,11 +723,11 @@
           "identificador_editorial_r0": null,
           "documento": "DOMINIOS-02",
           "original": {
-            "sha256": "aa561f2647e9205b7a5499bbb0d9790e52085a708f4c934f9ab10f464556e39b",
+            "sha256": "325d91c595811d4cc4862baa699a2e13b71ee5a321db76ad0c666fdbcdad04dd",
             "ruta": "libros/dominios/src/presentacion.md"
           },
           "correspondencia": "identidad_literal",
-          "procedencia": "Edición pública actualizada el 25/10/2026"
+          "procedencia": "Edición pública propia revisada, 05/11/2026"
         },
         {
           "alcance": "Fundamentos transversales, custodia y distincion de borradores historicos, sin atribuir recepcion operativa.",

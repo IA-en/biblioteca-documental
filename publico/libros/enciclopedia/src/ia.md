@@ -10,7 +10,7 @@ Las definiciones propias del SV se identifican como tales. Las siglas y equivale
 
 | Materia | Términos relacionados |
 | --- | --- |
-| Conocimiento y organización | [Agente Especializado](#agente), [biblioteca de dominio](#biblioteca), [dominio](#dominio), [Universo](#universo). |
+| Conocimiento y organización | [Agente Especializado](#agente), [biblioteca de dominio](#biblioteca), [dominio](#dominio), [rutas críticas](#ruta-critica), [Universo](#universo). |
 | Modelo y uso | [Modelo de IA](#modelo), [modo predominante](#modo), [grados de libertad](#grados), [predominancia](#predominancia), [nodo](#nodo). |
 | Examen y decisión | [Evaluación](#evaluacion), [clasificación](#clasificacion), [dictamen](#dictamen), [autorización](#autorizacion), [recomendación](#recomendacion). |
 | Funcionamiento y protección | [Aislamiento](#aislamiento), [IA gobernada](#gobernada), [inferencia](#inferencia), [producción](#produccion), [seudo-producción](#seudoproduccion). |
@@ -270,6 +270,20 @@ Conclusión fundada en resultados comparables y en un criterio declarado, limita
 **Distinción:** no sustituye la selección responsable de una institución ni la autorización de una operación. Las mediciones ausentes no se reemplazan por cero. Véase [Selección, clasificación e independencia](https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/comparacion.html).
 
 **Para continuar la lectura:** [Clasificación comparativa de modelos](https://documentos-sv.itvia.online/enciclopedia/ia.html#clasificacion) · [Autorización de uso](https://documentos-sv.itvia.online/enciclopedia/ia.html#autorizacion). Examinar la conclusión comparativa y la decisión institucional que sigue siendo necesaria. [Explorar otros recorridos](https://documentos-sv.itvia.online/enciclopedia/recorridos.html).
+
+### Ruta crítica del SV · Rutas críticas {#ruta-critica}
+
+Recorrido de conocimiento cuyas dependencias y elementos obligatorios han sido establecidos por la autoridad competente del dominio para una finalidad delimitada. Relaciona los parámetros con el conocimiento requerido, los Universos y sus fuentes. La criticidad se justifica por la consecuencia de omitir un elemento necesario o incumplir una dependencia; no se atribuye por el aspecto del diagrama ni por una preferencia del modelo.
+
+**Distinción:** la ruta requerida y el recorrido efectivamente realizado son objetos diferentes. Una representación gráfica no demuestra que se hayan leído los documentos ni respetado sus dependencias. Para comprobarlo se necesitan las ediciones, los pasajes y las evidencias de acceso o entrega que correspondan. Tampoco debe confundirse con la ruta de mayor duración de la planificación temporal: en el SV la obligación procede de la constitución del dominio y de la finalidad declarada.
+
+**Ejemplo delimitado:** si el dominio establece que A, B y C son necesarios y que B requiere A y C requiere B, el recorrido admisible es A → B → C. Omitir B o adelantar C incumple esas condiciones. Otras relaciones pueden permitir varios recorridos; su admisibilidad debe justificarse con las reglas que efectivamente se hayan constituido.
+
+**Alcance:** una ruta todavía no constituida permanece pendiente de constitución; no se le asigna por ese motivo un valor de la terna. Relacionar procesos observados para estudiar una anomalía tampoco convierte automáticamente su secuencia en una ruta crítica ni acredita una amenaza.
+
+**Fuente competente:** [Dominios y universos · Parámetros de conocimiento y rutas críticas](https://documentos-sv.itvia.online/dominios/universos/parametros-rutas.html). Este capítulo desarrolla la distinción entre conocimiento, decisión singular y propuesta de valoración, así como las condiciones de constitución y comprobación.
+
+**Para continuar la lectura:** [Biblioteca documental de dominio](#biblioteca) · [Dominio](#dominio) · [Universo del SV](#universo) · [Explorar relaciones y recorridos](recorridos.md#del-conocimiento-al-agente).
 
 ### Selección del defensor {#seleccion-defensor}
 
