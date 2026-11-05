@@ -31,4 +31,8 @@ La figura de tres gatos agrupados representa una clase dentro de la constitució
 
 La identificación del gato blanco está fijada para este caso. No constituye un sistema general de reconocimiento de color o identidad. Incorporar otros gatos o perros exigiría distinguir sus referentes. Las relaciones de hambre, alegría, amistad o intención se expresan explícitamente; no se deducen de la mera presencia de un animal.
 
+## Ampliación entre dominios
+
+El [capítulo 21](21-diccionario-visual.md) desarrolla la conservación de un repertorio común mediante referencias y relaciones visuales. No exige una nueva figura por cada palabra ni una definición verbal como clave necesaria de lectura. El [caso de la televisión inteligente](22-television.md) introduce estados de funcionamiento, una hipótesis causal y una reparación pendiente, con sus límites de reconocimiento explícitos.
+
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

@@ -1,6 +1,6 @@
 # 1. Objeto, alcance y estado de la investigación
 
-<div class="edicion"><strong>Tratado Lenguaje Basado en Imágenes (LBI) — Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un <em>frame</em> del Sistema Vectorial (SV)</strong><br>V.04 · 5 de noviembre de 2026 · Cuarta edición de investigación.</div>
+<div class="edicion"><strong>Tratado Lenguaje Basado en Imágenes (LBI) — Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un <em>frame</em> del Sistema Vectorial (SV)</strong><br>V.05 · 5 de noviembre de 2026 · Quinta edición de investigación.</div>
 
 El Lenguaje Basado en Imágenes del Sistema Vectorial (SV) investiga cómo conservar un mismo contenido mediante imágenes, glifos, expresiones verbales y células. Su objeto es representar relaciones que permitan reconocer quién hace qué, sobre qué o quién, en qué orden, con qué finalidad y bajo qué condiciones. Una descripción puede cambiar de idioma o admitir distintas formulaciones sin alterar ese núcleo.
 
@@ -31,5 +31,7 @@ La historia de estudio introduce una dueña, un perro, un gato, alimentos y luga
 Los capítulos 2 a 8 fijan las distinciones de representación, fidelidad y economía. Los capítulos 9 y 10 contienen el caso completo, su clave y las composiciones celulares. Los capítulos 11 a 14 exponen la deducción, la prueba exploratoria, las escenas sintéticas y las condiciones de evaluación. Los capítulos 15 y 16 recogen versiones, fuentes y licencias. Los capítulos 17 y 18 desarrollan la individuación del potencial y la organización de sucesos, matrices y tensores. El capítulo 19 precisa la evidencia disponible y sus condiciones de refutación. El capítulo 20 examina la programación visual y su relación con el lenguaje de computación. Cierran la obra la bibliografía, la relación de instrumentos y el índice de figuras.
 
 La publicación del caso completo permite inspeccionarlo y reproducir su lectura. Las pruebas cerradas conservan la prohibición expresa de consultar fuentes externas y la separación entre materiales entregados y clave correctora. Sus condiciones y el alcance de la independencia se registran sin atribuir al instrumento garantías no comprobadas.
+
+Los capítulos 21 y 22 incorporan el diccionario de glifos como repertorio visual de referencia y el dominio experimental de la televisión inteligente. La comprensión visual sin definiciones obligatorias y la capa verbal necesaria se mantienen como funciones complementarias. El nuevo caso distingue fallo, hipótesis causal y reparación pendiente; su conservación formal está comprobada y su comprensión todavía no ha sido evaluada.
 
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

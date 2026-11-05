@@ -1,5 +1,5 @@
 {
-  "edicion": "V.04",
+  "edicion": "V.05",
   "algoritmo": "SHA-256",
   "alcance": "Todos los archivos distribuidos excepto este manifiesto",
   "archivos": [
@@ -7,6 +7,46 @@
       "ruta": ".gitignore",
       "octetos": 7,
       "sha256": "8f1ba8b2ead98091fdd0dee697ae64c7381569dcaad3e450989cbabc7583666a"
+    },
+    {
+      "ruta": "AUTORIA-Y-CITACION.md",
+      "octetos": 1817,
+      "sha256": "b3abcd8e42adc52c70339bd936234d088b8ebf1d98f9ca2e34e4908c02c80461"
+    },
+    {
+      "ruta": "AUTORIA-Y-CITACION.md.license",
+      "octetos": 305,
+      "sha256": "23ac2a67f4b219f07b7bf05fb331cf8fd067dc927aa22c89a03fb0c4ec2f5ba8"
+    },
+    {
+      "ruta": "LICENSE",
+      "octetos": 1305,
+      "sha256": "a160668898bc988ba53111bb65f719194b21260b18d7777fcc04ab5cdaa0d498"
+    },
+    {
+      "ruta": "README.md",
+      "octetos": 4089,
+      "sha256": "6ab1ae66b1294a0bd10b16a693f9af239aab7c03a99d457e620dd1d9859581c6"
+    },
+    {
+      "ruta": "README.md.license",
+      "octetos": 293,
+      "sha256": "f3ad2f975cfa6e7e8b2c96a8fe0c2831ae136b36cfe1b48dcedc67a5ad16a736"
+    },
+    {
+      "ruta": "RECURSOS-Y-LICENCIAS.txt",
+      "octetos": 326,
+      "sha256": "495d01f7a4e3f3d803083e3e264b9231528fca7a9fbbaeaf3ddae7b686029749"
+    },
+    {
+      "ruta": "articulo/README.md",
+      "octetos": 1612,
+      "sha256": "0dc62e40e7d2836457e60aff1eb25e811cadbb64ea7c0553b12b1f9bcd86d4de"
+    },
+    {
+      "ruta": "articulo/README.md.license",
+      "octetos": 302,
+      "sha256": "90399564ba8c5ffcdf11c996fed2bd961879fd25c784737204fb798573c371c4"
     },
     {
       "ruta": "articulo/imagenes/figura-01.png",
@@ -89,26 +129,6 @@
       "sha256": "fbf743c6167e675ad0d2c6a26e172fdaf1e31bfe44f7625b55d9f6ac519e71f3"
     },
     {
-      "ruta": "articulo/README.md",
-      "octetos": 1612,
-      "sha256": "0dc62e40e7d2836457e60aff1eb25e811cadbb64ea7c0553b12b1f9bcd86d4de"
-    },
-    {
-      "ruta": "articulo/README.md.license",
-      "octetos": 302,
-      "sha256": "90399564ba8c5ffcdf11c996fed2bd961879fd25c784737204fb798573c371c4"
-    },
-    {
-      "ruta": "AUTORIA-Y-CITACION.md",
-      "octetos": 1817,
-      "sha256": "b3abcd8e42adc52c70339bd936234d088b8ebf1d98f9ca2e34e4908c02c80461"
-    },
-    {
-      "ruta": "AUTORIA-Y-CITACION.md.license",
-      "octetos": 305,
-      "sha256": "23ac2a67f4b219f07b7bf05fb331cf8fd067dc927aa22c89a03fb0c4ec2f5ba8"
-    },
-    {
       "ruta": "biblioteca.css",
       "octetos": 4285,
       "sha256": "190b4b43913e5863f4406177480c609fe69dbc7aec56348a91d1a0b2947c8132"
@@ -116,12 +136,12 @@
     {
       "ruta": "book.toml",
       "octetos": 813,
-      "sha256": "f8810c3278c1f08d577b018c6017d720c8369f801894376e1a31958475fc0075"
+      "sha256": "1b18f593aaa98ad6a03a5e8fa6c04be6a8736400c0a19dfb1f33842270a3a88d"
     },
     {
       "ruta": "book.toml.license",
       "octetos": 293,
-      "sha256": "f0f4271141e0fe0a1f31f84359e01edf9012e68e7a4933a9ce3b015b389e9c2b"
+      "sha256": "653bf47e623143bd063cfbf3f8811a4ed268e03430a1732ddbc17a57ee573884"
     },
     {
       "ruta": "figuras.css",
@@ -132,11 +152,6 @@
       "ruta": "figuras.css.license",
       "octetos": 295,
       "sha256": "a00934ed7bfaffe47b06e027dac20ce4bdc2e933032bed142831647b20defa6d"
-    },
-    {
-      "ruta": "LICENSE",
-      "octetos": 1305,
-      "sha256": "a160668898bc988ba53111bb65f719194b21260b18d7777fcc04ab5cdaa0d498"
     },
     {
       "ruta": "mdbook-license.txt",
@@ -159,29 +174,14 @@
       "sha256": "ce77c3038b9303c1db290002350165b6e94b5f5ae35ed4061c92e54a13ab8e98"
     },
     {
-      "ruta": "README.md",
-      "octetos": 3681,
-      "sha256": "2fe3ebec29396fef8bc68255334fef98cbea097c8c614f15ef9d78c1ce463a78"
-    },
-    {
-      "ruta": "README.md.license",
-      "octetos": 293,
-      "sha256": "a192f4fbf89bf12748178332fa3b96ce115b441283b7b845193da0d5c36de275"
-    },
-    {
-      "ruta": "RECURSOS-Y-LICENCIAS.txt",
-      "octetos": 326,
-      "sha256": "495d01f7a4e3f3d803083e3e264b9231528fca7a9fbbaeaf3ddae7b686029749"
-    },
-    {
       "ruta": "src/01-presentacion.md",
-      "octetos": 6168,
-      "sha256": "bd646c0da1ea6a10a22f3a7a0ec4fc6898297beb8784ba02e0f92bfb0ab13cfd"
+      "octetos": 6610,
+      "sha256": "c76c7518a38306f7bc14199fd2d991e840c6f04511a1dc95987c8198d421ab28"
     },
     {
       "ruta": "src/01-presentacion.md.license",
       "octetos": 306,
-      "sha256": "c81ac179bc89a06d25ac47b8c855d0c79b918d7d782678413e9cda7aa6ab1200"
+      "sha256": "5a2afe53fa0266ef1cf37e44b59cce1650d12bf96809daaeaae08b1340e84f7b"
     },
     {
       "ruta": "src/02-fundamento.md",
@@ -195,13 +195,13 @@
     },
     {
       "ruta": "src/03-recorrido.md",
-      "octetos": 8991,
-      "sha256": "e023c594c60ec3ddedf663138b3639213b2da6c872366958a97a759fe2668f08"
+      "octetos": 10541,
+      "sha256": "19927fb82c3604ca68eeb4c8f303d0ce8e42938d2fb206124a1bd977e2243f06"
     },
     {
       "ruta": "src/03-recorrido.md.license",
       "octetos": 303,
-      "sha256": "b1b022771b3a6754688dfdac0830b6fa6fa4f5e49fbfb19103f7d9abcaa7bfbb"
+      "sha256": "ad8bd9de618267e7fc3d0e5fcd7f2ce51b7938c3b275859824801aba3dd37ca3"
     },
     {
       "ruta": "src/04-terna.md",
@@ -235,23 +235,23 @@
     },
     {
       "ruta": "src/07-economia.md",
-      "octetos": 3072,
-      "sha256": "6d0381a8c33bd25d269fbddff1f8cd2ae2b75cd396bb12485d4286ff1774e908"
+      "octetos": 3692,
+      "sha256": "af7d9a240f19812311df618d6cfdfc9498695d3fb2c561ea3d26345a2bd9d1f9"
     },
     {
       "ruta": "src/07-economia.md.license",
       "octetos": 302,
-      "sha256": "86472e4de159e15794b07cf1d5e169f80f52bdd2f5d28866cd96c07a7f5b57a1"
+      "sha256": "f141c0b9d9e9db95b197c82a7b40e1c8c28083317ad27f2c3fb15c2fbec2042f"
     },
     {
       "ruta": "src/08-repertorio.md",
-      "octetos": 3703,
-      "sha256": "11b70f67a108608bead4d842546650361fd865608f33b7a2b1424080546776ad"
+      "octetos": 4171,
+      "sha256": "80b9d437930e4656701c2efbbdcc11daac44fe107ecd8dc5d24bb039f8b935ef"
     },
     {
       "ruta": "src/08-repertorio.md.license",
       "octetos": 304,
-      "sha256": "f7a547e9ad1cc1ae007d6c89c2f66c254b5e11e3cdf544f2f1c128ab78a927e4"
+      "sha256": "19396703ef4541a727a2f55f74f20138ffabacdba54c90ba025d0938e0aa1fd6"
     },
     {
       "ruta": "src/09-caso-completo.md",
@@ -295,13 +295,13 @@
     },
     {
       "ruta": "src/13-imagenes.md",
-      "octetos": 6538,
-      "sha256": "b654d30e120449f8f1c08268a96f1882842303382654310ebb74d6a6f5d3cb03"
+      "octetos": 6961,
+      "sha256": "7b8dbc37dd5e5fcce043a7d6f050e6ae2aee0a67d93199b383b9dc332318b7ee"
     },
     {
       "ruta": "src/13-imagenes.md.license",
       "octetos": 302,
-      "sha256": "d1841f8d83585ae257868843d14f22d53b692e0ff5c99d5f38627fbcfb8c64bf"
+      "sha256": "f0c14411df503117e7f0d8033c7c9430f1cbc7619e04637f3675d625000ddc88"
     },
     {
       "ruta": "src/14-evaluacion.md",
@@ -315,13 +315,13 @@
     },
     {
       "ruta": "src/15-ediciones.md",
-      "octetos": 9053,
-      "sha256": "cce75daddea13cece5c27f18af20a8042b4ac36b1f77cd1c7a33a6eb9f14a1c1"
+      "octetos": 10735,
+      "sha256": "508d9253bb2ffd74044d0f46187fb187221bbdc325c9dfd06f2f9dad41af5552"
     },
     {
       "ruta": "src/15-ediciones.md.license",
       "octetos": 303,
-      "sha256": "f301aeeb91c8e543e563e3f8fe9ffb343d0c2e04a2a9f1693508d628dac97860"
+      "sha256": "66484c6bc2c9d66ba653fd8193257e2a366c2f79cc70c4b7133cf91e12734b3e"
     },
     {
       "ruta": "src/16-fuentes.md",
@@ -335,13 +335,13 @@
     },
     {
       "ruta": "src/17-potencial.md",
-      "octetos": 9745,
-      "sha256": "146b0818f058266bf46243605f576c2b0aeef2b0f2a9b5f06b87206acb106294"
+      "octetos": 16746,
+      "sha256": "e2ced6d88009628809acb237592f96c8d9d428349f79b1d5cb73dee5e0de63c9"
     },
     {
       "ruta": "src/17-potencial.md.license",
       "octetos": 303,
-      "sha256": "56b378deb9c2b3d4f1540dd78c95caf46a9b90b46fa54692ca899127df6c06d8"
+      "sha256": "340b03760508d6d24743e7076ee80986aa7786fc1850687b51b382a55a50006a"
     },
     {
       "ruta": "src/18-organizacion.md",
@@ -355,13 +355,13 @@
     },
     {
       "ruta": "src/19-verificacion.md",
-      "octetos": 6600,
-      "sha256": "c30a25c4eeb726ad78695fa586de656b9554cbaaa42bec209807bfc6d61ae5f5"
+      "octetos": 7237,
+      "sha256": "864f0d357d3982e42df44bc8c9df0f5f508b80bbba64384f7727f3d7d3b366d2"
     },
     {
       "ruta": "src/19-verificacion.md.license",
       "octetos": 306,
-      "sha256": "631ad9c95cc75753fe27a4f95e5b493e646716d9a2d56e812f24867e8f95a862"
+      "sha256": "a2c11ecdbda6b071953a64963c45e7016c6b4c0204d9ef75e6b2f6f88b08d8d1"
     },
     {
       "ruta": "src/20-programacion.md",
@@ -374,24 +374,64 @@
       "sha256": "03f6e468a21cf50b288333d5b53f85df70431817e82d4b24b82285d7fa077767"
     },
     {
+      "ruta": "src/21-diccionario-visual.md",
+      "octetos": 10907,
+      "sha256": "40b1d4ba80377f88fe91102dd8022bbeb4a9ee8c4d6d1c2ff991193678a4bab2"
+    },
+    {
+      "ruta": "src/21-diccionario-visual.md.license",
+      "octetos": 312,
+      "sha256": "a63b2ad987b64318f7dee8e9479d0a28ee631e8dd89a86f23ab50a44e1fd1feb"
+    },
+    {
+      "ruta": "src/22-television.md",
+      "octetos": 14210,
+      "sha256": "567f53b74695cdda41c646b81cf78f171bc5c23c81d1483b48d59b5799950eb9"
+    },
+    {
+      "ruta": "src/22-television.md.license",
+      "octetos": 304,
+      "sha256": "c8ec562cb5f6207678c1ca91c450f1a384330e1e850137ed7f6f74b5657c0394"
+    },
+    {
+      "ruta": "src/SUMMARY.md",
+      "octetos": 1937,
+      "sha256": "ea6fa91035f90a5c6b5569faaaf0aa874df46e2f3f3c43dd09f9f87eb5ec4f5b"
+    },
+    {
+      "ruta": "src/SUMMARY.md.license",
+      "octetos": 298,
+      "sha256": "66c38c92f4509c2cca1ef3cf2271c6c4523ab568427db31cf9b47e5b9d296f38"
+    },
+    {
       "ruta": "src/bibliografia.md",
-      "octetos": 11526,
-      "sha256": "ad263e54682a05d434bc38951575d8b6a3ef33ecd7e001a1f2850eed332c319e"
+      "octetos": 13324,
+      "sha256": "9ca1f5fe7eada234631c82d833f5ec5579932abd4a5e072d419ff4840dc8b3c2"
     },
     {
       "ruta": "src/bibliografia.md.license",
       "octetos": 303,
-      "sha256": "eab9d03ddde31a406e4bbfbb897464eba9aa71079f94ff600b175a6fffe1952e"
+      "sha256": "2d6760fe3030671f059e0d385d0963bb9ff246af6126c828c0175fe9f1f37f5f"
+    },
+    {
+      "ruta": "src/datos/22-television-celulas.json",
+      "octetos": 6639,
+      "sha256": "9f9fb6253d0562e50139800ac94a401eaf852e5567dfdd122d58d3b3d4333732"
+    },
+    {
+      "ruta": "src/datos/22-television-celulas.json.license",
+      "octetos": 320,
+      "sha256": "f52808626a66a7d3eb57dd1f1c424ccb77450c4f58dfc61611d729c61c6ebbd6"
     },
     {
       "ruta": "src/figuras.md",
-      "octetos": 2635,
-      "sha256": "bb0ece51fff753a803abf1ebd044de52c1c77bfba6e207856e041eebb8fab322"
+      "octetos": 3077,
+      "sha256": "97032218c5529267cfaed6bbe4d6b23af0c1e1c634e96f81714b72db2adf3c05"
     },
     {
       "ruta": "src/figuras.md.license",
       "octetos": 298,
-      "sha256": "aab43b08c6a06f57e2671abc9e191b670948120169910ae6eabfe712a3b5eefc"
+      "sha256": "0c9da9f285da82efaed6b7f96b954c7628cf31d3973a6d4daf9ab4d72cbc18f1"
     },
     {
       "ruta": "src/formatos/01-01-relato-inicial.jpg",
@@ -1234,6 +1274,96 @@
       "sha256": "bf88603f93aa9ff03f4a984f35b898e9feefaa90702ed1c5094dab61417f06a0"
     },
     {
+      "ruta": "src/formatos/22-02-funcionamiento-y-fallo-muestras.svg",
+      "octetos": 89114,
+      "sha256": "688db2ad320a0a710afde7c36fdff7e28a3c707cb37f7f0b09bc9fa13fe5a606"
+    },
+    {
+      "ruta": "src/formatos/22-02-funcionamiento-y-fallo-muestras.svg.license",
+      "octetos": 338,
+      "sha256": "f4d4f142fa0a222d8b9a28292aaa1fb44d26b7160c81cdf7f032e3c538b01986"
+    },
+    {
+      "ruta": "src/formatos/22-02-funcionamiento-y-fallo.svg",
+      "octetos": 9294,
+      "sha256": "aa5a8e8e6508a2543ddab37e1ea7b163c6f6464c450ebe7e669443551e5e892a"
+    },
+    {
+      "ruta": "src/formatos/22-02-funcionamiento-y-fallo.svg.license",
+      "octetos": 329,
+      "sha256": "d4e2de8499da678bd23f2c71674276deeadeb99bdeb6cd1c5b84063246e1d44d"
+    },
+    {
+      "ruta": "src/formatos/22-02-funcionamiento-y-fallo.webp",
+      "octetos": 7550,
+      "sha256": "80a319d9c7423e62398e1e3934b5dc9fd4898f5d3d8753e0f8f70abf7eeb4690"
+    },
+    {
+      "ruta": "src/formatos/22-02-funcionamiento-y-fallo.webp.license",
+      "octetos": 330,
+      "sha256": "1b9b914ca4dc3e2090953c8c49cf62e0d8d238d756ec2ac31414d08a5eaf8688"
+    },
+    {
+      "ruta": "src/formatos/22-03-hipotesis-causal-muestras.svg",
+      "octetos": 99573,
+      "sha256": "c037e32299249114a9172eb3244ff0fa14d45e55e717d2a5eafe2aa22bacf4e0"
+    },
+    {
+      "ruta": "src/formatos/22-03-hipotesis-causal-muestras.svg.license",
+      "octetos": 332,
+      "sha256": "27b664a1e79171eb3510f1fa501a2adc55baf936069f2ac66ef40b375ea8bb4f"
+    },
+    {
+      "ruta": "src/formatos/22-03-hipotesis-causal.svg",
+      "octetos": 6364,
+      "sha256": "6e88806faab4f8e6c960ec202f8c7fc8a3d0fc1bcf9390e0635a44eef85de4e5"
+    },
+    {
+      "ruta": "src/formatos/22-03-hipotesis-causal.svg.license",
+      "octetos": 323,
+      "sha256": "6f7f6f6e13178a4ebd10fe23028533c6e3489db0c01e9047fcade45a0516a436"
+    },
+    {
+      "ruta": "src/formatos/22-03-hipotesis-causal.webp",
+      "octetos": 7166,
+      "sha256": "a9fc8bcf6768111e2e12baa831d9166e8c39f21aa997c50a9b60bbeb22f61a5b"
+    },
+    {
+      "ruta": "src/formatos/22-03-hipotesis-causal.webp.license",
+      "octetos": 324,
+      "sha256": "94af5a9e4bc5f5b2c533068a702d316d3f66cbaa84978a5a89a7e8d6bf239be7"
+    },
+    {
+      "ruta": "src/formatos/22-04-reparacion-pendiente-muestras.svg",
+      "octetos": 93151,
+      "sha256": "c20c7946dedc36d889e8a51744907659ab8b472f38c54374b23e73b99bc5da82"
+    },
+    {
+      "ruta": "src/formatos/22-04-reparacion-pendiente-muestras.svg.license",
+      "octetos": 336,
+      "sha256": "0c392a41db8a6b25934e1960f3853d370319fb9a8f221ddcde705e3fed369133"
+    },
+    {
+      "ruta": "src/formatos/22-04-reparacion-pendiente.svg",
+      "octetos": 6827,
+      "sha256": "e52a3ea5bc6a60885bd408c7d0e55968f2713d64cbb3f2337f7c67d43131c0bb"
+    },
+    {
+      "ruta": "src/formatos/22-04-reparacion-pendiente.svg.license",
+      "octetos": 327,
+      "sha256": "2288bb29ed46e6dffcaa0e9263db8d42073cae64b3c19564d2eb7932f1abcfb3"
+    },
+    {
+      "ruta": "src/formatos/22-04-reparacion-pendiente.webp",
+      "octetos": 9504,
+      "sha256": "fc2f09007616f1ce37723522349b2f6c030feafc3d8f3a30949f70c918db4140"
+    },
+    {
+      "ruta": "src/formatos/22-04-reparacion-pendiente.webp.license",
+      "octetos": 328,
+      "sha256": "fdc5509fc6778bb582983c086fc7f413ab7ea62b0ba56596361eb8635eeeeab8"
+    },
+    {
       "ruta": "src/herramientas.md",
       "octetos": 2680,
       "sha256": "e15f84c7d4cf4a41454761c11d1f164113ce86e3b747e0ae3bae4d12f5848fdd"
@@ -1524,6 +1654,46 @@
       "sha256": "6e8b07d9b6d7c4779b2cb2d302f98f6534d36dff6014e686922f81ddc1e1e26f"
     },
     {
+      "ruta": "src/imagenes/22-01-television-sintetica.png",
+      "octetos": 2336999,
+      "sha256": "1574f40ea30ab67e5ac28c88d18b57b6adf90aa36a71e1c2c05c63336db48c89"
+    },
+    {
+      "ruta": "src/imagenes/22-01-television-sintetica.png.license",
+      "octetos": 327,
+      "sha256": "2951ee8727561d40e43e9c52444e0e8009c1ccc0e8dd0de8dc91f5f0de9d2e07"
+    },
+    {
+      "ruta": "src/imagenes/22-02-funcionamiento-y-fallo.png",
+      "octetos": 15273,
+      "sha256": "4f2c2c0f5dffaf73b77601e158ae5f12dbc7533ddffff4b4e6ea4f337f5de965"
+    },
+    {
+      "ruta": "src/imagenes/22-02-funcionamiento-y-fallo.png.license",
+      "octetos": 329,
+      "sha256": "7731aaa6e0a611c7cee8ddb5490eab6181e84f876ec98bf7419960d89f95f336"
+    },
+    {
+      "ruta": "src/imagenes/22-03-hipotesis-causal.png",
+      "octetos": 14699,
+      "sha256": "843fc86d377dfd0df6ca1c7cd97da5bc8beb5b2b5ad773f53871b6d8b65ad328"
+    },
+    {
+      "ruta": "src/imagenes/22-03-hipotesis-causal.png.license",
+      "octetos": 323,
+      "sha256": "85ee93f0c36aa3d79e97ccd2ff244cd791f7c6ab4ada37c263d774ce61f50213"
+    },
+    {
+      "ruta": "src/imagenes/22-04-reparacion-pendiente.png",
+      "octetos": 17670,
+      "sha256": "d0a15039446835e3e86ca95e5b8ea31f5a06b58cb0659910d939defe05315a49"
+    },
+    {
+      "ruta": "src/imagenes/22-04-reparacion-pendiente.png.license",
+      "octetos": 327,
+      "sha256": "321949fdcb2c5c59344a661ffdb5360fd422dc3afcd19c869dc29d3ce3c6b417"
+    },
+    {
       "ruta": "src/mdbook-license.txt",
       "octetos": 15922,
       "sha256": "60222c28c1a7f6a92c7df98e5c5f4459e624e6e285e0b9b94467af5f6ab3343d"
@@ -1534,24 +1704,14 @@
       "sha256": "ec8d1e5a89e302da87ea25ed519edba06a40779a2696e95ffaaf259a71cf74df"
     },
     {
-      "ruta": "src/SUMMARY.md",
-      "octetos": 1738,
-      "sha256": "e3da107e6dbef8cbdffac0bfe9b836c4f1a1124a6bb2896097a8ec0404ad7ec3"
-    },
-    {
-      "ruta": "src/SUMMARY.md.license",
-      "octetos": 298,
-      "sha256": "4ac22567c5b078b59e50036e7012726689be0b3eb9560746937b78e04b2db2f1"
-    },
-    {
       "ruta": "theme/index.hbs",
       "octetos": 19408,
-      "sha256": "509d779dbf6eedc1f36317c6dabdd2e6cec94193bb83fab1342a25a77262c256"
+      "sha256": "b43e56fa95b3701734eced37e7e702ff604060bebf65cec17ff4aa93fc667d67"
     },
     {
       "ruta": "theme/index.hbs.license",
-      "octetos": 1472,
-      "sha256": "a5a87156b4fe6f125a4116da616ecdcbce3a27e8fddb9edb06f4b1da4dd7cfdf"
+      "octetos": 1546,
+      "sha256": "a72e4689477b5b57cbfb75bb6f3c67160f7393f4f2f3be2ac031d83e6e93650f"
     }
   ]
 }

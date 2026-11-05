@@ -22,4 +22,10 @@ Una frontera entre células puede dividir un campo de una relación. El contrato
 
 La comprobación conservada del criterio de elección está limitada a esta codificación y a un intervalo finito de longitudes. No demuestra minimalidad sobre toda narración posible ni resuelve la conformidad de las reservas. No se ha demostrado un vocabulario visual universal mínimo. La economía tampoco autoriza a fusionar acontecimientos distintos, perder un participante crítico o eliminar el vínculo entre la imagen, su representación y su célula.
 
+## Criterio de adecuación y tamaño mínimo
+
+La <a href="https://doi.org/10.21428/39829d0b.bebc607c" target="_blank" rel="noopener noreferrer">formulación de aprendizaje trazable, apartado 6.2</a>, define la economía respecto de un contenido finito y de un predicado de adecuación declarado: se selecciona la menor base admisible cuya célula permita la reconstrucción, comparación y buena formación exigidas. La existencia de un mínimo presupone que alguna base satisface el predicado. Esta regla no demuestra que cualquier representación concreta sea mínima ni elimina el coste del repertorio compartido.
+
+
+
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

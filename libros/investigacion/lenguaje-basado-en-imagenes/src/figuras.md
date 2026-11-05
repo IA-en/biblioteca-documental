@@ -29,4 +29,9 @@
 - [Figura 13.2. Escena sintética de dificultad media: libro, manos y mochila](13-imagenes.md#figura-13-2)
 - [Figura 13.3. Escena sintética de dificultad alta: actividad de jardinería](13-imagenes.md#figura-13-3)
 
+- [Figura 22.1. Comparación sintética del televisor con contenido y con pantalla de arranque](22-television.md#figura-22-1)
+- [Figura 22.2. Funcionamiento anterior y fallo presente del mismo televisor](22-television.md#figura-22-2)
+- [Figura 22.3. Sistema posiblemente alterado y relación causal hipotética](22-television.md#figura-22-3)
+- [Figura 22.4. Intervención pendiente y funcionamiento pretendido](22-television.md#figura-22-4)
+
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

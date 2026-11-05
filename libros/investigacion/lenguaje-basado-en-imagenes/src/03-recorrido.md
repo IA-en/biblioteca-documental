@@ -2,7 +2,7 @@
 
 La directriz fundamental exige conservar una unidad de significado a través de todo el recorrido:
 
-**Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un frame del Sistema Vectorial (SV)**
+**Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un *frame* del Sistema Vectorial (SV)**
 
 La expresión no enumera cuatro componentes independientes. Establece una obligación de correspondencia entre la evidencia visual, sus representaciones semánticas, la constitución celular y el dato de potencial estructurado. El glifo y el texto son dos expresiones vinculadas del contenido: ninguno puede introducir hechos que no estén sostenidos por la evidencia o por el ámbito expresamente constituido.
 
@@ -69,10 +69,22 @@ Un caso completo deberá superar el recorrido de ida y el de retorno, con la mis
 | Texto documental ↔ significado de la clave | Correspondencia explicitada; conversión general de texto libre pendiente. |
 | Comprensión espontánea del glifo | Prueba exploratoria con ambigüedades documentadas. |
 | Imagen fotográfica real ↔ representación semántica | Pendiente de realización y comprobación en casos documentados. |
-| Escenas sintéticas ↔ células propias | Material visual disponible; constitución y conversión pendientes. |
+| Escenas sintéticas ↔ células propias | Asociación manual de la televisión con cuatro unidades canónicas; percepción automática pendiente. |
 | Célula ↔ dato de potencial | Once registros vinculados; proyección numérica visual pendiente. |
 | Equivalencia entre idiomas | Objetivo de validación; no demostrado por la traducción de la obra. |
 
-Estas distinciones mantienen la obligación completa sin confundir una parte realizada con el recorrido entero. Toda continuación de la investigación debe contribuir a **Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un frame del Sistema Vectorial (SV)**.
+Estas distinciones mantienen la obligación completa sin confundir una parte realizada con el recorrido entero. Toda continuación de la investigación debe contribuir a **Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un *frame* del Sistema Vectorial (SV)**.
+
+## Comprensión visual y flexibilidad verbal
+
+La interpretación visual debe operar mediante imágenes, relaciones y correspondencias matemáticas sin necesitar una glosa escrita de cada signo. La capa verbal es necesaria y avanzada: permite expresar el mismo contenido en diferentes idiomas, dialogar con humanos y modelos de lenguaje y acceder al recorrido inverso desde una cadena textual. Ambas funciones se conservan dentro de la cadena de cuatro componentes. El [capítulo 21](21-diccionario-visual.md) desarrolla su articulación.
+
+## Configuración, suceso y orden declarado
+
+Una configuración celular o *frame* y un suceso admisible son objetos distintos. La imagen ofrece una configuración; la dinámica requiere horizontes, soporte, reevaluación y condiciones de admisibilidad. Las unidades narrativas y sus registros se conservan como representaciones de los acontecimientos, sin atribuirles por esa sola conservación una comprobación completa de tales condiciones. El [capítulo 17](17-potencial.md) desarrolla esta distinción conforme a <a href="https://doi.org/10.21428/39829d0b.8ea18396" target="_blank" rel="noopener noreferrer">Dinámica del Suceso, edición 3</a>.
+
+El orden de inscripción, la precedencia y la comparación entre configuraciones no toman el tiempo como primitiva del Sistema Vectorial (SV). Las expresiones temporales de una narración y las mediciones temporales que admita un dominio conservan su función instrumental, subordinada a la constitución declarada.
+
+
 
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

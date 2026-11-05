@@ -1,5 +1,13 @@
 # 15. Ediciones, conservación y traducción
 
+## V.05 · 5 de noviembre de 2026
+
+La quinta edición incorpora un diccionario de referencia visual y el caso de una televisión inteligente. Distingue la interpretación sin definiciones verbales obligatorias de la capa de expresión verbal, necesaria para el recorrido completo. Examina funcionamiento, negación, hipótesis causal y reparación pendiente mediante cuatro unidades, veintitrés células y cuatro figuras nuevas.
+
+El capítulo 17 amplía la distinción entre resolución instrumental, identidad, recurrencia estructural y potencial local. Explicita la exigencia de una lectura singular sin colisiones y la separa de las propiedades que las fuentes ya establecen. La asignación numérica al dominio visual continúa pendiente de constitución y comprobación. Se incorporan las referencias de dinámica del suceso y aprendizaje trazable, con orden estructural y ordinal sin tiempo primitivo.
+
+Se conservan los veinte capítulos anteriores y se añaden los capítulos 21 y 22. El conjunto contiene treinta y dos figuras y ciento veinticinco representaciones gráficas. Las comprobaciones formales del nuevo caso no acreditan reconocimiento de fotografías desconocidas ni comprensión espontánea de sus glifos. La batería de nueve preguntas está constituida y pendiente de aplicación. Las ediciones y evaluaciones anteriores conservan su identidad.
+
 ## V.04 · 5 de noviembre de 2026
 
 La cuarta edición incorpora el identificador de objeto digital (DOI) de la publicación académica asociada y completa su referencia en la autoría, los capítulos y los originales documentales. Desarrolla la reconstrucción desde texto, la equivalencia entre idiomas, la distinción entre potencial e identidad, las condiciones de equipotencialidad y la organización para cálculo local o mediante dispositivos aceleradores.
@@ -38,7 +46,7 @@ Una figura nueva se añade con su identificación y explicación. La corrección
 
 ## Formatos de imagen y fidelidad
 
-Cada figura incorpora cuatro representaciones disponibles para su consulta. El formato del archivo no determina por sí mismo la aptitud de su contenido ni sustituye la célula que lo representa.
+Las veintiocho figuras de las ediciones anteriores conservan cuatro representaciones cada una. La ampliación incorpora una imagen sintética en formato PNG y tres glifos con cuatro representaciones cada uno: PNG, geometría vectorial de origen, geometría vectorial de muestras exactas y WebP sin pérdida. No se presenta una fotografía como vectorial mediante su simple incrustación. El formato del archivo no determina por sí mismo la aptitud de su contenido ni sustituye la célula que lo representa.
 
 | Representación | Función en esta edición | Condición de fidelidad |
 |---|---|---|

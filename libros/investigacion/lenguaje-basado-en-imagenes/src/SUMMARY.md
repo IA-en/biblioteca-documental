@@ -23,8 +23,13 @@
 
 - [20. Programación visual y Lenguaje de Computación del Sistema Vectorial](20-programacion.md)
 
+- [21. Diccionario de glifos y aprendizaje por relaciones visuales](21-diccionario-visual.md)
+- [22. Televisión inteligente: estados, hipótesis causal y reparación pendiente](22-television.md)
+
 - [Bibliografía](bibliografia.md)
 - [Relación de instrumentos y comunidades](herramientas.md)
 - [Índice de figuras](figuras.md)
+
+
 
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

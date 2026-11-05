@@ -2,7 +2,7 @@
 
 El recorrido rector permanece invariable:
 
-**Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un frame del Sistema Vectorial (SV).**
+**Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un *frame* del Sistema Vectorial (SV).**
 
 La investigación debe distinguir una especificación, una comprobación finita y una demostración. Una especificación establece una obligación. Una comprobación contrasta casos delimitados. Una demostración justifica una proposición para todo el dominio que declara. La coincidencia entre estos tres niveles no se presume.
 
@@ -41,5 +41,9 @@ Las reservas celulares, la validación de entradas, la proyección visual del po
 ## Alcance del contraste de programación
 
 La admisión del ejemplo oficial de célula simple en los perfiles fuente español e inglés produjo representaciones intermedias iguales salvo la huella del texto de origen. Este contraste acredita una correspondencia concreta entre dos expresiones formales. No demuestra comprensión de prosa libre, ejecución de la operación declarada ni conversión de una fotografía en un programa. El [capítulo 20](20-programacion.md) especifica la obligación de conservación que deberá satisfacer la ampliación visual.
+
+## Repertorio ampliado y dominio de televisión
+
+La revisión del nuevo dominio conserva cuatro unidades, veintitrés células, 232 posiciones de contenido y tres reservas estructurales. Se cotejaron los registros persistentes y las imágenes, y se rechazaron símbolos ajenos, truncamientos y reservas alteradas. El [capítulo 22](22-television.md) delimita estos resultados: correspondencia canónica finita y asociación manual con una imagen sintética. El catálogo visual no constituye todavía un mecanismo de aprendizaje. Android, causalidad hipotética y necesidad de reparación permanecen como distinciones por contrastar.
 
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->

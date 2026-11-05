@@ -1,0 +1,287 @@
+{
+  "titulo": "Televisión inteligente: composiciones canónicas del caso",
+  "constitucion": "LBI33-V8",
+  "autoria": "© 2026 Juan Antonio Lloret Egea",
+  "licencia": "CC-BY-NC-ND-4.0",
+  "doi": "https://doi.org/10.21428/39829d0b.8b9c0155",
+  "alcance": "Transcripción editorial de los cuatro registros constituidos; no contiene una conversión fotográfica automática.",
+  "registros": [
+    {
+      "identidad": "lbi33-v8-s35-o01",
+      "frame": {
+        "clausulas": [
+          {
+            "args": [
+              13
+            ],
+            "estado": "0",
+            "modo": 0,
+            "op": 20,
+            "perspectiva": 0
+          }
+        ],
+        "orden": 1,
+        "serie": 35
+      },
+      "composicion": {
+        "celulas": [
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "000000000"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "010001100"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "000001000"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "000011010"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "011010001"
+          }
+        ],
+        "longitud": 44
+      },
+      "texto": "La televisión inteligente funcionaba en el estado anterior.",
+      "sha256_muestras": "f1f93cf6c38e1cd51ea49fe742a0d2fd196527e24f82cf973fb5b2b2f7f16a02",
+      "potencial": {
+        "estado": "No constituido para el dominio visual",
+        "lambda": null,
+        "mu": null,
+        "valor": null
+      }
+    },
+    {
+      "identidad": "lbi33-v8-s35-o02",
+      "frame": {
+        "clausulas": [
+          {
+            "args": [
+              13
+            ],
+            "estado": "1",
+            "modo": 0,
+            "op": 20,
+            "perspectiva": 0
+          }
+        ],
+        "orden": 2,
+        "serie": 35
+      },
+      "composicion": {
+        "celulas": [
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "000000000"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "010001100"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "000010000"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "000011010"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "011010011"
+          }
+        ],
+        "longitud": 44
+      },
+      "texto": "La misma televisión inteligente no funciona en el estado presente.",
+      "sha256_muestras": "e9d9daf3edf75a51697a0a02a824d75b68d1c8acee851e59d76be374815c50ba",
+      "potencial": {
+        "estado": "No constituido para el dominio visual",
+        "lambda": null,
+        "mu": null,
+        "valor": null
+      }
+    },
+    {
+      "identidad": "lbi33-v8-s35-o03",
+      "frame": {
+        "clausulas": [
+          {
+            "args": [
+              13
+            ],
+            "estado": "1",
+            "modo": 0,
+            "op": 20,
+            "perspectiva": 0
+          },
+          {
+            "args": [
+              14,
+              13
+            ],
+            "estado": "0",
+            "modo": 0,
+            "op": 21,
+            "perspectiva": 0
+          },
+          {
+            "args": [
+              14
+            ],
+            "estado": "U",
+            "modo": 0,
+            "op": 22,
+            "perspectiva": 0
+          },
+          {
+            "args": [
+              14,
+              13
+            ],
+            "estado": "U",
+            "modo": 0,
+            "op": 23,
+            "perspectiva": 0
+          }
+        ],
+        "orden": 3,
+        "serie": 35
+      },
+      "composicion": {
+        "celulas": [
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "000000000"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "010001100"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "000011000"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "001001010"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "011010011"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "010111101"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "101000101"
+          },
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "10111000U"
+          },
+          {
+            "b": 4,
+            "n": 16,
+            "vector": "101111110110100U"
+          }
+        ],
+        "longitud": 88
+      },
+      "texto": "Android es el sistema de esa televisión. La corrupción del sistema y su relación causal con el fallo constituyen una hipótesis, no un diagnóstico confirmado.",
+      "sha256_muestras": "4787f8abdbbac08a7c0d8437a694aa91cdc8869a39c7aca66aad6e323725e4b1",
+      "potencial": {
+        "estado": "No constituido para el dominio visual",
+        "lambda": null,
+        "mu": null,
+        "valor": null
+      }
+    },
+    {
+      "identidad": "lbi33-v8-s35-o04",
+      "frame": {
+        "clausulas": [
+          {
+            "args": [
+              13
+            ],
+            "estado": "0",
+            "modo": 0,
+            "op": 24,
+            "perspectiva": 0
+          },
+          {
+            "args": [
+              13
+            ],
+            "estado": "0",
+            "modo": 0,
+            "op": 25,
+            "perspectiva": 0
+          }
+        ],
+        "orden": 4,
+        "serie": 35
+      },
+      "composicion": {
+        "celulas": [
+          {
+            "b": 3,
+            "n": 9,
+            "vector": "000000000"
+          },
+          {
+            "b": 4,
+            "n": 16,
+            "vector": "0100011000001000"
+          },
+          {
+            "b": 4,
+            "n": 16,
+            "vector": "0000010110001101"
+          },
+          {
+            "b": 4,
+            "n": 16,
+            "vector": "0001100111010001"
+          }
+        ],
+        "longitud": 56
+      },
+      "texto": "Es necesario reparar la televisión, con el propósito de recuperar el funcionamiento. La reparación está pendiente y el resultado no se afirma realizado.",
+      "sha256_muestras": "8486f153de1a1ef455842e8035bfc8e4d9f783cd1a4c0e63ef8d3d15c26cbd9c",
+      "potencial": {
+        "estado": "No constituido para el dominio visual",
+        "lambda": null,
+        "mu": null,
+        "valor": null
+      }
+    }
+  ]
+}

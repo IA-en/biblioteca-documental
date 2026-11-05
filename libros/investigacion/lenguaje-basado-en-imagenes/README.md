@@ -2,7 +2,7 @@
 
 **Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un frame del Sistema Vectorial (SV).**
 
-V.04 · 5 de noviembre de 2026 · Cuarta edición de investigación.
+V.05 · 5 de noviembre de 2026 · Quinta edición de investigación.
 
 Esta carpeta reúne los originales del tratado, sus figuras y el artículo asociado. El objeto de la investigación es conservar participantes, acciones, relaciones, orden, finalidad e identidad al pasar entre representaciones visuales, verbales y matemáticas.
 
@@ -25,12 +25,13 @@ El identificador corresponde al artículo publicado. El tratado desarrolla sus f
 - [Artículo publicado](https://doi.org/10.21428/39829d0b.8b9c0155) y [versión documental con imágenes](articulo/manuscrito.md).
 - [Caso completo: once frames](src/09-caso-completo.md) y [74 vectores](src/10-celulas.md).
 - [Matrices y tensores](src/18-organizacion.md), [alcance de la evidencia](src/19-verificacion.md) y [programación visual](src/20-programacion.md).
+- [Diccionario visual](src/21-diccionario-visual.md) y [dominio de televisión inteligente](src/22-television.md).
 - [Bibliografía](src/bibliografia.md), [instrumentos y comunidades](src/herramientas.md), [autoría y licencias](src/16-fuentes.md) e [índice de figuras](src/figuras.md).
 
-La edición contiene veinte capítulos y veintiocho figuras con cuatro representaciones cada una. Las imágenes forman parte de la obra y se conservan en las carpetas de imágenes y formatos, con referencias relativas desde los capítulos. La versión de lectura se identifica en su portada.
+La edición contiene veintidós capítulos y treinta y dos figuras. Conserva las 112 representaciones gráficas anteriores y añade trece archivos de imagen para el dominio de la televisión. Las imágenes forman parte de la obra y se conservan en las carpetas de imágenes y formatos, con referencias relativas desde los capítulos. La versión de lectura se identifica en su portada.
 
 ## Alcance científico y conservación
 
-La recuperación canónica está comprobada para el caso finito descrito. La conversión general desde fotografías, la comprensión entre idiomas y la integración visual con el lenguaje de computación requieren nuevos contrastes. El potencial se interpreta con su dominio y su registro de individuación: una cifra aislada no identifica necesariamente un suceso.
+La recuperación canónica está comprobada para el caso finito descrito. La conversión general desde fotografías, la comprensión entre idiomas y la integración visual con el lenguaje de computación requieren nuevos contrastes. El potencial se interpreta con su dominio y su registro de individuación. La lectura numérica singular sin colisiones es una exigencia de investigación pendiente de realización; no se confunde con la magnitud local de potencial. Configuración y suceso admisible permanecen diferenciados, sin introducir tiempo como primitiva.
 
 El inventario de integridad permite contrastar los archivos conservados. Las atribuciones asociadas a las imágenes mantienen la identidad de las muestras canónicas; cada figura editorial incorpora además su pie de autoría. La biblioteca y este soporte constituyen representaciones relacionadas de la misma edición.

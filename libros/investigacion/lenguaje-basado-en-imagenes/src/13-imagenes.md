@@ -42,4 +42,8 @@ La interpretación se confrontará con lo visible. Las oclusiones, las acciones 
 
 Las imágenes de este capítulo no se han entregado al candidato de la prueba de los once *frames*. Tampoco tienen aún una clave celular validada. Su presencia en el libro documenta el material disponible y el siguiente extremo que debe comprobarse.
 
+## Ampliación al dominio de los aparatos
+
+El [capítulo 22](22-television.md) añade una comparación sintética de televisión inteligente y cuatro unidades canónicas constituidas. La asociación entre imagen y representación se ha establecido manualmente; las condiciones no observables de sistema, causa y reparación proceden del caso narrativo. Esta ampliación no acredita un transductor general de fotografías.
+
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
