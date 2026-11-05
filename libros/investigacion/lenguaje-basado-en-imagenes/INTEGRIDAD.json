@@ -9,6 +9,86 @@
       "sha256": "8f1ba8b2ead98091fdd0dee697ae64c7381569dcaad3e450989cbabc7583666a"
     },
     {
+      "ruta": "articulo/imagenes/figura-01.png",
+      "octetos": 154468,
+      "sha256": "557d59e40d09c012ec98050facd8c3ec0d6e2310a6fbfa8673f3be26fce5ccec"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-01.png.license",
+      "octetos": 168,
+      "sha256": "4741986df4f621f811868aacb603266453fb5a708def0a8800b71d37cb957087"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-02.png",
+      "octetos": 2561838,
+      "sha256": "85a4f1d73456456145a3b432332756f711a42c528b3d545c703a5643e2eb9c8c"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-02.png.license",
+      "octetos": 168,
+      "sha256": "dee1d32a66cf2ab703c1b28020355517e349bebd36f67abed34cd772113b130f"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-03.png",
+      "octetos": 1736435,
+      "sha256": "ff1a43a337298bf1beb84108b0305dc28d20c85ccd7b93364275f7dc156c999b"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-03.png.license",
+      "octetos": 168,
+      "sha256": "dfd8f11691ac4394c6966017d7cd64c0fa72490a695efde73ec566068d44ae42"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-04.png",
+      "octetos": 10717,
+      "sha256": "e121275a4293200ad419fca51cb2530d68703c94edcf74370ac9e87f13f280bf"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-04.png.license",
+      "octetos": 168,
+      "sha256": "e97edf405c006d1427a52cd3387f73810ac081db3a1212d691f912543328d0d2"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-05.png",
+      "octetos": 7400,
+      "sha256": "eabab4784fee067affadf639f0b40f71779faeb27b15b963cc3b572860378994"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-05.png.license",
+      "octetos": 168,
+      "sha256": "8876c034bcef55312c8af3d7c36ceafc1ead30c03fc68b2606a55c4ffe8a98e0"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-06.png",
+      "octetos": 9505,
+      "sha256": "a6a2898d9bccc98236a25186dde5637f652a988406e2e8b249166f8370e7754c"
+    },
+    {
+      "ruta": "articulo/imagenes/figura-06.png.license",
+      "octetos": 168,
+      "sha256": "2905dde014595fe84c7bfdd8331066e5ecf4d7e773480040c4ed1b6c30daa944"
+    },
+    {
+      "ruta": "articulo/imagenes/portada-lbi.png",
+      "octetos": 2335872,
+      "sha256": "6c50ad253607a65152ea2e1f3f796bbec74564b3191c2d086969b7f16c7db0c1"
+    },
+    {
+      "ruta": "articulo/imagenes/portada-lbi.png.license",
+      "octetos": 168,
+      "sha256": "dffb9f81ec3c8062cda8e2943fe86fc673902b57b316cf7baf5bdb54b9c02111"
+    },
+    {
+      "ruta": "articulo/manuscrito.md",
+      "octetos": 35487,
+      "sha256": "71b7e14141aac158591f12471e577f948313f287bb86e73637990b4442eff35e"
+    },
+    {
+      "ruta": "articulo/README.md",
+      "octetos": 971,
+      "sha256": "e2ecb9aed9578e9576e67967507f31c0a894b531ef67ceffbfcb930b1edc74d8"
+    },
+    {
       "ruta": "biblioteca.css",
       "octetos": 4285,
       "sha256": "190b4b43913e5863f4406177480c609fe69dbc7aec56348a91d1a0b2947c8132"
@@ -45,8 +125,8 @@
     },
     {
       "ruta": "plan.json",
-      "octetos": 733,
-      "sha256": "07a31900ca410fed2d85053cfe86332c41143a60e33850793bfb5ee1a0b64d7f"
+      "octetos": 844,
+      "sha256": "d3d028c9c5ac2d02671f0dab18fd627c2a98aaf71c564b7c068540eb18a489d5"
     },
     {
       "ruta": "plan.json.license",
