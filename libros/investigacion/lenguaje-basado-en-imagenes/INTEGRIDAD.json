@@ -1,5 +1,5 @@
 {
-  "edicion": "V.07",
+  "edicion": "V.08",
   "archivos": [
     {
       "ruta": ".gitignore",
@@ -124,7 +124,7 @@
     {
       "ruta": "book.toml",
       "bytes": 813,
-      "sha256": "46d175fcc9cafb0e71978a4e68b37a2df7e235416990e9bd0d4f591b4f4b2171"
+      "sha256": "aa770be07115f7af017fd4fb3e6a79f8e832e81ea3cb0206ec046e407405eac2"
     },
     {
       "ruta": "book.toml.license",
@@ -179,7 +179,7 @@
     {
       "ruta": "README.md",
       "bytes": 674,
-      "sha256": "a343c4f3d8a34fd4fe871ad1f2b0947b7d33e0f53f4fcf0065aa606cb6ed17a7"
+      "sha256": "3b07224e71af2b85578b515e62929a39fbf8b496132efcf4316b14b07f0ee6a1"
     },
     {
       "ruta": "README.md.license",
@@ -199,7 +199,7 @@
     {
       "ruta": "src/01-presentacion.md",
       "bytes": 5922,
-      "sha256": "3318dc21ab7dcbe402f00b630d976e1b1b054e952d662d27715e06435e9110f6"
+      "sha256": "bea3362e670f02224a35587a053004a06eb9f70fd6d60490572f449ba230d74d"
     },
     {
       "ruta": "src/01-presentacion.md.license",
@@ -328,8 +328,8 @@
     },
     {
       "ruta": "src/14-evaluacion.md",
-      "bytes": 5556,
-      "sha256": "44d5327f10981a439b1c85e5d2f0928c2442ad697400f2fee283f0824720aea1"
+      "bytes": 5605,
+      "sha256": "723ac0096bfb0561991548cbfbcf32ecea8b96818252bc929b1fb59ab6222b00"
     },
     {
       "ruta": "src/14-evaluacion.md.license",
@@ -338,8 +338,8 @@
     },
     {
       "ruta": "src/15-ediciones.md",
-      "bytes": 3395,
-      "sha256": "c15ab160774fe55764422f140332aa84effd5ebe9b24fbf6237f0ab91f067292"
+      "bytes": 3613,
+      "sha256": "90694cff290f8c2a82184e1eec1468e96953986f406460e0c639a8125d3b25d0"
     },
     {
       "ruta": "src/15-ediciones.md.license",
@@ -358,8 +358,8 @@
     },
     {
       "ruta": "src/17-potencial.md",
-      "bytes": 17648,
-      "sha256": "ef601758190efd9d3f282b669c49e4853bead16fa8a9635386a9dfbfc64aaf9c"
+      "bytes": 22315,
+      "sha256": "be52d039fbf447f4e204d5178fbd889610f3352cd9f803e5293a5737ae26ed4b"
     },
     {
       "ruta": "src/17-potencial.md.license",
@@ -2899,7 +2899,7 @@
     {
       "ruta": "theme/index.hbs",
       "bytes": 19427,
-      "sha256": "6ab9c4c88f6d5c63ff2db2493594e3b01b03c15c19ebb0fcec3534b171e8b15f"
+      "sha256": "2d59f2d18e3ce815a719c7c3381f44894f72e78a099a0dd16be0c51c086c1cc0"
     },
     {
       "ruta": "theme/index.hbs.license",

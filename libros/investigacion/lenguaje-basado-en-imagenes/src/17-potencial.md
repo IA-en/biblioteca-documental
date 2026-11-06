@@ -2,13 +2,53 @@
 
 El potencial debe distinguir las diferencias que la representación conserva. Una suma de puntos oscuros no cumple esta función: dos dibujos pueden contener igual cantidad de puntos y distribuirlos de otra manera. La posición forma parte del dato. Este capítulo define una proyección reversible del dominio digital de la imagen y la relaciona con la recta Atlas.
 
-## Fórmulas de referencia y convenio visual
+## Fórmulas de referencia
 
 Las <a href="https://doi.org/10.21428/39829d0b.dcb48723" target="_blank" rel="noopener noreferrer">Reglas y condiciones de las Matemáticas del Potencial</a>, apartado 13.1, y <a href="https://doi.org/10.21428/39829d0b.5e15cabb" target="_blank" rel="noopener noreferrer">Orientación universal y geográfica</a>, apartados 6 y 8.9, establecen las condiciones de una proyección efectiva. Las magnitudes fundamentales son:
 
 **P = μ − λ; I = μ + λ.**
 
 Los polos μ y λ son no negativos y deben compartir dominio, escala y orientación. En una base igualada s, la individuación mediante un diferencial δ adopta μ = s + δ/2 y λ = s − δ/2. Entonces P = δ e I = 2s. El apartado 8.10 presenta controles con diferenciales sintéticos dados; no son una extracción de valores a partir de píxeles.
+
+## Qué hace la recta Atlas
+
+La **recta Atlas** sitúa una magnitud previamente definida en una escala acotada y conserva su orden. Para utilizarla deben declararse el dominio, la magnitud de entrada, su normalización y los parámetros de la escala. La función no determina por sí sola qué contiene una imagen: proyecta el dato que recibe. Su formulación se desarrolla en <a href="https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1#proyeccin-sobre-escala-acotada" target="_blank" rel="noopener noreferrer">Orientación universal y geográfica, apartado 6.4</a>.
+
+En la aplicación etaria de esa publicación, Aᵢ es la edad física admisible del observable, AΩobs es el valor de referencia y FΩ es el intervalo declarado para normalizar. Se calcula primero Eᵢ = AΩobs − Aᵢ y después xᵢ = Eᵢ/FΩ, dentro del intervalo admitido 0 ≤ xᵢ ≤ 1. Las tres magnitudes etarias deben expresarse en unidades compatibles. La edad es una herramienta del dominio; no introduce tiempo como primitiva del Sistema Vectorial.
+
+Para una entrada normalizada x, la transformación es:
+
+**Sη(x) = ln(1 + x/η) / ln(1 + 1/η); s = Q·Sη(x).**
+
+Aquí ln es el logaritmo natural; η > 0 regula la sensibilidad y Q > 0 fija el rango de representación. La función cumple Sη(0) = 0 y Sη(1) = 1. Su derivada, **S′η(x) = 1/[(η + x)·ln(1 + 1/η)]**, es positiva: aumentar la entrada aumenta su proyección. La sensibilidad es mayor cerca de cero. Para comparar resultados deben mantenerse η y Q, además de la definición del dato de entrada.
+
+### Posición de régimen y diferencial singular
+
+La publicación sitúa inicialmente ambos polos en s:
+
+**μ⁰ = λ⁰ = s; P⁰ = 0; I⁰ = 2s.**
+
+Esta igualdad polar constituye la Línea Umbral. El superíndice 0 identifica el régimen inicial, no una potencia aritmética. La coordenada s describe ese régimen, pero no es su diferencia polar: aunque s sea positiva, P⁰ sigue siendo cero. La distinción se explica en <a href="https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1#lnea-umbral-sv-recta-atlas-y-distribucin-de-observables-por-potencial" target="_blank" rel="noopener noreferrer">el apartado 6.5</a>.
+
+Cuando una magnitud singular declarada proporciona δ, se obtiene:
+
+**μ = s + δ/2; λ = s − δ/2; P = δ; I = 2s.**
+
+La condición **|δ| ≤ 2s** conserva ambos polos no negativos. El diferencial cambia su distribución y mantiene la intensidad. La escala utiliza unidades internas de potencial Atlas, cuya notación u_AT(η,Q) identifica sensibilidad y rango; no son unidades del Sistema Internacional (SI). Véase <a href="https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1#unidades-de-potencial-atlas-y-nomenclatura-de-rutas" target="_blank" rel="noopener noreferrer">el apartado 6.8, unidades de potencial Atlas</a>.
+
+### Ejemplo de la proyección y del cálculo polar
+
+Con η = 1/10 y Q = 64, la función toma la forma s = 64·ln(1 + 10x)/ln(11):
+
+| Entrada x | Sustitución | Coordenada s | Potencial inicial P⁰ | Intensidad inicial I⁰ |
+|---|---|---:|---:|---:|
+| 0 | 64·ln(1)/ln(11) | 0 | 0 | 0 |
+| 1/2 | 64·ln(6)/ln(11) | ≈ 47,822191 | 0 | ≈ 95,644382 |
+| 1 | 64·ln(11)/ln(11) | 64 | 0 | 128 |
+
+Para mostrar la segunda operación, considérese un control aritmético con s = 64 y un diferencial de entrada δ = 2 unidades Atlas. Entonces μ = 64 + 2/2 = 65 y λ = 64 − 2/2 = 63; por tanto, **P = 65 − 63 = 2** e **I = 65 + 63 = 128**. El valor 2 es un dato sintético del ejemplo, no una magnitud medida en una fotografía. En una aplicación debe proceder de la regla de dominio declarada.
+
+## Aplicación al dominio de la imagen
 
 Para las imágenes se constituye aquí el convenio **SVIMG02**. Esta denominación identifica una regla exacta de representación. Las fórmulas polares y la transformación Atlas proceden de las publicaciones citadas; la selección y ordenación de las muestras digitales que se especifican a continuación son el convenio de esta aplicación visual. No se identifican con una medición de energía, edad o masa.
 
@@ -59,11 +99,13 @@ La secuencia recuperada se interpreta con exactamente m bits. Se comprueban perf
 
 Se normaliza el entero exacto mediante **q = P/2ᴺ**, de modo que 1/2 < q < 1. Como P es impar, la fracción está reducida y conserva tanto el numerador como la longitud. No se utiliza un número decimal redondeado como entrada de esta definición.
 
-La transformación logarítmica de la recta Atlas se expresa como:
+Se aplica la misma transformación logarítmica descrita en <a href="https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1#proyeccin-sobre-escala-acotada" target="_blank" rel="noopener noreferrer">el apartado 6.4 de Orientación</a>, ahora al racional digital q:
 
 **Sη(q) = ln(1 + q/η) / ln(1 + 1/η).**
 
-Para este convenio se fijan η = 1/10 y una escala de 64 unidades Atlas. La base polar común es s = 64. La proyección efectiva es:
+En la formulación etaria, Q·Sη(x) determina la base s del régimen inicial. En el convenio visual SVIMG02, la entrada q representa las muestras digitales y Q·Sη(q) determina el diferencial δ sobre una base común fijada en s = 64. Esta asignación es la regla de esta aplicación: no convierte los píxeles en edades ni atribuye a los objetos representados el potencial de la imagen que los contiene.
+
+Se fijan η = 1/10 y Q = 64 para todas las imágenes del convenio. La proyección efectiva es:
 
 **δ = ΦAtlas(imagen) = 64·ln(1 + 10q)/ln(11).**
 

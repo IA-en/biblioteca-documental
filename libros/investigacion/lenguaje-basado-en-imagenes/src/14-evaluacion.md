@@ -8,7 +8,7 @@ Antes de la aplicación deben quedar fijados el material entregable, el signific
 
 El candidato produce texto libre a partir de los glifos, sin recibir la expresión verbal de referencia. Puede emplear otro idioma, otra sintaxis y otras palabras. La evaluación se refiere a la conservación de las relaciones nucleares y de los parámetros críticos, no a la coincidencia léxica con una respuesta prefijada.
 
-El candidato puede ser una persona o un sistema artificial. El criterio de conservación semántica se aplica a ambos. Deben distinguirse la interpretación manifestada mediante una respuesta visual y el contenido de la expresión verbal; ninguna de esas respuestas permite observar directamente todo el proceso interno de comprensión.
+La etapa experimental actual se limita a sistemas artificiales. La evaluación con personas se reserva para una fase posterior, con condiciones de aplicación propias. Deben distinguirse la interpretación manifestada mediante una respuesta visual y el contenido de la expresión verbal; ninguna de esas respuestas permite observar directamente todo el proceso interno de comprensión.
 
 La validación comprende dos operaciones. Primero se interpreta la respuesta y se contrasta cada parámetro con las relaciones constituidas de la prueba. Esa valoración debe indicar qué fragmento respalda el acierto, qué contradicción fundamenta el error o qué información insuficiente exige U. Después se aplica la regla matemática a la célula de calificaciones y se comprueba la criticidad.
 

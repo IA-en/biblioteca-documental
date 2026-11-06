@@ -2,6 +2,7 @@
 
 | Edición | Fecha | Contenido |
 |---|---|---|
+| V.08 | 6 de noviembre de 2026 | Recta Atlas: función, escala, régimen polar y diferencial; ejemplo numérico y vínculos a la formulación original; delimitación de la etapa experimental a sistemas artificiales |
 | V.07 | 6 de noviembre de 2026 | Cadenas de texto visibles; desarrollo numérico de cada potencial; visor tabular y valores exactos en texto sin compresión |
 | V.06 | 6 de noviembre de 2026 | Desarrollo ordenado de fundamentos, casos, evaluación y cálculo; potencial posicional y proyección Atlas; registro de correspondencias; diccionario visual con secuencias incrustadas |
 | V.05 | 5 de noviembre de 2026 | Repertorio ampliado al televisor, dinámica y aprendizaje trazable |
