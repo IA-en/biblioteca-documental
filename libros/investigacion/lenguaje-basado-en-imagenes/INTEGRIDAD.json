@@ -2298,8 +2298,8 @@
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19408,
-      "sha256": "8b6424bc463ed2d37079182cd57f878c991254571d453753dec842c015cd4bdc"
+      "bytes": 19427,
+      "sha256": "ae4792f50b6da08302e1bf9d3fd0d02e0c0d51c5bef2667c1e719369204401cb"
     },
     {
       "ruta": "theme/index.hbs.license",
