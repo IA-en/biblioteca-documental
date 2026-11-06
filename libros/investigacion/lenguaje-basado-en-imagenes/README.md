@@ -1,6 +1,6 @@
 # Tratado Lenguaje Basado en Imágenes
 
-Edición V.06, 6 de noviembre de 2026.
+Edición V.07, 6 de noviembre de 2026.
 
 © 2026 Juan Antonio Lloret Egea. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0.
 

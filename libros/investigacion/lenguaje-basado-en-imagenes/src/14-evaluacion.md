@@ -4,6 +4,18 @@ Las nuevas preguntas se identifican como **P1, P2, …, Pn** y constituyen una c
 
 Antes de la aplicación deben quedar fijados el material entregable, el significado de cada parámetro, la clave, las criticidades, el orden, el formato de respuesta y la regla de corrección. Cambiar esos elementos exige otra edición. La respuesta anterior se conserva con sus condiciones originales.
 
+## Expresión libre y validación del significado
+
+El candidato produce texto libre a partir de los glifos, sin recibir la expresión verbal de referencia. Puede emplear otro idioma, otra sintaxis y otras palabras. La evaluación se refiere a la conservación de las relaciones nucleares y de los parámetros críticos, no a la coincidencia léxica con una respuesta prefijada.
+
+El candidato puede ser una persona o un sistema artificial. El criterio de conservación semántica se aplica a ambos. Deben distinguirse la interpretación manifestada mediante una respuesta visual y el contenido de la expresión verbal; ninguna de esas respuestas permite observar directamente todo el proceso interno de comprensión.
+
+La validación comprende dos operaciones. Primero se interpreta la respuesta y se contrasta cada parámetro con las relaciones constituidas de la prueba. Esa valoración debe indicar qué fragmento respalda el acierto, qué contradicción fundamenta el error o qué información insuficiente exige U. Después se aplica la regla matemática a la célula de calificaciones y se comprueba la criticidad.
+
+La segunda operación puede ejecutarse de manera determinista. Su corrección no demuestra por sí sola la corrección de la primera: una interpretación semántica equivocada puede producir un dictamen aritméticamente correcto. Por ello, la valoración del significado debe ser revisable de forma independiente, conservando la respuesta original y sus fundamentos. El presente repertorio no acredita todavía un procedimiento automático de interpretación semántica cuya fiabilidad entre idiomas haya sido demostrada.
+
+Un futuro contraste automático deberá obtener del texto sus participantes y relaciones, compararlos con la constitución visual y registrar las correspondencias y discrepancias. La extracción de esas relaciones tendrá que validarse por separado. Una traducción o una paráfrasis no constituye por sí sola prueba de equivalencia semántica.
+
 ## Umbral documentado
 
 El Sistema Vectorial (SV) fija **T(n)=⌊7n/9⌋**. Para un vector completo de calificaciones, N₀ cuenta aciertos, N₁ errores y Nᵤ indeterminaciones, de modo que N₀+N₁+Nᵤ=n.

@@ -1,0 +1,11 @@
+CÁLCULO DESARROLLADO: Imagen1
+© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · CC BY-NC-ND 4.0
+
+1. Dimensiones: 1254 x 1254 = 1572516 píxeles. Componentes: 6290064. Con 16 octetos adicionales: 6290080. m=50320640; N=50320642.
+2. Primeras ocho componentes: 207, 174, 140, 255, 211, 174, 138, 255. Terminación: 83, 86, 73, 77, 71, 48, 50, 0, 0, 0, 4, 230, 0, 0, 4, 230. C se obtiene con C_0=0 y C_j=256*C_(j-1)+x_j para j=1,...,6290080. C_1=207; C_2=53166; C_3=13610636; C_4=3484323071; C_8=14965053642194717439.
+3. mu=3*2^50320640+C; lambda=2^50320640-1-C; P=2^50320641+2*C+1; I=2^50320642-1. El entero P completo está en Imagen1-exacto.txt.
+4. q=P/2^50320642; q_0=33411797715904269055/36893488147419103232=0.90562859175574058481837484702037244232997181825339794158935546875. 0<q-q_0<2^(-65).
+5. eta=1/10; escala=64. q≈0.90562859175574062; 1+10q≈10.05628591755740686; ln(1+10q)≈2.30819790341730213; ln(11)≈2.39789527279837067. P_Atlas=64*ln(1+10q)/ln(11)≈61.605970658723.
+6. mu_Atlas=64+P_Atlas/2≈94.802985329362; lambda_Atlas=64-P_Atlas/2≈33.197014670638; I_Atlas=128. Las cifras son aproximadas. Se verificó la recuperación de todas las muestras.
+
+Fuentes y convenio: https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/17-potencial

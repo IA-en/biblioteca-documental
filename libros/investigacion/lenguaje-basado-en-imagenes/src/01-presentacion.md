@@ -2,7 +2,7 @@
 
 **Juan Antonio Lloret Egea** · <a href="https://orcid.org/0000-0002-6634-3351" target="_blank" rel="noopener noreferrer">Identificador de investigador (ORCID): 0000-0002-6634-3351</a>. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA).
 
-**Tratado Lenguaje Basado en Imágenes (LBI)** · V.06 · 6 de noviembre de 2026.
+**Tratado Lenguaje Basado en Imágenes (LBI)** · V.07 · 6 de noviembre de 2026.
 
 Publicación académica vinculada: <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">Lenguaje Basado en Imágenes (LBI): representación trazable y conservación semántica en el Sistema Vectorial (SV)</a>. [Autoría y licencia](16-fuentes.md).
 
@@ -13,6 +13,8 @@ El Lenguaje Basado en Imágenes investiga una representación explícita de esas
 **Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un *frame* del Sistema Vectorial (SV)**
 
 El término *frame* designa la configuración visual y matemática constituida. El acontecimiento físico, su captura y su representación no son objetos intercambiables. Una ilustración sintética puede servir para experimentar, pero no testimonia por sí misma un hecho ocurrido en el mundo.
+
+La cadena expresa las correspondencias que deben constituirse y comprobarse. El retorno exacto de una codificación no garantiza que un observador o un modelo interprete correctamente el glifo, ni que su texto libre conserve el significado. Esa conservación constituye una propiedad distinta, cuya evaluación exige relaciones de referencia explícitas y evidencia de comprensión.
 
 ## Un ejemplo inicial
 

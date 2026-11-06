@@ -32,7 +32,13 @@
       },
       "sucesos": [],
       "glifo_semantico_constituido": false,
-      "observacion": "Glifo semántico y célula todavía no constituidos."
+      "observacion": "Glifo semántico y célula todavía no constituidos.",
+      "texto_descriptivo": {
+        "idioma_original": "español",
+        "contenido": "Una manzana verde está dentro de un recipiente transparente apoyado sobre una superficie de madera.",
+        "origen": "Descripción editorial de la imagen sintética; no respuesta del candidato",
+        "glifo_y_celula_constituidos": false
+      }
     },
     {
       "identificador": "Imagen2",
@@ -62,7 +68,13 @@
       },
       "sucesos": [],
       "glifo_semantico_constituido": false,
-      "observacion": "Glifo semántico y célula todavía no constituidos."
+      "observacion": "Glifo semántico y célula todavía no constituidos.",
+      "texto_descriptivo": {
+        "idioma_original": "español",
+        "contenido": "Una persona sostiene un libro rojo en la abertura de una mochila azul; una mano sujeta el libro y la otra el borde de la abertura. Otro libro permanece sobre la mesa. La imagen aislada no determina si el libro entra o sale.",
+        "origen": "Descripción editorial de la imagen sintética; no respuesta del candidato",
+        "glifo_y_celula_constituidos": false
+      }
     },
     {
       "identificador": "Imagen3",
@@ -92,7 +104,13 @@
       },
       "sucesos": [],
       "glifo_semantico_constituido": false,
-      "observacion": "Glifo semántico y célula todavía no constituidos."
+      "observacion": "Glifo semántico y célula todavía no constituidos.",
+      "texto_descriptivo": {
+        "idioma_original": "español",
+        "contenido": "Una persona vierte agua sobre una planta con flores situada en una maceta dentro de una carretilla; otra persona sujeta esa maceta y una tercera sostiene una bandeja con dos macetas.",
+        "origen": "Descripción editorial de la imagen sintética; no respuesta del candidato",
+        "glifo_y_celula_constituidos": false
+      }
     },
     {
       "identificador": "Imagen4",
@@ -125,7 +143,13 @@
         "S41"
       ],
       "glifo_semantico_constituido": true,
-      "observacion": "Las dos mitades ilustran S40 y S41; causa y reparación no son observables en esta imagen."
+      "observacion": "Las dos mitades ilustran S40 y S41; causa y reparación no son observables en esta imagen.",
+      "texto_descriptivo": {
+        "idioma_original": "español",
+        "contenido": "Dos vistas muestran un televisor en una habitación. En la izquierda aparece un paisaje en la pantalla. En la derecha, la pantalla está oscura con tres puntos luminosos y una mano sostiene un mando dirigido hacia el aparato. La imagen no muestra por sí sola la causa del estado de la pantalla.",
+        "origen": "Descripción editorial de la imagen sintética; no respuesta del candidato",
+        "glifo_y_celula_constituidos": true
+      }
     }
   ],
   "sucesos": [

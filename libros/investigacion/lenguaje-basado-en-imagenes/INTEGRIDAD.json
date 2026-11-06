@@ -1,5 +1,5 @@
 {
-  "edicion": "V.06",
+  "edicion": "V.07",
   "archivos": [
     {
       "ruta": ".gitignore",
@@ -124,7 +124,7 @@
     {
       "ruta": "book.toml",
       "bytes": 813,
-      "sha256": "a41ca7996d55efd3c7f86a4d748afd52d9877f259be18c12357ae3b1ec3aa874"
+      "sha256": "46d175fcc9cafb0e71978a4e68b37a2df7e235416990e9bd0d4f591b4f4b2171"
     },
     {
       "ruta": "book.toml.license",
@@ -179,7 +179,7 @@
     {
       "ruta": "README.md",
       "bytes": 674,
-      "sha256": "b1d80129cfbd05999eab224a372dbd82ca5def97025bd6ca1a3a6a45daf9ce15"
+      "sha256": "a343c4f3d8a34fd4fe871ad1f2b0947b7d33e0f53f4fcf0065aa606cb6ed17a7"
     },
     {
       "ruta": "README.md.license",
@@ -198,8 +198,8 @@
     },
     {
       "ruta": "src/01-presentacion.md",
-      "bytes": 5538,
-      "sha256": "2568d74ab2c87bbbba4bc69d920fb0f4703e9e4c37a7dde93bb0015e27e10d1f"
+      "bytes": 5922,
+      "sha256": "3318dc21ab7dcbe402f00b630d976e1b1b054e952d662d27715e06435e9110f6"
     },
     {
       "ruta": "src/01-presentacion.md.license",
@@ -238,8 +238,8 @@
     },
     {
       "ruta": "src/05-biyeccion.md",
-      "bytes": 5467,
-      "sha256": "d4861a5cd8b6abc36d90c83160de129a7463df1fdbdfbfce0e1f973ef5429aaa"
+      "bytes": 5936,
+      "sha256": "fd48b3c6c1733de8e0db8d844bb795a8f2c4724441b427ffc254cc81db679b84"
     },
     {
       "ruta": "src/05-biyeccion.md.license",
@@ -328,8 +328,8 @@
     },
     {
       "ruta": "src/14-evaluacion.md",
-      "bytes": 3566,
-      "sha256": "cfe70264830febb5550ff1e4a3a84c2ab005b41eb693e8c779ab4c58890fb4df"
+      "bytes": 5556,
+      "sha256": "44d5327f10981a439b1c85e5d2f0928c2442ad697400f2fee283f0824720aea1"
     },
     {
       "ruta": "src/14-evaluacion.md.license",
@@ -338,8 +338,8 @@
     },
     {
       "ruta": "src/15-ediciones.md",
-      "bytes": 3235,
-      "sha256": "152bc97eb466be621377015e9dd0de18186fd4cc913d1019368a43b80aa8aa08"
+      "bytes": 3395,
+      "sha256": "c15ab160774fe55764422f140332aa84effd5ebe9b24fbf6237f0ab91f067292"
     },
     {
       "ruta": "src/15-ediciones.md.license",
@@ -358,8 +358,8 @@
     },
     {
       "ruta": "src/17-potencial.md",
-      "bytes": 12399,
-      "sha256": "dd0f88d822678d6af924b19fdd134a11b31a6a8a71035bf99030b9e192b28de9"
+      "bytes": 17648,
+      "sha256": "ef601758190efd9d3f282b669c49e4853bead16fa8a9635386a9dfbfc64aaf9c"
     },
     {
       "ruta": "src/17-potencial.md.license",
@@ -378,8 +378,8 @@
     },
     {
       "ruta": "src/19-verificacion.md",
-      "bytes": 3921,
-      "sha256": "d9ba6e19b0af84a9a78d31b520ff7cb78196f7d0e28048a08e09e53a5ed7c331"
+      "bytes": 5267,
+      "sha256": "9c2305dd73bd0501eef31f4ae5e174549ad13de79b3829cb85bed0ea6fe18663"
     },
     {
       "ruta": "src/19-verificacion.md.license",
@@ -418,8 +418,8 @@
     },
     {
       "ruta": "src/23-correspondencias.md",
-      "bytes": 33975,
-      "sha256": "91f6746259f9ed1bfc5a104e7265c059812f4e5d729c64b7ed370d686010f76f"
+      "bytes": 49267,
+      "sha256": "0e0af5899741a84ed8681b73727f85e9dd17f784d3277f7bdd2ff700654254c4"
     },
     {
       "ruta": "src/23-correspondencias.md.license",
@@ -437,6 +437,606 @@
       "sha256": "2d6760fe3030671f059e0d385d0963bb9ff246af6126c828c0175fe9f1f37f5f"
     },
     {
+      "ruta": "src/calculos/comprobacion.json",
+      "bytes": 11464,
+      "sha256": "eea67295dd01ccad6851816e5bce7c04cb2d8f9d4d001e9c89f75f346a22385d"
+    },
+    {
+      "ruta": "src/calculos/comprobacion.json.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen1-exacto.txt",
+      "bytes": 12777282,
+      "sha256": "aac30a2a3ac36508a313d4a679d118b1c040aa84071b2eef4da7d37c21f7e6d6"
+    },
+    {
+      "ruta": "src/calculos/Imagen1-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen1.html",
+      "bytes": 5592,
+      "sha256": "61bf6f725d9d6070be2bf31b7c36426ce5433e55be159e2422a28808ce944f51"
+    },
+    {
+      "ruta": "src/calculos/Imagen1.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen1.txt",
+      "bytes": 1355,
+      "sha256": "c9727fe9fc7cdf0127055d1b9b84c4d2c3709586ab2a79a4b46a6e4401fb108b"
+    },
+    {
+      "ruta": "src/calculos/Imagen1.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen2-exacto.txt",
+      "bytes": 12777282,
+      "sha256": "058e4e8c498ff876212cd242d05a0ac235eced6cb0cfe345873089a438d4e9f8"
+    },
+    {
+      "ruta": "src/calculos/Imagen2-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen2.html",
+      "bytes": 5586,
+      "sha256": "267e3dff03b3b2d08a5d05692107967949d4d7579b3f059129e752ede6eb1ca5"
+    },
+    {
+      "ruta": "src/calculos/Imagen2.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen2.txt",
+      "bytes": 1350,
+      "sha256": "2b39d3b4d8fbad099f4c9e369fe2b1e44845720a258557d41b3125fcb82b17d8"
+    },
+    {
+      "ruta": "src/calculos/Imagen2.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen3-exacto.txt",
+      "bytes": 12777282,
+      "sha256": "a63175ff736b4bf4557df99b1de39ab27fa6476123726f52e7a4a80f15bb5a51"
+    },
+    {
+      "ruta": "src/calculos/Imagen3-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen3.html",
+      "bytes": 5577,
+      "sha256": "28085179032d21cba436750800c8836e3ae8938ff6dc5fffc531b396ab9aef49"
+    },
+    {
+      "ruta": "src/calculos/Imagen3.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen3.txt",
+      "bytes": 1345,
+      "sha256": "6854630b536b425cc408a496199b1a2ce370a5e7fab7415d334c472f046dc542"
+    },
+    {
+      "ruta": "src/calculos/Imagen3.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen4-exacto.txt",
+      "bytes": 12785585,
+      "sha256": "a5c755441ccfa6e24c4fdcb64a5d04e85e38426138ef5e4202fc9a0950dc1526"
+    },
+    {
+      "ruta": "src/calculos/Imagen4-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen4.html",
+      "bytes": 5590,
+      "sha256": "a5600433650a359844307f78789cc3a1a11067cdba0906ee785d8057541c7cc7"
+    },
+    {
+      "ruta": "src/calculos/Imagen4.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Imagen4.txt",
+      "bytes": 1354,
+      "sha256": "f65597099c8b2df0cdf2d7d7b9c1cf76334aa7328bd7f2603cfdc139f675972b"
+    },
+    {
+      "ruta": "src/calculos/Imagen4.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso118-exacto.txt",
+      "bytes": 8520264,
+      "sha256": "ccb257a6877aa1d14e13d590c184451f0fdb08de6039835df2552fde9815d5c5"
+    },
+    {
+      "ruta": "src/calculos/Recurso118-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso118.html",
+      "bytes": 5566,
+      "sha256": "6f118db72befefb9e9549e19ce5e484082f724273a3a92dfdc40ee5e5076a593"
+    },
+    {
+      "ruta": "src/calculos/Recurso118.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso118.txt",
+      "bytes": 1349,
+      "sha256": "56120acbb9340309b74b4501af0833459a45ef95fa31f79ae62bee8e6b5f7a36"
+    },
+    {
+      "ruta": "src/calculos/Recurso118.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso119-exacto.txt",
+      "bytes": 8520265,
+      "sha256": "bc8f786240e2b90e502effd083a92c1592d1194a5001c8c66f20cabd5962bb3f"
+    },
+    {
+      "ruta": "src/calculos/Recurso119-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso119.html",
+      "bytes": 5572,
+      "sha256": "491f2bf4d5211053e2db461c239f9a861a36b5649a66e4378a80886c9936315c"
+    },
+    {
+      "ruta": "src/calculos/Recurso119.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso119.txt",
+      "bytes": 1350,
+      "sha256": "31d123372d313781b77770bca69b5def78a3549e074f32b80db7b2fd005b6747"
+    },
+    {
+      "ruta": "src/calculos/Recurso119.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso123-exacto.txt",
+      "bytes": 8520265,
+      "sha256": "4a8f129c115a5d3608074963c0ffe44e6b0bd0a82ade142bf272b2396231dde8"
+    },
+    {
+      "ruta": "src/calculos/Recurso123-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso123.html",
+      "bytes": 5572,
+      "sha256": "8fa58a5a46232d4b506e07a935ed7d4d1cd876abada32f22da5ef9e0d28c8b5f"
+    },
+    {
+      "ruta": "src/calculos/Recurso123.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso123.txt",
+      "bytes": 1350,
+      "sha256": "66df184098db6290dd6b67e47fc0b5ff225eea537b34e67de1461bd4c47c336a"
+    },
+    {
+      "ruta": "src/calculos/Recurso123.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso127-exacto.txt",
+      "bytes": 8520265,
+      "sha256": "176f743a34fbc5b79bf04404182f0f64bc570daa002763f44f93702da2a4d36f"
+    },
+    {
+      "ruta": "src/calculos/Recurso127-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso127.html",
+      "bytes": 5572,
+      "sha256": "ca2faa3c3bca50f385784cc60787e947b4d2e36734fb745a51b7d18788ef3be9"
+    },
+    {
+      "ruta": "src/calculos/Recurso127.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso127.txt",
+      "bytes": 1350,
+      "sha256": "c4cced583a586a8da3696e16148e2c0a4487380adebd36d09e7e70413727d112"
+    },
+    {
+      "ruta": "src/calculos/Recurso127.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso131-exacto.txt",
+      "bytes": 8520265,
+      "sha256": "075ae1ac899b5a9d94cb6210e0c23e5523e125d451941e6b4c49d42c1b42b177"
+    },
+    {
+      "ruta": "src/calculos/Recurso131-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso131.html",
+      "bytes": 5572,
+      "sha256": "c880d6dae43effe7cf78aad46789ea84b53ed3d593b60f4f2c55d1d7c981373c"
+    },
+    {
+      "ruta": "src/calculos/Recurso131.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso131.txt",
+      "bytes": 1350,
+      "sha256": "9c1aeefa29ba6c7167589a2efc13725dd67bbde566588c5bc88082faa5437df2"
+    },
+    {
+      "ruta": "src/calculos/Recurso131.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso15-exacto.txt",
+      "bytes": 8520265,
+      "sha256": "47e00fb91dca924bac58c043c1835e8096560b23fddb7b5a0c68387183148426"
+    },
+    {
+      "ruta": "src/calculos/Recurso15-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso15.html",
+      "bytes": 5570,
+      "sha256": "412f8aa287ff51bc1e772347d043a56e1304825202dcaa4d81fdd7244027b618"
+    },
+    {
+      "ruta": "src/calculos/Recurso15.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso15.txt",
+      "bytes": 1349,
+      "sha256": "4bd040d287ae0d7f640c60c27094df56db97da43f605d941f32a47c05f19d871"
+    },
+    {
+      "ruta": "src/calculos/Recurso15.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso159-exacto.txt",
+      "bytes": 8520264,
+      "sha256": "bb5a4c1222e4f5a7085ef7754bc73e988bf0abf63828ac31d26f0d17b84df8c2"
+    },
+    {
+      "ruta": "src/calculos/Recurso159-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso159.html",
+      "bytes": 5566,
+      "sha256": "123968b7d5831b418b6ea8a4b34b8a0befcedb1f78ad3a3d2b23cc9913a0bb52"
+    },
+    {
+      "ruta": "src/calculos/Recurso159.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso159.txt",
+      "bytes": 1349,
+      "sha256": "81cdffcb21a81335752029b0125afb053f8e1b7129c4234598a0e6a38314c29a"
+    },
+    {
+      "ruta": "src/calculos/Recurso159.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso200-exacto.txt",
+      "bytes": 8520264,
+      "sha256": "26df6fce3dee6e260e6b2af908874e94755670aa61d6e4e030802fbb9c05c8d7"
+    },
+    {
+      "ruta": "src/calculos/Recurso200-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso200.html",
+      "bytes": 5566,
+      "sha256": "675ed9c455cd946001afcea9cb30162267e0a520a0dcba6d380729240a0dada1"
+    },
+    {
+      "ruta": "src/calculos/Recurso200.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso200.txt",
+      "bytes": 1349,
+      "sha256": "1004b54f9a0b13207e38438f83dfcd09bf881a04b1529b34ceef30f6d7e0f45a"
+    },
+    {
+      "ruta": "src/calculos/Recurso200.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso241-exacto.txt",
+      "bytes": 8520264,
+      "sha256": "b752fa622dabc04843499b87625960d6eee3e6cfb34de4b378c77890e42d3556"
+    },
+    {
+      "ruta": "src/calculos/Recurso241-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso241.html",
+      "bytes": 5566,
+      "sha256": "7e0066dc7828d9a1e7599734b3a86a7d411b313fed91e6b206d87aebc89c8894"
+    },
+    {
+      "ruta": "src/calculos/Recurso241.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso241.txt",
+      "bytes": 1349,
+      "sha256": "9a0bfd02c1f741a22c0c0f7dedfcd9977892cfd5691efb9332ed471c60fcdf0b"
+    },
+    {
+      "ruta": "src/calculos/Recurso241.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso282-exacto.txt",
+      "bytes": 8520264,
+      "sha256": "cfe9e92ce66be8987bf04055776107aa8cff99d2c2c96a9fed7729f334331b21"
+    },
+    {
+      "ruta": "src/calculos/Recurso282-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso282.html",
+      "bytes": 5566,
+      "sha256": "5ff3c3cd70030d892cd137676c56a45283cf5cc3704c94f72ab63df6a8462cc2"
+    },
+    {
+      "ruta": "src/calculos/Recurso282.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso282.txt",
+      "bytes": 1349,
+      "sha256": "75bc4820628e757c4f45b979f462720ef71458303b7011ba912e6737853a0db2"
+    },
+    {
+      "ruta": "src/calculos/Recurso282.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso323-exacto.txt",
+      "bytes": 8520264,
+      "sha256": "1c61a7bec74b860e679811973a69765196fd1748c6b9fda457ba22caf855132d"
+    },
+    {
+      "ruta": "src/calculos/Recurso323-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso323.html",
+      "bytes": 5566,
+      "sha256": "532fd3906798e695caf7fb1f4edbb810f7ae04e807d536053650512ac8fc0c24"
+    },
+    {
+      "ruta": "src/calculos/Recurso323.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso323.txt",
+      "bytes": 1349,
+      "sha256": "8364ef59cd2f94b9e325a523955f983dc25141fc3282c235394dc49216c94053"
+    },
+    {
+      "ruta": "src/calculos/Recurso323.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso36-exacto.txt",
+      "bytes": 8520264,
+      "sha256": "b5344d1f99c4615ada309ad2447d798c0049263dcb8f0f241f5ae7c30fc1ffa5"
+    },
+    {
+      "ruta": "src/calculos/Recurso36-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso36.html",
+      "bytes": 5564,
+      "sha256": "45d64a0fac94761ed62ae83c8334111f008eeb8665fc3066e9185f5d495130c9"
+    },
+    {
+      "ruta": "src/calculos/Recurso36.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso36.txt",
+      "bytes": 1348,
+      "sha256": "472150117c89c6caf90f1a250c7d427d2dc3a5a4d5ebdf2b9c51bf28e3564a13"
+    },
+    {
+      "ruta": "src/calculos/Recurso36.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso5-exacto.txt",
+      "bytes": 8520264,
+      "sha256": "b596c5ec5c0b78eb738e3f3bf314f7ec6d982f8aeea30779b165b8b020d38af9"
+    },
+    {
+      "ruta": "src/calculos/Recurso5-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso5.html",
+      "bytes": 5562,
+      "sha256": "1543d1541e476213ed6ad0519a181b71cce2f88eb7a616e06268830acb538d0a"
+    },
+    {
+      "ruta": "src/calculos/Recurso5.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso5.txt",
+      "bytes": 1347,
+      "sha256": "4c2c18a2b91ef22ce4b5b5f461ed782a7b08dbc0acf381c671b72228eb27a89a"
+    },
+    {
+      "ruta": "src/calculos/Recurso5.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso6-exacto.txt",
+      "bytes": 8520265,
+      "sha256": "494b5f8c5b00ac9991bb1924159bdb4dc6df6d3a41907d5bca2b567b378c899d"
+    },
+    {
+      "ruta": "src/calculos/Recurso6-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso6.html",
+      "bytes": 5568,
+      "sha256": "f8083ef1fbe9c074ec24bfecf488f344d29df4639c593e182f7f7be34d7c16e6"
+    },
+    {
+      "ruta": "src/calculos/Recurso6.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso6.txt",
+      "bytes": 1348,
+      "sha256": "78e7e653c74d57eea90199bf38e80c0e37b7722cd2bf50f7b0dd71cf3b0ebe2b"
+    },
+    {
+      "ruta": "src/calculos/Recurso6.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso77-exacto.txt",
+      "bytes": 8520264,
+      "sha256": "b8a061b750a4dd983c102f3386ea0dd9052d1283d111baca0fc527536fc7981a"
+    },
+    {
+      "ruta": "src/calculos/Recurso77-exacto.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso77.html",
+      "bytes": 5564,
+      "sha256": "5ef693a4199d65fdff1911e15f9ee4e6e430c1bdb3bb7a1d3c0155291902613f"
+    },
+    {
+      "ruta": "src/calculos/Recurso77.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/Recurso77.txt",
+      "bytes": 1348,
+      "sha256": "b254350c2e3f695776b043a3510d57a13cb6954471f8d49cd07df0c32ec96001"
+    },
+    {
+      "ruta": "src/calculos/Recurso77.txt.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/tabla.html",
+      "bytes": 4406,
+      "sha256": "494d43f54cdd9916267905db9a2a9adfa84ba1c2e768a27425c14382ca19bf1a"
+    },
+    {
+      "ruta": "src/calculos/tabla.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
+      "ruta": "src/calculos/visor.html",
+      "bytes": 6152,
+      "sha256": "526977eb0c130b1b83031e327ec4d9d3ba99b03b418de9b2282d6ccca3f6bb7a"
+    },
+    {
+      "ruta": "src/calculos/visor.html.license",
+      "bytes": 152,
+      "sha256": "a7582c4a0a776cef25dab68953510eec9717f9c808be3d503010e216f369174c"
+    },
+    {
       "ruta": "src/datos/22-television-celulas.json",
       "bytes": 6639,
       "sha256": "9f9fb6253d0562e50139800ac94a401eaf852e5567dfdd122d58d3b3d4333732"
@@ -448,8 +1048,8 @@
     },
     {
       "ruta": "src/datos/correspondencias.json",
-      "bytes": 93050,
-      "sha256": "f21a22ddc60c88905a3854ed63ca45b8bfa63b03218ed923cada4255507ed06b"
+      "bytes": 94822,
+      "sha256": "fd6e9e70a2e6ed6e6bbf64992d73c179128a543b8a424f4d5d7e4c999066b9e6"
     },
     {
       "ruta": "src/datos/correspondencias.json.license",
@@ -1598,8 +2198,8 @@
     },
     {
       "ruta": "src/herramientas.md",
-      "bytes": 2489,
-      "sha256": "916b3eb16d0a21bc2300ace57c860aa2b938acb5ead2d5dcb3162c1962a64a3f"
+      "bytes": 2885,
+      "sha256": "2ea322b2cd8f2e060778d9c2d3580f7f1327195fe2d596537058f8c2db126461"
     },
     {
       "ruta": "src/herramientas.md.license",
@@ -2299,7 +2899,7 @@
     {
       "ruta": "theme/index.hbs",
       "bytes": 19427,
-      "sha256": "ae4792f50b6da08302e1bf9d3fd0d02e0c0d51c5bef2667c1e719369204401cb"
+      "sha256": "6ab9c4c88f6d5c63ff2db2493594e3b01b03c15c19ebb0fcec3534b171e8b15f"
     },
     {
       "ruta": "theme/index.hbs.license",

@@ -18,6 +18,14 @@ Dos matrices admitidas y distintas con el mismo potencial exacto contradirían l
 
 Una coincidencia decimal no refuta el potencial exacto: exige consultar el valor completo. Una limitación de captura tampoco prueba igualdad física. Debe distinguirse pérdida previa a la representación, pérdida introducida por una transformación y error de interpretación.
 
+## Validez de la evaluación semántica
+
+La referencia semántica consiste en relaciones constituidas antes de examinar la respuesta. Debe distinguir lo observado en la imagen, lo aportado por la narración y lo indeterminado. La referencia permite especificar qué se pretende comunicar; no demuestra que el glifo lo comunique efectivamente.
+
+El texto libre se contrasta con esa estructura, no con una frase que deba repetirse. Una evaluación verificable conserva la respuesta íntegra y fundamenta cada calificación mediante sus afirmaciones, omisiones o contradicciones. El dictamen aritmético se aplica después de esa interpretación y no puede corregir por sí mismo una valoración semántica errónea.
+
+Un segundo modelo aporta otra interpretación; su acuerdo no constituye una garantía, pues ambos pueden compartir errores. La revisión independiente, los desacuerdos documentados y los ejemplos que modifican una sola relación crítica permiten examinar la fiabilidad de la evaluación. Si un procedimiento admite tanto una relación como su inversión cuando una de ellas contradice la referencia, carece de capacidad discriminativa suficiente para ese parámetro. Los resultados de estos contrastes delimitan la evidencia disponible; no establecen una garantía universal sobre toda expresión libre ni sobre cualquier idioma.
+
 ## Generalización y comparación
 
 Los contrastes deben incluir imágenes nuevas, cambios de punto de vista, oclusiones, intercambio de papeles, inversión de precedencia, negación y propósito incumplido. La cuestión, los parámetros críticos y la regla de evaluación se fijan antes de observar las respuestas. La <a href="https://doi.org/10.21428/39829d0b.5c31d534" target="_blank" rel="noopener noreferrer">transducción al alfabeto ternario</a>, apartados 4–6, distingue captura, admisibilidad y transformación.

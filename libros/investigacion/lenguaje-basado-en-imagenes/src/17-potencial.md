@@ -86,9 +86,88 @@ Las cuatro imágenes son sintéticas de apariencia fotográfica. El capítulo de
 | 3. Jardinería | 1254 × 1254 | 53.818723459128 | 90.909361729564 | 37.090638270436 |
 | 4. Televisor | 1774 × 887 | 63.904678214892 | 95.952339107446 | 32.047660892554 |
 
-Las tres primeras representaciones tienen N = 50 320 642 bits; la cuarta, N = 50 353 346. El entero exacto se conserva comprimido sin pérdida. Su tamaño evidencia que una inversión exacta no hace desaparecer la información de la imagen. Una representación semántica económica puede omitir detalles no críticos, pero entonces responde a otro compromiso de reconstrucción.
+Las tres primeras representaciones tienen N = 50 320 642 bits; la cuarta, N = 50 353 346. El entero exacto se ofrece en texto sin compresión y se conserva también en formato binario comprimido sin pérdida. Su tamaño evidencia que una inversión exacta no hace desaparecer la información de la imagen. Una representación semántica económica puede omitir detalles no críticos, pero entonces responde a otro compromiso de reconstrucción.
 
 Se calcularon también los potenciales de los 101 glifos canónicos asociados a los sucesos registrados. En las 105 entradas se recuperó la totalidad de las muestras y se comprobó la compresión reversible del entero. La demostración algebraica anterior delimita la propiedad general; estas comprobaciones acreditan su realización en el conjunto examinado.
+
+## Cálculo desarrollado de Imagen1
+
+Imagen1 representa una manzana verde en un recipiente transparente. El significado de la escena no interviene en esta operación: la entrada son sus muestras digitales ordenadas. Las operaciones siguientes reproducen el valor de la primera fila de la tabla.
+
+### Paso 1. Determinar la longitud
+
+La imagen mide 1254 × 1254 píxeles:
+
+**1254 × 1254 = 1 572 516 píxeles.**
+
+**1 572 516 × 4 = 6 290 064 componentes de ocho bits.**
+
+Al añadir los dieciséis octetos de perfil y dimensiones, la longitud es L = 6 290 080 octetos. Por tanto:
+
+**m = 6 290 080 × 8 = 50 320 640 bits; N = m + 2 = 50 320 642 bits.**
+
+### Paso 2. Constituir el entero a partir de las muestras
+
+Los dos primeros píxeles del archivo normalizado son (207, 174, 140, 255) y (211, 174, 138, 255). Para una secuencia de octetos x₁,…,xL, se comienza con C₀ = 0 y se repite Cⱼ = 256·Cⱼ₋₁ + xⱼ. Los primeros pasos son:
+
+| Paso | Sustitución | Resultado |
+|---|---|---:|
+| 1 | 256 × 0 + 207 | 207 |
+| 2 | 256 × 207 + 174 | 53 166 |
+| 3 | 256 × 53 166 + 140 | 13 610 636 |
+| 4 | 256 × 13 610 636 + 255 | 3 484 323 071 |
+
+Tras las ocho primeras componentes se obtiene A = 14 965 053 642 194 717 439. La misma operación continúa con todas las muestras. La terminación es 83, 86, 73, 77, 71, 48, 50, 0, 0, 0, 4, 230, 0, 0, 4, 230; en ella, 4 × 256 + 230 = 1254 expresa cada dimensión. El entero C queda determinado por los 6 290 080 octetos completos.
+
+### Paso 3. Obtener los polos y el potencial exacto
+
+Al sustituir m y C:
+
+**μ = 3·2⁵⁰³²⁰⁶⁴⁰ + C; λ = 2⁵⁰³²⁰⁶⁴⁰ − 1 − C.**
+
+**P = μ − λ = 2⁵⁰³²⁰⁶⁴¹ + 2C + 1; I = 2⁵⁰³²⁰⁶⁴² − 1.**
+
+El <a href="calculos/Imagen1-exacto.txt" target="_blank" rel="noopener noreferrer">entero P completo en texto</a> contiene todos sus dígitos, expresados en base 16. Las letras A a F representan los valores de diez a quince; cada dígito corresponde a cuatro bits. Se trata del mismo entero exacto, escrito en otra base, sin compresión ni omisión. Los saltos de línea sólo facilitan su lectura. Su extensión es consecuencia de conservar todas las muestras.
+
+### Paso 4. Normalizar y acotar la aproximación
+
+La definición exacta es q = P/2⁵⁰³²⁰⁶⁴². Para comprobar la cifra abreviada puede emplearse el entero A de los ocho primeros octetos:
+
+**q₀ = 1/2 + A/2⁶⁵ = 33 411 797 715 904 269 055 / 36 893 488 147 419 103 232.**
+
+Su desarrollo decimal exacto es:
+
+**q₀ = 0,90562859175574058481837484702037244232997181825339794158935546875.**
+
+Para justificar la aproximación, se escribe C = A·2ᵐ⁻⁶⁴ + R, con 0 ≤ R < 2ᵐ⁻⁶⁴. La fórmula de P da q = 1/2 + A/2⁶⁵ + R/2ᵐ⁺¹ + 2⁻ᴺ. De ahí se obtiene **0 < q − q₀ < 2⁻⁶⁵**, aproximadamente 2,71·10⁻²⁰. El cálculo exacto conserva R; únicamente la lectura abreviada utiliza esta cota.
+
+### Paso 5. Aplicar la transformación Atlas
+
+Con η = 1/10 y escala 64:
+
+| Operación | Sustitución o resultado aproximado |
+|---|---|
+| Valor normalizado | q ≈ 0,9056285917557406 |
+| Argumento del logaritmo | 1 + 10q ≈ 10,056285917557407 |
+| Logaritmo del numerador | ln(1 + 10q) ≈ 2,308197903417302 |
+| Logaritmo del denominador | ln(11) ≈ 2,397895272798371 |
+| Potencial Atlas | 64 × 2,308197903417302 / 2,397895272798371 ≈ **61,605970658723** |
+
+La derivada de la transformación es 640 / [(1 + 10q)·ln(11)], menor que 45 en el intervalo considerado. La diferencia debida a sustituir q por q₀ es, por tanto, menor que 45·2⁻⁶⁵, aproximadamente 1,22·10⁻¹⁸. Esta cota se refiere a la truncación de las muestras iniciales; la evaluación decimal introduce además su propio redondeo. Las aproximaciones no sustituyen la expresión exacta ni permiten por sí solas reconstruir la imagen.
+
+### Paso 6. Calcular los polos Atlas y verificar el retorno
+
+**μAtlas = 64 + δ/2 ≈ 94,802985329362.**
+
+**λAtlas = 64 − δ/2 ≈ 33,197014670638.**
+
+**PAtlas = δ ≈ 61,605970658723; IAtlas = 128.**
+
+Las identidades se cumplen antes del redondeo; restar cifras ya redondeadas puede alterar la última cifra mostrada. Para el retorno se recupera N mediante la longitud binaria del entero P, se obtiene m = N − 2 y se aplica C = (P − 2ᵐ⁺¹ − 1)/2. La secuencia de m bits devuelve el perfil, las dimensiones y todas las componentes. En Imagen1 se verificó su igualdad con las muestras originales.
+
+### Desarrollo de cada imagen y cada glifo
+
+El mismo procedimiento se aplica sin cambiar escala ni criterio. Los desarrollos de <a href="calculos/Imagen1.html" target="_blank" rel="noopener noreferrer">Imagen1</a>, <a href="calculos/Imagen2.html" target="_blank" rel="noopener noreferrer">Imagen2</a>, <a href="calculos/Imagen3.html" target="_blank" rel="noopener noreferrer">Imagen3</a> e <a href="calculos/Imagen4.html" target="_blank" rel="noopener noreferrer">Imagen4</a> contienen sus propias muestras y sustituciones. La <a href="calculos/visor.html" target="_blank" rel="noopener noreferrer">tabla visible de los diecinueve recursos publicados</a> permite abrir también el desarrollo de cada uno de los quince glifos.
 
 ## Precisión, contexto y singularidad
 
