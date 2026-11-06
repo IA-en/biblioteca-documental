@@ -2,7 +2,7 @@
 
 **Juan Antonio Lloret Egea** · <a href="https://orcid.org/0000-0002-6634-3351" target="_blank" rel="noopener noreferrer">Identificador de investigador (ORCID): 0000-0002-6634-3351</a>. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA).
 
-**Tratado Lenguaje Basado en Imágenes (LBI)** · V.08 · 6 de noviembre de 2026.
+**Tratado Lenguaje Basado en Imágenes (LBI)** · V.09 · 6 de noviembre de 2026.
 
 Publicación académica vinculada: <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">Lenguaje Basado en Imágenes (LBI): representación trazable y conservación semántica en el Sistema Vectorial (SV)</a>. [Autoría y licencia](16-fuentes.md).
 

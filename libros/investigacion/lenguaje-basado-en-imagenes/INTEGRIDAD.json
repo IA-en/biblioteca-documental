@@ -1,5 +1,5 @@
 {
-  "edicion": "V.08",
+  "edicion": "V.09",
   "archivos": [
     {
       "ruta": ".gitignore",
@@ -124,7 +124,7 @@
     {
       "ruta": "book.toml",
       "bytes": 813,
-      "sha256": "aa770be07115f7af017fd4fb3e6a79f8e832e81ea3cb0206ec046e407405eac2"
+      "sha256": "ba04c6d4f77e87b97bfbbebc647c499328536765160bcef0dcf86623e8191679"
     },
     {
       "ruta": "book.toml.license",
@@ -179,7 +179,7 @@
     {
       "ruta": "README.md",
       "bytes": 674,
-      "sha256": "3b07224e71af2b85578b515e62929a39fbf8b496132efcf4316b14b07f0ee6a1"
+      "sha256": "fff702606852901f79a186c64fc5b7e989a711bac93a963ae896aa1ec2656264"
     },
     {
       "ruta": "README.md.license",
@@ -199,7 +199,7 @@
     {
       "ruta": "src/01-presentacion.md",
       "bytes": 5922,
-      "sha256": "bea3362e670f02224a35587a053004a06eb9f70fd6d60490572f449ba230d74d"
+      "sha256": "1ac93fa87518d96b906142c2d66dab753bf2d84f6e85316a103094bfbb0eae1b"
     },
     {
       "ruta": "src/01-presentacion.md.license",
@@ -338,8 +338,8 @@
     },
     {
       "ruta": "src/15-ediciones.md",
-      "bytes": 3613,
-      "sha256": "90694cff290f8c2a82184e1eec1468e96953986f406460e0c639a8125d3b25d0"
+      "bytes": 3844,
+      "sha256": "cdea9c51701df792946d856ce84f498ee107947dcbb5d32f65da210f02243da6"
     },
     {
       "ruta": "src/15-ediciones.md.license",
@@ -358,8 +358,8 @@
     },
     {
       "ruta": "src/17-potencial.md",
-      "bytes": 22315,
-      "sha256": "be52d039fbf447f4e204d5178fbd889610f3352cd9f803e5293a5737ae26ed4b"
+      "bytes": 28356,
+      "sha256": "b93dc763c43ac71464c25c90be5c20c7ea226280788796a4a00caa587323c7d9"
     },
     {
       "ruta": "src/17-potencial.md.license",
@@ -418,8 +418,8 @@
     },
     {
       "ruta": "src/23-correspondencias.md",
-      "bytes": 49267,
-      "sha256": "0e0af5899741a84ed8681b73727f85e9dd17f784d3277f7bdd2ff700654254c4"
+      "bytes": 49821,
+      "sha256": "4fff20a76d224be0f0acd5eee5eed381dfd3e6826ceead683dc114acab67c76a"
     },
     {
       "ruta": "src/23-correspondencias.md.license",
@@ -1057,6 +1057,16 @@
       "sha256": "aa46c0796646c09fb9ac49d142feaaa6172f1ec4ea2e9798d1ac855527487166"
     },
     {
+      "ruta": "src/datos/potenciales.csv",
+      "bytes": 1761,
+      "sha256": "f96434eee5255c0b4d1efc5c0e6ce477f8478c1f89dc2ef83a1b85fc5e81e67f"
+    },
+    {
+      "ruta": "src/datos/potenciales.csv.license",
+      "bytes": 248,
+      "sha256": "aa46c0796646c09fb9ac49d142feaaa6172f1ec4ea2e9798d1ac855527487166"
+    },
+    {
       "ruta": "src/datos/potenciales/Imagen1.potencial-be.gz",
       "bytes": 4350595,
       "sha256": "bc2b70f0f88c0620911a396d8b2599b810e5ef1fc62bfe46173f763ed949a351"
@@ -1243,16 +1253,6 @@
     },
     {
       "ruta": "src/datos/potenciales/Recurso77.potencial-be.gz.license",
-      "bytes": 248,
-      "sha256": "aa46c0796646c09fb9ac49d142feaaa6172f1ec4ea2e9798d1ac855527487166"
-    },
-    {
-      "ruta": "src/datos/potenciales.csv",
-      "bytes": 1761,
-      "sha256": "f96434eee5255c0b4d1efc5c0e6ce477f8478c1f89dc2ef83a1b85fc5e81e67f"
-    },
-    {
-      "ruta": "src/datos/potenciales.csv.license",
       "bytes": 248,
       "sha256": "aa46c0796646c09fb9ac49d142feaaa6172f1ec4ea2e9798d1ac855527487166"
     },
@@ -2899,7 +2899,7 @@
     {
       "ruta": "theme/index.hbs",
       "bytes": 19427,
-      "sha256": "2d59f2d18e3ce815a719c7c3381f44894f72e78a099a0dd16be0c51c086c1cc0"
+      "sha256": "23b22ecde18b6d718bbb67e2732fa95e2611a028383804f1474ed02e9a105bfe"
     },
     {
       "ruta": "theme/index.hbs.license",

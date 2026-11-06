@@ -4,6 +4,8 @@
 
 La correspondencia se consulta mediante un registro estable. S1, S2… identifican sucesos dentro del conjunto cuyo identificador completo se conserva en los datos. El mismo registro enlaza glifo, constitución, texto de referencia, células y potencial exacto. La imagen fuente puede contener varias regiones vinculadas a sucesos distintos; esa relación se declara expresamente.
 
+Los potenciales de este registro corresponden a las representaciones digitales identificadas. El potencial de un objeto o de un individuo representado requiere su propia regla de dominio y sus observaciones, según se explica en [Imagen y objetos representados](17-potencial.md#imagen-y-objetos-representados). La vinculación conserva ambas procedencias; no convierte el valor de una imagen en una medida física de todos sus componentes.
+
 ## Cadenas de texto en español
 
 Las cadenas siguientes se muestran directamente y corresponden a los quince sucesos constituidos. Expresan el contenido de referencia con el que se contrasta una respuesta; no son respuestas del candidato. Las descripciones de las cuatro imágenes fuente aparecen junto a cada imagen, más abajo. Una descripción visual todavía sin glifo ni célula no constituye por sí sola el recorrido completo.
@@ -34,7 +36,7 @@ Por ejemplo, «El perro deja el pescado en el plato para el gato» y «El perro 
 
 ## Cómo recorrer una correspondencia
 
-En el ejemplo del televisor, Imagen4 es la imagen sintética de dos paneles. Su mitad izquierda se vincula a S40 y la derecha a S41. Cada suceso tiene un glifo propio, sus células y el potencial de ese glifo. La imagen completa tiene otro potencial, calculado sobre todas sus muestras. No se utiliza el potencial de la imagen completa como si fuera el de cada recorte.
+En el ejemplo del televisor, Imagen4 es la imagen sintética de dos paneles. Su mitad izquierda se vincula a S40 y la derecha a S41. Cada suceso tiene un glifo propio, sus células y el potencial de ese glifo. La imagen completa tiene otro potencial, calculado sobre todas sus muestras. No se utiliza el potencial de la imagen completa como si fuera el de cada recorte. Esta escena genérica no documenta una unidad física del modelo TCL 43T69C citado en el anexo de la colección.
 
 Al abrir S40 se ve el glifo y el texto de referencia, seguido de las células ordenadas. La sucesión de símbolos de cada célula se lee de P1 a Pn. Su potencia de representación procede de la constitución, no de interpretar esos símbolos como palabras. El enlace «Ver el cálculo paso a paso» abre el desarrollo numérico en el navegador. Otro enlace ofrece el entero completo en texto, con numeración en base 16; el valor decimal mostrado es una aproximación.
 

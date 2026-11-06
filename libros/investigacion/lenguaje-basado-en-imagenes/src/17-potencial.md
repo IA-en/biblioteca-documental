@@ -34,7 +34,7 @@ Cuando una magnitud singular declarada proporciona δ, se obtiene:
 
 **μ = s + δ/2; λ = s − δ/2; P = δ; I = 2s.**
 
-La condición **|δ| ≤ 2s** conserva ambos polos no negativos. El diferencial cambia su distribución y mantiene la intensidad. La escala utiliza unidades internas de potencial Atlas, cuya notación u_AT(η,Q) identifica sensibilidad y rango; no son unidades del Sistema Internacional (SI). Véase <a href="https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1#unidades-de-potencial-atlas-y-nomenclatura-de-rutas" target="_blank" rel="noopener noreferrer">el apartado 6.8, unidades de potencial Atlas</a>.
+La condición **|δ| ≤ 2s** conserva ambos polos no negativos. El diferencial cambia su distribución y mantiene la intensidad. La escala utiliza unidades internas de potencial Atlas, cuya notación u_AT(η,Q) identifica sensibilidad y rango; no son unidades del Sistema Internacional (SI). En estas expresiones, s, δ, μ y λ designan los coeficientes numéricos en la unidad declarada. Con la unidad explícita, las magnitudes son P = (μ − λ)·u_AT e I = (μ + λ)·u_AT. Véase <a href="https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1#unidades-de-potencial-atlas-y-nomenclatura-de-rutas" target="_blank" rel="noopener noreferrer">el apartado 6.8, unidades de potencial Atlas</a>.
 
 ### Ejemplo de la proyección y del cálculo polar
 
@@ -46,11 +46,39 @@ Con η = 1/10 y Q = 64, la función toma la forma s = 64·ln(1 + 10x)/ln(11):
 | 1/2 | 64·ln(6)/ln(11) | ≈ 47,822191 | 0 | ≈ 95,644382 |
 | 1 | 64·ln(11)/ln(11) | 64 | 0 | 128 |
 
-Para mostrar la segunda operación, considérese un control aritmético con s = 64 y un diferencial de entrada δ = 2 unidades Atlas. Entonces μ = 64 + 2/2 = 65 y λ = 64 − 2/2 = 63; por tanto, **P = 65 − 63 = 2** e **I = 65 + 63 = 128**. El valor 2 es un dato sintético del ejemplo, no una magnitud medida en una fotografía. En una aplicación debe proceder de la regla de dominio declarada.
+Para mostrar la segunda operación, considérese un control aritmético con s = 64 y un coeficiente diferencial de entrada δ = 2. Entonces μ = 64 + 2/2 = 65 y λ = 64 − 2/2 = 63; por tanto, **P = (65 − 63)·u_AT = 2·u_AT** e **I = (65 + 63)·u_AT = 128·u_AT**. El valor 2 es un dato sintético del ejemplo, no una magnitud medida en una fotografía. En una aplicación debe proceder de la regla de dominio declarada.
+
+<details>
+<summary>Más información: las referencias etarias y la escala acotada</summary>
+
+La <a href="https://doi.org/10.21428/39829d0b.7b4fc2e6" target="_blank" rel="noopener noreferrer">Trilogía Exocósmica, Parte III (λ)</a>, <a href="https://www.itvia.online/pub/nasa-redondea-el-sistema-vectorial-sv-formaliza--trilogia-exocosmica-parte-iii-lambda-humanoide/release/2#a2-escala-del-universo-psilon-atlas-y-sus-observables" target="_blank" rel="noopener noreferrer">anexo A.2</a>, utiliza AΩobs = 13.800.000.000 años julianos y FΩ = 27.600.000.000 años julianos. Son referencias de normalización. Los valores etarios y sus coordenadas acotadas expresan magnitudes diferentes.
+
+Para el control Aᵢ = 0, la sustitución da **x = (13.800.000.000 − 0)/27.600.000.000 = 1/2**. Con η = 0,1 y Q = 64 resulta **s = 64·ln(6)/ln(11) ≈ 47,822191**, P⁰ = 0 e I⁰ ≈ 95,644382·u_AT. El rango Q = 64 no implica que la base s sea 64 en todos los casos. Con estas referencias, las edades físicas entre cero y AΩobs ocupan 0 ≤ x ≤ 1/2; el extremo formal x = 1 de la tabla de la función no se atribuye a una edad física de ese intervalo.
+
+Una fecha de origen documentada puede aportar Aᵢ respecto de una referencia de evaluación declarada. Esta operación sitúa un régimen etario; el diferencial singular exige, además, la regla que lo obtiene de los datos. Si la fecha no se conoce, no se deduce de los colores ni se sustituye por un cero. La fecha del archivo, la captura y el origen del objeto se registran según su significado y procedencia.
+
+</details>
 
 ## Aplicación al dominio de la imagen
 
-Para las imágenes se constituye aquí el convenio **SVIMG02**. Esta denominación identifica una regla exacta de representación. Las fórmulas polares y la transformación Atlas proceden de las publicaciones citadas; la selección y ordenación de las muestras digitales que se especifican a continuación son el convenio de esta aplicación visual. No se identifican con una medición de energía, edad o masa.
+Para las imágenes se constituye aquí el **convenio de representación posicional de imágenes del Sistema Vectorial, versión 02 (SVIMG02)**. El identificador reúne SV, por Sistema Vectorial; IMG, como abreviación de imagen; y 02, como indicación de versión. Identifica la regla exacta de representación definida en este capítulo. Las fórmulas polares y la transformación Atlas proceden de las publicaciones citadas; la selección y ordenación de las muestras digitales que se especifican a continuación son el convenio de esta aplicación visual. No se identifican con una medición de energía, edad o masa.
+
+## Imagen y objetos representados
+
+Una fotografía de un televisor TCL 43T69C permite calcular el potencial de su representación digital. El potencial de una unidad física del televisor utiliza los datos de su estado y la regla declarada para ese dominio. El modelo comercial identifica una clase de producto; no acredita el estado de un aparato concreto. Una pantalla sin imagen tampoco demuestra, por sí sola, que su sistema operativo esté alterado.
+
+Análogamente, una imagen de dos aves tiene un potencial de representación. Cada recorte normalizado puede recibir el suyo. El potencial del estado de cada ave corresponde a otro dominio y requiere observaciones vinculadas inequívocamente con el individuo. El registro relaciona esos resultados con sus respectivas fuentes, unidades, reglas y sucesos; esa asociación no convierte un potencial de píxeles en una medida biológica ni establece por sí sola una función inversa entre ambos dominios.
+
+La secuencia de cálculo es **datos → regla → polos → potencial → correspondencias**. En un ejemplo sintético se declaran las magnitudes iniciales y su relación con la escena antes de calcular. En un ejemplo empírico se conserva la procedencia de las observaciones. Una imagen en papel puede digitalizarse y recibir un potencial de representación bajo el perfil declarado, aunque se desconozca la fecha de su creación; esa digitalización no determina la edad del soporte ni la de sus objetos.
+
+<details>
+<summary>Más información: el televisor y los halcones documentados</summary>
+
+El <a href="https://www.itvia.online/matematicas-del-potencial#anexo-imagen-objetos-potencial" target="_blank" rel="noopener noreferrer">anexo de ejemplos de la colección Matemáticas del Potencial</a> desarrolla el caso del TCL 43T69C y una lámina comparativa de halcones peregrinos identificados mediante las anillas D/35 y N/46. La fuente de las aves reúne dos capturas: su composición no acredita una fotografía simultánea. La anilla permite asociar datos con un individuo, pero no sustituye la función que calcula sus polos. Las descripciones de plumaje o tamaño relativo necesitan magnitudes y una regla efectiva antes de producir un resultado numérico.
+
+La relación entre especie, estado e individuo se expone en <a href="https://doi.org/10.21428/39829d0b.5e15cabb" target="_blank" rel="noopener noreferrer">Orientación universal y geográfica</a>, apartados 8.8–8.10. Sus controles sintéticos no son mediciones de los halcones documentados. Las <a href="https://doi.org/10.21428/39829d0b.dcb48723" target="_blank" rel="noopener noreferrer">Reglas y condiciones de las Matemáticas del Potencial</a>, apartados 3, 4 y 13.1, delimitan las especializaciones y sus correspondencias. El anexo fija el procedimiento de los ejemplos; no presenta potenciales individuales ya calculados para esos halcones ni para una unidad física del televisor.
+
+</details>
 
 ## Qué información entra
 
@@ -114,6 +142,12 @@ Se fijan η = 1/10 y Q = 64 para todas las imágenes del convenio. La proyecció
 La transformación es estrictamente creciente: su derivada es positiva para q ≥ 0 y η > 0. Por ello, no elimina ninguna distinción del racional exacto q. El diferencial queda entre cero y 64; ambos polos Atlas permanecen no negativos. La elección de escala es común a todas las imágenes de este convenio y no depende de reconocer un perro, un televisor o una persona. El dominio del cálculo es la imagen.
 
 Para el ejemplo 01, q = 11/16 y δ = 64·ln(63/8)/ln(11). Para 10, q = 13/16 y δ = 64·ln(73/8)/ln(11). Se conservan esas expresiones exactas, además de las aproximaciones que se necesiten para leer una tabla.
+
+### Diferencia respecto de la calibración etaria
+
+En el ejemplo digital 01, **q = 11/16 = 0,6875** procede de los bits y de su longitud. En el ejemplo etario anterior, **x = 1/2** procede de una edad y de dos referencias expresadas en años. La función logarítmica puede aplicarse a ambas entradas, pero sus resultados conservan el significado de su respectivo dominio. La coordenada etaria determina s; este convenio digital determina δ y fija s = 64. Son asignaciones declaradas diferentes, compatibles con las mismas identidades P = μ − λ e I = μ + λ.
+
+Si se interpretara indebidamente q = 11/16 como aquella x etaria, se obtendría **Aᵢ = 13.800.000.000 − 27.600.000.000·11/16 = −5.175.000.000 años**. Esa cifra queda fuera del intervalo físico del ejemplo y no es la edad de la imagen. La fecha documentada puede añadirse como dato y alimentar una calibración etaria separada; no cambia retrospectivamente el potencial digital ni se obtiene de él. La compatibilidad entre aplicaciones exige conservar estas definiciones, no identificar sus variables por compartir una fórmula.
 
 El retorno matemático recupera q mediante **q = (exp(δ·ln(11)/64) − 1)/10**. Su fracción reducida determina P y N. La realización conserva directamente el numerador entero y su longitud como representación exacta de δ, evitando pretender que una aproximación decimal pueda recuperar millones de muestras.
 
