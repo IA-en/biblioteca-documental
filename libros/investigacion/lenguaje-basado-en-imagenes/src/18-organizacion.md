@@ -23,7 +23,7 @@ El caso conserva once sucesos y setenta y cuatro células: cincuenta de morfolog
 
 La composición completa contiene 834 posiciones, de las cuales 832 son informativas conforme a la longitud conservada de cada *frame*. Las dos posiciones de reserva original permanecen diferenciadas del relleno externo que pueda necesitar una representación rectangular.
 
-La distinción de máscaras evita confundir ambas clases de reserva, pero no legitima las dos posiciones internas. Su conformidad sigue pendiente en los términos del [capítulo 7](07-economia.md). Las magnitudes de este apartado describen fielmente el prototipo conservado.
+La distinción de máscaras evita confundir ambas clases de reserva, pero no legitima las dos posiciones internas. Su conformidad sigue pendiente en los términos del [capítulo 8](07-economia.md). Las magnitudes de este apartado describen fielmente el prototipo conservado.
 
 Una vista rectangular del conjunto puede adoptar las dimensiones 11 × 16 × 16: sucesos, máximo de células por suceso y máximo de posiciones por célula. Esa disposición contiene 2816 lugares de almacenamiento, pero sólo 834 corresponden a posiciones celulares existentes. Una máscara identifica esas posiciones; otra distingue las 832 posiciones informativas. Los otros 1982 lugares son relleno externo y carecen de significado celular.
 
@@ -39,15 +39,17 @@ Los tensores así preparados pueden servir como entrada para una unidad de proce
 
 La comprobación exige recuperar desde cada representación las identidades, las morfologías y los vectores originales. Se verifican además la persistencia tras cerrar y abrir la base de datos, el rechazo de identidades repetidas y la conservación atómica de un lote: si una inscripción es incompatible, no puede quedar registrada sólo una parte del lote.
 
-La igualdad de contenido no impide registrar un nuevo suceso con identidad propia. El potencial numérico tampoco se utiliza como criterio exclusivo para fusionar registros. Los cálculos pendientes de potencial permanecen declarados como tales y no se rellenan con números artificiales.
+La igualdad de contenido no impide registrar un nuevo suceso con identidad propia. El potencial numérico tampoco se utiliza como criterio exclusivo para fusionar registros. Cada imagen nueva requiere un cálculo completo y una comprobación de retorno antes de declarar completada su vinculación.
 
 La organización facilita el aprovechamiento matemático, sin anticipar propiedades algebraicas todavía no constituidas. Una matriz de etiquetas ternarias no adquiere automáticamente estructura de cuerpo o espacio vectorial por almacenarse como tensor.
 
-## Límites de las comprobaciones
+## Integridad de las representaciones
 
-La revisión adversarial recuperó los 74 vectores desde los datos tensoriales y comprobó la cancelación íntegra de una transacción ante un conflicto de identidad. También constató que la función de almacenamiento admite contenidos sin estructura validada, células sin suceso existente y vectores incompatibles con la dimensión declarada. El programa que prepara el caso verifica parte de esas condiciones; la función de almacenamiento no las impone por sí misma.
+La equivalencia entre dos tablas exige igual cantidad de filas, identidades, orden, morfologías, longitudes y símbolos. Comparar únicamente las filas coincidentes puede ocultar truncamientos o adiciones. La recuperación desde la base persistente se contrasta con todos los registros esperados, después de cerrarla y volver a abrirla.
 
-El cotejo tabular original compara pares de filas, pero no exige igualdad de cardinalidad. Puede aceptar un archivo truncado o con filas adicionales si coinciden los pares recorridos. El archivo conservado contiene las 74 filas esperadas; el defecto afecta al alcance de su comprobador. La revisión no atribuye corrupción a esos datos. Un verificador suficiente deberá comprobar cantidad, identidad, orden, morfología, longitud y símbolos antes de declarar equivalencia.
+El conjunto ampliado reúne 101 sucesos y 694 células de representación, con 7 950 posiciones: 5 406 valores 0, 2 529 valores 1 y 15 valores U. Hay 460 células (9,3), 232 células (16,4) y dos células (49,7). De las posiciones conservadas, 7 924 son informativas y 26 corresponden a reservas históricas declaradas. Las once células de evaluación, con 106 posiciones, pertenecen a una tabla distinta.
+
+La ampliación incorpora los potenciales de las cuatro imágenes fuente y de los 101 glifos canónicos. Cada cálculo queda unido a su recurso y a los sucesos correspondientes. El original de cada revisión se conserva; actualizar la vista vigente no sustituye la evidencia anterior. El capítulo de correspondencias permite consultar las composiciones publicadas.
 
 ## Ejecución local y aprovechamiento de arquitecturas existentes
 
@@ -57,4 +59,6 @@ La organización matricial y tensorial permite estudiar tareas por lotes en una 
 
 Cada adaptación deberá conservar las máscaras, las identidades, el orden y el significado de la terna. El resultado deberá cotejarse con una realización de referencia. La elección de dispositivo depende de la operación y del volumen: preparar tensores no obliga a utilizar un acelerador ni convierte las etiquetas de los estados en cantidades algebraicas.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

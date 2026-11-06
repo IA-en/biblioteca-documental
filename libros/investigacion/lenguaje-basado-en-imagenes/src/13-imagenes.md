@@ -10,7 +10,7 @@ La selección se realizó entre escenarios previamente delimitados por nivel. No
 
 <a href="imagenes/13-01-bajo.png" target="_blank" rel="noopener noreferrer"><img src="imagenes/13-01-bajo.png" alt="Escena sint&#233;tica de dificultad baja: manzana y recipiente"></a>
 
-<figcaption class="pie-figura"><strong>Figura 13.1.</strong> Imagen sintética de apariencia fotográfica. Una manzana verde y un recipiente transparente sobre una mesa ofrecen un caso inicial con pocos referentes. Su conversión a una célula y su criterio de criticidad están pendientes.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | Open Researcher and Contributor ID (ORCID): 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | Número Internacional Normalizado de Publicaciones Seriadas (ISSN) 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). Los componentes y fuentes de terceros conservan sus avisos.</small><span class="formatos-figura">Versiones: <a href="formatos/13-01-bajo.svg" target="_blank" rel="noopener noreferrer">Scalable Vector Graphics (SVG), aproximación visual</a> · <a href="imagenes/13-01-bajo.png" target="_blank" rel="noopener noreferrer">Portable Network Graphics (PNG)</a> · <a href="formatos/13-01-bajo.jpg" target="_blank" rel="noopener noreferrer">Joint Photographic Experts Group (JPEG; .jpg)</a> · <a href="formatos/13-01-bajo.webp" target="_blank" rel="noopener noreferrer">WebP sin pérdida</a>.</span></figcaption>
+<figcaption class="pie-figura"><strong>Figura 13.1.</strong> Imagen sintética de apariencia fotográfica. Una manzana verde y un recipiente transparente sobre una mesa ofrecen un caso inicial con pocos referentes. Su potencial digital está calculado. Su representación semántica celular y su criterio de criticidad todavía requieren constitución.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | Open Researcher and Contributor ID (ORCID): 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | Número Internacional Normalizado de Publicaciones Seriadas (ISSN) 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). Los componentes y fuentes de terceros conservan sus avisos.</small><span class="formatos-figura">Versiones: <a href="formatos/13-01-bajo.svg" target="_blank" rel="noopener noreferrer">Scalable Vector Graphics (SVG), aproximación visual</a> · <a href="imagenes/13-01-bajo.png" target="_blank" rel="noopener noreferrer">Portable Network Graphics (PNG)</a> · <a href="formatos/13-01-bajo.jpg" target="_blank" rel="noopener noreferrer">Joint Photographic Experts Group (JPEG; .jpg)</a> · <a href="formatos/13-01-bajo.webp" target="_blank" rel="noopener noreferrer">WebP sin pérdida</a>.</span></figcaption>
 </figure>
 
 
@@ -34,16 +34,18 @@ La selección se realizó entre escenarios previamente delimitados por nivel. No
 </figure>
 
 
-## Parejas de trazabilidad
+## Correspondencia de cada imagen
 
 Cada caso deberá conservar su imagen de origen y la célula que realmente le corresponda, con la constitución, la evidencia intermedia y la comprobación de retorno. Una pareja no se declara completada por colocar dos archivos en una misma carpeta.
 
 La interpretación se confrontará con lo visible. Las oclusiones, las acciones temporalmente ambiguas y las intenciones no observables necesitan tratamiento explícito. La generalización a fotografías reales exigirá casos captados y documentados como tales, separados de este lote sintético.
 
-Las imágenes de este capítulo no se han entregado al candidato de la prueba de los once *frames*. Tampoco tienen aún una clave celular validada. Su presencia en el libro documenta el material disponible y el siguiente extremo que debe comprobarse.
+Las tres imágenes tienen potencial digital calculado y retorno exacto comprobado. No tienen todavía glifos semánticos ni células propios constituidos: no se les asignan los del relato animal por semejanza temática. El [registro de correspondencias](23-correspondencias.md) muestra cada imagen, su valor y la situación precisa de los demás componentes.
 
 ## Ampliación al dominio de los aparatos
 
-El [capítulo 22](22-television.md) añade una comparación sintética de televisión inteligente y cuatro unidades canónicas constituidas. La asociación entre imagen y representación se ha establecido manualmente; las condiciones no observables de sistema, causa y reparación proceden del caso narrativo. Esta ampliación no acredita un transductor general de fotografías.
+El [capítulo 12](22-television.md) añade una comparación sintética de televisión inteligente y cuatro unidades canónicas constituidas. La asociación entre imagen y representación se ha establecido manualmente; las condiciones no observables de sistema, causa y reparación proceden del caso narrativo. Esta ampliación no acredita un transductor general de fotografías.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

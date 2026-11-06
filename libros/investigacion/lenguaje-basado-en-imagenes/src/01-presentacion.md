@@ -1,22 +1,22 @@
-# 1. Objeto, alcance y estado de la investigación
+# 1. Percepción visual y conservación del significado
 
-<div class="edicion"><strong>Tratado Lenguaje Basado en Imágenes (LBI) — Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un <em>frame</em> del Sistema Vectorial (SV)</strong><br>V.05 · 5 de noviembre de 2026 · Quinta edición de investigación.</div>
+**Juan Antonio Lloret Egea** · <a href="https://orcid.org/0000-0002-6634-3351" target="_blank" rel="noopener noreferrer">Identificador de investigador (ORCID): 0000-0002-6634-3351</a>. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA).
 
-El Lenguaje Basado en Imágenes del Sistema Vectorial (SV) investiga cómo conservar un mismo contenido mediante imágenes, glifos, expresiones verbales y células. Su objeto es representar relaciones que permitan reconocer quién hace qué, sobre qué o quién, en qué orden, con qué finalidad y bajo qué condiciones. Una descripción puede cambiar de idioma o admitir distintas formulaciones sin alterar ese núcleo.
+**Tratado Lenguaje Basado en Imágenes (LBI)** · V.06 · 6 de noviembre de 2026.
 
-Este tratado presenta una realización experimental y sus límites. La recuperación exacta entre determinadas imágenes canónicas y sus vectores está comprobada en el conjunto finito examinado; la conformidad semántica integral de sus posiciones continúa sujeta a revisión. La conversión general de fotografías del mundo a células, la reconstrucción semánticamente fiel de imágenes y la comprensión independiente del idioma siguen siendo objetivos de investigación. Una capacidad pendiente no se presenta como una propiedad ya acreditada del Sistema Vectorial (SV).
+Publicación académica vinculada: <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">Lenguaje Basado en Imágenes (LBI): representación trazable y conservación semántica en el Sistema Vectorial (SV)</a>. [Autoría y licencia](16-fuentes.md).
 
-La vía elegida consiste en una lógica explícita: referentes, relaciones, ámbitos, estados y reglas constituidos. La adaptación de redes de reconocimiento visual podrá estudiarse como recurso auxiliar; no es una condición de la realización expuesta. La relación de instrumentos, situada después de la bibliografía, identifica la realización y sus límites. Los formatos documentales y los recursos de presentación de la biblioteca conservan su función y sus licencias.
+Una imagen puede permitir reconocer un animal, un recipiente o un gesto sin leer sus nombres. Comprender una escena exige, además, distinguir las relaciones: quién actúa, sobre qué, con qué destinatario y con qué finalidad. Dos imágenes con los mismos objetos pueden expresar acontecimientos diferentes si se intercambian el agente y el receptor.
 
-**Autor: Juan Antonio Lloret Egea.** Identificador de objeto digital (DOI) de la publicación académica vinculada: <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.8b9c0155</a>. [Autoría, licencia y citación](16-fuentes.md).
+El Lenguaje Basado en Imágenes investiga una representación explícita de esas relaciones. La imagen aporta la evidencia perceptiva; el glifo organiza su contenido visual; el texto permite expresarlo en distintas lenguas; la célula conserva estados ternarios ordenados; y el potencial ofrece una representación matemática cuya definición debe permitir comprobar el retorno.
 
-La investigación relaciona percepción visual, semántica, representación del conocimiento, lógica y computación. La independencia respecto de una lengua verbal constituye una exigencia de conservación que debe contrastarse entre observadores y dominios; no se presupone por la semejanza de las imágenes. Las aplicaciones deberán mantener separadas la evidencia observada, la interpretación atribuida y las conclusiones derivadas.
+**Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un *frame* del Sistema Vectorial (SV)**
 
-## El problema de partida
+El término *frame* designa la configuración visual y matemática constituida. El acontecimiento físico, su captura y su representación no son objetos intercambiables. Una ilustración sintética puede servir para experimentar, pero no testimonia por sí misma un hecho ocurrido en el mundo.
 
-Una imagen de un perro permite reconocer un referente sin leer la palabra «perro». Eso no demuestra que todos los observadores reconstruyan las mismas acciones, intenciones o relaciones. La identificación de los objetos constituye el comienzo del problema, no su solución completa. La imagen tiene una identidad, mientras que sus interpretaciones pueden diferir.
+## Un ejemplo inicial
 
-La historia de estudio introduce una dueña, un perro, un gato, alimentos y lugares. Sus ilustraciones iniciales orientan el problema; los once *frames* posteriores constituyen la representación formal examinada.
+Una mujer deposita un hueso en un plato para alimentar a un perro. El contenido no queda conservado por representar únicamente mujer, hueso, plato y perro. Deben mantenerse el depósito, sus papeles y el propósito de alimentación. Dibujar al perro comiendo dentro de un ámbito mental ligado a la mujer expresa un resultado pretendido; dibujarlo comiendo en la escena exterior expresa una acción del relato.
 
 <figure id="figura-1-1" class="figura-tratado">
 
@@ -25,13 +25,13 @@ La historia de estudio introduce una dueña, un perro, un gato, alimentos y luga
 <figcaption class="pie-figura"><strong>Figura 1.1.</strong> Ilustración inicial del perro, el gato y la dueña. Las escenas y los pensamientos motivan la constitución del caso; no son fotografías ni equivalen por sí solos a los once <em>frames</em> canónicos. Fuente: material inicial del estudio.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | Open Researcher and Contributor ID (ORCID): 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | Número Internacional Normalizado de Publicaciones Seriadas (ISSN) 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). Los componentes y fuentes de terceros conservan sus avisos.</small><span class="formatos-figura">Versiones: <a href="formatos/01-01-relato-inicial.svg" target="_blank" rel="noopener noreferrer">Scalable Vector Graphics (SVG), aproximación visual</a> · <a href="imagenes/01-01-relato-inicial.png" target="_blank" rel="noopener noreferrer">Portable Network Graphics (PNG)</a> · <a href="formatos/01-01-relato-inicial.jpg" target="_blank" rel="noopener noreferrer">Joint Photographic Experts Group (JPEG; .jpg)</a> · <a href="formatos/01-01-relato-inicial.webp" target="_blank" rel="noopener noreferrer">WebP sin pérdida</a>.</span></figcaption>
 </figure>
 
+La historia se amplía con un gato y una entrega de pescado. Otro caso introduce un televisor que antes funcionaba, después falla y requiere una intervención. Este segundo dominio permite estudiar negación, hipótesis causal y finalidad sin depender exclusivamente del repertorio de animales y alimentos.
 
-## Organización de la obra
+## Recorrido de lectura
 
-Los capítulos 2 a 8 fijan las distinciones de representación, fidelidad y economía. Los capítulos 9 y 10 contienen el caso completo, su clave y las composiciones celulares. Los capítulos 11 a 14 exponen la deducción, la prueba exploratoria, las escenas sintéticas y las condiciones de evaluación. Los capítulos 15 y 16 recogen versiones, fuentes y licencias. Los capítulos 17 y 18 desarrollan la individuación del potencial y la organización de sucesos, matrices y tensores. El capítulo 19 precisa la evidencia disponible y sus condiciones de refutación. El capítulo 20 examina la programación visual y su relación con el lenguaje de computación. Cierran la obra la bibliografía, la relación de instrumentos y el índice de figuras.
+Los principios rectores conducen a la célula, la terna y la gramática visual. A continuación se precisan la reconstrucción, los parámetros críticos y la economía de representación. Los casos muestran las relaciones y sus vectores. La evaluación distingue comprensión de objetos, acciones, orden y finalidad. El potencial se define con ejemplos calculados; el capítulo de correspondencias permite localizar las imágenes y sus representaciones asociadas. Cierran el desarrollo la organización matemática de los datos, la programación visual y las condiciones de validez. El diccionario aparece al final como un atlas de imágenes y glifos, sin definiciones verbales junto a los signos.
 
-La publicación del caso completo permite inspeccionarlo y reproducir su lectura. Las pruebas cerradas conservan la prohibición expresa de consultar fuentes externas y la separación entre materiales entregados y clave correctora. Sus condiciones y el alcance de la independencia se registran sin atribuir al instrumento garantías no comprobadas.
+La investigación combina percepción, lógica, semántica y computación. Se han comprobado representaciones canónicas y cálculos reversibles sobre datos digitales finitos. La comprensión de fotografías nuevas, la generalización entre observadores y la equivalencia entre idiomas requieren contrastes propios. La disponibilidad de una figura o de una traducción no acredita por sí sola esas capacidades.
 
-Los capítulos 21 y 22 incorporan el diccionario de glifos como repertorio visual de referencia y el dominio experimental de la televisión inteligente. La comprensión visual sin definiciones obligatorias y la capa verbal necesaria se mantienen como funciones complementarias. El nuevo caso distingue fallo, hipótesis causal y reparación pendiente; su conservación formal está comprobada y su comprensión todavía no ha sido evaluada.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

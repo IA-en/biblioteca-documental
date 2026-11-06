@@ -22,4 +22,6 @@ La prueba puede admitir respuestas en distintos idiomas. Se compara el contenido
 
 La lectura visual puede ser directa o apoyarse en convenciones aprendidas. Ambas posibilidades merecen estudio, pero sus resultados deben distinguirse. Enseñar el repertorio modifica las condiciones de una prueba posterior de comprensión espontánea.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

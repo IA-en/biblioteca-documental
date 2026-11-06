@@ -1,4 +1,4 @@
-# 20. Programación visual y Lenguaje de Computación del Sistema Vectorial
+# 19. Programación visual y Lenguaje de Computación del Sistema Vectorial
 
 El Lenguaje Basado en Imágenes puede investigarse también como forma de autoría de programas para el Lenguaje de Computación del Sistema Vectorial. La relación tiene un fundamento concreto: ambos describen células, estados, referencias y relaciones cuya interpretación debe permanecer explícita. Programar visualmente exigiría componer glifos admitidos que determinasen declaraciones y operaciones del lenguaje; el texto explicativo podría variar mientras permaneciese estable esa representación formal. Una escena descriptiva no se convierte automáticamente en una orden de actuación.
 
@@ -22,4 +22,6 @@ La comparación con los modelos de lenguaje de gran tamaño (LLM, por su denomin
 
 La contribución que se investiga amplía la generación verbal con una exigencia de correspondencia entre evidencia visual, relaciones, estados y registro del suceso. Permite formular criterios de rechazo y obligaciones de retorno que no se deducen de la fluidez de una respuesta. Su valor deberá establecerse mediante casos nuevos, criterios comunes y mediciones reproducibles.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

@@ -1,4 +1,4 @@
-# 5. Biyección canónica y reconstrucción con pérdida
+# 6. Biyección canónica y reconstrucción con pérdida
 
 La biyección debe definirse entre objetos bien delimitados. El prototipo exige que cada representación visual canónica corresponda a una única composición celular y que su inversa recupere la misma representación lógica. Se ha comprobado esa recuperación en los once *frames* del caso y en los contrastes conservados. Este resultado finito no constituye una demostración para todas las entradas que pudiera admitir el algoritmo. El dominio admitido, el orden de lectura, el repertorio y la identidad de la aparición forman parte del contrato.
 
@@ -27,7 +27,7 @@ La economía debe declarar el coste del núcleo, de la base visual compartida y 
 
 Sean C el conjunto de composiciones admitidas bajo una constitución fija, I el conjunto de imágenes canónicas y R: C → I la representación. Para afirmar una biyección deben definirse ambos conjuntos y una función D: I → C, y demostrar D(R(c))=c para todo c de C y R(D(i))=i para todo i de I. La comprobación de esas igualdades en once ejemplos aporta evidencia del caso; no sustituye los cuantificadores universales.
 
-La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ce5aad1125460263904acb91142f33324ce89dfc/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/CELULA_IMAGEN_Y_AGENTES_EN_EL_SV_P1_P3_BIS_2026_09_13_V2.md" target="_blank" rel="noopener noreferrer">especificación de paridad entre célula e imagen, apartado 6</a> exige declarar los objetos comparados y cualquier información adicional necesaria para el retorno. La [revisión de alcance](19-verificacion.md) distingue esas obligaciones de las comprobaciones ejecutadas.
+La <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ce5aad1125460263904acb91142f33324ce89dfc/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/CELULA_IMAGEN_Y_AGENTES_EN_EL_SV_P1_P3_BIS_2026_09_13_V2.md" target="_blank" rel="noopener noreferrer">especificación de paridad entre célula e imagen, apartado 6</a> exige declarar los objetos comparados y cualquier información adicional necesaria para el retorno. La [delimitación de evidencia](19-verificacion.md) distingue esas obligaciones de las comprobaciones ejecutadas.
 
 ## Retorno desde texto y equivalencia entre idiomas
 
@@ -39,4 +39,6 @@ Por ejemplo, «el perro depositó el pescado para el gato» y «el gato recibió
 
 Estas condiciones desarrollan la distinción entre contenido e identidad de la <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">publicación académica vinculada, apartado 2.4</a>.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

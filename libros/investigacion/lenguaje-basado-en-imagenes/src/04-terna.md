@@ -41,4 +41,6 @@ El ámbito físico expresa hechos del relato. El pensamiento atribuye un conteni
 
 La plantilla blanca indica un emplazamiento sin argumento aplicable. No sustituye U. Asimismo, una figura que el lector no entiende genera una limitación de comprensión del lector; no cambia automáticamente el estado semántico de la escena.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

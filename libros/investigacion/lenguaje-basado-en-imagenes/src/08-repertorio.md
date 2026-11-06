@@ -1,38 +1,24 @@
-# 8. Repertorio visual y gramática de la escena
+# 5. Gramática visual y composición de escenas
 
-El repertorio visible reúne treinta y seis signos: once figuras referenciales, dieciocho relaciones, cuatro ámbitos y tres estados. Se conserva además una plantilla blanca para emplazamientos sin argumento aplicable.
+Una figura referencial representa un participante o un objeto. Una relación determina qué vínculo se establece entre ellos. El ámbito indica si el contenido pertenece a la escena exterior, a una percepción, a un pensamiento o a una finalidad. El estado ternario afirma, niega o mantiene indeterminada la relación constituida.
 
-<figure id="figura-8-1" class="figura-tratado">
+## Organización de los argumentos
 
-![Repertorio visual de treinta y seis signos](formatos/08-01-repertorio.svg)
+El repertorio inicial dispone cada relación en un renglón: ámbito, perspectiva cuando proceda, sujeto, relación, restantes referentes ordenados y estado. En el depósito de alimento se distinguen agente, alimento y recipiente. La inversión de dos argumentos puede alterar el sentido sin cambiar ninguna figura elemental.
 
-<figcaption class="pie-figura"><strong>Figura 8.1.</strong> Atlas experimental empleado en la prueba. El recorrido documental de la tabla siguiente es de izquierda a derecha y de arriba abajo. La explicación pertenece al tratado y no estaba incluida como clave en las láminas del candidato.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea. Algunos derechos reservados. | Open Researcher and Contributor ID (ORCID): 0000-0002-6634-3351 | Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español™ (ITVIA) | IA eñ™ – La Biblia de la IA™ | Número Internacional Normalizado de Publicaciones Seriadas (ISSN) 2695-6411 | Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0). Los componentes y fuentes de terceros conservan sus avisos.</small><span class="formatos-figura">Versiones: <a href="formatos/08-01-repertorio.svg" target="_blank" rel="noopener noreferrer">Scalable Vector Graphics (SVG), muestras exactas</a> · <a href="imagenes/08-01-repertorio.png" target="_blank" rel="noopener noreferrer">Portable Network Graphics (PNG)</a> · <a href="formatos/08-01-repertorio.jpg" target="_blank" rel="noopener noreferrer">Joint Photographic Experts Group (JPEG; .jpg)</a> · <a href="formatos/08-01-repertorio.webp" target="_blank" rel="noopener noreferrer">WebP sin pérdida</a>.</span></figcaption>
-</figure>
+Una composición visual puede representar una secuencia completa. Por ello, el diccionario no es una lista de nombres de objetos. Incluye transformaciones, contrastes y sucesiones que permiten reconocer permanencia, consumo, intención o resultado. Las figuras se consultan en el [diccionario visual](21-diccionario-visual.md).
+
+## Individuo, clase y representación mental
+
+El perro que recoge un pescado y el perro que lo deposita conservan su identidad narrativa. Su aparición en dos glifos no introduce dos animales. La figura agrupada de gatos representa una clase sólo bajo la constitución que así lo declara; si el lector interpreta tres individuos, esa distinción visual no ha quedado comunicada.
+
+El pescado pensado como tipo de alimento y el pescado recogido físicamente tampoco se identifican por semejanza gráfica. La representación debe conservar el ámbito y la referencia pertinente. Del mismo modo, una escena mental que muestra un resultado no establece por sí sola una finalidad: puede interpretarse como recuerdo, expectativa o imaginación. Los contrastes entre esos usos forman parte de la evaluación.
+
+## Reutilización y ampliación
+
+El repertorio inicial contiene treinta y seis signos y una plantilla sin argumento aplicable. La plantilla vacía no significa U. El dominio del televisor reutiliza estados, relaciones y ámbitos, y añade formas relativas al aparato y a la intervención. No se exige un signo nuevo por cada palabra: se añade una figura cuando la composición disponible no conserva una distinción necesaria.
+
+La economía debe contar tanto las células de cada aparición como el repertorio compartido y las reglas de composición. Aprender una correspondencia visual exige ejemplos y contrastes; almacenar su dibujo no acredita comprensión. El fundamento de una incorporación trazable se expone en <a href="https://doi.org/10.21428/39829d0b.bebc607c" target="_blank" rel="noopener noreferrer">Aprendizaje trazable en inteligencia artificial</a>, apartados 3–6.
 
 
-| Fila | Signos en orden |
-| --- | --- |
-| 1 | Dueña; perro; gato blanco; hueso; plato; pescado. |
-| 2 | Casa; jardín; matorrales; sofá; clase de los gatos; depositar. |
-| 3 | Consumir; mirar; hambre; indiferencia; salir; guardado previamente. |
-| 4 | Recoger con la boca; hacerse amigos; sentarse junto a alguien; acariciar; alegría; vacío. |
-| 5 | Llegar; pertenecer espacialmente; ser dueña de; consumo concluido; destinatario del alimento; ámbito físico. |
-| 6 | Pensamiento; finalidad; percepción; 0; 1; U. |
-
-## Composición de un renglón
-
-Cada renglón dispone ámbito, perspectiva cuando corresponda, sujeto, relación, restantes referentes ordenados y estado. Los papeles dependen de la relación. Al depositar, los argumentos identifican agente, alimento y recipiente. Al recoger con la boca, distinguen alimento y origen. Al sentarse junto a alguien, conservan asiento y acompañante.
-
-Esta gramática está documentada, pero su mera definición no acredita comprensión espontánea. La prueba permite descubrir dónde los signos propuestos no comunican el contenido esperado.
-
-## Referentes y clases
-
-La figura de tres gatos agrupados representa una clase dentro de la constitución; no añade tres individuos físicos al relato. El pescado pensado como tipo de alimento tampoco es, por esa sola representación, el individuo que el perro recoge después.
-
-La identificación del gato blanco está fijada para este caso. No constituye un sistema general de reconocimiento de color o identidad. Incorporar otros gatos o perros exigiría distinguir sus referentes. Las relaciones de hambre, alegría, amistad o intención se expresan explícitamente; no se deducen de la mera presencia de un animal.
-
-## Ampliación entre dominios
-
-El [capítulo 21](21-diccionario-visual.md) desarrolla la conservación de un repertorio común mediante referencias y relaciones visuales. No exige una nueva figura por cada palabra ni una definición verbal como clave necesaria de lectura. El [caso de la televisión inteligente](22-television.md) introduce estados de funcionamiento, una hipótesis causal y una reparación pendiente, con sus límites de reconocimiento explícitos.
-
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

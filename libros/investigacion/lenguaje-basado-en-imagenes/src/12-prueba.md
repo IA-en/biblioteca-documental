@@ -1,42 +1,45 @@
-# 12. Prueba exploratoria y ambigüedades
+# 15. Comprensión de los glifos y resultados de los contrastes
 
-El estudio conservó cuatro etapas: lectura libre de las once láminas, propuesta de orden, preguntas dirigidas y revisión del atlas de treinta y seis signos. El candidato recibió los materiales visuales sin el relato de referencia ni la clave. Las respuestas se conservaron antes de compararlas.
+El estudio comienza con once láminas y continúa mediante contrastes dirigidos. El candidato recibe imágenes sin la narración original ni la clave y produce su propia expresión verbal. La evaluación compara relaciones nucleares; no exige repetir una frase determinada. Las respuestas se conservan antes de calificarlas.
 
-La etapa dirigida inicial contenía doce preguntas y es un antecedente exploratorio. No se presenta retrospectivamente como una célula del Sistema Vectorial (SV). La edición posterior de dieciséis preguntas permanece en preparación y requiere clave y criticidades previas antes de su aplicación.
+## Lectura inicial
 
-## Lectura libre y ordenación
+En las dos primeras etapas se contrastaron veintiocho relaciones: una lectura completa expresada como posibilidad, quince recuperaciones parciales, dos propuestas incompatibles y diez relaciones no recuperadas. Estas categorías describen el contenido de la lectura y no son valores ternarios de aptitud.
 
-La comparación de las dos primeras etapas con las veintiocho relaciones encontró una lectura completa expresada como posibilidad, quince recuperaciones parciales, dos propuestas incompatibles y diez relaciones no recuperadas. Estas categorías describen la lectura; no son valores de la terna ni un dictamen agregado de aptitud.
+Se reconocieron mejor los referentes concretos que sus operadores. Mirar el plato fue la relación mejor recuperada. El vacío se confundió con transformación del recipiente y el consumo concluido con aprobación. No se adoptó una ordenación firme: entre cinco hipótesis de baja confianza, dos concordaban con la clave y tres invertían precedencias. Una ausencia de decisión no se califica como una afirmación errónea.
 
-El candidato reconoció mejor los referentes concretos que sus operadores. La relación de mirar el plato fue la más recuperada. El vacío se confundió con una transformación o modificación del recipiente, y el consumo concluido con aprobación o confirmación.
+La valoración posterior del repertorio declaró doce signos claros, veintidós ambiguos y dos no interpretables. Es una declaración de claridad percibida, obtenida tras exposición a las escenas, no una medida poblacional ni una comprobación independiente de treinta y seis significados.
 
-En la ordenación no adoptó una secuencia firme. Las diez precedencias adyacentes y los cincuenta y cinco pares quedaron sin decisión confirmada. De cinco hipótesis de baja confianza, dos coincidían con la clave y tres invertían relaciones temporales. La ausencia de decisión no se transforma en una tasa del cien por cien de errores.
+## Evolución de las distinciones visuales
 
-## Revisión del repertorio
+| Distinción | Dificultad observada | Contenido que debe conservarse |
+|---|---|---|
+| Vacío | Transformación del plato o aparición de contenido | Ausencia del alimento dentro del recipiente |
+| Consumo | Posesión o proximidad | Acción de comer y, cuando corresponde, su conclusión |
+| Finalidad | Atención, expectativa o recuerdo | Resultado pretendido y portador de la intención |
+| Acción | Herramienta próxima o gesto hipotético | Intervención efectivamente representada |
+| Papeles | Intercambio o vínculo indiferenciado | Agente, objeto, origen, destino y destinatario |
+| Ámbito | Pensamiento confundido con hecho | Separación entre escena exterior y contenido atribuido |
 
-En la cuarta etapa, el candidato declaró doce signos claros, veintidós ambiguos y dos no interpretables. Los dos últimos correspondían a hambre e indiferencia, situados en la tercera fila, columnas tercera y sexta del atlas. Son declaraciones de claridad percibida, no treinta y seis comprobaciones independientes ni una medida poblacional.
+Los contrastes sucesivos separaron esas relaciones. Mostrar el proceso y su conclusión dentro del ámbito mental permitió recuperar una intención de alimentación en una aplicación de nueve parámetros. Un contraste posterior entre finalidad y rememoración volvió a dejar dos condiciones críticas indeterminadas. Por tanto, una composición comprendida no acredita automáticamente otra composición semejante.
 
-La revisión del atlas se produjo después de ver las láminas y las preguntas. Por ello conserva contexto previo. La comparación completa de las etapas tercera y cuarta con la clave sigue pendiente; no se añaden aquí calificaciones que aún no existen.
+## Televisión y transiciones de estado
 
-## Prioridades de revisión
+La primera aplicación del caso de televisión obtuvo el vector de fidelidad **U000UUUU0**: cuatro conformidades y cinco indeterminaciones. Se distinguieron funcionamiento, fallo, continuidad y precedencia; permanecieron abiertas varias relaciones de sistema, causa y reparación.
 
-| Elemento | Confusión observada | Contraste que debe prepararse |
-| --- | --- | --- |
-| Vacío | Transformación del plato o aparición de contenido. | Interior sin alimento frente a contenido visible. |
-| Consumo y conclusión | Aprobación, aceptación o marca correcta. | Acción de comer frente a consumo terminado. |
-| Finalidad | Examen, lupa o atención. | Resultado pretendido frente a hecho sucedido. |
-| Pensamiento y percepción | Alcance incierto; posible participante duplicado. | Atribución inequívoca a su portador. |
-| Papeles y flechas | Movimiento, intercambio y vínculo indistintos. | Agente, objeto, origen, destino y destinatario. |
-| Clase de gatos | Varios individuos físicos. | Clase frente a conjunto de individuos. |
-| Anterioridad | Prohibición o cancelación. | Almacenamiento previo frente a acción presente. |
-| Desenlace | Bienestar genérico; caricias insuficientemente reconocidas. | Acciones y estados separados para cada participante. |
+Los contrastes mínimos posteriores separaron inclusión espacial, dirección, incertidumbre, prohibición, pensamiento y percepción. Las dificultades principales pasaron a ser la intervención efectiva, el estado pendiente de una reparación y la finalidad frente a la expectativa.
 
-Las modificaciones propuestas son hipótesis de mejora. Deben probarse manteniendo controles y evitando cambiar simultáneamente todos los signos. Una nueva apariencia tendrá otra versión y conservará la relación con la anterior.
+Una composición posterior obtuvo **00000000U**: ocho condiciones conformes y una condición crítica indeterminada. El signo de alimentación eléctrica no distinguía suficientemente el objetivo de apagar de encender o reiniciar. La siguiente composición representó transiciones de estados y separó lo pretendido de lo ocurrido. Obtuvo **000000000**, con nueve condiciones críticas conformes.
 
-## Condición de consulta cerrada
+En este último contraste, el candidato distinguió reparar para recuperar funcionamiento y actuar para apagar. Una pantalla oscura aislada no se tomó como prueba de apagado deliberado. La calificación Apto corresponde exclusivamente a esas nueve condiciones y a la interpretación operativa establecida: no acredita desconexión eléctrica, reinicio interno de Android ni diagnóstico de corrupción.
 
-El candidato tiene prohibido consultar Internet, seguir enlaces, acceder a fuentes externas, utilizar herramientas o delegar. Debe trabajar sólo con el material entregado y señalar sus incertidumbres. La confirmación de esa condición se conserva junto con la respuesta.
+## Condiciones de interpretación
 
-El caso completo forma parte de esta edición pública. La prohibición mantiene el examen cerrado por sus reglas, mientras que el desconocimiento previo y el aislamiento efectivo requieren la evidencia correspondiente. La documentación del Sistema Vectorial (SV) distingue igualmente estos alcances. La declaración de cumplimiento del candidato y la configuración visible constituyen la evidencia conservada; no equivalen a una auditoría técnica independiente de la plataforma.
+Las aplicaciones se realizaron con el mismo candidato, ya expuesto a materiales anteriores, y con respuestas en español. No representan observadores independientes. Cambiaron las composiciones y, en determinados contrastes, la cuestión examinada; sus cantidades no se comparan como una tasa uniforme de progreso.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+El texto del candidato es evidencia de lo comprendido. La clave expresa lo que se pretendía comunicar. Mantenerlas separadas permite detectar interpretaciones plausibles que omiten una relación crítica. Una respuesta verbal correcta no demuestra ausencia de lenguaje interior; tampoco acredita equivalencia entre todas las lenguas.
+
+La consulta externa estaba prohibida por las condiciones de la prueba. Esa condición y su declaración de cumplimiento no equivalen a una demostración técnica de aislamiento. La comprensión del relato completo de televisión, especialmente pertenencia de Android, corrupción sospechada e hipótesis causal, continúa pendiente. Los siguientes contrastes deberán examinar transferencia a composiciones nuevas y con menor apoyo comparativo.
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

@@ -1,0 +1,3921 @@
+{
+  "convenio": "SVIMG02",
+  "autoria": "© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · CC BY-NC-ND 4.0",
+  "articulo": "https://doi.org/10.21428/39829d0b.8b9c0155",
+  "registro": "bcc77afd-9030-4d89-bffa-3d9a250f3804",
+  "imagenes": [
+    {
+      "identificador": "Imagen1",
+      "recurso": "imagenes/origen/Imagen1.png",
+      "naturaleza": "Imagen sintética de apariencia fotográfica; no captura real",
+      "resolucion": {
+        "alto": 1254,
+        "ancho": 1254,
+        "bits_por_canal": 8,
+        "canales": 4
+      },
+      "calibracion": "Valores digitales conservados; sin calibración radiométrica física ni inferencia de escala real",
+      "contexto": "Recurso sintético del corpus; el entorno físico no capturado no se presume observado",
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 33.19701467063843,
+        "mu_aproximado": 94.80298532936158,
+        "potencial_aproximado": 61.60597065872314,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 0.9056285917557406,
+        "q_exacto": "P/2^N",
+        "N": 50320642,
+        "entero_exacto": "datos/potenciales/Imagen1.potencial-be.gz"
+      },
+      "sucesos": [],
+      "glifo_semantico_constituido": false,
+      "observacion": "Glifo semántico y célula todavía no constituidos."
+    },
+    {
+      "identificador": "Imagen2",
+      "recurso": "imagenes/origen/Imagen2.png",
+      "naturaleza": "Imagen sintética de apariencia fotográfica; no captura real",
+      "resolucion": {
+        "alto": 1254,
+        "ancho": 1254,
+        "bits_por_canal": 8,
+        "canales": 4
+      },
+      "calibracion": "Valores digitales conservados; sin calibración radiométrica física ni inferencia de escala real",
+      "contexto": "Recurso sintético del corpus; el entorno físico no capturado no se presume observado",
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 35.45650371078445,
+        "mu_aproximado": 92.54349628921554,
+        "potencial_aproximado": 57.086992578431094,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 0.748996466328834,
+        "q_exacto": "P/2^N",
+        "N": 50320642,
+        "entero_exacto": "datos/potenciales/Imagen2.potencial-be.gz"
+      },
+      "sucesos": [],
+      "glifo_semantico_constituido": false,
+      "observacion": "Glifo semántico y célula todavía no constituidos."
+    },
+    {
+      "identificador": "Imagen3",
+      "recurso": "imagenes/origen/Imagen3.png",
+      "naturaleza": "Imagen sintética de apariencia fotográfica; no captura real",
+      "resolucion": {
+        "alto": 1254,
+        "ancho": 1254,
+        "bits_por_canal": 8,
+        "canales": 4
+      },
+      "calibracion": "Valores digitales conservados; sin calibración radiométrica física ni inferencia de escala real",
+      "contexto": "Recurso sintético del corpus; el entorno físico no capturado no se presume observado",
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 37.09063827043599,
+        "mu_aproximado": 90.90936172956401,
+        "potencial_aproximado": 53.81872345912802,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 0.6511477827186103,
+        "q_exacto": "P/2^N",
+        "N": 50320642,
+        "entero_exacto": "datos/potenciales/Imagen3.potencial-be.gz"
+      },
+      "sucesos": [],
+      "glifo_semantico_constituido": false,
+      "observacion": "Glifo semántico y célula todavía no constituidos."
+    },
+    {
+      "identificador": "Imagen4",
+      "recurso": "imagenes/origen/Imagen4.png",
+      "naturaleza": "Imagen sintética de apariencia fotográfica; no captura real",
+      "resolucion": {
+        "alto": 887,
+        "ancho": 1774,
+        "bits_por_canal": 8,
+        "canales": 4
+      },
+      "calibracion": "Valores digitales conservados; sin calibración radiométrica física ni inferencia de escala real",
+      "contexto": "Recurso sintético del corpus; el entorno físico no capturado no se presume observado",
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32.04766089255388,
+        "mu_aproximado": 95.95233910744612,
+        "potencial_aproximado": 63.90467821489225,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 0.9960784316058362,
+        "q_exacto": "P/2^N",
+        "N": 50353346,
+        "entero_exacto": "datos/potenciales/Imagen4.potencial-be.gz"
+      },
+      "sucesos": [
+        "S40",
+        "S41"
+      ],
+      "glifo_semantico_constituido": true,
+      "observacion": "Las dos mitades ilustran S40 y S41; causa y reparación no son observables en esta imagen."
+    }
+  ],
+  "sucesos": [
+    {
+      "suceso": "S1",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S1",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S1.png",
+      "texto_referencia": "La dueña del perro deposita el hueso en el plato con la finalidad de que el perro lo coma. No está determinado si el perro tiene hambre.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S1/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S1/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "000101100"
+        },
+        {
+          "b": 3,
+          "identificador": "S1/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            8,
+            1,
+            0
+          ],
+          "recuento_terna": [
+            8,
+            1,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "000001000"
+        },
+        {
+          "b": 3,
+          "identificador": "S1/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            8,
+            1,
+            0
+          ],
+          "recuento_terna": [
+            8,
+            1,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "001000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S1/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "000010100"
+        },
+        {
+          "b": 3,
+          "identificador": "S1/Célula6",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 6,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "010100000"
+        },
+        {
+          "b": 3,
+          "identificador": "S1/Célula7",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 7,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "001001001"
+        },
+        {
+          "b": 3,
+          "identificador": "S1/Célula8",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 8,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "000101100"
+        },
+        {
+          "b": 4,
+          "identificador": "S1/Célula9",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 9,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            9,
+            7,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            7,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "0010011110001001"
+        },
+        {
+          "b": 4,
+          "identificador": "S1/Célula10",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 10,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            12,
+            3,
+            1
+          ],
+          "recuento_terna": [
+            12,
+            3,
+            1
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S1",
+          "vector": "000000011001000U"
+        }
+      ],
+      "recuento_terna": [
+        78,
+        25,
+        1
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso5.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S2",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S2",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S2.png",
+      "texto_referencia": "El perro ha terminado de comerse el hueso.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 4,
+          "identificador": "S2/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            13,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            13,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S2",
+          "vector": "0000000000001011"
+        },
+        {
+          "b": 4,
+          "identificador": "S2/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            14,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            14,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S2",
+          "vector": "0000001000000001"
+        },
+        {
+          "b": 4,
+          "identificador": "S2/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            13,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            13,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S2",
+          "vector": "1000000100100000"
+        }
+      ],
+      "recuento_terna": [
+        40,
+        8,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso36.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S3",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S3",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S3.png",
+      "texto_referencia": "El gato blanco llega al plato y tiene hambre.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S3/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S3",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S3/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S3",
+          "vector": "000101100"
+        },
+        {
+          "b": 3,
+          "identificador": "S3/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S3",
+          "vector": "000011000"
+        },
+        {
+          "b": 3,
+          "identificador": "S3/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S3",
+          "vector": "000100110"
+        },
+        {
+          "b": 3,
+          "identificador": "S3/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            4,
+            5,
+            0
+          ],
+          "recuento_terna": [
+            4,
+            5,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S3",
+          "vector": "100110101"
+        },
+        {
+          "b": 4,
+          "identificador": "S3/Célula6",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "n": 16,
+          "orden": 6,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 15,
+          "recuento_informativo": [
+            11,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            11,
+            5,
+            0
+          ],
+          "reserva_estructural": 1,
+          "suceso": "S3",
+          "vector": "0000001100110001"
+        }
+      ],
+      "recuento_terna": [
+        43,
+        18,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso77.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S4",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S4",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S4.png",
+      "texto_referencia": "El gato blanco mira el plato.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 4,
+          "identificador": "S4/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            13,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            13,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S4",
+          "vector": "0000000000001011"
+        },
+        {
+          "b": 4,
+          "identificador": "S4/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            14,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            14,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S4",
+          "vector": "0000010000000001"
+        },
+        {
+          "b": 4,
+          "identificador": "S4/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            11,
+            5,
+            0
+          ],
+          "recuento_terna": [
+            11,
+            5,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S4",
+          "vector": "0001000110101000"
+        }
+      ],
+      "recuento_terna": [
+        38,
+        10,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso118.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S5",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S5",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S5.png",
+      "texto_referencia": "El plato está vacío y el gato blanco percibe ese vacío.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S5/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S5",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S5/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S5",
+          "vector": "000101100"
+        },
+        {
+          "b": 3,
+          "identificador": "S5/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S5",
+          "vector": "000101000"
+        },
+        {
+          "b": 3,
+          "identificador": "S5/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S5",
+          "vector": "000100110"
+        },
+        {
+          "b": 3,
+          "identificador": "S5/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S5",
+          "vector": "001010000"
+        },
+        {
+          "b": 4,
+          "identificador": "S5/Célula6",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "n": 16,
+          "orden": 6,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 15,
+          "recuento_informativo": [
+            7,
+            8,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            9,
+            0
+          ],
+          "reserva_estructural": 1,
+          "suceso": "S5",
+          "vector": "1100010111001101"
+        }
+      ],
+      "recuento_terna": [
+        42,
+        19,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso159.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S6",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S6",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S6.png",
+      "texto_referencia": "En el pensamiento del gato blanco se expresa indiferencia y la idea de que los gatos no comen huesos y sí comen pescado. Es un contenido atribuido a ese gato, no una afirmación del narrador sobre todos los gatos reales.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 4,
+          "identificador": "S6/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            13,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            13,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S6",
+          "vector": "0000000000001011"
+        },
+        {
+          "b": 4,
+          "identificador": "S6/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            12,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            12,
+            4,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S6",
+          "vector": "0000011000000011"
+        },
+        {
+          "b": 4,
+          "identificador": "S6/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            11,
+            5,
+            0
+          ],
+          "recuento_terna": [
+            11,
+            5,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S6",
+          "vector": "0000110110100000"
+        },
+        {
+          "b": 4,
+          "identificador": "S6/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            9,
+            7,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            7,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S6",
+          "vector": "0010011100001101"
+        },
+        {
+          "b": 4,
+          "identificador": "S6/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            10,
+            6,
+            0
+          ],
+          "recuento_terna": [
+            10,
+            6,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S6",
+          "vector": "1011000000100110"
+        },
+        {
+          "b": 4,
+          "identificador": "S6/Célula6",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 6,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            10,
+            6,
+            0
+          ],
+          "recuento_terna": [
+            10,
+            6,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S6",
+          "vector": "0010000110100110"
+        }
+      ],
+      "recuento_terna": [
+        65,
+        31,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso200.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S7",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S7",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S7.png",
+      "texto_referencia": "El perro sale de la casa al jardín. El jardín pertenece a la casa y los matorrales están en el jardín. El perro tenía guardado previamente un pescado en esos matorrales.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S7/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S7/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "000101100"
+        },
+        {
+          "b": 3,
+          "identificador": "S7/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "000111000"
+        },
+        {
+          "b": 3,
+          "identificador": "S7/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            5,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            5,
+            4,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "001000111"
+        },
+        {
+          "b": 3,
+          "identificador": "S7/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            5,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            5,
+            4,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "010000111"
+        },
+        {
+          "b": 3,
+          "identificador": "S7/Célula6",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 6,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            5,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            5,
+            4,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "000011101"
+        },
+        {
+          "b": 3,
+          "identificador": "S7/Célula7",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 7,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "001100000"
+        },
+        {
+          "b": 3,
+          "identificador": "S7/Célula8",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 8,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "000101001"
+        },
+        {
+          "b": 4,
+          "identificador": "S7/Célula9",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 9,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            10,
+            6,
+            0
+          ],
+          "recuento_terna": [
+            10,
+            6,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "0011110000000011"
+        },
+        {
+          "b": 4,
+          "identificador": "S7/Célula10",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 10,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            11,
+            5,
+            0
+          ],
+          "recuento_terna": [
+            11,
+            5,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S7",
+          "vector": "0001001101001000"
+        }
+      ],
+      "recuento_terna": [
+        70,
+        34,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso241.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S8",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S8",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S8.png",
+      "texto_referencia": "El perro recoge con la boca el pescado de los matorrales.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S8/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S8",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S8/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S8",
+          "vector": "000101100"
+        },
+        {
+          "b": 3,
+          "identificador": "S8/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            8,
+            1,
+            0
+          ],
+          "recuento_terna": [
+            8,
+            1,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S8",
+          "vector": "001000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S8/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S8",
+          "vector": "000010011"
+        },
+        {
+          "b": 4,
+          "identificador": "S8/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            10,
+            6,
+            0
+          ],
+          "recuento_terna": [
+            10,
+            6,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S8",
+          "vector": "1001001101001000"
+        }
+      ],
+      "recuento_terna": [
+        39,
+        13,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso282.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S9",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S9",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S9.png",
+      "texto_referencia": "El perro deposita el pescado en el plato. El gato blanco es el destinatario de ese alimento.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S9/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S9",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S9/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S9",
+          "vector": "000101100"
+        },
+        {
+          "b": 3,
+          "identificador": "S9/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S9",
+          "vector": "001001000"
+        },
+        {
+          "b": 3,
+          "identificador": "S9/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            8,
+            1,
+            0
+          ],
+          "recuento_terna": [
+            8,
+            1,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S9",
+          "vector": "000100000"
+        },
+        {
+          "b": 4,
+          "identificador": "S9/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            11,
+            5,
+            0
+          ],
+          "recuento_terna": [
+            11,
+            5,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S9",
+          "vector": "0001001100101000"
+        },
+        {
+          "b": 4,
+          "identificador": "S9/Célula6",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 6,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            10,
+            6,
+            0
+          ],
+          "recuento_terna": [
+            10,
+            6,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S9",
+          "vector": "1000101100011000"
+        }
+      ],
+      "recuento_terna": [
+        51,
+        17,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso323.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S10",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S10",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S10.png",
+      "texto_referencia": "El gato blanco ha terminado de comerse ese pescado.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 4,
+          "identificador": "S10/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            13,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            13,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S10",
+          "vector": "0000000000001011"
+        },
+        {
+          "b": 4,
+          "identificador": "S10/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            13,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            13,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S10",
+          "vector": "0000101000000001"
+        },
+        {
+          "b": 4,
+          "identificador": "S10/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            11,
+            5,
+            0
+          ],
+          "recuento_terna": [
+            11,
+            5,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S10",
+          "vector": "1000000110110000"
+        }
+      ],
+      "recuento_terna": [
+        37,
+        11,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso6.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S11",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S11",
+      "familia": "Alimentación y convivencia",
+      "constitucion": "LBI09-V2",
+      "glifo": "imagenes/sucesos/S11.png",
+      "texto_referencia": "El perro y el gato blanco se hacen amigos. Ambos están sentados en el sofá junto a la dueña; ella acaricia a los dos y ambos están alegres. Las relaciones de esta aparición no establecen una sucesión interna de caricias, posturas o estados.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S11/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "000101100"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "001011000"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            4,
+            5,
+            0
+          ],
+          "recuento_terna": [
+            4,
+            5,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "001110101"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "000010010"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula6",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 6,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "000010100"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula7",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 7,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "001001100"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula8",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 8,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            5,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            5,
+            4,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "001011001"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula9",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 9,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "000001011"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula10",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 10,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "001100001"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula11",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 11,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            8,
+            1,
+            0
+          ],
+          "recuento_terna": [
+            8,
+            1,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "000001000"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula12",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 12,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "110000100"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula13",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 13,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            5,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            5,
+            4,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "100101010"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula14",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 14,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "000100001"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula15",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 15,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            5,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            5,
+            4,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "001001110"
+        },
+        {
+          "b": 3,
+          "identificador": "S11/Célula16",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 16,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S11",
+          "vector": "100001000"
+        }
+      ],
+      "recuento_terna": [
+        100,
+        44,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso15.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S40",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S40",
+      "familia": "Televisión y transiciones de funcionamiento",
+      "constitucion": "LBI33-V8",
+      "glifo": "imagenes/sucesos/S40.png",
+      "texto_referencia": "La televisión inteligente funcionaba en el estado anterior.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": {
+        "alcance": "Apoyo ilustrativo; constitución manual. No demuestra todos los atributos de la frase.",
+        "imagen": "Imagen4",
+        "region": "mitad izquierda"
+      },
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S40/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S40",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S40/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S40",
+          "vector": "010001100"
+        },
+        {
+          "b": 3,
+          "identificador": "S40/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            8,
+            1,
+            0
+          ],
+          "recuento_terna": [
+            8,
+            1,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S40",
+          "vector": "000001000"
+        },
+        {
+          "b": 3,
+          "identificador": "S40/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S40",
+          "vector": "000011010"
+        },
+        {
+          "b": 3,
+          "identificador": "S40/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "n": 9,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 8,
+          "recuento_informativo": [
+            5,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            5,
+            4,
+            0
+          ],
+          "reserva_estructural": 1,
+          "suceso": "S40",
+          "vector": "011010001"
+        }
+      ],
+      "recuento_terna": [
+        34,
+        11,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso119.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S41",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S41",
+      "familia": "Televisión y transiciones de funcionamiento",
+      "constitucion": "LBI33-V8",
+      "glifo": "imagenes/sucesos/S41.png",
+      "texto_referencia": "La misma televisión inteligente no funciona en el estado presente.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": {
+        "alcance": "Apoyo ilustrativo; una captura fija no acredita por sí sola un arranque detenido.",
+        "imagen": "Imagen4",
+        "region": "mitad derecha"
+      },
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S41/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S41",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S41/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S41",
+          "vector": "010001100"
+        },
+        {
+          "b": 3,
+          "identificador": "S41/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            8,
+            1,
+            0
+          ],
+          "recuento_terna": [
+            8,
+            1,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S41",
+          "vector": "000010000"
+        },
+        {
+          "b": 3,
+          "identificador": "S41/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S41",
+          "vector": "000011010"
+        },
+        {
+          "b": 3,
+          "identificador": "S41/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "n": 9,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 8,
+          "recuento_informativo": [
+            4,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            4,
+            5,
+            0
+          ],
+          "reserva_estructural": 1,
+          "suceso": "S41",
+          "vector": "011010011"
+        }
+      ],
+      "recuento_terna": [
+        33,
+        12,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso123.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S42",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S42",
+      "familia": "Televisión y transiciones de funcionamiento",
+      "constitucion": "LBI33-V8",
+      "glifo": "imagenes/sucesos/S42.png",
+      "texto_referencia": "Android es el sistema de esa televisión. La corrupción del sistema y su relación causal con el fallo constituyen una hipótesis, no un diagnóstico confirmado.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S42/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S42",
+          "vector": "000000000"
+        },
+        {
+          "b": 3,
+          "identificador": "S42/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S42",
+          "vector": "010001100"
+        },
+        {
+          "b": 3,
+          "identificador": "S42/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            7,
+            2,
+            0
+          ],
+          "recuento_terna": [
+            7,
+            2,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S42",
+          "vector": "000011000"
+        },
+        {
+          "b": 3,
+          "identificador": "S42/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            6,
+            3,
+            0
+          ],
+          "recuento_terna": [
+            6,
+            3,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S42",
+          "vector": "001001010"
+        },
+        {
+          "b": 3,
+          "identificador": "S42/Célula5",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 5,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            4,
+            5,
+            0
+          ],
+          "recuento_terna": [
+            4,
+            5,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S42",
+          "vector": "011010011"
+        },
+        {
+          "b": 3,
+          "identificador": "S42/Célula6",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 6,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            3,
+            6,
+            0
+          ],
+          "recuento_terna": [
+            3,
+            6,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S42",
+          "vector": "010111101"
+        },
+        {
+          "b": 3,
+          "identificador": "S42/Célula7",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 7,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            5,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            5,
+            4,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S42",
+          "vector": "101000101"
+        },
+        {
+          "b": 3,
+          "identificador": "S42/Célula8",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 8,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            4,
+            4,
+            1
+          ],
+          "recuento_terna": [
+            4,
+            4,
+            1
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S42",
+          "vector": "10111000U"
+        },
+        {
+          "b": 4,
+          "identificador": "S42/Célula9",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 9,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            5,
+            10,
+            1
+          ],
+          "recuento_terna": [
+            5,
+            10,
+            1
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S42",
+          "vector": "101111110110100U"
+        }
+      ],
+      "recuento_terna": [
+        49,
+        37,
+        2
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso127.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    },
+    {
+      "suceso": "S43",
+      "identificador_completo": "bcc77afd-9030-4d89-bffa-3d9a250f3804/S43",
+      "familia": "Televisión y transiciones de funcionamiento",
+      "constitucion": "LBI33-V8",
+      "glifo": "imagenes/sucesos/S43.png",
+      "texto_referencia": "Es necesario reparar la televisión, con el propósito de recuperar el funcionamiento. La reparación está pendiente y el resultado no se afirma realizado.",
+      "origen_texto": "Constitución narrativa; no respuesta del candidato",
+      "imagen_fuente": null,
+      "celulas": [
+        {
+          "b": 3,
+          "identificador": "S43/Célula1",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 9,
+          "orden": 1,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 9,
+          "recuento_informativo": [
+            9,
+            0,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            0,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S43",
+          "vector": "000000000"
+        },
+        {
+          "b": 4,
+          "identificador": "S43/Célula2",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 2,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            12,
+            4,
+            0
+          ],
+          "recuento_terna": [
+            12,
+            4,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S43",
+          "vector": "0100011000001000"
+        },
+        {
+          "b": 4,
+          "identificador": "S43/Célula3",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "n": 16,
+          "orden": 3,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 16,
+          "recuento_informativo": [
+            10,
+            6,
+            0
+          ],
+          "recuento_terna": [
+            10,
+            6,
+            0
+          ],
+          "reserva_estructural": 0,
+          "suceso": "S43",
+          "vector": "0000010110001101"
+        },
+        {
+          "b": 4,
+          "identificador": "S43/Célula4",
+          "mascara_informativa": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          "n": 16,
+          "orden": 4,
+          "papel": "Codificación de la representación; no evaluación de aptitud",
+          "posiciones_informativas": 15,
+          "recuento_informativo": [
+            9,
+            6,
+            0
+          ],
+          "recuento_terna": [
+            9,
+            7,
+            0
+          ],
+          "reserva_estructural": 1,
+          "suceso": "S43",
+          "vector": "0001100111010001"
+        }
+      ],
+      "recuento_terna": [
+        40,
+        17,
+        0
+      ],
+      "potencial": {
+        "decimales_solo_consulta": true,
+        "escala": "64",
+        "eta": "1/10",
+        "intensidad_exacta": 128,
+        "lambda_aproximado": 32,
+        "mu_aproximado": 96,
+        "potencial_aproximado": 64,
+        "potencial_exacto": "64*ln(1+10*P/2^N)/ln(11)",
+        "q_aproximado": 1,
+        "q_exacto": "P/2^N",
+        "N": 33554562,
+        "entero_exacto": "datos/potenciales/Recurso131.potencial-be.gz"
+      },
+      "captura_real_asociada": false
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 Las siguientes tablas transcriben las composiciones conservadas para las once imágenes del capítulo 9. Cada fila identifica una célula; la sucesión de símbolos recorre sus posiciones **P1…Pn**. Los números de célula son índices documentales de composición y no valores añadidos a la terna.
 
-La constitución, el repertorio compartido y el orden son necesarios para interpretar estas sucesiones. Los vectores no deben leerse como palabras ni calificarse mediante la regla de aptitud de un examen. La longitud informativa distingue los datos de la reserva estructural. Las dos posiciones de reserva son una limitación de conformidad del prototipo, examinada en el [capítulo 7](07-economia.md); se conserva su transcripción para no alterar la evidencia.
+La constitución, el repertorio compartido y el orden son necesarios para interpretar estas sucesiones. Los vectores no deben leerse como palabras ni calificarse mediante la regla de aptitud de un examen. La longitud informativa distingue los datos de la reserva estructural. Las dos posiciones de reserva son una limitación de conformidad del prototipo, examinada en el [capítulo 8](07-economia.md); se conserva su transcripción para no alterar la evidencia.
 
 ## Representación geométrica e interacción
 
@@ -179,27 +179,15 @@ Longitud informativa: 144. [Ver figura 9.11](09-caso-completo.md#figura-9-11).
 | 15 | (9,3) | `001001110` |
 | 16 | (9,3) | `100001000` |
 
-## Correspondencia de la prueba
+## Vinculación del caso
 
-| Lámina | *Frame* |
-| --- | ---: |
-| A | 3 |
-| B | 5 |
-| C | 6 |
-| D | 2 |
-| E | 11 |
-| F | 9 |
-| G | 8 |
-| H | 10 |
-| I | 4 |
-| J | 1 |
-| K | 7 |
-
-El orden canónico es **J → D → A → I → B → C → K → G → F → H → E**. Las letras identifican materiales de la prueba; no expresan por sí mismas un orden temporal.
+Las once composiciones corresponden, en el mismo orden, a S1–S11 del [registro de correspondencias](23-correspondencias.md). Allí pueden examinarse junto a su glifo, su texto y su potencial exacto.
 
 La igualdad entre imagen y vector se refiere a la representación constituida. Las fotografías reales correspondientes a cada suceso todavía no están asociadas a esta serie. Publicar las tablas no demuestra la realización del extremo fotográfico pendiente.
 
 
 Fundamento de representación: <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ce5aad1125460263904acb91142f33324ce89dfc/docs/calidad/tuberias-ia/paridad-imagen-celula-matematica/CELULA_IMAGEN_Y_AGENTES_EN_EL_SV_P1_P3_BIS_2026_09_13_V2.md" target="_blank" rel="noopener noreferrer">paridad entre célula e imagen, apartados 2.1 y 2.2</a>.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

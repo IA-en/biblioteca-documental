@@ -1,4 +1,4 @@
-# 2. Fundamento celular y alcance algebraico
+# 3. Fundamento celular y alcance algebraico
 
 La célula se expresa como **(n,b)**, con **n=b²** y b entero mayor o igual que 3 en la familia aquí utilizada. Sus n posiciones ordenadas toman valores del alfabeto **Σ={0,1,U}**. Una célula de dimensión n admite 3ⁿ configuraciones de esos símbolos.
 
@@ -28,4 +28,6 @@ Un análisis que emplee otra codificación numérica puede servir como instrumen
 
 Fuente principal: <a href="https://documentos-sv.itvia.online/evaluacion/validacion-autorizacion-modelos/correccion.html" target="_blank" rel="noopener noreferrer">corrección, célula y clasificación del Sistema Vectorial (SV)</a>.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

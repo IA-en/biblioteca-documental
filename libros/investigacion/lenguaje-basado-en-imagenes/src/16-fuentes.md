@@ -1,4 +1,4 @@
-# 16. Fuentes, autoría y licencias
+# Fuentes, autoría y licencias
 
 ## Autoría
 
@@ -14,7 +14,7 @@ Los contenidos propios se presentan bajo **Creative Commons Atribución-NoComerc
 
 La declaración se limita a los contenidos de titularidad propia y a los derechos que correspondan. Las fuentes externas y los componentes de terceros mantienen sus autores, avisos y licencias. No se atribuye al Sistema Vectorial (SV) la titularidad de derechos ajenos ni se sustituye su régimen por el aviso general.
 
-mdBook y sus recursos de presentación conservan sus avisos y la Mozilla Public License 2.0 (MPL-2.0) correspondiente. La copia del aviso se distribuye con esta edición. Los recursos editoriales existentes se reutilizan conservando su procedencia; ello no convierte su tecnología en parte del núcleo lógico del Sistema Vectorial (SV).
+Los componentes editoriales y sus recursos conservan los avisos de sus titulares y sus licencias. La relación de instrumentos identifica su procedencia.
 
 Las ilustraciones y glifos del caso proceden del material de investigación conservado. Las seis ilustraciones del volcán se han generado de nuevo para esta obra, a partir de una descripción propia y de sus nuevas variantes, sin reutilizar las imágenes del antecedente documental. Las escenas del capítulo 13 son sintéticas y se declaran expresamente como tales. La denominación de imagen real en el objetivo del tratado no altera su procedencia.
 
@@ -26,7 +26,7 @@ La [bibliografía](bibliografia.md), situada al final del cuerpo principal, dist
 
 La edición utiliza la constitución LBI09-V2, la serie 11 y la capa semántica de referencia correspondiente. Las comprobaciones conservadas cubren la representación canónica y su recuperación, la composición celular y los contrastes definidos. Sus resultados no se extienden a imágenes arbitrarias.
 
-El relato de referencia, las tablas de relaciones y los vectores publicados permiten inspeccionar el caso. Las respuestas del candidato se conservan en su forma original para evaluación. El libro presenta resultados y límites sin introducir identidades personales de las sesiones ni información operativa ajena al estudio.
+El relato de referencia, las tablas de relaciones y los vectores publicados permiten inspeccionar el caso. Las respuestas del candidato se conservan en su forma original para evaluación. Los resultados se refieren a las condiciones de observación y de evaluación declaradas.
 
 ## Publicación académica vinculada
 
@@ -34,4 +34,6 @@ Lloret Egea, Juan Antonio (2026). *Lenguaje Basado en Imágenes (LBI): represent
 
 El identificador corresponde al artículo publicado. El tratado desarrolla sus fundamentos, el caso y los materiales gráficos; conserva su propia numeración de ediciones. La publicación del artículo no modifica por sí misma el alcance de las comprobaciones descritas.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

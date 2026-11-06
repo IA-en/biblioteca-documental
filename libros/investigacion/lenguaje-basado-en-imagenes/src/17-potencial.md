@@ -1,111 +1,114 @@
-# 17. Potencial, individuación y retorno
+# 16. Potencial de la imagen: definición, cálculo y retorno
 
-La directriz de la obra comprende cuatro componentes:
+El potencial debe distinguir las diferencias que la representación conserva. Una suma de puntos oscuros no cumple esta función: dos dibujos pueden contener igual cantidad de puntos y distribuirlos de otra manera. La posición forma parte del dato. Este capítulo define una proyección reversible del dominio digital de la imagen y la relaciona con la recta Atlas.
 
-**Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un *frame* del Sistema Vectorial (SV)**
+## Fórmulas de referencia y convenio visual
 
-El cuarto término debe conservar el dato de potencial con su dominio, identidad, firma, ruta, residual y dictamen. Una cifra separada de esos componentes no acredita el retorno único. La obligación de correspondencia se mantiene; las condiciones que permiten cumplirla deben declararse y comprobarse.
+Las <a href="https://doi.org/10.21428/39829d0b.dcb48723" target="_blank" rel="noopener noreferrer">Reglas y condiciones de las Matemáticas del Potencial</a>, apartado 13.1, y <a href="https://doi.org/10.21428/39829d0b.5e15cabb" target="_blank" rel="noopener noreferrer">Orientación universal y geográfica</a>, apartados 6 y 8.9, establecen las condiciones de una proyección efectiva. Las magnitudes fundamentales son:
 
-## La norma de individuación
+**P = μ − λ; I = μ + λ.**
 
-El apartado 8.9 de <a href="https://doi.org/10.21428/39829d0b.5e15cabb" target="_blank" rel="noopener noreferrer">Orientación universal y geográfica: potencial del suceso e interfaz de dominio</a> distingue la base común de un régimen y la firma singular de un individuo. Dos individuos pueden compartir base e intensidad y conservar identidades distintas. También distingue al individuo persistente de sus sucesivos estados.
+Los polos μ y λ son no negativos y deben compartir dominio, escala y orientación. En una base igualada s, la individuación mediante un diferencial δ adopta μ = s + δ/2 y λ = s − δ/2. Entonces P = δ e I = 2s. El apartado 8.10 presenta controles con diferenciales sintéticos dados; no son una extracción de valores a partir de píxeles.
 
-La firma comprende identidad, posición, estado, memoria, vínculo, ruta, interfaz y residual. Sus componentes no se convierten automáticamente en posiciones de una célula: la firma es un registro de individuación; una eventual constitución celular exige su propia regla de representación.
+Para las imágenes se constituye aquí el convenio **SVIMG02**. Esta denominación identifica una regla exacta de representación. Las fórmulas polares y la transformación Atlas proceden de las publicaciones citadas; la selección y ordenación de las muestras digitales que se especifican a continuación son el convenio de esta aplicación visual. No se identifican con una medición de energía, edad o masa.
 
-La proyección Atlas Φ toma la firma declarada y obtiene un diferencial δ cuando las componentes utilizadas tienen dominio, frontera, traza o medición suficientes. Escribir el nombre de esa función no proporciona por sí solo un procedimiento para obtener el diferencial de una fotografía.
+## Qué información entra
 
-La fuente reúne el dato mediante la expresión:
+El objeto del cálculo es una imagen normalizada: anchura, altura y muestras ordenadas por filas, de izquierda a derecha y de arriba abajo. Cada píxel contiene rojo, verde, azul y canal alfa, que expresa la opacidad (RGBA, por su denominación inglesa), con ocho bits por componente. Los valores son digitales; la calibración física y la información contextual disponible se declaran en el registro.
 
-<p class="formula">Dato<sub>Atlas</sub>(j) = ⟨base común, firma singular, diferencial, proyección de ruta, residual, dictamen⟩.</p>
+Se conservan las cuatro componentes, incluso bajo transparencia. No se recorta la imagen, no se resume mediante un histograma y no se reordenan sus píxeles. Una entrada de profundidad superior a ocho bits por componente exige otro perfil que conserve esa precisión; no se reduce silenciosamente. La descodificación del archivo precede al cálculo. Dos archivos comprimidos de manera distinta pueden representar las mismas muestras y obtener el mismo potencial de imagen; la identidad de archivo se comprueba por separado.
 
-Esta escritura desarrolla en palabras los componentes de la fórmula del apartado 8.9. El mismo apartado precisa: «El potencial individual no sustituye al identificador». Por ello, la identidad del perro se conserva al desplazarse al jardín, mientras que recoger el pescado y entregarlo al gato son sucesos distintos de su trayectoria.
+Las muestras se acompañan de una terminación de dieciséis octetos: los primeros ocho contienen, en decimal, 83, 86, 73, 77, 71, 48, 50 y 0, que identifican el perfil; los otros ocho expresan anchura y altura, cuatro por magnitud, con el octeto más significativo primero. Así, dos matrices con igual secuencia de colores y distinta forma no quedan confundidas. El perfil fija también el orden y la profundidad de las componentes. No supone que los valores digitales sean medidas radiométricas calibradas.
 
-## Cálculo y condiciones
+La secuencia completa tiene m bits y representa un entero C, con 0 ≤ C < 2ᵐ. El orden de los bits hace que cualquier diferencia conservada cambie C. Los ceros iniciales se mantienen mediante la longitud m.
 
-Las dos formulaciones básicas son el potencial **P = μ − λ** y la intensidad **I = μ + λ**. Los polos deben estar expresados en una escala y orientación comunes, con sus unidades y reglas declaradas. En la construcción de individuación sobre una base polar igualada, la fuente establece:
+## Polos posicionales y potencial exacto
 
-<p class="formula">μ<sub>j</sub> = μ<sub>E</sub><sup>0</sup> + δ<sub>j</sub>/2;<br>λ<sub>j</sub> = λ<sub>E</sub><sup>0</sup> − δ<sub>j</sub>/2;<br>P<sub>j</sub> = δ<sub>j</sub> u<sub>Atlas</sub>;<br>I<sub>j</sub> = I<sub>E</sub><sup>0</sup>.</p>
+Se anteponen dos bits iguales a uno a esa secuencia. Su longitud total es N = m + 2. Se definen:
 
-La unidad Atlas se indica mediante u<sub>Atlas</sub>; δ es su coeficiente escalar. La igualdad de intensidad corresponde a esa construcción y requiere conservar la escala declarada. No debe extenderse sin justificación a cualquier transformación del dominio.
+**μ = 3·2ᵐ + C**
 
-El apartado 8.10 aporta ejemplos sintéticos para verificar las operaciones. Con base común (47; 47; 94), sus dos diferenciales declarados producen:
+**λ = 2ᵐ − 1 − C**
 
-| Individuo sintético | δ | μ | λ | Coeficiente de P | I |
-|---|---:|---:|---:|---:|---:|
-| A | +1,20 | 47,60 | 46,40 | +1,20 | 94,00 |
-| B | −0,60 | 46,70 | 47,30 | −0,60 | 94,00 |
+**P = 2ᵐ⁺¹ + 2C + 1**
 
-La diferencia entre los coeficientes de potencial es 1,80. Son controles aritméticos con valores sintéticos declarados por la fuente. No representan mediciones del perro, del gato, de la dueña ni de los once *frames* del relato.
+**I = 2ᵐ⁺² − 1.**
 
-## Identidad, precisión y unicidad
+Ambos polos son no negativos. El segundo es el complemento del primero dentro de las N posiciones. El potencial es un entero impar positivo y tiene exactamente N bits. La construcción conserva las muestras completas; no es una huella abreviada ni un número de inscripción del suceso.
 
-La precisión conserva diferencias numéricas existentes; no crea diferencias entre valores iguales. Los pares polares (7,2) y (9,4) dan exactamente P = 5. Añadir decimales no los distingue. Sus intensidades son distintas, pero tampoco la pareja (P,I) contiene por sí sola la identidad de un suceso. Esta distinción se recoge en <a href="https://documentos-sv.itvia.online/dominios/universos/parametros-rutas#potencial-matem%C3%A1tico-aplicado-al-conocimiento-y-a-las-rutas" target="_blank" rel="noopener noreferrer">Parámetros y rutas: potencial matemático aplicado al conocimiento</a>.
+### Ejemplo reducido
 
-Cuando una magnitud sea exacta se conservará su expresión exacta. Cuando proceda de una medición, se conservarán además resolución, incertidumbre y regla de redondeo. No se alterará un potencial mediante cifras artificiales para convertirlo en identificador.
+Considérense dos secuencias de dos bits, únicamente para mostrar la aritmética; las imágenes completas incorporan además sus dimensiones y el perfil.
 
-Si se pretendiera que una magnitud escalar aislada identificara todos los *frames* de un dominio, habría que definir y demostrar una proyección inyectiva sobre ese dominio. Las fórmulas anteriores, por sí solas, no constituyen esa demostración. El registro estructurado permite conservar las distinciones que la cifra no contiene.
+| Secuencia | m | C | μ | λ | P | I |
+|---|---:|---:|---:|---:|---:|---:|
+| 01 | 2 | 1 | 13 | 2 | 11 | 15 |
+| 10 | 2 | 2 | 14 | 1 | 13 | 15 |
 
-## Configuración y dinámica sin tiempo primitivo
+Las dos secuencias tienen un cero y un uno. Un conteo no las distinguiría. El potencial posicional produce 11 y 13 porque conserva el orden. Para recuperar la primera, se obtiene N = 4 de la longitud binaria de 11, m = 2 y C = (11 − 8 − 1)/2 = 1. Expresado con dos bits, C devuelve 01.
 
-La <a href="https://doi.org/10.21428/39829d0b.8ea18396" target="_blank" rel="noopener noreferrer">tercera edición de Dinámica del Suceso</a>, apartados 1–3, distingue la configuración celular o *frame*, el dato de transición y el suceso admisible. La configuración S pertenece al espacio ternario declarado; el suceso admisible e = (H, H′, σ, Rₑ) reúne horizonte de partida, horizonte resultante, soporte y operador de reevaluación. Una imagen estática o una inscripción documental no satisface automáticamente esa definición.
+### Por qué no se confunden dos representaciones distintas
 
-La admisibilidad requiere soporte y operador bien definidos, dominio no vacío, legibilidad de las configuraciones, variación no nula de algún observable compatible, control exterior y compatibilidad observacional. Por ello, afirmar que el entorno cambia no sustituye la declaración de qué variación se evalúa y en qué dominio. La coincidencia de un observable, incluido un potencial local, tampoco demuestra que todos los demás coincidan.
+Para una longitud m fija, P aumenta en dos cuando C aumenta en uno; por tanto, valores distintos de C producen potenciales distintos. Para longitudes diferentes, P tiene una longitud binaria N diferente. Los intervalos correspondientes no se solapan. La inversa es:
 
-El orden de los sucesos no introduce tiempo como primitiva. La dinámica compara configuraciones mediante reevaluaciones y recorridos declarados. Una medición temporal puede utilizarse como herramienta de un dominio cuando esté justificada; no fundamenta la identidad, la precedencia ni la diferencia entre sucesos. En el caso de la televisión, «antes» y «ahora» expresan el orden narrativo comunicado, sin imponer una variable temporal al fundamento matemático.
+**N = longitud binaria de P; m = N − 2; C = (P − 2ᵐ⁺¹ − 1)/2.**
 
-Los apartados 4–7 distinguen ejecución de operadores, realización conjunta y admisibilidad del compuesto. No basta componer pasos por pares para acreditar un recorrido completo, ni basta una composición ejecutable para obtener otro suceso admisible. Los apartados 8–10 preservan las posiciones clausuradas en una misma trayectoria canónica por adición y permiten recurrencia de configuraciones en evaluaciones distintas. Estas condiciones deben verificarse antes de atribuir a las secuencias visuales una dinámica formal completa.
+La secuencia recuperada se interpreta con exactamente m bits. Se comprueban perfil, dimensiones y cantidad de muestras. Una secuencia que no cumple esas condiciones queda fuera del dominio admitido. Estas igualdades demuestran inyectividad sobre las representaciones digitales constituidas; no afirman que una captura finita contenga todos los detalles del mundo físico.
 
-## Percepción, precisión e individuación del suceso
+## Proyección en la recta Atlas
 
-Una observación visual puede proporcionar contornos, colores, posiciones y relaciones espaciales antes de que el observador identifique verbalmente su contenido. La investigación propone estudiar su valoración mediante potencial sin exigir una denominación previa. La propuesta requiere declarar qué observables se obtienen, cómo se constituyen los polos y qué proyección conserva las diferencias pertinentes. Una fotografía bidimensional no proporciona por sí sola el volumen, la escala física ni las propiedades ocultas del objeto.
+Se normaliza el entero exacto mediante **q = P/2ᴺ**, de modo que 1/2 < q < 1. Como P es impar, la fracción está reducida y conserva tanto el numerador como la longitud. No se utiliza un número decimal redondeado como entrada de esta definición.
 
-La resolución y la calibración limitan la capacidad de distinguir. Dos observaciones pueden resultar indistinguibles con un dispositivo y diferenciarse mediante una lectura más precisa. Esa indistinguibilidad instrumental no autoriza a declarar identidad del suceso. Deben conservarse la resolución espacial y radiométrica pertinente, la calibración, la incertidumbre, las transformaciones de captura y la información contextual disponible. La ausencia de diferencia detectada no equivale a demostrar ausencia de diferencia.
+La transformación logarítmica de la recta Atlas se expresa como:
 
-Se adopta como requisito de investigación que el potencial singular permita distinguir cada suceso admisible del dominio constituido, incluso cuando reaparezca una configuración visual. Si se representa esa lectura singular mediante una función numérica, deberá demostrarse su inyectividad: la igualdad de sus valores ha de implicar identidad del suceso. Esta exigencia no queda acreditada por aumentar el número de decimales ni se deduce de la conservación por adición. Es necesario definir la función, las entradas que individualizan el suceso y la representación numérica que evita perder sus diferencias.
+**Sη(q) = ln(1 + q/η) / ln(1 + 1/η).**
 
-La expresión «diferencia infinitesimal» no designa aquí una magnitud ya calculada ni establece un sistema numérico nuevo. Se exige conservar toda diferencia no nula que la constitución permita determinar, por pequeña que sea. Una mayor precisión aritmética evita ciertos redondeos; no recupera una variación que nunca fue captada ni impide por sí sola que una proyección transforme entradas distintas en un mismo valor. Si la captura o la proyección resultan insuficientes, la individuación permanece sin resolver y debe indicarse su causa.
+Para este convenio se fijan η = 1/10 y una escala de 64 unidades Atlas. La base polar común es s = 64. La proyección efectiva es:
 
-El requisito de potencial singular debe distinguirse del potencial local P = μ − λ. La <a href="https://doi.org/10.21428/39829d0b.f0cbabc2" target="_blank" rel="noopener noreferrer">publicación sobre potencial del suceso, apartados 0.1, IV.1 y XVI.2</a>, admite que sucesos distintos compartan ese valor local. La <a href="https://doi.org/10.21428/39829d0b.5e15cabb" target="_blank" rel="noopener noreferrer">formulación de orientación, apartados 6 y 8.9</a>, exige magnitud declarada para el diferencial singular y conserva la identidad en el registro completo. Por tanto, la realización de una lectura numérica singular sin colisiones permanece como condición que debe demostrarse en el dominio visual; no se atribuye retrospectivamente a esas fórmulas una garantía adicional.
+**δ = ΦAtlas(imagen) = 64·ln(1 + 10q)/ln(11).**
 
-Si dos entradas contienen exactamente las mismas muestras y ningún dato de individuación, una función determinista recibe la misma entrada y devuelve el mismo resultado. Para distinguir los sucesos de captura necesita información adicional pertinente y trazable. Por ello, el retorno único se refiere a la representación constituida del suceso, con su contexto e identidad, y no a una matriz de píxeles separada de toda procedencia. Dos copias documentales pueden remitir al mismo acontecimiento; una nueva observación constituye otra inscripción y conserva el vínculo correspondiente.
+**μAtlas = 64 + δ/2; λAtlas = 64 − δ/2; PAtlas = δ; IAtlas = 128.**
 
-## Recurrencia estructural y Ciclo de Suceso
+La transformación es estrictamente creciente: su derivada es positiva para q ≥ 0 y η > 0. Por ello, no elimina ninguna distinción del racional exacto q. El diferencial queda entre cero y 64; ambos polos Atlas permanecen no negativos. La elección de escala es común a todas las imágenes de este convenio y no depende de reconocer un perro, un televisor o una persona. El dominio del cálculo es la imagen.
 
-El <a href="https://doi.org/10.21428/39829d0b.2b3c9808" target="_blank" rel="noopener noreferrer">Conjunto matemático unificado del cambio factual, apartado 12.3</a>, define el Ciclo de Suceso mediante la igualdad del polígono factual y la distinción de los sucesos. En su notación, v(Sₙ) = v(S₀) y εₙ ≠ ε₀. La coincidencia de configuración no reutiliza la identidad ni elimina la trayectoria. El apartado 12.2 distingue el régimen estricto de trayectoria única del recurrente estructural entre evaluaciones compatibles.
+Para el ejemplo 01, q = 11/16 y δ = 64·ln(63/8)/ln(11). Para 10, q = 13/16 y δ = 64·ln(73/8)/ln(11). Se conservan esas expresiones exactas, además de las aproximaciones que se necesiten para leer una tabla.
 
-En el dominio visual debe precisarse qué igualdad se ha comprobado: semejanza perceptiva, igualdad de muestras, igualdad de glifo o igualdad del polígono constituido. Esas relaciones no son intercambiables. La recurrencia de una figura sólo acredita el Ciclo de Suceso cuando se satisfacen las condiciones del dominio y de la constitución pertinentes. La insuficiencia de resolución se conserva como límite de la observación; no convierte dos sucesos distintos en uno solo.
+El retorno matemático recupera q mediante **q = (exp(δ·ln(11)/64) − 1)/10**. Su fracción reducida determina P y N. La realización conserva directamente el numerador entero y su longitud como representación exacta de δ, evitando pretender que una aproximación decimal pueda recuperar millones de muestras.
 
-## Registro de los once *frames*
+## Cuatro imágenes calculadas
 
-El caso inicial conserva un registro vinculado a cada uno de los once *frames* y conserva las setenta y cuatro células de su composición. Cada registro reúne la identidad del suceso ya constituido, la referencia de su imagen canónica, sus relaciones, su expresión semántica y la situación de su lectura de potencial.
+Las cuatro imágenes son sintéticas de apariencia fotográfica. El capítulo de [correspondencias](23-correspondencias.md) las muestra y enlaza con los datos del cálculo. Los siguientes valores se presentan con doce decimales para consulta; la intensidad es exactamente 128 en los cuatro casos.
 
-| Componente | Situación comprobada |
-|---|---|
-| Identidad y orden del *frame* | Conservados para los once sucesos. |
-| Contenido y composición celular | Conservados sin alterar los 74 vectores. |
-| Referentes y relaciones | Vinculados a la constitución del relato. |
-| Base, magnitud visual y proyección del diferencial | Pendientes de constitución para este dominio. |
-| Polos, potencial e intensidad del *frame* | Sin cifra atribuida mientras falte esa constitución. |
-| Controles sintéticos de la fuente | Operaciones verificadas con representación exacta. |
+| Imagen | Resolución | PAtlas aproximado | μAtlas aproximado | λAtlas aproximado |
+|---|---:|---:|---:|---:|
+| 1. Manzana y recipiente | 1254 × 1254 | 61.605970658723 | 94.802985329362 | 33.197014670638 |
+| 2. Libro y mochila | 1254 × 1254 | 57.086992578431 | 92.543496289216 | 35.456503710784 |
+| 3. Jardinería | 1254 × 1254 | 53.818723459128 | 90.909361729564 | 37.090638270436 |
+| 4. Televisor | 1774 × 887 | 63.904678214892 | 95.952339107446 | 32.047660892554 |
 
-Un cálculo pendiente no se declara cero ni se transforma en un valor U. La situación del cálculo se registra por separado de los valores de la terna. Tampoco se asimila la firma semántica del relato a una medición física que no se ha realizado.
+Las tres primeras representaciones tienen N = 50 320 642 bits; la cuarta, N = 50 353 346. El entero exacto se conserva comprimido sin pérdida. Su tamaño evidencia que una inversión exacta no hace desaparecer la información de la imagen. Una representación semántica económica puede omitir detalles no críticos, pero entonces responde a otro compromiso de reconstrucción.
 
-## Recuperación y conservación de sucesos
+Se calcularon también los potenciales de los 101 glifos canónicos asociados a los sucesos registrados. En las 105 entradas se recuperó la totalidad de las muestras y se comprobó la compresión reversible del entero. La demostración algebraica anterior delimita la propiedad general; estas comprobaciones acreditan su realización en el conjunto examinado.
 
-El registro completo permite localizar la imagen, el significado y la composición que conserva. Esta recuperación documental no demuestra que una cifra comprima toda una imagen. Para reconstruir exactamente el archivo visual deben conservarse sus datos suficientes; para reconstruir una imagen semánticamente conforme deben cumplirse los parámetros críticos y el criterio de fidelidad.
+## Precisión, contexto y singularidad
 
-Una nueva observación de una escena da lugar a una inscripción distinta, aunque coincidan los glifos, los vectores de contenido o una magnitud local calculada. El requisito de potencial singular descrito anteriormente exige conservar además la individuación de esa nueva inscripción. El individuo puede persistir; la identidad de su nuevo suceso no se reutiliza. Una anotación posterior sobre un suceso conservado mantiene el vínculo con su antecedente y no reescribe la evidencia.
+La singularidad del suceso comprende configuración, entorno y entorno envolvente. La igualdad completa se considera un caso ideal: parecer igual no demuestra ser el mismo suceso físico. La observación finita declara resolución, calibración y contexto; no presume haber captado diferencias inferiores a sus capacidades.
 
-La variación de idioma tampoco debe confundirse con una identidad nueva del acontecimiento. Distintas expresiones verbales pueden pertenecer a la misma clase de equivalencia semántica. La correspondencia exacta se establece entre representaciones canónicas plenamente identificadas; las paráfrasis se admiten por conservación del significado nuclear.
+Una coincidencia debida a las limitaciones de captura no autoriza a fusionar inscripciones. Cada nueva activación conserva su identidad y sus relaciones de procedencia. Si dos entradas normalizadas contienen exactamente las mismas muestras y dimensiones, este potencial de representación coincide: el cálculo no inventa una diferencia ausente de su entrada. Cuando la imagen sí conserva una diferencia, la representación exacta la mantiene. El contexto registrado acompaña al potencial; no se afirma que el escalar calculado sobre los píxeles contenga un entorno que no fue observado.
 
-Así, la cadena de cuatro componentes constituye una obligación de investigación con condiciones verificables. La vinculación documental ya realizada, la conversión canónica comprobada y los cálculos todavía pendientes se mantienen explícitamente diferenciados.
+Las diferencias exactas pueden ser mucho menores que las visibles en una tabla decimal. Se conserva el entero completo, la fórmula y su constitución. Añadir cifras ficticias a un decimal o introducir el ordinal S1, S2… en la magnitud no sustituiría la medición visual. El identificador mantiene la referencia documental; no se utiliza como dato de los polos.
 
-## Comparaciones de potencial local, superficies y recorridos
+El <a href="https://doi.org/10.21428/39829d0b.2b3c9808" target="_blank" rel="noopener noreferrer">Conjunto matemático unificado del cambio factual</a>, apartado 12.3, distingue repetición del polígono y nueva activación en el Ciclo de Suceso. La <a href="https://doi.org/10.21428/39829d0b.8ea18396" target="_blank" rel="noopener noreferrer">Dinámica del Suceso</a>, edición 3, exige horizontes, soporte y reevaluación para la admisibilidad. La sucesión de inscripciones no introduce tiempo como primitiva. Véase también <a href="https://doi.org/10.21428/39829d0b.755ad0eb" target="_blank" rel="noopener noreferrer">Medición, reconstrucción e incertidumbre estructural</a>, edición 2, para distinguir lo observado, lo reconstruido y lo residual.
 
-Las comparaciones siguientes corresponden a una magnitud local declarada; no certifican la unicidad numérica singular exigida anteriormente. Para un dominio D y una función de potencial P bien definida, el conjunto Eₚ={e∈D : P(e)=p} reúne los sucesos con un mismo valor. Si contiene dos sucesos distintos, P no es inyectiva sobre D. Por tanto, una familia equipotencial no trivial y la identificación unívoca de todos los sucesos mediante esa misma cifra no pueden exigirse simultáneamente sobre el mismo dominio. El registro de individuación conserva las distinciones necesarias para el retorno. La <a href="https://doi.org/10.21428/39829d0b.f0cbabc2" target="_blank" rel="noopener noreferrer">fuente sobre potencial del suceso</a> y las <a href="https://doi.org/10.21428/39829d0b.dcb48723" target="_blank" rel="noopener noreferrer">reglas de las matemáticas del potencial, apartados 13–15</a> fundamentan esta separación.
+## Comparación y límites de interpretación
 
-Hablar de una superficie equipotencial requiere una estructura geométrica adicional. Si p es una función real de clase C¹ sobre un abierto de R³ y su gradiente no se anula en un punto de nivel c, el teorema de la función implícita permite describir localmente p⁻¹(c) como una superficie. Una colección finita de células no satisface esas hipótesis por su mera representación poligonal. La extensión continua, cuando proceda, deberá definirse y justificarse. Véase la <a href="https://www2.math.upenn.edu/~gressman/analysis/12-implicitfuncthm.html" target="_blank" rel="noopener noreferrer">exposición del teorema de la función implícita</a>.
+El potencial posicional permite identificar y recuperar la representación digital. Su proximidad numérica no mide por sí sola semejanza semántica: cambiar un píxel temprano tiene un peso posicional distinto de cambiar uno tardío. Para comparar significados se utilizan relaciones constituidas y parámetros críticos. Una métrica perceptiva o semántica adicional requerirá definición y contraste propios.
 
-En una sucesión admitida de valores comparables p₀,…,pₘ, la suma de diferencias consecutivas es pₘ−p₀. El recorrido absoluto es la suma de |pₖ₊₁−pₖ| y puede ser mayor que |pₘ−p₀|. La secuencia 0,2,0 tiene diferencia neta cero y recorrido cuatro. El retorno al mismo valor no convierte dos inscripciones en el mismo suceso ni borra los pasos intermedios. Estas magnitudes podrán apoyar la organización de rutas cuando se haya constituido una lectura válida del dominio visual; el presente caso todavía no dispone de ella.
+En cualquier función local de potencial, un conjunto equipotencial reúne elementos con igual valor de esa función. Una función inyectiva sobre imágenes constituidas no puede formar conjuntos de ese tipo con dos imágenes distintas. Pueden estudiarse agrupaciones mediante otro observable local declarado, manteniendo la identidad exacta. Una superficie equipotencial exige además una estructura geométrica y regularidad apropiadas; una lista finita de valores no constituye por sí sola una superficie. <a href="https://doi.org/10.21428/39829d0b.f0cbabc2" target="_blank" rel="noopener noreferrer">Potencial de un suceso</a> distingue magnitud, dominio y comparación.
 
-<!-- Autoría: © 2026 Juan Antonio Lloret Egea. Licencia: CC-BY-NC-ND-4.0 para contenidos propios. Publicación académica vinculada: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+En un recorrido de valores comparables, la suma de diferencias consecutivas es la diferencia entre extremos. El recorrido absoluto suma sus magnitudes y puede ser mayor. Para 0, 2, 0, la diferencia neta es cero y el recorrido absoluto es cuatro. Ese retorno numérico no borra las inscripciones intermedias ni demuestra repetición física exacta.
+
+Cada nueva imagen se incorpora con su potencial exacto, perfil, procedencia, resolución, calibración, contexto y resultado de retorno. Si falta uno de esos datos, el registro conserva la incidencia y no declara completada la correspondencia.
+
+
+<!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->
