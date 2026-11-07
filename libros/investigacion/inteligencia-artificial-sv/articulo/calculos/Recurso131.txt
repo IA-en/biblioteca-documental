@@ -1,0 +1,11 @@
+CÁLCULO DESARROLLADO: S43
+© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · CC BY-NC-ND 4.0
+
+1. Dimensiones: 1024 x 1024 = 1048576 píxeles. Componentes: 4194304. Con 16 octetos adicionales: 4194320. m=33554560; N=33554562.
+2. Primeras ocho componentes: 255, 255, 255, 255, 255, 255, 255, 255. Terminación: 83, 86, 73, 77, 71, 48, 50, 0, 0, 0, 4, 0, 0, 0, 4, 0. C se obtiene con C_0=0 y C_j=256*C_(j-1)+x_j para j=1,...,4194320. C_1=255; C_2=65535; C_3=16777215; C_4=4294967295; C_8=18446744073709551615.
+3. mu=3*2^33554560+C; lambda=2^33554560-1-C; P=2^33554561+2*C+1; I=2^33554562-1. El entero P completo se conserva en https://github.com/IA-en/biblioteca-documental/blob/main/libros/investigacion/lenguaje-basado-en-imagenes/src/calculos/Recurso131-exacto.txt .
+4. q=P/2^33554562; q_0=36893488147419103231/36893488147419103232=0.99999999999999999997289494568786238914981367997825145721435546875. 0<q-q_0<2^(-65).
+5. eta=1/10; escala=64. q≈1.00000000000000000; 1+10q≈11.00000000000000000; ln(1+10q)≈2.39789527279837067; ln(11)≈2.39789527279837067. P_Atlas=64*ln(1+10q)/ln(11)≈64.000000000000.
+6. mu_Atlas=64+P_Atlas/2≈96.000000000000; lambda_Atlas=64-P_Atlas/2≈32.000000000000; I_Atlas=128. Las cifras son aproximadas. Se verificó la recuperación de todas las muestras.
+
+Fuentes y convenio: https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/17-potencial

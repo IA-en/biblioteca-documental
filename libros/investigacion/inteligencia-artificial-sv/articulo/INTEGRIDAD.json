@@ -1,0 +1,62 @@
+{
+  "titulo": "Artículo de ingeniería y arquitectura de la Inteligencia Artificial del Sistema Vectorial",
+  "fecha": "2026-11-07",
+  "alcance": "Archivos de la carpeta articulo, excepto este inventario",
+  "archivos": [
+    {
+      "ruta": "calculos/Imagen4.txt",
+      "octetos": 1480,
+      "sha256": "a3fd10f8fbb44c6f23d3f67ecd45046efbacb98fee90a9e7dd0fd96b5f82e731"
+    },
+    {
+      "ruta": "calculos/Recurso131.txt",
+      "octetos": 1476,
+      "sha256": "2120b3184a8009d7a9a8f657525de73e0ef89b2d1dd056a39ff7102d66c34e32"
+    },
+    {
+      "ruta": "imagenes/figura-01.png",
+      "octetos": 2336999,
+      "sha256": "1574f40ea30ab67e5ac28c88d18b57b6adf90aa36a71e1c2c05c63336db48c89"
+    },
+    {
+      "ruta": "imagenes/figura-01.png.license",
+      "octetos": 168,
+      "sha256": "02c687b6ba2e4cde046cca31cbeb6fe854fe8a2a776d5c55db14508de02c36b2"
+    },
+    {
+      "ruta": "imagenes/figura-02.png",
+      "octetos": 15273,
+      "sha256": "4f2c2c0f5dffaf73b77601e158ae5f12dbc7533ddffff4b4e6ea4f337f5de965"
+    },
+    {
+      "ruta": "imagenes/figura-02.png.license",
+      "octetos": 168,
+      "sha256": "e01d079f362bf98d7d88de3439608052bfbe1cf3fca1035e0f619fa9f8b33cf3"
+    },
+    {
+      "ruta": "imagenes/figura-03.png",
+      "octetos": 17670,
+      "sha256": "d0a15039446835e3e86ca95e5b8ea31f5a06b58cb0659910d939defe05315a49"
+    },
+    {
+      "ruta": "imagenes/figura-03.png.license",
+      "octetos": 168,
+      "sha256": "45d974631b61241cd4f863e43488bb7da21cf4951f08d26c51d3d2d76760e94e"
+    },
+    {
+      "ruta": "LICENSE",
+      "octetos": 686,
+      "sha256": "31ebd4bf36308b0cdd6c836548c8371d8e5b0d6aa6380bc6ca4128b2f5b5dbbe"
+    },
+    {
+      "ruta": "manuscrito.md",
+      "octetos": 44935,
+      "sha256": "9a4b5f91ff5746fb5bfb1b6edb453cf63e3f7ee702b3de0caa8caf6916955a1b"
+    },
+    {
+      "ruta": "README.md",
+      "octetos": 1918,
+      "sha256": "1ca47b2e092a20ea059f31ea8db14b8ab1d9c55c3a62b200e212edb30b6959b7"
+    }
+  ]
+}
