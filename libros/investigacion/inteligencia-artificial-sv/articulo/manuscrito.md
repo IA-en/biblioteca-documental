@@ -1,5 +1,7 @@
 # Ingeniería y arquitectura de la Inteligencia Artificial del Sistema Vectorial mediante el Lenguaje Basado en Imágenes
 
+Publicación académica: [identificador de objeto digital (DOI) 10.21428/39829d0b.0481eae3](https://doi.org/10.21428/39829d0b.0481eae3).
+
 **Juan Antonio Lloret Egea**  
 Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). Identificador de autor: [ORCID 0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351).
 

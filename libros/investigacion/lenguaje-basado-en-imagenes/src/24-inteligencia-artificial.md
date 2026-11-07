@@ -56,4 +56,10 @@ La inteligencia artificial sólo podrá incorporar como capacidades las operacio
 
 Fuentes: [fundamentos y contratos](bibliografia.md#fundamentos-y-contratos-del-sistema-vectorial-sv), [alcance científico](19-verificacion.md) y <a href="https://documentos-sv.itvia.online/investigacion/inteligencia-artificial-sv/09-demostracion.html" target="_blank" rel="noopener noreferrer">condiciones de demostración de la Inteligencia Artificial del Sistema Vectorial</a>.
 
+## Publicación de arquitectura y obras relacionadas
+
+La publicación <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a> desarrolla el fundamento, el estado del arte y un ejemplo con células y potencial calculado. Su identificador de objeto digital (DOI) es <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>. Corresponde a la investigación sobre inteligencia artificial y se distingue del <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">artículo fundacional del Lenguaje Basado en Imágenes</a>.
+
+La edición V.02 del libro de inteligencia artificial utiliza las distinciones y los resultados delimitados de este tratado, edición V.11. La incorporación de una capacidad requiere conservar su constitución, su evidencia y sus límites; una referencia bibliográfica no sustituye esa comprobación.
+
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Artículo fundacional: https://doi.org/10.21428/39829d0b.8b9c0155. -->

@@ -37,4 +37,4 @@ La justificación accesible al usuario procede del registro efectivo de operacio
 Fundamento: [fundamentos algebraico-semánticos](bibliografia.md#fundamentos), [dinámica del suceso](bibliografia.md#dinamica) y [pensamiento transducido en el tratado](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/11-deduccion.html).
 
 
-<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

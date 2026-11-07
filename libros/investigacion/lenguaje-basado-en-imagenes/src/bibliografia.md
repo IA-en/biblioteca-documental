@@ -67,4 +67,8 @@ Consulta documental: 5 y 6 de noviembre de 2026. Los enlaces a repositorios que 
 Lloret Egea, Juan Antonio. *Medición, reconstrucción e incertidumbre estructural en la física contemporánea sin probabilidad ni tiempo soberano: un marco analítico basado en sucesos y trayectorias con laboratorios ejecutables*. Edición 2. <a href="https://doi.org/10.21428/39829d0b.755ad0eb" target="_blank" rel="noopener noreferrer">Identificador de objeto digital (DOI): 10.21428/39829d0b.755ad0eb</a>.
 
 
+## Arquitectura de inteligencia artificial vinculada
+
+Lloret Egea, Juan Antonio (2026). <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a>. Edición 1, 7 de noviembre de 2026. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>. El <a href="24-inteligencia-artificial.html">capítulo 21</a> precisa la relación de fundamento y aplicación entre las dos obras.
+
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

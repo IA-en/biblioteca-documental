@@ -2,6 +2,7 @@
 
 | Edición | Fecha | Contenido |
 |---|---|---|
+| V.02 | 7 de noviembre de 2026 | Vinculación con la publicación de arquitectura; correspondencia explícita con el tratado V.11 y delimitación del cotejo estructurado respecto de la interpretación verbal. |
 | V.01 | 7 de noviembre de 2026 | Fundamentos y arquitectura de razonamiento visual; dos entradas; suficiencia documental y abstención; identidad, potencial, expresión verbal, memoria y condiciones de demostración. |
 
 La obra mantiene ediciones propias y referencias explícitas a las ediciones del tratado que fundamentan sus operaciones. La modificación de una regla exige conservar el alcance de los resultados obtenidos con su versión anterior.
@@ -29,4 +30,8 @@ Dirección canónica de los textos y las imágenes de este libro: <a href="https
 El español es el idioma original de la obra. Las traducciones editoriales no cambian el significado de las fórmulas ni acreditan equivalencia semántica en el sistema investigado. La investigación sobre expresión multilingüe requiere sus propios contrastes, descritos en el [capítulo 6](06-expresion.md).
 
 
-<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+## Publicación académica vinculada
+
+Lloret Egea, Juan Antonio (2026). <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a>. Primera edición publicada el 7 de noviembre de 2026. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>. El artículo desarrolla la arquitectura, su estado del arte y el ejemplo numérico; el libro amplía la exposición y sus condiciones de aplicación.
+
+<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

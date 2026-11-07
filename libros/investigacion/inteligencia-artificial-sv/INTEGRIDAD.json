@@ -1,5 +1,5 @@
 {
-  "edicion": "V.01",
+  "edicion": "V.02",
   "archivos": [
     {
       "ruta": "biblioteca.css",
@@ -9,7 +9,7 @@
     {
       "ruta": "book.toml",
       "bytes": 765,
-      "sha256": "c514734422ea2f0d6433df41548866b6b52ee856433a0463a41ad7fd844448a9"
+      "sha256": "1d19bf064c215668bee5830af3d6ce3009f53e8f7c7c978682b70e6d0942613b"
     },
     {
       "ruta": "figuras.css",
@@ -33,68 +33,68 @@
     },
     {
       "ruta": "README.md",
-      "bytes": 1030,
-      "sha256": "b4e6619b998e5ea70b7525a097cbc262ab7a24ef73824e19530fc4d0978b37a3"
+      "bytes": 1112,
+      "sha256": "cf897334e919c0b4ebb8080b572915428ea0389342e4a982214b6f982cc2c844"
     },
     {
       "ruta": "src/01-proposito.md",
-      "bytes": 5155,
-      "sha256": "a8afde58c484f65a7379973068ba72f769c4939c7186f431c4a7f1bd38ad7cc5"
+      "bytes": 5649,
+      "sha256": "05d75fcc9cc03f6155407cb0e0fd539445910c5447d73bc19d05e0c15649d47d"
     },
     {
       "ruta": "src/02-principios.md",
-      "bytes": 4894,
-      "sha256": "5e34a99a72a1b25e09ce020b9557c040ab4f756109dfbb2799e26bb285c303f2"
+      "bytes": 4968,
+      "sha256": "85ff554f06fb575157f8abab755891851d69e7b17ca68db8e6c52def68ba65f7"
     },
     {
       "ruta": "src/03-arquitectura.md",
-      "bytes": 4846,
-      "sha256": "5ba39e83b18f934702ba92e956bcebff8a954e8ffce72038c9cc84ad34036b80"
+      "bytes": 4920,
+      "sha256": "06131fe33f70f5c04b061b762a6a989d9ac948538f42d9b0ebc05b4e1c100997"
     },
     {
       "ruta": "src/04-razonamiento.md",
-      "bytes": 4175,
-      "sha256": "d03ebe3a3b0c78328028eac79d33a7d94a1788873b962d89b27e621b47f8b159"
+      "bytes": 4249,
+      "sha256": "c239bc9dd596b0f0d2b73785708da06ce60ae709cb6cbf1f4dee33a78c2ca70d"
     },
     {
       "ruta": "src/05-correspondencia.md",
-      "bytes": 5545,
-      "sha256": "497228398f82937fdae90caa72aad86354b173c6edd7187c67cd01ed769e00b5"
+      "bytes": 5619,
+      "sha256": "0eb504bd31c5e815aa53f912dcfdad21c60155dbee20a3bffc8ce81c9ecad167"
     },
     {
       "ruta": "src/06-expresion.md",
-      "bytes": 4755,
-      "sha256": "64b640a3a5dcd57d0bb86a1725ab46a1668bfbb554b1ef5269d1106f56c81c97"
+      "bytes": 4829,
+      "sha256": "4f07b5f338fe38826f0c98f23fb1caea344add18c7dc06ab066951c015e7956e"
     },
     {
       "ruta": "src/07-televisor.md",
-      "bytes": 5555,
-      "sha256": "5462a6457a584c9d7c1f2835150d810103ff16d49de3a2d5f46454d61f8eb43a"
+      "bytes": 5629,
+      "sha256": "9043c3786723389860b440fd4a07c414ba47acb9faaa8c8f4dc9eb0d5381c281"
     },
     {
       "ruta": "src/08-memoria.md",
-      "bytes": 4813,
-      "sha256": "d5649be2659142354791378c34dbb32bc51962841c0a6a16570f191e9281229f"
+      "bytes": 4887,
+      "sha256": "0f244900e91d18d53dfb49dafad56ac4adb8af1f7e2142a1edec6b5bbc405ca2"
     },
     {
       "ruta": "src/09-demostracion.md",
-      "bytes": 5030,
-      "sha256": "4e5761fabf952b85bf7f0ae8d1ba4e7758636877651a20eec9f167eff145bd35"
+      "bytes": 6618,
+      "sha256": "fa5d43efb872385bfb499f92f85a99cbe46cf8d253d116b334dd644700a8ec63"
     },
     {
       "ruta": "src/bibliografia.md",
-      "bytes": 5004,
-      "sha256": "9a0bba4430a5ccd7d2eb18d0a0b91b0377f81da79fb5d6ed460f39b19dc7f214"
+      "bytes": 5680,
+      "sha256": "c980f63824da1426ca756bde67549b936ca1995706503872dc9b9b8cf9fab48a"
     },
     {
       "ruta": "src/ediciones.md",
-      "bytes": 3038,
-      "sha256": "9295f68a9e0e3336efec2b1994378709a09ac0b3cd07b37178e631f17c551940"
+      "bytes": 3985,
+      "sha256": "fd2147b42836c3f434b4900641813f03f183e6e2ccb864835462f46079733293"
     },
     {
       "ruta": "src/figuras.md",
-      "bytes": 557,
-      "sha256": "feb6ad59655689eea1a1d15be35dc90c444e40efbbd6f3bdf6489e533ae19f94"
+      "bytes": 631,
+      "sha256": "f5ea9be694b6361a5eb2fc7b32436886835191e0b85e539a715431ec18f9c988"
     },
     {
       "ruta": "src/imagenes/reparacion.png",
@@ -108,18 +108,18 @@
     },
     {
       "ruta": "src/instrumentos.md",
-      "bytes": 2079,
-      "sha256": "54b855e1560ca2a81ba7e07b26f311ba6089d23c0d3fd63d775ff7cd78c30a7e"
+      "bytes": 2153,
+      "sha256": "89d86bd2978fa0fc9743ebbcfb2ccfb0eac34de3287beaa47b7bb20e0625d6ee"
     },
     {
       "ruta": "src/SUMMARY.md",
-      "bytes": 983,
-      "sha256": "a73e9ad0d2d25e465d8c6c5fde8f10fc36955a66dabb411a33f2fd02391e1031"
+      "bytes": 1057,
+      "sha256": "da167b9effb4c63a4d58c1a391179e0ed880cbc6b1ab3ed172c86ace5a71c6ad"
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19504,
-      "sha256": "278f55d05e5888b3dd1434b06150e207907c0278087b43a887900f755f36a0a5"
+      "bytes": 19763,
+      "sha256": "91a7a69bf21b492e0f3a7af7cc46c97686ab4d131ff8d7cd40a65846ab73bca0"
     }
   ]
 }

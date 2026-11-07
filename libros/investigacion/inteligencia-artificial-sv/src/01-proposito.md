@@ -2,7 +2,9 @@
 
 **Juan Antonio Lloret Egea** · Identificador de investigador (ORCID): <a href="https://orcid.org/0000-0002-6634-3351" target="_blank" rel="noopener noreferrer">0000-0002-6634-3351</a>. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA).
 
-**Inteligencia Artificial del Sistema Vectorial** · V.01 · 7 de noviembre de 2026.
+**Inteligencia Artificial del Sistema Vectorial** · V.02 · 7 de noviembre de 2026.
+
+Publicación académica vinculada: <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a>. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>.
 
 Base documental: <a href="https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/" target="_blank" rel="noopener noreferrer">Tratado Lenguaje Basado en Imágenes</a>. Artículo fundacional del tratado: identificador de objeto digital (DOI) <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.8b9c0155</a>. Este identificador corresponde a aquel artículo, no a la presente obra. [Autoría y licencia](ediciones.md#autoría-y-licencias).
 
@@ -35,4 +37,4 @@ La obra establece la arquitectura y las condiciones de demostración. Los result
 Los principios rectores conducen a las dos entradas del sistema. A continuación se estudian evidencia y abstención, identidad y potencial, y expresión verbal. El caso del televisor permite seguir estas distinciones en una misma escena. Los capítulos finales relacionan memoria, aprendizaje, ejecución y condiciones de demostración. La bibliografía y los instrumentos se presentan por separado.
 
 
-<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

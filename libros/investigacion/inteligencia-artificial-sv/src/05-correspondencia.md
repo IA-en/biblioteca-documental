@@ -42,4 +42,4 @@ La biyección exacta pertenece a las representaciones canónicas con su constitu
 Una paráfrasis conserva relaciones, no necesariamente todos los detalles de captura. Por ello, la cadena de texto sólo permite un retorno único al registro cuando incluye o mantiene su vinculación inequívoca. Esta condición impide confundir conservación del significado, identificación documental y reconstrucción exacta.
 
 
-<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

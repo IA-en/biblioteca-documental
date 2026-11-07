@@ -50,13 +50,14 @@
     },
     {
       "ruta": "manuscrito.md",
-      "octetos": 44935,
-      "sha256": "9a4b5f91ff5746fb5bfb1b6edb453cf63e3f7ee702b3de0caa8caf6916955a1b"
+      "octetos": 45073,
+      "sha256": "a15a410a2db7e5b9984a54eb048fddd6e8633579d57b1a47f2b41e75db07c6e1"
     },
     {
       "ruta": "README.md",
-      "octetos": 1918,
-      "sha256": "1ca47b2e092a20ea059f31ea8db14b8ab1d9c55c3a62b200e212edb30b6959b7"
+      "octetos": 2076,
+      "sha256": "aaa01fcfeba016e8d807b3de7f334dfb67a20b18d888dcfe023d89ea736e312f"
     }
-  ]
+  ],
+  "publicacion": "https://doi.org/10.21428/39829d0b.0481eae3"
 }

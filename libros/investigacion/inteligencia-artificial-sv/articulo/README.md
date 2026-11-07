@@ -2,6 +2,8 @@
 
 **Juan Antonio Lloret Egea** · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · [ORCID 0000-0002-6634-3351](https://orcid.org/0000-0002-6634-3351).
 
+[Publicación académica: DOI 10.21428/39829d0b.0481eae3](https://doi.org/10.21428/39829d0b.0481eae3). Primera edición publicada el 7 de noviembre de 2026.
+
 [Manuscrito canónico](manuscrito.md) · [Libro de arquitectura](https://documentos-sv.itvia.online/investigacion/inteligencia-artificial-sv/) · [Tratado Lenguaje Basado en Imágenes](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/).
 
 El artículo propone una arquitectura de razonamiento visual determinista y documenta su fundamento, sus condiciones de demostración y sus límites. El caso de televisión inteligente relaciona imágenes sintéticas, glifos, expresiones, células ternarias y potenciales calculados. La reversibilidad digital se distingue de la interpretación semántica y de la identidad de cada suceso.

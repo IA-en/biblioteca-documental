@@ -40,4 +40,4 @@ La salida verbal puede variar de forma, pero debe conservar el contenido del res
 Fundamento: [transducción al alfabeto ternario](bibliografia.md#transduccion), [aprendizaje trazable](bibliografia.md#aprendizaje) y [expresión verbal](06-expresion.md).
 
 
-<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

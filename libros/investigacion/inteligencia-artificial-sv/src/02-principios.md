@@ -31,4 +31,4 @@ La regla agregada es T(n)=⌊7n/9⌋. Su aplicación requiere una célula comple
 Estas obligaciones son acumulativas. No se admite compensar la falta de una célula, de un potencial o de una premisa con la calidad aparente de la imagen o de la respuesta.
 
 
-<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

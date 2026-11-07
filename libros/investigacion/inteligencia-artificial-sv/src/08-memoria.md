@@ -35,4 +35,4 @@ Una imagen puede describir una acción sin ordenarla. Una pregunta puede referir
 El [capítulo de programación visual del tratado](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/20-programacion.html) define las obligaciones de esa relación. La admisión de una representación o la compilación de un programa no acreditan que una actuación esté autorizada ni que sus premisas sean verdaderas.
 
 
-<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->
+<!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

@@ -1,5 +1,5 @@
 {
-  "edicion": "V.10",
+  "edicion": "V.11",
   "archivos": [
     {
       "ruta": ".gitignore",
@@ -124,7 +124,7 @@
     {
       "ruta": "book.toml",
       "bytes": 813,
-      "sha256": "9a4ee5e96faabd88cb39b83d504d65e6d72de81fdad6da6da4078b5970b4534a"
+      "sha256": "8d35bae128839942a51a7dd37dd0fd7a679c1d19cd8e57e864b502a81eed0b22"
     },
     {
       "ruta": "book.toml.license",
@@ -178,8 +178,8 @@
     },
     {
       "ruta": "README.md",
-      "bytes": 929,
-      "sha256": "a0e52d08dd587ad91a66a2b56e1e92344f2f6d51149738a36a40ea9c19a67df6"
+      "bytes": 1245,
+      "sha256": "c06d990d98379687aeee22e58401784f1412898481e4be5c9f885471ac80899b"
     },
     {
       "ruta": "README.md.license",
@@ -199,7 +199,7 @@
     {
       "ruta": "src/01-presentacion.md",
       "bytes": 6442,
-      "sha256": "2d07c6949862196309351140174794a14a976206110161da7b8934beac065147"
+      "sha256": "ca6b22c329edb536444fb6b3eb0a3c0033186e25ec3332e4cfccba8181cfb9d7"
     },
     {
       "ruta": "src/01-presentacion.md.license",
@@ -338,8 +338,8 @@
     },
     {
       "ruta": "src/15-ediciones.md",
-      "bytes": 4067,
-      "sha256": "8c0f2230ea3c308d0bb03ad2338f5b375db8149a457fa27f603287d6750a3698"
+      "bytes": 4287,
+      "sha256": "dfa8b166be2cda81829b9428189b3f04f5d9e5a3c4ee3787c0d0d26a8d42aa5e"
     },
     {
       "ruta": "src/15-ediciones.md.license",
@@ -378,8 +378,8 @@
     },
     {
       "ruta": "src/19-verificacion.md",
-      "bytes": 5267,
-      "sha256": "9c2305dd73bd0501eef31f4ae5e174549ad13de79b3829cb85bed0ea6fe18663"
+      "bytes": 7331,
+      "sha256": "3b257381d767894756b4c727c44369ec1197b2e00082cc38122f0b0b5c2f757f"
     },
     {
       "ruta": "src/19-verificacion.md.license",
@@ -428,13 +428,13 @@
     },
     {
       "ruta": "src/24-inteligencia-artificial.md",
-      "bytes": 7126,
-      "sha256": "8170a0c0a3998ef5bdf409146ee8d72f4a793f022aff7436f4b5e36784a0bcbd"
+      "bytes": 8219,
+      "sha256": "875422d41e89dc8ef66a228b795141697e46c207d8c4c15aed25534c4329cf2d"
     },
     {
       "ruta": "src/bibliografia.md",
-      "bytes": 13641,
-      "sha256": "d2849e36fca54d2489bdf223420ca46627916345948fc8a38d64a7bb48d88e77"
+      "bytes": 14282,
+      "sha256": "7a1865789dbbec09a43fa7fc294042143c92dea4b15c69f5b23be57421f8877b"
     },
     {
       "ruta": "src/bibliografia.md.license",
@@ -2904,7 +2904,7 @@
     {
       "ruta": "theme/index.hbs",
       "bytes": 19480,
-      "sha256": "6242c778d51f5a2c255bb3aa8949d53b78efa31b941fde9d0ee562a9800e5c26"
+      "sha256": "d50d4ab83ae8f234c731f0fa3edcd40f3233c95b86031e3d460d73c2fa13d48d"
     },
     {
       "ruta": "theme/index.hbs.license",
