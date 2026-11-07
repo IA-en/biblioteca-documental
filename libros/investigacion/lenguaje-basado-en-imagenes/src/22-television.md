@@ -2,7 +2,7 @@
 
 ## Objeto del nuevo dominio
 
-Este caso introduce una televisión inteligente, habitualmente denominada **Smart TV**, para estudiar la ampliación del repertorio a objetos técnicos. El contenido de referencia establece que el mismo aparato funcionaba anteriormente y ahora no funciona; se plantea como posible causa la corrupción de su sistema Android y se requiere repararlo. La recuperación del funcionamiento se representa como finalidad de la intervención.
+Este caso introduce una televisión inteligente, habitualmente denominada *Smart TV*, para estudiar la ampliación del repertorio a objetos técnicos. El contenido de referencia establece que el mismo aparato funcionaba anteriormente y ahora no funciona; se plantea como posible causa la corrupción de su sistema Android y se requiere repararlo. La recuperación del funcionamiento se representa como finalidad de la intervención.
 
 La escena constituye un caso narrativo de investigación. No describe un diagnóstico técnico realizado sobre un televisor concreto. Su interés reside en conservar tres distinciones: negación del funcionamiento, indeterminación de la causa y carácter pendiente de la reparación.
 

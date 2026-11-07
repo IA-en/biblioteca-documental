@@ -20,6 +20,7 @@
 - [18. Organización de sucesos, matrices y tensores](18-organizacion.md)
 - [19. Programación visual y Lenguaje de Computación del Sistema Vectorial](20-programacion.md)
 - [20. Alcance científico y condiciones de contraste](19-verificacion.md)
+- [21. Del lenguaje visual a la Inteligencia Artificial del Sistema Vectorial](24-inteligencia-artificial.md)
 
 - [Ediciones, formatos y traducción](15-ediciones.md)
 - [Autoría y licencias](16-fuentes.md)

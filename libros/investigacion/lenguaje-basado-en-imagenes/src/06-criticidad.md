@@ -68,7 +68,7 @@ La pérdida admisible conserva **todos los parámetros críticos**. La regla agr
 
 Las variantes permiten una comparación ilustrativa; no constituyen una eliminación controlada píxel por píxel, porque la generación puede introducir variaciones adicionales de textura o contorno. No se les asigna un dictamen celular sin una constitución previa de sus parámetros. Las versiones vectoriales se documentan separadamente de los originales de puntos.
 
-La secuencia permite preparar ese contraste manteniendo la directriz **Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV)**. La imagen sintética no sustituye el extremo de imagen real que el procedimiento deberá comprobar posteriormente.
+La secuencia permite preparar ese contraste manteniendo la directriz **Imagen real ↔ (glifo, texto) ↔ Célula del Sistema Vectorial (SV) ↔ Potencial de un *frame* del Sistema Vectorial (SV)**. La imagen sintética no sustituye el extremo de imagen real que el procedimiento deberá comprobar posteriormente.
 
 Antecedente conceptual: <a href="https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/blob/ce5aad1125460263904acb91142f33324ce89dfc/docs/calidad/tuberias-ia/frame-significado-humano-trazabilidad-y-fidelidad/FRAME_SIGNIFICADO_HUMANO_TRAZABILIDAD_Y_FIDELIDAD_2026_09_11.md" target="_blank" rel="noopener noreferrer">significado humano, trazabilidad y fidelidad</a>. Las imágenes de ese documento no forman parte de esta edición.
 

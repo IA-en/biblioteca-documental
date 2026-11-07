@@ -1,0 +1,125 @@
+{
+  "edicion": "V.01",
+  "archivos": [
+    {
+      "ruta": "biblioteca.css",
+      "bytes": 4285,
+      "sha256": "190b4b43913e5863f4406177480c609fe69dbc7aec56348a91d1a0b2947c8132"
+    },
+    {
+      "ruta": "book.toml",
+      "bytes": 765,
+      "sha256": "c514734422ea2f0d6433df41548866b6b52ee856433a0463a41ad7fd844448a9"
+    },
+    {
+      "ruta": "figuras.css",
+      "bytes": 3053,
+      "sha256": "cbfaa12326b1969a4383a2705df3b3539999f4fea906f3377710e42b46566f94"
+    },
+    {
+      "ruta": "LICENSE",
+      "bytes": 1305,
+      "sha256": "a160668898bc988ba53111bb65f719194b21260b18d7777fcc04ab5cdaa0d498"
+    },
+    {
+      "ruta": "mdbook-license.txt",
+      "bytes": 15921,
+      "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e"
+    },
+    {
+      "ruta": "presentacion.js",
+      "bytes": 13568,
+      "sha256": "ce77c3038b9303c1db290002350165b6e94b5f5ae35ed4061c92e54a13ab8e98"
+    },
+    {
+      "ruta": "README.md",
+      "bytes": 1030,
+      "sha256": "b4e6619b998e5ea70b7525a097cbc262ab7a24ef73824e19530fc4d0978b37a3"
+    },
+    {
+      "ruta": "src/01-proposito.md",
+      "bytes": 5155,
+      "sha256": "a8afde58c484f65a7379973068ba72f769c4939c7186f431c4a7f1bd38ad7cc5"
+    },
+    {
+      "ruta": "src/02-principios.md",
+      "bytes": 4894,
+      "sha256": "5e34a99a72a1b25e09ce020b9557c040ab4f756109dfbb2799e26bb285c303f2"
+    },
+    {
+      "ruta": "src/03-arquitectura.md",
+      "bytes": 4846,
+      "sha256": "5ba39e83b18f934702ba92e956bcebff8a954e8ffce72038c9cc84ad34036b80"
+    },
+    {
+      "ruta": "src/04-razonamiento.md",
+      "bytes": 4175,
+      "sha256": "d03ebe3a3b0c78328028eac79d33a7d94a1788873b962d89b27e621b47f8b159"
+    },
+    {
+      "ruta": "src/05-correspondencia.md",
+      "bytes": 5545,
+      "sha256": "497228398f82937fdae90caa72aad86354b173c6edd7187c67cd01ed769e00b5"
+    },
+    {
+      "ruta": "src/06-expresion.md",
+      "bytes": 4755,
+      "sha256": "64b640a3a5dcd57d0bb86a1725ab46a1668bfbb554b1ef5269d1106f56c81c97"
+    },
+    {
+      "ruta": "src/07-televisor.md",
+      "bytes": 5555,
+      "sha256": "5462a6457a584c9d7c1f2835150d810103ff16d49de3a2d5f46454d61f8eb43a"
+    },
+    {
+      "ruta": "src/08-memoria.md",
+      "bytes": 4813,
+      "sha256": "d5649be2659142354791378c34dbb32bc51962841c0a6a16570f191e9281229f"
+    },
+    {
+      "ruta": "src/09-demostracion.md",
+      "bytes": 5030,
+      "sha256": "4e5761fabf952b85bf7f0ae8d1ba4e7758636877651a20eec9f167eff145bd35"
+    },
+    {
+      "ruta": "src/bibliografia.md",
+      "bytes": 5004,
+      "sha256": "9a0bba4430a5ccd7d2eb18d0a0b91b0377f81da79fb5d6ed460f39b19dc7f214"
+    },
+    {
+      "ruta": "src/ediciones.md",
+      "bytes": 3038,
+      "sha256": "9295f68a9e0e3336efec2b1994378709a09ac0b3cd07b37178e631f17c551940"
+    },
+    {
+      "ruta": "src/figuras.md",
+      "bytes": 557,
+      "sha256": "feb6ad59655689eea1a1d15be35dc90c444e40efbbd6f3bdf6489e533ae19f94"
+    },
+    {
+      "ruta": "src/imagenes/reparacion.png",
+      "bytes": 17670,
+      "sha256": "d0a15039446835e3e86ca95e5b8ea31f5a06b58cb0659910d939defe05315a49"
+    },
+    {
+      "ruta": "src/imagenes/televisor.png",
+      "bytes": 2336999,
+      "sha256": "1574f40ea30ab67e5ac28c88d18b57b6adf90aa36a71e1c2c05c63336db48c89"
+    },
+    {
+      "ruta": "src/instrumentos.md",
+      "bytes": 2079,
+      "sha256": "54b855e1560ca2a81ba7e07b26f311ba6089d23c0d3fd63d775ff7cd78c30a7e"
+    },
+    {
+      "ruta": "src/SUMMARY.md",
+      "bytes": 983,
+      "sha256": "a73e9ad0d2d25e465d8c6c5fde8f10fc36955a66dabb411a33f2fd02391e1031"
+    },
+    {
+      "ruta": "theme/index.hbs",
+      "bytes": 19504,
+      "sha256": "278f55d05e5888b3dd1434b06150e207907c0278087b43a887900f755f36a0a5"
+    }
+  ]
+}

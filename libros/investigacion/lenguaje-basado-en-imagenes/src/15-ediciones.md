@@ -2,6 +2,7 @@
 
 | Edición | Fecha | Contenido |
 |---|---|---|
+| V.10 | 7 de noviembre de 2026 | Dependencia entre el lenguaje visual y la inteligencia artificial propia; razonamiento visual determinista, suficiencia documental y abstención; enlace a la nueva obra de investigación |
 | V.09 | 6 de noviembre de 2026 | Denominación y versión del convenio visual; distinción entre representación digital y calibración etaria; relación entre imagen y objetos; ejemplos del televisor y de las aves documentadas |
 | V.08 | 6 de noviembre de 2026 | Recta Atlas: función, escala, régimen polar y diferencial; ejemplo numérico y vínculos a la formulación original; delimitación de la etapa experimental a sistemas artificiales |
 | V.07 | 6 de noviembre de 2026 | Cadenas de texto visibles; desarrollo numérico de cada potencial; visor tabular y valores exactos en texto sin compresión |

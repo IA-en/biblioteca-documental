@@ -1,5 +1,5 @@
 {
-  "edicion": "V.09",
+  "edicion": "V.10",
   "archivos": [
     {
       "ruta": ".gitignore",
@@ -124,7 +124,7 @@
     {
       "ruta": "book.toml",
       "bytes": 813,
-      "sha256": "ba04c6d4f77e87b97bfbbebc647c499328536765160bcef0dcf86623e8191679"
+      "sha256": "9a4ee5e96faabd88cb39b83d504d65e6d72de81fdad6da6da4078b5970b4534a"
     },
     {
       "ruta": "book.toml.license",
@@ -133,8 +133,8 @@
     },
     {
       "ruta": "figuras.css",
-      "bytes": 2021,
-      "sha256": "2dc0a7d70f901abc5bcc0ddd8f56ef68967e6e94fd934d6e74f7de45001cd1ef"
+      "bytes": 2986,
+      "sha256": "77cee7f438b56cd389a0bcf0c9de4a2ff61ccec2a8221fce4cae87aac1caf60b"
     },
     {
       "ruta": "figuras.css.license",
@@ -178,8 +178,8 @@
     },
     {
       "ruta": "README.md",
-      "bytes": 674,
-      "sha256": "fff702606852901f79a186c64fc5b7e989a711bac93a963ae896aa1ec2656264"
+      "bytes": 929,
+      "sha256": "a0e52d08dd587ad91a66a2b56e1e92344f2f6d51149738a36a40ea9c19a67df6"
     },
     {
       "ruta": "README.md.license",
@@ -198,8 +198,8 @@
     },
     {
       "ruta": "src/01-presentacion.md",
-      "bytes": 5922,
-      "sha256": "1ac93fa87518d96b906142c2d66dab753bf2d84f6e85316a103094bfbb0eae1b"
+      "bytes": 6442,
+      "sha256": "2d07c6949862196309351140174794a14a976206110161da7b8934beac065147"
     },
     {
       "ruta": "src/01-presentacion.md.license",
@@ -248,8 +248,8 @@
     },
     {
       "ruta": "src/06-criticidad.md",
-      "bytes": 13068,
-      "sha256": "49df4ce1ee1dccb5f7bdf9e007e6a1f34c02d9577defeaf693613665fffbcfea"
+      "bytes": 13123,
+      "sha256": "015bc14796104dda8a4f923caf47a10f748463cd65d64c3b87d6451f535ce91d"
     },
     {
       "ruta": "src/06-criticidad.md.license",
@@ -338,8 +338,8 @@
     },
     {
       "ruta": "src/15-ediciones.md",
-      "bytes": 3844,
-      "sha256": "cdea9c51701df792946d856ce84f498ee107947dcbb5d32f65da210f02243da6"
+      "bytes": 4067,
+      "sha256": "8c0f2230ea3c308d0bb03ad2338f5b375db8149a457fa27f603287d6750a3698"
     },
     {
       "ruta": "src/15-ediciones.md.license",
@@ -388,8 +388,8 @@
     },
     {
       "ruta": "src/20-programacion.md",
-      "bytes": 6137,
-      "sha256": "4c2d52e73dd5257f306d27d78b1d3c227ab9d7203f037e71f17c248504d2c900"
+      "bytes": 6315,
+      "sha256": "c249daf2d9bb6048ffc4ca3079636f12884af53a0c452657d7cc2a13f7a15eb1"
     },
     {
       "ruta": "src/20-programacion.md.license",
@@ -408,8 +408,8 @@
     },
     {
       "ruta": "src/22-television.md",
-      "bytes": 14173,
-      "sha256": "37c7c497570e67a37336e243168d8ca6633ccf4169dcb72c1f7f630b9d555928"
+      "bytes": 14171,
+      "sha256": "3a931cceb3a70bcc83ee8aaaee4f8ad515dd6cc62a2f880927beba549e42ed6a"
     },
     {
       "ruta": "src/22-television.md.license",
@@ -418,13 +418,18 @@
     },
     {
       "ruta": "src/23-correspondencias.md",
-      "bytes": 49821,
-      "sha256": "4fff20a76d224be0f0acd5eee5eed381dfd3e6826ceead683dc114acab67c76a"
+      "bytes": 49818,
+      "sha256": "772c5a91607be2282372953b457e802f92519f580eb47cfb39e88030c8d3e803"
     },
     {
       "ruta": "src/23-correspondencias.md.license",
       "bytes": 248,
       "sha256": "aa46c0796646c09fb9ac49d142feaaa6172f1ec4ea2e9798d1ac855527487166"
+    },
+    {
+      "ruta": "src/24-inteligencia-artificial.md",
+      "bytes": 7126,
+      "sha256": "8170a0c0a3998ef5bdf409146ee8d72f4a793f022aff7436f4b5e36784a0bcbd"
     },
     {
       "ruta": "src/bibliografia.md",
@@ -2888,8 +2893,8 @@
     },
     {
       "ruta": "src/SUMMARY.md",
-      "bytes": 1829,
-      "sha256": "79b2596cbc6b993a9d42023f3a0f78f2feec058513164f1cd25a2e3b819db610"
+      "bytes": 1939,
+      "sha256": "39ee018908ad6ac2343d399b5cdc9c7329c4d7e715af6e8494902b24627615cc"
     },
     {
       "ruta": "src/SUMMARY.md.license",
@@ -2898,8 +2903,8 @@
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19427,
-      "sha256": "23b22ecde18b6d718bbb67e2732fa95e2611a028383804f1474ed02e9a105bfe"
+      "bytes": 19480,
+      "sha256": "6242c778d51f5a2c255bb3aa8949d53b78efa31b941fde9d0ee562a9800e5c26"
     },
     {
       "ruta": "theme/index.hbs.license",

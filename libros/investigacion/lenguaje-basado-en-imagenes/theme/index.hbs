@@ -39,7 +39,7 @@
 
         <!-- Custom theme stylesheets -->
         {{#each additional_css}}
-        <link rel="stylesheet" href="{{ resource this }}?v=lbi-v08-20261106">
+        <link rel="stylesheet" href="{{ resource this }}?v=dos-obras-20261107">
         {{/each}}
 
         {{#if mathjax_support}}
@@ -53,25 +53,25 @@
             const default_light_theme = "{{ default_theme }}";
             const default_dark_theme = "{{ preferred_dark_theme }}";
         {{#if search_js}}
-            window.path_to_searchindex_js = "{{ resource "searchindex.js" }}?v=lbi-v08-20261106";
+            window.path_to_searchindex_js = "{{ resource "searchindex.js" }}?v=dos-obras-20261107";
         {{/if}}
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="{{ resource "toc.js" }}?v=lbi-v08-20261106"></script>
+        <script src="{{ resource "toc.js" }}?v=dos-obras-20261107"></script>
     <link rel="stylesheet" href="/lectura-contexto-2313f39030c5.css">
 <script defer src="/lectura-contexto-c6bd9514618d.js"></script>
 </head>
     <body>
     <div id="mdbook-help-container">
         <div id="mdbook-help-popup">
-            <h2 class="mdbook-help-title">Keyboard shortcuts</h2>
+            <h2 class="mdbook-help-title">Atajos de teclado</h2>
             <div>
-                <p>Press <kbd>←</kbd> or <kbd>→</kbd> to navigate between chapters</p>
+                <p>Pulse <kbd>←</kbd> o <kbd>→</kbd> para recorrer los capítulos</p>
                 {{#if search_enabled}}
-                <p>Press <kbd>S</kbd> or <kbd>/</kbd> to search in the book</p>
+                <p>Pulse <kbd>S</kbd> o <kbd>/</kbd> para buscar en el libro</p>
                 {{/if}}
-                <p>Press <kbd>?</kbd> to show this help</p>
-                <p>Press <kbd>Esc</kbd> to hide this help</p>
+                <p>Pulse <kbd>?</kbd> para mostrar esta ayuda</p>
+                <p>Pulse <kbd>Esc</kbd> para cerrar esta ayuda</p>
             </div>
         </div>
     </div>
@@ -128,7 +128,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="{{ path_to_root }}toc.html?v=lbi-v08-20261106"></iframe>
+                <iframe class="sidebar-iframe-outer" src="{{ path_to_root }}toc.html?v=dos-obras-20261107"></iframe>
             </noscript>
             <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>
@@ -157,7 +157,7 @@
                             <li role="none"><button role="menuitem" class="theme" id="mdbook-theme-ayu">Ayu</button></li>
                         </ul>
                         {{#if search_enabled}}
-                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Search (`/`)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
+                        <button id="mdbook-search-toggle" class="icon-button" type="button" title="Buscar (`/`)" aria-label="Mostrar u ocultar la búsqueda" aria-expanded="false" aria-keyshortcuts="/ s" aria-controls="mdbook-searchbar">
                             {{fa "solid" "magnifying-glass"}}
                         </button>
                         {{/if}}
@@ -180,7 +180,7 @@
                         </a>
                         {{/if}}
                         {{#if git_repository_edit_url}}
-                        <a href="{{git_repository_edit_url}}" title="Suggest an edit" aria-label="Suggest an edit" rel="edit">
+                        <a href="{{git_repository_edit_url}}" title="Proponer una corrección" aria-label="Proponer una corrección" rel="edit">
                             {{fa "solid" "pencil" "git-edit-button"}}
                         </a>
                         {{/if}}
@@ -192,7 +192,7 @@
                 <div id="mdbook-search-wrapper" class="hidden">
                     <form id="mdbook-searchbar-outer" class="searchbar-outer">
                         <div class="search-wrapper">
-                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
+                            <input type="search" id="mdbook-searchbar" name="searchbar" placeholder="Buscar en este libro…" aria-controls="mdbook-searchresults-outer" aria-describedby="searchresults-header">
                             <div class="spinner-wrapper">
                                 {{fa "solid" "spinner" "fa-spin"}}
                             </div>
@@ -225,7 +225,7 @@
   <p>La traducción automática facilita la lectura. Contraste términos, fórmulas y sentido con el original.</p>
   <div id="google_translate_element" class="notranslate" translate="no"></div>
 </details>
-<nav class="sv-library-nav" aria-label="Biblioteca"><a href="https://documentos-sv.itvia.online/">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="https://documentos-sv.itvia.online/consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="https://documentos-sv.itvia.online/licencias.html">Licencias</a><p>Tratado Lenguaje Basado en Imágenes (LBI) · V.09 · 06/11/2026 · Investigación · Original en español</p></nav>
+<nav class="sv-library-nav" aria-label="Biblioteca"><a href="https://documentos-sv.itvia.online/">Biblioteca</a> <span aria-hidden="true"> / </span> <a href="https://documentos-sv.itvia.online/consulta.html">Fuentes y versiones</a> <span aria-hidden="true"> / </span> <a href="https://documentos-sv.itvia.online/licencias.html">Licencias</a><p>Tratado Lenguaje Basado en Imágenes (LBI) · V.10 · 07/11/2026 · Investigación · Original en español</p></nav>
                         {{{ content }}}
                         <div class="sv-brand-footer" aria-label="Identidad institucional y licencia">
 <p>Publicación académica vinculada. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.8b9c0155</a>.</p>

@@ -1,0 +1,25 @@
+[book]
+title = "Inteligencia Artificial del Sistema Vectorial: razonamiento visual, evidencia y trazabilidad"
+authors = ["Juan Antonio Lloret Egea"]
+description = "V.01 · Investigación sobre una inteligencia artificial fundada en el Lenguaje Basado en Imágenes y en las células del Sistema Vectorial."
+language = "es"
+src = "src"
+[build]
+build-dir = "book"
+create-missing = false
+use-default-preprocessors = false
+[output.html]
+theme = "theme"
+additional-css = ["biblioteca.css", "figuras.css"]
+additional-js = ["presentacion.js"]
+default-theme = "rust"
+preferred-dark-theme = "ayu"
+smart-punctuation = false
+hash-files = false
+no-section-label = true
+[output.html.playground]
+runnable = false
+copyable = false
+copy-js = false
+[output.html.search]
+enable = true
