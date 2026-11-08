@@ -318,8 +318,8 @@
     },
     {
       "ruta": "src/13-imagenes.md",
-      "bytes": 7071,
-      "sha256": "2405daa6a392233c013051f9a46cca0565f23f030f928fdc7d013ceb9dcbe2d8"
+      "bytes": 7243,
+      "sha256": "daf5150e94c8440f0f2c82f69a4056f253bbe7048f591d926b0e58ea4cad3eb4"
     },
     {
       "ruta": "src/13-imagenes.md.license",
@@ -1268,8 +1268,8 @@
     },
     {
       "ruta": "src/figuras.md",
-      "bytes": 6746,
-      "sha256": "716bfd5b06c6cbe2b68bad2c6a1eecd19d700c52f6e4b30739d64ad643f19213"
+      "bytes": 6744,
+      "sha256": "60322a3b8ce8da6b19e06a9e14232acb5430a6df48b2064ed2b805a0b390b533"
     },
     {
       "ruta": "src/figuras.md.license",
