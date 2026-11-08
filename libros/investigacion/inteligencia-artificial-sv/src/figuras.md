@@ -1,6 +1,6 @@
 # Índice de figuras
 
-<p class="sv-page-number">Página web 14 de 14</p>
+<p class="sv-page-number">Página 14 de 14</p>
 
 - [Figura 7.1. Imagen sintética de los estados del televisor](07-televisor.md#figura-7-1).
 - [Figura 7.2. Glifo de referencia S43: reparación requerida y finalidad](07-televisor.md#figura-7-2).

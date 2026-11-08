@@ -1,6 +1,6 @@
 # Bibliografía
 
-<p class="sv-page-number">Página web 12 de 14</p>
+<p class="sv-page-number">Página 12 de 14</p>
 
 Las fuentes del Sistema Vectorial establecen definiciones y condiciones de aplicación. Sus formulaciones no sustituyen la demostración experimental de una implementación. El tratado proporciona los casos y los resultados que esta obra utiliza como antecedentes.
 

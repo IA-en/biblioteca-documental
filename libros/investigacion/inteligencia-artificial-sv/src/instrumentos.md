@@ -1,6 +1,6 @@
 # Instrumentos y comunidades
 
-<p class="sv-page-number">Página web 13 de 14</p>
+<p class="sv-page-number">Página 13 de 14</p>
 
 Los instrumentos permiten realizar y examinar operaciones. Su inclusión no acredita por sí misma una capacidad semántica ni demuestra la arquitectura completa.
 

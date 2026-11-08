@@ -1,6 +1,6 @@
 # Ediciones, autoría y licencias
 
-<p class="sv-page-number">Página web 11 de 14</p>
+<p class="sv-page-number">Página 11 de 14</p>
 
 | Edición | Fecha | Contenido |
 |---|---|---|

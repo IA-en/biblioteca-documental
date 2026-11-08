@@ -1,6 +1,6 @@
 # 2. Principios obligatorios y fundamento documental
 
-<p class="sv-page-number">Página web 2 de 14</p>
+<p class="sv-page-number">Página 2 de 14</p>
 
 La arquitectura adopta los [fundamentos algebraico-semánticos](bibliografia.md#fundamentos) y la [cadena de representación del tratado](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/03-recorrido.html). No basta con conservar el dibujo final: deben conservarse las reglas que dan significado a sus posiciones y a sus relaciones.
 

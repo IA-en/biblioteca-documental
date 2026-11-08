@@ -1,6 +1,6 @@
 # 10. Ensayos, resultados y evolución de Génesis
 
-<p class="sv-page-number">Página web 10 de 14</p>
+<p class="sv-page-number">Página 10 de 14</p>
 
 **Génesis** identifica el primer modelo experimental de la Inteligencia Artificial del Sistema Vectorial (IA del SV). La revisión técnica **1.0.0-experimental.72** reúne procedimientos delimitados de representación y consulta; no acredita una inteligencia artificial visual general. La edición de este libro y la versión del modelo son referencias diferentes. Su [historial de versiones](ediciones.md#modelo-y-versiones) conserva esta distinción.
 

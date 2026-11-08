@@ -1,6 +1,6 @@
 # 9. Desarrollo secuencial y condiciones de demostración
 
-<p class="sv-page-number">Página web 9 de 14</p>
+<p class="sv-page-number">Página 9 de 14</p>
 
 La relación entre las dos obras es secuencial en sus fundamentos y acumulativa en sus resultados. El tratado constituye y contrasta representaciones. La presente obra estudia operaciones que las utilizan para razonar, conservar conocimiento y dialogar. Una dificultad encontrada en una aplicación puede dar lugar a una nueva investigación del lenguaje visual; esa investigación debe resolver y comprobar la dificultad antes de que el sistema la incorpore como capacidad.
 

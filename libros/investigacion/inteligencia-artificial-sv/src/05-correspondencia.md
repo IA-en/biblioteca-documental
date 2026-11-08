@@ -1,6 +1,6 @@
 # 5. Identidad del suceso, célula y potencial
 
-<p class="sv-page-number">Página web 5 de 14</p>
+<p class="sv-page-number">Página 5 de 14</p>
 
 El registro de un suceso debe permitir recorrer la cadena completa sin sustituir identidades ni confundir dominios. S1, S2 y las denominaciones sucesivas pueden utilizarse como referencias legibles dentro de una colección identificada. La clave completa distingue también la colección; dos denominaciones S1 pertenecientes a conjuntos diferentes no identifican por ello el mismo suceso.
 

@@ -1,6 +1,6 @@
 # 1. Una inteligencia artificial fundada en el razonamiento visual
 
-<p class="sv-page-number">Página web 1 de 14</p>
+<p class="sv-page-number">Página 1 de 14</p>
 
 **Juan Antonio Lloret Egea** · Identificador de investigador (ORCID): <a href="https://orcid.org/0000-0002-6634-3351" target="_blank" rel="noopener noreferrer">0000-0002-6634-3351</a>. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA).
 
