@@ -1,5 +1,7 @@
 # 4. Evidencia, deducción y abstención
 
+<p class="sv-page-number">Página web 4 de 14</p>
+
 Una conclusión se justifica por la relación comprobable entre premisas, regla y resultado. La cadena debe conservar qué observación respalda cada premisa y en qué ámbito es válida. Una afirmación acerca de un personaje dentro de una narración no se convierte en una ley sobre todos los individuos de su especie.
 
 ## Tres distinciones necesarias

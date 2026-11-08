@@ -1,8 +1,10 @@
 # 1. Una inteligencia artificial fundada en el razonamiento visual
 
+<p class="sv-page-number">Página web 1 de 14</p>
+
 **Juan Antonio Lloret Egea** · Identificador de investigador (ORCID): <a href="https://orcid.org/0000-0002-6634-3351" target="_blank" rel="noopener noreferrer">0000-0002-6634-3351</a>. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA).
 
-**Inteligencia Artificial del Sistema Vectorial** · V.04 · 8 de noviembre de 2026.
+**Inteligencia Artificial del Sistema Vectorial** · V.05 · 8 de noviembre de 2026.
 
 Publicación académica vinculada: <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a>. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>.
 

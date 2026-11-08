@@ -1,5 +1,7 @@
 # 6. Expresión verbal y conservación del significado
 
+<p class="sv-page-number">Página web 6 de 14</p>
+
 La expresión verbal permite dialogar, formular preguntas y comunicar los resultados en distintas lenguas. Su flexibilidad no debe modificar las relaciones constituidas. Cambiar palabras o sintaxis puede conservar el significado; cambiar el agente, negar una acción afirmada o presentar una hipótesis como certeza lo altera.
 
 ## La función del transductor semántico

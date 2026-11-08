@@ -1,5 +1,7 @@
 # 3. Dos entradas y un proceso interno visual
 
+<p class="sv-page-number">Página web 3 de 14</p>
+
 La arquitectura contempla una entrada visual y otra verbal. Ambas deben conducir a representaciones visuales constituidas sobre las que puedan ejecutarse operaciones explícitas. La salida puede ser visual, verbal o ambas, conservando sus correspondencias.
 
 <div class="directrices directrices-cuatro" aria-label="Entradas y recorrido del sistema">

@@ -1,6 +1,8 @@
 # 10. Ensayos, resultados y evolución de Génesis
 
-**Génesis** identifica el primer modelo experimental de la Inteligencia Artificial del Sistema Vectorial (IA del SV). La revisión técnica **1.0.0-experimental.72** reúne procedimientos delimitados de representación y consulta; no acredita una inteligencia artificial visual general. La edición de este libro y la versión del modelo son referencias diferentes.
+<p class="sv-page-number">Página web 10 de 14</p>
+
+**Génesis** identifica el primer modelo experimental de la Inteligencia Artificial del Sistema Vectorial (IA del SV). La revisión técnica **1.0.0-experimental.72** reúne procedimientos delimitados de representación y consulta; no acredita una inteligencia artificial visual general. La edición de este libro y la versión del modelo son referencias diferentes. Su [historial de versiones](ediciones.md#modelo-y-versiones) conserva esta distinción.
 
 El [Tratado del Lenguaje Basado en Imágenes, capítulo 21](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/25-desarrollo), constituye las representaciones utilizadas. La presente obra examina qué operaciones pueden efectuarse sobre ellas, qué evidencia sostiene sus respuestas y dónde fallan. Una necesidad descubierta en el modelo puede motivar una nueva representación; su incorporación exige primero su fundamento en el tratado y en las fuentes del Sistema Vectorial.
 

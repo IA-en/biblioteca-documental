@@ -1,5 +1,7 @@
 # 8. Memoria, aprendizaje y realización computacional
 
+<p class="sv-page-number">Página web 8 de 14</p>
+
 La memoria conserva representaciones y operaciones con su procedencia. El aprendizaje se investiga como incorporación y organización de conocimiento explícito, con comprobaciones de adecuación y referencias a los antecedentes. No se identifica con el ajuste opaco de pesos ni con la selección probabilística de una respuesta.
 
 ## Incorporación de conocimiento

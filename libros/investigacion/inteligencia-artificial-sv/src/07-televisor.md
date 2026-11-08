@@ -1,5 +1,7 @@
 # 7. Ejemplo: funcionamiento y reparación de un televisor
 
+<p class="sv-page-number">Página web 7 de 14</p>
+
 El tratado estudia una televisión inteligente que funcionaba, deja de funcionar y requiere una reparación. La corrupción de su sistema se plantea como hipótesis causal. El caso sirve para examinar cuatro distinciones: estado anterior y presente, observación e hipótesis, intervención pendiente y ejecutada, finalidad y resultado.
 
 <figure id="figura-7-1" class="figura-tratado">
