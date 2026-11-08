@@ -8,13 +8,18 @@
     },
     {
       "ruta": "book.toml",
-      "bytes": 765,
-      "sha256": "2d41a93d803f0813eb3be809f35618cf9e6c20fc4e07bdb889fa82788781c758"
+      "bytes": 774,
+      "sha256": "151591e9ee52fda299937c1938fbb9c6ac49cb83da4eb6b20c81deae27cf6aed"
     },
     {
       "ruta": "figuras.css",
       "bytes": 3053,
       "sha256": "cbfaa12326b1969a4383a2705df3b3539999f4fea906f3377710e42b46566f94"
+    },
+    {
+      "ruta": "lectura-investigacion.js",
+      "bytes": 13772,
+      "sha256": "e1623a3e70795e5af7acfc41dc1f5e4b6ab5a4f5289de58c46adfa5412e5df25"
     },
     {
       "ruta": "LICENSE",
@@ -25,11 +30,6 @@
       "ruta": "mdbook-license.txt",
       "bytes": 15921,
       "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e"
-    },
-    {
-      "ruta": "presentacion.js",
-      "bytes": 13772,
-      "sha256": "e1623a3e70795e5af7acfc41dc1f5e4b6ab5a4f5289de58c46adfa5412e5df25"
     },
     {
       "ruta": "README.md",

@@ -11,7 +11,7 @@ use-default-preprocessors = false
 [output.html]
 theme = "theme"
 additional-css = ["biblioteca.css", "figuras.css"]
-additional-js = ["presentacion.js"]
+additional-js = ["lectura-investigacion.js"]
 default-theme = "rust"
 preferred-dark-theme = "ayu"
 smart-punctuation = false

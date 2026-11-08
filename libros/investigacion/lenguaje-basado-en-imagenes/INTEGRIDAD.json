@@ -123,8 +123,8 @@
     },
     {
       "ruta": "book.toml",
-      "bytes": 813,
-      "sha256": "dee579aa5692e3b69955eb682f03e42a2c54478284590330023bc16906a73014"
+      "bytes": 822,
+      "sha256": "c8a72301c243e6fd3746fe40bb68e8dc8db6ababf081c9861fd404b324992bbb"
     },
     {
       "ruta": "book.toml.license",
@@ -147,6 +147,11 @@
       "sha256": "aa46c0796646c09fb9ac49d142feaaa6172f1ec4ea2e9798d1ac855527487166"
     },
     {
+      "ruta": "lectura-investigacion.js",
+      "bytes": 13772,
+      "sha256": "e1623a3e70795e5af7acfc41dc1f5e4b6ab5a4f5289de58c46adfa5412e5df25"
+    },
+    {
       "ruta": "LICENSE",
       "bytes": 1305,
       "sha256": "a160668898bc988ba53111bb65f719194b21260b18d7777fcc04ab5cdaa0d498"
@@ -165,11 +170,6 @@
       "ruta": "plan.json.license",
       "bytes": 293,
       "sha256": "2a6ead2778e0cc9a59e6cdcfa6a4c507f69bc68cc537ec9b91ff38de7ecb036b"
-    },
-    {
-      "ruta": "presentacion.js",
-      "bytes": 13772,
-      "sha256": "e1623a3e70795e5af7acfc41dc1f5e4b6ab5a4f5289de58c46adfa5412e5df25"
     },
     {
       "ruta": "presentacion.js.license",
