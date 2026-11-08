@@ -398,8 +398,8 @@
     },
     {
       "ruta": "src/21-diccionario-visual.md",
-      "bytes": 6282,
-      "sha256": "87b2b9ee4944740b70cab509d57654601b7b1b004c321dad569166858330e2c1"
+      "bytes": 6613,
+      "sha256": "a65b45babecf66af7247a32770f09ca55c1c326a14bca467b6c9fae66bc98f6d"
     },
     {
       "ruta": "src/21-diccionario-visual.md.license",
@@ -433,8 +433,8 @@
     },
     {
       "ruta": "src/25-desarrollo.md",
-      "bytes": 9592,
-      "sha256": "5f40dd0160a761821422121a7ab654bf64b1c9e07d76a8c2e9748319441d4f60"
+      "bytes": 9643,
+      "sha256": "e13a9c8f2b3ac097e09a2e5687c78ea8482078db4b84b2a320d1e765b503931e"
     },
     {
       "ruta": "src/bibliografia.md",
@@ -2928,8 +2928,8 @@
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19480,
-      "sha256": "709229254aa4e01f8a6cd3d95f0f3095ae0912cfbdf56ceb0446d7f1b5ee4f71"
+      "bytes": 19492,
+      "sha256": "558a19a16e6e92cf5e3d6b725f609e0c2cb8943856b48a7c5d174c870dd688e7"
     },
     {
       "ruta": "theme/index.hbs.license",

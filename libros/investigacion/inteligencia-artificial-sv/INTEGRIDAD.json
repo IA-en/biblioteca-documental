@@ -58,8 +58,8 @@
     },
     {
       "ruta": "src/05-correspondencia.md",
-      "bytes": 9617,
-      "sha256": "47e3efd3ff1a3b7f50af3e9eddf3715483394155a5e9644d32d23ad621eabe8f"
+      "bytes": 9658,
+      "sha256": "79ae52beea68db44e78707a38c41a8aa04648f2869da9ee273d3448296deaa6e"
     },
     {
       "ruta": "src/06-expresion.md",
@@ -128,8 +128,8 @@
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19763,
-      "sha256": "ba8b29ce8c32029c62d8e932a1f8d754d8e1ed0228b84ff867942dc1e74fd8d0"
+      "bytes": 19775,
+      "sha256": "19b84d846a1d60bb795edb21a948ba6eef626440bd5a677b2fe4fdb9a8706060"
     }
   ]
 }

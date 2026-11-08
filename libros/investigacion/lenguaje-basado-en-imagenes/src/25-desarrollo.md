@@ -46,7 +46,7 @@ Las preguntas forman una edición (9,3), distinta de la célula de escena. Cada 
 
 ## Potencial calculado y retorno
 
-La imagen normalizada mide **1254 × 1254 píxeles**, con cuatro componentes de ocho bits. Contiene **6 290 064 octetos** de muestras. El convenio de representación posicional de imágenes del Sistema Vectorial, versión 02 (**SVIMG02**), añade una cabecera de dieciséis octetos: el total es **6 290 080 octetos**, equivalentes a **m = 50 320 640 bits**. Sea C el entero que conserva esa secuencia ordenada.
+La imagen normalizada mide **1254 × 1254 píxeles**, con cuatro componentes de ocho bits. Contiene **6 290 064 octetos** de muestras. El convenio de representación posicional de imágenes del Sistema Vectorial, versión 02 (**SVIMG02**), añade dieciséis octetos de identificación y dimensiones: el total es **6 290 080 octetos**, equivalentes a **m = 50 320 640 bits**. Sea C el entero que conserva esa secuencia ordenada.
 
 **μ = 3·2ᵐ + C; λ = 2ᵐ − 1 − C.**
 
@@ -54,7 +54,7 @@ Por diferencia y suma:
 
 **P = 2ᵐ⁺¹ + 2C + 1; I = 2ᵐ⁺² − 1.**
 
-El retorno exacto obtiene **C = (P − 2ᵐ⁺¹ − 1)/2** y recupera la cabecera y las muestras. El valor íntegro de P se conserva como entero; una aproximación decimal breve no lo sustituye.
+El retorno exacto obtiene **C = (P − 2ᵐ⁺¹ − 1)/2** y recupera los datos de identificación, las dimensiones y las muestras. El valor íntegro de P se conserva como entero; una aproximación decimal breve no lo sustituye.
 
 Con **N = m + 2**, la normalización es **q = P/2ᴺ ≈ 0,9056285917557406**. La proyección Atlas del convenio resulta:
 
