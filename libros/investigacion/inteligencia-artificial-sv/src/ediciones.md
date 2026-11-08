@@ -2,6 +2,7 @@
 
 | Edición | Fecha | Contenido |
 |---|---|---|
+| V.04 | 8 de noviembre de 2026 | Precisión del uso experimental de Bliss y de la composición celular del televisor; correspondencia con el tratado V.13. |
 | V.03 | 8 de noviembre de 2026 | Paridad y composición; ensayos de Génesis, repetibilidad y errores críticos; correspondencia con el tratado V.12 e instrumentos efectivamente utilizados. |
 | V.02 | 7 de noviembre de 2026 | Vinculación con la publicación de arquitectura; correspondencia explícita con el tratado V.11 y delimitación del cotejo estructurado respecto de la interpretación verbal. |
 | V.01 | 7 de noviembre de 2026 | Fundamentos y arquitectura de razonamiento visual; dos entradas; suficiencia documental y abstención; identidad, potencial, expresión verbal, memoria y condiciones de demostración. |

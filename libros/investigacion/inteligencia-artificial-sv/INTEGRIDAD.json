@@ -1,5 +1,5 @@
 {
-  "edicion": "V.03",
+  "edicion": "V.04",
   "archivos": [
     {
       "ruta": "biblioteca.css",
@@ -9,7 +9,7 @@
     {
       "ruta": "book.toml",
       "bytes": 774,
-      "sha256": "151591e9ee52fda299937c1938fbb9c6ac49cb83da4eb6b20c81deae27cf6aed"
+      "sha256": "ec009c6a006f587f98e9769875703bee931e41aa28d24a6354709ae7d7471897"
     },
     {
       "ruta": "figuras.css",
@@ -34,12 +34,12 @@
     {
       "ruta": "README.md",
       "bytes": 1112,
-      "sha256": "284131ba3f67bf974d6961ebf7a30878609d5dd0d6f468587e955337bbb25942"
+      "sha256": "a240400855c34ca682d3c78e1bfd087a24a92eaf24ecd3fae64611e46473c746"
     },
     {
       "ruta": "src/01-proposito.md",
       "bytes": 6070,
-      "sha256": "949c33eba4a6dd0cd4bf2acb58bd5f25ad991e8f907446ad874be56e6467cf67"
+      "sha256": "22e4f145db99c50bff1fdf48dba6c5abddbb5396b3426169d6ab94fc1941a669"
     },
     {
       "ruta": "src/02-principios.md",
@@ -63,13 +63,13 @@
     },
     {
       "ruta": "src/06-expresion.md",
-      "bytes": 4829,
-      "sha256": "4f07b5f338fe38826f0c98f23fb1caea344add18c7dc06ab066951c015e7956e"
+      "bytes": 4938,
+      "sha256": "222d3a93b4af4da0769c80efb76baf0273be8f8ee05a57aa0dec06aa438a9aaf"
     },
     {
       "ruta": "src/07-televisor.md",
-      "bytes": 5629,
-      "sha256": "9043c3786723389860b440fd4a07c414ba47acb9faaa8c8f4dc9eb0d5381c281"
+      "bytes": 5656,
+      "sha256": "44b8f0eb584f97af1524dd6e44c81354382d5a6b1014c4a9c6cb09bf5c65b87a"
     },
     {
       "ruta": "src/08-memoria.md",
@@ -79,7 +79,7 @@
     {
       "ruta": "src/09-demostracion.md",
       "bytes": 6943,
-      "sha256": "285c4cabdb5b0c90ad21f13c13bc00848eed9be2f4c3307ba3614eb6840614f5"
+      "sha256": "acc6911d7b1e5c06354d2ba2bcaf27f26127b729f90326b8bcdf74cf261ffba0"
     },
     {
       "ruta": "src/10-ensayos.md",
@@ -89,7 +89,7 @@
     {
       "ruta": "src/bibliografia.md",
       "bytes": 6768,
-      "sha256": "e9ceeb4201f6fbc1e5727d8902300718f37408d59b8cea174daf13679a1a9645"
+      "sha256": "7c2673b7c53b8a1ebe28691006bf0bbbbe038fe085777f8d65f5347cdd15d615"
     },
     {
       "ruta": "src/datos/proceso-genesis.mmd",
@@ -98,8 +98,8 @@
     },
     {
       "ruta": "src/ediciones.md",
-      "bytes": 4178,
-      "sha256": "bdb14bc8daf3eae06849a46e8a13c9377dd6ae164143854d799d3f85225f5533"
+      "bytes": 4336,
+      "sha256": "8a63efbeafd87d7dcb0c73ce94615148c98e736b56010c6b8ef9fcc6633fc0bd"
     },
     {
       "ruta": "src/figuras.md",
@@ -128,8 +128,8 @@
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19804,
-      "sha256": "b95c6e14c3757079a17eefdfc283636cb70b020f39c9ea223ba28ef9edb9f7e8"
+      "bytes": 19799,
+      "sha256": "0c4d4c6501f9c77e14e84aa33db26a8e90d66ead651889c2306f72923ca02cb2"
     }
   ]
 }

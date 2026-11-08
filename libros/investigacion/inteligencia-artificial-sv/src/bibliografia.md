@@ -4,7 +4,7 @@ Las fuentes del Sistema Vectorial establecen definiciones y condiciones de aplic
 
 ## Fundamento visual
 
-Lloret Egea, Juan Antonio (2026). *Lenguaje Basado en Imágenes (LBI): representación trazable y conservación semántica en el Sistema Vectorial (SV)*. <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">DOI: 10.21428/39829d0b.8b9c0155</a>. Desarrollo documental: <a href="https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/" target="_blank" rel="noopener noreferrer">Tratado Lenguaje Basado en Imágenes</a>, edición V.12.
+Lloret Egea, Juan Antonio (2026). *Lenguaje Basado en Imágenes (LBI): representación trazable y conservación semántica en el Sistema Vectorial (SV)*. <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">DOI: 10.21428/39829d0b.8b9c0155</a>. Desarrollo documental: <a href="https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/" target="_blank" rel="noopener noreferrer">Tratado Lenguaje Basado en Imágenes</a>, edición V.13.
 
 ## Fundamentos
 

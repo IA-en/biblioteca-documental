@@ -1,5 +1,5 @@
 {
-  "edicion": "V.12",
+  "edicion": "V.13",
   "archivos": [
     {
       "ruta": ".gitignore",
@@ -83,8 +83,8 @@
     },
     {
       "ruta": "articulo/manuscrito.md",
-      "bytes": 53446,
-      "sha256": "1a767b9e6dd1240d18fbb47207ca34b84d2580ada3acce65ca3e15a459a09ab4"
+      "bytes": 63458,
+      "sha256": "8a381ea832dc59bca3189f18b8a91a57f625a94093331b496f0191ae7c256146"
     },
     {
       "ruta": "articulo/manuscrito.md.license",
@@ -124,7 +124,7 @@
     {
       "ruta": "book.toml",
       "bytes": 822,
-      "sha256": "c8a72301c243e6fd3746fe40bb68e8dc8db6ababf081c9861fd404b324992bbb"
+      "sha256": "e28c68ede24b08d509402a80e838d0a8f50d4af3b882b2f5889650afef3a8c46"
     },
     {
       "ruta": "book.toml.license",
@@ -179,7 +179,7 @@
     {
       "ruta": "README.md",
       "bytes": 1245,
-      "sha256": "c52b6b97685b9b73d7b493970cee58197f6cc804f5eb103c0d5c483a29dc61e8"
+      "sha256": "9480a94e7081053e50e3df96dc1d8f0ecbaf9cfe567fdcec4668fd515ebfac1d"
     },
     {
       "ruta": "README.md.license",
@@ -199,7 +199,7 @@
     {
       "ruta": "src/01-presentacion.md",
       "bytes": 6593,
-      "sha256": "e07132201e3636e6b9a0216a894155c4aa17b0ad394ec222aedb2d129512bafa"
+      "sha256": "45ab48bf6749fbfb8c01e4d6d1ddef23a28aea0023667ceb5444291db56c8e08"
     },
     {
       "ruta": "src/01-presentacion.md.license",
@@ -338,8 +338,8 @@
     },
     {
       "ruta": "src/15-ediciones.md",
-      "bytes": 4489,
-      "sha256": "de279431744979ea62ee0481550c53e4437d8e3b7124e163c9b029e337cd3ca7"
+      "bytes": 4656,
+      "sha256": "94b98402972c3b9bab6b6ce3f7458acb4bdc0985c299ac05e7f9c2e59fb08aff"
     },
     {
       "ruta": "src/15-ediciones.md.license",
@@ -418,8 +418,8 @@
     },
     {
       "ruta": "src/23-correspondencias.md",
-      "bytes": 50201,
-      "sha256": "710af0066e4341c5dcd5e2e428716a777ec41c7702f203f0e0438814c1ad10f0"
+      "bytes": 50885,
+      "sha256": "54f428e430ee8fde5c4567588beb63a2f9933f07e6d5fc8bd6162389e5790ca6"
     },
     {
       "ruta": "src/23-correspondencias.md.license",
@@ -429,7 +429,7 @@
     {
       "ruta": "src/24-inteligencia-artificial.md",
       "bytes": 8381,
-      "sha256": "814e725ffc4cd6c7f8abf6e96ef0a1fe5a8739ca31f5dfe7b934b5c77e2253aa"
+      "sha256": "21c4502c220fe1491c98e1c67e04218d243f3973c4c383749e306b22fa6f30dd"
     },
     {
       "ruta": "src/25-desarrollo.md",
@@ -2928,8 +2928,8 @@
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19521,
-      "sha256": "1383be0af94dfbe41709a236739aac77c8bca686594b1bed14ddae3fdbec727e"
+      "bytes": 19516,
+      "sha256": "af3ce2169bb875afa0a4c2ff857619c31f64aef762897dc50c6f2a17b6bae7b6"
     },
     {
       "ruta": "theme/index.hbs.license",

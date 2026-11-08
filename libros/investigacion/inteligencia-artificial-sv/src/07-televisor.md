@@ -31,7 +31,7 @@ El [registro del tratado](https://documentos-sv.itvia.online/investigacion/lengu
 <figcaption class="pie-figura"><strong>Figura 7.2.</strong> Glifo de referencia S43. Su propuesta visual distingue intervención pendiente y recuperación pretendida. La interpretación requiere contraste; el glifo no acredita una reparación real.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional (CC BY-NC-ND 4.0).</small></figcaption>
 </figure>
 
-La figura 7.2 conserva su [célula y potencial exacto de referencia](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/23-correspondencias.html#suceso-S43). Es otra representación digital y no recibe el potencial de la imagen completa. Las figuras son las mismas muestras utilizadas en el tratado; sus pies pertenecen a la presentación editorial.
+La figura 7.2 conserva su [composición de cuatro células y su potencial exacto de referencia](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/23-correspondencias.html#suceso-S43). Es otra representación digital y no recibe el potencial de la imagen completa. Las figuras son las mismas muestras utilizadas en el tratado; sus pies pertenecen a la presentación editorial.
 
 ## Pregunta, operación y respuesta
 

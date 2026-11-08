@@ -2,6 +2,7 @@
 
 | Edición | Fecha | Contenido |
 |---|---|---|
+| V.13 | 8 de noviembre de 2026 | Precisión de correspondencias, alcance de los registros y remisiones entre casos; conservación de los resultados experimentales. |
 | V.12 | 8 de noviembre de 2026 | Paridad célula–polígono, composición global y local, distinción de trayectorias, desarrollo de la manzana, perfiles Bliss y resultados delimitados de Génesis. |
 | V.11 | 7 de noviembre de 2026 | Publicación de arquitectura vinculada; correspondencia con la obra de inteligencia artificial V.02 y delimitación del cotejo estructurado frente a la interpretación de texto libre. |
 | V.10 | 7 de noviembre de 2026 | Dependencia entre el lenguaje visual y la inteligencia artificial propia; razonamiento visual determinista, suficiencia documental y abstención; enlace a la nueva obra de investigación |

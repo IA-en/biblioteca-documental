@@ -63,7 +63,7 @@ El perfil posterior de la manzana reúne imagen, composición visual, texto de r
 <h3>Imagen2</h3>
 
 <p><strong>Cadena de texto descriptiva — original en español:</strong></p><blockquote class="cadena-texto">Una persona sostiene un libro rojo en la abertura de una mochila azul; una mano sujeta el libro y la otra el borde de la abertura. Otro libro permanece sobre la mesa. La imagen aislada no determina si el libro entra o sale.</blockquote>
-<p>Esta descripción inicial se amplía mediante el perfil de la manzana, con sus nueve proposiciones, preguntas y límites en el capítulo 21.</p>
+<p>La descripción se limita a lo visible; las relaciones semánticas y su composición celular específica permanecen pendientes de constitución.</p>
 <figure id="figura-17-2" class="figura-tratado"><a href="imagenes/origen/Imagen2.png" target="_blank" rel="noopener noreferrer"><img src="imagenes/origen/Imagen2.png" alt="Imagen sintética 2" loading="lazy"></a><figcaption>Figura 17.2. Imagen fuente sintética.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · CC BY-NC-ND 4.0</small></figcaption></figure>
 
 Resolución: 1254 × 1254; cuatro componentes de ocho bits. Potencial Atlas aproximado: **57.086992578431**. <a href="calculos/Imagen2.html" target="_blank" rel="noopener noreferrer">Ver el cálculo paso a paso</a> · <a href="calculos/Imagen2.txt" target="_blank" rel="noopener noreferrer">Leer el desarrollo en texto</a> · <a href="calculos/Imagen2-exacto.txt" target="_blank" rel="noopener noreferrer">Valor exacto en texto, base 16</a>.
@@ -76,7 +76,7 @@ Glifo semántico y célula todavía no constituidos.
 <h3>Imagen3</h3>
 
 <p><strong>Cadena de texto descriptiva — original en español:</strong></p><blockquote class="cadena-texto">Una persona vierte agua sobre una planta con flores situada en una maceta dentro de una carretilla; otra persona sujeta esa maceta y una tercera sostiene una bandeja con dos macetas.</blockquote>
-<p>Esta descripción inicial se amplía mediante el perfil de la manzana, con sus nueve proposiciones, preguntas y límites en el capítulo 21.</p>
+<p>La descripción se limita a lo visible; las relaciones semánticas y su composición celular específica permanecen pendientes de constitución.</p>
 <figure id="figura-17-3" class="figura-tratado"><a href="imagenes/origen/Imagen3.png" target="_blank" rel="noopener noreferrer"><img src="imagenes/origen/Imagen3.png" alt="Imagen sintética 3" loading="lazy"></a><figcaption>Figura 17.3. Imagen fuente sintética.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · CC BY-NC-ND 4.0</small></figcaption></figure>
 
 Resolución: 1254 × 1254; cuatro componentes de ocho bits. Potencial Atlas aproximado: **53.818723459128**. <a href="calculos/Imagen3.html" target="_blank" rel="noopener noreferrer">Ver el cálculo paso a paso</a> · <a href="calculos/Imagen3.txt" target="_blank" rel="noopener noreferrer">Leer el desarrollo en texto</a> · <a href="calculos/Imagen3-exacto.txt" target="_blank" rel="noopener noreferrer">Valor exacto en texto, base 16</a>.
@@ -89,7 +89,7 @@ Glifo semántico y célula todavía no constituidos.
 <h3>Imagen4</h3>
 
 <p><strong>Cadena de texto descriptiva — original en español:</strong></p><blockquote class="cadena-texto">Dos vistas muestran un televisor en una habitación. En la izquierda aparece un paisaje en la pantalla. En la derecha, la pantalla está oscura con tres puntos luminosos y una mano sostiene un mando dirigido hacia el aparato. La imagen no muestra por sí sola la causa del estado de la pantalla.</blockquote>
-<p>Esta descripción recoge lo visible. Los sucesos S40 y S41 añaden la constitución narrativa declarada del caso.</p>
+<p>Esta descripción recoge lo visible. S40 representa el funcionamiento anterior y S41 el fallo posterior, conforme a la constitución narrativa del caso. Son composiciones identificadas, no dos hechos acreditados automáticamente por los píxeles. La sospecha causal y la reparación pendiente se conservan por separado en S42 y S43.</p>
 <figure id="figura-17-4" class="figura-tratado"><a href="imagenes/origen/Imagen4.png" target="_blank" rel="noopener noreferrer"><img src="imagenes/origen/Imagen4.png" alt="Imagen sintética 4" loading="lazy"></a><figcaption>Figura 17.4. Imagen fuente sintética.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · CC BY-NC-ND 4.0</small></figcaption></figure>
 
 Resolución: 1774 × 887; cuatro componentes de ocho bits. Potencial Atlas aproximado: **63.904678214892**. <a href="calculos/Imagen4.html" target="_blank" rel="noopener noreferrer">Ver el cálculo paso a paso</a> · <a href="calculos/Imagen4.txt" target="_blank" rel="noopener noreferrer">Leer el desarrollo en texto</a> · <a href="calculos/Imagen4-exacto.txt" target="_blank" rel="noopener noreferrer">Valor exacto en texto, base 16</a>.
@@ -240,6 +240,8 @@ Las expresiones «anterior» y «posterior» describen relaciones constituidas, 
 </details>
 
 ## Tabla de potenciales
+
+Esta tabla presenta cuatro imágenes fuente y quince composiciones narrativas del relato y del televisor. Conserva ese conjunto histórico; no es el inventario acumulado de todos los ensayos posteriores. Las nuevas incorporaciones mantienen identificadores completos y registros propios, y se describen en el [desarrollo experimental](25-desarrollo.md). El número de un suceso no expresa por sí solo una relación temporal ni el número de sus células.
 
 Los valores siguientes se leen directamente en el libro. Cada fila enlaza las operaciones que producen su resultado. La descarga del archivo de valores separados por comas (CSV) es opcional.
 

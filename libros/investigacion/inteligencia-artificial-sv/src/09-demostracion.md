@@ -41,7 +41,7 @@ La publicación de esta arquitectura establece un objeto de investigación y cri
 
 ## Correspondencia con los resultados del lenguaje visual
 
-La edición V.12 del tratado distingue el cotejo de relaciones constituidas de la interpretación de una expresión libre. El caso del televisor dispone de nueve condiciones críticas: identidad, funcionamiento anterior, fallo posterior, precedencia, pertenencia del sistema, corrupción hipotética, modalidad causal, reparación pendiente y finalidad sin resultado afirmado. La arquitectura utiliza estas distinciones como condiciones de admisión, sin atribuir al cotejador capacidad perceptiva ni comprensión lingüística general.
+La edición V.13 del tratado distingue el cotejo de relaciones constituidas de la interpretación de una expresión libre. El caso del televisor dispone de nueve condiciones críticas: identidad, funcionamiento anterior, fallo posterior, precedencia, pertenencia del sistema, corrupción hipotética, modalidad causal, reparación pendiente y finalidad sin resultado afirmado. La arquitectura utiliza estas distinciones como condiciones de admisión, sin atribuir al cotejador capacidad perceptiva ni comprensión lingüística general.
 
 Una hipótesis fielmente expresada puede conservarse correctamente; ello no la convierte en un hecho confirmado. Una entrada fuera de cobertura carece de certificación semántica y no se transforma automáticamente en error del participante ni en U. La interpretación debe justificar sus relaciones mediante fragmentos de la expresión recibida y conservar alternativas competentes antes del cotejo con la referencia.
 

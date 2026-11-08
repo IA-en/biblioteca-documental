@@ -35,7 +35,7 @@ La salida puede ofrecer varias realizaciones verbales admisibles mediante reglas
 
 Un diccionario de glifos debe hacer accesibles las composiciones y sus contrastes visuales. Su función no consiste en exigir una definición verbal para reconocer cada signo. La documentación de las reglas se conserva separadamente del material de observación, de modo que pueda comprobarse la comprensión sin proporcionar la respuesta.
 
-El estudio de repertorios externos, como los símbolos Bliss, puede aportar comparaciones sobre composición y distinciones expresivas. Su adopción no está establecida en esta arquitectura y no sustituiría la comprobación de interpretación, las condiciones de uso de sus materiales ni la fundamentación celular del sistema.
+El estudio de repertorios externos, como los símbolos Bliss, puede aportar comparaciones sobre composición y distinciones expresivas. Los ensayos delimitados del capítulo 10 ya utilizan símbolos oficiales con relaciones experimentales. Ese uso no acredita la adopción de una gramática Bliss completa ni sustituye la comprobación de interpretación, las condiciones de uso de los materiales o la fundamentación celular del sistema.
 
 La etapa de contraste considerada se dirige a sistemas artificiales. La investigación con personas requiere un diseño propio y no queda acreditada por los resultados de un participante artificial.
 
