@@ -148,8 +148,8 @@
     },
     {
       "ruta": "lectura-investigacion.js",
-      "bytes": 13772,
-      "sha256": "e1623a3e70795e5af7acfc41dc1f5e4b6ab5a4f5289de58c46adfa5412e5df25"
+      "bytes": 13941,
+      "sha256": "3c1143563a778320d96cf2d65b856f62d3e7334e9ceee4b00d03ab802bf2bb9c"
     },
     {
       "ruta": "LICENSE",
@@ -208,8 +208,8 @@
     },
     {
       "ruta": "src/02-fundamento.md",
-      "bytes": 11681,
-      "sha256": "1be97928daba5cb1ad7f630c1cbe61e22a248f9f4fc8e10efac9e92eac7426d4"
+      "bytes": 12081,
+      "sha256": "b18164dc0a432ca8d73118e075cb2a7ba30a07fb0bb8f15bed9b68636d6da38e"
     },
     {
       "ruta": "src/02-fundamento.md.license",
@@ -328,8 +328,8 @@
     },
     {
       "ruta": "src/14-evaluacion.md",
-      "bytes": 5605,
-      "sha256": "723ac0096bfb0561991548cbfbcf32ecea8b96818252bc929b1fb59ab6222b00"
+      "bytes": 5671,
+      "sha256": "1298e984d2edc1851a7775f7556adec617e93b95ab39a86c51b24a73512dacb5"
     },
     {
       "ruta": "src/14-evaluacion.md.license",
@@ -358,8 +358,8 @@
     },
     {
       "ruta": "src/17-potencial.md",
-      "bytes": 28356,
-      "sha256": "b93dc763c43ac71464c25c90be5c20c7ea226280788796a4a00caa587323c7d9"
+      "bytes": 30845,
+      "sha256": "4e67a4df97135828d687b8be86e2ef03475ae19897698bac770e432ae492305a"
     },
     {
       "ruta": "src/17-potencial.md.license",
@@ -433,8 +433,8 @@
     },
     {
       "ruta": "src/25-desarrollo.md",
-      "bytes": 9643,
-      "sha256": "e13a9c8f2b3ac097e09a2e5687c78ea8482078db4b84b2a320d1e765b503931e"
+      "bytes": 10393,
+      "sha256": "23566e031d40088e033accabe82feedaade84fd0afb1bdbbba50d4bd50186757"
     },
     {
       "ruta": "src/bibliografia.md",
@@ -2928,8 +2928,8 @@
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19496,
-      "sha256": "5ff6114437f71d4d6027d5b2ec5f69c92d346c2c0419cddfd0b75bb30ebb4320"
+      "bytes": 19521,
+      "sha256": "1383be0af94dfbe41709a236739aac77c8bca686594b1bed14ddae3fdbec727e"
     },
     {
       "ruta": "theme/index.hbs.license",

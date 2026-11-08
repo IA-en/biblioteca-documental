@@ -18,7 +18,9 @@
   const literal = s => s.split(/\s*[–—-]\s*/).map(parte =>
     parte.split(/\s+/).map(escapar).join('[\\s\\u00a0]+')).join('[\\s\\u00a0]*[–—-][\\s\\u00a0]*');
   const expresiones = nombres.sort((a,b) => b.length-a.length).map(literal);
-  expresiones.push('OP-[A-Z]{3}-[0-9]{3}(?:-Q[0-9]+)?', 'P[0-9]{2}', 'N[0-4]', 'Q[0-9]+');
+  expresiones.push('OP-[A-Z]{3}-[0-9]{3}(?:-Q[0-9]+)?', 'P[0-9]+', 'N[0-4]', 'Q[0-9]+');
+  // Los pares celulares y las ternas son notación formal, no prosa traducible.
+  expresiones.push('\\([0-9]+\\s*,\\s*[0-9]+\\)', '\\([01Uu](?:\\s*,\\s*[01Uu]){2,}\\)');
   const patron = new RegExp('(?<![\\p{L}\\p{N}_])(?:' + expresiones.join('|') + ')(?![\\p{L}\\p{N}_])', 'giu');
   const excluir = 'script,style,noscript,textarea,input,select,option,pre,code,math,svg,.math,.notranslate,[translate="no"],#google_translate_element,.sv-language-tools';
   const bloque = /^(ADDRESS|ARTICLE|ASIDE|BLOCKQUOTE|BR|CAPTION|DD|DIV|DL|DT|FIGCAPTION|FIGURE|FOOTER|H[1-6]|HEADER|HR|LI|MAIN|NAV|OL|P|SECTION|TABLE|TBODY|TD|TH|THEAD|TR|UL)$/;

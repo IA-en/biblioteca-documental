@@ -6,7 +6,7 @@ El potencial debe distinguir las diferencias que la representación conserva. Un
 
 Las <a href="https://doi.org/10.21428/39829d0b.dcb48723" target="_blank" rel="noopener noreferrer">Reglas y condiciones de las Matemáticas del Potencial</a>, apartado 13.1, y <a href="https://doi.org/10.21428/39829d0b.5e15cabb" target="_blank" rel="noopener noreferrer">Orientación universal y geográfica</a>, apartados 6 y 8.9, establecen las condiciones de una proyección efectiva. Las magnitudes fundamentales son:
 
-**P = μ − λ; I = μ + λ.**
+<strong><span class="math notranslate" translate="no">P = μ − λ; I = μ + λ.</span></strong>
 
 Los polos μ y λ son no negativos y deben compartir dominio, escala y orientación. En una base igualada s, la individuación mediante un diferencial δ adopta μ = s + δ/2 y λ = s − δ/2. Entonces P = δ e I = 2s. El apartado 8.10 presenta controles con diferenciales sintéticos dados; no son una extracción de valores a partir de píxeles.
 
@@ -18,21 +18,21 @@ En la aplicación etaria de esa publicación, Aᵢ es la edad física admisible 
 
 Para una entrada normalizada x, la transformación es:
 
-**Sη(x) = ln(1 + x/η) / ln(1 + 1/η); s = Q·Sη(x).**
+<strong><span class="math notranslate" translate="no">Sη(x) = ln(1 + x/η) / ln(1 + 1/η); s = Q&#183;Sη(x).</span></strong>
 
-Aquí ln es el logaritmo natural; η > 0 regula la sensibilidad y Q > 0 fija el rango de representación. La función cumple Sη(0) = 0 y Sη(1) = 1. Su derivada, **S′η(x) = 1/[(η + x)·ln(1 + 1/η)]**, es positiva: aumentar la entrada aumenta su proyección. La sensibilidad es mayor cerca de cero. Para comparar resultados deben mantenerse η y Q, además de la definición del dato de entrada.
+Aquí ln es el logaritmo natural; η > 0 regula la sensibilidad y Q > 0 fija el rango de representación. La función cumple Sη(0) = 0 y Sη(1) = 1. Su derivada, <strong><span class="math notranslate" translate="no">S′η(x) = 1/[(η + x)&#183;ln(1 + 1/η)]</span></strong>, es positiva: aumentar la entrada aumenta su proyección. La sensibilidad es mayor cerca de cero. Para comparar resultados deben mantenerse η y Q, además de la definición del dato de entrada.
 
 ### Posición de régimen y diferencial singular
 
 La publicación sitúa inicialmente ambos polos en s:
 
-**μ⁰ = λ⁰ = s; P⁰ = 0; I⁰ = 2s.**
+<strong><span class="math notranslate" translate="no">μ⁰ = λ⁰ = s; P⁰ = 0; I⁰ = 2s.</span></strong>
 
 Esta igualdad polar constituye la Línea Umbral. El superíndice 0 identifica el régimen inicial, no una potencia aritmética. La coordenada s describe ese régimen, pero no es su diferencia polar: aunque s sea positiva, P⁰ sigue siendo cero. La distinción se explica en <a href="https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1#lnea-umbral-sv-recta-atlas-y-distribucin-de-observables-por-potencial" target="_blank" rel="noopener noreferrer">el apartado 6.5</a>.
 
 Cuando una magnitud singular declarada proporciona δ, se obtiene:
 
-**μ = s + δ/2; λ = s − δ/2; P = δ; I = 2s.**
+<strong><span class="math notranslate" translate="no">μ = s + δ/2; λ = s − δ/2; P = δ; I = 2s.</span></strong>
 
 La condición **|δ| ≤ 2s** conserva ambos polos no negativos. El diferencial cambia su distribución y mantiene la intensidad. La escala utiliza unidades internas de potencial Atlas, cuya notación u_AT(η,Q) identifica sensibilidad y rango; no son unidades del Sistema Internacional (SI). En estas expresiones, s, δ, μ y λ designan los coeficientes numéricos en la unidad declarada. Con la unidad explícita, las magnitudes son P = (μ − λ)·u_AT e I = (μ + λ)·u_AT. Véase <a href="https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1#unidades-de-potencial-atlas-y-nomenclatura-de-rutas" target="_blank" rel="noopener noreferrer">el apartado 6.8, unidades de potencial Atlas</a>.
 
@@ -46,14 +46,14 @@ Con η = 1/10 y Q = 64, la función toma la forma s = 64·ln(1 + 10x)/ln(11):
 | 1/2 | 64·ln(6)/ln(11) | ≈ 47,822191 | 0 | ≈ 95,644382 |
 | 1 | 64·ln(11)/ln(11) | 64 | 0 | 128 |
 
-Para mostrar la segunda operación, considérese un control aritmético con s = 64 y un coeficiente diferencial de entrada δ = 2. Entonces μ = 64 + 2/2 = 65 y λ = 64 − 2/2 = 63; por tanto, **P = (65 − 63)·u_AT = 2·u_AT** e **I = (65 + 63)·u_AT = 128·u_AT**. El valor 2 es un dato sintético del ejemplo, no una magnitud medida en una fotografía. En una aplicación debe proceder de la regla de dominio declarada.
+Para mostrar la segunda operación, considérese un control aritmético con s = 64 y un coeficiente diferencial de entrada δ = 2. Entonces μ = 64 + 2/2 = 65 y λ = 64 − 2/2 = 63; por tanto, <strong><span class="math notranslate" translate="no">P = (65 − 63)&#183;u_AT = 2&#183;u_AT</span></strong> e <strong><span class="math notranslate" translate="no">I = (65 + 63)&#183;u_AT = 128&#183;u_AT</span></strong>. El valor 2 es un dato sintético del ejemplo, no una magnitud medida en una fotografía. En una aplicación debe proceder de la regla de dominio declarada.
 
 <details>
 <summary>Más información: las referencias etarias y la escala acotada</summary>
 
 La <a href="https://doi.org/10.21428/39829d0b.7b4fc2e6" target="_blank" rel="noopener noreferrer">Trilogía Exocósmica, Parte III (λ)</a>, <a href="https://www.itvia.online/pub/nasa-redondea-el-sistema-vectorial-sv-formaliza--trilogia-exocosmica-parte-iii-lambda-humanoide/release/2#a2-escala-del-universo-psilon-atlas-y-sus-observables" target="_blank" rel="noopener noreferrer">anexo A.2</a>, utiliza AΩobs = 13.800.000.000 años julianos y FΩ = 27.600.000.000 años julianos. Son referencias de normalización. Los valores etarios y sus coordenadas acotadas expresan magnitudes diferentes.
 
-Para el control Aᵢ = 0, la sustitución da **x = (13.800.000.000 − 0)/27.600.000.000 = 1/2**. Con η = 0,1 y Q = 64 resulta **s = 64·ln(6)/ln(11) ≈ 47,822191**, P⁰ = 0 e I⁰ ≈ 95,644382·u_AT. El rango Q = 64 no implica que la base s sea 64 en todos los casos. Con estas referencias, las edades físicas entre cero y AΩobs ocupan 0 ≤ x ≤ 1/2; el extremo formal x = 1 de la tabla de la función no se atribuye a una edad física de ese intervalo.
+Para el control Aᵢ = 0, la sustitución da <strong><span class="math notranslate" translate="no">x = (13.800.000.000 − 0)/27.600.000.000 = 1/2</span></strong>. Con η = 0,1 y Q = 64 resulta <strong><span class="math notranslate" translate="no">s = 64&#183;ln(6)/ln(11) ≈ 47,822191</span></strong>, P⁰ = 0 e I⁰ ≈ 95,644382·u_AT. El rango Q = 64 no implica que la base s sea 64 en todos los casos. Con estas referencias, las edades físicas entre cero y AΩobs ocupan 0 ≤ x ≤ 1/2; el extremo formal x = 1 de la tabla de la función no se atribuye a una edad física de ese intervalo.
 
 Una fecha de origen documentada puede aportar Aᵢ respecto de una referencia de evaluación declarada. Esta operación sitúa un régimen etario; el diferencial singular exige, además, la regla que lo obtiene de los datos. Si la fecha no se conoce, no se deduce de los colores ni se sustituye por un cero. La fecha del archivo, la captura y el origen del objeto se registran según su significado y procedencia.
 
@@ -94,13 +94,13 @@ La secuencia completa tiene m bits y representa un entero C, con 0 ≤ C < 2ᵐ.
 
 Se anteponen dos bits iguales a uno a esa secuencia. Su longitud total es N = m + 2. Se definen:
 
-**μ = 3·2ᵐ + C**
+<strong><span class="math notranslate" translate="no">μ = 3&#183;2ᵐ + C</span></strong>
 
-**λ = 2ᵐ − 1 − C**
+<strong><span class="math notranslate" translate="no">λ = 2ᵐ − 1 − C</span></strong>
 
-**P = 2ᵐ⁺¹ + 2C + 1**
+<strong><span class="math notranslate" translate="no">P = 2ᵐ⁺&#185; + 2C + 1</span></strong>
 
-**I = 2ᵐ⁺² − 1.**
+<strong><span class="math notranslate" translate="no">I = 2ᵐ⁺&#178; − 1.</span></strong>
 
 Ambos polos son no negativos. El segundo es el complemento del primero dentro de las N posiciones. El potencial es un entero impar positivo y tiene exactamente N bits. La construcción conserva las muestras completas; no es una huella abreviada ni un número de inscripción del suceso.
 
@@ -119,25 +119,25 @@ Las dos secuencias tienen un cero y un uno. Un conteo no las distinguiría. El p
 
 Para una longitud m fija, P aumenta en dos cuando C aumenta en uno; por tanto, valores distintos de C producen potenciales distintos. Para longitudes diferentes, P tiene una longitud binaria N diferente. Los intervalos correspondientes no se solapan. La inversa es:
 
-**N = longitud binaria de P; m = N − 2; C = (P − 2ᵐ⁺¹ − 1)/2.**
+<strong><span class="math notranslate" translate="no">N = </span>longitud binaria de P<span class="math notranslate" translate="no">; m = N − 2; C = (P − 2ᵐ⁺&#185; − 1)/2.</span></strong>
 
 La secuencia recuperada se interpreta con exactamente m bits. Se comprueban perfil, dimensiones y cantidad de muestras. Una secuencia que no cumple esas condiciones queda fuera del dominio admitido. Estas igualdades demuestran inyectividad sobre las representaciones digitales constituidas; no afirman que una captura finita contenga todos los detalles del mundo físico.
 
 ## Proyección en la recta Atlas
 
-Se normaliza el entero exacto mediante **q = P/2ᴺ**, de modo que 1/2 < q < 1. Como P es impar, la fracción está reducida y conserva tanto el numerador como la longitud. No se utiliza un número decimal redondeado como entrada de esta definición.
+Se normaliza el entero exacto mediante <strong><span class="math notranslate" translate="no">q = P/2ᴺ</span></strong>, de modo que 1/2 < q < 1. Como P es impar, la fracción está reducida y conserva tanto el numerador como la longitud. No se utiliza un número decimal redondeado como entrada de esta definición.
 
 Se aplica la misma transformación logarítmica descrita en <a href="https://www.itvia.online/pub/orientacion-universal-y-geografica-potencial-del-suceso-e-interfaz-de-dominio-desde-el-universo-y-los-seres-biologicos-humanoide-sv/release/1#proyeccin-sobre-escala-acotada" target="_blank" rel="noopener noreferrer">el apartado 6.4 de Orientación</a>, ahora al racional digital q:
 
-**Sη(q) = ln(1 + q/η) / ln(1 + 1/η).**
+<strong><span class="math notranslate" translate="no">Sη(q) = ln(1 + q/η) / ln(1 + 1/η).</span></strong>
 
 En la formulación etaria, Q·Sη(x) determina la base s del régimen inicial. En el convenio visual SVIMG02, la entrada q representa las muestras digitales y Q·Sη(q) determina el diferencial δ sobre una base común fijada en s = 64. Esta asignación es la regla de esta aplicación: no convierte los píxeles en edades ni atribuye a los objetos representados el potencial de la imagen que los contiene.
 
 Se fijan η = 1/10 y Q = 64 para todas las imágenes del convenio. La proyección efectiva es:
 
-**δ = ΦAtlas(imagen) = 64·ln(1 + 10q)/ln(11).**
+<strong><span class="math notranslate" translate="no">δ = ΦAtlas(imagen) = 64&#183;ln(1 + 10q)/ln(11).</span></strong>
 
-**μAtlas = 64 + δ/2; λAtlas = 64 − δ/2; PAtlas = δ; IAtlas = 128.**
+<strong><span class="math notranslate" translate="no">μAtlas = 64 + δ/2; λAtlas = 64 − δ/2; PAtlas = δ; IAtlas = 128.</span></strong>
 
 La transformación es estrictamente creciente: su derivada es positiva para q ≥ 0 y η > 0. Por ello, no elimina ninguna distinción del racional exacto q. El diferencial queda entre cero y 64; ambos polos Atlas permanecen no negativos. La elección de escala es común a todas las imágenes de este convenio y no depende de reconocer un perro, un televisor o una persona. El dominio del cálculo es la imagen.
 
@@ -145,11 +145,11 @@ Para el ejemplo 01, q = 11/16 y δ = 64·ln(63/8)/ln(11). Para 10, q = 13/16 y �
 
 ### Diferencia respecto de la calibración etaria
 
-En el ejemplo digital 01, **q = 11/16 = 0,6875** procede de los bits y de su longitud. En el ejemplo etario anterior, **x = 1/2** procede de una edad y de dos referencias expresadas en años. La función logarítmica puede aplicarse a ambas entradas, pero sus resultados conservan el significado de su respectivo dominio. La coordenada etaria determina s; este convenio digital determina δ y fija s = 64. Son asignaciones declaradas diferentes, compatibles con las mismas identidades P = μ − λ e I = μ + λ.
+En el ejemplo digital 01, <strong><span class="math notranslate" translate="no">q = 11/16 = 0,6875</span></strong> procede de los bits y de su longitud. En el ejemplo etario anterior, <strong><span class="math notranslate" translate="no">x = 1/2</span></strong> procede de una edad y de dos referencias expresadas en años. La función logarítmica puede aplicarse a ambas entradas, pero sus resultados conservan el significado de su respectivo dominio. La coordenada etaria determina s; este convenio digital determina δ y fija s = 64. Son asignaciones declaradas diferentes, compatibles con las mismas identidades P = μ − λ e I = μ + λ.
 
-Si se interpretara indebidamente q = 11/16 como aquella x etaria, se obtendría **Aᵢ = 13.800.000.000 − 27.600.000.000·11/16 = −5.175.000.000 años**. Esa cifra queda fuera del intervalo físico del ejemplo y no es la edad de la imagen. La fecha documentada puede añadirse como dato y alimentar una calibración etaria separada; no cambia retrospectivamente el potencial digital ni se obtiene de él. La compatibilidad entre aplicaciones exige conservar estas definiciones, no identificar sus variables por compartir una fórmula.
+Si se interpretara indebidamente q = 11/16 como aquella x etaria, se obtendría <strong><span class="math notranslate" translate="no">Aᵢ = 13.800.000.000 − 27.600.000.000&#183;11/16 = −5.175.000.000 </span>años</strong>. Esa cifra queda fuera del intervalo físico del ejemplo y no es la edad de la imagen. La fecha documentada puede añadirse como dato y alimentar una calibración etaria separada; no cambia retrospectivamente el potencial digital ni se obtiene de él. La compatibilidad entre aplicaciones exige conservar estas definiciones, no identificar sus variables por compartir una fórmula.
 
-El retorno matemático recupera q mediante **q = (exp(δ·ln(11)/64) − 1)/10**. Su fracción reducida determina P y N. La realización conserva directamente el numerador entero y su longitud como representación exacta de δ, evitando pretender que una aproximación decimal pueda recuperar millones de muestras.
+El retorno matemático recupera q mediante <strong><span class="math notranslate" translate="no">q = (exp(δ&#183;ln(11)/64) − 1)/10</span></strong>. Su fracción reducida determina P y N. La realización conserva directamente el numerador entero y su longitud como representación exacta de δ, evitando pretender que una aproximación decimal pueda recuperar millones de muestras.
 
 ## Cuatro imágenes calculadas
 
@@ -174,13 +174,13 @@ Imagen1 representa una manzana verde en un recipiente transparente. El significa
 
 La imagen mide 1254 × 1254 píxeles:
 
-**1254 × 1254 = 1 572 516 píxeles.**
+<strong><span class="math notranslate" translate="no">1254 &#215; 1254 = 1 572 516 </span>píxeles<span class="math notranslate" translate="no">.</span></strong>
 
-**1 572 516 × 4 = 6 290 064 componentes de ocho bits.**
+<strong><span class="math notranslate" translate="no">1 572 516 &#215; 4 = 6 290 064 </span>componentes de ocho bits<span class="math notranslate" translate="no">.</span></strong>
 
 Al añadir los dieciséis octetos de perfil y dimensiones, la longitud es L = 6 290 080 octetos. Por tanto:
 
-**m = 6 290 080 × 8 = 50 320 640 bits; N = m + 2 = 50 320 642 bits.**
+<strong><span class="math notranslate" translate="no">m = 6 290 080 &#215; 8 = 50 320 640 </span>bits<span class="math notranslate" translate="no">; N = m + 2 = 50 320 642 </span>bits<span class="math notranslate" translate="no">.</span></strong>
 
 ### Paso 2. Constituir el entero a partir de las muestras
 
@@ -199,9 +199,9 @@ Tras las ocho primeras componentes se obtiene A = 14 965 053 642 194 717 439. La
 
 Al sustituir m y C:
 
-**μ = 3·2⁵⁰³²⁰⁶⁴⁰ + C; λ = 2⁵⁰³²⁰⁶⁴⁰ − 1 − C.**
+<strong><span class="math notranslate" translate="no">μ = 3&#183;2⁵⁰&#179;&#178;⁰⁶⁴⁰ + C; λ = 2⁵⁰&#179;&#178;⁰⁶⁴⁰ − 1 − C.</span></strong>
 
-**P = μ − λ = 2⁵⁰³²⁰⁶⁴¹ + 2C + 1; I = 2⁵⁰³²⁰⁶⁴² − 1.**
+<strong><span class="math notranslate" translate="no">P = μ − λ = 2⁵⁰&#179;&#178;⁰⁶⁴&#185; + 2C + 1; I = 2⁵⁰&#179;&#178;⁰⁶⁴&#178; − 1.</span></strong>
 
 El <a href="calculos/Imagen1-exacto.txt" target="_blank" rel="noopener noreferrer">entero P completo en texto</a> contiene todos sus dígitos, expresados en base 16. Las letras A a F representan los valores de diez a quince; cada dígito corresponde a cuatro bits. Se trata del mismo entero exacto, escrito en otra base, sin compresión ni omisión. Los saltos de línea sólo facilitan su lectura. Su extensión es consecuencia de conservar todas las muestras.
 
@@ -209,11 +209,11 @@ El <a href="calculos/Imagen1-exacto.txt" target="_blank" rel="noopener noreferre
 
 La definición exacta es q = P/2⁵⁰³²⁰⁶⁴². Para comprobar la cifra abreviada puede emplearse el entero A de los ocho primeros octetos:
 
-**q₀ = 1/2 + A/2⁶⁵ = 33 411 797 715 904 269 055 / 36 893 488 147 419 103 232.**
+<strong><span class="math notranslate" translate="no">q₀ = 1/2 + A/2⁶⁵ = 33 411 797 715 904 269 055 / 36 893 488 147 419 103 232.</span></strong>
 
 Su desarrollo decimal exacto es:
 
-**q₀ = 0,90562859175574058481837484702037244232997181825339794158935546875.**
+<strong><span class="math notranslate" translate="no">q₀ = 0,90562859175574058481837484702037244232997181825339794158935546875.</span></strong>
 
 Para justificar la aproximación, se escribe C = A·2ᵐ⁻⁶⁴ + R, con 0 ≤ R < 2ᵐ⁻⁶⁴. La fórmula de P da q = 1/2 + A/2⁶⁵ + R/2ᵐ⁺¹ + 2⁻ᴺ. De ahí se obtiene **0 < q − q₀ < 2⁻⁶⁵**, aproximadamente 2,71·10⁻²⁰. El cálculo exacto conserva R; únicamente la lectura abreviada utiliza esta cota.
 
@@ -233,11 +233,11 @@ La derivada de la transformación es 640 / [(1 + 10q)·ln(11)], menor que 45 en 
 
 ### Paso 6. Calcular los polos Atlas y verificar el retorno
 
-**μAtlas = 64 + δ/2 ≈ 94,802985329362.**
+<strong><span class="math notranslate" translate="no">μAtlas = 64 + δ/2 ≈ 94,802985329362.</span></strong>
 
-**λAtlas = 64 − δ/2 ≈ 33,197014670638.**
+<strong><span class="math notranslate" translate="no">λAtlas = 64 − δ/2 ≈ 33,197014670638.</span></strong>
 
-**PAtlas = δ ≈ 61,605970658723; IAtlas = 128.**
+<strong><span class="math notranslate" translate="no">PAtlas = δ ≈ 61,605970658723; IAtlas = 128.</span></strong>
 
 Las identidades se cumplen antes del redondeo; restar cifras ya redondeadas puede alterar la última cifra mostrada. Para el retorno se recupera N mediante la longitud binaria del entero P, se obtiene m = N − 2 y se aplica C = (P − 2ᵐ⁺¹ − 1)/2. La secuencia de m bits devuelve el perfil, las dimensiones y todas las componentes. En Imagen1 se verificó su igualdad con las muestras originales.
 

@@ -18,8 +18,8 @@
     },
     {
       "ruta": "lectura-investigacion.js",
-      "bytes": 13772,
-      "sha256": "e1623a3e70795e5af7acfc41dc1f5e4b6ab5a4f5289de58c46adfa5412e5df25"
+      "bytes": 13941,
+      "sha256": "3c1143563a778320d96cf2d65b856f62d3e7334e9ceee4b00d03ab802bf2bb9c"
     },
     {
       "ruta": "LICENSE",
@@ -58,8 +58,8 @@
     },
     {
       "ruta": "src/05-correspondencia.md",
-      "bytes": 9658,
-      "sha256": "79ae52beea68db44e78707a38c41a8aa04648f2869da9ee273d3448296deaa6e"
+      "bytes": 9724,
+      "sha256": "c864e086a95d14361f8fe68376e1a151b3013c9d151c308835ea834b58bdc22a"
     },
     {
       "ruta": "src/06-expresion.md",
@@ -128,8 +128,8 @@
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19779,
-      "sha256": "05b1786119db6dffa04a5cf11050ca446888b9b882bc56ece080e73327478ab3"
+      "bytes": 19804,
+      "sha256": "b95c6e14c3757079a17eefdfc283636cb70b020f39c9ea223ba28ef9edb9f7e8"
     }
   ]
 }

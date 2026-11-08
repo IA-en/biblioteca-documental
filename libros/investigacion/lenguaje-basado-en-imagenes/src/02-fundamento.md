@@ -1,6 +1,6 @@
 # 3. Fundamento celular y alcance algebraico
 
-La célula se expresa como **(n,b)**, con **n=b²** y b entero mayor o igual que 3 en la familia aquí utilizada. Sus n posiciones ordenadas toman valores del alfabeto **Σ={0,1,U}**. Una célula de dimensión n admite 3ⁿ configuraciones de esos símbolos.
+La célula se expresa como **(n,b)**, con <strong><span class="math notranslate" translate="no">n=b&#178;</span></strong> y b entero mayor o igual que 3 en la familia aquí utilizada. Sus n posiciones ordenadas toman valores del alfabeto <strong><span class="math notranslate" translate="no">Σ={0,1,U}</span></strong>. Una célula de dimensión n admite 3ⁿ configuraciones de esos símbolos.
 
 | Célula | Posiciones | Configuraciones |
 | --- | ---: | --- |
@@ -24,9 +24,9 @@ Esa selección mediante campos constituye una codificación experimental de info
 
 **Cada célula constituida y su polígono canónico forman siempre un par biyectivo.** No son dos estados independientes: expresan el mismo estado mediante su forma matemática y su forma visual. El contrato conserva la instancia, la constitución, la revisión, la dimensión y el orden de las posiciones. La [Enciclopedia, entrada «Polígono del SV»](https://documentos-sv.itvia.online/enciclopedia/lenguaje#poligono) remite a la [correspondencia visual del manual, apartados 15.5 y 15.6](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/parametros-rutas#correspondencia-visual).
 
-Para un vector **v = (v₁,…,vₙ)**, el contrato dispone las posiciones en las direcciones fijadas y asigna los radios **ρ(0)=1, ρ(1)=2, ρ(U)=3**. La representación ordenada conserva el radio de cada posición; la inversa recupera 0, 1 o U mediante esos tres valores distintos. Una escala de presentación conocida no modifica esta correspondencia. Una captura borrosa, un contorno sin orientación o una figura sin identidad no sustituyen el polígono canónico completo.
+Para un vector <strong><span class="math notranslate" translate="no">v = (v₁,…,vₙ)</span></strong>, el contrato dispone las posiciones en las direcciones fijadas y asigna los radios <strong><span class="math notranslate" translate="no">ρ(0)=1, ρ(1)=2, ρ(U)=3</span></strong>. La representación ordenada conserva el radio de cada posición; la inversa recupera 0, 1 o U mediante esos tres valores distintos. Una escala de presentación conocida no modifica esta correspondencia. Una captura borrosa, un contorno sin orientación o una figura sin identidad no sustituyen el polígono canónico completo.
 
-Se escribe **Frame_C = (frmat, frvis)** para expresar esta paridad. La materialización visual puede realizarse bajo demanda según el contrato; debe corresponder al estado vigente. El área o el perímetro de la figura son observables derivados, no sustitutos de la célula. El glifo que representa una manzana y un recipiente cumple otra función: expresa relaciones visuales del dominio y no reemplaza el polígono celular.
+Se escribe <strong><span class="math notranslate" translate="no">Frame_C = (frmat, frvis)</span></strong> para expresar esta paridad. La materialización visual puede realizarse bajo demanda según el contrato; debe corresponder al estado vigente. El área o el perímetro de la figura son observables derivados, no sustitutos de la célula. El glifo que representa una manzana y un recipiente cumple otra función: expresa relaciones visuales del dominio y no reemplaza el polígono celular.
 
 ## Lectura interactiva y convención cromática
 
@@ -52,7 +52,7 @@ El tratado adopta una distinción de alcance dentro de esta correspondencia:
 
 Global y local son denominaciones de organización del Lenguaje Basado en Imágenes, subordinadas al contrato del Sistema Vectorial. Global se refiere al conjunto de una composición determinada; no significa totalidad del mundo. Local no exige recortar la fotografía. Una composición con un solo miembro no añade una segunda célula.
 
-Si **G = (F₁,…,Fₖ; R; K)** reúne los *frames* celulares, las relaciones **R** y el contexto constituido **K**, su representación global debe conservar exactamente esos elementos. La aplicación y la inversa de la biyección celular se realizan por miembro, manteniendo R y K. No basta superponer polígonos ni retener una lista de vectores sin sus relaciones. Dos células (9,3) siguen siendo dos células: su composición no crea una célula de dieciocho posiciones.
+Si <strong><span class="math notranslate" translate="no">G = (F₁,…,Fₖ; R; K)</span></strong> reúne los *frames* celulares, las relaciones **R** y el contexto constituido **K**, su representación global debe conservar exactamente esos elementos. La aplicación y la inversa de la biyección celular se realizan por miembro, manteniendo R y K. No basta superponer polígonos ni retener una lista de vectores sin sus relaciones. Dos células (9,3) siguen siendo dos células: su composición no crea una célula de dieciocho posiciones.
 
 La definición no acredita automáticamente las realizaciones experimentales. Una codificación que todavía carezca de una cuestión constituida en cada posición o de la correspondiente representación canónica conserva ese límite. Cambiar su denominación no completa su conformidad. El [capítulo 10](10-celulas.md) distingue las composiciones históricas y el [capítulo 21](25-desarrollo.md) presenta un caso posterior de una sola manzana.
 

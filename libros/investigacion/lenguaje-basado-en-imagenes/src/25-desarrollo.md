@@ -42,25 +42,25 @@ La cadena verbal de referencia está disponible en español: «Hay una manzana d
 | P8 | ¿Quién colocó la manzana? | No está documentado. |
 | P9 | ¿Qué sabor tiene? | No está documentado. |
 
-Las preguntas forman una edición (9,3), distinta de la célula de escena. Cada consulta dispone de una composición de dos células: evidencia y operación. Con la escena aislada, el registro experimental contiene **1 + 9 × 2 = 19 instancias de contenido**, 171 posiciones: 89 valores 0 y 82 valores 1. La célula de control se contabiliza aparte. Estas diecinueve instancias no son diecinueve células necesarias para describir la fotografía. Las dos abstenciones documentales no se convierten automáticamente en U: dependen del contrato de la consulta.
+Las preguntas forman una edición (9,3), distinta de la célula de escena. Cada consulta dispone de una composición de dos células: evidencia y operación. Con la escena aislada, el registro experimental contiene <strong><span class="math notranslate" translate="no">1 + 9 &#215; 2 = 19 </span>instancias de contenido</strong>, 171 posiciones: 89 valores 0 y 82 valores 1. La célula de control se contabiliza aparte. Estas diecinueve instancias no son diecinueve células necesarias para describir la fotografía. Las dos abstenciones documentales no se convierten automáticamente en U: dependen del contrato de la consulta.
 
 ## Potencial calculado y retorno
 
-La imagen normalizada mide **1254 × 1254 píxeles**, con cuatro componentes de ocho bits. Contiene **6 290 064 octetos** de muestras. El convenio de representación posicional de imágenes del Sistema Vectorial, versión 02 (**SVIMG02**), añade dieciséis octetos de identificación y dimensiones: el total es **6 290 080 octetos**, equivalentes a **m = 50 320 640 bits**. Sea C el entero que conserva esa secuencia ordenada.
+La imagen normalizada mide **1254 × 1254 píxeles**, con cuatro componentes de ocho bits. Contiene **6 290 064 octetos** de muestras. El convenio de representación posicional de imágenes del Sistema Vectorial, versión 02 (**SVIMG02**), añade dieciséis octetos de identificación y dimensiones: el total es **6 290 080 octetos**, equivalentes a <strong><span class="math notranslate" translate="no">m = 50 320 640 </span>bits</strong>. Sea C el entero que conserva esa secuencia ordenada.
 
-**μ = 3·2ᵐ + C; λ = 2ᵐ − 1 − C.**
+<strong><span class="math notranslate" translate="no">μ = 3&#183;2ᵐ + C; λ = 2ᵐ − 1 − C.</span></strong>
 
 Por diferencia y suma:
 
-**P = 2ᵐ⁺¹ + 2C + 1; I = 2ᵐ⁺² − 1.**
+<strong><span class="math notranslate" translate="no">P = 2ᵐ⁺&#185; + 2C + 1; I = 2ᵐ⁺&#178; − 1.</span></strong>
 
-El retorno exacto obtiene **C = (P − 2ᵐ⁺¹ − 1)/2** y recupera los datos de identificación, las dimensiones y las muestras. El valor íntegro de P se conserva como entero; una aproximación decimal breve no lo sustituye.
+El retorno exacto obtiene <strong><span class="math notranslate" translate="no">C = (P − 2ᵐ⁺&#185; − 1)/2</span></strong> y recupera los datos de identificación, las dimensiones y las muestras. El valor íntegro de P se conserva como entero; una aproximación decimal breve no lo sustituye.
 
-Con **N = m + 2**, la normalización es **q = P/2ᴺ ≈ 0,9056285917557406**. La proyección Atlas del convenio resulta:
+Con <strong><span class="math notranslate" translate="no">N = m + 2</span></strong>, la normalización es <strong><span class="math notranslate" translate="no">q = P/2ᴺ ≈ 0,9056285917557406</span></strong>. La proyección Atlas del convenio resulta:
 
-**δ = 64·ln(1 + 10q)/ln(11) ≈ 61,60597065872314.**
+<strong><span class="math notranslate" translate="no">δ = 64&#183;ln(1 + 10q)/ln(11) ≈ 61,60597065872314.</span></strong>
 
-En el régimen s = 64: **μₐ = 64 + δ/2 ≈ 94,80298532936158**, **λₐ = 64 − δ/2 ≈ 33,19701467063843** y **Iₐ = 128**. Son valores de la representación digital de la imagen, no una medida de la edad ni del potencial biológico de la manzana. El [capítulo 16](17-potencial.md) desarrolla la definición, la calibración y las condiciones de retorno; el [capítulo 17](23-correspondencias.md) conserva los valores y recursos de consulta.
+En el régimen s = 64: <strong><span class="math notranslate" translate="no">μₐ = 64 + δ/2 ≈ 94,80298532936158</span></strong>, <strong><span class="math notranslate" translate="no">λₐ = 64 − δ/2 ≈ 33,19701467063843</span></strong> y <strong><span class="math notranslate" translate="no">Iₐ = 128</span></strong>. Son valores de la representación digital de la imagen, no una medida de la edad ni del potencial biológico de la manzana. El [capítulo 16](17-potencial.md) desarrolla la definición, la calibración y las condiciones de retorno; el [capítulo 17](23-correspondencias.md) conserva los valores y recursos de consulta.
 
 El identificador del suceso relaciona la imagen, la composición, el texto, las células y el potencial. Cambiar el repertorio de signos no modifica el potencial de una imagen fuente cuyas muestras permanecen idénticas. El glifo tiene, a su vez, su propio cálculo como imagen. No se obtiene el potencial global sumando potenciales locales: tal operación necesitaría una definición adicional y no preserva por sí sola orden ni relaciones.
 

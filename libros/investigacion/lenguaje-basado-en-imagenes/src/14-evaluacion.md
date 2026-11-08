@@ -18,7 +18,7 @@ Un futuro contraste automático deberá obtener del texto sus participantes y re
 
 ## Umbral documentado
 
-El Sistema Vectorial (SV) fija **T(n)=⌊7n/9⌋**. Para un vector completo de calificaciones, N₀ cuenta aciertos, N₁ errores y Nᵤ indeterminaciones, de modo que N₀+N₁+Nᵤ=n.
+El Sistema Vectorial (SV) fija <strong><span class="math notranslate" translate="no">T(n)=⌊7n/9⌋</span></strong>. Para un vector completo de calificaciones, N₀ cuenta aciertos, N₁ errores y Nᵤ indeterminaciones, de modo que N₀+N₁+Nᵤ=n.
 
 | Condición, aplicada en este orden | Clasificación matemática κ |
 | --- | --- |
