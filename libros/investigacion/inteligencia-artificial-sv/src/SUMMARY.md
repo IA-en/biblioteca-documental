@@ -10,6 +10,8 @@
 - [8. Memoria, aprendizaje y realización computacional](08-memoria.md)
 - [9. Desarrollo secuencial y condiciones de demostración](09-demostracion.md)
 
+- [10. Ensayos, resultados y evolución de Génesis](10-ensayos.md)
+
 - [Ediciones, autoría y licencias](ediciones.md)
 - [Bibliografía](bibliografia.md)
 - [Instrumentos y comunidades](instrumentos.md)

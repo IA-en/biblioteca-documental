@@ -41,3 +41,8 @@
 - [Figura D.4.](21-diccionario-visual.md#figura-D-4)
 - [Figura D.5.](21-diccionario-visual.md#figura-D-5)
 - [Figura D.6.](21-diccionario-visual.md#figura-D-6)
+
+
+- [Figura 21.1. Imagen sintética de la manzana](25-desarrollo.md#figura-21-1).
+- [Figura 21.2. Composición visual experimental de la manzana](25-desarrollo.md#figura-21-2).
+- [Figura D.7. Imagen y composición visual](21-diccionario-visual.md#figura-D-7).

@@ -1,5 +1,5 @@
 {
-  "edicion": "V.11",
+  "edicion": "V.12",
   "archivos": [
     {
       "ruta": ".gitignore",
@@ -124,7 +124,7 @@
     {
       "ruta": "book.toml",
       "bytes": 813,
-      "sha256": "8d35bae128839942a51a7dd37dd0fd7a679c1d19cd8e57e864b502a81eed0b22"
+      "sha256": "dee579aa5692e3b69955eb682f03e42a2c54478284590330023bc16906a73014"
     },
     {
       "ruta": "book.toml.license",
@@ -179,7 +179,7 @@
     {
       "ruta": "README.md",
       "bytes": 1245,
-      "sha256": "c06d990d98379687aeee22e58401784f1412898481e4be5c9f885471ac80899b"
+      "sha256": "c52b6b97685b9b73d7b493970cee58197f6cc804f5eb103c0d5c483a29dc61e8"
     },
     {
       "ruta": "README.md.license",
@@ -198,8 +198,8 @@
     },
     {
       "ruta": "src/01-presentacion.md",
-      "bytes": 6442,
-      "sha256": "ca6b22c329edb536444fb6b3eb0a3c0033186e25ec3332e4cfccba8181cfb9d7"
+      "bytes": 6593,
+      "sha256": "e07132201e3636e6b9a0216a894155c4aa17b0ad394ec222aedb2d129512bafa"
     },
     {
       "ruta": "src/01-presentacion.md.license",
@@ -208,8 +208,8 @@
     },
     {
       "ruta": "src/02-fundamento.md",
-      "bytes": 3331,
-      "sha256": "f6c191977028596a4d5eb060fc8ea2773e12173f361cfd30cf0ba892fe4a20d9"
+      "bytes": 11681,
+      "sha256": "1be97928daba5cb1ad7f630c1cbe61e22a248f9f4fc8e10efac9e92eac7426d4"
     },
     {
       "ruta": "src/02-fundamento.md.license",
@@ -288,8 +288,8 @@
     },
     {
       "ruta": "src/10-celulas.md",
-      "bytes": 8077,
-      "sha256": "077beb2d2cb4dfc60d73db0c22fb41dfff424ef6e9643ccb270b5d719c45cd4f"
+      "bytes": 8461,
+      "sha256": "795e75efa6de19ebbf9fd5fb466c1a6df701bdf6782d6af3dd758cbb8bbfc51d"
     },
     {
       "ruta": "src/10-celulas.md.license",
@@ -338,8 +338,8 @@
     },
     {
       "ruta": "src/15-ediciones.md",
-      "bytes": 4287,
-      "sha256": "dfa8b166be2cda81829b9428189b3f04f5d9e5a3c4ee3787c0d0d26a8d42aa5e"
+      "bytes": 4489,
+      "sha256": "de279431744979ea62ee0481550c53e4437d8e3b7124e163c9b029e337cd3ca7"
     },
     {
       "ruta": "src/15-ediciones.md.license",
@@ -348,8 +348,8 @@
     },
     {
       "ruta": "src/16-fuentes.md",
-      "bytes": 4053,
-      "sha256": "93525c4dfb3ad7b2a74247484d1a65a018adfdba98dcff97dadc6981b525ffdd"
+      "bytes": 4501,
+      "sha256": "08f5114130263241910bcbf03739d7bf437a080bf705bbb5e6a2e246804a977d"
     },
     {
       "ruta": "src/16-fuentes.md.license",
@@ -368,8 +368,8 @@
     },
     {
       "ruta": "src/18-organizacion.md",
-      "bytes": 8427,
-      "sha256": "1e9d805d9405c076a77f6a8fedd3386801fc33d5e3c4e5e900fce4530b6b1317"
+      "bytes": 9870,
+      "sha256": "3e51e462e8706657aa5b32879f2013c1e579f76a32aa80230126034ca0ebc7a9"
     },
     {
       "ruta": "src/18-organizacion.md.license",
@@ -398,8 +398,8 @@
     },
     {
       "ruta": "src/21-diccionario-visual.md",
-      "bytes": 5493,
-      "sha256": "e997bdcb762763ee3944976477272e3359db52d54591e214db10d34ae5169d32"
+      "bytes": 6282,
+      "sha256": "87b2b9ee4944740b70cab509d57654601b7b1b004c321dad569166858330e2c1"
     },
     {
       "ruta": "src/21-diccionario-visual.md.license",
@@ -418,8 +418,8 @@
     },
     {
       "ruta": "src/23-correspondencias.md",
-      "bytes": 49818,
-      "sha256": "772c5a91607be2282372953b457e802f92519f580eb47cfb39e88030c8d3e803"
+      "bytes": 50201,
+      "sha256": "710af0066e4341c5dcd5e2e428716a777ec41c7702f203f0e0438814c1ad10f0"
     },
     {
       "ruta": "src/23-correspondencias.md.license",
@@ -428,13 +428,18 @@
     },
     {
       "ruta": "src/24-inteligencia-artificial.md",
-      "bytes": 8219,
-      "sha256": "875422d41e89dc8ef66a228b795141697e46c207d8c4c15aed25534c4329cf2d"
+      "bytes": 8381,
+      "sha256": "814e725ffc4cd6c7f8abf6e96ef0a1fe5a8739ca31f5dfe7b934b5c77e2253aa"
+    },
+    {
+      "ruta": "src/25-desarrollo.md",
+      "bytes": 9592,
+      "sha256": "5f40dd0160a761821422121a7ab654bf64b1c9e07d76a8c2e9748319441d4f60"
     },
     {
       "ruta": "src/bibliografia.md",
-      "bytes": 14282,
-      "sha256": "7a1865789dbbec09a43fa7fc294042143c92dea4b15c69f5b23be57421f8877b"
+      "bytes": 15370,
+      "sha256": "4f752469cf4df12d64d5a641b969ce61c36dd667f828bf98d5132daaea631a85"
     },
     {
       "ruta": "src/bibliografia.md.license",
@@ -1263,8 +1268,8 @@
     },
     {
       "ruta": "src/figuras.md",
-      "bytes": 6486,
-      "sha256": "03c4c53f9b0aa2ce75248a0e29acd3526d0e19618f03bcb2ba078aa5ce8dd568"
+      "bytes": 6746,
+      "sha256": "716bfd5b06c6cbe2b68bad2c6a1eecd19d700c52f6e4b30739d64ad643f19213"
     },
     {
       "ruta": "src/figuras.md.license",
@@ -2203,8 +2208,8 @@
     },
     {
       "ruta": "src/herramientas.md",
-      "bytes": 2885,
-      "sha256": "2ea322b2cd8f2e060778d9c2d3580f7f1327195fe2d596537058f8c2db126461"
+      "bytes": 3997,
+      "sha256": "f1b967f955ae24379316255e0cdbe928bb66c91d90ba725469c4afa1cc30cf42"
     },
     {
       "ruta": "src/herramientas.md.license",
@@ -2692,6 +2697,26 @@
       "sha256": "aa46c0796646c09fb9ac49d142feaaa6172f1ec4ea2e9798d1ac855527487166"
     },
     {
+      "ruta": "src/imagenes/manzana-glifo.png",
+      "bytes": 34825,
+      "sha256": "19a07768dbc7acb84e1567677a1e01a47462e700d5dd29e9fb5490d5f6de5af5"
+    },
+    {
+      "ruta": "src/imagenes/manzana-glifo.png.license",
+      "bytes": 499,
+      "sha256": "8b5adcea31cfa41d7095aaf2da46b4cd04fd7ceeeca121d3fdf6617da5d13f55"
+    },
+    {
+      "ruta": "src/imagenes/manzana-glifo.svg",
+      "bytes": 9828,
+      "sha256": "dd785e769f11b716a2bd7e90f6c504c83350a1b4dc08e636b61c4386aa0cd09a"
+    },
+    {
+      "ruta": "src/imagenes/manzana-glifo.svg.license",
+      "bytes": 499,
+      "sha256": "8b5adcea31cfa41d7095aaf2da46b4cd04fd7ceeeca121d3fdf6617da5d13f55"
+    },
+    {
       "ruta": "src/imagenes/origen/Imagen1.png",
       "bytes": 2390531,
       "sha256": "ea12466e30198b3fe87edea0cb916af60534503bf3fb5d384562f24cff0e8f4f"
@@ -2893,8 +2918,8 @@
     },
     {
       "ruta": "src/SUMMARY.md",
-      "bytes": 1939,
-      "sha256": "39ee018908ad6ac2343d399b5cdc9c7329c4d7e715af6e8494902b24627615cc"
+      "bytes": 2023,
+      "sha256": "57d9be6d667ca6bc3017ebee9056962721a2bc11368d9820e3e435e480a7d551"
     },
     {
       "ruta": "src/SUMMARY.md.license",
@@ -2904,7 +2929,7 @@
     {
       "ruta": "theme/index.hbs",
       "bytes": 19480,
-      "sha256": "d50d4ab83ae8f234c731f0fa3edcd40f3233c95b86031e3d460d73c2fa13d48d"
+      "sha256": "709229254aa4e01f8a6cd3d95f0f3095ae0912cfbdf56ceb0446d7f1b5ee4f71"
     },
     {
       "ruta": "theme/index.hbs.license",

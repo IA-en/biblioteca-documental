@@ -1,6 +1,6 @@
 # Tratado Lenguaje Basado en Imágenes
 
-Edición V.11, 7 de noviembre de 2026.
+Edición V.12, 8 de noviembre de 2026.
 
 © 2026 Juan Antonio Lloret Egea. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0.
 
@@ -8,6 +8,6 @@ Edición V.11, 7 de noviembre de 2026.
 
 Los capítulos, imágenes, diccionario visual y datos de correspondencia se conservan en esta carpeta. Los originales de las figuras y los valores exactos se distinguen de sus reproducciones y aproximaciones de consulta.
 
-El capítulo 21 explica la dependencia entre el lenguaje visual y la [Inteligencia Artificial del Sistema Vectorial](https://documentos-sv.itvia.online/investigacion/inteligencia-artificial-sv/), desarrollada en una obra independiente de investigación.
+El capítulo 22 explica la dependencia entre el lenguaje visual y la [Inteligencia Artificial del Sistema Vectorial](https://documentos-sv.itvia.online/investigacion/inteligencia-artificial-sv/), desarrollada en una obra independiente de investigación.
 
 La publicación vinculada a la investigación sobre inteligencia artificial es [Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)](https://doi.org/10.21428/39829d0b.0481eae3). El artículo fundacional del tratado conserva su identificador propio.

@@ -2,7 +2,7 @@
 
 **Juan Antonio Lloret Egea** · Identificador de investigador (ORCID): <a href="https://orcid.org/0000-0002-6634-3351" target="_blank" rel="noopener noreferrer">0000-0002-6634-3351</a>. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA).
 
-**Inteligencia Artificial del Sistema Vectorial** · V.02 · 7 de noviembre de 2026.
+**Inteligencia Artificial del Sistema Vectorial** · V.03 · 8 de noviembre de 2026.
 
 Publicación académica vinculada: <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a>. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>.
 
@@ -36,5 +36,7 @@ La obra establece la arquitectura y las condiciones de demostración. Los result
 
 Los principios rectores conducen a las dos entradas del sistema. A continuación se estudian evidencia y abstención, identidad y potencial, y expresión verbal. El caso del televisor permite seguir estas distinciones en una misma escena. Los capítulos finales relacionan memoria, aprendizaje, ejecución y condiciones de demostración. La bibliografía y los instrumentos se presentan por separado.
 
+
+El modelo experimental presente se denomina **Génesis**. El [capítulo 10](10-ensayos.md) reúne sus resultados y límites, distingue estabilidad de corrección y relaciona las actuaciones con las representaciones globales y celulares. El libro conserva una exposición de investigación con resultados delimitados; su artículo académico vinculado sintetiza fundamentos y conclusiones de la edición correspondiente.
 
 <!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

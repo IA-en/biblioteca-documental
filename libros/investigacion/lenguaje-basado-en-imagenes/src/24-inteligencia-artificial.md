@@ -1,4 +1,4 @@
-# 21. Del lenguaje visual a la Inteligencia Artificial del Sistema Vectorial
+# 22. Del lenguaje visual a la Inteligencia Artificial del Sistema Vectorial
 
 El Lenguaje Basado en Imágenes (LBI) constituye y examina representaciones. La Inteligencia Artificial del Sistema Vectorial (IA del SV) se investiga como un sistema que utiliza esas representaciones para efectuar operaciones visuales, conservar conocimiento y dialogar. Las dos investigaciones tienen objetos propios y una dependencia explícita de fundamentos.
 
@@ -60,6 +60,6 @@ Fuentes: [fundamentos y contratos](bibliografia.md#fundamentos-y-contratos-del-s
 
 La publicación <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a> desarrolla el fundamento, el estado del arte y un ejemplo con células y potencial calculado. Su identificador de objeto digital (DOI) es <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>. Corresponde a la investigación sobre inteligencia artificial y se distingue del <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">artículo fundacional del Lenguaje Basado en Imágenes</a>.
 
-La edición V.02 del libro de inteligencia artificial utiliza las distinciones y los resultados delimitados de este tratado, edición V.11. La incorporación de una capacidad requiere conservar su constitución, su evidencia y sus límites; una referencia bibliográfica no sustituye esa comprobación.
+La edición V.03 del libro de inteligencia artificial utiliza las distinciones y los resultados delimitados de este tratado, edición V.12. El capítulo 21 reúne la evolución de las representaciones; el capítulo de ensayos de la obra de inteligencia artificial examina su utilización por Génesis. La incorporación de una capacidad requiere conservar su constitución, su evidencia y sus límites; una referencia bibliográfica no sustituye esa comprobación.
 
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Artículo fundacional: https://doi.org/10.21428/39829d0b.8b9c0155. -->

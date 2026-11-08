@@ -47,7 +47,7 @@ La organización facilita el aprovechamiento matemático, sin anticipar propieda
 
 La equivalencia entre dos tablas exige igual cantidad de filas, identidades, orden, morfologías, longitudes y símbolos. Comparar únicamente las filas coincidentes puede ocultar truncamientos o adiciones. La recuperación desde la base persistente se contrasta con todos los registros esperados, después de cerrarla y volver a abrirla.
 
-El conjunto ampliado reúne 101 sucesos y 694 células de representación, con 7 950 posiciones: 5 406 valores 0, 2 529 valores 1 y 15 valores U. Hay 460 células (9,3), 232 células (16,4) y dos células (49,7). De las posiciones conservadas, 7 924 son informativas y 26 corresponden a reservas históricas declaradas. Las once células de evaluación, con 106 posiciones, pertenecen a una tabla distinta.
+El conjunto documental histórico de las primeras composiciones reúne 101 sucesos y 694 células de representación, con 7 950 posiciones: 5 406 valores 0, 2 529 valores 1 y 15 valores U. Hay 460 células (9,3), 232 células (16,4) y dos células (49,7). De las posiciones conservadas, 7 924 son informativas y 26 corresponden a reservas históricas declaradas. Las once células de evaluación, con 106 posiciones, pertenecen a una tabla distinta.
 
 La ampliación incorpora los potenciales de las cuatro imágenes fuente y de los 101 glifos canónicos. Cada cálculo queda unido a su recurso y a los sucesos correspondientes. El original de cada revisión se conserva; actualizar la vista vigente no sustituye la evidencia anterior. El capítulo de correspondencias permite consultar las composiciones publicadas.
 
@@ -60,5 +60,13 @@ La organización matricial y tensorial permite estudiar tareas por lotes en una 
 Cada adaptación deberá conservar las máscaras, las identidades, el orden y el significado de la terna. El resultado deberá cotejarse con una realización de referencia. La elección de dispositivo depende de la operación y del volumen: preparar tensores no obliga a utilizar un acelerador ni convierte las etiquetas de los estados en cantidades algebraicas.
 
 
+
+## Composición, activación y registros posteriores
+
+La organización global/local del [capítulo 3](02-fundamento.md) exige conservar la identidad del conjunto, los miembros celulares y sus pares biyectivos, las relaciones, las versiones y las correspondencias de activación. Una fila de consulta no equivale a una nueva escena física. La serialización de una lista de miembros tampoco reconstruye una composición si omite sus relaciones.
+
+Las magnitudes históricas anteriores pertenecen a su conjunto identificado. Los ensayos posteriores añaden evidencia sin reescribirlo. El [capítulo 21](25-desarrollo.md) explica las diecinueve instancias del caso de la manzana y sus nueve consultas; la [obra de inteligencia artificial](https://documentos-sv.itvia.online/investigacion/inteligencia-artificial-sv/10-ensayos) recoge el ensayo de quince imágenes y el registro acumulativo de 347 potenciales. Estos inventarios tienen alcances diferentes y no deben sumarse sin cotejar identidades y referencias compartidas.
+
+Un esquema de composición no demuestra que ya se hayan implementado todos sus campos en las bases anteriores. La lectura de un registro histórico debe conservar su estructura original y declarar qué correspondencias se pueden acreditar. El potencial de una representación global no se deduce, sin una operación constituida, de la suma de los potenciales de sus miembros.
 
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

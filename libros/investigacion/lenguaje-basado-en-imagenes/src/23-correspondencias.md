@@ -44,18 +44,18 @@ El retorno desde una referencia completa permite recuperar el recurso visual, su
 
 ## Imágenes fuente
 
-Las cuatro entradas siguientes son sintéticas de apariencia fotográfica. El registro diferencia esta procedencia de una captura real. Las tres primeras tienen potencial calculado, pero todavía no tienen glifos semánticos ni células propios constituidos. Esa ausencia no se sustituye con células de otro caso ni con el valor U.
+Las cuatro entradas siguientes son sintéticas de apariencia fotográfica. El registro diferencia esta procedencia de una captura real. Las cuatro tienen potencial calculado. La primera dispone del perfil posterior de la manzana; las imágenes segunda y tercera siguen sin glifos semánticos ni células propios constituidos. Esa ausencia no se sustituye con células de otro caso ni con el valor U.
 
 <section id="imagen-1">
 <h3>Imagen1</h3>
 
 <p><strong>Cadena de texto descriptiva — original en español:</strong></p><blockquote class="cadena-texto">Una manzana verde está dentro de un recipiente transparente apoyado sobre una superficie de madera.</blockquote>
-<p>Esta descripción recoge lo visible. Su glifo y su célula semánticos siguen pendientes de constitución.</p>
+<p>Esta descripción inicial se amplía mediante el perfil de la manzana, con sus nueve proposiciones, preguntas y límites en el capítulo 21.</p>
 <figure id="figura-17-1" class="figura-tratado"><a href="imagenes/origen/Imagen1.png" target="_blank" rel="noopener noreferrer"><img src="imagenes/origen/Imagen1.png" alt="Imagen sintética 1" loading="lazy"></a><figcaption>Figura 17.1. Imagen fuente sintética.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · CC BY-NC-ND 4.0</small></figcaption></figure>
 
 Resolución: 1254 × 1254; cuatro componentes de ocho bits. Potencial Atlas aproximado: **61.605970658723**. <a href="calculos/Imagen1.html" target="_blank" rel="noopener noreferrer">Ver el cálculo paso a paso</a> · <a href="calculos/Imagen1.txt" target="_blank" rel="noopener noreferrer">Leer el desarrollo en texto</a> · <a href="calculos/Imagen1-exacto.txt" target="_blank" rel="noopener noreferrer">Valor exacto en texto, base 16</a>.
 
-Glifo semántico y célula todavía no constituidos. 
+El perfil posterior de la manzana reúne imagen, composición visual, texto de referencia, célula 000000001 y nueve consultas. Véase el [desarrollo completo y sus límites](25-desarrollo.md). La lámina semántica no sustituye el polígono canónico de la célula. 
 
 </section>
 
@@ -63,7 +63,7 @@ Glifo semántico y célula todavía no constituidos.
 <h3>Imagen2</h3>
 
 <p><strong>Cadena de texto descriptiva — original en español:</strong></p><blockquote class="cadena-texto">Una persona sostiene un libro rojo en la abertura de una mochila azul; una mano sujeta el libro y la otra el borde de la abertura. Otro libro permanece sobre la mesa. La imagen aislada no determina si el libro entra o sale.</blockquote>
-<p>Esta descripción recoge lo visible. Su glifo y su célula semánticos siguen pendientes de constitución.</p>
+<p>Esta descripción inicial se amplía mediante el perfil de la manzana, con sus nueve proposiciones, preguntas y límites en el capítulo 21.</p>
 <figure id="figura-17-2" class="figura-tratado"><a href="imagenes/origen/Imagen2.png" target="_blank" rel="noopener noreferrer"><img src="imagenes/origen/Imagen2.png" alt="Imagen sintética 2" loading="lazy"></a><figcaption>Figura 17.2. Imagen fuente sintética.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · CC BY-NC-ND 4.0</small></figcaption></figure>
 
 Resolución: 1254 × 1254; cuatro componentes de ocho bits. Potencial Atlas aproximado: **57.086992578431**. <a href="calculos/Imagen2.html" target="_blank" rel="noopener noreferrer">Ver el cálculo paso a paso</a> · <a href="calculos/Imagen2.txt" target="_blank" rel="noopener noreferrer">Leer el desarrollo en texto</a> · <a href="calculos/Imagen2-exacto.txt" target="_blank" rel="noopener noreferrer">Valor exacto en texto, base 16</a>.
@@ -76,7 +76,7 @@ Glifo semántico y célula todavía no constituidos.
 <h3>Imagen3</h3>
 
 <p><strong>Cadena de texto descriptiva — original en español:</strong></p><blockquote class="cadena-texto">Una persona vierte agua sobre una planta con flores situada en una maceta dentro de una carretilla; otra persona sujeta esa maceta y una tercera sostiene una bandeja con dos macetas.</blockquote>
-<p>Esta descripción recoge lo visible. Su glifo y su célula semánticos siguen pendientes de constitución.</p>
+<p>Esta descripción inicial se amplía mediante el perfil de la manzana, con sus nueve proposiciones, preguntas y límites en el capítulo 21.</p>
 <figure id="figura-17-3" class="figura-tratado"><a href="imagenes/origen/Imagen3.png" target="_blank" rel="noopener noreferrer"><img src="imagenes/origen/Imagen3.png" alt="Imagen sintética 3" loading="lazy"></a><figcaption>Figura 17.3. Imagen fuente sintética.<small class="autoria-figura">© 2026 Juan Antonio Lloret Egea · Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA) · CC BY-NC-ND 4.0</small></figcaption></figure>
 
 Resolución: 1254 × 1254; cuatro componentes de ocho bits. Potencial Atlas aproximado: **53.818723459128**. <a href="calculos/Imagen3.html" target="_blank" rel="noopener noreferrer">Ver el cálculo paso a paso</a> · <a href="calculos/Imagen3.txt" target="_blank" rel="noopener noreferrer">Leer el desarrollo en texto</a> · <a href="calculos/Imagen3-exacto.txt" target="_blank" rel="noopener noreferrer">Valor exacto en texto, base 16</a>.

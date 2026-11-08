@@ -1,0 +1,15 @@
+flowchart TD
+ A[Imagen identificada] --> B[Normalización y potencial exacto]
+ B --> C[Recuperación exacta de muestras]
+ C --> D[Percepción según reglas declaradas]
+ D --> E[Inventario y relaciones constituidas]
+ Q[Pregunta admitida] --> F[Operación determinista]
+ E --> F
+ F --> G{Evidencia suficiente}
+ G -->|Sí| H[Respuesta fundada]
+ G -->|No| I[Abstención o diagnóstico contractual]
+ H --> J[Registro de identidad, representaciones y reglas]
+ I --> J
+ E --> K[Célula y polígono canónico: par biyectivo]
+ K --> J
+ J --> L[Contraste separado de corrección y repetibilidad]

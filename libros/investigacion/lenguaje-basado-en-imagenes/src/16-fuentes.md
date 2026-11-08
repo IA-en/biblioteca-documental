@@ -36,4 +36,6 @@ El identificador corresponde al artículo publicado. El tratado desarrolla sus f
 
 
 
+Los símbolos Bliss incluidos en la composición de la manzana proceden de Blissymbolics Communication International y conservan su licencia [Creative Commons Atribución 4.0](https://www.blissymbolics.org/index.php/licensing). El aviso general de la obra no restringe esos derechos. La selección y la disposición experimental se distinguen de los símbolos originales y no se atribuyen a la organización una certificación de la composición.
+
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

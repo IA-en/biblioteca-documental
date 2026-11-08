@@ -4,7 +4,7 @@ Las fuentes del Sistema Vectorial establecen definiciones y condiciones de aplic
 
 ## Fundamento visual
 
-Lloret Egea, Juan Antonio (2026). *Lenguaje Basado en Imágenes (LBI): representación trazable y conservación semántica en el Sistema Vectorial (SV)*. <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">DOI: 10.21428/39829d0b.8b9c0155</a>. Desarrollo documental: <a href="https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/" target="_blank" rel="noopener noreferrer">Tratado Lenguaje Basado en Imágenes</a>, edición V.11.
+Lloret Egea, Juan Antonio (2026). *Lenguaje Basado en Imágenes (LBI): representación trazable y conservación semántica en el Sistema Vectorial (SV)*. <a href="https://doi.org/10.21428/39829d0b.8b9c0155" target="_blank" rel="noopener noreferrer">DOI: 10.21428/39829d0b.8b9c0155</a>. Desarrollo documental: <a href="https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/" target="_blank" rel="noopener noreferrer">Tratado Lenguaje Basado en Imágenes</a>, edición V.12.
 
 ## Fundamentos
 
@@ -48,5 +48,11 @@ Lloret Egea, Juan Antonio (2026). *Aprendizaje trazable en inteligencia artifici
 ## Arquitectura y resultados delimitados
 
 Lloret Egea, Juan Antonio (2026). <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a>. Edición 1, 7 de noviembre de 2026. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>. Apartados 3–8: fundamentos, entradas visual y verbal, identidad, caso de televisión y límites de demostración.
+
+## Correspondencia visual y repertorio posterior
+
+La [Enciclopedia, entrada «Polígono del SV»](https://documentos-sv.itvia.online/enciclopedia/lenguaje#poligono) y el [manual, apartados 15.5–15.6](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/parametros-rutas#correspondencia-visual), explican la paridad entre la célula y su representación canónica. Consulta: 8 de noviembre de 2026. La publicación del cambio factual se consulta también en su parte IV, definiciones de trayectoria y observables, y parte V, distinción de planos de expresión.
+
+Blissymbolics Communication International (2026). *BCI Authorized Vocabulary of Blissymbolics*, edición con notas de 12 de septiembre de 2026, 6551 símbolos. [Vocabulario y formatos oficiales](https://www.blissymbolics.org/index.php/bci-av-2026); [licencia CC BY 4.0 y atribución](https://www.blissymbolics.org/index.php/licensing). Consulta: 8 de noviembre de 2026. El repertorio fundamenta los símbolos utilizados; no certifica la gramática experimental ni los resultados del presente estudio.
 
 <!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

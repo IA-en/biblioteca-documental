@@ -1,5 +1,7 @@
 # 10. Composiciones celulares y correspondencia exacta
 
+En este caso, las once composiciones se denominan *frames* globales. Cada célula constituyente debe conservar su propio polígono mediante la biyección del [capítulo 3](02-fundamento.md); los índices de composición no describen una sucesión de activaciones. Esta denominación no elimina las limitaciones de constitución y presentación que se indican a continuación.
+
 Las siguientes tablas transcriben las composiciones conservadas para las once imágenes del capítulo 9. Cada fila identifica una célula; la sucesión de símbolos recorre sus posiciones **P1…Pn**. Los números de célula son índices documentales de composición y no valores añadidos a la terna.
 
 La constitución, el repertorio compartido y el orden son necesarios para interpretar estas sucesiones. Los vectores no deben leerse como palabras ni calificarse mediante la regla de aptitud de un examen. La longitud informativa distingue los datos de la reserva estructural. Las dos posiciones de reserva son una limitación de conformidad del prototipo, examinada en el [capítulo 8](07-economia.md); se conserva su transcripción para no alterar la evidencia.
@@ -14,7 +16,7 @@ La geometría del polígono y la figura de la escena cumplen funciones distintas
 
 Las tablas siguientes permiten inspeccionar exactamente los vectores. La incorporación del visor interactivo al tratado queda como realización posterior; estas tablas no se presentan como sustituto del visor. Esta directriz se refiere exclusivamente a representación, sin trasladar al dominio visual otras funciones del lugar donde se muestra un ejemplo.
 
-| *Frame* | Longitud informativa | Capacidad | Células (9,3) | Células (16,4) |
+| *Frame* global | Longitud informativa | Capacidad | Células (9,3) | Células (16,4) |
 | --- | ---: | ---: | ---: | ---: |
 | 1 | 104 | 104 | 8 | 2 |
 | 2 | 48 | 48 | 0 | 3 |

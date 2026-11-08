@@ -1,6 +1,6 @@
 # Inteligencia Artificial del Sistema Vectorial
 
-Edición V.02, 7 de noviembre de 2026.
+Edición V.03, 8 de noviembre de 2026.
 
 © 2026 Juan Antonio Lloret Egea. Instituto Tecnológico Virtual de la Inteligencia Artificial para el Español (ITVIA). Licencia Creative Commons Atribución-NoComercial-SinDerivadas 4.0 Internacional.
 

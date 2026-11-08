@@ -35,11 +35,31 @@ Una nueva captura se incorpora como otro registro. Si dos archivos contienen exa
 
 El [estudio de ciclos y cambio factual](bibliografia.md#ciclos) permite distinguir repetición de configuración e identidad del acontecimiento. La conservación por adición, sin sustitución, mantiene los antecedentes y sus diferencias documentadas.
 
+## Registro verificable del razonamiento
+
+Cada respuesta debe conservar la secuencia efectiva que la produjo: entradas y versiones, reglas aplicadas, parámetros examinados, estados celulares intermedios y sus polígonos, cálculos con sus operandos y precisión, relaciones de dependencia, resultado y fundamento de una eventual abstención. Las aproximaciones de presentación mantienen acceso al valor exacto o a su expresión recuperable. La explicación verbal acompaña a esa secuencia, pero no la sustituye.
+
+La posibilidad de consultar los cálculos no obliga a la persona a rehacerlos para utilizar la representación visual. Sí exige que un examen posterior pueda reconstruirlos y repetir las operaciones bajo las mismas condiciones. Cuando falte un tramo del recorrido, no puede declararse auditabilidad de extremo a extremo. Los resultados del [capítulo 10](10-ensayos.md) delimitan las operaciones efectivamente comprobadas y las capacidades pendientes.
+
 ## Qué significa la reversibilidad
 
 La biyección exacta pertenece a las representaciones canónicas con su constitución. La recuperación de una fotografía desde una descripción abreviada puede admitir varias realizaciones visuales; su fidelidad semántica no prueba identidad de píxeles. Para recuperar un objeto exacto debe conservarse la información que lo individualiza, directamente o mediante una referencia inequívoca al registro.
 
 Una paráfrasis conserva relaciones, no necesariamente todos los detalles de captura. Por ello, la cadena de texto sólo permite un retorno único al registro cuando incluye o mantiene su vinculación inequívoca. Esta condición impide confundir conservación del significado, identificación documental y reconstrucción exacta.
 
+
+## Paridad celular y composición global
+
+La analogía funcional con la percepción humana distingue la representación accesible de los procesos que la producen. La persona interpreta el polígono sin necesidad de rehacer cada cálculo; el sistema conserva el recorrido hacia parámetros, operaciones y evidencias cuando se requiere justificar una conclusión. Este principio de diseño no afirma equivalencia biológica. La expresión verbal u otras interfaces amplían el acceso y mantienen su vínculo con la misma representación constituida.
+
+El polígono es la expresión visual constitutiva del estado matemático y permite inspeccionar sus parámetros y evidencias. La persona experta en un dominio y el agente artificial especializado pueden consultar la misma representación sin confundirse entre sí. El agente opera con las formas matemática y visual; la persona experta dispone de una lectura interactiva para localizar, por ejemplo, una U y examinar su fundamento. La convención cromática vigente asigna rojo a 0, verde a 1 y azul a U; los rótulos y radios conservan la lectura sin depender exclusivamente del color. Cada selección debe mantener el vínculo con el parámetro y la revisión correspondientes. El [fundamento del tratado](https://documentos-sv.itvia.online/investigacion/lenguaje-basado-en-imagenes/02-fundamento.html) desarrolla esta función y distingue la constitución celular de su composición global.
+
+La célula y el polígono canónico forman siempre un par biyectivo: **Frame_C = (frmat, frvis)**. La constitución, el orden, la instancia y la revisión son los mismos en las dos representaciones. Los radios 1, 2 y 3 corresponden respectivamente a 0, 1 y U. El [manual, apartados 15.5–15.6](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/parametros-rutas#correspondencia-visual), establece esta paridad.
+
+El tratado distingue el *frame* local, referido a ese par celular, y el *frame* global, referido a su composición identificada. Una composición conserva cada par y las relaciones entre miembros; no crea por agregación una célula de otra dimensión. Una única célula puede constituir toda la representación de una escena dentro del perfil admitido.
+
+La sucesión exige activaciones y dependencias documentadas. No se deduce del orden de almacenamiento ni del número de consultas efectuadas. La [Trayectoria Poligonal de Activación](https://doi.org/10.21428/39829d0b.2b3c9808), definida en la parte IV de su publicación, representa observables sobre activaciones; no es el polígono de una célula. La repetición de un observable no demuestra identidad de estado ni de suceso. La recuperación de un conjunto desde sus miembros exige conservar agrupación, relaciones, contexto y correspondencias de activación.
+
+La formalización de estos requisitos no acredita su realización íntegra en todos los antecedentes. El [capítulo 10](10-ensayos.md) distingue las instancias registradas, las realizaciones instrumentales y sus límites.
 
 <!-- © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. Publicación de arquitectura: https://doi.org/10.21428/39829d0b.0481eae3. Artículo fundacional del LBI: https://doi.org/10.21428/39829d0b.8b9c0155. -->

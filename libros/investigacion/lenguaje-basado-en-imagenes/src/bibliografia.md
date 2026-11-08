@@ -69,6 +69,12 @@ Lloret Egea, Juan Antonio. *Medición, reconstrucción e incertidumbre estructur
 
 ## Arquitectura de inteligencia artificial vinculada
 
-Lloret Egea, Juan Antonio (2026). <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a>. Edición 1, 7 de noviembre de 2026. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>. El <a href="24-inteligencia-artificial.html">capítulo 21</a> precisa la relación de fundamento y aplicación entre las dos obras.
+Lloret Egea, Juan Antonio (2026). <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">Ingeniería y arquitectura de la Inteligencia Artificial del SV generada con Lenguaje Basado en Imágenes (IA-SV-LBI)</a>. Edición 1, 7 de noviembre de 2026. Identificador de objeto digital (DOI): <a href="https://doi.org/10.21428/39829d0b.0481eae3" target="_blank" rel="noopener noreferrer">10.21428/39829d0b.0481eae3</a>. El <a href="24-inteligencia-artificial.html">capítulo 22</a> precisa la relación de fundamento y aplicación entre las dos obras.
+
+## Correspondencia visual y repertorio posterior
+
+La [Enciclopedia, entrada «Polígono del SV»](https://documentos-sv.itvia.online/enciclopedia/lenguaje#poligono) y el [manual, apartados 15.5–15.6](https://documentos-sv.itvia.online/dominios/lenguaje-de-computacion/manual/parametros-rutas#correspondencia-visual), explican la paridad entre la célula y su representación canónica. Consulta: 8 de noviembre de 2026. La publicación del cambio factual se consulta también en su parte IV, definiciones de trayectoria y observables, y parte V, distinción de planos de expresión.
+
+Blissymbolics Communication International (2026). *BCI Authorized Vocabulary of Blissymbolics*, edición con notas de 12 de septiembre de 2026, 6551 símbolos. [Vocabulario y formatos oficiales](https://www.blissymbolics.org/index.php/bci-av-2026); [licencia CC BY 4.0 y atribución](https://www.blissymbolics.org/index.php/licensing). Consulta: 8 de noviembre de 2026. El repertorio fundamenta los símbolos utilizados; no certifica la gramática experimental ni los resultados del presente estudio.
 
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

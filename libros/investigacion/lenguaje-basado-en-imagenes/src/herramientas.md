@@ -17,4 +17,10 @@ Los programas y recursos de terceros mantienen sus licencias respectivas. El [ca
 
 
 
+## Versiones y utilización comprobada
+
+La revisión documental de 8 de noviembre de 2026 identifica **Rust 1.98.1**, **Cargo 1.98.1**, **Clippy 0.1.98** y **mdBook 0.5.4** en el entorno utilizado. Los procedimientos posteriores de composición y percepción fijan **resvg 0.49.0**, **Serde 1.0.229** y **serde_json 1.0.154**. Las versiones identifican la realización examinada; no afirman que sean las últimas distribuidas por cada comunidad. El estado de los ensayos no se modifica mediante una actualización silenciosa de dependencias.
+
+[Clippy](https://github.com/rust-lang/rust-clippy) complementa las pruebas del código Rust. [Serde](https://github.com/serde-rs/serde) y [serde_json](https://github.com/serde-rs/json) conservan representaciones estructuradas de los experimentos. La persistencia mediante redb 4.4.0 pertenece al conjunto histórico descrito en el capítulo 18; los 347 cálculos posteriores no se presentan como una migración íntegra ya comprobada a esa base. El visor celular egui sigue siendo una exigencia de integración; la mera presencia de figuras no acredita su ejecución.
+
 <!-- Autoría: © 2026 Juan Antonio Lloret Egea. CC BY-NC-ND 4.0. https://doi.org/10.21428/39829d0b.8b9c0155. -->

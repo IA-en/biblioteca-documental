@@ -1,5 +1,5 @@
 {
-  "edicion": "V.02",
+  "edicion": "V.03",
   "archivos": [
     {
       "ruta": "biblioteca.css",
@@ -9,7 +9,7 @@
     {
       "ruta": "book.toml",
       "bytes": 765,
-      "sha256": "1d19bf064c215668bee5830af3d6ce3009f53e8f7c7c978682b70e6d0942613b"
+      "sha256": "2d41a93d803f0813eb3be809f35618cf9e6c20fc4e07bdb889fa82788781c758"
     },
     {
       "ruta": "figuras.css",
@@ -34,12 +34,12 @@
     {
       "ruta": "README.md",
       "bytes": 1112,
-      "sha256": "cf897334e919c0b4ebb8080b572915428ea0389342e4a982214b6f982cc2c844"
+      "sha256": "284131ba3f67bf974d6961ebf7a30878609d5dd0d6f468587e955337bbb25942"
     },
     {
       "ruta": "src/01-proposito.md",
-      "bytes": 5649,
-      "sha256": "05d75fcc9cc03f6155407cb0e0fd539445910c5447d73bc19d05e0c15649d47d"
+      "bytes": 6070,
+      "sha256": "949c33eba4a6dd0cd4bf2acb58bd5f25ad991e8f907446ad874be56e6467cf67"
     },
     {
       "ruta": "src/02-principios.md",
@@ -58,8 +58,8 @@
     },
     {
       "ruta": "src/05-correspondencia.md",
-      "bytes": 5619,
-      "sha256": "0eb504bd31c5e815aa53f912dcfdad21c60155dbee20a3bffc8ce81c9ecad167"
+      "bytes": 9617,
+      "sha256": "47e3efd3ff1a3b7f50af3e9eddf3715483394155a5e9644d32d23ad621eabe8f"
     },
     {
       "ruta": "src/06-expresion.md",
@@ -78,23 +78,33 @@
     },
     {
       "ruta": "src/09-demostracion.md",
-      "bytes": 6618,
-      "sha256": "fa5d43efb872385bfb499f92f85a99cbe46cf8d253d116b334dd644700a8ec63"
+      "bytes": 6943,
+      "sha256": "285c4cabdb5b0c90ad21f13c13bc00848eed9be2f4c3307ba3614eb6840614f5"
+    },
+    {
+      "ruta": "src/10-ensayos.md",
+      "bytes": 8929,
+      "sha256": "08aab4723075b4b32c04b9b3a21f5476c143c6de8398bc9c5716d9cb56ef45ab"
     },
     {
       "ruta": "src/bibliografia.md",
-      "bytes": 5680,
-      "sha256": "c980f63824da1426ca756bde67549b936ca1995706503872dc9b9b8cf9fab48a"
+      "bytes": 6768,
+      "sha256": "e9ceeb4201f6fbc1e5727d8902300718f37408d59b8cea174daf13679a1a9645"
+    },
+    {
+      "ruta": "src/datos/proceso-genesis.mmd",
+      "bytes": 585,
+      "sha256": "0dbf4923e2d5049f008dc87babf72a649dc1c364f9f0c28294acbcdce02dacac"
     },
     {
       "ruta": "src/ediciones.md",
-      "bytes": 3985,
-      "sha256": "fd2147b42836c3f434b4900641813f03f183e6e2ccb864835462f46079733293"
+      "bytes": 4178,
+      "sha256": "bdb14bc8daf3eae06849a46e8a13c9377dd6ae164143854d799d3f85225f5533"
     },
     {
       "ruta": "src/figuras.md",
-      "bytes": 631,
-      "sha256": "f5ea9be694b6361a5eb2fc7b32436886835191e0b85e539a715431ec18f9c988"
+      "bytes": 760,
+      "sha256": "9f933546e1c015ec5851d2efaaf28afe1e183b04eae6712f3cab46db62c22e81"
     },
     {
       "ruta": "src/imagenes/reparacion.png",
@@ -108,18 +118,18 @@
     },
     {
       "ruta": "src/instrumentos.md",
-      "bytes": 2153,
-      "sha256": "89d86bd2978fa0fc9743ebbcfb2ccfb0eac34de3287beaa47b7bb20e0625d6ee"
+      "bytes": 3297,
+      "sha256": "d2cc9313accf386e6f653dc60789031f339f6976572243c4d367de0f03d9aa2b"
     },
     {
       "ruta": "src/SUMMARY.md",
-      "bytes": 1057,
-      "sha256": "da167b9effb4c63a4d58c1a391179e0ed880cbc6b1ab3ed172c86ace5a71c6ad"
+      "bytes": 1126,
+      "sha256": "69b4845453d3a77e00f61ccf14bf89789eb34bcee9e5e59d48f600f91c49265b"
     },
     {
       "ruta": "theme/index.hbs",
       "bytes": 19763,
-      "sha256": "91a7a69bf21b492e0f3a7af7cc46c97686ab4d131ff8d7cd40a65846ab73bca0"
+      "sha256": "ba8b29ce8c32029c62d8e932a1f8d754d8e1ed0228b84ff867942dc1e74fd8d0"
     }
   ]
 }
