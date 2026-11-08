@@ -39,7 +39,7 @@
 
         <!-- Custom theme stylesheets -->
         {{#each additional_css}}
-        <link rel="stylesheet" href="{{ resource this }}?v=dos-obras-20261108-73">
+        <link rel="stylesheet" href="{{ resource this }}?v=dos-obras-20261108-73b">
         {{/each}}
 
         {{#if mathjax_support}}
@@ -53,11 +53,11 @@
             const default_light_theme = "{{ default_theme }}";
             const default_dark_theme = "{{ preferred_dark_theme }}";
         {{#if search_js}}
-            window.path_to_searchindex_js = "{{ resource "searchindex.js" }}?v=dos-obras-20261108-73";
+            window.path_to_searchindex_js = "{{ resource "searchindex.js" }}?v=dos-obras-20261108-73b";
         {{/if}}
         </script>
         <!-- Start loading toc.js asap -->
-        <script src="{{ resource "toc.js" }}?v=dos-obras-20261108-73"></script>
+        <script src="{{ resource "toc.js" }}?v=dos-obras-20261108-73b"></script>
     <link rel="stylesheet" href="/lectura-contexto-2313f39030c5.css">
 <script defer src="/lectura-contexto-c6bd9514618d.js"></script>
 </head>
@@ -128,7 +128,7 @@
             <!-- populated by js -->
             <mdbook-sidebar-scrollbox class="sidebar-scrollbox"></mdbook-sidebar-scrollbox>
             <noscript>
-                <iframe class="sidebar-iframe-outer" src="{{ path_to_root }}toc.html?v=dos-obras-20261108-73"></iframe>
+                <iframe class="sidebar-iframe-outer" src="{{ path_to_root }}toc.html?v=dos-obras-20261108-73b"></iframe>
             </noscript>
             <div id="mdbook-sidebar-resize-handle" class="sidebar-resize-handle">
                 <div class="sidebar-resize-indicator"></div>

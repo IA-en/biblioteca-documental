@@ -12,7 +12,7 @@
     'Sistema Vectorial SV', 'Sistema Vectorial', 'Árbitro-Director', 'Polígono SV',
     'La Biblia de la IA', 'SV-lenguaje-de-computacion', 'SVperitus-dataset',
     'SVcustos-dataset', 'SV-motor', 'SVperitus', 'SVcustos',
-    'ITVIA', 'IA eñ', 'IAeñ', 'IA-en', 'EET-IA', 'EET-CYB16', 'SVP', 'SV'
+    'Génesis', 'ITVIA', 'IA eñ', 'IAeñ', 'IA-en', 'EET-IA', 'EET-CYB16', 'SVP', 'SV'
   ];
   const escapar = s => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
   const literal = s => s.split(/\s*[–—-]\s*/).map(parte =>
@@ -126,6 +126,8 @@
     return;
   }
   const idioma = caja.dataset.idioma;
+  // El selector conserva he; el componente de Google utiliza el código histórico iw.
+  const idiomaProveedor = idioma === 'he' ? 'iw' : idioma;
   const resumen = caja.querySelector('summary');
   const selector = caja.querySelector('select[name="itvia_lang"]');
   const formulario = caja.querySelector('.sv-language-form');
@@ -191,13 +193,13 @@
   function comprobar() {
     if (terminado) return;
     const control = contenedor.querySelector('select.goog-te-combo');
-    if (!control || !Array.from(control.options).some(o => o.value === idioma)) return;
+    if (!control || !Array.from(control.options).some(o => o.value === idiomaProveedor)) return;
     if (controlSolicitado !== control) {
       controlSolicitado = control;
       informar('traduciendo', 'Traduciendo el contenido. Espere a la confirmación.');
       // No se presume que cargar Google o escribir una cookie aplique un idioma.
       // Se acciona el control efectivo una vez, aunque haya preferencias previas distintas.
-      control.value = idioma;
+      control.value = idiomaProveedor;
       control.dispatchEvent(new Event('change', {bubbles:true}));
     }
     const textoActual = textoDocumento();
@@ -205,7 +207,7 @@
       textoObservado = textoActual;
       clearTimeout(confirmacion); confirmacion = null;
     }
-    const traducida = control.value === idioma &&
+    const traducida = control.value === idiomaProveedor &&
       (document.documentElement.classList.contains('translated-ltr') ||
        document.documentElement.classList.contains('translated-rtl')) &&
       textoActual !== textoInicial;
@@ -220,7 +222,7 @@
     // Confirmación de presentación observada; no constituye revisión lingüística.
     if (confirmacion === null) confirmacion = setTimeout(() => {
       confirmacion = null;
-      if (control.value !== idioma || textoDocumento() !== textoActual || textoActual === textoInicial ||
+      if (control.value !== idiomaProveedor || textoDocumento() !== textoActual || textoActual === textoInicial ||
           !(document.documentElement.classList.contains('translated-ltr') ||
             document.documentElement.classList.contains('translated-rtl'))) return;
       clearTimeout(limite);
@@ -233,7 +235,7 @@
   window.googleTranslateElementInit = () => {
     if (terminado) return;
     try {
-      new window.google.translate.TranslateElement({pageLanguage:'es',includedLanguages:idioma,autoDisplay:false}, 'google_translate_element');
+      new window.google.translate.TranslateElement({pageLanguage:'es',includedLanguages:idiomaProveedor,autoDisplay:false}, 'google_translate_element');
       comprobar();
     } catch (_) { fallo('No se pudo iniciar la traducción. Puede reintentar con Aplicar; el original sigue disponible.'); }
   };

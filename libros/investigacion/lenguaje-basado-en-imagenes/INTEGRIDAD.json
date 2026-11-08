@@ -168,8 +168,8 @@
     },
     {
       "ruta": "presentacion.js",
-      "bytes": 13568,
-      "sha256": "ce77c3038b9303c1db290002350165b6e94b5f5ae35ed4061c92e54a13ab8e98"
+      "bytes": 13772,
+      "sha256": "e1623a3e70795e5af7acfc41dc1f5e4b6ab5a4f5289de58c46adfa5412e5df25"
     },
     {
       "ruta": "presentacion.js.license",
@@ -2928,8 +2928,8 @@
     },
     {
       "ruta": "theme/index.hbs",
-      "bytes": 19492,
-      "sha256": "558a19a16e6e92cf5e3d6b725f609e0c2cb8943856b48a7c5d174c870dd688e7"
+      "bytes": 19496,
+      "sha256": "5ff6114437f71d4d6027d5b2ec5f69c92d346c2c0419cddfd0b75bb30ebb4320"
     },
     {
       "ruta": "theme/index.hbs.license",
