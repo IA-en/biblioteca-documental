@@ -1,4 +1,4 @@
-/* Navegación de documentos públicos. No utiliza almacenamiento ni servicios externos. */
+/* Navegación de documentos públicos. Conserva el regreso en la sesión local, sin añadir variantes a los enlaces públicos. */
 (() => {
   'use strict';
   const rutas = new Set(["/","/consulta","/documentacion/reglas-usos-descripciones-documentales/","/documentacion/reglas-usos-descripciones-documentales/entrega","/documentacion/reglas-usos-descripciones-documentales/finalidad","/documentacion/reglas-usos-descripciones-documentales/formatos","/documentacion/reglas-usos-descripciones-documentales/prioridades","/documentacion/reglas-usos-descripciones-documentales/revision","/documentacion/reglas-usos-descripciones-documentales/toc","/documentacion/reglas-usos-descripciones-documentales/verificacion","/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/","/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/01-evidencia-y-limites","/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/02-incibe-ia-frontera","/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/03-nis2-texto-original","/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/04-autoria-derechos-y-fuentes","/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/aviso","/dominios/ciberseguridad/biblioteca/conocimiento-modelos-ia/toc","/dominios/lenguaje-de-computacion/manual/","/dominios/lenguaje-de-computacion/manual/agradecimientos","/dominios/lenguaje-de-computacion/manual/arbitro-director","/dominios/lenguaje-de-computacion/manual/arquitectura-ejecucion","/dominios/lenguaje-de-computacion/manual/conformidad-diagnosticos","/dominios/lenguaje-de-computacion/manual/construcciones-y-componentes","/dominios/lenguaje-de-computacion/manual/constructor","/dominios/lenguaje-de-computacion/manual/desarrollo-validacion-nucleo","/dominios/lenguaje-de-computacion/manual/ejemplos-svp","/dominios/lenguaje-de-computacion/manual/explorador-tensorial-sv","/dominios/lenguaje-de-computacion/manual/hardware-aceleracion-tensorial","/dominios/lenguaje-de-computacion/manual/herramientas-desarrollo-comprobacion","/dominios/lenguaje-de-computacion/manual/integracion-gestor-sv","/dominios/lenguaje-de-computacion/manual/observabilidad","/dominios/lenguaje-de-computacion/manual/parametros-rutas","/dominios/lenguaje-de-computacion/manual/playground-sv","/dominios/lenguaje-de-computacion/manual/presentacion","/dominios/lenguaje-de-computacion/manual/programacion-dsl","/dominios/lenguaje-de-computacion/manual/referencia-terminologia","/dominios/lenguaje-de-computacion/manual/selector-arbitro-director","/dominios/lenguaje-de-computacion/manual/toc","/dominios/lenguaje-de-computacion/manual/tramo-10","/dominios/universos/","/dominios/universos/ciberseguridad","/dominios/universos/conceptos","/dominios/universos/fuentes","/dominios/universos/inmunologia","/dominios/universos/metodologia","/dominios/universos/parametros-rutas","/dominios/universos/presentacion","/dominios/universos/toc","/enciclopedia/","/enciclopedia/fisica-quimica-matematica","/enciclopedia/ia","/enciclopedia/lenguaje","/enciclopedia/presentacion","/enciclopedia/recorridos","/enciclopedia/toc","/evaluacion/validacion-autorizacion-modelos/","/evaluacion/validacion-autorizacion-modelos/autoridad","/evaluacion/validacion-autorizacion-modelos/comparacion","/evaluacion/validacion-autorizacion-modelos/correccion","/evaluacion/validacion-autorizacion-modelos/documentos","/evaluacion/validacion-autorizacion-modelos/edicion","/evaluacion/validacion-autorizacion-modelos/finalidad","/evaluacion/validacion-autorizacion-modelos/toc","/evaluacion/validacion-autorizacion-modelos/transporte","/indice","/licencias","/normativa/trazabilidad-y-seguimiento-ia/","/normativa/trazabilidad-y-seguimiento-ia/ciberseguridad","/normativa/trazabilidad-y-seguimiento-ia/derechos","/normativa/trazabilidad-y-seguimiento-ia/evaluacion","/normativa/trazabilidad-y-seguimiento-ia/garantias","/normativa/trazabilidad-y-seguimiento-ia/marco-normativo","/normativa/trazabilidad-y-seguimiento-ia/presentacion","/normativa/trazabilidad-y-seguimiento-ia/referencias","/normativa/trazabilidad-y-seguimiento-ia/toc","/normativa/trazabilidad-y-seguimiento-ia/trazabilidad","/normativa/trazabilidad-y-seguimiento-ia/uso-sanitario","/organizacion","/toc"]);
@@ -8,14 +8,34 @@
     v.p.startsWith('/') && !v.p.startsWith('//') && !/[\\\u0000-\u001f]/.test(v.p) &&
     typeof v.h === 'string' && v.h.length <= 180 && !/[\u0000-\u001f]/.test(v.h) &&
     typeof v.t === 'string' && v.t.length <= 140;
+  const clave = 'sv-lectura-local-v2';
+  const contextos = new WeakMap();
+  const identidad = u => normalizar(u.pathname) + u.hash;
   let pasos = [];
   try {
-    const texto = actual.searchParams.get('lectura');
+    let texto = actual.searchParams.get('lectura');
+    if (!texto) {
+      let pendiente;
+      try { pendiente = JSON.parse(sessionStorage.getItem(clave) || 'null'); } catch (_) {}
+      const referente = document.referrer ? new URL(document.referrer) : null;
+      if (pendiente && pendiente.destino === identidad(actual) &&
+          Number.isFinite(pendiente.fecha) && Date.now() - pendiente.fecha >= 0 &&
+          Date.now() - pendiente.fecha < 120000 && referente &&
+          referente.origin === actual.origin && normalizar(referente.pathname) === pendiente.origen) {
+        texto = JSON.stringify(pendiente.pasos);
+        try { sessionStorage.removeItem(clave); } catch (_) {}
+      } else if (Array.isArray(history.state?.svLectura)) {
+        texto = JSON.stringify(history.state.svLectura);
+      }
+    }
     const recibidos = texto && texto.length < 2400 ? JSON.parse(texto) : [];
     if (Array.isArray(recibidos) && recibidos.length <= 6 && recibidos.every(validar)) pasos = recibidos;
   } catch (_) { /* Un contexto inválido no altera los destinos disponibles. */ }
   const main = document.querySelector('main');
   if (!main || !rutas.has(normalizar(actual.pathname))) return;
+  // Los enlaces antiguos siguen siendo utilizables, pero no se propagan.
+  actual.searchParams.delete('lectura');
+  try { history.replaceState({...history.state, svLectura: pasos}, '', actual.href); } catch (_) {}
   const barra = document.createElement('nav');
   barra.className = 'sv-lectura';
   barra.setAttribute('aria-label', 'Orientación y regreso de lectura');
@@ -29,12 +49,12 @@
   }
   function destino(paso, anteriores) {
     const u = conIdioma(new URL(paso.p, actual.origin)); u.hash = paso.h;
-    if (anteriores.length) u.searchParams.set('lectura', JSON.stringify(anteriores));
+    u.pathname = normalizar(u.pathname);
     return u.href;
   }
   if (pasos.length) {
     const volver = enlace('← Volver a «' + pasos.at(-1).t + '»', destino(pasos.at(-1), pasos.slice(0,-1)));
-    volver.className = 'sv-regreso'; barra.append(volver);
+    volver.className = 'sv-regreso'; contextos.set(volver, pasos.slice(0,-1)); barra.append(volver);
   }
   const opciones = document.createElement('div'); opciones.className = 'sv-lectura-opciones';
   const contextoGeneral = [...pasos, {p:actual.pathname,h:actual.hash,
@@ -43,8 +63,10 @@
   for (const [nombre, ruta] of [['Biblioteca', '/'], ['Enciclopedia', '/enciclopedia/'], ['Manual para desarrolladores', 'https://github.com/juantoniolloretegea/SV-lenguaje-de-computacion/tree/main/docs/manual_svp'], ['Fuentes y versiones','/consulta.html'], ['Licencias','/licencias.html']]) {
     if (ruta.startsWith('https://github.com/')) { const a=enlace(nombre,ruta); a.target='_blank'; a.rel='noopener noreferrer'; opciones.append(a); continue; }
     const u=conIdioma(new URL(ruta, actual.origin));
-    if(normalizar(u.pathname)!==normalizar(actual.pathname)) u.searchParams.set('lectura',JSON.stringify(contextoGeneral));
-    opciones.append(enlace(nombre, u.href));
+    u.pathname = normalizar(u.pathname);
+    const acceso = enlace(nombre, u.href);
+    contextos.set(acceso, normalizar(u.pathname)!==normalizar(actual.pathname) ? contextoGeneral : pasos);
+    opciones.append(acceso);
   }
   barra.append(opciones);
   const ayuda = document.createElement('small');
@@ -86,13 +108,27 @@
     if (!siguientes.length || siguientes.at(-1).p !== paso.p || siguientes.at(-1).h !== paso.h) siguientes.push(paso);
     while(siguientes.length>6 || JSON.stringify(siguientes).length>2100) siguientes.shift();
     if (!a.closest('.sv-library-nav') && !a.closest('#mdbook-sidebar') && !a.closest('.nav-wrapper,.nav-wide-wrapper')) {
-      u.searchParams.set('lectura', JSON.stringify(siguientes));
-    } else if (pasos.length) u.searchParams.set('lectura',JSON.stringify(pasos));
+      contextos.set(a, siguientes);
+    } else contextos.set(a, pasos);
+    u.searchParams.delete('lectura');
+    u.pathname = normalizar(u.pathname);
     a.href=conIdioma(u).href;
   }
   document.querySelectorAll('a[href]').forEach(preparar);
-  document.addEventListener('click', e => preparar(e.target.closest?.('a[href]')), true);
-  document.addEventListener('auxclick', e => preparar(e.target.closest?.('a[href]')), true);
+  function seguir(e) {
+    const a = e.target.closest?.('a[href]');
+    preparar(a);
+    if (!a || !contextos.has(a) || (e.type === 'click' && e.button !== 0) ||
+        (e.type === 'auxclick' && e.button !== 1) || e.defaultPrevented) return;
+    const u = new URL(a.href, actual);
+    if (u.origin !== actual.origin || !rutas.has(normalizar(u.pathname))) return;
+    try {
+      sessionStorage.setItem(clave, JSON.stringify({destino:identidad(u),
+        origen:normalizar(actual.pathname),fecha:Date.now(),pasos:contextos.get(a)}));
+    } catch (_) { /* El bloqueo de almacenamiento nunca impide navegar. */ }
+  }
+  document.addEventListener('click', seguir, true);
+  document.addEventListener('auxclick', seguir, true);
   function mostrar() {
     let id; try { id=decodeURIComponent(location.hash.slice(1)); } catch (_) { return; }
     const objeto=id && document.getElementById(id);
